@@ -1,0 +1,425 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.1. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.1-01",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "How many protected characteristics are there under the Equality Act 2010?",
+   "options": [
+    "9",
+    "5",
+    "7",
+    "12"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Hate crime strands.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Nine"
+  },
+  {
+   "id": "1.1-02",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Which is NOT a protected characteristic?",
+   "options": [
+    "Pregnancy and maternity",
+    "Gender reassignment",
+    "Social class",
+    "Religion or belief"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It is.",
+    "It is.",
+    "Correct.",
+    "It is."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Not protected"
+  },
+  {
+   "id": "1.1-03",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "'Race' under the Equality Act includes…",
+   "options": [
+    "Only skin colour",
+    "Colour, nationality, ethnic or national origins",
+    "Only nationality",
+    "Accent only"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too narrow.",
+    "Correct.",
+    "Too narrow.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Race"
+  },
+  {
+   "id": "1.1-04",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "A force requires all candidates to be over 1.75 m tall, which disadvantages women. What is this potentially?",
+   "options": [
+    "Direct discrimination",
+    "Victimisation",
+    "Lawful positive action",
+    "Indirect discrimination – unless a proportionate means of achieving a legitimate aim"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Applies to everyone equally.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Indirect discrimination"
+  },
+  {
+   "id": "1.1-05",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Can direct discrimination be justified?",
+   "options": [
+    "Yes, always",
+    "Only for police",
+    "No – except in relation to age",
+    "Only if cheaper"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Direct – justification"
+  },
+  {
+   "id": "1.1-06",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "An officer is moved to night shifts because he gave evidence supporting a colleague's discrimination claim. Which prohibited conduct?",
+   "options": [
+    "Victimisation",
+    "Harassment",
+    "Indirect discrimination",
+    "None"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Victimisation"
+  },
+  {
+   "id": "1.1-07",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "What is harassment under s. 26 Equality Act 2010?",
+   "options": [
+    "Any rude comment",
+    "Only physical contact",
+    "Only repeated conduct",
+    "Unwanted conduct related to a protected characteristic with the purpose or effect of violating dignity or creating an intimidating, hostile, degrading, humiliating or offensive environment"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too wide.",
+    "No.",
+    "Once can be enough.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Harassment"
+  },
+  {
+   "id": "1.1-08",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "What does the Public Sector Equality Duty (s. 149) require?",
+   "options": [
+    "Equal outcomes",
+    "Due regard to eliminating discrimination, advancing equality of opportunity and fostering good relations",
+    "Quotas",
+    "Annual equality audits only"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Unlawful.",
+    "Not the duty."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · PSED"
+  },
+  {
+   "id": "1.1-09",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Two candidates are equally qualified; the force chooses the one from an under-represented group. This is…",
+   "options": [
+    "Lawful positive action (tie-break)",
+    "Unlawful positive discrimination",
+    "Direct discrimination",
+    "Victimisation"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Equally qualified = lawful.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Positive action"
+  },
+  {
+   "id": "1.1-10",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "A force reserves 30% of posts for a particular ethnic group regardless of merit. This is…",
+   "options": [
+    "Positive action",
+    "Required by PSED",
+    "Unlawful positive discrimination",
+    "Lawful occupational requirement"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Positive discrimination"
+  },
+  {
+   "id": "1.1-11",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "How is a hate crime defined for recording purposes?",
+   "options": [
+    "Only when the offender admits hostility",
+    "Any criminal offence perceived by the victim or any other person to be motivated by hostility or prejudice based on a personal characteristic",
+    "Only racist crimes",
+    "Only crimes with words used"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Five strands.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Hate crime"
+  },
+  {
+   "id": "1.1-12",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Which are the five nationally monitored hate crime strands?",
+   "options": [
+    "Age, sex, race, religion, class",
+    "Race, nationality, age, gender, disability",
+    "All nine protected characteristics",
+    "Race, religion, sexual orientation, disability, transgender identity"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Five strands"
+  },
+  {
+   "id": "1.1-13",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "What did the Macpherson Report (1999) define?",
+   "options": [
+    "Stop and search powers",
+    "Hate incidents only",
+    "Institutional racism",
+    "Positive action"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not only.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Macpherson"
+  },
+  {
+   "id": "1.1-14",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Which Article of the ECHR prohibits discrimination in the enjoyment of Convention rights?",
+   "options": [
+    "Article 14",
+    "Article 2",
+    "Article 5",
+    "Article 8"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Life.",
+    "Liberty.",
+    "Private life."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Article 14"
+  },
+  {
+   "id": "1.1-15",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "A female officer is required to carry out an intimate search of a female detainee. This is an example of…",
+   "options": [
+    "Direct discrimination",
+    "Victimisation",
+    "Indirect discrimination",
+    "An occupational requirement"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Lawful here.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Occupational requirement"
+  },
+  {
+   "id": "1.1-16",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Marriage and civil partnership is a protected characteristic only in relation to…",
+   "options": [
+    "Services",
+    "Employment",
+    "Hate crime",
+    "Housing"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Marriage"
+  },
+  {
+   "id": "1.1-17",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "A disabled officer needs voice-recognition software to do her job. Failing to provide it may be…",
+   "options": [
+    "Failure to make reasonable adjustments",
+    "Harassment",
+    "Lawful",
+    "Victimisation"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Possibly unlawful.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Reasonable adjustments"
+  },
+  {
+   "id": "1.1-18",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Which Standard of Professional Behaviour relates to fairness and not discriminating?",
+   "options": [
+    "Confidentiality",
+    "Use of force",
+    "Equality and diversity",
+    "Fitness for work"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Standards"
+  },
+  {
+   "id": "1.1-19",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Under the Code of Ethics, what should an officer do on seeing a colleague behave in a discriminatory way?",
+   "options": [
+    "Ignore it",
+    "Challenge and report it",
+    "Wait for a complaint",
+    "Post about it online"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Challenge and report"
+  },
+  {
+   "id": "1.1-20",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Procedural justice is built by…",
+   "options": [
+    "Arresting more people",
+    "Avoiding explanations",
+    "Using force early",
+    "Treating people fairly and respectfully, giving them a voice, being neutral and transparent"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Procedural justice"
+  },
+  {
+   "id": "1.1-21",
+   "chapter": "1.1",
+   "lessonId": "nie-1.1",
+   "scenario": "Does 'religion or belief' include a lack of religion?",
+   "options": [
+    "No",
+    "Only for atheists",
+    "Yes",
+    "Only in employment"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.1 · Lack of belief"
+  }
+ ]
+}

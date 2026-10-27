@@ -1,0 +1,385 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.6. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.6-01",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Under s. 28 CDA 1998, when must hostility be demonstrated for limb (a)?",
+   "options": [
+    "At the time of committing the offence, or immediately before or after",
+    "Only during the offence",
+    "Within 24 hours",
+    "Any time before trial"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Timing"
+  },
+  {
+   "id": "2.6-02",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Limb (b) requires the offence to be motivated by hostility…",
+   "options": [
+    "Wholly",
+    "Mainly",
+    "Wholly or partly",
+    "Only if admitted"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Motivation"
+  },
+  {
+   "id": "2.6-03",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "D attacks a Sikh man, wrongly believing him to be Muslim and shouting anti-Muslim abuse. Is it aggravated?",
+   "options": [
+    "No – he got it wrong",
+    "Yes – hostility based on presumed membership counts",
+    "Only racially",
+    "Only if the victim is Muslim"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Mistake irrelevant.",
+    "Correct.",
+    "Religious aggravation applies.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Presumed membership"
+  },
+  {
+   "id": "2.6-04",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "D assaults a white woman because she is married to a Black man, shouting racist abuse about him. Is it aggravated?",
+   "options": [
+    "No – she's white",
+    "Only harassment",
+    "No – hostility must be to the victim's own race",
+    "Yes – membership includes association with members of a racial group"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Association counts.",
+    "Assault fits.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Association"
+  },
+  {
+   "id": "2.6-05",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "In R v Rogers (2007), shouting 'bloody foreigners' at Spanish women was held to be…",
+   "options": [
+    "Not racial – too vague",
+    "Only public order",
+    "Racial – a group defined by being non-British is a racial group",
+    "Religious"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Aggravated.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Rogers"
+  },
+  {
+   "id": "2.6-06",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Which groups have been recognised as ethnic (racial) groups?",
+   "options": [
+    "Sikhs and Jews",
+    "Muslims",
+    "Atheists",
+    "Christians"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (Mandla).",
+    "Religious group.",
+    "Religious (lack of belief).",
+    "Religious."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Ethnic groups"
+  },
+  {
+   "id": "2.6-07",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Muslims are protected by s. 28 as a…",
+   "options": [
+    "Racial group",
+    "Ethnic group",
+    "National group",
+    "Religious group"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Religious group"
+  },
+  {
+   "id": "2.6-08",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "D assaults a taxi driver over a fare dispute but uses racist abuse during the assault. Is it aggravated?",
+   "options": [
+    "No – the motive was the fare",
+    "Yes – limb (a): hostility demonstrated at the time; motive is irrelevant",
+    "Only if the driver was upset",
+    "Only if planned"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Limb (a) doesn't need motive.",
+    "Correct.",
+    "DPP v Woods – not required.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Demonstration – motive irrelevant"
+  },
+  {
+   "id": "2.6-09",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Does it matter that the hostility was also based on another factor (e.g. the victim being a traffic warden)?",
+   "options": [
+    "No – it's immaterial that hostility is also based on other factors",
+    "Yes – it must be solely racial",
+    "Only for religious aggravation",
+    "Only for criminal damage"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Other factors"
+  },
+  {
+   "id": "2.6-10",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Which basic offences have racially or religiously aggravated forms under ss. 29–32?",
+   "options": [
+    "Robbery and burglary",
+    "Murder and manslaughter",
+    "Assaults (s. 20, s. 47, common), criminal damage, public order (ss. 4, 4A, 5) and harassment/stalking",
+    "Theft and fraud"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No – sentence uplift.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Aggravated offences"
+  },
+  {
+   "id": "2.6-11",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "What is the maximum penalty for racially aggravated criminal damage (⚠)?",
+   "options": [
+    "5 years",
+    "14 years",
+    "10 years",
+    "Life"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct ⚠.",
+    "Basic offence.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · s. 30 penalty"
+  },
+  {
+   "id": "2.6-12",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "A robbery is motivated by hostility to the victim's sexual orientation. How is this dealt with?",
+   "options": [
+    "Aggravated robbery under the CDA",
+    "It cannot be taken into account",
+    "As a public order offence",
+    "Sentence uplift under s. 66 Sentencing Act 2020"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No such offence.",
+    "It must be.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Sentence uplift"
+  },
+  {
+   "id": "2.6-13",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Which characteristics are covered by the s. 66 Sentencing Act 2020 uplift?",
+   "options": [
+    "Race and religion only",
+    "All nine protected characteristics",
+    "Race, religion, disability, sexual orientation, transgender identity",
+    "Only disability"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "No.",
+    "Correct.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · s. 66 strands"
+  },
+  {
+   "id": "2.6-14",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Following DPP v Woods, must the victim actually be upset by racist words for limb (a)?",
+   "options": [
+    "No",
+    "Yes",
+    "Only for public order",
+    "Only if a child"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Woods"
+  },
+  {
+   "id": "2.6-15",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "If the jury isn't sure about the racial aggravation, what can happen?",
+   "options": [
+    "Acquittal",
+    "Retrial automatically",
+    "Conviction anyway",
+    "Conviction of the basic offence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not necessarily.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Alternative verdict"
+  },
+  {
+   "id": "2.6-16",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "A 'religious group' includes groups defined by reference to…",
+   "options": [
+    "Religious belief only",
+    "Religious belief or lack of religious belief",
+    "Ethnic origin",
+    "Nationality"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too narrow.",
+    "Correct.",
+    "Racial.",
+    "Racial."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Religious group – definition"
+  },
+  {
+   "id": "2.6-17",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "What is the maximum penalty for racially aggravated common assault (⚠)?",
+   "options": [
+    "2 years",
+    "6 months",
+    "5 years",
+    "7 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "Basic offence.",
+    "No.",
+    "s. 47/s. 20 aggravated."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Aggravated common assault"
+  },
+  {
+   "id": "2.6-18",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "Is a racially aggravated s. 5 Public Order Act offence imprisonable (⚠)?",
+   "options": [
+    "Yes – 2 years",
+    "Yes – 6 months",
+    "No – fine only (higher level)",
+    "Life"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's s. 4/4A.",
+    "No.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Aggravated s. 5"
+  },
+  {
+   "id": "2.6-19",
+   "chapter": "2.6",
+   "lessonId": "nie-2.6",
+   "scenario": "D sprays a racist slogan on a mosque wall when nobody is around. Which limb is most likely?",
+   "options": [
+    "(a) – demonstration towards the victim",
+    "(b) – motivated by hostility towards members of a religious group",
+    "Neither",
+    "Only sentence uplift"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No victim present to demonstrate towards.",
+    "Correct.",
+    "It is aggravated.",
+    "s. 30 applies."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.6 · Limb (b)"
+  }
+ ]
+}

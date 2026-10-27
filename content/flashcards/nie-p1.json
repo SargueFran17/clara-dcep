@@ -875,6 +875,55 @@
    "front": "Code B consent",
    "back": "Written consent on Notice of Powers and Rights; told not obliged; can withdraw.",
    "es": "Consentimiento por escrito."
+  },
+  {
+   "id": "nie-1.1-01",
+   "lessonId": "nie-1.1",
+   "front": "9 protected characteristics",
+   "back": "Age, disability, gender reassignment, marriage/civil partnership, pregnancy/maternity, race, religion/belief, sex, sexual orientation.",
+   "es": "9 características."
+  },
+  {
+   "id": "nie-1.1-02",
+   "lessonId": "nie-1.1",
+   "front": "Direct vs indirect",
+   "back": "Direct: less favourable treatment because of characteristic (no justification except age). Indirect: PCP disadvantaging a group unless proportionate means of legitimate aim.",
+   "es": "Directa vs indirecta."
+  },
+  {
+   "id": "nie-1.1-03",
+   "lessonId": "nie-1.1",
+   "front": "Harassment / victimisation",
+   "back": "Harassment: unwanted conduct violating dignity. Victimisation: detriment for a protected act (complaint, evidence).",
+   "es": "Acoso / represalias."
+  },
+  {
+   "id": "nie-1.1-04",
+   "lessonId": "nie-1.1",
+   "front": "PSED (s. 149)",
+   "back": "Due regard: eliminate discrimination; advance equality of opportunity; foster good relations.",
+   "es": "Deber del sector público."
+  },
+  {
+   "id": "nie-1.1-05",
+   "lessonId": "nie-1.1",
+   "front": "Positive action",
+   "back": "Lawful (tie-break between equally qualified). Positive discrimination (quotas, less qualified) unlawful.",
+   "es": "Acción positiva."
+  },
+  {
+   "id": "nie-1.1-06",
+   "lessonId": "nie-1.1",
+   "front": "Hate crime",
+   "back": "Any offence perceived by victim or any other person as motivated by hostility/prejudice: race, religion, sexual orientation, disability, transgender identity.",
+   "es": "Delito de odio."
+  },
+  {
+   "id": "nie-1.1-07",
+   "lessonId": "nie-1.1",
+   "front": "Macpherson (1999)",
+   "back": "Institutional racism: collective failure to provide an appropriate and professional service because of colour, culture or ethnic origin.",
+   "es": "Racismo institucional."
   }
  ]
 }

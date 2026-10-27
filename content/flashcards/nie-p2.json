@@ -644,6 +644,125 @@
    "front": "s. 45 / duty to notify / NRM",
    "back": "Defence for compelled victims (not Sch. 4); police must notify Home Office; NRM reasonable/conclusive grounds.",
    "es": "Protección de víctimas."
+  },
+  {
+   "id": "nie-2.4-01",
+   "lessonId": "nie-2.4",
+   "front": "Terrorism (s. 1 TA 2000)",
+   "back": "Action (serious violence, damage, life, public safety, electronic systems) + designed to influence govt/intimidate public + political, religious, racial or ideological cause. Firearms/explosives: no need for influence.",
+   "es": "Definición de terrorismo."
+  },
+  {
+   "id": "nie-2.4-02",
+   "lessonId": "nie-2.4",
+   "front": "Proscribed orgs",
+   "back": "s. 11 membership (14 yrs); s. 12 support (incl. reckless opinion); s. 13 uniform/articles/images.",
+   "es": "Organizaciones prohibidas."
+  },
+  {
+   "id": "nie-2.4-03",
+   "lessonId": "nie-2.4",
+   "front": "s. 19 / s. 38B",
+   "back": "s. 19: disclose suspicion of terrorist property offences from employment; s. 38B: info that might prevent terrorism (anyone, 5 yrs).",
+   "es": "Deberes de revelar."
+  },
+  {
+   "id": "nie-2.4-04",
+   "lessonId": "nie-2.4",
+   "front": "s. 58 / s. 5 TA 2006",
+   "back": "Collecting/possessing/viewing info useful to terrorists; preparation of terrorist acts (life).",
+   "es": "Recopilar; preparar."
+  },
+  {
+   "id": "nie-2.4-05",
+   "lessonId": "nie-2.4",
+   "front": "Powers",
+   "back": "s. 41 arrest (detention up to 14 days ⚠); s. 43 reasonable suspicion; s. 47A ACC, 14 days, SoS 48 h; Schedule 7 ports.",
+   "es": "Poderes."
+  },
+  {
+   "id": "nie-2.4-06",
+   "lessonId": "nie-2.4",
+   "front": "Prevent / CONTEST",
+   "back": "Due regard to prevent people being drawn into terrorism; Prevent, Pursue, Protect, Prepare.",
+   "es": "Prevención."
+  },
+  {
+   "id": "nie-2.6-01",
+   "lessonId": "nie-2.6",
+   "front": "s. 28 CDA 1998",
+   "back": "(a) demonstrates hostility at the time/immediately before or after, based on (presumed) membership; or (b) motivated wholly or partly by hostility towards the group.",
+   "es": "Agravante racial/religioso."
+  },
+  {
+   "id": "nie-2.6-02",
+   "lessonId": "nie-2.6",
+   "front": "Racial group",
+   "back": "Race, colour, nationality (incl. citizenship), ethnic or national origins. Non-British = racial group (Rogers). Sikhs, Jews ethnic (Mandla).",
+   "es": "Grupo racial."
+  },
+  {
+   "id": "nie-2.6-03",
+   "lessonId": "nie-2.6",
+   "front": "Religious group",
+   "back": "Religious belief or lack of belief (e.g. Muslims, atheists).",
+   "es": "Grupo religioso."
+  },
+  {
+   "id": "nie-2.6-04",
+   "lessonId": "nie-2.6",
+   "front": "Membership",
+   "back": "Includes association with members; presumed membership counts; other factors immaterial.",
+   "es": "Asociación; presunción."
+  },
+  {
+   "id": "nie-2.6-05",
+   "lessonId": "nie-2.6",
+   "front": "Aggravated offences (ss. 29–32)",
+   "back": "Assaults (s. 20, s. 47, common), criminal damage (14 yrs), public order (ss. 4, 4A, 5), harassment/stalking.",
+   "es": "Delitos agravados."
+  },
+  {
+   "id": "nie-2.6-06",
+   "lessonId": "nie-2.6",
+   "front": "s. 66 Sentencing Act 2020",
+   "back": "Uplift for any offence: race, religion, disability, sexual orientation, transgender identity.",
+   "es": "Aumento de pena."
+  },
+  {
+   "id": "nie-2.14-01",
+   "lessonId": "nie-2.14",
+   "front": "Dangerous driving (s. 2A)",
+   "back": "Far below competent and careful driver + obvious danger (injury/serious damage); or vehicle's state. Objective.",
+   "es": "Conducción peligrosa."
+  },
+  {
+   "id": "nie-2.14-02",
+   "lessonId": "nie-2.14",
+   "front": "Careless / inconsiderate (s. 3ZA)",
+   "back": "Careless: below standard. Inconsiderate: without reasonable consideration – others inconvenienced.",
+   "es": "Descuidada / desconsiderada."
+  },
+  {
+   "id": "nie-2.14-03",
+   "lessonId": "nie-2.14",
+   "front": "Causing death/serious injury",
+   "back": "s. 1 dangerous (life ⚠); s. 1A (5); s. 2B careless death (5); s. 2C serious injury (2); s. 3A drink/drugs (life); s. 3ZB unlicensed/uninsured (2, fault – Hughes); s. 3ZC/3ZD disqualified (10/4).",
+   "es": "Causar muerte o lesiones."
+  },
+  {
+   "id": "nie-2.14-04",
+   "lessonId": "nie-2.14",
+   "front": "NIP (RTOA s. 1)",
+   "back": "Warning at time, summons or NIP to driver/keeper within 14 days; not needed after accident (s. 2).",
+   "es": "Aviso de intención de procesar."
+  },
+  {
+   "id": "nie-2.14-05",
+   "lessonId": "nie-2.14",
+   "front": "s. 170 duty",
+   "back": "Stop, give details; otherwise report ASAP and within 24 h. Animals: horse, cattle, ass, mule, sheep, pig, goat, dog.",
+   "es": "Parar y comunicar."
   }
  ]
 }
