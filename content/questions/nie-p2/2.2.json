@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.2. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.2-01",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "COLE sends a message to a stranger offering to sell him cocaine. COLE has no cocaine and never intended to get any. Which is correct?",
+   "options": [
+    "He commits an offence of offering to supply a controlled drug",
+    "No offence, because he had no drugs",
+    "He commits possession with intent to supply",
+    "He commits only fraud"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 4(3)(a) MDA 1971.",
+    "Incorrect: the offer is complete when made.",
+    "He has no possession.",
+    "An offer to supply is also committed."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Offer to supply"
+  },
+  {
+   "id": "2.2-02",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "BELL offers to supply 'ecstasy' to an undercover officer and hands over tablets that turn out to contain no controlled drug. Which is correct?",
+   "options": [
+    "No offence because the tablets were fake",
+    "Only theft",
+    "The offer to supply a controlled drug is still committed",
+    "Only possession"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct: the offence is the offer.",
+    "No possession of a controlled drug."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Offer to supply – fake drugs"
+  },
+  {
+   "id": "2.2-03",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "At a party, AMY passes a cannabis joint she bought to her friend, who smokes some and passes it back. No money changes hands. Which is correct?",
+   "options": [
+    "There can be no supply without payment",
+    "Passing the joint to her friend can amount to supply",
+    "Only the friend commits an offence",
+    "Only possession can be charged"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Payment is not required.",
+    "Correct.",
+    "Incorrect.",
+    "Supply may be charged."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Supply – no payment needed"
+  },
+  {
+   "id": "2.2-04",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "DEAN agrees to drive a dealer to deliveries and acts as a lookout, but never touches the drugs. Which offence is most appropriate?",
+   "options": [
+    "No offence",
+    "Possession",
+    "s. 8 premises offence",
+    "Being concerned in the supply of a controlled drug by another (s. 4(3)(b))"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "He never had possession.",
+    "No premises.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Being concerned in supply"
+  },
+  {
+   "id": "2.2-05",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "To prove possession of a controlled drug, what must the prosecution generally show about the defendant's knowledge?",
+   "options": [
+    "That he knew the exact drug",
+    "Nothing at all",
+    "That he knew he had the thing (e.g. the package), subject to the s. 28 defence",
+    "That he intended to use it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not required.",
+    "Some knowledge is needed.",
+    "Correct: Warner v MPC.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Possession – knowledge"
+  },
+  {
+   "id": "2.2-06",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A forensic test finds only microscopic traces of cocaine on a banknote, not visible or measurable. Is possession likely proved?",
+   "options": [
+    "No – the quantity must be enough to amount to something (visible, tangible, measurable)",
+    "Yes, any amount is enough",
+    "Yes, if the note was in his wallet",
+    "Only for Class A drugs"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Boyesen (1982).",
+    "Incorrect.",
+    "Not enough.",
+    "Applies to all drugs."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Possession – quantity"
+  },
+  {
+   "id": "2.2-07",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Which of the following is evidence often used to show possession with intent to supply?",
+   "options": [
+    "A single small amount for personal use",
+    "A prescription",
+    "Rolling papers only",
+    "Scales, deal bags, large amounts of cash and messages arranging sales"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Suggests personal use.",
+    "Lawful possession.",
+    "Weak evidence alone.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Intent to supply – evidence"
+  },
+  {
+   "id": "2.2-08",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A landlord knows his tenants regularly inject heroin in his flat. He does nothing. Has he committed an offence under s. 8 MDA 1971?",
+   "options": [
+    "Yes, s. 8 covers all drug use on premises",
+    "No – s. 8 covers smoking cannabis/opium, production and supply, not injecting heroin",
+    "Yes, as long as he is the owner",
+    "Only if he supplied the needles"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Not s. 8."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 8 – premises"
+  },
+  {
+   "id": "2.2-09",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "The same landlord knows his tenants are selling cocaine from the flat and lets it continue. Which is correct?",
+   "options": [
+    "He may commit an offence under s. 8(b) – knowingly permitting supply on premises",
+    "No offence",
+    "Only the tenants commit offences",
+    "He commits possession"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "He may also be liable.",
+    "Not necessarily."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 8(b)"
+  },
+  {
+   "id": "2.2-10",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Which activity is covered by s. 8(d) MDA 1971?",
+   "options": [
+    "Injecting heroin",
+    "Snorting cocaine",
+    "Smoking cannabis, cannabis resin or prepared opium",
+    "Taking ecstasy"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not covered.",
+    "Not covered.",
+    "Correct.",
+    "Not covered."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 8(d)"
+  },
+  {
+   "id": "2.2-11",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A university student allows friends to smoke cannabis in his hall of residence room. Can he be an 'occupier'?",
+   "options": [
+    "No, only owners are occupiers",
+    "Yes, a person with sufficient control of the premises can be an occupier",
+    "Only the university",
+    "Only if he pays rent monthly"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: R v Tao (1977).",
+    "Not only.",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 8 – occupier"
+  },
+  {
+   "id": "2.2-12",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A mother finds cannabis in her son's bedroom and immediately flushes it down the toilet to stop him using it. Which defence may apply to possession?",
+   "options": [
+    "None",
+    "s. 8",
+    "Self-defence",
+    "s. 5(4)(a) – taking possession to prevent another committing an offence and destroying it as soon as possible"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not a defence.",
+    "Not relevant.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 5(4) defence"
+  },
+  {
+   "id": "2.2-13",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A man finds a bag of tablets in the street and keeps them for a week 'meaning to hand them in'. Is the s. 5(4)(b) defence likely to succeed?",
+   "options": [
+    "Yes, any intention to hand in is enough",
+    "Yes, if they were Class C",
+    "Unlikely – he must take all reasonable steps to deliver them into lawful custody as soon as possible",
+    "Yes, if he is of good character"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not enough.",
+    "Class is irrelevant.",
+    "Correct.",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 5(4)(b)"
+  },
+  {
+   "id": "2.2-14",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A defendant says he believed the powder was cocaine, but it was heroin. Can he rely on s. 28 MDA?",
+   "options": [
+    "No – believing it was a different controlled drug is no defence",
+    "Yes",
+    "Only if he is a first-time offender",
+    "Only for Class C"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 28(3).",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 28 – mistaken drug"
+  },
+  {
+   "id": "2.2-15",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Which of the following best describes the s. 28 defence about the substance?",
+   "options": [
+    "He didn't know the price",
+    "He didn't intend to use it",
+    "He was not the owner",
+    "He neither knew nor suspected nor had reason to suspect it was a controlled drug"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Irrelevant.",
+    "Not the test.",
+    "Not the test.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 28"
+  },
+  {
+   "id": "2.2-16",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Under s. 23(2) MDA 1971, what threshold allows a constable to search a person for drugs?",
+   "options": [
+    "Reasonable grounds to believe",
+    "Reasonable grounds to suspect the person is in possession of a controlled drug",
+    "Knowledge",
+    "A warrant"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too high.",
+    "Correct.",
+    "Too high.",
+    "Not needed for persons."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 23 – search powers"
+  },
+  {
+   "id": "2.2-17",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Who can issue a search warrant for premises under s. 23(3) MDA 1971?",
+   "options": [
+    "A justice of the peace",
+    "A superintendent",
+    "The CPS",
+    "A custody sergeant"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 23(3) warrants"
+  },
+  {
+   "id": "2.2-18",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A man pushes an officer away to stop her searching him under s. 23. Which offence (among others) may apply?",
+   "options": [
+    "Possession with intent",
+    "s. 8",
+    "Intentional obstruction under s. 23(4) MDA",
+    "No offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not on these facts.",
+    "No.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 23(4) obstruction"
+  },
+  {
+   "id": "2.2-19",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "FRANK grows cannabis plants under lamps in his loft. Which offence is most specific?",
+   "options": [
+    "s. 5(2) possession",
+    "s. 6 cultivation of cannabis",
+    "s. 8(d)",
+    "s. 23"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Possible but less specific.",
+    "Correct.",
+    "Smoking on premises.",
+    "Powers."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 6 cultivation"
+  },
+  {
+   "id": "2.2-20",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Converting cocaine powder into crack cocaine is an example of…",
+   "options": [
+    "supply",
+    "possession only",
+    "cultivation",
+    "production"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not necessarily.",
+    "Also production.",
+    "Plants only.",
+    "Correct: s. 4(2)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Production – s. 4(2)"
+  },
+  {
+   "id": "2.2-21",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A man leaves a bag of drugs with a friend; later the friend returns the bag to him. Can returning it amount to supply?",
+   "options": [
+    "No, returning property is never supply",
+    "Only if paid",
+    "Yes – R v Maginnis (1987)",
+    "Only if Class A"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Payment not required.",
+    "Correct.",
+    "Class irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Supply – Maginnis"
+  },
+  {
+   "id": "2.2-22",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Which class is cannabis under the MDA 1971 (⚠ check edition)?",
+   "options": [
+    "Class B",
+    "Class A",
+    "Class C",
+    "Not controlled"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Classes"
+  },
+  {
+   "id": "2.2-23",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Which class is heroin?",
+   "options": [
+    "Class B",
+    "Class C",
+    "Temporary class",
+    "Class A"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Classes"
+  },
+  {
+   "id": "2.2-24",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Amphetamine prepared for injection is…",
+   "options": [
+    "Class C",
+    "Class A",
+    "Class B",
+    "Not controlled"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Ordinary amphetamine.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Classes – amphetamine"
+  },
+  {
+   "id": "2.2-25",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Possession of a controlled drug includes having it in the custody of another person when…",
+   "options": [
+    "it is under your control (s. 37(3))",
+    "never",
+    "only if you own it",
+    "only at home"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Ownership is not required.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Possession – control"
+  },
+  {
+   "id": "2.2-26",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Which law deals with 'legal highs' that are not controlled drugs?",
+   "options": [
+    "Misuse of Drugs Act 1971 only",
+    "Theft Act 1968",
+    "Psychoactive Substances Act 2016",
+    "Licensing Act 2003"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not if uncontrolled.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Psychoactive substances"
+  },
+  {
+   "id": "2.2-27",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Someone takes orders by phone for a dealer, but never handles drugs or money. Which is correct?",
+   "options": [
+    "No offence",
+    "He may be concerned in the supply or in the making of an offer to supply by another",
+    "Only conspiracy",
+    "Only possession"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: s. 4(3)(b)/(c).",
+    "Possible, but s. 4(3) applies directly.",
+    "No possession."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Being concerned"
+  },
+  {
+   "id": "2.2-28",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Under s. 8, the occupier must ___ permit or suffer the activity.",
+   "options": [
+    "negligently",
+    "accidentally",
+    "recklessly only",
+    "knowingly"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not enough.",
+    "No.",
+    "Knowledge is required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 8 – mental element"
+  },
+  {
+   "id": "2.2-29",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "A searched person is found with a small amount of cannabis for personal use. Which offence?",
+   "options": [
+    "s. 4(3)",
+    "s. 5(3)",
+    "s. 5(2) possession",
+    "s. 6"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No supply.",
+    "No intent to supply.",
+    "Correct.",
+    "No cultivation."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · Possession"
+  },
+  {
+   "id": "2.2-30",
+   "chapter": "2.2",
+   "lessonId": "nie-2.2",
+   "scenario": "Searches under s. 23 MDA must be conducted in accordance with…",
+   "options": [
+    "PACE Code A",
+    "PACE Code D",
+    "PACE Code E",
+    "No code"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Identification.",
+    "Audio recording.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.2 · s. 23 and Code A"
+  }
+ ]
+}

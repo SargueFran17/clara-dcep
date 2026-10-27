@@ -112,6 +112,97 @@
    "front": "Non-fatal strangulation",
    "back": "SCA 2015 s. 75A – no injury needed",
    "es": "estrangulamiento"
+  },
+  {
+   "id": "nie-2.2-01",
+   "lessonId": "nie-2.2",
+   "front": "Class A examples",
+   "back": "heroin, cocaine/crack, MDMA, LSD, methadone, methamphetamine, magic mushrooms",
+   "es": "clase A"
+  },
+  {
+   "id": "nie-2.2-02",
+   "lessonId": "nie-2.2",
+   "front": "Class B examples (⚠)",
+   "back": "cannabis, amphetamine, ketamine, codeine, mephedrone, synthetic cannabinoids",
+   "es": "clase B"
+  },
+  {
+   "id": "nie-2.2-03",
+   "lessonId": "nie-2.2",
+   "front": "Class C examples",
+   "back": "benzodiazepines, GHB/GBL, anabolic steroids, khat",
+   "es": "clase C"
+  },
+  {
+   "id": "nie-2.2-04",
+   "lessonId": "nie-2.2",
+   "front": "Possession – Warner v MPC",
+   "back": "Must know you have the thing (package); s. 28 deals with knowledge of the drug",
+   "es": "posesión"
+  },
+  {
+   "id": "nie-2.2-05",
+   "lessonId": "nie-2.2",
+   "front": "R v Boyesen (1982)",
+   "back": "Quantity must be visible, tangible, measurable",
+   "es": "cantidad"
+  },
+  {
+   "id": "nie-2.2-06",
+   "lessonId": "nie-2.2",
+   "front": "s. 4(3) MDA",
+   "back": "Supply/offer; being concerned in supply by another; being concerned in making an offer",
+   "es": "suministro"
+  },
+  {
+   "id": "nie-2.2-07",
+   "lessonId": "nie-2.2",
+   "front": "Offer to supply",
+   "back": "Complete when made – even without drugs or with fake drugs",
+   "es": "oferta"
+  },
+  {
+   "id": "nie-2.2-08",
+   "lessonId": "nie-2.2",
+   "front": "s. 5(3)",
+   "back": "Possession with intent to supply",
+   "es": "posesión con intención"
+  },
+  {
+   "id": "nie-2.2-09",
+   "lessonId": "nie-2.2",
+   "front": "s. 6",
+   "back": "Cultivation of cannabis",
+   "es": "cultivo"
+  },
+  {
+   "id": "nie-2.2-10",
+   "lessonId": "nie-2.2",
+   "front": "s. 8",
+   "back": "Occupier/manager knowingly permits: produce, supply, prepare opium, SMOKE cannabis/opium",
+   "es": "locales"
+  },
+  {
+   "id": "nie-2.2-11",
+   "lessonId": "nie-2.2",
+   "front": "s. 5(4) defence",
+   "back": "Took possession to prevent offence → destroy/deliver ASAP; or to deliver to lawful custody",
+   "es": "defensa s. 5(4)"
+  },
+  {
+   "id": "nie-2.2-12",
+   "lessonId": "nie-2.2",
+   "front": "s. 28 defence",
+   "back": "Didn't know/suspect/have reason to suspect it was a controlled drug; mistaken drug type is no defence",
+   "es": "defensa s. 28"
+  },
+  {
+   "id": "nie-2.2-13",
+   "lessonId": "nie-2.2",
+   "front": "s. 23(2) MDA",
+   "back": "Reasonable grounds to suspect possession → search/detain person, search vehicle, seize",
+   "es": "registro"
   }
  ]
 }
