@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import { useSettings } from '../lib/hooks'
 import { saveSettings } from '../lib/actions'
 import { exportBackup, importBackup, resetAll } from '../lib/backup'
+import { BUILD, checkForUpdate } from '../lib/pwa'
 import { todayISO } from '../lib/dates'
 import { DEFAULT_SETTINGS } from '../lib/defaults'
 import { Button, Card, PageHeader } from '../components/ui'
@@ -148,6 +149,14 @@ export function Settings() {
             <input type="range" min={50} max={100} step={5} value={s.streakThreshold * 100} onChange={(e) => saveSettings({ streakThreshold: +e.target.value / 100 })} className="w-full" />
           </label>
         </div>
+      </Card>
+
+      <Card>
+        <h2 className="mb-1 font-semibold">Versión de la app</h2>
+        <p className="mb-3 text-xs text-slate-500">
+          Versión del {BUILD}. La app busca actualizaciones sola al abrirla; si no ves lo último, pulsa el botón (tus datos no se borran).
+        </p>
+        <Button onClick={() => checkForUpdate()}>🔄 Actualizar ahora</Button>
       </Card>
 
       <Card>

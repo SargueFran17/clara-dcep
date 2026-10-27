@@ -7,11 +7,14 @@ import { VitePWA } from 'vite-plugin-pwa'
 // base relativa: funciona igual en Netlify, Vercel o GitHub Pages (/clara-dcep/)
 export default defineConfig({
   base: './',
+  // versión visible en Ajustes (hora de Londres al compilar)
+  define: { __BUILD__: JSON.stringify(new Date().toLocaleString('en-GB', { timeZone: 'Europe/London', dateStyle: 'short', timeStyle: 'short' })) },
   plugins: [
     react(),
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
+      injectRegister: false,
       includeAssets: ['favicon.svg'],
       manifest: {
         name: 'Clara · Hampshire DCEP',
@@ -29,7 +32,13 @@ export default defineConfig({
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
-      workbox: { globPatterns: ['**/*.{js,css,html,svg,png,woff2}'], maximumFileSizeToCacheInBytes: 5_000_000 },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        maximumFileSizeToCacheInBytes: 5_000_000,
+        clientsClaim: true,
+        skipWaiting: true,
+        cleanupOutdatedCaches: true,
+      },
     }),
   ],
   test: { environment: 'node' },
