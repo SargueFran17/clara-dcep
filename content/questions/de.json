@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'de' (preguntas originales).",
+ "questions": [
+  {
+   "id": "de-1-q1",
+   "lessonId": "de-1",
+   "scenario": "How should height usually be given in a UK police description?",
+   "options": [
+    "In feet and inches",
+    "In centimetres",
+    "In metres",
+    "As 'tall' or 'short' only"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "UK police normally use imperial.",
+    "Not usual.",
+    "Too vague."
+   ]
+  },
+  {
+   "id": "de-1-q2",
+   "lessonId": "de-1",
+   "scenario": "Which word is neutral and factual?",
+   "options": [
+    "fat",
+    "skinny",
+    "heavy build",
+    "ugly"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Offensive/subjective.",
+    "Subjective.",
+    "Correct.",
+    "Opinion."
+   ]
+  },
+  {
+   "id": "de-1-q3",
+   "lessonId": "de-1",
+   "scenario": "Correct English for 'tenía unos 30 años':",
+   "options": [
+    "He had about 30 years.",
+    "He was aged about 30.",
+    "He had 30 years old.",
+    "He was 30 years."
+   ],
+   "correct": 1,
+   "explanations": [
+    "Spanish structure.",
+    "Correct.",
+    "Incorrect.",
+    "Incomplete."
+   ]
+  },
+  {
+   "id": "de-1-q4",
+   "lessonId": "de-1",
+   "scenario": "Roughly, 180 cm is…",
+   "options": [
+    "5 ft 5 in",
+    "6 ft 4 in",
+    "5 ft 1 in",
+    "5 ft 11 in"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too short (≈165 cm).",
+    "Too tall (≈193 cm).",
+    "Too short.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "de-1-q5",
+   "lessonId": "de-1",
+   "scenario": "What should come FIRST in a description over the radio?",
+   "options": [
+    "Clothing",
+    "Tattoos",
+    "Sex and approximate age",
+    "Direction of travel"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Comes later.",
+    "Comes later.",
+    "Correct.",
+    "Usually at the end."
+   ]
+  },
+  {
+   "id": "de-2-q1",
+   "lessonId": "de-2",
+   "scenario": "A British colleague hears 'black pants'. They think of…",
+   "options": [
+    "underwear",
+    "trousers",
+    "shorts",
+    "leggings"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: in the UK pants = underwear.",
+    "That's American English.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "de-2-q2",
+   "lessonId": "de-2",
+   "scenario": "The British word for 'zapatillas deportivas' is…",
+   "options": [
+    "sneakers",
+    "slippers",
+    "trainers",
+    "boots"
+   ],
+   "correct": 2,
+   "explanations": [
+    "American English.",
+    "Zapatillas de casa.",
+    "Correct.",
+    "Botas."
+   ]
+  },
+  {
+   "id": "de-2-q3",
+   "lessonId": "de-2",
+   "scenario": "Which description of a tattoo is best?",
+   "options": [
+    "A tattoo on the arm",
+    "A black spider-web tattoo on the outside of his right elbow",
+    "A big tattoo",
+    "Some tattoos"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too vague.",
+    "Correct: what, colour, exact place, side.",
+    "Too vague.",
+    "Too vague."
+   ]
+  },
+  {
+   "id": "de-2-q4",
+   "lessonId": "de-2",
+   "scenario": "Order for each clothing item:",
+   "options": [
+    "brand → colour → item",
+    "condition → colour",
+    "Any order",
+    "colour → pattern → logo/brand → condition"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Less clear.",
+    "Incomplete.",
+    "A consistent order helps.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "de-2-q5",
+   "lessonId": "de-2",
+   "scenario": "Correct UK spelling in a report:",
+   "options": [
+    "gray jacket",
+    "graye jacket",
+    "grey jacket",
+    "greigh jacket"
+   ],
+   "correct": 2,
+   "explanations": [
+    "American spelling.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
+  }
+ ]
+}

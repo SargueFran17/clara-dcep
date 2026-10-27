@@ -1,0 +1,68 @@
+{
+ "_comment": "Flashcards de la asignatura 'ft-nut'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "ft-1-01",
+   "lessonId": "ft-1",
+   "front": "NHS safe rate of weight loss",
+   "back": "About 0.5–1 kg (1–2 lb) a week",
+   "es": "0,5–1 kg por semana"
+  },
+  {
+   "id": "ft-1-03",
+   "lessonId": "ft-1",
+   "front": "Adult activity guideline",
+   "back": "150 min moderate activity/week + strength 2+ days",
+   "es": "150 min + fuerza"
+  },
+  {
+   "id": "ft-1-05",
+   "lessonId": "ft-1",
+   "front": "Before big diet/training changes",
+   "back": "Talk to your GP",
+   "es": "consulta al GP"
+  },
+  {
+   "id": "ft-1-07",
+   "lessonId": "ft-1",
+   "front": "How often to weigh yourself",
+   "back": "Once a week, same day/time/conditions",
+   "es": "una vez por semana"
+  },
+  {
+   "id": "ft-3-05",
+   "lessonId": "ft-3",
+   "front": "Eatwell: fruit & veg",
+   "back": "About a third; at least 5 a day",
+   "es": "un tercio; 5 al día"
+  },
+  {
+   "id": "ft-3-07",
+   "lessonId": "ft-3",
+   "front": "Eatwell: starchy foods",
+   "back": "About a third; wholegrain where possible",
+   "es": "un tercio; integrales"
+  },
+  {
+   "id": "ft-3-09",
+   "lessonId": "ft-3",
+   "front": "Fish per week",
+   "back": "2 portions, 1 oily",
+   "es": "2 raciones, 1 azul"
+  },
+  {
+   "id": "ft-3-11",
+   "lessonId": "ft-3",
+   "front": "Fluids per day",
+   "back": "6–8 glasses",
+   "es": "6–8 vasos"
+  },
+  {
+   "id": "ft-3-13",
+   "lessonId": "ft-3",
+   "front": "Plate method",
+   "back": "½ veg · ¼ protein · ¼ wholegrain carbs",
+   "es": "plato"
+  }
+ ]
+}

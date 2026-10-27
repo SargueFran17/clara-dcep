@@ -1,0 +1,82 @@
+{
+ "_comment": "Flashcards de la asignatura 'gr'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "gr-1-01",
+   "lessonId": "gr-1",
+   "front": "AT + ?",
+   "back": "exact times and points: at 14:30, at night, at the weekend",
+   "es": "horas y momentos"
+  },
+  {
+   "id": "gr-1-03",
+   "lessonId": "gr-1",
+   "front": "ON + ?",
+   "back": "days and dates: on Monday, on 3 March, on Monday morning",
+   "es": "días y fechas"
+  },
+  {
+   "id": "gr-1-05",
+   "lessonId": "gr-1",
+   "front": "IN + ?",
+   "back": "months, years, seasons, parts of day: in March, in 2026, in the morning",
+   "es": "periodos largos"
+  },
+  {
+   "id": "gr-1-07",
+   "lessonId": "gr-1",
+   "front": "last / next / this / every",
+   "back": "no preposition: last Monday (not 'on last Monday')",
+   "es": "sin preposición"
+  },
+  {
+   "id": "gr-1-09",
+   "lessonId": "gr-1",
+   "front": "in time vs on time",
+   "back": "in time = early enough; on time = punctual",
+   "es": "con tiempo vs puntual"
+  },
+  {
+   "id": "gr-1-11",
+   "lessonId": "gr-1",
+   "front": "within / by / until",
+   "back": "within = no later than (period); by = not later than (point); until = continuing up to",
+   "es": "dentro de / como tarde / hasta"
+  },
+  {
+   "id": "gr-2-07",
+   "lessonId": "gr-2",
+   "front": "at / on / in + address",
+   "back": "at 12 Elm Road (number) · on Elm Road (no number) · in Southsea (area)",
+   "es": "dirección con y sin número"
+  },
+  {
+   "id": "gr-2-09",
+   "lessonId": "gr-2",
+   "front": "car vs bus",
+   "back": "IN a car/taxi/van · ON a bus/train/bike",
+   "es": "en coche vs en autobús"
+  },
+  {
+   "id": "gr-2-11",
+   "lessonId": "gr-2",
+   "front": "junction",
+   "back": "at the junction OF X AND Y",
+   "es": "en el cruce de X y Y"
+  },
+  {
+   "id": "gr-2-13",
+   "lessonId": "gr-2",
+   "front": "first floor (UK)",
+   "back": "the floor above the ground floor = primera planta; ground floor = planta baja",
+   "es": "planta"
+  },
+  {
+   "id": "gr-2-15",
+   "lessonId": "gr-2",
+   "front": "get into / get on",
+   "back": "get into/out of a car; get on/off a bus",
+   "es": "subir/bajar"
+  }
+ ]
+}

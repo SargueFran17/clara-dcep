@@ -1,95 +1,185 @@
 {
-  "_comment": "Preguntas originales sobre el formato del NIE (asignatura 'ni').",
-  "questions": [
-    {
-      "id": "ni-1-q1",
-      "lessonId": "ni-1",
-      "scenario": "DC Lewis is planning her NIE revision. She asks how many questions she must answer correctly to pass, given that only some of the 80 questions are scored.",
-      "options": [
-        "39 out of 70 scored questions",
-        "45 out of 80 questions",
-        "40 out of 70 scored questions",
-        "56 out of 100 questions"
-      ],
-      "correct": 0,
-      "explanations": [
-        "Correct: the pass mark is 55.7 %, which is 39 of the 70 scored questions.",
-        "Wrong: only 70 questions are scored, not all 80.",
-        "Wrong: 40/70 would be 57.1 %; the pass mark is 39/70 (55.7 %).",
-        "Wrong: the exam has 80 questions, not 100."
-      ]
-    },
-    {
-      "id": "ni-1-q2",
-      "lessonId": "ni-1",
-      "scenario": "A trainee finds a great explanation of a point of law in an online article that disagrees with the current Blackstone's Manual. Which source will the NIE question follow?",
-      "options": [
-        "The online article if it is more recent",
-        "Blackstone's Police Investigators' Manual for the exam year",
-        "Whichever source the trainee's tutor prefers",
-        "The College of Policing website"
-      ],
-      "correct": 1,
-      "explanations": [
-        "Wrong: questions are not based on outside sources, however recent.",
-        "Correct: NIE questions come only from the Blackstone's Manual for the exam year.",
-        "Wrong: the exam does not depend on a tutor's preference.",
-        "Wrong: useful for learning, but exam questions come only from the Manual."
-      ]
-    },
-    {
-      "id": "ni-1-q3",
-      "lessonId": "ni-1",
-      "scenario": "During the NIE, a candidate is stuck on question 12 after 4 minutes. With 80 questions in 120 minutes, what is the best strategy?",
-      "options": [
-        "Keep working on it until it is solved",
-        "Leave the exam early",
-        "Choose the best answer, flag it and move on",
-        "Skip it and never return"
-      ],
-      "correct": 2,
-      "explanations": [
-        "Wrong: the average is 90 seconds per question; spending 4+ minutes costs easier marks later.",
-        "Wrong: there is no benefit in leaving early.",
-        "Correct: answer, flag it for review and keep moving; come back if time allows.",
-        "Wrong: always give an answer — a blank scores nothing."
-      ]
-    },
-    {
-      "id": "ni-1-q4",
-      "lessonId": "ni-1",
-      "scenario": "A candidate decides not to bother with 10 'hard-looking' questions, believing they are the unscored ones. Is this a good idea?",
-      "options": [
-        "Yes, the hardest questions are always the unscored ones",
-        "No: you cannot know which 10 questions are unscored",
-        "Yes, as long as the other 70 are correct",
-        "No, because all 80 questions are scored"
-      ],
-      "correct": 1,
-      "explanations": [
-        "Wrong: nothing tells you which questions are unscored.",
-        "Correct: treat every question as if it counts.",
-        "Wrong: you cannot identify the unscored ones, so you risk losing real marks.",
-        "Wrong: only 70 are scored — but you still can't tell which."
-      ]
-    },
-    {
-      "id": "ni-1-q5",
-      "lessonId": "ni-1",
-      "scenario": "Clara wants to use an AI chatbot on her phone to check an answer during the NIE. What is the position?",
-      "options": [
-        "Allowed for checking spelling only",
-        "Allowed if the invigilator agrees",
-        "Prohibited",
-        "Allowed for questions on Part 4 only"
-      ],
-      "correct": 2,
-      "explanations": [
-        "Wrong: no AI use is permitted.",
-        "Wrong: AI use during the exam is prohibited.",
-        "Correct: using AI during the NIE is prohibited.",
-        "Wrong: the ban applies to the whole exam."
-      ]
-    }
-  ]
+ "_comment": "Mini-tests de la asignatura 'ni' (preguntas originales).",
+ "questions": [
+  {
+   "id": "ni-1-q1",
+   "lessonId": "ni-1",
+   "scenario": "DC Lewis is planning her NIE revision. She asks how many questions she must answer correctly to pass, given that only some of the 80 questions are scored.",
+   "options": [
+    "39 out of 70 scored questions",
+    "45 out of 80 questions",
+    "40 out of 70 scored questions",
+    "56 out of 100 questions"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: the pass mark is 55.7 %, which is 39 of the 70 scored questions.",
+    "Wrong: only 70 questions are scored, not all 80.",
+    "Wrong: 40/70 would be 57.1 %; the pass mark is 39/70 (55.7 %).",
+    "Wrong: the exam has 80 questions, not 100."
+   ]
+  },
+  {
+   "id": "ni-1-q2",
+   "lessonId": "ni-1",
+   "scenario": "A trainee finds a great explanation of a point of law in an online article that disagrees with the current Blackstone's Manual. Which source will the NIE question follow?",
+   "options": [
+    "The online article if it is more recent",
+    "Blackstone's Police Investigators' Manual for the exam year",
+    "Whichever source the trainee's tutor prefers",
+    "The College of Policing website"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Wrong: questions are not based on outside sources, however recent.",
+    "Correct: NIE questions come only from the Blackstone's Manual for the exam year.",
+    "Wrong: the exam does not depend on a tutor's preference.",
+    "Wrong: useful for learning, but exam questions come only from the Manual."
+   ]
+  },
+  {
+   "id": "ni-1-q3",
+   "lessonId": "ni-1",
+   "scenario": "During the NIE, a candidate is stuck on question 12 after 4 minutes. With 80 questions in 120 minutes, what is the best strategy?",
+   "options": [
+    "Keep working on it until it is solved",
+    "Leave the exam early",
+    "Choose the best answer, flag it and move on",
+    "Skip it and never return"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Wrong: the average is 90 seconds per question; spending 4+ minutes costs easier marks later.",
+    "Wrong: there is no benefit in leaving early.",
+    "Correct: answer, flag it for review and keep moving; come back if time allows.",
+    "Wrong: always give an answer — a blank scores nothing."
+   ]
+  },
+  {
+   "id": "ni-1-q4",
+   "lessonId": "ni-1",
+   "scenario": "A candidate decides not to bother with 10 'hard-looking' questions, believing they are the unscored ones. Is this a good idea?",
+   "options": [
+    "Yes, the hardest questions are always the unscored ones",
+    "No: you cannot know which 10 questions are unscored",
+    "Yes, as long as the other 70 are correct",
+    "No, because all 80 questions are scored"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Wrong: nothing tells you which questions are unscored.",
+    "Correct: treat every question as if it counts.",
+    "Wrong: you cannot identify the unscored ones, so you risk losing real marks.",
+    "Wrong: only 70 are scored — but you still can't tell which."
+   ]
+  },
+  {
+   "id": "ni-1-q5",
+   "lessonId": "ni-1",
+   "scenario": "Clara wants to use an AI chatbot on her phone to check an answer during the NIE. What is the position?",
+   "options": [
+    "Allowed for checking spelling only",
+    "Allowed if the invigilator agrees",
+    "Prohibited",
+    "Allowed for questions on Part 4 only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Wrong: no AI use is permitted.",
+    "Wrong: AI use during the exam is prohibited.",
+    "Correct: using AI during the NIE is prohibited.",
+    "Wrong: the ban applies to the whole exam."
+   ]
+  },
+  {
+   "id": "ni-2-q1",
+   "lessonId": "ni-2",
+   "scenario": "What happens when you tick step 10 of a chapter?",
+   "options": [
+    "The chapter becomes 'Studied' and spaced reviews start",
+    "Nothing",
+    "The chapter is deleted",
+    "A mock exam starts"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ni-2-q2",
+   "lessonId": "ni-2",
+   "scenario": "Which step uses the microphone?",
+   "options": [
+    "Step 1",
+    "Step 5",
+    "Step 9 – explain it out loud",
+    "Step 10"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "Step 10 is writing."
+   ]
+  },
+  {
+   "id": "ni-2-q3",
+   "lessonId": "ni-2",
+   "scenario": "Which is NOT one of the five things to look for in a chapter?",
+   "options": [
+    "Definitions",
+    "The author's biography",
+    "Numbers (ages, time limits)",
+    "Exceptions and defences"
+   ],
+   "correct": 1,
+   "explanations": [
+    "It is.",
+    "Correct.",
+    "It is.",
+    "It is."
+   ]
+  },
+  {
+   "id": "ni-2-q4",
+   "lessonId": "ni-2",
+   "scenario": "Which threshold is highest?",
+   "options": [
+    "suspect",
+    "believe",
+    "think it possible",
+    "know"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Lowest of these.",
+    "Middle.",
+    "Lower.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ni-2-q5",
+   "lessonId": "ni-2",
+   "scenario": "Why do step 1 (3 questions without reading)?",
+   "options": [
+    "To waste time",
+    "Because the exam asks those questions",
+    "Pre-testing makes your brain look for the answers while reading",
+    "It's optional"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not necessarily.",
+    "Correct.",
+    "It's part of your method."
+   ]
+  }
+ ]
 }

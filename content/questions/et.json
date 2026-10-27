@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'et' (preguntas originales).",
+ "questions": [
+  {
+   "id": "et-1-q1",
+   "lessonId": "et-1",
+   "scenario": "A caller doesn't give their name or gender. In the log you write:",
+   "options": [
+    "The caller stated they had seen…",
+    "The caller stated he had seen…",
+    "The caller stated it had seen…",
+    "The caller stated she had seen…"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: singular 'they'.",
+    "Assumes gender.",
+    "'It' is not used for people.",
+    "Assumes gender."
+   ]
+  },
+  {
+   "id": "et-1-q2",
+   "lessonId": "et-1",
+   "scenario": "Which sentence is grammatically correct?",
+   "options": [
+    "They is the victim.",
+    "They am the victim.",
+    "They are the victim.",
+    "They be the victim."
+   ],
+   "correct": 2,
+   "explanations": [
+    "Singular they takes a plural verb.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "et-1-q3",
+   "lessonId": "et-1",
+   "scenario": "Which title does NOT indicate gender?",
+   "options": [
+    "Mrs",
+    "Mx",
+    "Miss",
+    "Mr"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Female title.",
+    "Correct.",
+    "Female title.",
+    "Male title."
+   ]
+  },
+  {
+   "id": "et-1-q4",
+   "lessonId": "et-1",
+   "scenario": "You call a witness by the wrong pronoun. Best response?",
+   "options": [
+    "Ignore it",
+    "Apologise at length",
+    "Ask a colleague to take over",
+    "Briefly apologise, correct yourself and continue"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It's respectful to correct it.",
+    "A long apology can make it awkward.",
+    "Not necessary.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "et-1-q5",
+   "lessonId": "et-1",
+   "scenario": "Which Equality Act 2010 protected characteristic is most directly linked to trans people?",
+   "options": [
+    "Age",
+    "Marriage and civil partnership",
+    "Gender reassignment",
+    "Religion or belief"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not this one.",
+    "Not this one.",
+    "Correct.",
+    "Not this one."
+   ]
+  },
+  {
+   "id": "et-2-q1",
+   "lessonId": "et-2",
+   "scenario": "Who publishes the Code of Ethics for policing in England and Wales?",
+   "options": [
+    "The College of Policing",
+    "The Home Office",
+    "The IOPC",
+    "HMICFRS"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not the publisher.",
+    "The IOPC deals with complaints.",
+    "HMICFRS inspects."
+   ]
+  },
+  {
+   "id": "et-2-q2",
+   "lessonId": "et-2",
+   "scenario": "Does the Code of Ethics apply off duty?",
+   "options": [
+    "No, only on duty",
+    "Only to senior officers",
+    "Yes, it applies on and off duty",
+    "Only on social media"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "It applies to everyone in policing.",
+    "Correct.",
+    "It applies more widely."
+   ]
+  },
+  {
+   "id": "et-2-q3",
+   "lessonId": "et-2",
+   "scenario": "What sits at the centre of the National Decision Model?",
+   "options": [
+    "The law",
+    "The Code of Ethics",
+    "Threat and risk",
+    "The PCC's plan"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Powers and policy is one stage.",
+    "Correct.",
+    "That is a stage.",
+    "Not part of the NDM."
+   ]
+  },
+  {
+   "id": "et-2-q4",
+   "lessonId": "et-2",
+   "scenario": "A colleague makes an offensive joke about a victim. Which principle most clearly requires you to challenge it?",
+   "options": [
+    "Public service",
+    "Efficiency",
+    "Confidentiality",
+    "Courage"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Related, but courage is the key one.",
+    "Not a Code principle.",
+    "Not relevant here.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "et-2-q5",
+   "lessonId": "et-2",
+   "scenario": "Which document sets the standards that can lead to misconduct proceedings?",
+   "options": [
+    "Code of Ethics",
+    "Highway Code",
+    "Standards of Professional Behaviour",
+    "PACE Code G"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It guides values and decisions.",
+    "Road rules.",
+    "Correct (Police (Conduct) Regulations 2020).",
+    "Arrest powers."
+   ]
+  }
+ ]
+}

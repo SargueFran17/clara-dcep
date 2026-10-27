@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'se' (preguntas originales).",
+ "questions": [
+  {
+   "id": "se-1-q1",
+   "lessonId": "se-1",
+   "scenario": "What does 'policing by consent' mean?",
+   "options": [
+    "Police power depends on public approval and cooperation",
+    "Each person must agree before being arrested",
+    "Police need a court's consent for every action",
+    "The police only act when asked"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "A common misunderstanding.",
+    "Incorrect.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "se-1-q2",
+   "lessonId": "se-1",
+   "scenario": "In which year was the Metropolitan Police founded?",
+   "options": [
+    "1984",
+    "1066",
+    "1829",
+    "1902"
+   ],
+   "correct": 2,
+   "explanations": [
+    "PACE year.",
+    "No.",
+    "Correct: by Sir Robert Peel.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-1-q3",
+   "lessonId": "se-1",
+   "scenario": "According to the Peelian principles, the test of police efficiency is…",
+   "options": [
+    "the number of arrests",
+    "the absence of crime and disorder",
+    "the number of officers",
+    "response times"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not the test.",
+    "Correct.",
+    "Not the test.",
+    "Not the test."
+   ]
+  },
+  {
+   "id": "se-1-q4",
+   "lessonId": "se-1",
+   "scenario": "When should force be used, according to Peel?",
+   "options": [
+    "Always first",
+    "Never",
+    "Only by senior officers",
+    "Only when persuasion, advice and warning are not enough"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Too absolute.",
+    "Incorrect.",
+    "Correct, and only the minimum necessary."
+   ]
+  },
+  {
+   "id": "se-1-q5",
+   "lessonId": "se-1",
+   "scenario": "In England and Wales, who usually decides whether to charge in most cases?",
+   "options": [
+    "The investigating judge",
+    "The PCC",
+    "The CPS",
+    "The victim"
+   ],
+   "correct": 2,
+   "explanations": [
+    "There is no investigating judge.",
+    "No.",
+    "Correct (police can charge some minor offences).",
+    "No."
+   ]
+  },
+  {
+   "id": "se-2-q1",
+   "lessonId": "se-2",
+   "scenario": "Which officers routinely carry firearms in England and Wales?",
+   "options": [
+    "Authorised Firearms Officers",
+    "All officers",
+    "All detectives",
+    "PCSOs"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Most officers are unarmed.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-2-q2",
+   "lessonId": "se-2",
+   "scenario": "Is a person generally required to carry ID in the UK?",
+   "options": [
+    "Yes, always",
+    "Only in London",
+    "No, there is no general duty",
+    "Only after 18:00"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "se-2-q3",
+   "lessonId": "se-2",
+   "scenario": "Which is NOT normal personal safety equipment for a patrol officer?",
+   "options": [
+    "Handcuffs",
+    "A pistol",
+    "PAVA spray",
+    "Baton"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Normal.",
+    "Correct: only AFOs carry firearms.",
+    "Normal.",
+    "Normal."
+   ]
+  },
+  {
+   "id": "se-2-q4",
+   "lessonId": "se-2",
+   "scenario": "Use of force must be…",
+   "options": [
+    "quick and strong",
+    "approved by a sergeant first",
+    "avoided at all costs",
+    "necessary, proportionate and reasonable"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Not always possible.",
+    "Sometimes force is lawful and necessary.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "se-2-q5",
+   "lessonId": "se-2",
+   "scenario": "A person's name is unknown and an arrest for an offence is being considered. Which is relevant?",
+   "options": [
+    "There is nothing the officer can do",
+    "The person must be released",
+    "PACE Code G – arrest may be necessary to ascertain name",
+    "A DNI check"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not necessarily.",
+    "Correct.",
+    "There is no DNI in the UK."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "_comment": "Flashcards de la asignatura 'et'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "et-1-01",
+   "lessonId": "et-1",
+   "front": "singular 'they' – verb?",
+   "back": "plural verb: 'They ARE the witness.'",
+   "es": "verbo en plural"
+  },
+  {
+   "id": "et-1-03",
+   "lessonId": "et-1",
+   "front": "Mx",
+   "back": "gender-neutral title",
+   "es": "título neutro de género"
+  },
+  {
+   "id": "et-1-05",
+   "lessonId": "et-1",
+   "front": "Ms",
+   "back": "title for women that does not show marital status",
+   "es": "título para mujeres sin indicar estado civil"
+  },
+  {
+   "id": "et-1-07",
+   "lessonId": "et-1",
+   "front": "How to ask about pronouns?",
+   "back": "'What pronouns do you use?' – naturally, the same for everyone",
+   "es": "pregunta natural e igual para todos"
+  },
+  {
+   "id": "et-1-09",
+   "lessonId": "et-1",
+   "front": "You misgender someone by mistake",
+   "back": "Apologise briefly, correct yourself, move on",
+   "es": "disculpa breve, corrige y sigue"
+  },
+  {
+   "id": "et-2-06",
+   "lessonId": "et-2",
+   "front": "Who does the Code of Ethics apply to?",
+   "back": "Everyone in policing (officers, staff, volunteers), on and off duty",
+   "es": "a todas las personas, de servicio o no"
+  },
+  {
+   "id": "et-2-08",
+   "lessonId": "et-2",
+   "front": "Code of Ethics 2024 principles (⚠)",
+   "back": "Courage · Respect and empathy · Public service",
+   "es": "valentía, respeto y empatía, servicio público"
+  },
+  {
+   "id": "et-2-10",
+   "lessonId": "et-2",
+   "front": "What is at the centre of the NDM?",
+   "back": "The Code of Ethics",
+   "es": "el Código Ético"
+  },
+  {
+   "id": "et-2-12",
+   "lessonId": "et-2",
+   "front": "Five stages of the NDM",
+   "back": "Gather info → Assess threat/risk → Powers & policy → Options → Action & review",
+   "es": "cinco fases"
+  },
+  {
+   "id": "et-2-14",
+   "lessonId": "et-2",
+   "front": "Code of Ethics vs Standards of Professional Behaviour",
+   "back": "Values/decisions vs standards that can lead to misconduct proceedings",
+   "es": "valores vs normas disciplinarias"
+  }
+ ]
+}

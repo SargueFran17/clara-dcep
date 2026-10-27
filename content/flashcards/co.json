@@ -1,0 +1,82 @@
+{
+ "_comment": "Flashcards de la asignatura 'co'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "co-1-01",
+   "lessonId": "co-1",
+   "front": "Phonetic: J, Q, X, Y",
+   "back": "Juliet, Quebec, X-ray, Yankee",
+   "es": "J, Q, X, Y"
+  },
+  {
+   "id": "co-1-03",
+   "lessonId": "co-1",
+   "front": "Phonetic: G, H, K, W",
+   "back": "Golf, Hotel, Kilo, Whiskey",
+   "es": "G, H, K, W"
+  },
+  {
+   "id": "co-1-05",
+   "lessonId": "co-1",
+   "front": "Say 'HN68 KXT'",
+   "back": "Hotel November six eight, Kilo X-ray Tango",
+   "es": "matrícula"
+  },
+  {
+   "id": "co-1-07",
+   "lessonId": "co-1",
+   "front": "14:30 spoken",
+   "back": "'fourteen thirty'",
+   "es": "las dos y media"
+  },
+  {
+   "id": "co-1-09",
+   "lessonId": "co-1",
+   "front": "09:00 spoken",
+   "back": "'zero nine hundred'",
+   "es": "las nueve"
+  },
+  {
+   "id": "co-1-11",
+   "lessonId": "co-1",
+   "front": "Midnight in records",
+   "back": "00:00 (avoid 24:00)",
+   "es": "medianoche"
+  },
+  {
+   "id": "co-2-07",
+   "lessonId": "co-2",
+   "front": "Radio structure",
+   "back": "Who you call → who you are → 'go ahead' → message → confirmation",
+   "es": "estructura"
+  },
+  {
+   "id": "co-2-09",
+   "lessonId": "co-2",
+   "front": "'Say again'",
+   "back": "Please repeat (don't say 'repeat')",
+   "es": "repite"
+  },
+  {
+   "id": "co-2-11",
+   "lessonId": "co-2",
+   "front": "'Received'",
+   "back": "I have understood the message",
+   "es": "recibido"
+  },
+  {
+   "id": "co-2-13",
+   "lessonId": "co-2",
+   "front": "'Stand by'",
+   "back": "Wait",
+   "es": "espera"
+  },
+  {
+   "id": "co-2-15",
+   "lessonId": "co-2",
+   "front": "Urgent assistance – most important information",
+   "back": "WHERE you are",
+   "es": "dónde estás"
+  }
+ ]
+}

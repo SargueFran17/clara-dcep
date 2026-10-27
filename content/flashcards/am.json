@@ -1,0 +1,54 @@
+{
+ "_comment": "Flashcards de la asignatura 'am'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "am-1-01",
+   "lessonId": "am-1",
+   "front": "Cornell page – 3 parts",
+   "back": "Main notes · cue questions · summary",
+   "es": "notas, preguntas, resumen"
+  },
+  {
+   "id": "am-1-03",
+   "lessonId": "am-1",
+   "front": "Daily diary in the app",
+   "back": "module, topic, notes, 5 key ideas, questions, flashcards",
+   "es": "diario diario"
+  },
+  {
+   "id": "am-1-05",
+   "lessonId": "am-1",
+   "front": "Diary reviews",
+   "back": "+1 day and +7 days",
+   "es": "repasos +1 y +7 días"
+  },
+  {
+   "id": "am-1-07",
+   "lessonId": "am-1",
+   "front": "If you can't write the 5 key ideas…",
+   "back": "you didn't understand → write a question for tomorrow",
+   "es": "pregunta mañana"
+  },
+  {
+   "id": "am-2-05",
+   "lessonId": "am-2",
+   "front": "Best way to prepare a knowledge test",
+   "back": "Retrieval practice + practice questions (not re-reading)",
+   "es": "practicar recordando"
+  },
+  {
+   "id": "am-2-07",
+   "lessonId": "am-2",
+   "front": "Caution wording (Code C 10.5)",
+   "back": "You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence.",
+   "es": "texto de la caution"
+  },
+  {
+   "id": "am-2-09",
+   "lessonId": "am-2",
+   "front": "After an assessment",
+   "back": "Record the result and 'what to improve' in the app",
+   "es": "anotar y mejorar"
+  }
+ ]
+}

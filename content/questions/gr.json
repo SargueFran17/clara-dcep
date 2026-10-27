@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'gr' (preguntas originales).",
+ "questions": [
+  {
+   "id": "gr-1-q1",
+   "lessonId": "gr-1",
+   "scenario": "'The incident happened ___ 23:45 ___ Saturday.'",
+   "options": [
+    "at / on",
+    "in / at",
+    "on / in",
+    "at / in"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: at + time, on + day.",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-1-q2",
+   "lessonId": "gr-1",
+   "scenario": "Choose the correct option.",
+   "options": [
+    "in Monday morning",
+    "at Monday morning",
+    "on Monday morning",
+    "Monday in the morning on"
+   ],
+   "correct": 2,
+   "explanations": [
+    "A specific day takes 'on'.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-1-q3",
+   "lessonId": "gr-1",
+   "scenario": "'I saw him ___ week.'",
+   "options": [
+    "on last",
+    "last",
+    "in last",
+    "at last"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No preposition with 'last'.",
+    "Correct.",
+    "No preposition with 'last'.",
+    "'At last' means 'finally'."
+   ]
+  },
+  {
+   "id": "gr-1-q4",
+   "lessonId": "gr-1",
+   "scenario": "'She waited ___ ten minutes.'",
+   "options": [
+    "during",
+    "since",
+    "in",
+    "for"
+   ],
+   "correct": 3,
+   "explanations": [
+    "'During' + a period noun (during the night).",
+    "'Since' + a starting point.",
+    "Incorrect here.",
+    "Correct: duration = for."
+   ]
+  },
+  {
+   "id": "gr-1-q5",
+   "lessonId": "gr-1",
+   "scenario": "Which is correct in a UK police report?",
+   "options": [
+    "at 3 March 2026",
+    "in 3 March 2026",
+    "on 3 March 2026",
+    "3 of March 2026 in"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct: on + date.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-2-q1",
+   "lessonId": "gr-2",
+   "scenario": "'The suspect lives ___ 45 Victoria Road.'",
+   "options": [
+    "at",
+    "in",
+    "on",
+    "to"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "With a house number use 'at'.",
+    "Without a number you could use 'on'.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-2-q2",
+   "lessonId": "gr-2",
+   "scenario": "'The victim was ___ the bus when it happened.'",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "into"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Use 'on' for buses.",
+    "Incorrect.",
+    "Correct.",
+    "'Into' shows movement."
+   ]
+  },
+  {
+   "id": "gr-2-q3",
+   "lessonId": "gr-2",
+   "scenario": "'He got ___ a silver Ford Focus.'",
+   "options": [
+    "on",
+    "into",
+    "in to",
+    "onto"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Use 'on' for buses, not cars.",
+    "Correct: got into a car.",
+    "Write it as one word.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-2-q4",
+   "lessonId": "gr-2",
+   "scenario": "'I stopped the vehicle ___ the junction ___ Elm Road and High Street.'",
+   "options": [
+    "in / with",
+    "on / in",
+    "at / from",
+    "at / of"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-2-q5",
+   "lessonId": "gr-2",
+   "scenario": "In the UK, the 'first floor' is…",
+   "options": [
+    "la planta baja",
+    "el sótano",
+    "la primera planta",
+    "el ático"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Planta baja = ground floor.",
+    "Sótano = basement.",
+    "Correct.",
+    "Ático = top floor/attic."
+   ]
+  }
+ ]
+}

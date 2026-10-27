@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'ft-train' (preguntas originales).",
+ "questions": [
+  {
+   "id": "ft-2-q1",
+   "lessonId": "ft-2",
+   "scenario": "The national standard for the police fitness test is…",
+   "options": [
+    "level 5.4 on the 15 m MSFT",
+    "level 3.2",
+    "level 10",
+    "a 5 km run"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (confirm with Hampshire).",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-2-q2",
+   "lessonId": "ft-2",
+   "scenario": "Level 5.4 means…",
+   "options": [
+    "5 minutes 4 seconds",
+    "5.4 km",
+    "level 5, shuttle 4",
+    "54 shuttles"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-2-q3",
+   "lessonId": "ft-2",
+   "scenario": "Which training element is specific to the bleep test?",
+   "options": [
+    "Swimming",
+    "Turning technique over 15 m",
+    "Heavy deadlifts only",
+    "Yoga only"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not specific.",
+    "Correct.",
+    "Not specific.",
+    "Not specific."
+   ]
+  },
+  {
+   "id": "ft-2-q4",
+   "lessonId": "ft-2",
+   "scenario": "Common mistake in the early levels?",
+   "options": [
+    "Running too slowly",
+    "Turning too tight",
+    "Drinking water",
+    "Running too fast"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not the common error.",
+    "Tight turns are good.",
+    "No.",
+    "Correct: the early levels are slow; relax."
+   ]
+  },
+  {
+   "id": "ft-2-q5",
+   "lessonId": "ft-2",
+   "scenario": "Why aim higher than 5.4 in practice?",
+   "options": [
+    "To show off",
+    "Because 5.4 is too easy",
+    "To have a margin on test day",
+    "It's required"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-4-q1",
+   "lessonId": "ft-4",
+   "scenario": "How many sets and reps for main lifts in this plan?",
+   "options": [
+    "3 × 8–12",
+    "1 × 50",
+    "10 × 1",
+    "5 × 20"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-4-q2",
+   "lessonId": "ft-4",
+   "scenario": "When should you increase the weight?",
+   "options": [
+    "Every session",
+    "Never",
+    "When all sets reach 12 good reps",
+    "When you feel like it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too fast.",
+    "No progression.",
+    "Correct.",
+    "Not systematic."
+   ]
+  },
+  {
+   "id": "ft-4-q3",
+   "lessonId": "ft-4",
+   "scenario": "On a very tired day you should…",
+   "options": [
+    "skip everything",
+    "do a shorter session",
+    "do double",
+    "only stretch"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Consistency matters.",
+    "Correct.",
+    "Injury risk.",
+    "Possible, but a short session keeps the habit."
+   ]
+  },
+  {
+   "id": "ft-4-q4",
+   "lessonId": "ft-4",
+   "scenario": "Avoid heavy leg work the day before…",
+   "options": [
+    "a rest day",
+    "a study day",
+    "tennis only",
+    "intervals or a practice bleep test"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Not relevant.",
+    "Less important.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ft-4-q5",
+   "lessonId": "ft-4",
+   "scenario": "Why is strength training useful for you?",
+   "options": [
+    "Only for looks",
+    "It replaces running",
+    "Body composition, injury prevention and police work",
+    "It isn't"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  }
+ ]
+}

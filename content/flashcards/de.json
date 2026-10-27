@@ -1,0 +1,89 @@
+{
+ "_comment": "Flashcards de la asignatura 'de'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "de-1-01",
+   "lessonId": "de-1",
+   "front": "Order of a description",
+   "back": "sex/age → height → build → appearance → hair → face → marks → clothing → other",
+   "es": "orden de la cabeza a los pies"
+  },
+  {
+   "id": "de-1-03",
+   "lessonId": "de-1",
+   "front": "170 cm in feet and inches",
+   "back": "about 5 ft 7 in",
+   "es": "unos 5 pies 7 pulgadas"
+  },
+  {
+   "id": "de-1-05",
+   "lessonId": "de-1",
+   "front": "1 inch / 1 foot",
+   "back": "1 in = 2.54 cm; 1 ft = 12 in ≈ 30.5 cm",
+   "es": "pulgada / pie"
+  },
+  {
+   "id": "de-1-07",
+   "lessonId": "de-1",
+   "front": "Build words",
+   "back": "slim, medium, stocky, heavy, athletic",
+   "es": "complexión"
+  },
+  {
+   "id": "de-1-09",
+   "lessonId": "de-1",
+   "front": "'He had 25 years' →",
+   "back": "'He was 25' / 'aged 25'",
+   "es": "tenía 25 años"
+  },
+  {
+   "id": "de-1-11",
+   "lessonId": "de-1",
+   "front": "moreno (pelo) →",
+   "back": "dark-haired / dark hair",
+   "es": "pelo oscuro"
+  },
+  {
+   "id": "de-2-07",
+   "lessonId": "de-2",
+   "front": "pantalones (UK)",
+   "back": "trousers (in the UK 'pants' = underwear)",
+   "es": "trousers"
+  },
+  {
+   "id": "de-2-09",
+   "lessonId": "de-2",
+   "front": "zapatillas deportivas",
+   "back": "trainers",
+   "es": "trainers"
+  },
+  {
+   "id": "de-2-11",
+   "lessonId": "de-2",
+   "front": "sudadera con capucha",
+   "back": "hoodie / hooded top",
+   "es": "hoodie"
+  },
+  {
+   "id": "de-2-13",
+   "lessonId": "de-2",
+   "front": "pantalón de chándal",
+   "back": "tracksuit bottoms / joggers",
+   "es": "joggers"
+  },
+  {
+   "id": "de-2-15",
+   "lessonId": "de-2",
+   "front": "Describing a tattoo",
+   "back": "what + where (their left/right) + colour + size",
+   "es": "qué, dónde, color, tamaño"
+  },
+  {
+   "id": "de-2-17",
+   "lessonId": "de-2",
+   "front": "UK spelling",
+   "back": "colour, grey, jewellery",
+   "es": "ortografía británica"
+  }
+ ]
+}

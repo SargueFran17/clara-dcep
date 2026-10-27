@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'sj' (preguntas originales).",
+ "questions": [
+  {
+   "id": "sj-1-q1",
+   "lessonId": "sj-1",
+   "scenario": "Who holds a Chief Constable to account and sets the Police and Crime Plan?",
+   "options": [
+    "The Police and Crime Commissioner",
+    "The Home Secretary",
+    "The IOPC",
+    "The College of Policing"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "National level.",
+    "Complaints body.",
+    "Professional body."
+   ]
+  },
+  {
+   "id": "sj-1-q2",
+   "lessonId": "sj-1",
+   "scenario": "Which body inspects police forces and publishes PEEL reports?",
+   "options": [
+    "IOPC",
+    "CPS",
+    "HMICFRS",
+    "NPCC"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Complaints.",
+    "Prosecutions.",
+    "Correct.",
+    "Coordination of chiefs."
+   ]
+  },
+  {
+   "id": "sj-1-q3",
+   "lessonId": "sj-1",
+   "scenario": "Which body sets the Code of Ethics and runs the NIE?",
+   "options": [
+    "Home Office",
+    "College of Policing",
+    "IOPC",
+    "NCA"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-1-q4",
+   "lessonId": "sj-1",
+   "scenario": "Who investigates the most serious complaints against police (e.g. deaths after contact)?",
+   "options": [
+    "HMICFRS",
+    "The PCC",
+    "The CPS",
+    "IOPC"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Inspects.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "sj-1-q5",
+   "lessonId": "sj-1",
+   "scenario": "Which area does Hampshire & Isle of Wight Constabulary cover?",
+   "options": [
+    "All of the South of England",
+    "Only Southampton",
+    "Hampshire, IoW, Portsmouth and Southampton",
+    "Hampshire and Dorset"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "Dorset has its own force."
+   ]
+  },
+  {
+   "id": "sj-2-q1",
+   "lessonId": "sj-2",
+   "scenario": "Which rank is directly above Sergeant?",
+   "options": [
+    "Inspector",
+    "Chief Inspector",
+    "Superintendent",
+    "Constable"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Above Inspector.",
+    "Higher.",
+    "Below."
+   ]
+  },
+  {
+   "id": "sj-2-q2",
+   "lessonId": "sj-2",
+   "scenario": "A DS compared with a PS has…",
+   "options": [
+    "a higher rank",
+    "a lower rank",
+    "the same rank",
+    "no rank"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct: same rank, different role.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-2-q3",
+   "lessonId": "sj-2",
+   "scenario": "Which PIP level applies to detectives investigating serious and complex crime?",
+   "options": [
+    "PIP 1",
+    "PIP 2",
+    "PIP 3",
+    "PIP 4"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Volume crime.",
+    "Correct.",
+    "Major crime/SIO.",
+    "Strategic."
+   ]
+  },
+  {
+   "id": "sj-2-q4",
+   "lessonId": "sj-2",
+   "scenario": "Which force uses titles like Commander and Assistant Commissioner?",
+   "options": [
+    "Hampshire",
+    "Thames Valley",
+    "Dorset",
+    "The Metropolitan Police"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct (and City of London)."
+   ]
+  },
+  {
+   "id": "sj-2-q5",
+   "lessonId": "sj-2",
+   "scenario": "Which is the highest rank in a force like Hampshire?",
+   "options": [
+    "Chief Superintendent",
+    "Deputy Chief Constable",
+    "Chief Constable",
+    "Commissioner"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Lower.",
+    "Second.",
+    "Correct.",
+    "Met/City title."
+   ]
+  }
+ ]
+}

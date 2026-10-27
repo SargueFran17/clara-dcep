@@ -1,0 +1,61 @@
+{
+ "_comment": "Flashcards de la asignatura 'ft-train'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "ft-2-01",
+   "lessonId": "ft-2",
+   "front": "Police fitness test standard (national)",
+   "back": "15 m MSFT level 5.4 (confirm with Hampshire)",
+   "es": "nivel 5.4"
+  },
+  {
+   "id": "ft-2-03",
+   "lessonId": "ft-2",
+   "front": "Level 5.4 means…",
+   "back": "Level 5, shuttle 4",
+   "es": "nivel 5, shuttle 4"
+  },
+  {
+   "id": "ft-2-05",
+   "lessonId": "ft-2",
+   "front": "Three things to train for the bleep test",
+   "back": "Aerobic base, intervals, turning technique",
+   "es": "base, intervalos, giros"
+  },
+  {
+   "id": "ft-2-07",
+   "lessonId": "ft-2",
+   "front": "How often to do a practice test",
+   "back": "Every 2–3 weeks",
+   "es": "cada 2–3 semanas"
+  },
+  {
+   "id": "ft-4-05",
+   "lessonId": "ft-4",
+   "front": "Sets and reps for main exercises",
+   "back": "3 × 8–12",
+   "es": "3 × 8–12"
+  },
+  {
+   "id": "ft-4-07",
+   "lessonId": "ft-4",
+   "front": "When to increase weight",
+   "back": "When all sets reach 12 good reps → add a little weight, back to 8",
+   "es": "progresión"
+  },
+  {
+   "id": "ft-4-09",
+   "lessonId": "ft-4",
+   "front": "Reps in reserve",
+   "back": "Leave 1–2 reps in reserve; don't train to failure",
+   "es": "1–2 en reserva"
+  },
+  {
+   "id": "ft-4-11",
+   "lessonId": "ft-4",
+   "front": "Tired day?",
+   "back": "Shorter session (main lifts, 2 sets), not zero",
+   "es": "sesión corta"
+  }
+ ]
+}

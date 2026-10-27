@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'dr' (preguntas originales).",
+ "questions": [
+  {
+   "id": "dr-1-q1",
+   "lessonId": "dr-1",
+   "scenario": "According to gov.uk, with a full Spanish licence you can generally drive in GB…",
+   "options": [
+    "until you're 70 (or 3 years after becoming resident if older)",
+    "only for 12 months",
+    "never",
+    "only with an international permit"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ check gov.uk).",
+    "That rule applies to some non-EU licences.",
+    "Incorrect.",
+    "Not needed for EU licences in GB."
+   ]
+  },
+  {
+   "id": "dr-1-q2",
+   "lessonId": "dr-1",
+   "scenario": "Which form is used to exchange a foreign licence for a GB one?",
+   "options": [
+    "V5C",
+    "MG11",
+    "D1",
+    "D90"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Vehicle logbook.",
+    "Witness statement.",
+    "Correct.",
+    "Not this one."
+   ]
+  },
+  {
+   "id": "dr-1-q3",
+   "lessonId": "dr-1",
+   "scenario": "Why tell your insurer you have a Spanish licence?",
+   "options": [
+    "It's optional",
+    "Not telling them can invalidate your insurance",
+    "To get a discount",
+    "Because the police require it"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not optional in practice.",
+    "Correct.",
+    "Not the reason.",
+    "The duty is to the insurer."
+   ]
+  },
+  {
+   "id": "dr-1-q4",
+   "lessonId": "dr-1",
+   "scenario": "Which agency deals with driving licences?",
+   "options": [
+    "DVSA",
+    "CPS",
+    "HMRC",
+    "DVLA"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Tests and standards.",
+    "Prosecutions.",
+    "Tax.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-1-q5",
+   "lessonId": "dr-1",
+   "scenario": "Can you drive the same categories shown on your EU licence?",
+   "options": [
+    "No, only cars",
+    "Only motorbikes",
+    "Yes",
+    "Only after a test"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct (gov.uk).",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "dr-2-q1",
+   "lessonId": "dr-2",
+   "scenario": "At a UK roundabout you must normally give way to traffic…",
+   "options": [
+    "from your right",
+    "from your left",
+    "behind you",
+    "on the exit road"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Spain's direction.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-2-q2",
+   "lessonId": "dr-2",
+   "scenario": "You are taking the first exit (left). You should…",
+   "options": [
+    "signal right, right lane",
+    "not signal",
+    "signal left, left lane",
+    "signal left, right lane"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "You should signal.",
+    "Correct.",
+    "Incorrect lane."
+   ]
+  },
+  {
+   "id": "dr-2-q3",
+   "lessonId": "dr-2",
+   "scenario": "Which turn crosses oncoming traffic in the UK?",
+   "options": [
+    "Left turn",
+    "Right turn",
+    "Both",
+    "Neither"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Left is the short turn.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-2-q4",
+   "lessonId": "dr-2",
+   "scenario": "When are wrong-side mistakes most common for drivers from abroad?",
+   "options": [
+    "On busy motorways",
+    "In traffic jams",
+    "At night only",
+    "On empty roads and when leaving car parks"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Less likely.",
+    "Less likely.",
+    "Not specifically.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-2-q5",
+   "lessonId": "dr-2",
+   "scenario": "Which Highway Code rules cover roundabouts?",
+   "options": [
+    "1–35",
+    "239–252",
+    "184–190",
+    "300–307"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Pedestrians.",
+    "Parking.",
+    "Correct.",
+    "Not these."
+   ]
+  }
+ ]
+}

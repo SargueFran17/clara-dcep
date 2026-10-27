@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'co' (preguntas originales).",
+ "questions": [
+  {
+   "id": "co-1-q1",
+   "lessonId": "co-1",
+   "scenario": "Phonetic for the letter 'J'?",
+   "options": [
+    "Juliet",
+    "Jack",
+    "Jaguar",
+    "Jota"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not NATO.",
+    "Not NATO.",
+    "Spanish letter name."
+   ]
+  },
+  {
+   "id": "co-1-q2",
+   "lessonId": "co-1",
+   "scenario": "How is 18:05 usually said?",
+   "options": [
+    "six oh five pm",
+    "eighteen and five",
+    "eighteen oh five",
+    "eight past six"
+   ],
+   "correct": 2,
+   "explanations": [
+    "12-hour clock.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "co-1-q3",
+   "lessonId": "co-1",
+   "scenario": "How do you read the number 457 on the radio?",
+   "options": [
+    "four hundred and fifty-seven",
+    "four, five, seven",
+    "forty-five, seven",
+    "four-fifty-seven hundred"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too long and less clear.",
+    "Correct: digit by digit.",
+    "Incorrect.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "co-1-q4",
+   "lessonId": "co-1",
+   "scenario": "Phonetic for 'W'?",
+   "options": [
+    "William",
+    "Water",
+    "Wilson",
+    "Whiskey"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "co-1-q5",
+   "lessonId": "co-1",
+   "scenario": "Which time format should be used in a statement?",
+   "options": [
+    "2:30 pm",
+    "half past two",
+    "14:30",
+    "2.30 in the afternoon"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Use 24-hour clock.",
+    "Too informal.",
+    "Correct.",
+    "Too informal."
+   ]
+  },
+  {
+   "id": "co-2-q1",
+   "lessonId": "co-2",
+   "scenario": "What do you say if you didn't hear a message?",
+   "options": [
+    "Say again",
+    "Repeat",
+    "What?",
+    "Again please"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Avoid 'repeat'.",
+    "Too informal.",
+    "Not standard."
+   ]
+  },
+  {
+   "id": "co-2-q2",
+   "lessonId": "co-2",
+   "scenario": "The correct first step when calling the control room is…",
+   "options": [
+    "Start the message immediately",
+    "Press the emergency button",
+    "Say who you are calling and who you are, then wait for 'go ahead'",
+    "Say 'over'"
+   ],
+   "correct": 2,
+   "explanations": [
+    "They may not be ready.",
+    "Only for emergencies.",
+    "Correct.",
+    "Not the start."
+   ]
+  },
+  {
+   "id": "co-2-q3",
+   "lessonId": "co-2",
+   "scenario": "In an urgent assistance call, which detail is the most important?",
+   "options": [
+    "Your shoulder number",
+    "Your location",
+    "The time",
+    "The suspect's name"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Helpful, but location first.",
+    "Correct.",
+    "Not the priority.",
+    "Not the priority."
+   ]
+  },
+  {
+   "id": "co-2-q4",
+   "lessonId": "co-2",
+   "scenario": "Why avoid jokes and opinions on the radio?",
+   "options": [
+    "They waste battery",
+    "Control doesn't like them",
+    "They are illegal",
+    "Radio can be recorded and disclosed in court"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not the reason.",
+    "Not the main reason.",
+    "Not necessarily illegal, but unprofessional.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "co-2-q5",
+   "lessonId": "co-2",
+   "scenario": "'Stand by' means…",
+   "options": [
+    "Go ahead",
+    "Cancel",
+    "Wait",
+    "Received"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  }
+ ]
+}

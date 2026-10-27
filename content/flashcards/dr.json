@@ -1,0 +1,82 @@
+{
+ "_comment": "Flashcards de la asignatura 'dr'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "dr-1-01",
+   "lessonId": "dr-1",
+   "front": "EU/EEA licence in GB (gov.uk)",
+   "back": "Drive until 70, or 3 years after becoming resident if 67+ (⚠ check gov.uk)",
+   "es": "hasta los 70 (⚠ verificar)"
+  },
+  {
+   "id": "dr-1-03",
+   "lessonId": "dr-1",
+   "front": "Form to exchange a foreign licence",
+   "back": "D1 (application for a driving licence)",
+   "es": "formulario D1"
+  },
+  {
+   "id": "dr-1-05",
+   "lessonId": "dr-1",
+   "front": "Need a test to exchange an EU licence?",
+   "back": "No (exchange, not test) – check gov.uk",
+   "es": "no hace falta examen"
+  },
+  {
+   "id": "dr-1-07",
+   "lessonId": "dr-1",
+   "front": "Who must know you have a Spanish licence?",
+   "back": "Your insurer",
+   "es": "tu aseguradora"
+  },
+  {
+   "id": "dr-1-09",
+   "lessonId": "dr-1",
+   "front": "DVLA",
+   "back": "Driver and Vehicle Licensing Agency",
+   "es": "agencia de licencias de conducir y vehículos"
+  },
+  {
+   "id": "dr-2-06",
+   "lessonId": "dr-2",
+   "front": "Roundabout direction in the UK",
+   "back": "Clockwise",
+   "es": "sentido de las agujas del reloj"
+  },
+  {
+   "id": "dr-2-08",
+   "lessonId": "dr-2",
+   "front": "Roundabout priority",
+   "back": "Give way to traffic from your RIGHT",
+   "es": "cede a la derecha"
+  },
+  {
+   "id": "dr-2-10",
+   "lessonId": "dr-2",
+   "front": "First exit (left)",
+   "back": "Signal left, left lane",
+   "es": "intermitente izquierdo, carril izquierdo"
+  },
+  {
+   "id": "dr-2-12",
+   "lessonId": "dr-2",
+   "front": "Exit to the right",
+   "back": "Signal right, right lane; signal left after passing the exit before yours",
+   "es": "derecha"
+  },
+  {
+   "id": "dr-2-14",
+   "lessonId": "dr-2",
+   "front": "Crossing the road as a pedestrian",
+   "back": "Look RIGHT first",
+   "es": "mira primero a la derecha"
+  },
+  {
+   "id": "dr-2-16",
+   "lessonId": "dr-2",
+   "front": "Highway Code roundabout rules",
+   "back": "Rules 184–190",
+   "es": "reglas 184–190"
+  }
+ ]
+}

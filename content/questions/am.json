@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'am' (preguntas originales).",
+ "questions": [
+  {
+   "id": "am-1-q1",
+   "lessonId": "am-1",
+   "scenario": "During a fast session, what should you write?",
+   "options": [
+    "Key nouns, definitions and numbers",
+    "Everything word by word",
+    "Nothing",
+    "Only in Spanish"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "You stop listening.",
+    "You'll forget.",
+    "The exam is in English."
+   ]
+  },
+  {
+   "id": "am-1-q2",
+   "lessonId": "am-1",
+   "scenario": "When does the app schedule reviews of a diary day?",
+   "options": [
+    "+1 month only",
+    "Never",
+    "+1 day and +7 days",
+    "Every day"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "am-1-q3",
+   "lessonId": "am-1",
+   "scenario": "What goes in the cue column of a Cornell page?",
+   "options": [
+    "Drawings",
+    "Questions whose answers are in the notes",
+    "The date",
+    "The trainer's name"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "am-1-q4",
+   "lessonId": "am-1",
+   "scenario": "You can't write the 5 key ideas of the day. What does it show?",
+   "options": [
+    "Nothing important",
+    "The session was bad",
+    "You should skip the review",
+    "You need to clarify something – add a question"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It's a signal.",
+    "Not necessarily.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "am-1-q5",
+   "lessonId": "am-1",
+   "scenario": "How many flashcards per academy day is a good target?",
+   "options": [
+    "0",
+    "50",
+    "3–8",
+    "Only on Fridays"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too few.",
+    "Too many to review.",
+    "Correct.",
+    "Daily is better."
+   ]
+  },
+  {
+   "id": "am-2-q1",
+   "lessonId": "am-2",
+   "scenario": "Which method is most effective before a knowledge test?",
+   "options": [
+    "Testing yourself (retrieval practice)",
+    "Re-reading notes many times",
+    "Highlighting everything",
+    "Listening to music"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Less effective.",
+    "Less effective.",
+    "No."
+   ]
+  },
+  {
+   "id": "am-2-q2",
+   "lessonId": "am-2",
+   "scenario": "Complete the caution: 'You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later…'",
+   "options": [
+    "say in court",
+    "tell your solicitor",
+    "rely on in court",
+    "remember"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect wording.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "am-2-q3",
+   "lessonId": "am-2",
+   "scenario": "For a role-play arrest, what should you practise?",
+   "options": [
+    "Only the paperwork",
+    "The fixed wording and structure, out loud",
+    "Nothing – improvise",
+    "Only in Spanish"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not enough.",
+    "Correct.",
+    "Risky.",
+    "The assessment is in English."
+   ]
+  },
+  {
+   "id": "am-2-q4",
+   "lessonId": "am-2",
+   "scenario": "After receiving assessment feedback you should…",
+   "options": [
+    "forget it",
+    "ask for a different assessor",
+    "delete it",
+    "record the result and what to improve"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "am-2-q5",
+   "lessonId": "am-2",
+   "scenario": "Every wrong answer in practice should go to…",
+   "options": [
+    "the bin",
+    "your tutor only",
+    "the error log with the correct rule",
+    "nowhere"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Also, but log it.",
+    "Correct.",
+    "No."
+   ]
+  }
+ ]
+}

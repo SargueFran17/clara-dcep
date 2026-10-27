@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'ft-nut' (preguntas originales).",
+ "questions": [
+  {
+   "id": "ft-1-q1",
+   "lessonId": "ft-1",
+   "scenario": "What rate of weight loss does the NHS generally describe as safe?",
+   "options": [
+    "About 0.5–1 kg a week",
+    "3–4 kg a week",
+    "5 kg a month minimum",
+    "No weight loss is safe"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too fast.",
+    "Too fast.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "ft-1-q2",
+   "lessonId": "ft-1",
+   "scenario": "Before making big changes to diet or exercise you should…",
+   "options": [
+    "start immediately",
+    "stop eating carbs",
+    "talk to your GP",
+    "weigh yourself daily"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not if you have doubts.",
+    "Not advised.",
+    "Correct.",
+    "Not necessary."
+   ]
+  },
+  {
+   "id": "ft-1-q3",
+   "lessonId": "ft-1",
+   "scenario": "How often should you weigh yourself in this plan?",
+   "options": [
+    "Several times a day",
+    "Once a week, same conditions",
+    "Never",
+    "Once a year"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Daily changes mislead.",
+    "Correct.",
+    "Trend helps.",
+    "Too rare."
+   ]
+  },
+  {
+   "id": "ft-1-q4",
+   "lessonId": "ft-1",
+   "scenario": "Adults should do at least … minutes of moderate activity a week.",
+   "options": [
+    "30",
+    "75",
+    "500",
+    "150"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too low.",
+    "That's for vigorous activity.",
+    "Not the guideline.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ft-1-q5",
+   "lessonId": "ft-1",
+   "scenario": "Which is a process goal?",
+   "options": [
+    "Lose 10 kg",
+    "Reach level 5.4",
+    "Train 5 days a week",
+    "Fit in old jeans"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Outcome goal.",
+    "Performance goal.",
+    "Correct.",
+    "Outcome goal."
+   ]
+  },
+  {
+   "id": "ft-3-q1",
+   "lessonId": "ft-3",
+   "scenario": "According to the Eatwell Guide, fruit and vegetables should make up about…",
+   "options": [
+    "a third",
+    "a tenth",
+    "half",
+    "all"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too little.",
+    "Close to the plate method for meals, but the guide says about a third overall.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-3-q2",
+   "lessonId": "ft-3",
+   "scenario": "How many glasses of fluid a day does the NHS suggest?",
+   "options": [
+    "1–2",
+    "12–15",
+    "6–8",
+    "None"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too few.",
+    "More than usual guidance.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-3-q3",
+   "lessonId": "ft-3",
+   "scenario": "How many portions of fish a week, and how many oily?",
+   "options": [
+    "1, none oily",
+    "2, one oily",
+    "5, all oily",
+    "0"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-3-q4",
+   "lessonId": "ft-3",
+   "scenario": "Starchy foods should preferably be…",
+   "options": [
+    "white and refined",
+    "avoided completely",
+    "fried",
+    "wholegrain / higher-fibre"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Less fibre.",
+    "Not advised.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ft-3-q5",
+   "lessonId": "ft-3",
+   "scenario": "Traffic-light food labels show levels of…",
+   "options": [
+    "vitamins",
+    "protein",
+    "fat, saturates, sugars and salt",
+    "price"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  }
+ ]
+}

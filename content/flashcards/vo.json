@@ -1,0 +1,103 @@
+{
+ "_comment": "Flashcards de la asignatura 'vo'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "vo-1-01",
+   "lessonId": "vo-1",
+   "front": "arrest someone ___ theft",
+   "back": "arrest someone FOR theft",
+   "es": "detener a alguien por hurto"
+  },
+  {
+   "id": "vo-1-03",
+   "lessonId": "vo-1",
+   "front": "arrest someone ___ suspicion ___ assault",
+   "back": "ON suspicion OF assault",
+   "es": "por sospecha de agresión"
+  },
+  {
+   "id": "vo-1-05",
+   "lessonId": "vo-1",
+   "front": "arrest vs detain",
+   "back": "arrest = take into custody with a legal power; detain = keep someone, not free to go",
+   "es": "detener formalmente vs retener"
+  },
+  {
+   "id": "vo-1-07",
+   "lessonId": "vo-1",
+   "front": "grounds",
+   "back": "the reasons/facts for a decision (plural): 'my grounds for arrest'",
+   "es": "motivos / fundamentos"
+  },
+  {
+   "id": "vo-1-09",
+   "lessonId": "vo-1",
+   "front": "to convey (a prisoner)",
+   "back": "to transport them, e.g. to custody",
+   "es": "trasladar"
+  },
+  {
+   "id": "vo-1-11",
+   "lessonId": "vo-1",
+   "front": "to book in",
+   "back": "to register a prisoner at the custody suite",
+   "es": "registrar al detenido en custodia"
+  },
+  {
+   "id": "vo-1-13",
+   "lessonId": "vo-1",
+   "front": "SUSpect vs susPECT",
+   "back": "noun (the person) vs verb (to think something may be true)",
+   "es": "sospechoso (sust.) vs sospechar (verbo)"
+  },
+  {
+   "id": "vo-2-08",
+   "lessonId": "vo-2",
+   "front": "custody officer",
+   "back": "usually a sergeant; responsible for detainees' rights and welfare",
+   "es": "sargento de custodia"
+  },
+  {
+   "id": "vo-2-10",
+   "lessonId": "vo-2",
+   "front": "three rights on booking in",
+   "back": "someone informed · free legal advice · consult the Codes of Practice",
+   "es": "aviso a alguien, abogado, consultar los Códigos"
+  },
+  {
+   "id": "vo-2-12",
+   "lessonId": "vo-2",
+   "front": "to waive a right",
+   "back": "to give up a right",
+   "es": "renunciar a un derecho"
+  },
+  {
+   "id": "vo-2-14",
+   "lessonId": "vo-2",
+   "front": "RUI",
+   "back": "released under investigation: released without bail while enquiries continue",
+   "es": "libertad mientras se investiga"
+  },
+  {
+   "id": "vo-2-16",
+   "lessonId": "vo-2",
+   "front": "NFA",
+   "back": "no further action: case closed",
+   "es": "archivo"
+  },
+  {
+   "id": "vo-2-18",
+   "lessonId": "vo-2",
+   "front": "caution (two meanings)",
+   "back": "1) words said on arrest/interview; 2) formal out-of-court warning",
+   "es": "advertencia legal vs amonestación formal"
+  },
+  {
+   "id": "vo-2-20",
+   "lessonId": "vo-2",
+   "front": "remanded in custody",
+   "back": "kept in prison/custody until the next court hearing",
+   "es": "prisión preventiva"
+  }
+ ]
+}

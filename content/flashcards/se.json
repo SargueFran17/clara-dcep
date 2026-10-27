@@ -1,0 +1,75 @@
+{
+ "_comment": "Flashcards de la asignatura 'se'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "se-1-01",
+   "lessonId": "se-1",
+   "front": "Policing by consent",
+   "back": "Police power depends on public approval, trust and cooperation",
+   "es": "policía por consentimiento"
+  },
+  {
+   "id": "se-1-03",
+   "lessonId": "se-1",
+   "front": "Who founded the Metropolitan Police and when?",
+   "back": "Sir Robert Peel, 1829",
+   "es": "Robert Peel, 1829"
+  },
+  {
+   "id": "se-1-05",
+   "lessonId": "se-1",
+   "front": "Peel: the basic mission of the police",
+   "back": "To prevent crime and disorder",
+   "es": "prevenir delito y desorden"
+  },
+  {
+   "id": "se-1-07",
+   "lessonId": "se-1",
+   "front": "Peel: 'The police are the public…'",
+   "back": "'…and the public are the police'",
+   "es": "la policía es el público y el público es la policía"
+  },
+  {
+   "id": "se-1-09",
+   "lessonId": "se-1",
+   "front": "Peel: test of police efficiency",
+   "back": "The absence of crime and disorder, not visible police action",
+   "es": "ausencia de delito"
+  },
+  {
+   "id": "se-2-06",
+   "lessonId": "se-2",
+   "front": "AFO / ARV",
+   "back": "Authorised Firearms Officer / Armed Response Vehicle",
+   "es": "agente armado / vehículo de respuesta armada"
+  },
+  {
+   "id": "se-2-08",
+   "lessonId": "se-2",
+   "front": "Typical personal safety equipment",
+   "back": "handcuffs, baton, PAVA spray, BWV (and Taser if trained and authorised)",
+   "es": "equipo habitual"
+  },
+  {
+   "id": "se-2-10",
+   "lessonId": "se-2",
+   "front": "Is there a compulsory ID card in the UK?",
+   "back": "No – and generally no duty to carry ID",
+   "es": "no hay DNI obligatorio"
+  },
+  {
+   "id": "se-2-12",
+   "lessonId": "se-2",
+   "front": "Use of force must be…",
+   "back": "necessary, proportionate and reasonable – and recorded",
+   "es": "necesaria, proporcionada, razonable"
+  },
+  {
+   "id": "se-2-14",
+   "lessonId": "se-2",
+   "front": "Polite way to ask for ID",
+   "back": "'Have you got any ID on you?'",
+   "es": "pedir documentación con educación"
+  }
+ ]
+}

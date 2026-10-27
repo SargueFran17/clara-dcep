@@ -1,0 +1,82 @@
+{
+ "_comment": "Flashcards de la asignatura 'sj'. Edítalas aquí.",
+ "cards": [
+  {
+   "id": "sj-1-01",
+   "lessonId": "sj-1",
+   "front": "How many territorial police forces in England and Wales?",
+   "back": "43",
+   "es": "43"
+  },
+  {
+   "id": "sj-1-03",
+   "lessonId": "sj-1",
+   "front": "PCC",
+   "back": "Police and Crime Commissioner – elected; sets priorities and budget, holds the Chief Constable to account",
+   "es": "comisionado electo"
+  },
+  {
+   "id": "sj-1-05",
+   "lessonId": "sj-1",
+   "front": "IOPC",
+   "back": "Independent Office for Police Conduct – complaints and serious conduct matters",
+   "es": "quejas"
+  },
+  {
+   "id": "sj-1-07",
+   "lessonId": "sj-1",
+   "front": "HMICFRS",
+   "back": "Inspects police forces (e.g. PEEL inspections)",
+   "es": "inspección"
+  },
+  {
+   "id": "sj-1-09",
+   "lessonId": "sj-1",
+   "front": "College of Policing",
+   "back": "Professional body: standards, Code of Ethics, APP, PIP, NIE",
+   "es": "estándares y formación"
+  },
+  {
+   "id": "sj-1-11",
+   "lessonId": "sj-1",
+   "front": "Operational independence",
+   "back": "The Chief Constable decides how to police; the PCC sets priorities",
+   "es": "independencia operativa"
+  },
+  {
+   "id": "sj-2-07",
+   "lessonId": "sj-2",
+   "front": "Ranks in order",
+   "back": "Constable, Sergeant, Inspector, Chief Inspector, Superintendent, Chief Superintendent, ACC, DCC, Chief Constable",
+   "es": "rangos"
+  },
+  {
+   "id": "sj-2-09",
+   "lessonId": "sj-2",
+   "front": "Is a DC higher than a PC?",
+   "back": "No – same rank; 'Detective' is the role",
+   "es": "mismo rango"
+  },
+  {
+   "id": "sj-2-11",
+   "lessonId": "sj-2",
+   "front": "PIP levels",
+   "back": "1 volume crime · 2 serious & complex (detectives) · 3 major crime (SIO) · 4 strategic",
+   "es": "niveles PIP"
+  },
+  {
+   "id": "sj-2-13",
+   "lessonId": "sj-2",
+   "front": "Which PIP level needs the NIE?",
+   "back": "PIP 2 (detective)",
+   "es": "PIP 2"
+  },
+  {
+   "id": "sj-2-15",
+   "lessonId": "sj-2",
+   "front": "CID",
+   "back": "Criminal Investigation Department – detectives",
+   "es": "departamento de detectives"
+  }
+ ]
+}

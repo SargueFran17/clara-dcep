@@ -1,0 +1,185 @@
+{
+ "_comment": "Mini-tests de la asignatura 'vo' (preguntas originales).",
+ "questions": [
+  {
+   "id": "vo-1-q1",
+   "lessonId": "vo-1",
+   "scenario": "Choose the correct sentence for a report.",
+   "options": [
+    "I arrested him for theft.",
+    "I arrested him by theft.",
+    "I arrested him of theft.",
+    "I arrested him to theft."
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: arrest someone FOR an offence.",
+    "Wrong preposition.",
+    "Wrong preposition.",
+    "Wrong preposition."
+   ]
+  },
+  {
+   "id": "vo-1-q2",
+   "lessonId": "vo-1",
+   "scenario": "Which word means 'to transport a prisoner'?",
+   "options": [
+    "to carry",
+    "to bring up",
+    "to convey",
+    "to deliver"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too informal / not the police term.",
+    "Means to raise a topic or a child.",
+    "Correct: 'He was conveyed to custody.'",
+    "Not used for prisoners."
+   ]
+  },
+  {
+   "id": "vo-1-q3",
+   "lessonId": "vo-1",
+   "scenario": "'He was arrested ___ suspicion ___ burglary.'",
+   "options": [
+    "in / for",
+    "on / of",
+    "for / of",
+    "by / for"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: on suspicion of.",
+    "Incorrect.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "vo-1-q4",
+   "lessonId": "vo-1",
+   "scenario": "Which sentence uses 'grounds' correctly?",
+   "options": [
+    "My ground of arrest was…",
+    "My grounds of the arrest was…",
+    "The ground to arrest is…",
+    "My grounds for arrest were…"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Use the plural 'grounds' + 'for'.",
+    "Wrong preposition and verb agreement.",
+    "Unnatural in this context.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "vo-1-q5",
+   "lessonId": "vo-1",
+   "scenario": "A person who is kept for a search but not arrested has been…",
+   "options": [
+    "arrested",
+    "charged",
+    "detained",
+    "remanded"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Arrest is a different, formal step.",
+    "Charge is a formal accusation.",
+    "Correct: detained for the purpose of a search.",
+    "Remand is by a court."
+   ]
+  },
+  {
+   "id": "vo-2-q1",
+   "lessonId": "vo-2",
+   "scenario": "Who is usually the custody officer?",
+   "options": [
+    "A sergeant",
+    "A constable",
+    "A superintendent",
+    "A solicitor"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: normally at least the rank of sergeant.",
+    "Usually not.",
+    "Superintendents authorise extensions.",
+    "A solicitor gives legal advice."
+   ]
+  },
+  {
+   "id": "vo-2-q2",
+   "lessonId": "vo-2",
+   "scenario": "Which is NOT one of the three main rights explained on booking in?",
+   "options": [
+    "To have someone informed",
+    "To consult a solicitor",
+    "To choose which officer interviews them",
+    "To consult the Codes of Practice"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It is a right.",
+    "It is a right.",
+    "Correct: there is no such right.",
+    "It is a right."
+   ]
+  },
+  {
+   "id": "vo-2-q3",
+   "lessonId": "vo-2",
+   "scenario": "'He decided to give up his right to legal advice.' Which verb fits best?",
+   "options": [
+    "wave",
+    "waive",
+    "refuse to",
+    "lose"
+   ],
+   "correct": 1,
+   "explanations": [
+    "'Wave' = mover la mano.",
+    "Correct: to waive a right.",
+    "Possible but less precise ('declined').",
+    "Not the right meaning."
+   ]
+  },
+  {
+   "id": "vo-2-q4",
+   "lessonId": "vo-2",
+   "scenario": "A person is released without bail while enquiries continue. This is…",
+   "options": [
+    "NFA",
+    "a charge",
+    "a remand",
+    "RUI"
+   ],
+   "correct": 3,
+   "explanations": [
+    "NFA means the case is closed.",
+    "A charge is a formal accusation.",
+    "Remand is by a court.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "vo-2-q5",
+   "lessonId": "vo-2",
+   "scenario": "Which sentence is correct?",
+   "options": [
+    "He has right to a lawyer.",
+    "He has the right of a solicitor.",
+    "He is entitled to legal advice.",
+    "He is entitled of a solicitor."
+   ],
+   "correct": 2,
+   "explanations": [
+    "Missing 'the'.",
+    "Wrong preposition.",
+    "Correct.",
+    "Wrong preposition."
+   ]
+  }
+ ]
+}
