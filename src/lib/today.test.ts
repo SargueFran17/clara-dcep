@@ -28,8 +28,11 @@ describe('Hoy', () => {
   })
 
   it('día de academia: capítulo NIE + diario', () => {
-    const tasks = buildTasks('2026-12-29', plan, { ...empty, doneLessons: new Set(preAcademyOrder) })
-    expect(tasks.some((t) => t.key === 'nie:1.3')).toBe(true)
+    const first = buildTasks('2026-12-29', plan, { ...empty, doneLessons: new Set(preAcademyOrder) })
+    expect(first.some((t) => t.key.startsWith('nie:'))).toBe(false) // el NIE empieza el 02/01
+    expect(first.some((t) => t.key === 'event:academyStudy')).toBe(true)
+    const tasks = buildTasks('2027-01-04', plan, { ...empty, doneLessons: new Set(preAcademyOrder) })
+    expect(tasks.some((t) => t.key.startsWith('nie:'))).toBe(true)
     expect(tasks.some((t) => t.key === 'event:academyDiary')).toBe(true)
     expect(tasks.filter((t) => t.section === 'overdue')).toEqual([])
   })

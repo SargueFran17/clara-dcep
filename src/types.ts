@@ -52,6 +52,8 @@ export interface Settings {
   xmasStart: ISODate
   xmasEnd: ISODate
   academyStart: ISODate
+  /** inicio de la 1ª vuelta del NIE (puede ser posterior al inicio de la academia) */
+  nieStart: ISODate
   academyEnd: ISODate
   nieBlockStart: ISODate
   nieBlockEnd: ISODate

@@ -11,6 +11,7 @@ export type EventType =
   | 'preReview'
   | 'xmasLight'
   | 'academyDiary'
+  | 'academyStudy'
   | 'academyWeekSummary'
   | 'cumulativeTest'
   | 'mock'
@@ -160,7 +161,11 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
   for (const date of academyDays) {
     const day = days.get(date)!
     const wd = weekday(date)
-    if (wd < 5) day.events.push({ type: 'academyDiary', label: 'Diario de academia (20 min)' })
+    if (wd < 5) {
+      // L–V: estudiar lo visto en la academia ese día, además del diario
+      day.events.push({ type: 'academyStudy', label: 'Estudio de la academia: repasar y completar lo de hoy (40 min)' })
+      day.events.push({ type: 'academyDiary', label: 'Diario de academia: 5 ideas clave, dudas y flashcards (20 min)' })
+    }
     if (wd === 6) {
       day.events.push({ type: 'weeklyReview', label: 'Repasos de la semana (2 h)' })
       day.events.push({ type: 'academyWeekSummary', label: 'Resumen semanal de la academia' })
@@ -209,7 +214,9 @@ function allocateNie(
   // la 1ª vuelta termina el día antes del último día de academia (ese día es el test acumulado)
   const slots: { date: ISODate; start: number; end: number }[] = []
   let cap = 0
-  for (const date of eachDay(s.academyStart, addDays(s.academyEnd, -1))) {
+  // la 1ª vuelta del NIE empieza en nieStart (por defecto 02/01), no el primer día de academia
+  const nieFrom = s.nieStart && s.nieStart > s.academyStart ? s.nieStart : s.academyStart
+  for (const date of eachDay(nieFrom, addDays(s.academyEnd, -1))) {
     const u = nieUnits(weekday(date))
     if (!u) continue
     slots.push({ date, start: cap, end: cap + u })

@@ -15,6 +15,7 @@ const DATE_FIELDS: { key: DateKey; label: string }[] = [
   { key: 'xmasStart', label: 'Navidad: desde' },
   { key: 'xmasEnd', label: 'Navidad: hasta' },
   { key: 'academyStart', label: 'Inicio de la academia' },
+  { key: 'nieStart', label: 'Inicio del estudio NIE (1ª vuelta)' },
   { key: 'academyEnd', label: 'Fin de la 1ª vuelta / academia (semana 17)' },
   { key: 'nieBlockStart', label: 'Bloque NIE: desde' },
   { key: 'nieBlockEnd', label: 'Bloque NIE: hasta' },

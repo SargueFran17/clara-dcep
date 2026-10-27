@@ -7,6 +7,7 @@ export const DEFAULT_SETTINGS: Settings = {
   xmasStart: '2026-12-24',
   xmasEnd: '2026-12-28',
   academyStart: '2026-12-29',
+  nieStart: '2027-01-02',
   academyEnd: '2027-04-25',
   nieBlockStart: '2027-04-26',
   nieBlockEnd: '2027-05-30',

@@ -44,8 +44,9 @@ describe('pre-academia', () => {
 
 describe('NIE 1ª vuelta', () => {
   const order = nieGroups.flat().map((c) => c.chapter)
-  it('empieza con 1.3 el primer día de academia y respeta tu orden', () => {
-    expect(plan.nieRanges.get('1.3')![0]).toBe('2026-12-29')
+  it('empieza con 1.3 el 02/01 (no el primer día de academia) y respeta tu orden', () => {
+    expect(plan.nieRanges.get('1.3')![0]).toBe('2027-01-02')
+    for (const d of ['2026-12-29', '2026-12-30', '2026-12-31', '2027-01-01']) expect(plan.days.get(d)!.nie).toEqual([])
     const starts = order.map((c) => plan.nieRanges.get(c)![0])
     expect([...starts].sort()).toEqual(starts)
   })
@@ -60,6 +61,16 @@ describe('NIE 1ª vuelta', () => {
   })
   it('los domingos no hay capítulo nuevo', () => {
     for (const d of plan.days.values()) if (weekday(d.date) === 6) expect(d.nie).toEqual([])
+  })
+  it('se recalcula si cambias el inicio del NIE', () => {
+    const p = buildPlan({ ...s, nieStart: '2027-01-11' }, inputs)
+    expect(p.nieRanges.get('1.3')![0]).toBe('2027-01-11')
+  })
+  it('L–V de academia: estudio de la academia + diario', () => {
+    const types = plan.days.get('2026-12-29')!.events.map((e) => e.type)
+    expect(types).toContain('academyStudy')
+    expect(types).toContain('academyDiary')
+    expect(plan.days.get('2027-01-03')!.events.map((e) => e.type)).not.toContain('academyStudy') // domingo
   })
   it('se recalcula si cambias el fin de la academia', () => {
     const p = buildPlan({ ...s, academyEnd: '2027-03-28' }, inputs)

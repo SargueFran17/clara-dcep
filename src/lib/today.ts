@@ -51,6 +51,7 @@ function reviewTitle(r: Review): { title: string; subtitle: string; link?: strin
 
 const EVENT_SECTION: Partial<Record<PlanEvent['type'], TaskSection>> = {
   academyDiary: 'academy',
+  academyStudy: 'academy',
   academyWeekSummary: 'academy',
 }
 
@@ -89,7 +90,7 @@ export function buildTasks(date: ISODate, plan: Plan, data: TodayData): Task[] {
     }
     for (const e of day.events) {
       const key = `event:${e.type}${e.group ? `:${e.group}` : ''}`
-      tasks.push({ kind: 'check', key, section: EVENT_SECTION[e.type] ?? 'plan', title: e.label, done: data.checked.has(key), link: e.type === 'academyDiary' ? `/academia/dia/${date}` : EVENT_LINK[e.type] })
+      tasks.push({ kind: 'check', key, section: EVENT_SECTION[e.type] ?? 'plan', title: e.label, done: data.checked.has(key), link: e.type === 'academyDiary' || e.type === 'academyStudy' ? `/academia/dia/${date}` : EVENT_LINK[e.type] })
     }
     // 3. Entreno
     day.workouts.forEach((w, i) => {
