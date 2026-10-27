@@ -462,6 +462,90 @@
    "front": "s. 101(3)",
    "back": "Fairness exclusion for gateways (d) and (g)",
    "es": "exclusión por equidad"
+  },
+  {
+   "id": "nie-1.12-01",
+   "lessonId": "nie-1.12",
+   "front": "Directed surveillance (s. 26(2))",
+   "back": "Covert, not intrusive, specific operation, likely private information, not immediate response",
+   "es": "dirigida"
+  },
+  {
+   "id": "nie-1.12-02",
+   "lessonId": "nie-1.12",
+   "front": "Intrusive surveillance (s. 26(3))",
+   "back": "Residential premises / private vehicle with person or device inside (or equivalent-quality device outside)",
+   "es": "intrusiva"
+  },
+  {
+   "id": "nie-1.12-03",
+   "lessonId": "nie-1.12",
+   "front": "CHIS (s. 26(8))",
+   "back": "Establishes/maintains a relationship for covert purpose of obtaining or disclosing information",
+   "es": "CHIS"
+  },
+  {
+   "id": "nie-1.12-04",
+   "lessonId": "nie-1.12",
+   "front": "CHIS must have…",
+   "back": "Handler, controller and records (s. 29(5))",
+   "es": "handler y controller"
+  },
+  {
+   "id": "nie-1.12-05",
+   "lessonId": "nie-1.12",
+   "front": "Effect of authorisation",
+   "back": "Lawful for all purposes (s. 27)",
+   "es": "s. 27"
+  },
+  {
+   "id": "nie-1.12-06",
+   "lessonId": "nie-1.12",
+   "front": "Grounds (s. 28(3))",
+   "back": "National security · preventing/detecting crime or disorder · economic well-being · public safety · public health · tax",
+   "es": "motivos"
+  },
+  {
+   "id": "nie-1.12-07",
+   "lessonId": "nie-1.12",
+   "front": "Intrusive grounds",
+   "back": "National security · serious crime · economic well-being",
+   "es": "solo graves"
+  },
+  {
+   "id": "nie-1.12-08",
+   "lessonId": "nie-1.12",
+   "front": "Directed – who & how long (⚠)",
+   "back": "Superintendent (urgent: inspector) · 3 months (urgent oral 72 h)",
+   "es": "3 meses"
+  },
+  {
+   "id": "nie-1.12-09",
+   "lessonId": "nie-1.12",
+   "front": "CHIS – who & how long (⚠)",
+   "back": "Superintendent · 12 months (juvenile 4 months)",
+   "es": "12 meses"
+  },
+  {
+   "id": "nie-1.12-10",
+   "lessonId": "nie-1.12",
+   "front": "Intrusive – who (⚠)",
+   "back": "Chief officer + Judicial Commissioner prior approval",
+   "es": "jefe + comisionado judicial"
+  },
+  {
+   "id": "nie-1.12-11",
+   "lessonId": "nie-1.12",
+   "front": "Collateral intrusion",
+   "back": "Interference with privacy of people other than the subject",
+   "es": "intrusión colateral"
+  },
+  {
+   "id": "nie-1.12-12",
+   "lessonId": "nie-1.12",
+   "front": "Main ECHR article",
+   "back": "Article 8 – private and family life",
+   "es": "art. 8"
   }
  ]
 }

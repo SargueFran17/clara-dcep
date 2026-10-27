@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.12. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.12-01",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Officers plan to covertly follow a suspect in public places over several days to identify his associates. Which type of activity is this under RIPA 2000?",
+   "options": [
+    "Directed surveillance",
+    "Intrusive surveillance",
+    "Use of a CHIS",
+    "Not surveillance"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: covert, specific operation, likely to obtain private information.",
+    "Not in residential premises/private vehicle.",
+    "No relationship is being used.",
+    "It is surveillance."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Directed surveillance – s. 26(2)"
+  },
+  {
+   "id": "1.12-02",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "PC FOX, on patrol, sees a man trying car door handles and watches him from a doorway for a few minutes before arresting him. Does this need a RIPA authorisation?",
+   "options": [
+    "Yes, directed surveillance",
+    "Yes, intrusive surveillance",
+    "No – it is an immediate response to events",
+    "Yes, CHIS"
+   ],
+   "correct": 2,
+   "explanations": [
+    "The immediate response exception applies.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Directed – immediate response"
+  },
+  {
+   "id": "1.12-03",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "A listening device is placed inside a suspect's private car. Which type of surveillance is this?",
+   "options": [
+    "Directed",
+    "Intrusive",
+    "Overt",
+    "CHIS"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: private vehicle + device inside.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Intrusive surveillance – s. 26(3)"
+  },
+  {
+   "id": "1.12-04",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "A device outside a house picks up conversations inside with the same quality as if it were inside. How is it treated?",
+   "options": [
+    "As directed surveillance always",
+    "As not surveillance",
+    "As a CHIS",
+    "As intrusive surveillance"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct: same quality and detail as if on the premises."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Intrusive – device outside"
+  },
+  {
+   "id": "1.12-05",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which statement best describes a CHIS?",
+   "options": [
+    "Any member of the public who calls the police",
+    "A police officer in uniform",
+    "A person who establishes or maintains a relationship for the covert purpose of obtaining or disclosing information",
+    "A CCTV operator"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not necessarily.",
+    "Overt.",
+    "Correct: s. 26(8).",
+    "Not by itself."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · CHIS – definition"
+  },
+  {
+   "id": "1.12-06",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "A neighbour, at police request, befriends a suspect to find out about planned burglaries. What is she?",
+   "options": [
+    "A CHIS requiring authorisation",
+    "A witness only",
+    "An informant not covered by RIPA",
+    "An intrusive surveillance device"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "She is doing more than witnessing.",
+    "She is covered.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · CHIS"
+  },
+  {
+   "id": "1.12-07",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Every CHIS must have, under s. 29(5) RIPA (in general)…",
+   "options": [
+    "a solicitor",
+    "a written contract",
+    "a court order",
+    "a handler and a controller, and proper records"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Not necessarily.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · CHIS – handler and controller"
+  },
+  {
+   "id": "1.12-08",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which is the usual police authorising officer for directed surveillance (non-urgent, no confidential information) (⚠ check edition)?",
+   "options": [
+    "Sergeant",
+    "Superintendent",
+    "Inspector",
+    "Chief Constable"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too low.",
+    "Correct.",
+    "Urgent cases only.",
+    "Not required for directed."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Directed – authorisation"
+  },
+  {
+   "id": "1.12-09",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "How long does a written directed surveillance authorisation last unless renewed or cancelled (⚠ check edition)?",
+   "options": [
+    "3 months",
+    "72 hours",
+    "1 month",
+    "12 months"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Urgent oral.",
+    "No.",
+    "CHIS."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Directed – duration"
+  },
+  {
+   "id": "1.12-10",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "How long does a standard (adult) CHIS authorisation last (⚠ check edition)?",
+   "options": [
+    "3 months",
+    "4 months",
+    "12 months",
+    "No time limit"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Directed surveillance.",
+    "Juvenile CHIS.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · CHIS – duration"
+  },
+  {
+   "id": "1.12-11",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Intrusive surveillance by police normally requires…",
+   "options": [
+    "a superintendent's authorisation only",
+    "authorisation by the chief officer and prior approval of a Judicial Commissioner (except urgent cases)",
+    "a sergeant's verbal authority",
+    "no authorisation"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too low.",
+    "Correct.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Intrusive – authorisation"
+  },
+  {
+   "id": "1.12-12",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which ground is available for intrusive surveillance?",
+   "options": [
+    "Assessing tax",
+    "Protecting public health",
+    "Preventing minor disorder",
+    "Preventing or detecting serious crime"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not for intrusive.",
+    "Not for intrusive.",
+    "Not for intrusive.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Intrusive – grounds"
+  },
+  {
+   "id": "1.12-13",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which is a ground for directed surveillance under s. 28(3)?",
+   "options": [
+    "Improving clearance rates",
+    "Political interest",
+    "Preventing or detecting crime or preventing disorder",
+    "Personal curiosity"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not a ground.",
+    "Not a ground.",
+    "Correct.",
+    "Not a ground."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Grounds – s. 28(3)"
+  },
+  {
+   "id": "1.12-14",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Besides necessity, what else must the authorising officer believe?",
+   "options": [
+    "That the activity is proportionate to what it seeks to achieve",
+    "That the activity is cheap",
+    "That the suspect has previous convictions",
+    "That the CPS agrees"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Proportionality"
+  },
+  {
+   "id": "1.12-15",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "'Collateral intrusion' refers to…",
+   "options": [
+    "intrusion into the target's home",
+    "intrusion by the media",
+    "a type of CHIS",
+    "interference with the privacy of people other than the subject"
+   ],
+   "correct": 3,
+   "explanations": [
+    "That's intrusive surveillance.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Collateral intrusion"
+  },
+  {
+   "id": "1.12-16",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "What is the effect of s. 27 RIPA when conduct is properly authorised?",
+   "options": [
+    "It becomes admissible automatically",
+    "It is lawful for all purposes",
+    "It cannot be challenged in court",
+    "It needs CPS approval"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Admissibility is still for the court.",
+    "Correct.",
+    "It can still be challenged.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · s. 27 – lawful for all purposes"
+  },
+  {
+   "id": "1.12-17",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "A town-centre CCTV system with clear signs records the public generally. Is this directed surveillance?",
+   "options": [
+    "No – it is overt and general, not for a specific operation",
+    "Yes",
+    "Only at night",
+    "Yes, intrusive"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (though using it to covertly target a person in a planned way may need authorisation ⚠).",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Overt CCTV"
+  },
+  {
+   "id": "1.12-18",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which article of the ECHR is mainly engaged by covert surveillance?",
+   "options": [
+    "Article 2",
+    "Article 3",
+    "Article 8",
+    "Article 6"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Right to life.",
+    "Torture.",
+    "Correct: private and family life.",
+    "Fair trial (relevant to evidence, but not the main one)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Human rights"
+  },
+  {
+   "id": "1.12-19",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "In an urgent case, a directed surveillance authorisation given orally lasts (⚠ check edition)…",
+   "options": [
+    "24 hours",
+    "72 hours",
+    "7 days",
+    "3 months"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "Written."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Urgent authorisations"
+  },
+  {
+   "id": "1.12-20",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which person is LEAST likely to be a CHIS?",
+   "options": [
+    "An undercover officer infiltrating a gang",
+    "An informant tasked to maintain contact with a dealer",
+    "A person tasked to befriend a suspect online",
+    "A member of the public who rings once to report a crime they saw"
+   ],
+   "correct": 3,
+   "explanations": [
+    "CHIS.",
+    "CHIS.",
+    "CHIS.",
+    "Correct: no covert relationship being used."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · CHIS"
+  },
+  {
+   "id": "1.12-21",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "What does 'status drift' refer to?",
+   "options": [
+    "A CHIS changing handler",
+    "A change in a suspect's address",
+    "A member of the public gradually becoming a CHIS without authorisation",
+    "Drift of a surveillance vehicle"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Status drift"
+  },
+  {
+   "id": "1.12-22",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Surveillance likely to obtain legally privileged or confidential information requires…",
+   "options": [
+    "a higher level of authorisation",
+    "the same authorisation as any directed surveillance",
+    "no authorisation",
+    "only a sergeant"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ check rank).",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Confidential information"
+  },
+  {
+   "id": "1.12-23",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "A juvenile CHIS authorisation lasts (⚠ check edition)…",
+   "options": [
+    "12 months",
+    "3 months",
+    "1 week",
+    "4 months"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Adult.",
+    "Directed.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Juvenile CHIS"
+  },
+  {
+   "id": "1.12-24",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which law allows criminal conduct authorisations for CHIS in limited circumstances?",
+   "options": [
+    "PACE 1984",
+    "CHIS (Criminal Conduct) Act 2021",
+    "Theft Act 1968",
+    "Bail Act 1976"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct (s. 29B RIPA).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · CHIS criminal conduct"
+  },
+  {
+   "id": "1.12-25",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "What should happen when an authorisation is no longer necessary?",
+   "options": [
+    "Cancel it",
+    "Leave it until it expires",
+    "Renew it",
+    "Transfer it"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Cancellation"
+  },
+  {
+   "id": "1.12-26",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Surveillance is 'covert' when…",
+   "options": [
+    "it is done at night",
+    "it uses cameras",
+    "it is carried out in a manner calculated to ensure the subject is unaware of it",
+    "it is in a building"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not the definition.",
+    "Not necessarily.",
+    "Correct: s. 26(9)(a).",
+    "Not necessarily."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Covert – definition"
+  },
+  {
+   "id": "1.12-27",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Officers watch a suspect's house covertly from a car parked in the street with binoculars for several days. Which is correct?",
+   "options": [
+    "Intrusive, because it concerns a house",
+    "Directed, because they are not on the premises and the quality is not equivalent to being inside",
+    "Not surveillance",
+    "CHIS"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not intrusive unless equivalent quality.",
+    "Correct.",
+    "It is surveillance.",
+    "No relationship."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Directed vs intrusive"
+  },
+  {
+   "id": "1.12-28",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "An undercover officer joins an online forum and builds a relationship with members to obtain information. Is this a CHIS?",
+   "options": [
+    "No, online activity is never covered",
+    "Only if offline meetings occur",
+    "Only for terrorism",
+    "Yes, it can be a CHIS (relationship maintained covertly)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "Incorrect.",
+    "Correct (⚠ check online guidance)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Online CHIS"
+  },
+  {
+   "id": "1.12-29",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "Which part of RIPA 2000 governs surveillance and CHIS?",
+   "options": [
+    "Part I",
+    "Part IV",
+    "Part II",
+    "Schedule 1"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Interception (largely replaced by IPA 2016).",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · RIPA structure"
+  },
+  {
+   "id": "1.12-30",
+   "chapter": "1.12",
+   "lessonId": "nie-1.12",
+   "scenario": "An authorising officer considers whether the same information could be obtained by less intrusive means. Which test is this?",
+   "options": [
+    "Necessity/proportionality",
+    "Full Code Test",
+    "Turnbull",
+    "Threshold test"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "CPS charging.",
+    "Identification.",
+    "Charging."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.12 · Proportionality"
+  }
+ ]
+}
