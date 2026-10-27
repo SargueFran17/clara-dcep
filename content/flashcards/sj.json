@@ -112,6 +112,83 @@
    "front": "Who sets out police vs CPS charging?",
    "back": "The Director's Guidance on Charging",
    "es": "guía del DPP"
+  },
+  {
+   "id": "sj-4-01",
+   "lessonId": "sj-4",
+   "front": "Where do all criminal cases start?",
+   "back": "Magistrates' court",
+   "es": "juzgado de magistrados"
+  },
+  {
+   "id": "sj-4-02",
+   "lessonId": "sj-4",
+   "front": "Youth court",
+   "back": "Defendants aged 10–17",
+   "es": "menores 10–17"
+  },
+  {
+   "id": "sj-4-03",
+   "lessonId": "sj-4",
+   "front": "Appeal on a point of law from magistrates",
+   "back": "High Court – 'case stated'",
+   "es": "case stated"
+  },
+  {
+   "id": "sj-4-04",
+   "lessonId": "sj-4",
+   "front": "Appeal from the Crown Court",
+   "back": "Court of Appeal (Criminal Division)",
+   "es": "Tribunal de Apelación"
+  },
+  {
+   "id": "sj-4-05",
+   "lessonId": "sj-4",
+   "front": "Age of criminal responsibility",
+   "back": "10 (under 10 = doli incapax)",
+   "es": "10 años"
+  },
+  {
+   "id": "sj-5-01",
+   "lessonId": "sj-5",
+   "front": "Summary-only examples",
+   "back": "Common assault; most minor motoring offences",
+   "es": "delitos leves"
+  },
+  {
+   "id": "sj-5-02",
+   "lessonId": "sj-5",
+   "front": "Either-way examples",
+   "back": "Theft, most burglaries, ABH, fraud, drug possession",
+   "es": "mixtos"
+  },
+  {
+   "id": "sj-5-03",
+   "lessonId": "sj-5",
+   "front": "Indictable-only examples",
+   "back": "Murder, manslaughter, robbery, rape, s. 18 GBH",
+   "es": "graves"
+  },
+  {
+   "id": "sj-5-04",
+   "lessonId": "sj-5",
+   "front": "Woolmington v DPP (1935)",
+   "back": "Prosecution must prove guilt – the 'golden thread'",
+   "es": "hilo dorado"
+  },
+  {
+   "id": "sj-5-05",
+   "lessonId": "sj-5",
+   "front": "Criminal standard of proof",
+   "back": "Sure / beyond reasonable doubt",
+   "es": "más allá de duda razonable"
+  },
+  {
+   "id": "sj-5-06",
+   "lessonId": "sj-5",
+   "front": "Reverse burden standard",
+   "back": "Balance of probabilities (e.g. good reason, s. 139 CJA 1988)",
+   "es": "balance de probabilidades"
   }
  ]
 }

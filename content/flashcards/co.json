@@ -77,6 +77,41 @@
    "front": "Urgent assistance – most important information",
    "back": "WHERE you are",
    "es": "dónde estás"
+  },
+  {
+   "id": "co-3-01",
+   "lessonId": "co-3",
+   "front": "ELBOWS",
+   "back": "no Erasures, Leaves torn out, Blank spaces, Overwriting, Writing between lines, Spare pages",
+   "es": "reglas de la libreta"
+  },
+  {
+   "id": "co-3-02",
+   "lessonId": "co-3",
+   "front": "How to correct a mistake in the PNB",
+   "back": "Single line through (still readable), initial, write correction",
+   "es": "una línea + iniciales"
+  },
+  {
+   "id": "co-3-03",
+   "lessonId": "co-3",
+   "front": "Suspect's words in the PNB",
+   "back": "Exactly, in direct speech, in quotes",
+   "es": "palabra por palabra"
+  },
+  {
+   "id": "co-3-04",
+   "lessonId": "co-3",
+   "front": "Can you refresh memory from your notes in court?",
+   "back": "Yes, if made at the time or as soon as practicable afterwards (⚠ check criteria)",
+   "es": "sí, si son contemporáneas"
+  },
+  {
+   "id": "co-3-05",
+   "lessonId": "co-3",
+   "front": "Ink colour",
+   "back": "Black",
+   "es": "negra"
   }
  ]
 }

@@ -112,6 +112,48 @@
    "front": "Is there a general priority to the right?",
    "back": "No – priority comes from signs and markings",
    "es": "no"
+  },
+  {
+   "id": "dr-4-01",
+   "lessonId": "dr-4",
+   "front": "MUST in the Highway Code",
+   "back": "Legal requirement – breaking it is an offence",
+   "es": "obligación legal"
+  },
+  {
+   "id": "dr-4-02",
+   "lessonId": "dr-4",
+   "front": "should in the Highway Code",
+   "back": "Advice – can be used as evidence",
+   "es": "consejo, pero sirve como prueba"
+  },
+  {
+   "id": "dr-4-03",
+   "lessonId": "dr-4",
+   "front": "Hierarchy of road users",
+   "back": "Those who can do the greatest harm have the greatest responsibility",
+   "es": "jerarquía"
+  },
+  {
+   "id": "dr-4-04",
+   "lessonId": "dr-4",
+   "front": "Rule H2",
+   "back": "Give way to pedestrians crossing or waiting to cross a road you turn into/from",
+   "es": "ceder a peatones en cruces"
+  },
+  {
+   "id": "dr-4-05",
+   "lessonId": "dr-4",
+   "front": "Rule H3",
+   "back": "Don't cut across cyclists/horse riders going ahead when turning",
+   "es": "no cortar a ciclistas"
+  },
+  {
+   "id": "dr-4-06",
+   "lessonId": "dr-4",
+   "front": "Children's seat belts",
+   "back": "Driver responsible for under 14s",
+   "es": "menores de 14"
   }
  ]
 }

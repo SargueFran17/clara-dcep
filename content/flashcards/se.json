@@ -112,6 +112,41 @@
    "front": "Jurisprudence vs case law",
    "back": "case law = decisions of courts; jurisprudence = legal theory",
    "es": "jurisprudencia"
+  },
+  {
+   "id": "se-4-01",
+   "lessonId": "se-4",
+   "front": "The caution (Code C 10.5)",
+   "back": "You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence.",
+   "es": "caution completa"
+  },
+  {
+   "id": "se-4-02",
+   "lessonId": "se-4",
+   "front": "Adverse inference from silence – statute",
+   "back": "Criminal Justice and Public Order Act 1994, s. 34",
+   "es": "CJPOA 1994 s. 34"
+  },
+  {
+   "id": "se-4-03",
+   "lessonId": "se-4",
+   "front": "Restricted caution",
+   "back": "You do not have to say anything, but anything you do say may be given in evidence.",
+   "es": "caution restringida"
+  },
+  {
+   "id": "se-4-04",
+   "lessonId": "se-4",
+   "front": "When must a suspect be cautioned?",
+   "back": "Before questions about involvement when there are grounds to suspect; on arrest; before interview; on charge",
+   "es": "cuándo"
+  },
+  {
+   "id": "se-4-05",
+   "lessonId": "se-4",
+   "front": "Spanish equivalent",
+   "back": "Lectura de derechos – art. 520 LECrim",
+   "es": "art. 520 LECrim"
   }
  ]
 }

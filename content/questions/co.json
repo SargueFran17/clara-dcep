@@ -180,6 +180,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "co-3-q1",
+   "lessonId": "co-3",
+   "scenario": "How should you correct a mistake in your pocket notebook?",
+   "options": [
+    "One line through it, still readable, initialled",
+    "Correction fluid",
+    "Rub it out",
+    "Tear out the page"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Breaks E (erasures).",
+    "Breaks E.",
+    "Breaks L (leaves torn out)."
+   ]
+  },
+  {
+   "id": "co-3-q2",
+   "lessonId": "co-3",
+   "scenario": "A suspect says something important on the way to custody. How do you record it?",
+   "options": [
+    "A summary in your words",
+    "Nothing until interview",
+    "His exact words in direct speech",
+    "Only the time"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not enough.",
+    "Record it as soon as practicable.",
+    "Correct.",
+    "Not enough."
+   ]
+  },
+  {
+   "id": "co-3-q3",
+   "lessonId": "co-3",
+   "scenario": "What does the 'B' in ELBOWS stand for?",
+   "options": [
+    "Black ink",
+    "no Blank spaces",
+    "Bad handwriting",
+    "Briefing"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Also a rule, but not the B.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "co-3-q4",
+   "lessonId": "co-3",
+   "scenario": "Why can the defence look at your notebook?",
+   "options": [
+    "Never",
+    "Only if you agree",
+    "Only if you lose it",
+    "It may be disclosed and used in court"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "co-3-q5",
+   "lessonId": "co-3",
+   "scenario": "Entries in the notebook must be in…",
+   "options": [
+    "alphabetical order",
+    "any order",
+    "chronological order",
+    "order of importance"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

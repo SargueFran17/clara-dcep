@@ -270,6 +270,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "se-4-q1",
+   "lessonId": "se-4",
+   "scenario": "Which is the first sentence of the UK caution?",
+   "options": [
+    "You do not have to say anything.",
+    "You have the right to remain silent.",
+    "Anything you say can be used against you.",
+    "You are under arrest."
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "US Miranda wording.",
+    "Not the UK wording.",
+    "Not the caution."
+   ]
+  },
+  {
+   "id": "se-4-q2",
+   "lessonId": "se-4",
+   "scenario": "Which law allows adverse inferences from silence in some cases?",
+   "options": [
+    "PACE 1984 s. 24",
+    "Theft Act 1968",
+    "CJPOA 1994 s. 34",
+    "Equality Act 2010"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Arrest power.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-4-q3",
+   "lessonId": "se-4",
+   "scenario": "When is the restricted caution used?",
+   "options": [
+    "Always",
+    "When adverse inferences cannot be drawn",
+    "For children only",
+    "On the radio"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-4-q4",
+   "lessonId": "se-4",
+   "scenario": "A suspect looks confused after the caution. You should…",
+   "options": [
+    "repeat it faster",
+    "ignore it",
+    "stop the arrest",
+    "explain it in your own words and check understanding"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "se-4-q5",
+   "lessonId": "se-4",
+   "scenario": "A key difference with Spain is that in England and Wales…",
+   "options": [
+    "suspects have no lawyer",
+    "there is no right to silence",
+    "silence may lead to adverse inferences in some circumstances",
+    "the caution is optional"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "There is a right to silence.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

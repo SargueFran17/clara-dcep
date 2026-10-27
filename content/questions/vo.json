@@ -360,6 +360,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "vo-5-q1",
+   "lessonId": "vo-5",
+   "scenario": "Which sentence is correct?",
+   "options": [
+    "He stole my phone.",
+    "He robbed my phone.",
+    "He stole me.",
+    "He robbed of my phone."
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "rob + person/place.",
+    "steal + thing.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "vo-5-q2",
+   "lessonId": "vo-5",
+   "scenario": "'He was charged ___ burglary.'",
+   "options": [
+    "of",
+    "for",
+    "with",
+    "by"
+   ],
+   "correct": 2,
+   "explanations": [
+    "'convicted of'.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "vo-5-q3",
+   "lessonId": "vo-5",
+   "scenario": "A person released from prison under supervision is…",
+   "options": [
+    "on bail",
+    "on licence",
+    "on remand",
+    "acquitted"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Before trial.",
+    "Correct.",
+    "In custody before trial.",
+    "Not guilty."
+   ]
+  },
+  {
+   "id": "vo-5-q4",
+   "lessonId": "vo-5",
+   "scenario": "Correct word for 'antecedentes penales'",
+   "options": [
+    "antecedents",
+    "old crimes",
+    "priors only",
+    "previous convictions"
+   ],
+   "correct": 3,
+   "explanations": [
+    "False friend.",
+    "Not used.",
+    "US slang.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "vo-5-q5",
+   "lessonId": "vo-5",
+   "scenario": "'They ___ into the shed and ___ two bikes.'",
+   "options": [
+    "broke / robbed",
+    "robbed / stole",
+    "broke / stole",
+    "entered in / robbed"
+   ],
+   "correct": 2,
+   "explanations": [
+    "rob is wrong with bikes.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ]
   }
  ]
 }

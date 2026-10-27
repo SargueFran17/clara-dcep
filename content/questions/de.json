@@ -270,6 +270,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "de-4-q1",
+   "lessonId": "de-4",
+   "scenario": "A plate 'XX76 ABC' was first registered around…",
+   "options": [
+    "September 2026",
+    "1976",
+    "March 2026",
+    "2076"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (September = year + 50).",
+    "Old formats differ.",
+    "That's 26.",
+    "No."
+   ]
+  },
+  {
+   "id": "de-4-q2",
+   "lessonId": "de-4",
+   "scenario": "The offside of a UK car is…",
+   "options": [
+    "the left",
+    "the front",
+    "the right (driver's side)",
+    "the back"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's nearside.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "de-4-q3",
+   "lessonId": "de-4",
+   "scenario": "Correct order for a vehicle description:",
+   "options": [
+    "Registration, make, colour",
+    "Colour, make, model, type, registration",
+    "Model, colour, type",
+    "Any order"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Less standard.",
+    "Correct.",
+    "Incomplete.",
+    "A standard order helps."
+   ]
+  },
+  {
+   "id": "de-4-q4",
+   "lessonId": "de-4",
+   "scenario": "The rear UK number plate is…",
+   "options": [
+    "white",
+    "blue",
+    "black",
+    "yellow"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Front.",
+    "No.",
+    "Old plates only.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "de-4-q5",
+   "lessonId": "de-4",
+   "scenario": "British word for 'maletero'",
+   "options": [
+    "trunk",
+    "bonnet",
+    "boot",
+    "hood"
+   ],
+   "correct": 2,
+   "explanations": [
+    "American.",
+    "Capó.",
+    "Correct.",
+    "American 'capó'."
+   ]
   }
  ]
 }

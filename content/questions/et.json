@@ -270,6 +270,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "et-4-q1",
+   "lessonId": "et-4",
+   "scenario": "Which is NOT a protected characteristic?",
+   "options": [
+    "Social class",
+    "Age",
+    "Disability",
+    "Sexual orientation"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Protected.",
+    "Protected.",
+    "Protected."
+   ]
+  },
+  {
+   "id": "et-4-q2",
+   "lessonId": "et-4",
+   "scenario": "A neutral rule that disadvantages a group and can't be justified is…",
+   "options": [
+    "direct discrimination",
+    "victimisation",
+    "indirect discrimination",
+    "harassment"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Needs 'because of'.",
+    "Different.",
+    "Correct.",
+    "Different."
+   ]
+  },
+  {
+   "id": "et-4-q3",
+   "lessonId": "et-4",
+   "scenario": "Treating someone badly because they complained of discrimination is…",
+   "options": [
+    "harassment",
+    "victimisation",
+    "positive action",
+    "indirect discrimination"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Different.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "et-4-q4",
+   "lessonId": "et-4",
+   "scenario": "The PSED requires public bodies to have ___ to its three aims.",
+   "options": [
+    "no regard",
+    "full control",
+    "written consent",
+    "due regard"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "et-4-q5",
+   "lessonId": "et-4",
+   "scenario": "Nationality is protected under…",
+   "options": [
+    "religion or belief",
+    "sex",
+    "race",
+    "age"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

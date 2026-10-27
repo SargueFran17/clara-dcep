@@ -270,6 +270,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "dr-4-q1",
+   "lessonId": "dr-4",
+   "scenario": "A Highway Code rule says 'MUST NOT'. Breaking it is…",
+   "options": [
+    "an offence",
+    "just bad manners",
+    "only advice",
+    "allowed at night"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "That's 'should'.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-4-q2",
+   "lessonId": "dr-4",
+   "scenario": "Breaking a 'should' rule…",
+   "options": [
+    "is never relevant",
+    "is always a crime",
+    "is not an offence by itself but can be used as evidence",
+    "cancels your licence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-4-q3",
+   "lessonId": "dr-4",
+   "scenario": "You turn left into a side road and a pedestrian is waiting to cross it. Rule H2 says…",
+   "options": [
+    "drive on",
+    "give way to the pedestrian",
+    "sound the horn",
+    "flash your lights"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-4-q4",
+   "lessonId": "dr-4",
+   "scenario": "Under the hierarchy of road users, who has the greatest responsibility?",
+   "options": [
+    "Pedestrians",
+    "Cyclists",
+    "Horse riders",
+    "Drivers of large vehicles such as HGVs"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Most vulnerable.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-4-q5",
+   "lessonId": "dr-4",
+   "scenario": "Who is responsible for a 12-year-old passenger wearing a seat belt?",
+   "options": [
+    "The child",
+    "The parents only",
+    "The driver",
+    "Nobody"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Under 14: the driver.",
+    "The driver is legally responsible.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

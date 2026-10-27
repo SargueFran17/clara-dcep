@@ -112,6 +112,48 @@
    "front": "Practice requiring improvement",
    "back": "Dealt with by reflective practice",
    "es": "práctica reflexiva"
+  },
+  {
+   "id": "et-4-01",
+   "lessonId": "et-4",
+   "front": "9 protected characteristics",
+   "back": "Age, disability, gender reassignment, marriage & civil partnership, pregnancy & maternity, race, religion or belief, sex, sexual orientation",
+   "es": "9 características"
+  },
+  {
+   "id": "et-4-02",
+   "lessonId": "et-4",
+   "front": "Direct discrimination",
+   "back": "Less favourable treatment because of a protected characteristic (s. 13)",
+   "es": "directa"
+  },
+  {
+   "id": "et-4-03",
+   "lessonId": "et-4",
+   "front": "Indirect discrimination",
+   "back": "Neutral rule causing particular disadvantage, not justified (s. 19)",
+   "es": "indirecta"
+  },
+  {
+   "id": "et-4-04",
+   "lessonId": "et-4",
+   "front": "Victimisation",
+   "back": "Bad treatment because someone complained (s. 27)",
+   "es": "represalia"
+  },
+  {
+   "id": "et-4-05",
+   "lessonId": "et-4",
+   "front": "PSED – 3 aims (s. 149)",
+   "back": "Eliminate discrimination; advance equality of opportunity; foster good relations",
+   "es": "3 objetivos"
+  },
+  {
+   "id": "et-4-06",
+   "lessonId": "et-4",
+   "front": "Is nationality protected?",
+   "back": "Yes – as part of race",
+   "es": "sí, dentro de raza"
   }
  ]
 }

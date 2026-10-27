@@ -175,6 +175,48 @@
    "front": "affirm",
    "back": "promise to tell the truth without a religious oath",
    "es": "prometer"
+  },
+  {
+   "id": "vo-5-01",
+   "lessonId": "vo-5",
+   "front": "steal vs rob",
+   "back": "steal + thing; rob + person/place",
+   "es": "robar algo vs robar a alguien"
+  },
+  {
+   "id": "vo-5-02",
+   "lessonId": "vo-5",
+   "front": "offence vs crime",
+   "back": "offence = legal term; crime = general",
+   "es": "delito"
+  },
+  {
+   "id": "vo-5-03",
+   "lessonId": "vo-5",
+   "front": "be charged ___ / convicted ___",
+   "back": "charged WITH; convicted OF",
+   "es": "with / of"
+  },
+  {
+   "id": "vo-5-04",
+   "lessonId": "vo-5",
+   "front": "suspect → defendant → offender",
+   "back": "before charge → in court → after conviction",
+   "es": "sospechoso → acusado → condenado"
+  },
+  {
+   "id": "vo-5-05",
+   "lessonId": "vo-5",
+   "front": "on licence",
+   "back": "released from prison under supervision",
+   "es": "libertad condicional"
+  },
+  {
+   "id": "vo-5-06",
+   "lessonId": "vo-5",
+   "front": "previous convictions",
+   "back": "a person's criminal record",
+   "es": "antecedentes"
   }
  ]
 }

@@ -126,6 +126,41 @@
    "front": "NS",
    "back": "Not stated",
    "es": "no consta"
+  },
+  {
+   "id": "de-4-01",
+   "lessonId": "de-4",
+   "front": "Vehicle description order",
+   "back": "Colour – Make – Model – Type – Registration",
+   "es": "C-M-M-T-R"
+  },
+  {
+   "id": "de-4-02",
+   "lessonId": "de-4",
+   "front": "Age identifier 26 / 76",
+   "back": "26 = March 2026; 76 = September 2026",
+   "es": "marzo / septiembre"
+  },
+  {
+   "id": "de-4-03",
+   "lessonId": "de-4",
+   "front": "Plate colours",
+   "back": "Front white, rear yellow",
+   "es": "blanca / amarilla"
+  },
+  {
+   "id": "de-4-04",
+   "lessonId": "de-4",
+   "front": "nearside / offside",
+   "back": "left (kerb side) / right (driver's side)",
+   "es": "izquierda / derecha"
+  },
+  {
+   "id": "de-4-05",
+   "lessonId": "de-4",
+   "front": "bonnet / boot",
+   "back": "capó / maletero (US hood / trunk)",
+   "es": "capó / maletero"
   }
  ]
 }

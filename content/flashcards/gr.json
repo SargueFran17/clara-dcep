@@ -175,6 +175,41 @@
    "front": "must have + participle",
    "back": "strong deduction about the past",
    "es": "deducción"
+  },
+  {
+   "id": "gr-6-01",
+   "lessonId": "gr-6",
+   "front": "Passive form",
+   "back": "be + past participle",
+   "es": "be + participio"
+  },
+  {
+   "id": "gr-6-02",
+   "lessonId": "gr-6",
+   "front": "'La puerta había sido forzada'",
+   "back": "The door had been forced.",
+   "es": "pasiva past perfect"
+  },
+  {
+   "id": "gr-6-03",
+   "lessonId": "gr-6",
+   "front": "When to use passive",
+   "back": "Doer unknown/unimportant; legal texts; results",
+   "es": "cuándo"
+  },
+  {
+   "id": "gr-6-04",
+   "lessonId": "gr-6",
+   "front": "Statements: active or passive?",
+   "back": "Prefer active for your own actions: 'I arrested him'",
+   "es": "activa"
+  },
+  {
+   "id": "gr-6-05",
+   "lessonId": "gr-6",
+   "front": "have something done",
+   "back": "She had her bag stolen = it happened to her",
+   "es": "have + objeto + participio"
   }
  ]
 }

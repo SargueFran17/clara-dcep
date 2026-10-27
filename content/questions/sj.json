@@ -270,6 +270,186 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "sj-4-q1",
+   "lessonId": "sj-4",
+   "scenario": "Where does a murder case FIRST appear?",
+   "options": [
+    "Magistrates' court",
+    "Crown Court",
+    "Supreme Court",
+    "Youth court"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Only after the first appearance.",
+    "No.",
+    "Only for under 18s."
+   ]
+  },
+  {
+   "id": "sj-4-q2",
+   "lessonId": "sj-4",
+   "scenario": "Who usually decides cases in the magistrates' court?",
+   "options": [
+    "A jury",
+    "The CPS",
+    "Lay magistrates or a district judge",
+    "A Crown Court judge"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No jury there.",
+    "Prosecutor.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-4-q3",
+   "lessonId": "sj-4",
+   "scenario": "Appeals against conviction from the Crown Court go to…",
+   "options": [
+    "The High Court",
+    "The Court of Appeal (Criminal Division)",
+    "The magistrates' court",
+    "The IOPC"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Case stated is from magistrates.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-4-q4",
+   "lessonId": "sj-4",
+   "scenario": "Can a 9-year-old be convicted of theft?",
+   "options": [
+    "Yes",
+    "Only in the Crown Court",
+    "Only with parental consent",
+    "No – under 10 cannot be criminally responsible"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "sj-4-q5",
+   "lessonId": "sj-4",
+   "scenario": "Magistrates think their sentencing powers are not enough. They can…",
+   "options": [
+    "increase them",
+    "send it to the Supreme Court",
+    "commit the case to the Crown Court for sentence",
+    "dismiss it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-5-q1",
+   "lessonId": "sj-5",
+   "scenario": "Robbery is…",
+   "options": [
+    "indictable only",
+    "summary only",
+    "either-way",
+    "a civil matter"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-5-q2",
+   "lessonId": "sj-5",
+   "scenario": "Who carries the burden of proof in a criminal trial (generally)?",
+   "options": [
+    "The defendant",
+    "The judge",
+    "The prosecution",
+    "The jury"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Only with reverse burdens.",
+    "No.",
+    "Correct (Woolmington).",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-5-q3",
+   "lessonId": "sj-5",
+   "scenario": "The criminal standard of proof is…",
+   "options": [
+    "balance of probabilities",
+    "sure / beyond reasonable doubt",
+    "reasonable suspicion",
+    "realistic prospect"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Civil.",
+    "Correct.",
+    "Arrest threshold.",
+    "Charging test."
+   ]
+  },
+  {
+   "id": "sj-5-q4",
+   "lessonId": "sj-5",
+   "scenario": "A defendant must prove 'good reason' for a knife in public. The standard is…",
+   "options": [
+    "beyond reasonable doubt",
+    "no standard",
+    "reasonable suspicion",
+    "balance of probabilities"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Prosecution standard.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "sj-5-q5",
+   "lessonId": "sj-5",
+   "scenario": "Theft is…",
+   "options": [
+    "summary only",
+    "indictable only",
+    "either-way",
+    "not an offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

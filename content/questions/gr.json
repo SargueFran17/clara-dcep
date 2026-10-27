@@ -450,6 +450,96 @@
     "Correct.",
     "Too weak."
    ]
+  },
+  {
+   "id": "gr-6-q1",
+   "lessonId": "gr-6",
+   "scenario": "'The car ___ during the night.'",
+   "options": [
+    "was stolen",
+    "stole",
+    "was steal",
+    "has stolen"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Active – the car didn't steal.",
+    "Participle needed.",
+    "Wrong meaning."
+   ]
+  },
+  {
+   "id": "gr-6-q2",
+   "lessonId": "gr-6",
+   "scenario": "Passive of 'Officers are interviewing the suspect.'",
+   "options": [
+    "The suspect is interviewed.",
+    "The suspect was interviewing.",
+    "The suspect is being interviewed.",
+    "The suspect has interview."
+   ],
+   "correct": 2,
+   "explanations": [
+    "Simple, not continuous.",
+    "Active.",
+    "Correct.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-6-q3",
+   "lessonId": "gr-6",
+   "scenario": "In your own statement, which is clearer?",
+   "options": [
+    "He was arrested.",
+    "I arrested him.",
+    "Arrest was done.",
+    "There was an arrest."
+   ],
+   "correct": 1,
+   "explanations": [
+    "Who arrested?",
+    "Correct.",
+    "Unclear.",
+    "Unclear."
+   ]
+  },
+  {
+   "id": "gr-6-q4",
+   "lessonId": "gr-6",
+   "scenario": "'It was stolen the car' is wrong because…",
+   "options": [
+    "'stolen' is wrong",
+    "it needs 'by'",
+    "it's correct",
+    "English doesn't use 'se'-type structures like this; subject goes first"
+   ],
+   "correct": 3,
+   "explanations": [
+    "The participle is fine.",
+    "Not required.",
+    "No.",
+    "Correct: The car was stolen."
+   ]
+  },
+  {
+   "id": "gr-6-q5",
+   "lessonId": "gr-6",
+   "scenario": "'She had her bag stolen' means…",
+   "options": [
+    "She stole a bag",
+    "She asked someone to steal it",
+    "Someone stole her bag",
+    "She lost it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not in this context.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }
