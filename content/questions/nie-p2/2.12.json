@@ -1,0 +1,425 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.12. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.12-01",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "What standard of proof applies to a civil injunction under Part 1 ASBCPA 2014?",
+   "options": [
+    "Balance of probabilities",
+    "Beyond reasonable doubt",
+    "No standard",
+    "Prima facie"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's a CBO.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Civil injunction – standard"
+  },
+  {
+   "id": "2.12-02",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "From what age can a civil injunction be granted?",
+   "options": [
+    "14",
+    "16",
+    "10",
+    "18"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Age"
+  },
+  {
+   "id": "2.12-03",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Breach of a civil injunction by an adult is…",
+   "options": [
+    "A criminal offence with 5 years",
+    "Contempt of court",
+    "Not punishable",
+    "A fixed penalty"
+   ],
+   "correct": 1,
+   "explanations": [
+    "That's a CBO.",
+    "Correct.",
+    "It is.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Breach – injunction"
+  },
+  {
+   "id": "2.12-04",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "When can a Criminal Behaviour Order be made?",
+   "options": [
+    "Without conviction",
+    "Only by police",
+    "Only for drug offences",
+    "On conviction for any offence, on the prosecution's application"
+   ],
+   "correct": 3,
+   "explanations": [
+    "That's an injunction.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · CBO"
+  },
+  {
+   "id": "2.12-05",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "What is the maximum penalty for breaching a CBO?",
+   "options": [
+    "Fine",
+    "6 months",
+    "5 years",
+    "Contempt only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "It's an offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · CBO breach"
+  },
+  {
+   "id": "2.12-06",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Who can authorise the use of dispersal powers in a locality?",
+   "options": [
+    "An inspector or above",
+    "A sergeant",
+    "A superintendent only",
+    "The council"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Not only.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Dispersal – authorisation"
+  },
+  {
+   "id": "2.12-07",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "For how long can a dispersal authorisation last?",
+   "options": [
+    "24 hours",
+    "7 days",
+    "3 months",
+    "48 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Dispersal – duration"
+  },
+  {
+   "id": "2.12-08",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Who can give a s. 35 direction to leave?",
+   "options": [
+    "Any officer in plain clothes",
+    "A constable in uniform (or a designated PCSO)",
+    "Only an inspector",
+    "A security guard"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Must be in uniform.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · s. 35"
+  },
+  {
+   "id": "2.12-09",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "A 14-year-old is given a dispersal direction late at night. What extra power exists?",
+   "options": [
+    "Remove a person under 16 to their home or a place of safety",
+    "None",
+    "Arrest automatically",
+    "Fine the parents"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "There is.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Under 16"
+  },
+  {
+   "id": "2.12-10",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Can dispersal powers be used against lawful picketing or a lawful procession?",
+   "options": [
+    "Yes",
+    "Only with superintendent authority",
+    "No",
+    "Only at night"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Excluded.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Dispersal – limits"
+  },
+  {
+   "id": "2.12-11",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "A Community Protection Notice can be issued to a person aged…",
+   "options": [
+    "10 or over",
+    "16 or over",
+    "18 or over",
+    "Any age"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · CPN – age"
+  },
+  {
+   "id": "2.12-12",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "What must happen before a CPN is issued?",
+   "options": [
+    "Nothing",
+    "A court hearing",
+    "An arrest",
+    "A written warning, with time to change behaviour"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Required.",
+    "Not needed.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · CPN – warning"
+  },
+  {
+   "id": "2.12-13",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "The CPN test requires conduct having a detrimental effect, of a persistent or continuing nature, on quality of life, which is also…",
+   "options": [
+    "Criminal",
+    "Violent",
+    "Unreasonable",
+    "Recorded on PNC"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not required.",
+    "Not required.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · CPN – test"
+  },
+  {
+   "id": "2.12-14",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Who makes a Public Spaces Protection Order?",
+   "options": [
+    "The local authority",
+    "The police",
+    "The magistrates' court",
+    "The Home Secretary"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · PSPO"
+  },
+  {
+   "id": "2.12-15",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Who can issue a closure notice (police)?",
+   "options": [
+    "A constable",
+    "Only a chief constable",
+    "A PCSO",
+    "An officer of at least inspector rank"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Closure notice"
+  },
+  {
+   "id": "2.12-16",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "After a closure notice, within what time must the magistrates' court hear the closure order application?",
+   "options": [
+    "24 hours",
+    "48 hours",
+    "7 days",
+    "14 days"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Closure – 48 h"
+  },
+  {
+   "id": "2.12-17",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "What is the maximum total duration of a closure order (with extension)?",
+   "options": [
+    "6 months",
+    "1 month",
+    "3 months",
+    "1 year"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Initial maximum.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Closure order – 6 months"
+  },
+  {
+   "id": "2.12-18",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Under s. 50 Police Reform Act 2002, a constable in uniform may require a person acting anti-socially to give…",
+   "options": [
+    "Fingerprints",
+    "Their phone",
+    "Name and address",
+    "A DNA sample"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · s. 50"
+  },
+  {
+   "id": "2.12-19",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Youths ride off-road bikes on a playing field alarming families. What does s. 59 PRA 2002 allow?",
+   "options": [
+    "Nothing",
+    "Stop the vehicle and, normally after a warning, seize and remove it",
+    "Arrest the parents",
+    "Crush bikes immediately"
+   ],
+   "correct": 1,
+   "explanations": [
+    "There is a power.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · s. 59"
+  },
+  {
+   "id": "2.12-20",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Under s. 59, can officers enter a private dwelling to seize the vehicle?",
+   "options": [
+    "Yes",
+    "Only with consent",
+    "Only at night",
+    "No – they may enter premises other than a private dwelling"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Excluded.",
+    "Not under s. 59.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · s. 59 – entry"
+  },
+  {
+   "id": "2.12-21",
+   "chapter": "2.12",
+   "lessonId": "nie-2.12",
+   "scenario": "Which applicant can apply for a civil injunction?",
+   "options": [
+    "Only the victim",
+    "Only the CPS",
+    "The police, local authorities and housing providers (among others)",
+    "Any citizen"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.12 · Applicants"
+  }
+ ]
+}

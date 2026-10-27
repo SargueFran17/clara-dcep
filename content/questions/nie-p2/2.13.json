@@ -1,0 +1,465 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.13. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.13-01",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "How many persons must be present together for riot?",
+   "options": [
+    "12",
+    "3",
+    "10",
+    "20"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Violent disorder.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Riot – 12"
+  },
+  {
+   "id": "2.13-02",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "How many persons for violent disorder?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "12"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Affray.",
+    "No.",
+    "Correct.",
+    "Riot."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Violent disorder – 3"
+  },
+  {
+   "id": "2.13-03",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Whose consent is needed to prosecute riot?",
+   "options": [
+    "The AG",
+    "The DPP",
+    "A chief constable",
+    "None"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Riot – DPP"
+  },
+  {
+   "id": "2.13-04",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "For affray, can a threat be made by words alone?",
+   "options": [
+    "Yes",
+    "Only if shouted",
+    "Only in public",
+    "No"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Affray – words"
+  },
+  {
+   "id": "2.13-05",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "For riot, violent disorder and affray, must a person of reasonable firmness actually be present?",
+   "options": [
+    "Yes",
+    "Only for riot",
+    "No – no such person need be, or be likely to be, present",
+    "Only for affray"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Reasonable firmness"
+  },
+  {
+   "id": "2.13-06",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Can affray be committed in a private dwelling?",
+   "options": [
+    "Yes – it may be committed in private as well as in public",
+    "No",
+    "Only with 3 people",
+    "Only at night"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Private place"
+  },
+  {
+   "id": "2.13-07",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "D carries petrol bombs with a gang but never brandishes them at anyone. Following I v DPP, is it affray?",
+   "options": [
+    "Yes",
+    "Only if police are present",
+    "Yes, if reasonable people would fear",
+    "No – violence must be used or threatened towards another person"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Needs a person threatened.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · I v DPP"
+  },
+  {
+   "id": "2.13-08",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "What is the maximum penalty for affray?",
+   "options": [
+    "6 months",
+    "3 years",
+    "5 years",
+    "10 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Violent disorder.",
+    "Riot."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Affray – penalty"
+  },
+  {
+   "id": "2.13-09",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Which words/behaviour are covered by s. 5 POA 1986 since 2013?",
+   "options": [
+    "Threatening or abusive (and disorderly behaviour)",
+    "Threatening, abusive or insulting",
+    "Only threatening",
+    "Only insulting"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "'Insulting' was removed.",
+    "Too narrow.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 5 – insulting removed"
+  },
+  {
+   "id": "2.13-10",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "For s. 5, must anyone actually be caused harassment, alarm or distress?",
+   "options": [
+    "Yes",
+    "Only a police officer",
+    "No – it must be within the hearing or sight of a person likely to be caused HAD",
+    "Only a child"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's s. 4A.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 5 – likely"
+  },
+  {
+   "id": "2.13-11",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Can a police officer be the person 'likely to be caused HAD' for s. 5?",
+   "options": [
+    "No, never",
+    "Yes (DPP v Orum), though officers are less easily distressed",
+    "Only off duty",
+    "Only PCSOs"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Orum"
+  },
+  {
+   "id": "2.13-12",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "What distinguishes s. 4A from s. 5?",
+   "options": [
+    "s. 4A is a fine only",
+    "s. 4A requires 3 people",
+    "No difference",
+    "s. 4A requires intent to cause HAD and actual HAD"
+   ],
+   "correct": 3,
+   "explanations": [
+    "s. 5 is fine only.",
+    "No.",
+    "There is.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 4A vs s. 5"
+  },
+  {
+   "id": "2.13-13",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "D shouts threats from inside his flat at his neighbour inside her flat. Which is correct?",
+   "options": [
+    "s. 4 offence",
+    "s. 5 offence",
+    "Dwelling exception – no s. 4/4A/5 offence if both are inside dwellings",
+    "Affray"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Excluded.",
+    "Excluded.",
+    "Correct.",
+    "Threats by words alone."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Dwelling exception"
+  },
+  {
+   "id": "2.13-14",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "s. 4 requires D to intend the other to believe that…",
+   "options": [
+    "Immediate unlawful violence will be used against him or another (or to provoke it)",
+    "Violence may happen some day",
+    "He will be sued",
+    "He will be arrested"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Must be immediate.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 4"
+  },
+  {
+   "id": "2.13-15",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "A drunk D says he didn't realise his behaviour was abusive. Under s. 6, does voluntary intoxication help?",
+   "options": [
+    "Yes",
+    "Only for s. 5",
+    "Only for affray",
+    "No – voluntary intoxication is no excuse"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 6 intoxication"
+  },
+  {
+   "id": "2.13-16",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "How much advance written notice of a public procession is normally required (s. 11)?",
+   "options": [
+    "24 hours",
+    "6 clear days",
+    "14 days",
+    "1 month"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 11 notice"
+  },
+  {
+   "id": "2.13-17",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Who imposes conditions on a public procession or assembly (ss. 12 and 14)?",
+   "options": [
+    "The senior police officer",
+    "The organiser",
+    "The Home Secretary",
+    "The court"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Conditions"
+  },
+  {
+   "id": "2.13-18",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Which is a ground for imposing conditions on an assembly under s. 14?",
+   "options": [
+    "The police disagree with the cause",
+    "It will be loud music only",
+    "Reasonable belief it may result in serious public disorder, serious damage to property or serious disruption to the life of the community",
+    "It's raining"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Noise can count if serious ⚠.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 14 grounds"
+  },
+  {
+   "id": "2.13-19",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "A breach of the peace (R v Howell) is…",
+   "options": [
+    "Any noise",
+    "Harm actually done or likely to be done to a person or, in his presence, his property, or a person put in fear of such harm",
+    "Swearing in public",
+    "Any offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Not necessarily.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Breach of the peace"
+  },
+  {
+   "id": "2.13-20",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Is breach of the peace a criminal offence?",
+   "options": [
+    "Yes",
+    "Only in Scotland",
+    "Only at night",
+    "No – but there's a power of arrest and a person can be bound over"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not in E&W.",
+    "Different.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Breach – not offence"
+  },
+  {
+   "id": "2.13-21",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Four men fight in a pub and customers flee in fear. Which offence fits all four?",
+   "options": [
+    "Riot",
+    "Only affray",
+    "Violent disorder",
+    "Breach of the peace only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Needs 12.",
+    "Possible too.",
+    "Correct.",
+    "More."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Pub fight"
+  },
+  {
+   "id": "2.13-22",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "Protesters glue themselves to a road to cause serious disruption (⚠). Which offence?",
+   "options": [
+    "Locking on (Public Order Act 2023)",
+    "Riot",
+    "Affray",
+    "No offence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "No.",
+    "No.",
+    "There may be."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · Locking on"
+  },
+  {
+   "id": "2.13-23",
+   "chapter": "2.13",
+   "lessonId": "nie-2.13",
+   "scenario": "What is the maximum penalty for s. 5 POA 1986?",
+   "options": [
+    "6 months",
+    "1 year",
+    "3 years",
+    "Fine only"
+   ],
+   "correct": 3,
+   "explanations": [
+    "That's s. 4/4A.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.13 · s. 5 penalty"
+  }
+ ]
+}

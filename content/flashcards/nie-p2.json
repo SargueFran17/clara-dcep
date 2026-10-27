@@ -469,6 +469,181 @@
    "front": "Safeguarding framework",
    "back": "s. 11 CA 2004 duty; strategy discussion; s. 47 enquiries (LA lead); MASH; FGM reporting duty.",
    "es": "Marco de protección."
+  },
+  {
+   "id": "nie-2.5-01",
+   "lessonId": "nie-2.5",
+   "front": "s. 1 CMA 1990",
+   "back": "Causes computer to perform function with intent to secure unauthorised access, knowing it's unauthorised. Insiders exceeding limits (Allison).",
+   "es": "Acceso no autorizado."
+  },
+  {
+   "id": "nie-2.5-02",
+   "lessonId": "nie-2.5",
+   "front": "s. 2 CMA",
+   "back": "s. 1 with intent to commit/facilitate offence ≥ 5 yrs. Max 5 yrs.",
+   "es": "Con intención de otro delito."
+  },
+  {
+   "id": "nie-2.5-03",
+   "lessonId": "nie-2.5",
+   "front": "s. 3 / s. 3ZA",
+   "back": "Unauthorised act intending/reckless to impair (10 yrs); serious damage to welfare/economy/security (14 yrs/life).",
+   "es": "Perjudicar sistemas."
+  },
+  {
+   "id": "nie-2.5-04",
+   "lessonId": "nie-2.5",
+   "front": "s. 3A",
+   "back": "Making, supplying, obtaining articles (incl. programs) for CMA offences.",
+   "es": "Herramientas."
+  },
+  {
+   "id": "nie-2.5-05",
+   "lessonId": "nie-2.5",
+   "front": "Digital evidence principles",
+   "back": "1 don't change data; 2 competent person; 3 audit trail; 4 OIC responsible.",
+   "es": "Principios de prueba digital."
+  },
+  {
+   "id": "nie-2.5-06",
+   "lessonId": "nie-2.5",
+   "front": "s. 49 RIPA",
+   "back": "Notice to disclose key/intelligible data; s. 53 offence (2 yrs; 5 national security/child indecency).",
+   "es": "Claves de cifrado."
+  },
+  {
+   "id": "nie-2.13-01",
+   "lessonId": "nie-2.13",
+   "front": "Riot (s. 1)",
+   "back": "12+, common purpose, use/threaten violence, reasonable firmness test. 10 yrs. DPP consent.",
+   "es": "Disturbios: 12+."
+  },
+  {
+   "id": "nie-2.13-02",
+   "lessonId": "nie-2.13",
+   "front": "Violent disorder (s. 2)",
+   "back": "3+ present together, use/threaten unlawful violence. 5 yrs.",
+   "es": "3+."
+  },
+  {
+   "id": "nie-2.13-03",
+   "lessonId": "nie-2.13",
+   "front": "Affray (s. 3)",
+   "back": "Uses/threatens violence towards another; not words alone; reasonable firmness. 3 yrs.",
+   "es": "Riña: no solo palabras."
+  },
+  {
+   "id": "nie-2.13-04",
+   "lessonId": "nie-2.13",
+   "front": "s. 4 / s. 4A / s. 5",
+   "back": "s. 4 fear/provocation of immediate violence; s. 4A intent + actual HAD; s. 5 threatening/abusive within sight/hearing of person likely HAD (fine).",
+   "es": "Delitos de orden público."
+  },
+  {
+   "id": "nie-2.13-05",
+   "lessonId": "nie-2.13",
+   "front": "Dwelling exception",
+   "back": "No s. 4/4A/5 offence if both persons are inside dwellings.",
+   "es": "Excepción de vivienda."
+  },
+  {
+   "id": "nie-2.13-06",
+   "lessonId": "nie-2.13",
+   "front": "Processions/assemblies",
+   "back": "s. 11 notice 6 clear days; ss. 12/14 conditions by senior police officer; s. 13 ban.",
+   "es": "Manifestaciones."
+  },
+  {
+   "id": "nie-2.13-07",
+   "lessonId": "nie-2.13",
+   "front": "Breach of the peace",
+   "back": "Harm or likely harm to person/property in presence, or fear of it (Howell). Not an offence.",
+   "es": "Quebrantamiento de la paz."
+  },
+  {
+   "id": "nie-2.12-01",
+   "lessonId": "nie-2.12",
+   "front": "Civil injunction (ASBCPA Part 1)",
+   "back": "Balance of probabilities; ASB (HAD/housing nuisance); 10+; just and convenient; breach = contempt.",
+   "es": "Requerimiento civil."
+  },
+  {
+   "id": "nie-2.12-02",
+   "lessonId": "nie-2.12",
+   "front": "CBO (s. 22)",
+   "back": "On conviction; prosecution applies; breach = offence (5 yrs).",
+   "es": "Orden tras condena."
+  },
+  {
+   "id": "nie-2.12-03",
+   "lessonId": "nie-2.12",
+   "front": "Dispersal (ss. 34–35)",
+   "back": "Inspector authorises ≤ 48 h; uniformed constable directs to leave ≤ 48 h; 10+; under 16 taken home.",
+   "es": "Dispersión."
+  },
+  {
+   "id": "nie-2.12-04",
+   "lessonId": "nie-2.12",
+   "front": "CPN (s. 43)",
+   "back": "16+; persistent, detrimental, unreasonable; written warning first.",
+   "es": "Aviso de protección comunitaria."
+  },
+  {
+   "id": "nie-2.12-05",
+   "lessonId": "nie-2.12",
+   "front": "Closure",
+   "back": "Notice by inspector; court within 48 h; order ≤ 3 months, max 6.",
+   "es": "Cierre de locales."
+  },
+  {
+   "id": "nie-2.12-06",
+   "lessonId": "nie-2.12",
+   "front": "PRA 2002 ss. 50/59",
+   "back": "Name and address for ASB; seize vehicles used anti-socially (warning first; not dwellings).",
+   "es": "Nombre/dirección; vehículos."
+  },
+  {
+   "id": "nie-2.11-01",
+   "lessonId": "nie-2.11",
+   "front": "False imprisonment",
+   "back": "Unlawful, intentional/reckless restraint of freedom of movement. Life.",
+   "es": "Detención ilegal."
+  },
+  {
+   "id": "nie-2.11-02",
+   "lessonId": "nie-2.11",
+   "front": "Kidnapping",
+   "back": "Taking/carrying away by force or fraud without consent or lawful excuse (Cort; parents – R v D). Life.",
+   "es": "Secuestro."
+  },
+  {
+   "id": "nie-2.11-03",
+   "lessonId": "nie-2.11",
+   "front": "Hostage-taking 1982",
+   "back": "Detain + threaten to kill/injure/continue detention to compel State/org/person. Life. AG consent.",
+   "es": "Toma de rehenes."
+  },
+  {
+   "id": "nie-2.11-04",
+   "lessonId": "nie-2.11",
+   "front": "MSA s. 1",
+   "back": "Slavery, servitude, forced/compulsory labour – consent no bar. Life.",
+   "es": "Esclavitud."
+  },
+  {
+   "id": "nie-2.11-05",
+   "lessonId": "nie-2.11",
+   "front": "MSA s. 2",
+   "back": "Arranging/facilitating travel (incl. within UK) with a view to exploitation; consent irrelevant. Life.",
+   "es": "Trata."
+  },
+  {
+   "id": "nie-2.11-06",
+   "lessonId": "nie-2.11",
+   "front": "s. 45 / duty to notify / NRM",
+   "back": "Defence for compelled victims (not Sch. 4); police must notify Home Office; NRM reasonable/conclusive grounds.",
+   "es": "Protección de víctimas."
   }
  ]
 }

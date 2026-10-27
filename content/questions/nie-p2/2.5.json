@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.5. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.5-01",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Which Act creates the offence of unauthorised access to computer material?",
+   "options": [
+    "Computer Misuse Act 1990",
+    "Fraud Act 2006",
+    "RIPA 2000",
+    "Data Protection Act 2018"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (s. 1).",
+    "No.",
+    "No.",
+    "Different offences."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · CMA 1990"
+  },
+  {
+   "id": "2.5-02",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "For s. 1 CMA 1990, what must D know at the time?",
+   "options": [
+    "That the data is valuable",
+    "The owner of the computer",
+    "That the access he intends to secure is unauthorised",
+    "That damage will follow"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 1 – knowledge"
+  },
+  {
+   "id": "2.5-03",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Must the s. 1 intent be directed at a particular program, data or computer?",
+   "options": [
+    "Yes",
+    "No",
+    "Only for s. 2",
+    "Only for networks"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 1 – any computer"
+  },
+  {
+   "id": "2.5-04",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "A bank clerk authorised to access some customer accounts looks at her ex's account, which her role doesn't allow. Following ex p Allison…",
+   "options": [
+    "No offence – she's an employee",
+    "Only a disciplinary matter",
+    "Only Data Protection Act",
+    "s. 1 offence – access beyond the limits of her authority is unauthorised"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Employees can commit it.",
+    "Also an offence.",
+    "Also CMA.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Allison"
+  },
+  {
+   "id": "2.5-05",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "D accesses an online account without authority intending to transfer money out of it. Which offence?",
+   "options": [
+    "s. 1 only",
+    "s. 3A",
+    "s. 2 – unauthorised access with intent to commit or facilitate further offences",
+    "No offence until money moves"
+   ],
+   "correct": 2,
+   "explanations": [
+    "More serious offence fits.",
+    "No.",
+    "Correct.",
+    "Intent is enough."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 2"
+  },
+  {
+   "id": "2.5-06",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "For s. 2, the further offence intended must carry a sentence of at least…",
+   "options": [
+    "5 years",
+    "2 years",
+    "10 years",
+    "Life"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (or fixed by law).",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 2 – threshold"
+  },
+  {
+   "id": "2.5-07",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "D launches a DDoS attack that takes a company's website offline. Which offence?",
+   "options": [
+    "s. 1",
+    "s. 2",
+    "No offence – no access",
+    "s. 3 – unauthorised act with intent to impair (or reckless)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No access needed.",
+    "No.",
+    "There is.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 3 – DDoS"
+  },
+  {
+   "id": "2.5-08",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "What is the maximum penalty for s. 3 CMA?",
+   "options": [
+    "2 years",
+    "10 years",
+    "5 years",
+    "Life"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "s. 3ZA can be life."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 3 penalty"
+  },
+  {
+   "id": "2.5-09",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Ransomware disrupts a hospital's systems, putting patients' lives at risk. Which offence carries up to life?",
+   "options": [
+    "s. 3ZA – serious damage to human welfare",
+    "s. 1",
+    "s. 3A",
+    "s. 2"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 3ZA"
+  },
+  {
+   "id": "2.5-10",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Can s. 3 be committed recklessly?",
+   "options": [
+    "No – intent only",
+    "Only by employees",
+    "Yes – intending or being reckless as to impairment",
+    "Only with malware"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 3 – recklessness"
+  },
+  {
+   "id": "2.5-11",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "D sells a hacking tool online intending buyers to use it to hack accounts. Which offence?",
+   "options": [
+    "s. 1",
+    "s. 3A – supplying articles for use in CMA offences",
+    "Fraud only",
+    "No offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not access.",
+    "Correct.",
+    "Possibly also s. 7 FA.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 3A"
+  },
+  {
+   "id": "2.5-12",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Which is the FIRST principle of handling digital evidence?",
+   "options": [
+    "Switch off all devices",
+    "Copy everything to a USB",
+    "Ask the suspect for passwords",
+    "No action should change data which may subsequently be relied on in court"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Can lose data.",
+    "Not the principle.",
+    "Not a principle.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Digital evidence – 1"
+  },
+  {
+   "id": "2.5-13",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Where access to original data is necessary, the person doing it must…",
+   "options": [
+    "Be the OIC",
+    "Have a warrant",
+    "Be competent and able to explain the relevance and implications of their actions",
+    "Be a civilian"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not necessarily.",
+    "Not the principle.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Digital evidence – 2"
+  },
+  {
+   "id": "2.5-14",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Why place a seized mobile phone in a Faraday bag?",
+   "options": [
+    "To isolate it from networks so data can't be remotely wiped or altered",
+    "To keep it warm",
+    "To charge it",
+    "For fingerprints"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Faraday bag"
+  },
+  {
+   "id": "2.5-15",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "A suspect refuses to give the password to his encrypted laptop. Which power?",
+   "options": [
+    "s. 18 PACE",
+    "s. 1 CMA",
+    "None",
+    "A s. 49 RIPA notice requiring disclosure; refusal is an offence (s. 53)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Search only.",
+    "No.",
+    "There is.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 49 RIPA"
+  },
+  {
+   "id": "2.5-16",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Maximum penalty for failing to comply with a s. 49 notice in a child indecency case (⚠)?",
+   "options": [
+    "2 years",
+    "5 years",
+    "10 years",
+    "Fine"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Ordinary cases.",
+    "Correct ⚠.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · s. 53 penalty"
+  },
+  {
+   "id": "2.5-17",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Intercepting a communication in the course of transmission without lawful authority is an offence under…",
+   "options": [
+    "Investigatory Powers Act 2016, s. 3",
+    "CMA 1990, s. 1",
+    "Fraud Act 2006",
+    "Theft Act 1968"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Interception"
+  },
+  {
+   "id": "2.5-18",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Who handles national-level cybercrime investigations?",
+   "options": [
+    "Only local CID",
+    "Trading Standards",
+    "NCA National Cyber Crime Unit (with ROCU cyber teams regionally)",
+    "Ofcom"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not only.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Who investigates"
+  },
+  {
+   "id": "2.5-19",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "D guesses his partner's email password and reads her emails. Which offence?",
+   "options": [
+    "None – it's a partner",
+    "s. 1 CMA",
+    "s. 3",
+    "s. 3A"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Still unauthorised.",
+    "Correct.",
+    "No impairment.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Partner's email"
+  },
+  {
+   "id": "2.5-20",
+   "chapter": "2.5",
+   "lessonId": "nie-2.5",
+   "scenario": "Who is responsible for ensuring digital evidence principles are followed?",
+   "options": [
+    "The suspect",
+    "The IT department",
+    "The CPS",
+    "The officer in charge of the investigation"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.5 · Digital evidence – 4"
+  }
+ ]
+}

@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.11. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.11-01",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "What is false imprisonment?",
+   "options": [
+    "The unlawful and intentional or reckless restraint of a person's freedom of movement",
+    "Being wrongly convicted",
+    "Kidnapping abroad",
+    "Detention after charge"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · False imprisonment"
+  },
+  {
+   "id": "2.11-02",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "D locks his partner in a car for 15 minutes during an argument. Which offence?",
+   "options": [
+    "None – too short",
+    "Kidnapping",
+    "False imprisonment",
+    "Only harassment"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No minimum time.",
+    "No taking away.",
+    "Correct.",
+    "More serious offence fits."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Short restraint"
+  },
+  {
+   "id": "2.11-03",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Which is required for kidnapping but not false imprisonment?",
+   "options": [
+    "Restraint",
+    "Taking or carrying away of the person",
+    "A weapon",
+    "A ransom"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Both.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Kidnapping – taking away"
+  },
+  {
+   "id": "2.11-04",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "D pretends to be a taxi driver and drives a woman somewhere she didn't intend to go. Is it kidnapping?",
+   "options": [
+    "No – she got in willingly",
+    "Only false imprisonment",
+    "Only fraud",
+    "Yes – consent obtained by fraud is not true consent (R v Cort)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Fraud vitiates consent.",
+    "Also kidnapping.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Kidnapping by fraud"
+  },
+  {
+   "id": "2.11-05",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Can a parent be guilty of kidnapping their own child?",
+   "options": [
+    "No",
+    "Only if divorced",
+    "Yes (R v D)",
+    "Only if the child is over 16"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Parent"
+  },
+  {
+   "id": "2.11-06",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "What is the maximum penalty for kidnapping?",
+   "options": [
+    "Life",
+    "10 years",
+    "14 years",
+    "7 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Kidnapping – penalty"
+  },
+  {
+   "id": "2.11-07",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Hostage-taking requires D to detain someone and threaten to kill, injure or continue to detain them in order to…",
+   "options": [
+    "Obtain sexual gratification",
+    "Steal",
+    "Avoid arrest only",
+    "Compel a State, international governmental organisation or person to do or abstain from doing any act"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "Too narrow.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Hostage-taking"
+  },
+  {
+   "id": "2.11-08",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Whose consent is needed to prosecute hostage-taking?",
+   "options": [
+    "DPP",
+    "Attorney General",
+    "Home Secretary",
+    "Chief constable"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · AG consent"
+  },
+  {
+   "id": "2.11-09",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Under s. 2 MSA 2015, human trafficking is…",
+   "options": [
+    "Arranging or facilitating the travel of another person with a view to them being exploited",
+    "Smuggling goods",
+    "Only cross-border movement",
+    "Only sexual exploitation"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Includes within UK.",
+    "All exploitation."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · s. 2"
+  },
+  {
+   "id": "2.11-10",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "A 15-year-old is moved from London to Southampton to sell drugs. Is this trafficking?",
+   "options": [
+    "No – no border crossed",
+    "Only if forced",
+    "Yes – travel within any country counts, and consent is irrelevant",
+    "Only if adult"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Consent irrelevant.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · County lines"
+  },
+  {
+   "id": "2.11-11",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Is the victim's consent to travel relevant to s. 2?",
+   "options": [
+    "Yes for adults",
+    "No – irrelevant, whether adult or child",
+    "Only for children",
+    "Only for sexual exploitation"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Consent irrelevant"
+  },
+  {
+   "id": "2.11-12",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Which is NOT 'exploitation' under s. 3 MSA?",
+   "options": [
+    "Sexual exploitation",
+    "Removal of organs",
+    "Securing services by force, threats or deception",
+    "Paying the minimum wage"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It is.",
+    "It is.",
+    "It is.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · s. 3"
+  },
+  {
+   "id": "2.11-13",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Car-wash workers have their passports taken, live on site and must work to pay off huge 'debts'. Which offence?",
+   "options": [
+    "Theft only",
+    "No offence – they're paid something",
+    "s. 1 MSA – slavery, servitude or forced/compulsory labour",
+    "Kidnapping only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not only.",
+    "Payment doesn't prevent it.",
+    "Correct.",
+    "Not necessarily."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · s. 1"
+  },
+  {
+   "id": "2.11-14",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Does a victim's consent prevent a finding of forced labour under s. 1?",
+   "options": [
+    "No",
+    "Yes",
+    "Only for adults",
+    "Only if written"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · s. 1 – consent"
+  },
+  {
+   "id": "2.11-15",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "What is the maximum penalty for s. 1 and s. 2 MSA?",
+   "options": [
+    "10 years",
+    "14 years",
+    "7 years",
+    "Life"
+   ],
+   "correct": 3,
+   "explanations": [
+    "s. 4.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · MSA penalty"
+  },
+  {
+   "id": "2.11-16",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "An adult victim of trafficking was compelled to cultivate cannabis and had no realistic alternative. Which defence?",
+   "options": [
+    "Duress only",
+    "s. 45 MSA defence",
+    "None",
+    "Self-defence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Possibly, but s. 45 is specific.",
+    "Correct.",
+    "There is.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · s. 45"
+  },
+  {
+   "id": "2.11-17",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Is the s. 45 defence available for all offences?",
+   "options": [
+    "No – many serious offences (Schedule 4) are excluded",
+    "Yes",
+    "Only for children",
+    "Only for drugs"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · s. 45 exclusions"
+  },
+  {
+   "id": "2.11-18",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "When police have reasonable grounds to believe a person may be a victim of slavery or trafficking, they must…",
+   "options": [
+    "Arrest them",
+    "Release them",
+    "Notify the Home Office (duty to notify, s. 52)",
+    "Contact the embassy only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not the duty.",
+    "Correct.",
+    "Not the duty."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · Duty to notify"
+  },
+  {
+   "id": "2.11-19",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "What is the National Referral Mechanism?",
+   "options": [
+    "A crime database",
+    "The framework for identifying and supporting victims of modern slavery (reasonable grounds then conclusive grounds decisions)",
+    "A court",
+    "A charity"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · NRM"
+  },
+  {
+   "id": "2.11-20",
+   "chapter": "2.11",
+   "lessonId": "nie-2.11",
+   "scenario": "Under s. 4 MSA, committing an offence (e.g. kidnapping) with intent to commit trafficking has a maximum of…",
+   "options": [
+    "2 years",
+    "5 years",
+    "Life",
+    "10 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.11 · s. 4"
+  }
+ ]
+}
