@@ -1,0 +1,485 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.11. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.11-01",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Under the CPIA Code of Practice, which lines of enquiry must the officer in charge ensure are pursued?",
+   "options": [
+    "All reasonable lines of enquiry, whether they point towards or away from the suspect",
+    "Only those pointing towards the suspect",
+    "Only those requested by the CPS",
+    "Only those requested by the defence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Not only.",
+    "Not only."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Reasonable lines of enquiry"
+  },
+  {
+   "id": "1.11-02",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Which role examines material, creates the schedules and reveals material to the prosecutor?",
+   "options": [
+    "The investigator",
+    "The custody officer",
+    "The disclosure officer",
+    "The judge"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Records/retains.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Roles"
+  },
+  {
+   "id": "1.11-03",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Who decides what material is disclosed to the defence?",
+   "options": [
+    "The OIC",
+    "The prosecutor",
+    "The victim",
+    "The custody sergeant"
+   ],
+   "correct": 1,
+   "explanations": [
+    "The police reveal to the prosecutor.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Roles – prosecutor"
+  },
+  {
+   "id": "1.11-04",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "What is 'relevant material' under the CPIA Code?",
+   "options": [
+    "Only evidence used at trial",
+    "Only material helping the defence",
+    "Only documents",
+    "Material that appears to have some bearing on any offence under investigation, any person investigated, or surrounding circumstances"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too narrow.",
+    "Too narrow.",
+    "Too narrow.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Relevant material"
+  },
+  {
+   "id": "1.11-05",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "A witness's first description of the robber is very different from the suspect. What should happen?",
+   "options": [
+    "Destroy it to avoid confusion",
+    "Keep it only in a notebook without scheduling",
+    "Record, retain and schedule it; it is likely to meet the disclosure test",
+    "Give it to the defence directly"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Never.",
+    "Must be scheduled.",
+    "Correct.",
+    "Disclosure goes through the prosecutor."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · First description"
+  },
+  {
+   "id": "1.11-06",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Which schedule lists non-sensitive unused material?",
+   "options": [
+    "MG6C",
+    "MG6D",
+    "MG6E",
+    "MG11"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Sensitive.",
+    "Disclosure officer's report.",
+    "Witness statement."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · MG6C"
+  },
+  {
+   "id": "1.11-07",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Details of a CHIS (informant) would normally be listed on…",
+   "options": [
+    "MG6C",
+    "MG5",
+    "MG11",
+    "MG6D – sensitive material"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Non-sensitive.",
+    "Case summary.",
+    "Statement.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · MG6D"
+  },
+  {
+   "id": "1.11-08",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "What is the disclosure test in s. 3 CPIA 1996?",
+   "options": [
+    "Material the prosecution will rely on",
+    "Material which might reasonably be considered capable of undermining the prosecution case or assisting the accused's case",
+    "All material gathered",
+    "Material the victim agrees to"
+   ],
+   "correct": 1,
+   "explanations": [
+    "That's used material.",
+    "Correct.",
+    "Too wide.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Disclosure test"
+  },
+  {
+   "id": "1.11-09",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "In the Crown Court, is a defence statement compulsory?",
+   "options": [
+    "Yes (s. 5 CPIA)",
+    "No",
+    "Only for murder",
+    "Only if the defendant is represented"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Defence statement – Crown Court"
+  },
+  {
+   "id": "1.11-10",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "In the magistrates' court, a defence statement is…",
+   "options": [
+    "compulsory",
+    "not allowed",
+    "voluntary (s. 6)",
+    "only for youths"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Defence statement – magistrates"
+  },
+  {
+   "id": "1.11-11",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "After disclosure, the prosecutor must…",
+   "options": [
+    "never revisit the issue",
+    "keep disclosure under review (continuing duty, s. 7A)",
+    "only review if the judge asks",
+    "destroy unused material"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Duty is continuing.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Continuing duty"
+  },
+  {
+   "id": "1.11-12",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Sensitive material meets the disclosure test. Can the prosecution simply withhold it?",
+   "options": [
+    "Yes, always",
+    "Yes, if the police agree",
+    "Yes, if it's about informants",
+    "Only with a court ruling on public interest immunity (PII)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Still needs PII.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · PII"
+  },
+  {
+   "id": "1.11-13",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "If the court orders disclosure of sensitive material the prosecution wants to protect, what may happen?",
+   "options": [
+    "Nothing",
+    "The judge decides guilt",
+    "The prosecution may have to discontinue the case",
+    "The police destroy it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "Never."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · PII consequences"
+  },
+  {
+   "id": "1.11-14",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "A shop's CCTV doesn't show the suspect at all. Is it relevant material?",
+   "options": [
+    "Yes – it may point away from the suspect; record, retain and schedule",
+    "No, it's useless",
+    "Only if the defence asks",
+    "Only if it shows the crime"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Material pointing away"
+  },
+  {
+   "id": "1.11-15",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Following conviction, how long must relevant material generally be retained (⚠ check)?",
+   "options": [
+    "1 month",
+    "10 years always",
+    "Until sentence only",
+    "Until release from custody or 6 months from conviction, whichever is later"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too short.",
+    "Not the general rule.",
+    "Too short.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Retention"
+  },
+  {
+   "id": "1.11-16",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "A schedule describes items as 'miscellaneous papers'. Is this acceptable?",
+   "options": [
+    "Yes",
+    "No – descriptions must be clear and detailed enough for the prosecutor",
+    "Only for sensitive material",
+    "Only in the magistrates' court"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Scheduling"
+  },
+  {
+   "id": "1.11-17",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Which form does the disclosure officer use to draw the prosecutor's attention to material that might meet the test?",
+   "options": [
+    "MG6E",
+    "MG6C",
+    "MG3",
+    "MG11"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Schedule.",
+    "Charge report.",
+    "Statement."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · MG6E"
+  },
+  {
+   "id": "1.11-18",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Previous convictions of a key prosecution witness are…",
+   "options": [
+    "never relevant",
+    "only relevant to sentencing",
+    "potentially capable of undermining the prosecution case and should be considered for disclosure",
+    "secret"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Witness convictions"
+  },
+  {
+   "id": "1.11-19",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Which Act governs disclosure in criminal investigations?",
+   "options": [
+    "PACE 1984",
+    "CPIA 1996",
+    "RIPA 2000",
+    "Theft Act 1968"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · CPIA"
+  },
+  {
+   "id": "1.11-20",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Can the defence apply to the court for specific disclosure after serving a defence statement?",
+   "options": [
+    "No",
+    "Only in the magistrates' court",
+    "Only with police consent",
+    "Yes (s. 8)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · s. 8 application"
+  },
+  {
+   "id": "1.11-21",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Who must record and retain relevant material?",
+   "options": [
+    "Only the disclosure officer",
+    "Only the CPS",
+    "Any investigator",
+    "Only civilians"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not only.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Investigator duties"
+  },
+  {
+   "id": "1.11-22",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "A victim's phone may contain messages that undermine her account. What is the correct approach?",
+   "options": [
+    "Consider it as a reasonable line of enquiry, proportionate and respecting privacy (⚠ guidelines)",
+    "Never look at victims' phones",
+    "Always download everything",
+    "Ask the defence to do it"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too absolute.",
+    "Not proportionate.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Digital material"
+  },
+  {
+   "id": "1.11-23",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Draft versions of a witness statement that differ from the final version should be…",
+   "options": [
+    "destroyed",
+    "given to the press",
+    "ignored",
+    "retained as relevant material"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Never.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · Drafts"
+  },
+  {
+   "id": "1.11-24",
+   "chapter": "1.11",
+   "lessonId": "nie-1.11",
+   "scenario": "Which statement about the OIC is correct?",
+   "options": [
+    "The OIC can never be the disclosure officer",
+    "The OIC directs the investigation and ensures reasonable lines of enquiry are pursued; roles may be combined in small cases",
+    "The OIC decides disclosure",
+    "The OIC is always a superintendent"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Roles can be combined.",
+    "Correct.",
+    "Prosecutor decides.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.11 · OIC"
+  }
+ ]
+}

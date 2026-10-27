@@ -1,0 +1,485 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.9. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.9-01",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "For the statutory definition of domestic abuse (DAA 2021), how old must A and B be?",
+   "options": [
+    "16 or over",
+    "18 or over",
+    "14 or over",
+    "Any age"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too high.",
+    "No.",
+    "Children are covered by s. 3 as victims."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Age – s. 1"
+  },
+  {
+   "id": "2.9-02",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Which of these relationships is NOT 'personally connected' under s. 2 DAA 2021?",
+   "options": [
+    "Former spouses",
+    "People in an intimate relationship",
+    "Two work colleagues with no other relationship",
+    "Relatives"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Connected.",
+    "Connected.",
+    "Correct.",
+    "Connected."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Personally connected"
+  },
+  {
+   "id": "2.9-03",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Which is a type of abusive behaviour listed in s. 1 DAA 2021?",
+   "options": [
+    "Rudeness at work",
+    "Economic abuse",
+    "Late payment of rent",
+    "Disagreements"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Types of abuse"
+  },
+  {
+   "id": "2.9-04",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "What is economic abuse?",
+   "options": [
+    "Being poor",
+    "Earning more than a partner",
+    "Spending too much",
+    "Behaviour that substantially affects B's ability to acquire, use or maintain money or property, or obtain goods or services"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Economic abuse"
+  },
+  {
+   "id": "2.9-05",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "A 10-year-old regularly hears her father abusing her mother. Under s. 3 DAA 2021, the child is…",
+   "options": [
+    "a witness only",
+    "not covered",
+    "a victim of domestic abuse in her own right",
+    "a suspect"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not only.",
+    "Incorrect.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Children – s. 3"
+  },
+  {
+   "id": "2.9-06",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Which is required for controlling or coercive behaviour (s. 76 SCA 2015)?",
+   "options": [
+    "Repeated or continuous behaviour",
+    "A single incident",
+    "Physical injury",
+    "Living together in all cases"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not enough.",
+    "Not required.",
+    "Not required since 2021 amendments (⚠)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · s. 76 – repeated"
+  },
+  {
+   "id": "2.9-07",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Which 'serious effect' satisfies s. 76?",
+   "options": [
+    "The victim felt annoyed once",
+    "Any upset",
+    "Loss of sleep for one night",
+    "Fear on at least two occasions that violence will be used, or serious alarm/distress with substantial adverse effect on usual day-to-day activities"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Not enough.",
+    "Not enough.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Serious effect"
+  },
+  {
+   "id": "2.9-08",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "What mental element is required for s. 76?",
+   "options": [
+    "Intention to cause fear only",
+    "Knows or ought to know the behaviour will have a serious effect",
+    "Recklessness only",
+    "None"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not required.",
+    "Correct.",
+    "Not the test.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · s. 76 – knows or ought to know"
+  },
+  {
+   "id": "2.9-09",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "A man says he controlled his partner's money 'for her own good'. When can the best-interests defence NOT be used?",
+   "options": [
+    "Where the behaviour caused the victim to fear violence",
+    "Never",
+    "Where they are married",
+    "Where the victim agrees"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · s. 76 – defence"
+  },
+  {
+   "id": "2.9-10",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Since the Domestic Abuse Act 2021 amendments, can s. 76 apply to ex-partners who no longer live together (⚠ check)?",
+   "options": [
+    "No",
+    "Only if married",
+    "Yes",
+    "Only with children"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · s. 76 – ex-partners"
+  },
+  {
+   "id": "2.9-11",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Who can authorise a Domestic Violence Protection Notice (DVPN)?",
+   "options": [
+    "A constable",
+    "An officer of at least superintendent rank",
+    "A magistrate",
+    "The victim"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too low.",
+    "Correct.",
+    "Court makes the DVPO.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · DVPN"
+  },
+  {
+   "id": "2.9-12",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "After a DVPN is issued, within what time must the DVPO application be heard by magistrates (⚠ check)?",
+   "options": [
+    "24 hours",
+    "7 days",
+    "28 days",
+    "48 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "That's DVPO maximum duration.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · DVPO – timing"
+  },
+  {
+   "id": "2.9-13",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "How long can a DVPO last (⚠ check)?",
+   "options": [
+    "1–7 days",
+    "6 months",
+    "14–28 days",
+    "Indefinitely"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · DVPO – duration"
+  },
+  {
+   "id": "2.9-14",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "A woman asks police whether her new partner has a history of domestic violence. Which scheme applies?",
+   "options": [
+    "Domestic Violence Disclosure Scheme (Clare's Law) – right to ask",
+    "MAPPA",
+    "Victims' Code",
+    "Witness protection"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Offender management.",
+    "Different.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Clare's Law"
+  },
+  {
+   "id": "2.9-15",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Which risk assessment is typically used in domestic abuse cases?",
+   "options": [
+    "ADVOKATE",
+    "GOWISELY",
+    "PEACE",
+    "DASH"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Identification.",
+    "Stop and search.",
+    "Interviews.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · DASH"
+  },
+  {
+   "id": "2.9-16",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "High-risk domestic abuse victims are discussed at which meeting?",
+   "options": [
+    "MAPPA",
+    "MARAC",
+    "PCC board",
+    "Court"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Offenders.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · MARAC"
+  },
+  {
+   "id": "2.9-17",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "A victim calls 999 screaming that her partner has a knife, then later refuses to give a statement. What approach should police take?",
+   "options": [
+    "Evidence-led prosecution using the 999 call, BWV, injuries and witnesses",
+    "Close the case",
+    "Arrest the victim",
+    "Wait for her to change her mind"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not necessarily.",
+    "No.",
+    "Not appropriate alone."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Evidence-led prosecution"
+  },
+  {
+   "id": "2.9-18",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Which Act introduced DAPN/DAPO to replace DVPN/DVPO?",
+   "options": [
+    "Crime and Security Act 2010",
+    "PACE 1984",
+    "Domestic Abuse Act 2021",
+    "Protection from Harassment Act 1997"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Created DVPN/DVPO.",
+    "No.",
+    "Correct (roll-out ⚠).",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · DAPO"
+  },
+  {
+   "id": "2.9-19",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Can a single incident be domestic abuse under the DAA 2021 definition?",
+   "options": [
+    "No, it must be repeated",
+    "Yes – it can be a single incident or a course of conduct",
+    "Only if violent",
+    "Only if reported twice"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect (s. 76 needs repetition).",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Single incident"
+  },
+  {
+   "id": "2.9-20",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Two adult brothers live apart; one repeatedly threatens and controls the other. Are they personally connected?",
+   "options": [
+    "No",
+    "Only if they live together",
+    "Only if one is under 18",
+    "Yes – relatives are personally connected"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Relatives"
+  },
+  {
+   "id": "2.9-21",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Which is an example of controlling or coercive behaviour?",
+   "options": [
+    "Agreeing a household budget together",
+    "Arguing once about holidays",
+    "Monitoring a partner's phone and location and isolating them from friends",
+    "Choosing a film together"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not enough.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Examples"
+  },
+  {
+   "id": "2.9-22",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "What is the maximum sentence for controlling or coercive behaviour (⚠ check)?",
+   "options": [
+    "5 years",
+    "6 months",
+    "2 years",
+    "14 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · s. 76 – sentence"
+  },
+  {
+   "id": "2.9-23",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Clare's Law 'right to know' means…",
+   "options": [
+    "victims can see police files",
+    "suspects can see victims' records",
+    "the press can publish names",
+    "police may proactively disclose information about a partner's abusive history to protect someone"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · Right to know"
+  },
+  {
+   "id": "2.9-24",
+   "chapter": "2.9",
+   "lessonId": "nie-2.9",
+   "scenario": "Who provides specialist support to high-risk domestic abuse victims?",
+   "options": [
+    "ISVA",
+    "IDVA",
+    "FLO",
+    "POLSA"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Sexual violence.",
+    "Correct.",
+    "Family liaison.",
+    "Search adviser."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.9 · IDVA"
+  }
+ ]
+}

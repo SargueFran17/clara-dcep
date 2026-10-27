@@ -651,6 +651,118 @@
    "front": "Post-charge reviews",
    "back": "Custody officer",
    "es": "tras acusar"
+  },
+  {
+   "id": "nie-1.11-01",
+   "lessonId": "nie-1.11",
+   "front": "CPIA roles",
+   "back": "Investigator · OIC · disclosure officer · prosecutor",
+   "es": "roles"
+  },
+  {
+   "id": "nie-1.11-02",
+   "lessonId": "nie-1.11",
+   "front": "Reasonable lines of enquiry",
+   "back": "Towards OR away from the suspect",
+   "es": "líneas de investigación"
+  },
+  {
+   "id": "nie-1.11-03",
+   "lessonId": "nie-1.11",
+   "front": "Relevant material",
+   "back": "Some bearing on offence, person investigated or surrounding circumstances",
+   "es": "material relevante"
+  },
+  {
+   "id": "nie-1.11-04",
+   "lessonId": "nie-1.11",
+   "front": "MG6C / MG6D / MG6E",
+   "back": "Non-sensitive schedule / sensitive schedule / disclosure officer's report",
+   "es": "listados"
+  },
+  {
+   "id": "nie-1.11-05",
+   "lessonId": "nie-1.11",
+   "front": "Disclosure test (s. 3)",
+   "back": "Might reasonably undermine prosecution or assist accused",
+   "es": "test"
+  },
+  {
+   "id": "nie-1.11-06",
+   "lessonId": "nie-1.11",
+   "front": "Defence statement",
+   "back": "Compulsory Crown Court (s. 5); voluntary magistrates' (s. 6)",
+   "es": "escrito de defensa"
+  },
+  {
+   "id": "nie-1.11-07",
+   "lessonId": "nie-1.11",
+   "front": "Continuing duty",
+   "back": "s. 7A – keep under review",
+   "es": "deber continuo"
+  },
+  {
+   "id": "nie-1.11-08",
+   "lessonId": "nie-1.11",
+   "front": "PII",
+   "back": "Court ruling needed to withhold sensitive material that meets the test",
+   "es": "inmunidad de interés público"
+  },
+  {
+   "id": "nie-1.11-09",
+   "lessonId": "nie-1.11",
+   "front": "Retention after conviction (⚠)",
+   "back": "Until release or 6 months from conviction, whichever later",
+   "es": "conservación"
+  },
+  {
+   "id": "nie-1.10-01",
+   "lessonId": "nie-1.10",
+   "front": "s. 30 PACE",
+   "back": "Arrested away from station → to police station ASAP",
+   "es": "traslado"
+  },
+  {
+   "id": "nie-1.10-02",
+   "lessonId": "nie-1.10",
+   "front": "s. 30(10)",
+   "back": "Delay for investigations reasonably required immediately; record reasons",
+   "es": "retraso"
+  },
+  {
+   "id": "nie-1.10-03",
+   "lessonId": "nie-1.10",
+   "front": "s. 30(7)",
+   "back": "No grounds before arrival → release without bail",
+   "es": "liberar sin fianza"
+  },
+  {
+   "id": "nie-1.10-04",
+   "lessonId": "nie-1.10",
+   "front": "Street bail",
+   "back": "s. 30A; conditions s. 30B (no surety/security/recognisance/bail hostel); arrest s. 30D",
+   "es": "street bail"
+  },
+  {
+   "id": "nie-1.10-05",
+   "lessonId": "nie-1.10",
+   "front": "s. 34",
+   "back": "Release when grounds for detention cease",
+   "es": "liberación"
+  },
+  {
+   "id": "nie-1.10-06",
+   "lessonId": "nie-1.10",
+   "front": "Pre-charge bail test (⚠)",
+   "back": "Necessary and proportionate; otherwise RUI",
+   "es": "fianza previa"
+  },
+  {
+   "id": "nie-1.10-07",
+   "lessonId": "nie-1.10",
+   "front": "s. 46A",
+   "back": "Arrest for failing to answer police bail / breach of conditions",
+   "es": "s. 46A"
   }
  ]
 }

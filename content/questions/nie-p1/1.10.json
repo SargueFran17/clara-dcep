@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.10. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.10-01",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "A person is arrested in the street. Where must they normally be taken and when?",
+   "options": [
+    "To a police station as soon as practicable after arrest",
+    "Home, within 24 hours",
+    "To court the next day",
+    "Anywhere the officer chooses"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 30 PACE.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 30"
+  },
+  {
+   "id": "1.10-02",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "When can taking an arrested person to a police station be delayed?",
+   "options": [
+    "When the officer is hungry",
+    "Never",
+    "When their presence elsewhere is necessary for investigations reasonably required immediately (s. 30(10))",
+    "When the custody suite is busy"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Delay is possible.",
+    "Correct.",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 30(10)"
+  },
+  {
+   "id": "1.10-03",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "On the way to custody, CCTV shows the arrested man was not involved and no grounds remain. What must the officer do?",
+   "options": [
+    "Continue to custody anyway",
+    "Release him without bail and record it (s. 30(7))",
+    "Release on bail",
+    "Ask a superintendent"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No grounds for bail.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 30(7)"
+  },
+  {
+   "id": "1.10-04",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "If a s. 30(10) delay occurs, what must be done?",
+   "options": [
+    "Nothing",
+    "The suspect must consent",
+    "A magistrate must approve",
+    "The reasons for the delay must be recorded on arrival at the police station"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Recording delay"
+  },
+  {
+   "id": "1.10-05",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "What is street bail (s. 30A)?",
+   "options": [
+    "Releasing someone after charge",
+    "Bail granted by a court",
+    "Releasing an arrested person before reaching a police station, on bail to attend a station later",
+    "Release under investigation"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "Different."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Street bail"
+  },
+  {
+   "id": "1.10-06",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Which condition can NOT be imposed on street bail (⚠ check)?",
+   "options": [
+    "A requirement to reside in a bail hostel",
+    "Not to contact the victim",
+    "Not to enter a certain area",
+    "A curfew"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Possible.",
+    "Possible.",
+    "Possible (⚠)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 30B conditions"
+  },
+  {
+   "id": "1.10-07",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "What must a person released on street bail be given?",
+   "options": [
+    "Nothing",
+    "Only a verbal warning",
+    "A court summons",
+    "A written notice including the offence, grounds and when/where to attend"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not enough.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Written notice"
+  },
+  {
+   "id": "1.10-08",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "A person on street bail fails to attend the station as required. Which is correct?",
+   "options": [
+    "Nothing can be done",
+    "They may be arrested without warrant (s. 30D)",
+    "Only a warrant from court",
+    "They must be cautioned"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not required.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 30D"
+  },
+  {
+   "id": "1.10-09",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Under s. 34 PACE, when must the custody officer order immediate release?",
+   "options": [
+    "When grounds for detention have ceased and there are no other lawful grounds",
+    "After 6 hours",
+    "Only after interview",
+    "When the solicitor arrives"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Not necessarily.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 34"
+  },
+  {
+   "id": "1.10-10",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Which test governs the use of pre-charge bail since the 2022 reforms (⚠ check)?",
+   "options": [
+    "Always use bail",
+    "Never use bail",
+    "Bail where necessary and proportionate (e.g. to protect victims)",
+    "Only for murder"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Pre-charge bail"
+  },
+  {
+   "id": "1.10-11",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "A suspect is released without bail while enquiries continue. This is…",
+   "options": [
+    "NFA",
+    "RUI",
+    "Remand",
+    "Charge"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Investigation ended.",
+    "Correct.",
+    "Custody.",
+    "Different."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · RUI"
+  },
+  {
+   "id": "1.10-12",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Which section gives a power to arrest a person who fails to answer police bail at a station?",
+   "options": [
+    "s. 24",
+    "s. 1",
+    "s. 117",
+    "s. 46A"
+   ],
+   "correct": 3,
+   "explanations": [
+    "General arrest.",
+    "Stop and search.",
+    "Reasonable force.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 46A"
+  },
+  {
+   "id": "1.10-13",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Is breaching a pre-charge bail condition itself a criminal offence?",
+   "options": [
+    "Yes",
+    "Only for domestic cases",
+    "No – but it gives a power of arrest",
+    "Only twice"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Breach of conditions"
+  },
+  {
+   "id": "1.10-14",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "An officer arrests a suspect and needs to search his flat under s. 32 immediately before going to custody. Which is correct?",
+   "options": [
+    "Delay is permitted under s. 30(10) if reasonably required immediately",
+    "Not allowed",
+    "Must go to custody first",
+    "Only with a warrant"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Not necessarily.",
+    "s. 32 doesn't need a warrant."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Delay for search"
+  },
+  {
+   "id": "1.10-15",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Pre-charge bail periods and authorisation levels are found mainly in which part of PACE (and amended in 2022)?",
+   "options": [
+    "Part I (stop and search)",
+    "Part VIII (evidence)",
+    "Part II (entry)",
+    "Part IV (detention)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Pre-charge bail – location"
+  },
+  {
+   "id": "1.10-16",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Who decides on release after charge and whether bail is refused?",
+   "options": [
+    "The OIC",
+    "The custody officer",
+    "The victim",
+    "The CPS"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Release after charge"
+  },
+  {
+   "id": "1.10-17",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "A person is released and told 'no further action'. What does this mean?",
+   "options": [
+    "The investigation has ended with no charge",
+    "The investigation continues",
+    "He must return next week",
+    "He is on bail"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's RUI.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · NFA"
+  },
+  {
+   "id": "1.10-18",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "What is the main purpose of bail conditions?",
+   "options": [
+    "Punishment",
+    "Raising money",
+    "To secure attendance and prevent offending, interference with witnesses, or for protection",
+    "Delaying trial"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · Purpose"
+  },
+  {
+   "id": "1.10-19",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Which of these is a lawful reason to delay taking someone to the station under s. 30(10)?",
+   "options": [
+    "Finishing the officer's lunch",
+    "Searching the place of arrest for a discarded weapon",
+    "Waiting for the suspect's friend",
+    "Taking the suspect home to change"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 30(10) – examples"
+  },
+  {
+   "id": "1.10-20",
+   "chapter": "1.10",
+   "lessonId": "nie-1.10",
+   "scenario": "Street bail is mainly provided by which section?",
+   "options": [
+    "s. 37",
+    "s. 47",
+    "s. 117",
+    "s. 30A"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Custody decisions.",
+    "Bail after charge.",
+    "Force.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.10 · s. 30A"
+  }
+ ]
+}

@@ -203,6 +203,76 @@
    "front": "s. 23(2) MDA",
    "back": "Reasonable grounds to suspect possession → search/detain person, search vehicle, seize",
    "es": "registro"
+  },
+  {
+   "id": "nie-2.9-01",
+   "lessonId": "nie-2.9",
+   "front": "Domestic abuse (DAA 2021 s. 1)",
+   "back": "Both 16+, personally connected, abusive behaviour (physical/sexual, violent/threatening, controlling/coercive, economic, psychological/emotional)",
+   "es": "definición"
+  },
+  {
+   "id": "nie-2.9-02",
+   "lessonId": "nie-2.9",
+   "front": "Personally connected (s. 2)",
+   "back": "Married/civil partners, engaged, intimate relationship, parental relationship to same child, relatives",
+   "es": "vinculados"
+  },
+  {
+   "id": "nie-2.9-03",
+   "lessonId": "nie-2.9",
+   "front": "Children (s. 3)",
+   "back": "See, hear or experience effects → victims",
+   "es": "menores víctimas"
+  },
+  {
+   "id": "nie-2.9-04",
+   "lessonId": "nie-2.9",
+   "front": "s. 76 SCA 2015",
+   "back": "Repeated/continuous controlling or coercive behaviour; serious effect; knows or ought to know",
+   "es": "control coercitivo"
+  },
+  {
+   "id": "nie-2.9-05",
+   "lessonId": "nie-2.9",
+   "front": "Serious effect",
+   "back": "Fear of violence on ≥2 occasions OR serious alarm/distress with substantial adverse effect on day-to-day",
+   "es": "efecto grave"
+  },
+  {
+   "id": "nie-2.9-06",
+   "lessonId": "nie-2.9",
+   "front": "s. 76 defence",
+   "back": "Best interests + reasonable – not if fear of violence",
+   "es": "defensa"
+  },
+  {
+   "id": "nie-2.9-07",
+   "lessonId": "nie-2.9",
+   "front": "DVPN / DVPO (⚠)",
+   "back": "Superintendent; magistrates within 48 h; DVPO 14–28 days",
+   "es": "DVPN/DVPO"
+  },
+  {
+   "id": "nie-2.9-08",
+   "lessonId": "nie-2.9",
+   "front": "DAPN / DAPO",
+   "back": "DAA 2021 replacements (roll-out ⚠)",
+   "es": "DAPO"
+  },
+  {
+   "id": "nie-2.9-09",
+   "lessonId": "nie-2.9",
+   "front": "Clare's Law",
+   "back": "Right to ask / right to know",
+   "es": "DVDS"
+  },
+  {
+   "id": "nie-2.9-10",
+   "lessonId": "nie-2.9",
+   "front": "DASH → MARAC",
+   "back": "Risk assessment → multi-agency meeting for high risk",
+   "es": "DASH/MARAC"
   }
  ]
 }
