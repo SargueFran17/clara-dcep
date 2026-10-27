@@ -1,0 +1,565 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.9. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.9-01",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Under Code C, what is an 'interview'?",
+   "options": [
+    "The questioning of a person regarding their involvement or suspected involvement in a criminal offence, which must be carried out under caution",
+    "Any conversation with a member of the public",
+    "Only questioning recorded at a police station",
+    "Asking a driver for their name"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (C 11.1A).",
+    "Too wide.",
+    "Location doesn't define it.",
+    "Identity questions aren't an interview."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Definition"
+  },
+  {
+   "id": "1.9-02",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "After a decision to arrest, a suspect may be interviewed away from a police station only if delay would be likely to lead to…",
+   "options": [
+    "Inconvenience for the officer",
+    "The suspect changing his mind",
+    "Interference with or harm to evidence/people, serious loss or damage to property, alerting other suspects, or hindering recovery of property",
+    "A long wait for a solicitor"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not a ground.",
+    "No.",
+    "Correct (C 11.1).",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Interview elsewhere"
+  },
+  {
+   "id": "1.9-03",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "An urgent interview away from the station is justified to find a kidnap victim. When must questioning stop?",
+   "options": [
+    "When the suspect asks",
+    "Once the relevant risk has been averted or the necessary questions asked to avert it",
+    "After 30 minutes",
+    "Never – continue to charge"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not the test.",
+    "Correct.",
+    "No fixed limit.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Stopping urgent questioning"
+  },
+  {
+   "id": "1.9-04",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Which is the correct wording of the standard caution?",
+   "options": [
+    "You have the right to remain silent…",
+    "You must answer all questions…",
+    "Anything you say will be used against you.",
+    "You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence."
+   ],
+   "correct": 3,
+   "explanations": [
+    "US wording.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Caution wording"
+  },
+  {
+   "id": "1.9-05",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "A suspect fails to mention in interview an alibi he later relies on at trial. Which section allows a court to draw proper inferences?",
+   "options": [
+    "s. 36 CJPOA 1994",
+    "s. 37 CJPOA 1994",
+    "s. 34 CJPOA 1994",
+    "s. 78 PACE"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Objects/substances/marks.",
+    "Presence at a place.",
+    "Correct.",
+    "Exclusion of evidence."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · s. 34"
+  },
+  {
+   "id": "1.9-06",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "A suspect arrested with fresh scratches on his face refuses to explain them. Which special warning applies?",
+   "options": [
+    "s. 36 – objects, substances or marks",
+    "s. 34",
+    "s. 37 – presence at a place",
+    "No warning is possible"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's general.",
+    "Not presence.",
+    "There is one."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · s. 36"
+  },
+  {
+   "id": "1.9-07",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "A suspect is found in a garden near a burgled house at 3 a.m. and won't explain why. Which special warning?",
+   "options": [
+    "s. 36",
+    "s. 34 only",
+    "s. 76 PACE",
+    "s. 37 – presence at a place at or about the time of the offence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not an object.",
+    "Special warning fits.",
+    "Confessions.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · s. 37"
+  },
+  {
+   "id": "1.9-08",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "What must a special warning tell the suspect?",
+   "options": [
+    "Only the offence",
+    "In ordinary language: the offence, the fact to account for, that the officer believes it may be due to the suspect's involvement, that a court may draw a proper inference, and that a record is being made",
+    "Nothing – the caution is enough",
+    "That they will be charged"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too little.",
+    "Correct (C 10.11).",
+    "A special warning is needed.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Special warning – content"
+  },
+  {
+   "id": "1.9-09",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "The suspect was refused access to a solicitor under Annex B before interview. What caution is used?",
+   "options": [
+    "The restricted caution – no inferences can be drawn",
+    "The standard caution",
+    "No caution",
+    "A special warning"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (Annex C).",
+    "Not when access is refused.",
+    "A caution is needed.",
+    "No inferences possible."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Restricted caution"
+  },
+  {
+   "id": "1.9-10",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Who can authorise delaying access to legal advice, and for what type of offence (⚠)?",
+   "options": [
+    "A sergeant – any offence",
+    "An inspector – summary offence",
+    "A superintendent – indictable offence",
+    "The custody officer – any offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Delay of legal advice"
+  },
+  {
+   "id": "1.9-11",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "What is the maximum delay of access to legal advice for a person detained for an indictable offence (non-terrorism ⚠)?",
+   "options": [
+    "6 hours",
+    "36 hours",
+    "24 hours",
+    "96 hours"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct ⚠.",
+    "No.",
+    "Warrants of further detention, not this."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · 36 hours"
+  },
+  {
+   "id": "1.9-12",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "When can a solicitor be removed from an interview?",
+   "options": [
+    "If he advises silence",
+    "If the suspect looks to him before answering",
+    "Whenever the interviewer wishes",
+    "If his conduct prevents or unreasonably obstructs proper questions being put"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Advising silence is legitimate.",
+    "No.",
+    "No.",
+    "Correct (C 6.9)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Removing a solicitor"
+  },
+  {
+   "id": "1.9-13",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "A 16-year-old is arrested for robbery. Can he be interviewed without an appropriate adult?",
+   "options": [
+    "Yes – he's over 16",
+    "Only with a parent's phone consent",
+    "No – juveniles (under 18) need an AA, unless an urgent interview is authorised",
+    "Yes, if he has a solicitor"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Under 18 = juvenile.",
+    "No.",
+    "Correct.",
+    "The solicitor doesn't replace the AA."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Appropriate adult"
+  },
+  {
+   "id": "1.9-14",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Which statement about the appropriate adult is correct?",
+   "options": [
+    "They support, advise and assist, observe whether the interview is fair and facilitate communication – they are not a legal adviser",
+    "They act as the suspect's lawyer",
+    "They can answer questions for the suspect",
+    "They must be a social worker"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "Any suitable adult."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · AA role"
+  },
+  {
+   "id": "1.9-15",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "In any 24-hour period, a detainee must be allowed a continuous rest period of at least…",
+   "options": [
+    "4 hours",
+    "6 hours",
+    "12 hours",
+    "8 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct (C 12.2)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Rest period"
+  },
+  {
+   "id": "1.9-16",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Short refreshment breaks during interview should be given approximately every…",
+   "options": [
+    "Hour",
+    "2 hours",
+    "4 hours",
+    "6 hours"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct ⚠.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Refreshment breaks"
+  },
+  {
+   "id": "1.9-17",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "In the police van, the suspect says 'I only hit him once'. What must happen in interview?",
+   "options": [
+    "It must be put to him at the start of the interview as a significant statement, asking him to confirm or deny it",
+    "Nothing – it wasn't in interview",
+    "It's inadmissible",
+    "It must be ignored unless he repeats it"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (C 11.4).",
+    "It must be recorded and put.",
+    "Not automatically.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Significant statement"
+  },
+  {
+   "id": "1.9-18",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "When must an interview of a suspect be concluded (Code C 11.6)?",
+   "options": [
+    "When the suspect stops answering",
+    "After two hours",
+    "When the officer in charge is satisfied all relevant questions have been put, has considered other evidence and reasonably believes there is sufficient evidence for a realistic prospect of conviction",
+    "When the solicitor asks"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not the test.",
+    "No time limit.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Ending the interview"
+  },
+  {
+   "id": "1.9-19",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "A person has been charged with burglary. When can he be interviewed again about that offence?",
+   "options": [
+    "Never",
+    "Only to prevent/minimise harm or loss, to clear up an ambiguity, or in the interests of justice to comment on new information",
+    "Whenever new evidence arises",
+    "Only with the CPS's permission"
+   ],
+   "correct": 1,
+   "explanations": [
+    "There are exceptions.",
+    "Correct (C 16.5).",
+    "Only in the interests of justice test.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Interview after charge"
+  },
+  {
+   "id": "1.9-20",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Which Code governs audio recording of interviews?",
+   "options": [
+    "Code C",
+    "Code D",
+    "Code F",
+    "Code E"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Detention.",
+    "Identification.",
+    "Visual recording.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Code E"
+  },
+  {
+   "id": "1.9-21",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Which Code governs visual recording (with sound) of interviews?",
+   "options": [
+    "Code E",
+    "Code G",
+    "Code F",
+    "Code H"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Audio.",
+    "Arrest.",
+    "Correct.",
+    "Terrorism detention."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Code F"
+  },
+  {
+   "id": "1.9-22",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "What does PEACE stand for?",
+   "options": [
+    "Planning and preparation, Engage and explain, Account clarification and challenge, Closure, Evaluate",
+    "Prepare, Explain, Ask, Charge, End",
+    "Police, Evidence, Arrest, Caution, Evaluate",
+    "Plan, Evidence, Admission, Confession, End"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · PEACE"
+  },
+  {
+   "id": "1.9-23",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "An officer tells the suspect 'If you admit it, you'll be out on bail tonight'. What is the problem?",
+   "options": [
+    "None",
+    "It's only a problem for juveniles",
+    "Only if recorded",
+    "Officers must not indicate what action will be taken if the person answers or refuses – it risks oppression/unreliability (s. 76/78 PACE)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It's a problem.",
+    "Applies to all.",
+    "Always.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Inducements"
+  },
+  {
+   "id": "1.9-24",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Asking a driver 'Is this your car?' to establish ownership is…",
+   "options": [
+    "An interview requiring caution",
+    "Not an interview – questions to establish identity or ownership of a vehicle are excluded",
+    "Always oppressive",
+    "A special warning situation"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Excluded from the definition.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Not an interview"
+  },
+  {
+   "id": "1.9-25",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "A detainee with a severe psychiatric crisis may be at risk if interviewed. Which consideration applies?",
+   "options": [
+    "Fitness to be interviewed – no interview if it would significantly harm the person's physical or mental state (Annex G)",
+    "Interview anyway",
+    "Only an interpreter is needed",
+    "Delay legal advice"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Not relevant.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Fitness to interview"
+  },
+  {
+   "id": "1.9-26",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "A suspect who is deaf has difficulty understanding. What must be arranged?",
+   "options": [
+    "Written questions only",
+    "Nothing if he can lip-read a little",
+    "An interpreter (e.g. BSL) – Code C section 13",
+    "An appropriate adult instead"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not sufficient.",
+    "Must be adequate.",
+    "Correct.",
+    "Different role."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · Interpreter"
+  },
+  {
+   "id": "1.9-27",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "Can a court draw an inference under s. 34 if the suspect simply says nothing and then runs no defence relying on facts at trial?",
+   "options": [
+    "Yes – always",
+    "No – s. 34 bites only on failure to mention a fact later relied on",
+    "Only for indictable offences",
+    "Only after a special warning"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not automatically.",
+    "Correct.",
+    "No.",
+    "s. 34 doesn't need a special warning."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · s. 34 scope"
+  },
+  {
+   "id": "1.9-28",
+   "chapter": "1.9",
+   "lessonId": "nie-1.9",
+   "scenario": "When should the caution be given?",
+   "options": [
+    "Only at charge",
+    "Only at the police station",
+    "Only at the end of interview",
+    "On arrest (unless impracticable) and before a person suspected of an offence is asked questions about it"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too late.",
+    "Too late.",
+    "Too late.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.9 · When to caution"
+  }
+ ]
+}

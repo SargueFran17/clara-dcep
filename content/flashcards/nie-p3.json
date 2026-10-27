@@ -441,6 +441,104 @@
    "front": "Regulated sector",
    "back": "Failure to disclose (s. 330); tipping off (s. 333A)",
    "es": "sector regulado"
+  },
+  {
+   "id": "nie-3.9-01",
+   "lessonId": "nie-3.9",
+   "front": "Criminal damage (s. 1(1))",
+   "back": "Destroy/damage property belonging to another, intent or recklessness, no lawful excuse. 10 yrs (≤ £5,000 summary ⚠).",
+   "es": "Daños; 10 años."
+  },
+  {
+   "id": "nie-3.9-02",
+   "lessonId": "nie-3.9",
+   "front": "Recklessness – R v G",
+   "back": "Subjective: aware of risk and unreasonable to take it.",
+   "es": "Imprudencia subjetiva."
+  },
+  {
+   "id": "nie-3.9-03",
+   "lessonId": "nie-3.9",
+   "front": "Property (s. 10)",
+   "back": "Tangible, real or personal, money, tamed/captive wild creatures; not wild mushrooms/flowers/fruit/foliage.",
+   "es": "Tangible; no plantas silvestres."
+  },
+  {
+   "id": "nie-3.9-04",
+   "lessonId": "nie-3.9",
+   "front": "Lawful excuse (s. 5)",
+   "back": "Belief in consent; protection of property in immediate need by reasonable means. Honest belief (Jaggard). Not for s. 1(2).",
+   "es": "Consentimiento; proteger bienes."
+  },
+  {
+   "id": "nie-3.9-05",
+   "lessonId": "nie-3.9",
+   "front": "Aggravated (s. 1(2))",
+   "back": "Any property (incl. own) + intent/recklessness to endanger life by the damage (Steer). Life.",
+   "es": "Peligro para la vida; perpetua."
+  },
+  {
+   "id": "nie-3.9-06",
+   "lessonId": "nie-3.9",
+   "front": "Arson (s. 1(3))",
+   "back": "Criminal damage by fire – life.",
+   "es": "Incendio; perpetua."
+  },
+  {
+   "id": "nie-3.9-07",
+   "lessonId": "nie-3.9",
+   "front": "s. 2 / s. 3",
+   "back": "Threats to destroy/damage (intending fear); possession with intent to destroy/damage. 10 yrs.",
+   "es": "Amenazas; posesión."
+  },
+  {
+   "id": "nie-3.7-01",
+   "lessonId": "nie-3.7",
+   "front": "Fraud (s. 1 FA 2006)",
+   "back": "By false representation (s. 2), failing to disclose (s. 3), abuse of position (s. 4). 10 yrs. Conduct crime.",
+   "es": "Fraude; 10 años; delito de conducta."
+  },
+  {
+   "id": "nie-3.7-02",
+   "lessonId": "nie-3.7",
+   "front": "False (s. 2)",
+   "back": "Untrue or misleading, and D knows it is or might be. Express/implied; fact, law, state of mind; to machines.",
+   "es": "Falsa o engañosa; también a máquinas."
+  },
+  {
+   "id": "nie-3.7-03",
+   "lessonId": "nie-3.7",
+   "front": "Gain/loss (s. 5)",
+   "back": "Money or other property; temporary or permanent; gain includes keeping, loss includes not getting.",
+   "es": "Dinero o bienes."
+  },
+  {
+   "id": "nie-3.7-04",
+   "lessonId": "nie-3.7",
+   "front": "Dishonesty (Ivey/Barton)",
+   "back": "Actual knowledge/belief, then objective standards of ordinary decent people.",
+   "es": "Creencia real + estándar objetivo."
+  },
+  {
+   "id": "nie-3.7-05",
+   "lessonId": "nie-3.7",
+   "front": "s. 4 abuse of position",
+   "back": "Expected to safeguard another's financial interests; dishonest abuse (can be omission).",
+   "es": "Abuso de posición."
+  },
+  {
+   "id": "nie-3.7-06",
+   "lessonId": "nie-3.7",
+   "front": "ss. 6–8",
+   "back": "Possess article for fraud (5 yrs); make/supply (10 yrs); article includes electronic data.",
+   "es": "Artículos para fraude."
+  },
+  {
+   "id": "nie-3.7-07",
+   "lessonId": "nie-3.7",
+   "front": "s. 11 obtaining services",
+   "back": "Dishonest act, services obtained without paying in full, intending not to pay. 5 yrs.",
+   "es": "Obtener servicios sin pagar."
   }
  ]
 }

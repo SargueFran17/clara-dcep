@@ -763,6 +763,69 @@
    "front": "s. 46A",
    "back": "Arrest for failing to answer police bail / breach of conditions",
    "es": "s. 46A"
+  },
+  {
+   "id": "nie-1.9-01",
+   "lessonId": "nie-1.9",
+   "front": "Interview (C 11.1A)",
+   "back": "Questioning about involvement or suspected involvement in an offence, which must be under caution.",
+   "es": "Preguntas sobre participación en un delito, bajo caution."
+  },
+  {
+   "id": "nie-1.9-02",
+   "lessonId": "nie-1.9",
+   "front": "Interview away from station (C 11.1)",
+   "back": "Only if delay risks harm to evidence/people, serious loss/damage to property, alerting suspects, hindering recovery of property.",
+   "es": "Solo por riesgo: pruebas/personas, alertar, recuperar bienes."
+  },
+  {
+   "id": "nie-1.9-03",
+   "lessonId": "nie-1.9",
+   "front": "Caution (C 10.5)",
+   "back": "You do not have to say anything. But it may harm your defence… Anything you do say may be given in evidence.",
+   "es": "No tiene que decir nada…"
+  },
+  {
+   "id": "nie-1.9-04",
+   "lessonId": "nie-1.9",
+   "front": "s. 34 / s. 36 / s. 37 CJPOA",
+   "back": "s. 34 failure to mention fact later relied on; s. 36 objects, substances, marks; s. 37 presence at a place.",
+   "es": "Silencio; objetos/marcas; presencia."
+  },
+  {
+   "id": "nie-1.9-05",
+   "lessonId": "nie-1.9",
+   "front": "Restricted caution",
+   "back": "Used when legal advice was refused/delayed: no inferences can be drawn.",
+   "es": "Sin inferencias si se negó el abogado."
+  },
+  {
+   "id": "nie-1.9-06",
+   "lessonId": "nie-1.9",
+   "front": "Significant statement (C 11.4)",
+   "back": "Anything said outside interview capable of being used against suspect – put at the start of the interview.",
+   "es": "Se plantea al inicio."
+  },
+  {
+   "id": "nie-1.9-07",
+   "lessonId": "nie-1.9",
+   "front": "End interview (C 11.6)",
+   "back": "All relevant questions put, other evidence considered, sufficient evidence for realistic prospect of conviction.",
+   "es": "Preguntas hechas + pruebas suficientes."
+  },
+  {
+   "id": "nie-1.9-08",
+   "lessonId": "nie-1.9",
+   "front": "Interview after charge (C 16.5)",
+   "back": "Only to prevent harm/loss, clear up ambiguity, or interests of justice (new information).",
+   "es": "Solo 3 casos."
+  },
+  {
+   "id": "nie-1.9-09",
+   "lessonId": "nie-1.9",
+   "front": "PEACE",
+   "back": "Planning & preparation, Engage & explain, Account clarification & challenge, Closure, Evaluate.",
+   "es": "Modelo de entrevista."
   }
  ]
 }

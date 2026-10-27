@@ -1,0 +1,485 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.9. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.9-01",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Which mental element is required for simple criminal damage (s. 1(1) CDA 1971)?",
+   "options": [
+    "Intention or recklessness as to destroying or damaging the property",
+    "Intention only",
+    "Negligence",
+    "Strict liability"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Recklessness also.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · s. 1(1) – mens rea"
+  },
+  {
+   "id": "3.9-02",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Following R v G (2003), recklessness for criminal damage is…",
+   "options": [
+    "Objective – what a reasonable person would have foreseen",
+    "Not required",
+    "Subjective – D was aware of a risk and it was unreasonable to take it",
+    "The same as negligence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That was Caldwell, overruled.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · R v G"
+  },
+  {
+   "id": "3.9-03",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Two boys, 11 and 12, set fire to newspapers behind a shop, not foreseeing the fire would spread. Following R v G, are they reckless as to the shop?",
+   "options": [
+    "Yes – a reasonable adult would have foreseen it",
+    "No – they did not foresee the risk",
+    "Yes – children are always reckless",
+    "Only if the shop was occupied"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Objective test abandoned.",
+    "Correct.",
+    "No.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · R v G – facts"
+  },
+  {
+   "id": "3.9-04",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Graffiti is sprayed with water-soluble paint that can be washed off. Is this 'damage'?",
+   "options": [
+    "No – it's temporary",
+    "Only if permanent",
+    "Only on listed buildings",
+    "It can be – temporary impairment of value or usefulness and cost of cleaning (Hardman v CC Avon)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Temporary can be enough.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Damage – graffiti"
+  },
+  {
+   "id": "3.9-05",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Which of these is NOT 'property' under the CDA 1971?",
+   "options": [
+    "A tamed fox kept as a pet",
+    "Money",
+    "Wild mushrooms growing in a field",
+    "A garden shed"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Tamed wild creature = property.",
+    "Money is property.",
+    "Correct (s. 10(1)).",
+    "Real property."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Property – wild plants"
+  },
+  {
+   "id": "3.9-06",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "A co-owner of a car deliberately smashes its windscreen. Can it be criminal damage?",
+   "options": [
+    "Yes – property belongs to another if another person has a proprietary right or interest in it",
+    "No – he owns it",
+    "Only if the other owner reports it",
+    "Only if insured"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Co-ownership still counts.",
+    "Not required.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Belonging to another"
+  },
+  {
+   "id": "3.9-07",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "What is the maximum penalty for simple criminal damage on indictment?",
+   "options": [
+    "2 years",
+    "5 years",
+    "Life",
+    "10 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "Aggravated/arson.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Penalty s. 1(1)"
+  },
+  {
+   "id": "3.9-08",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Criminal damage where the value of the damage is £5,000 or less (⚠) is…",
+   "options": [
+    "Indictable only",
+    "Tried summarily",
+    "Not an offence",
+    "Always a fixed penalty"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct ⚠.",
+    "It is.",
+    "Not always."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Value threshold"
+  },
+  {
+   "id": "3.9-09",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Under s. 5(2)(a), a lawful excuse exists if D believed…",
+   "options": [
+    "The person entitled to consent had consented or would have consented had they known the circumstances",
+    "The property was worthless",
+    "The damage was minor",
+    "He would pay for it"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · s. 5(2)(a)"
+  },
+  {
+   "id": "3.9-10",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "D, very drunk, breaks a window of a house believing it is his friend's house and that the friend would consent. It's actually a stranger's. Which is correct?",
+   "options": [
+    "No defence – he was drunk",
+    "Guilty of aggravated damage",
+    "He may have a lawful excuse – the belief need only be honestly held, even if caused by intoxication (Jaggard v Dickinson)",
+    "Guilty of burglary only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Intoxication doesn't remove s. 5.",
+    "No danger to life.",
+    "Correct.",
+    "Not the issue."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Jaggard v Dickinson"
+  },
+  {
+   "id": "3.9-11",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "For s. 5(2)(b), the property protected must be believed to be…",
+   "options": [
+    "Valuable",
+    "In immediate need of protection, and the means adopted reasonable in all the circumstances",
+    "Owned by D",
+    "Insured"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Can be another's.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · s. 5(2)(b)"
+  },
+  {
+   "id": "3.9-12",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Does the s. 5 lawful excuse defence apply to aggravated criminal damage (s. 1(2))?",
+   "options": [
+    "Yes",
+    "Only for arson",
+    "Only for children",
+    "No"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · s. 5 – not s. 1(2)"
+  },
+  {
+   "id": "3.9-13",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "D sets fire to his OWN house to claim insurance, reckless whether neighbours' lives are endangered. Which offence?",
+   "options": [
+    "None – own property",
+    "Simple arson",
+    "Aggravated arson (s. 1(2) and (3))",
+    "Only fraud"
+   ],
+   "correct": 2,
+   "explanations": [
+    "s. 1(2) covers own property.",
+    "Own property not covered by s. 1(1).",
+    "Correct (plus fraud).",
+    "Also aggravated arson."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Own property – s. 1(2)"
+  },
+  {
+   "id": "3.9-14",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "D fires a shotgun through a window at people inside; glass breaks. Following R v Steer, for s. 1(2) the danger to life must come from…",
+   "options": [
+    "The destruction or damage to the property",
+    "The shot itself",
+    "The noise",
+    "Any source"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not enough for s. 1(2).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · R v Steer"
+  },
+  {
+   "id": "3.9-15",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "For aggravated criminal damage, must life actually be endangered?",
+   "options": [
+    "Yes",
+    "Only for arson",
+    "Only if someone is injured",
+    "No – intention or recklessness as to endangering life is enough"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Life need not be endangered"
+  },
+  {
+   "id": "3.9-16",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "What is the maximum penalty for arson?",
+   "options": [
+    "10 years",
+    "Life",
+    "14 years",
+    "5 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Arson – penalty"
+  },
+  {
+   "id": "3.9-17",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "D texts his ex: 'I'm going to smash up your car tonight', intending her to fear it will be done. He has no real plan. Which offence?",
+   "options": [
+    "Threats to destroy or damage property (s. 2)",
+    "None – no damage",
+    "Harassment only",
+    "Attempted criminal damage"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Threat is enough.",
+    "Possible, but s. 2 fits.",
+    "No act towards it."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · s. 2"
+  },
+  {
+   "id": "3.9-18",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "For s. 2, what must D intend?",
+   "options": [
+    "To carry out the threat",
+    "To obtain money",
+    "That the other would fear it would be carried out",
+    "Nothing"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not required.",
+    "That's blackmail.",
+    "Correct.",
+    "Intent required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · s. 2 – intent"
+  },
+  {
+   "id": "3.9-19",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "D is stopped carrying a hammer intending to break a shop window later. Which offence?",
+   "options": [
+    "Going equipped (theft)",
+    "Possessing anything with intent to destroy or damage property (s. 3)",
+    "No offence",
+    "Attempted criminal damage"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not for theft.",
+    "Correct.",
+    "There is.",
+    "Merely preparatory."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · s. 3"
+  },
+  {
+   "id": "3.9-20",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Which offence carries 14 years: criminal damage that is…",
+   "options": [
+    "Committed at night",
+    "Over £5,000",
+    "Committed by a juvenile",
+    "Racially or religiously aggravated (CDA 1998, s. 30)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Racially aggravated"
+  },
+  {
+   "id": "3.9-21",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Is erasing a computer file usually 'criminal damage'?",
+   "options": [
+    "Yes, always",
+    "Only for government computers",
+    "Generally no – unauthorised modification of data is covered by the Computer Misuse Act 1990",
+    "Only if backed up"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not generally.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Computer data"
+  },
+  {
+   "id": "3.9-22",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "A protester damages a fence at an airbase believing this will protect people's homes from a future nuclear war. Following R v Hill and Hall, is this 'in order to protect property'?",
+   "options": [
+    "No – whether the act was done to protect property is judged objectively, and the threat was not immediate",
+    "Yes – honest belief is all that matters",
+    "Yes, if the means were reasonable",
+    "Only if the fence was cheap"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not for this element.",
+    "Immediacy and objective link lacking.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Hill and Hall"
+  },
+  {
+   "id": "3.9-23",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "D breaks a neighbour's fence to rescue his dog that is being savaged. Possible defence?",
+   "options": [
+    "None",
+    "Self-defence only",
+    "Duress",
+    "Lawful excuse – protecting property (animal) believed in immediate need of protection, by reasonable means"
+   ],
+   "correct": 3,
+   "explanations": [
+    "There is one.",
+    "Not the best answer.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Protecting property"
+  },
+  {
+   "id": "3.9-24",
+   "chapter": "3.9",
+   "lessonId": "nie-3.9",
+   "scenario": "Wild flowers growing in a field are picked and trampled. Is this criminal damage?",
+   "options": [
+    "Yes",
+    "No – flowers of plants growing wild are not property under the CDA",
+    "Only if picked for sale",
+    "Only in a park"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "That's a Theft Act issue.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.9 · Wild flowers"
+  }
+ ]
+}

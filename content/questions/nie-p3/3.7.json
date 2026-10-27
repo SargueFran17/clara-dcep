@@ -1,0 +1,485 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.7. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.7-01",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Which are the three ways of committing fraud under the Fraud Act 2006?",
+   "options": [
+    "False representation, failing to disclose information, abuse of position",
+    "Theft, deception, forgery",
+    "Lying, cheating, stealing",
+    "Obtaining property, services and pecuniary advantage"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (ss. 2–4).",
+    "No.",
+    "No.",
+    "Old Theft Act offences."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Three ways"
+  },
+  {
+   "id": "3.7-02",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "What is the maximum penalty for fraud (s. 1)?",
+   "options": [
+    "5 years",
+    "7 years",
+    "10 years",
+    "14 years"
+   ],
+   "correct": 2,
+   "explanations": [
+    "s. 6/s. 11.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Penalty"
+  },
+  {
+   "id": "3.7-03",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D sends 1,000 phishing emails pretending to be a bank. Nobody responds. Which is correct?",
+   "options": [
+    "No offence – nobody was deceived",
+    "Fraud by false representation is complete – no one needs to be deceived and no gain need be made",
+    "Only attempted fraud",
+    "Only a computer misuse offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Full offence.",
+    "Not only."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Conduct crime"
+  },
+  {
+   "id": "3.7-04",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "When is a representation 'false' under s. 2?",
+   "options": [
+    "Only if completely untrue",
+    "If anyone is misled",
+    "If it is an opinion",
+    "If it is untrue or misleading and the maker knows it is, or might be, untrue or misleading"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Misleading also counts.",
+    "Knowledge needed.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · False"
+  },
+  {
+   "id": "3.7-05",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D uses a stolen credit card to pay in a shop without saying anything. Is there a representation?",
+   "options": [
+    "No – he said nothing",
+    "Only if he signs",
+    "Yes – an implied representation that he has authority to use the card",
+    "Only if the card is declined"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Implied representations count.",
+    "Not needed.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Implied representation"
+  },
+  {
+   "id": "3.7-06",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D enters stolen card details on a website and an automated system accepts them. Can this be fraud by false representation?",
+   "options": [
+    "Yes – a representation can be made to any system or device (s. 2(5))",
+    "No – a machine can't be deceived",
+    "Only if a human checks it",
+    "Only theft"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "s. 2(5) covers it.",
+    "Not needed.",
+    "Fraud fits."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Machines"
+  },
+  {
+   "id": "3.7-07",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "A representation can be about…",
+   "options": [
+    "Facts only",
+    "Only future events",
+    "Only prices",
+    "Fact or law, including the state of mind of the person making it or any other person"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too narrow.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Representation – scope"
+  },
+  {
+   "id": "3.7-08",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D orders a meal intending not to pay. Which fraud?",
+   "options": [
+    "None until he leaves",
+    "False representation – implied representation that he intends to pay",
+    "Only making off without payment",
+    "Abuse of position"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Representation made on ordering.",
+    "Correct (making off may also apply later).",
+    "Not only.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · State of mind"
+  },
+  {
+   "id": "3.7-09",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Under s. 5, 'gain' and 'loss' extend only to…",
+   "options": [
+    "Money or other property, whether temporary or permanent",
+    "Anything of value, including sexual favours",
+    "Only money",
+    "Only permanent loss"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too wide.",
+    "Too narrow.",
+    "Temporary too."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Gain and loss"
+  },
+  {
+   "id": "3.7-10",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Does 'gain' include keeping what one already has?",
+   "options": [
+    "No",
+    "Only for companies",
+    "Yes",
+    "Only with money"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Gain – keeping"
+  },
+  {
+   "id": "3.7-11",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "A carer with access to an elderly man's bank account transfers money to herself. Which form of fraud fits best?",
+   "options": [
+    "Failing to disclose",
+    "Abuse of position (s. 4)",
+    "None – she had access",
+    "Obtaining services"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No duty-to-disclose issue.",
+    "Correct.",
+    "Access isn't permission.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 4"
+  },
+  {
+   "id": "3.7-12",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Can abuse of position (s. 4) be committed by omission?",
+   "options": [
+    "No",
+    "Only by solicitors",
+    "Only by employees",
+    "Yes"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 4 – omission"
+  },
+  {
+   "id": "3.7-13",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Fraud by failing to disclose information (s. 3) requires…",
+   "options": [
+    "A moral duty",
+    "A written contract only",
+    "A legal duty to disclose the information",
+    "A statutory duty only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not enough.",
+    "Not only.",
+    "Correct (statute, contract, custom, fiduciary…).",
+    "Not only."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 3"
+  },
+  {
+   "id": "3.7-14",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Following Ivey v Genting and R v Barton and Booth, the test for dishonesty is…",
+   "options": [
+    "(1) D's actual state of knowledge or belief; (2) whether, given that, his conduct was dishonest by the standards of ordinary decent people",
+    "Only whether D thought he was honest",
+    "Whether D realised ordinary people would see it as dishonest",
+    "Whether the victim felt cheated"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Old Ghosh second limb – no longer applies.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Dishonesty"
+  },
+  {
+   "id": "3.7-15",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Must D's belief about the facts be reasonable under the Ivey test?",
+   "options": [
+    "Yes",
+    "Only for fraud",
+    "Only for theft",
+    "No – but reasonableness is relevant to whether it was genuinely held"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not required.",
+    "Same for both.",
+    "Same for both.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Belief"
+  },
+  {
+   "id": "3.7-16",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D has a list of stolen card numbers on his laptop at home, intending to sell them for use in frauds. Which offence?",
+   "options": [
+    "None – it's at home",
+    "Possession of articles for use in frauds (s. 6) – and data counts as an article (s. 8)",
+    "Only s. 11",
+    "Only theft"
+   ],
+   "correct": 1,
+   "explanations": [
+    "s. 6 has no 'away from abode' limit.",
+    "Correct (s. 7 offering to supply may also apply).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · ss. 6 and 8"
+  },
+  {
+   "id": "3.7-17",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "What is the maximum penalty for s. 6 (possession of articles)?",
+   "options": [
+    "5 years",
+    "2 years",
+    "10 years",
+    "14 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "That's s. 7.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 6 – penalty"
+  },
+  {
+   "id": "3.7-18",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D designs and sells 'phishing kits' online. Which offence?",
+   "options": [
+    "s. 6",
+    "s. 11",
+    "s. 7 – making, adapting, supplying or offering to supply articles for use in frauds",
+    "s. 3"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Possession is less serious.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 7"
+  },
+  {
+   "id": "3.7-19",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D climbs over a fence into a football stadium to watch a match without paying. Which offence?",
+   "options": [
+    "Fraud by false representation",
+    "Obtaining services dishonestly (s. 11)",
+    "Making off without payment",
+    "No offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No representation.",
+    "Correct.",
+    "Not that.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 11"
+  },
+  {
+   "id": "3.7-20",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Which is required for s. 11 but NOT for s. 2?",
+   "options": [
+    "Dishonesty",
+    "An intention",
+    "A false statement",
+    "That the services are actually obtained"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Both.",
+    "Both.",
+    "Not needed for s. 11.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 11 vs s. 2"
+  },
+  {
+   "id": "3.7-21",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "Can s. 11 be committed by omission?",
+   "options": [
+    "Yes",
+    "Only by employees",
+    "No – it requires a dishonest act",
+    "Only online"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · s. 11 – act"
+  },
+  {
+   "id": "3.7-22",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D lies on a job application about his qualifications to get a well-paid job. Which is correct?",
+   "options": [
+    "Fraud by false representation – intending gain (salary) by a false representation",
+    "No gain – he must work for the salary",
+    "Only s. 3",
+    "Not fraud – no property"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Salary is money.",
+    "He made a representation.",
+    "Money is property."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Job application"
+  },
+  {
+   "id": "3.7-23",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "D tells a buyer a used car has 'one careful owner' knowing it has had five. The buyer never relies on it. Is it fraud?",
+   "options": [
+    "No – buyer not deceived",
+    "Only if the buyer complains",
+    "Only if the price was inflated",
+    "Yes – the false representation, with intent to gain, completes the offence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Reliance not required.",
+    "No.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · No reliance needed"
+  },
+  {
+   "id": "3.7-24",
+   "chapter": "3.7",
+   "lessonId": "nie-3.7",
+   "scenario": "A man uses a fake account to persuade a woman to sleep with him. Is this fraud?",
+   "options": [
+    "Yes",
+    "No – gain/loss must relate to money or property",
+    "Only if he paid her",
+    "Only if she lost money"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not under the Fraud Act.",
+    "Correct.",
+    "No.",
+    "Not this scenario."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.7 · Not property"
+  }
+ ]
+}
