@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.5. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.5-01",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "How is 'mental disorder' defined for SOA 2003 offences?",
+   "options": [
+    "Any disorder or disability of the mind (MHA 1983, s. 1)",
+    "Only learning disabilities",
+    "Only conditions requiring detention",
+    "Only diagnosed psychosis"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "Too narrow.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Mental disorder"
+  },
+  {
+   "id": "4.5-02",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "Under s. 30(2), B is 'unable to refuse' if…",
+   "options": [
+    "B said no",
+    "B is under 18",
+    "B lacks the capacity to choose whether to agree, or is unable to communicate such a choice",
+    "B is drunk"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's lack of consent generally.",
+    "Irrelevant.",
+    "Correct.",
+    "Not this offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · s. 30(2)"
+  },
+  {
+   "id": "4.5-03",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "Under s. 30(2)(a), lack of capacity can arise from lack of understanding of the nature or consequences of the act or…",
+   "options": [
+    "Only from that",
+    "For any other reason",
+    "Only from intoxication",
+    "Only from age"
+   ],
+   "correct": 1,
+   "explanations": [
+    "The Act says 'or for any other reason'.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Any other reason"
+  },
+  {
+   "id": "4.5-04",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "What did R v C (2009) decide about capacity?",
+   "options": [
+    "Capacity is general – a person either has it or not",
+    "Only doctors decide capacity",
+    "Capacity is irrelevant",
+    "Capacity is specific to the person, the situation and the time; an irrational fear from the disorder can mean lack of capacity"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "The jury decides.",
+    "It's central.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · R v C"
+  },
+  {
+   "id": "4.5-05",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "What must A know for ss. 30–33?",
+   "options": [
+    "Nothing",
+    "B's diagnosis",
+    "That B has a mental disorder and is likely to be unable to refuse – or A could reasonably be expected to know",
+    "B's age"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Knowledge is required.",
+    "Not the precise diagnosis.",
+    "Correct.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Knowledge"
+  },
+  {
+   "id": "4.5-06",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "A has sex with B, who has a severe learning disability and can't understand what sex is. What is the maximum penalty (⚠)?",
+   "options": [
+    "Life – penetration involved",
+    "10 years",
+    "2 years",
+    "14 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "No.",
+    "No.",
+    "Non-penetrative max."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · s. 30 – penalty"
+  },
+  {
+   "id": "4.5-07",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "B has a learning disability but has capacity to choose. A offers B money to engage in sexual activity and B agrees. Which group of offences?",
+   "options": [
+    "ss. 30–33",
+    "ss. 38–41",
+    "No offence",
+    "ss. 34–37 – inducements, threats or deception"
+   ],
+   "correct": 3,
+   "explanations": [
+    "B has capacity.",
+    "A is not a care worker.",
+    "There is.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Inducement"
+  },
+  {
+   "id": "4.5-08",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "A care-home worker has a sexual relationship with a resident who has dementia, who appears to agree. Which is correct?",
+   "options": [
+    "No offence – consent",
+    "Care worker offence (s. 38) – consent and capacity are irrelevant",
+    "Only a disciplinary matter",
+    "Only if B lacks capacity"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Consent irrelevant.",
+    "Correct.",
+    "It's criminal.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Care workers"
+  },
+  {
+   "id": "4.5-09",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "Which is an exception to the care worker offences?",
+   "options": [
+    "A and B were married/civil partners, or had a lawful sexual relationship before the care relationship began",
+    "B consented",
+    "B initiated it",
+    "A was a volunteer"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not a defence.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · ss. 43–44"
+  },
+  {
+   "id": "4.5-10",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "For care worker offences, what kind of contact must A have with B?",
+   "options": [
+    "Occasional phone calls",
+    "Any contact",
+    "Regular face-to-face contact in the course of providing care",
+    "Online only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Care relationship"
+  },
+  {
+   "id": "4.5-11",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "A causes B, who lacks capacity due to mental disorder, to watch a sexual act for A's gratification. Which section?",
+   "options": [
+    "s. 30",
+    "s. 33",
+    "s. 31",
+    "s. 32"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Sexual activity.",
+    "Correct.",
+    "Causing/inciting.",
+    "In presence."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · s. 33"
+  },
+  {
+   "id": "4.5-12",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "B has autism and is physically able but cannot communicate her choice to A due to her disorder. Which applies?",
+   "options": [
+    "Not an offence",
+    "Only s. 75 SOA",
+    "Only s. 3",
+    "s. 30(2)(b) – unable to communicate a choice"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It can be.",
+    "Possibly, but s. 30 fits.",
+    "s. 30 is more specific.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Unable to communicate"
+  },
+  {
+   "id": "4.5-13",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "A tells B, who has a mental disorder, that the police will take her away unless she has sex with him. Which section?",
+   "options": [
+    "s. 30",
+    "s. 38",
+    "s. 34 – threat",
+    "s. 71"
+   ],
+   "correct": 2,
+   "explanations": [
+    "B may have capacity.",
+    "Not a care worker.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Threat"
+  },
+  {
+   "id": "4.5-14",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "Who decides whether B had capacity in a trial?",
+   "options": [
+    "The jury, on the evidence (often including expert evidence)",
+    "The police",
+    "Only a psychiatrist",
+    "The CPS"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Experts assist.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Who decides"
+  },
+  {
+   "id": "4.5-15",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "A lies to B, who has a learning disability, that he is a doctor and the sexual touching is a medical test. Which group could apply?",
+   "options": [
+    "None",
+    "Only s. 76 conclusive presumption",
+    "Care worker offences",
+    "Inducement, threat or deception (ss. 34–37)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "There is.",
+    "Possibly, but ss. 34–37 fit.",
+    "A isn't a care worker.",
+    "Correct (s. 76 may also apply to s. 3 ⚠)."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Deception"
+  },
+  {
+   "id": "4.5-16",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "Can a person with a mental disorder consent to sexual activity?",
+   "options": [
+    "Never",
+    "Yes, if they have capacity to choose and are not induced/threatened/deceived",
+    "Only with a guardian's consent",
+    "Only if married"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too wide.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Capacity to consent"
+  },
+  {
+   "id": "4.5-17",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "What is the maximum for non-penetrative s. 30 sexual activity (⚠)?",
+   "options": [
+    "14 years",
+    "5 years",
+    "2 years",
+    "Life"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "No.",
+    "No.",
+    "Only with penetration."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · s. 30 – non-penetrative"
+  },
+  {
+   "id": "4.5-18",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "A takes advantage of B, whose irrational fear (caused by her schizophrenia) stops her refusing. Under R v C…",
+   "options": [
+    "She had capacity because she understood sex",
+    "Fear is never relevant",
+    "She may lack capacity to choose – the fear prevents her exercising choice",
+    "Only s. 75 applies"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Understanding isn't everything.",
+    "It can be.",
+    "Correct.",
+    "s. 30 fits."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · R v C – irrational fear"
+  },
+  {
+   "id": "4.5-19",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "Which group requires that B DOES have capacity?",
+   "options": [
+    "ss. 30–33",
+    "ss. 34–37",
+    "Neither",
+    "Both"
+   ],
+   "correct": 1,
+   "explanations": [
+    "B lacks capacity there.",
+    "Correct (B agrees because of inducement etc.).",
+    "One does.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Groups"
+  },
+  {
+   "id": "4.5-20",
+   "chapter": "4.5",
+   "lessonId": "nie-4.5",
+   "scenario": "A care worker (ss. 38–41) must know or could reasonably be expected to know…",
+   "options": [
+    "Nothing",
+    "B's exact diagnosis",
+    "That B lacks capacity",
+    "That B has a mental disorder"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Required.",
+    "No.",
+    "Capacity irrelevant.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.5 · Care worker – knowledge"
+  }
+ ]
+}

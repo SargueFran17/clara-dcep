@@ -1,0 +1,525 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.8. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.8-01",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Under s. 66 (exposure), what must A intend?",
+   "options": [
+    "That someone will see his/her genitals and be caused alarm or distress",
+    "To have sex",
+    "To be photographed",
+    "Nothing"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "Intent is required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 66 – intent"
+  },
+  {
+   "id": "4.8-02",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A man exposes his genitals in a park intending passers-by to be shocked, but nobody sees. Which is correct?",
+   "options": [
+    "No offence – nobody saw",
+    "Attempt only",
+    "s. 66 – complete; it is the intention that matters",
+    "Only outraging public decency"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not required.",
+    "Full offence.",
+    "Correct.",
+    "s. 66 fits."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 66 – nobody sees"
+  },
+  {
+   "id": "4.8-03",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A man urinates against a wall in the street; he isn't trying to be seen. Is it s. 66?",
+   "options": [
+    "Yes",
+    "No – no intent that someone sees and is alarmed/distressed",
+    "Yes, if a child passes",
+    "Only at night"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No intent.",
+    "Correct.",
+    "Still needs intent.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · Urinating"
+  },
+  {
+   "id": "4.8-04",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "What is the maximum penalty for exposure?",
+   "options": [
+    "6 months",
+    "5 years",
+    "10 years",
+    "2 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 66 – penalty"
+  },
+  {
+   "id": "4.8-05",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A sends an unsolicited photo of his genitals by AirDrop to a stranger, intending to humiliate her. Which offence?",
+   "options": [
+    "s. 66",
+    "s. 67",
+    "s. 66A – sending a photograph or film of genitals",
+    "No offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not physical exposure.",
+    "No.",
+    "Correct.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 66A"
+  },
+  {
+   "id": "4.8-06",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Which intent/purpose satisfies s. 66A?",
+   "options": [
+    "Intent that B sees and is caused alarm, distress or humiliation, or sexual gratification while reckless as to that",
+    "Only intent to cause alarm",
+    "Only sexual gratification",
+    "Only financial gain"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "Must also be reckless as to alarm etc.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 66A – mental element"
+  },
+  {
+   "id": "4.8-07",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "For voyeurism under s. 67(1), A must observe B doing a private act for the purpose of…",
+   "options": [
+    "Humiliating B",
+    "Blackmail",
+    "Any purpose",
+    "Obtaining sexual gratification, knowing B doesn't consent to being observed for that purpose"
+   ],
+   "correct": 3,
+   "explanations": [
+    "That's s. 67A.",
+    "No.",
+    "Purpose required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67(1)"
+  },
+  {
+   "id": "4.8-08",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A gym employee drills a hole in the changing-room wall to watch women undress. Before he uses it, he's caught. Which offence?",
+   "options": [
+    "None yet",
+    "s. 67(4) – constructing/adapting a structure with intent",
+    "Only criminal damage",
+    "s. 66"
+   ],
+   "correct": 1,
+   "explanations": [
+    "It is complete.",
+    "Correct.",
+    "Also, but s. 67(4) fits.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67(4)"
+  },
+  {
+   "id": "4.8-09",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Which of these is a 'private act' under s. 68?",
+   "options": [
+    "Using a lavatory in a place reasonably expected to provide privacy",
+    "Walking in a park",
+    "Eating in a restaurant",
+    "Sunbathing clothed in a garden visible from the street"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "Not exposed/not private."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 68 – lavatory"
+  },
+  {
+   "id": "4.8-10",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "B is in her bedroom in her underwear with curtains closed. Is she doing a private act?",
+   "options": [
+    "No – underwear isn't exposure",
+    "Only if naked",
+    "Yes – reasonable expectation of privacy and covered only with underwear",
+    "Only if filmed"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Underwear is included.",
+    "Not required.",
+    "Correct.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · Underwear"
+  },
+  {
+   "id": "4.8-11",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A records his partner having sex without her knowledge, intending to watch it later for gratification. Which offence?",
+   "options": [
+    "None – they're partners",
+    "s. 67(3) – recording a private act",
+    "s. 66",
+    "s. 71"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Consent to being recorded is needed.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67(3)"
+  },
+  {
+   "id": "4.8-12",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A films up a woman's skirt on an escalator to share with friends to humiliate her. Which offence?",
+   "options": [
+    "s. 67",
+    "No offence – public place",
+    "s. 66",
+    "s. 67A – upskirting (purpose of humiliation is enough)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not a private act.",
+    "s. 67A applies in public.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67A"
+  },
+  {
+   "id": "4.8-13",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Which purposes are covered by s. 67A?",
+   "options": [
+    "Only sexual gratification",
+    "Only humiliation",
+    "Sexual gratification, or humiliating, alarming or distressing B",
+    "Only financial gain"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "Too narrow.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67A – purposes"
+  },
+  {
+   "id": "4.8-14",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Under s. 67A, the genitals or buttocks may be…",
+   "options": [
+    "Exposed or covered with underwear",
+    "Only exposed",
+    "Only covered",
+    "Only in water"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "Too narrow.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67A – exposed or covered"
+  },
+  {
+   "id": "4.8-15",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "After a breakup, A shares an intimate photo of B online without consent. No intent to humiliate is shown. Which is correct (⚠)?",
+   "options": [
+    "No offence without intent",
+    "Only harassment",
+    "Only s. 66A",
+    "Base offence of sharing an intimate image under s. 66B – no specific intent needed"
+   ],
+   "correct": 3,
+   "explanations": [
+    "The base offence has no intent element.",
+    "Possible, but s. 66B fits.",
+    "Not genitals-only sending.",
+    "Correct ⚠."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 66B – base"
+  },
+  {
+   "id": "4.8-16",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Does s. 66B cover deepfakes?",
+   "options": [
+    "No",
+    "Yes – images that show or appear to show B in an intimate state",
+    "Only real photos",
+    "Only videos"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · Deepfakes"
+  },
+  {
+   "id": "4.8-17",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A threatens to post B's intimate photos unless she gets back with him. Which is correct?",
+   "options": [
+    "Threatening to share an intimate image (s. 66B) – also consider blackmail",
+    "Only blackmail",
+    "No offence until shared",
+    "Only s. 67"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Also s. 66B.",
+    "Threat is enough.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · Threat to share"
+  },
+  {
+   "id": "4.8-18",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "From when did the s. 66B intimate image offences apply (⚠)?",
+   "options": [
+    "2015",
+    "2019",
+    "31 January 2024",
+    "2003"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's the old s. 33 CJCA.",
+    "No.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · Commencement"
+  },
+  {
+   "id": "4.8-19",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Sexual activity in a public lavatory (s. 71) is…",
+   "options": [
+    "Indictable only",
+    "Summary only",
+    "Either-way",
+    "Not an offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "It is."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 71"
+  },
+  {
+   "id": "4.8-20",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Does s. 71 apply to a lavatory in a private house?",
+   "options": [
+    "Yes",
+    "Only for guests",
+    "Only if locked",
+    "No – a lavatory to which the public or a section of the public has access"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 71 – public"
+  },
+  {
+   "id": "4.8-21",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Which section covers sexual penetration of a corpse?",
+   "options": [
+    "s. 69",
+    "s. 71",
+    "s. 70",
+    "s. 66"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Animal.",
+    "Lavatory.",
+    "Correct.",
+    "Exposure."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 70"
+  },
+  {
+   "id": "4.8-22",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "Which section covers intercourse with an animal?",
+   "options": [
+    "s. 69",
+    "s. 70",
+    "s. 63",
+    "s. 67"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Corpse.",
+    "Trespass.",
+    "Voyeurism."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 69"
+  },
+  {
+   "id": "4.8-23",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A registered sex offender moves address. Within how many days must he notify police (⚠)?",
+   "options": [
+    "7 days",
+    "14 days",
+    "28 days",
+    "3 days"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct ⚠."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · Notification"
+  },
+  {
+   "id": "4.8-24",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A man watches through a window as his neighbour undresses in her bedroom, for sexual gratification. Which offence?",
+   "options": [
+    "s. 66",
+    "s. 67(1) voyeurism",
+    "s. 67A",
+    "No offence – he was on his own land"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Not beneath clothing.",
+    "Location of observer irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67(1)"
+  },
+  {
+   "id": "4.8-25",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "A installs a hidden camera in an Airbnb bathroom so that he can watch guests for sexual gratification. Which subsection?",
+   "options": [
+    "s. 67(4) – installing equipment",
+    "s. 67(1)",
+    "s. 66",
+    "s. 71"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not yet observing.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · Installing equipment"
+  },
+  {
+   "id": "4.8-26",
+   "chapter": "4.8",
+   "lessonId": "nie-4.8",
+   "scenario": "What is the maximum penalty for voyeurism (s. 67)?",
+   "options": [
+    "6 months",
+    "5 years",
+    "2 years",
+    "10 years"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.8 · s. 67 – penalty"
+  }
+ ]
+}

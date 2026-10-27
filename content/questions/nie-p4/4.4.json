@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.4. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.4-01",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "For the offence of sexual activity with a child (s. 9), what age must the offender be?",
+   "options": [
+    "18 or over",
+    "16 or over",
+    "21 or over",
+    "Any age"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "Under-18s → s. 13."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 9 – A's age"
+  },
+  {
+   "id": "4.4-02",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A, aged 20, has consensual sexual activity with B, aged 15. A reasonably believed B was 16. Which is correct?",
+   "options": [
+    "Guilty of s. 9 regardless",
+    "Guilty of s. 5",
+    "Not guilty of s. 9 – reasonable belief that B was 16 or over",
+    "Guilty of s. 13"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Belief is relevant when B is 13–15.",
+    "B isn't under 13.",
+    "Correct.",
+    "A is over 18."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Reasonable belief – 13 to 15"
+  },
+  {
+   "id": "4.4-03",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A, aged 20, sexually touches B, aged 12, believing reasonably she is 16. Which offence?",
+   "options": [
+    "None – reasonable belief",
+    "Sexual assault of a child under 13 (s. 7) – belief is irrelevant",
+    "s. 9 only",
+    "s. 13"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not for under 13.",
+    "Correct.",
+    "s. 7 is more specific.",
+    "A is 18+."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Under 13 – belief irrelevant"
+  },
+  {
+   "id": "4.4-04",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A, aged 17, has sexual activity with B, aged 14. Which section applies?",
+   "options": [
+    "s. 9",
+    "No offence",
+    "s. 16",
+    "s. 13 – child sex offences committed by a person under 18"
+   ],
+   "correct": 3,
+   "explanations": [
+    "A is under 18.",
+    "There is.",
+    "Position of trust not shown.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 13"
+  },
+  {
+   "id": "4.4-05",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "What is the maximum penalty for s. 13 (under-18 offenders)?",
+   "options": [
+    "14 years",
+    "2 years",
+    "5 years",
+    "10 years"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's s. 9.",
+    "No.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 13 – penalty"
+  },
+  {
+   "id": "4.4-06",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A, 30, has sex with his girlfriend in front of her 10-year-old son, knowing he is watching, for sexual gratification. Which offence?",
+   "options": [
+    "Engaging in sexual activity in the presence of a child (s. 11)",
+    "s. 9",
+    "s. 12",
+    "No offence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No touching of the child.",
+    "s. 12 is about causing the child to watch – possible, but s. 11 fits presence.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 11"
+  },
+  {
+   "id": "4.4-07",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A shows a 13-year-old pornographic videos on his phone for his own sexual gratification. Which offence?",
+   "options": [
+    "s. 11",
+    "s. 15A",
+    "Voyeurism",
+    "Causing a child to watch a sexual act (s. 12) – includes images"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Images → s. 12.",
+    "Possible too, but s. 12 fits.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 12 – images"
+  },
+  {
+   "id": "4.4-08",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "For s. 15 (meeting a child following sexual grooming), how many previous occasions of meeting or communicating are required?",
+   "options": [
+    "Two",
+    "At least one",
+    "Three",
+    "None"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Reduced from two in 2015.",
+    "Correct.",
+    "No.",
+    "At least one is needed."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 15 – one occasion"
+  },
+  {
+   "id": "4.4-09",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A, 35, has chatted online once with a 13-year-old and travels by train to meet her intending sexual activity. Police stop him at the station. Which is correct?",
+   "options": [
+    "Full s. 15 offence – travelling with intent to meet is enough",
+    "No offence – no meeting took place",
+    "Only attempted s. 15",
+    "Only s. 15A"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Travelling is enough.",
+    "Full offence.",
+    "s. 15 applies."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 15 – travelling"
+  },
+  {
+   "id": "4.4-10",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "The '14-year-old girl' A has been talking to is actually an adult police officer. A travels to meet her. Which is most appropriate (⚠)?",
+   "options": [
+    "Full s. 15",
+    "No offence",
+    "Attempted s. 15 – no real child",
+    "s. 12"
+   ],
+   "correct": 2,
+   "explanations": [
+    "There's no child.",
+    "An attempt is possible.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Decoys"
+  },
+  {
+   "id": "4.4-11",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "Under s. 15A, the communication must be for the purpose of…",
+   "options": [
+    "Making money",
+    "Obtaining sexual gratification",
+    "Arranging a meeting",
+    "Humiliating the child"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Not required.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 15A – purpose"
+  },
+  {
+   "id": "4.4-12",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "What is the age limit for the victim in s. 15A sexual communication with a child?",
+   "options": [
+    "Under 13",
+    "Under 18",
+    "Under 14",
+    "Under 16"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 15A – age"
+  },
+  {
+   "id": "4.4-13",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "Which communication is caught by s. 15A?",
+   "options": [
+    "Only explicit images",
+    "Only face-to-face talk",
+    "A communication that is sexual, or intended to encourage B to make a sexual communication",
+    "Only messages in a public forum"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "Any communication.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 15A – content"
+  },
+  {
+   "id": "4.4-14",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A organises a hotel room so that his friend can have sex with a 14-year-old. Which offence?",
+   "options": [
+    "Arranging or facilitating a child sex offence (s. 14)",
+    "s. 9",
+    "s. 11",
+    "No offence until it happens"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "A isn't the one engaging.",
+    "No.",
+    "Arranging is enough."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 14"
+  },
+  {
+   "id": "4.4-15",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "For abuse of a position of trust (s. 16), the victim must be…",
+   "options": [
+    "Under 16",
+    "Under 13",
+    "Any age",
+    "Under 18"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 16 – age"
+  },
+  {
+   "id": "4.4-16",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A teacher, 28, has a sexual relationship with a 17-year-old pupil at his school. Which offence?",
+   "options": [
+    "None – B is over 16",
+    "Abuse of a position of trust (s. 16)",
+    "s. 9",
+    "s. 25"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Position of trust protects under-18s.",
+    "Correct.",
+    "B is 17.",
+    "Not family."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Position of trust – school"
+  },
+  {
+   "id": "4.4-17",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "Since 2022, which positions were added to positions of trust (⚠)?",
+   "options": [
+    "Sports coaches and religious leaders",
+    "Bus drivers",
+    "Shop assistants",
+    "Police officers only"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · 2022 changes"
+  },
+  {
+   "id": "4.4-18",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "Which is a defence to abuse of a position of trust?",
+   "options": [
+    "B consented",
+    "B was over 16",
+    "A and B were lawfully married or in a sexual relationship before the position of trust arose",
+    "A was under 25"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Consent isn't a defence.",
+    "B is under 18 by definition.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · ss. 23–24 – exceptions"
+  },
+  {
+   "id": "4.4-19",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A step-father has sexual activity with his 17-year-old step-daughter. Which offence?",
+   "options": [
+    "None – she is over 16",
+    "Sexual activity with a child family member (s. 25)",
+    "s. 9",
+    "s. 13"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Familial offences protect under-18s.",
+    "Correct.",
+    "B is 17.",
+    "A is adult."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 25"
+  },
+  {
+   "id": "4.4-20",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "Under the Protection of Children Act 1978, a 'child' means a person under…",
+   "options": [
+    "16",
+    "14",
+    "13",
+    "18"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · PCA – child"
+  },
+  {
+   "id": "4.4-21",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A downloads indecent images of children onto his laptop. Following R v Bowden, this is…",
+   "options": [
+    "Only possession",
+    "No offence if not shared",
+    "Making indecent photographs (s. 1 PCA 1978)",
+    "Distribution"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Also making.",
+    "It is.",
+    "Correct.",
+    "No sharing shown."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Bowden – making"
+  },
+  {
+   "id": "4.4-22",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "What is the maximum penalty for possession of indecent photographs of a child (s. 160 CJA 1988)?",
+   "options": [
+    "5 years",
+    "2 years",
+    "10 years",
+    "14 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "That's s. 1 PCA.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 160 – penalty"
+  },
+  {
+   "id": "4.4-23",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "Which of these is a defence to possession under s. 160?",
+   "options": [
+    "A thought the child looked over 18",
+    "The images were old",
+    "A only had a few",
+    "A had not seen the image and didn't know, or have cause to suspect, it was indecent"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not a general defence.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 160 – defences"
+  },
+  {
+   "id": "4.4-24",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A man, 30, holds images of his 17-year-old wife. Which defence may apply?",
+   "options": [
+    "Legitimate reason",
+    "Marriage/partnership defence where the child was 16 or 17",
+    "None",
+    "Artistic merit"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not this one.",
+    "Correct.",
+    "There is one.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Marriage defence"
+  },
+  {
+   "id": "4.4-25",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A drawing or cartoon showing a child in sexual activity is…",
+   "options": [
+    "A possible prohibited image of a child (Coroners and Justice Act 2009, s. 62)",
+    "Never an offence",
+    "Always a PCA 1978 photograph",
+    "Only an obscenity issue"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "It can be.",
+    "Not a photograph.",
+    "Specific offence exists."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Prohibited images"
+  },
+  {
+   "id": "4.4-26",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "What is a 'pseudo-photograph'?",
+   "options": [
+    "Any blurred photograph",
+    "A drawing",
+    "An image made by computer graphics or otherwise which appears to be a photograph",
+    "A screenshot"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Drawings are separate.",
+    "Correct.",
+    "Not specifically."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Pseudo-photograph"
+  },
+  {
+   "id": "4.4-27",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A, 25, sends a 15-year-old a message asking her to send him a topless photo; she refuses. Which offence fits best?",
+   "options": [
+    "No offence",
+    "Causing or inciting a child to engage in sexual activity (s. 10)",
+    "s. 14",
+    "Voyeurism"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incitement is complete.",
+    "Correct (also possibly s. 15A).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 10 – inciting"
+  },
+  {
+   "id": "4.4-28",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "How are indecent images of children graded for sentencing?",
+   "options": [
+    "1 to 5",
+    "Red, amber, green",
+    "Low, medium, high",
+    "Category A, B and C"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Old scale.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Categories"
+  },
+  {
+   "id": "4.4-29",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "Who decides whether a photograph is 'indecent'?",
+   "options": [
+    "The defendant",
+    "The police",
+    "The jury/magistrates applying recognised standards of propriety",
+    "A doctor"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · Indecency"
+  },
+  {
+   "id": "4.4-30",
+   "chapter": "4.4",
+   "lessonId": "nie-4.4",
+   "scenario": "A, 40, chats online once with a 15-year-old and then arranges to meet her for sex next week. Which is correct?",
+   "options": [
+    "s. 15 – arranging to meet is enough",
+    "No offence until he travels",
+    "Only s. 15A",
+    "Only attempt"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Arranging is enough.",
+    "s. 15 fits.",
+    "Full offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.4 · s. 15 – arranging"
+  }
+ ]
+}

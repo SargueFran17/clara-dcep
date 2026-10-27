@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.6. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.6-01",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Under s. 61 SOA 2003, A must administer a substance with the intention of…",
+   "options": [
+    "Stupefying or overpowering B so as to enable any person to engage in sexual activity with B",
+    "Causing harm",
+    "Stealing from B",
+    "Making B ill"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's another offence.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 61 – intent"
+  },
+  {
+   "id": "4.6-02",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A puts drugs in B's drink so that his friend can have sex with her. She notices and leaves before drinking. Which is correct?",
+   "options": [
+    "Full s. 61 offence",
+    "No offence – nothing administered",
+    "Attempted s. 61 at most",
+    "Rape"
+   ],
+   "correct": 2,
+   "explanations": [
+    "The substance wasn't taken ⚠.",
+    "Possibly an attempt.",
+    "Correct ⚠ – not yet administered/taken.",
+    "No penetration."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 61 – not taken"
+  },
+  {
+   "id": "4.6-03",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A spikes B's drink and B drinks it, intending that A's friend will have sex with her. Nothing sexual happens. Which is correct?",
+   "options": [
+    "No offence – no sexual activity",
+    "Full s. 61 offence – the activity need not occur, and can be by any person",
+    "Only attempted rape",
+    "Only s. 63"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not required.",
+    "Correct.",
+    "s. 61 fits.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 61 – complete"
+  },
+  {
+   "id": "4.6-04",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "What must A know about B's consent under s. 61?",
+   "options": [
+    "Nothing",
+    "That B wouldn't consent to sex",
+    "B's age",
+    "That B does not consent to the administering/taking of the substance"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Required.",
+    "The focus is the substance.",
+    "Irrelevant.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 61 – knowledge"
+  },
+  {
+   "id": "4.6-05",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "What is the maximum penalty for s. 61?",
+   "options": [
+    "2 years",
+    "Life",
+    "10 years",
+    "5 years"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 61 – penalty"
+  },
+  {
+   "id": "4.6-06",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A kidnaps B, intending to rape her. She escapes before anything sexual happens. Which s. 62 maximum applies?",
+   "options": [
+    "Life – the offence committed was kidnapping",
+    "10 years",
+    "5 years",
+    "2 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Kidnapping/false imprisonment → life.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 62 – life"
+  },
+  {
+   "id": "4.6-07",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Under s. 62, which offences can be the 'offence' committed with intent?",
+   "options": [
+    "Only kidnapping",
+    "Only violent offences",
+    "Only burglary",
+    "Any offence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not only.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 62 – any offence"
+  },
+  {
+   "id": "4.6-08",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A assaults B intending to make her submit to sexual assault; police arrive before he can. What is the s. 62 maximum?",
+   "options": [
+    "Life",
+    "10 years",
+    "2 years",
+    "6 months"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Only kidnapping/false imprisonment.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 62 – 10 years"
+  },
+  {
+   "id": "4.6-09",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A enters a house as a trespasser to steal; inside he decides to sexually assault the occupant, who wakes and screams. Which applies?",
+   "options": [
+    "s. 63 – intent formed while trespassing is enough",
+    "Only burglary",
+    "No s. 63 – intent must exist at entry",
+    "Only s. 62"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Also s. 63.",
+    "s. 63 doesn't require intent at entry.",
+    "Possibly, but s. 63 fits."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 63 – timing"
+  },
+  {
+   "id": "4.6-10",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Which of these can be 'premises' for s. 63 (⚠)?",
+   "options": [
+    "Only dwellings",
+    "Only commercial buildings",
+    "Any structure or part of a structure, including vehicles, vessels and tents",
+    "Only buildings with locks"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "Too narrow.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 63 – premises"
+  },
+  {
+   "id": "4.6-11",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "What mental state as to trespass does s. 63 require?",
+   "options": [
+    "Intention only",
+    "Knows, or is reckless as to whether, he is a trespasser",
+    "Negligence",
+    "None"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too narrow.",
+    "Correct.",
+    "No.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 63 – trespass"
+  },
+  {
+   "id": "4.6-12",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Where must the intended sexual offence be committed for s. 63?",
+   "options": [
+    "Anywhere",
+    "In a dwelling only",
+    "In public",
+    "On the premises"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Any premises.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 63 – on the premises"
+  },
+  {
+   "id": "4.6-13",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "What is the maximum penalty for s. 63?",
+   "options": [
+    "Life",
+    "5 years",
+    "10 years",
+    "2 years"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · s. 63 – penalty"
+  },
+  {
+   "id": "4.6-14",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A unzips a stranger's tent at a festival intending to sexually assault her. Which offence?",
+   "options": [
+    "Trespass with intent to commit a sexual offence (s. 63)",
+    "Burglary only",
+    "No offence – a tent isn't premises",
+    "Voyeurism"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "s. 63 fits.",
+    "It can be.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · Tent"
+  },
+  {
+   "id": "4.6-15",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A pours extra vodka into B's drink without her knowledge to make her drunk enough to have sex with him. Is alcohol a 'substance'?",
+   "options": [
+    "No – only drugs",
+    "Only if illegal",
+    "Only in large quantities",
+    "Yes – any substance, including alcohol"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · Alcohol"
+  },
+  {
+   "id": "4.6-16",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Which statement about s. 61 is correct?",
+   "options": [
+    "A must be the person intending sexual activity",
+    "The sexual activity can be intended for any person",
+    "A must be a stranger",
+    "B must lose consciousness"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Any person.",
+    "Correct.",
+    "No.",
+    "Intent to stupefy/overpower is enough."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · Any person"
+  },
+  {
+   "id": "4.6-17",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "A falsely imprisons B in a flat intending to sexually assault her later. Which s. 62 maximum?",
+   "options": [
+    "Life",
+    "10 years",
+    "5 years",
+    "7 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Only for other offences.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · False imprisonment"
+  },
+  {
+   "id": "4.6-18",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Which preparatory offence fits a man who breaks into a car in a car park intending to rape the woman sleeping inside?",
+   "options": [
+    "s. 61",
+    "s. 69",
+    "s. 63 – vehicle as premises (also s. 62 – criminal damage with intent)",
+    "s. 71"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No substance.",
+    "No.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · Vehicle"
+  },
+  {
+   "id": "4.6-19",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Under s. 61, 'administer' includes…",
+   "options": [
+    "Only injection",
+    "Administering or causing the substance to be taken by B",
+    "Only food",
+    "Only medicine"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · Administer"
+  },
+  {
+   "id": "4.6-20",
+   "chapter": "4.6",
+   "lessonId": "nie-4.6",
+   "scenario": "Are the preparatory offences complete without any sexual activity?",
+   "options": [
+    "No",
+    "Only s. 63",
+    "Only s. 62",
+    "Yes – they target the preparatory stage"
+   ],
+   "correct": 3,
+   "explanations": [
+    "They are.",
+    "All three.",
+    "All three.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.6 · Preparatory"
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.7. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.7-01",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Under s. 54 SOA 2003, a 'prostitute' is a person who offers or provides sexual services for payment…",
+   "options": [
+    "On at least one occasion, whether or not compelled",
+    "Regularly",
+    "Only voluntarily",
+    "Only on the street"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Compelled or not.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 54 – prostitute"
+  },
+  {
+   "id": "4.7-02",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "What does 'gain' include?",
+   "options": [
+    "Only cash",
+    "Only profit over £100",
+    "Any financial advantage, or the goodwill of any person which appears likely to bring financial advantage",
+    "Only goods"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "No.",
+    "Correct.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Gain"
+  },
+  {
+   "id": "4.7-03",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "A takes half of B's earnings and decides her clients and prices. Which offence?",
+   "options": [
+    "s. 52 causing",
+    "s. 53 controlling prostitution for gain",
+    "s. 51A",
+    "No offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Controlling fits better.",
+    "Correct.",
+    "Kerb-crawling.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 53"
+  },
+  {
+   "id": "4.7-04",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Does 'controlling' under s. 53 require force or threats?",
+   "options": [
+    "Yes",
+    "Only threats",
+    "Only for children",
+    "No – instructing or directing (e.g. setting prices) can be enough"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct (Massey)."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Massey"
+  },
+  {
+   "id": "4.7-05",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "What is the maximum for ss. 52–53?",
+   "options": [
+    "2 years",
+    "14 years",
+    "7 years",
+    "Life"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Child exploitation.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Penalty"
+  },
+  {
+   "id": "4.7-06",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "A pays for sex with a woman who, unknown to him, is controlled by a trafficking gang using threats. Which is correct (⚠)?",
+   "options": [
+    "s. 53A – strict liability as to the exploitation",
+    "No offence – he didn't know",
+    "s. 53",
+    "s. 52"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "Knowledge isn't required.",
+    "He doesn't control.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 53A"
+  },
+  {
+   "id": "4.7-07",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "How is s. 53A triable?",
+   "options": [
+    "Indictable only",
+    "Either-way",
+    "Not an offence",
+    "Summary only (fine)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "It is.",
+    "Correct ⚠."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 53A – mode"
+  },
+  {
+   "id": "4.7-08",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "For loitering or soliciting under s. 1 Street Offences Act 1959, the person must be…",
+   "options": [
+    "Any age",
+    "18 or over",
+    "Under 18",
+    "21 or over"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct – children are victims.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · SOA 1959 – age"
+  },
+  {
+   "id": "4.7-09",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "What does 'persistently' mean for s. 1 Street Offences Act 1959 (⚠)?",
+   "options": [
+    "Two or more times in any period of three months",
+    "Once",
+    "Every day",
+    "Five times a year"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Persistently"
+  },
+  {
+   "id": "4.7-10",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "A driver asks a woman on the pavement to have sex with him for money. It's the first time. Which offence?",
+   "options": [
+    "None – needs persistence",
+    "s. 53",
+    "Soliciting under s. 51A SOA 2003",
+    "Street Offences Act s. 1"
+   ],
+   "correct": 2,
+   "explanations": [
+    "s. 51A has no persistence requirement.",
+    "No.",
+    "Correct.",
+    "That's the seller."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 51A"
+  },
+  {
+   "id": "4.7-11",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Must the s. 51A soliciting happen from a vehicle?",
+   "options": [
+    "Yes",
+    "No – in a street or public place, in a vehicle or not",
+    "Only near a school",
+    "Only at night"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not since 2010 ⚠.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 51A – vehicle"
+  },
+  {
+   "id": "4.7-12",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "One woman works alone from her flat. Is it a brothel?",
+   "options": [
+    "Yes",
+    "Only if advertised",
+    "Only if she pays rent",
+    "No – a brothel requires use by more than one person for prostitution"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Brothel"
+  },
+  {
+   "id": "4.7-13",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Which Act creates the offence of keeping a brothel used for prostitution (s. 33A)?",
+   "options": [
+    "SOA 2003",
+    "Street Offences Act 1959",
+    "SOA 1956",
+    "Licensing Act 2003"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 33A SOA 1956"
+  },
+  {
+   "id": "4.7-14",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "What is the maximum for keeping a brothel used for prostitution?",
+   "options": [
+    "7 years",
+    "6 months",
+    "2 years",
+    "Life"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Brothel – penalty"
+  },
+  {
+   "id": "4.7-15",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Placing cards advertising prostitution in a public telephone box is an offence under…",
+   "options": [
+    "SOA 2003 s. 53",
+    "Street Offences Act 1959",
+    "Public Order Act 1986",
+    "Criminal Justice and Police Act 2001, s. 46"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Adverts"
+  },
+  {
+   "id": "4.7-16",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "A 16-year-old is being sold for sex by an adult. Which offences apply?",
+   "options": [
+    "Street offences against the 16-year-old",
+    "Sexual exploitation of a child (ss. 48–50); the child is a victim",
+    "No offence – over 16",
+    "Only s. 53"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Children are victims.",
+    "Correct.",
+    "Child = under 18.",
+    "ss. 48–50 apply."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Child exploitation"
+  },
+  {
+   "id": "4.7-17",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Under ss. 48–50, a 'child' is a person under…",
+   "options": [
+    "18",
+    "13",
+    "16",
+    "21"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Child – 18"
+  },
+  {
+   "id": "4.7-18",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Which section covers paying for the sexual services of a child?",
+   "options": [
+    "s. 53A",
+    "s. 51A",
+    "s. 47",
+    "s. 66"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Adult exploited prostitute.",
+    "Soliciting.",
+    "Correct.",
+    "Exposure."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 47"
+  },
+  {
+   "id": "4.7-19",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "What is the maximum penalty for ss. 48–50 (⚠)?",
+   "options": [
+    "7 years",
+    "14 years",
+    "2 years",
+    "Life"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct ⚠.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · ss. 48–50 penalty"
+  },
+  {
+   "id": "4.7-20",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "A persuades his girlfriend to start working as a prostitute so he can take her money. Which offence?",
+   "options": [
+    "s. 53",
+    "s. 51A",
+    "s. 47",
+    "Causing or inciting prostitution for gain (s. 52)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Causing fits better.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 52"
+  },
+  {
+   "id": "4.7-21",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Does s. 52 require A's own gain?",
+   "options": [
+    "Yes",
+    "Only a third person",
+    "No – gain for A or a third person",
+    "Gain is not needed"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Either.",
+    "Correct.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · s. 52 – gain"
+  },
+  {
+   "id": "4.7-22",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Under s. 54, payment includes…",
+   "options": [
+    "Any financial advantage, including discharge of a debt or goods/services provided free or at a discount",
+    "Only money",
+    "Only drugs",
+    "Only gifts over £50"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Payment"
+  },
+  {
+   "id": "4.7-23",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "Does 'street' for SOA 1959 include doorways of premises abutting a street (⚠)?",
+   "options": [
+    "No",
+    "Only shops",
+    "Only at night",
+    "Yes"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct ⚠."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Street"
+  },
+  {
+   "id": "4.7-24",
+   "chapter": "4.7",
+   "lessonId": "nie-4.7",
+   "scenario": "A person (aged 18) is convicted of persistent loitering. What alternative to a fine can the court order (⚠)?",
+   "options": [
+    "Imprisonment",
+    "An order to attend meetings to address the causes (rehabilitation)",
+    "Deportation",
+    "Community protection notice"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not available.",
+    "Correct ⚠.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.7 · Rehabilitation order"
+  }
+ ]
+}

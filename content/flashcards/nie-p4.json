@@ -147,6 +147,223 @@
    "front": "Special measures – sexual offences",
    "back": "Complainants automatically eligible (intimidated witnesses); s. 28 pre-recorded cross-examination.",
    "es": "Elegibles automáticamente; contrainterrogatorio pregrabado."
+  },
+  {
+   "id": "nie-4.4-01",
+   "lessonId": "nie-4.4",
+   "front": "Child sex offences – ages (ss. 9–12)",
+   "back": "A 18+; B under 16 with no reasonable belief 16+, or B under 13 (belief irrelevant).",
+   "es": "A 18+; B <16 sin creencia razonable, o <13."
+  },
+  {
+   "id": "nie-4.4-02",
+   "lessonId": "nie-4.4",
+   "front": "s. 13",
+   "back": "ss. 9–12 committed by a person under 18 – lower maximum (5 yrs ⚠).",
+   "es": "Si el autor es menor de 18."
+  },
+  {
+   "id": "nie-4.4-03",
+   "lessonId": "nie-4.4",
+   "front": "s. 15 grooming",
+   "back": "One prior meeting/communication + meet/travel/arrange (or B travels) + intent to commit sexual offence; B under 16.",
+   "es": "Una comunicación previa + quedar/viajar/organizar + intención."
+  },
+  {
+   "id": "nie-4.4-04",
+   "lessonId": "nie-4.4",
+   "front": "s. 15A sexual communication",
+   "back": "18+, for sexual gratification, sexual communication with a child under 16. Max 2 years.",
+   "es": "Comunicación sexual con menor de 16 para gratificación."
+  },
+  {
+   "id": "nie-4.4-05",
+   "lessonId": "nie-4.4",
+   "front": "Position of trust (ss. 16–19)",
+   "back": "A 18+ in position of trust; B under 18. Sports coaches/religious leaders added 2022 ⚠.",
+   "es": "B <18; entrenadores y líderes religiosos desde 2022."
+  },
+  {
+   "id": "nie-4.4-06",
+   "lessonId": "nie-4.4",
+   "front": "Familial (ss. 25–26)",
+   "back": "Sexual activity with a child family member under 18.",
+   "es": "Menor de 18 de la familia."
+  },
+  {
+   "id": "nie-4.4-07",
+   "lessonId": "nie-4.4",
+   "front": "PCA 1978 s. 1",
+   "back": "Take, make (download – Bowden), distribute, show, possess to distribute, advertise. Child = under 18. 10 yrs.",
+   "es": "Tomar, hacer (descargar), distribuir… 10 años."
+  },
+  {
+   "id": "nie-4.4-08",
+   "lessonId": "nie-4.4",
+   "front": "s. 160 CJA 1988",
+   "back": "Possession of indecent photographs of a child – 5 yrs. Defences: legitimate reason, not seen/no cause to suspect, unsolicited.",
+   "es": "Posesión – 5 años; defensas."
+  },
+  {
+   "id": "nie-4.5-01",
+   "lessonId": "nie-4.5",
+   "front": "Mental disorder",
+   "back": "Any disorder or disability of the mind (MHA 1983 s. 1).",
+   "es": "Cualquier trastorno o discapacidad mental."
+  },
+  {
+   "id": "nie-4.5-02",
+   "lessonId": "nie-4.5",
+   "front": "Unable to refuse (s. 30(2))",
+   "back": "Lacks capacity to choose (understanding of nature/consequences or any other reason), or unable to communicate choice.",
+   "es": "Sin capacidad para elegir o para comunicarlo."
+  },
+  {
+   "id": "nie-4.5-03",
+   "lessonId": "nie-4.5",
+   "front": "R v C (2009)",
+   "back": "Capacity is person-, situation- and time-specific; irrational fear can remove it.",
+   "es": "Capacidad concreta; el miedo irracional puede anularla."
+  },
+  {
+   "id": "nie-4.5-04",
+   "lessonId": "nie-4.5",
+   "front": "ss. 34–37",
+   "back": "B has capacity but agrees due to inducement, threat or deception.",
+   "es": "Incentivo, amenaza o engaño."
+  },
+  {
+   "id": "nie-4.5-05",
+   "lessonId": "nie-4.5",
+   "front": "ss. 38–41 care workers",
+   "back": "Regular face-to-face care; consent/capacity irrelevant; exceptions: marriage or prior relationship.",
+   "es": "Cuidadores: consentimiento irrelevante."
+  },
+  {
+   "id": "nie-4.6-01",
+   "lessonId": "nie-4.6",
+   "front": "s. 61 administering substance",
+   "back": "Administer/cause to be taken, knowing B doesn't consent, intending to stupefy/overpower for any person's sexual activity. 10 yrs.",
+   "es": "Administrar sustancia para aturdir; 10 años."
+  },
+  {
+   "id": "nie-4.6-02",
+   "lessonId": "nie-4.6",
+   "front": "s. 62 offence with intent",
+   "back": "Any offence with intent to commit a sexual offence; life if kidnapping/false imprisonment, else 10 yrs.",
+   "es": "Cualquier delito con intención sexual."
+  },
+  {
+   "id": "nie-4.6-03",
+   "lessonId": "nie-4.6",
+   "front": "s. 63 trespass with intent",
+   "back": "Trespasser (knows/reckless) on premises intending a sexual offence there; intent can arise inside. 10 yrs.",
+   "es": "Intruso con intención sexual; 10 años."
+  },
+  {
+   "id": "nie-4.6-04",
+   "lessonId": "nie-4.6",
+   "front": "Premises (s. 63)",
+   "back": "Any structure or part, incl. vehicles, vessels, tents ⚠.",
+   "es": "Incluye vehículos, barcos y tiendas."
+  },
+  {
+   "id": "nie-4.7-01",
+   "lessonId": "nie-4.7",
+   "front": "Prostitute (s. 54)",
+   "back": "Offers/provides sexual services for payment on at least one occasion, compelled or not.",
+   "es": "Al menos una vez, obligada o no."
+  },
+  {
+   "id": "nie-4.7-02",
+   "lessonId": "nie-4.7",
+   "front": "s. 52 / s. 53",
+   "back": "Causing/inciting; controlling prostitution for gain. 7 yrs. Control needn't involve force (Massey).",
+   "es": "Causar/incitar; controlar con lucro; 7 años."
+  },
+  {
+   "id": "nie-4.7-03",
+   "lessonId": "nie-4.7",
+   "front": "s. 53A",
+   "back": "Paying for sexual services of a prostitute subjected to force/threats/deception – strict liability, summary.",
+   "es": "Pagar a víctima explotada: objetiva."
+  },
+  {
+   "id": "nie-4.7-04",
+   "lessonId": "nie-4.7",
+   "front": "SOA 1959 s. 1",
+   "back": "18+, persistently (2+ in 3 months ⚠) loiters/solicits in street/public place.",
+   "es": "18+, persistentemente."
+  },
+  {
+   "id": "nie-4.7-05",
+   "lessonId": "nie-4.7",
+   "front": "s. 51A",
+   "back": "Soliciting in street/public place to obtain sexual services (buyer). No persistence.",
+   "es": "Cliente que solicita; sin persistencia."
+  },
+  {
+   "id": "nie-4.7-06",
+   "lessonId": "nie-4.7",
+   "front": "Brothel",
+   "back": "Premises used by more than one person for prostitution (SOA 1956 s. 33A – 7 yrs).",
+   "es": "Más de una persona."
+  },
+  {
+   "id": "nie-4.7-07",
+   "lessonId": "nie-4.7",
+   "front": "Child sexual exploitation",
+   "back": "s. 47 paying; ss. 48–50 causing, controlling, arranging (child under 18).",
+   "es": "Menores de 18; víctimas."
+  },
+  {
+   "id": "nie-4.8-01",
+   "lessonId": "nie-4.8",
+   "front": "Exposure (s. 66)",
+   "back": "Intentionally exposes genitals intending someone sees and is caused alarm/distress. No one need see. 2 yrs.",
+   "es": "Exponer genitales con intención de alarmar; 2 años."
+  },
+  {
+   "id": "nie-4.8-02",
+   "lessonId": "nie-4.8",
+   "front": "Cyber-flashing (s. 66A)",
+   "back": "Sending photo/film of genitals intending alarm/distress/humiliation, or for sexual gratification reckless as to that.",
+   "es": "Enviar foto de genitales."
+  },
+  {
+   "id": "nie-4.8-03",
+   "lessonId": "nie-4.8",
+   "front": "Voyeurism (s. 67)",
+   "back": "For sexual gratification: observe, operate equipment, record, install/adapt structure. 2 yrs.",
+   "es": "Observar, manejar, grabar, instalar."
+  },
+  {
+   "id": "nie-4.8-04",
+   "lessonId": "nie-4.8",
+   "front": "Private act (s. 68)",
+   "back": "Place with reasonable expectation of privacy + genitals/buttocks/breasts exposed or in underwear, using lavatory, or sexual act.",
+   "es": "Privacidad + desnudo/ropa interior, baño o acto sexual."
+  },
+  {
+   "id": "nie-4.8-05",
+   "lessonId": "nie-4.8",
+   "front": "Upskirting (s. 67A)",
+   "back": "Beneath clothing, without consent, for sexual gratification or to humiliate/alarm/distress.",
+   "es": "Bajo la ropa; gratificación o humillación."
+  },
+  {
+   "id": "nie-4.8-06",
+   "lessonId": "nie-4.8",
+   "front": "Intimate image abuse (s. 66B)",
+   "back": "Sharing intimate image without consent (base, no intent); aggravated with intent; threats to share. From 31/01/2024 ⚠.",
+   "es": "Compartir imagen íntima; amenazar."
+  },
+  {
+   "id": "nie-4.8-07",
+   "lessonId": "nie-4.8",
+   "front": "ss. 69–71",
+   "back": "Animal; corpse; sexual activity in a public lavatory (summary).",
+   "es": "Animal, cadáver, baño público."
   }
  ]
 }
