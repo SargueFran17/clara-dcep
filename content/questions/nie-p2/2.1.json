@@ -1,0 +1,525 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.1. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.1-01",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "What is the 'malice aforethought' required for murder?",
+   "options": [
+    "An intention to kill or to cause grievous bodily harm",
+    "Premeditation",
+    "Recklessness as to death",
+    "Hatred of the victim"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not required.",
+    "Not enough.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Malice aforethought"
+  },
+  {
+   "id": "2.1-02",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "What sentence must be imposed on an adult convicted of murder?",
+   "options": [
+    "Up to life",
+    "25 years",
+    "Mandatory life imprisonment",
+    "Determined by guidelines only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It's mandatory.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Sentence"
+  },
+  {
+   "id": "2.1-03",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "D attacks a pregnant woman; the foetus dies in the womb. Is it murder of the foetus?",
+   "options": [
+    "Yes",
+    "No – a foetus is not a 'person in being'; it must be born alive with an independent existence",
+    "Only if over 24 weeks",
+    "Only if D knew of the pregnancy"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Person in being"
+  },
+  {
+   "id": "2.1-04",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Following R v Woollin, when may a jury find intention where D's purpose was something else?",
+   "options": [
+    "When death was possible",
+    "When D was reckless",
+    "Never",
+    "When death or serious injury was a virtual certainty as a result of D's actions and D appreciated that"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too low.",
+    "Not enough.",
+    "It may.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Oblique intent"
+  },
+  {
+   "id": "2.1-05",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "V dies 4 years after being stabbed. What is needed to prosecute D for murder (⚠)?",
+   "options": [
+    "Nothing – year and a day rule abolished",
+    "A new post-mortem",
+    "The Attorney General's consent",
+    "Leave of the High Court"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Consent is needed after 3 years.",
+    "Not the requirement.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Year and a day"
+  },
+  {
+   "id": "2.1-06",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "V is stabbed and, as a Jehovah's Witness, refuses a blood transfusion and dies. Is D liable?",
+   "options": [
+    "Yes – D must take his victim as he finds him (R v Blaue)",
+    "No – V's refusal broke the chain",
+    "Only for GBH",
+    "Only manslaughter"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Death is attributable.",
+    "It can be murder."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Thin skull – Blaue"
+  },
+  {
+   "id": "2.1-07",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "When will negligent medical treatment break the chain of causation (R v Cheshire)?",
+   "options": [
+    "Whenever it is negligent",
+    "Never",
+    "If the hospital is sued",
+    "Only if it is so independent and potent that the original wound is merely the setting"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too wide.",
+    "It can, rarely.",
+    "Irrelevant.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Medical treatment"
+  },
+  {
+   "id": "2.1-08",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "D uses a girl as a human shield while shooting at police; police return fire and kill her. Is D liable?",
+   "options": [
+    "No – the police shot her",
+    "Yes – the police reaction did not break the chain (R v Pagett)",
+    "Only if the police were negligent",
+    "Only for firearms offences"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not required.",
+    "Also homicide."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Pagett"
+  },
+  {
+   "id": "2.1-09",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Which is a 'qualifying trigger' for loss of control?",
+   "options": [
+    "Fear of serious violence from V against D or another",
+    "Sexual infidelity alone",
+    "Being insulted once",
+    "A considered desire for revenge"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Disregarded on its own.",
+    "Not extremely grave.",
+    "Excluded."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Qualifying trigger"
+  },
+  {
+   "id": "2.1-10",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Must the loss of control be sudden?",
+   "options": [
+    "Yes",
+    "Only in domestic cases",
+    "No",
+    "Only for women"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect (old provocation).",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Not sudden"
+  },
+  {
+   "id": "2.1-11",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Which comparator is used for loss of control?",
+   "options": [
+    "A reasonable man",
+    "A person of D's sex and age with a normal degree of tolerance and self-restraint, in D's circumstances",
+    "D himself",
+    "A police officer"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too general.",
+    "Correct.",
+    "Not subjective.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Comparator"
+  },
+  {
+   "id": "2.1-12",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Diminished responsibility requires an abnormality of mental functioning arising from…",
+   "options": [
+    "Any bad mood",
+    "Voluntary intoxication alone",
+    "Stress at work",
+    "A recognised medical condition"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Not alone.",
+    "Not unless a recognised condition.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Diminished responsibility"
+  },
+  {
+   "id": "2.1-13",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Who bears the burden of proving diminished responsibility?",
+   "options": [
+    "The prosecution beyond reasonable doubt",
+    "The judge",
+    "The defence on the balance of probabilities",
+    "The doctor"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Reverse burden.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Burden"
+  },
+  {
+   "id": "2.1-14",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Infanticide applies where a woman causes the death of her child aged under…",
+   "options": [
+    "12 months",
+    "6 months",
+    "2 years",
+    "5 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Infanticide"
+  },
+  {
+   "id": "2.1-15",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "D punches V once; V falls, hits his head and dies. D didn't intend serious harm. Which offence fits best?",
+   "options": [
+    "Murder",
+    "Gross negligence manslaughter",
+    "No homicide",
+    "Unlawful act manslaughter"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No intent to kill/GBH.",
+    "No duty-of-care scenario.",
+    "There is.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Unlawful act manslaughter"
+  },
+  {
+   "id": "2.1-16",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "For unlawful act manslaughter, the act is 'dangerous' if (R v Church)…",
+   "options": [
+    "D foresaw death",
+    "A sober and reasonable person would inevitably recognise it carried some risk of some harm",
+    "It was likely to kill",
+    "It was a violent offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not required.",
+    "Correct.",
+    "Too high.",
+    "Not necessarily."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Church test"
+  },
+  {
+   "id": "2.1-17",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Can unlawful act manslaughter be based on an omission?",
+   "options": [
+    "No – it requires an unlawful act",
+    "Yes",
+    "Only for parents",
+    "Only for doctors"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Consider gross negligence.",
+    "Consider gross negligence."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Act required"
+  },
+  {
+   "id": "2.1-18",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Which case sets out gross negligence manslaughter (duty, breach, causation, gross)?",
+   "options": [
+    "R v Woollin",
+    "R v Church",
+    "R v Adomako",
+    "R v G"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Intention.",
+    "Unlawful act.",
+    "Correct.",
+    "Recklessness."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Adomako"
+  },
+  {
+   "id": "2.1-19",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "An anaesthetist fails to notice a disconnected tube for 6 minutes and the patient dies. Which offence?",
+   "options": [
+    "Murder",
+    "Gross negligence manslaughter",
+    "Unlawful act manslaughter",
+    "Corporate manslaughter only"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No intent.",
+    "Correct (Adomako facts).",
+    "No unlawful act.",
+    "Individual liability."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · GNM"
+  },
+  {
+   "id": "2.1-20",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "What is the penalty for corporate manslaughter?",
+   "options": [
+    "Life imprisonment for directors",
+    "10 years",
+    "£20,000 maximum",
+    "An unlimited fine (plus remedial and publicity orders)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "The organisation is convicted.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Corporate manslaughter"
+  },
+  {
+   "id": "2.1-21",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "A baby dies of non-accidental injuries; both parents in the household deny it and it can't be proved which one did it. Which offence helps?",
+   "options": [
+    "Murder by both",
+    "Infanticide",
+    "Causing or allowing the death of a child (DVCVA 2004, s. 5)",
+    "Child cruelty only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Can't prove who.",
+    "Not applicable.",
+    "Correct.",
+    "Possible, but s. 5 is the key."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · s. 5 DVCVA"
+  },
+  {
+   "id": "2.1-22",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "D sends V a message 'I will kill you' intending V to fear it will be carried out, but has no intention to kill. Which offence?",
+   "options": [
+    "Threats to kill (s. 16 OAPA 1861)",
+    "Attempted murder",
+    "No offence – no real intention",
+    "Harassment only"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No attempt.",
+    "Intent to cause fear is enough.",
+    "s. 16 fits."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Threats to kill"
+  },
+  {
+   "id": "2.1-23",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "What is the maximum penalty for threats to kill?",
+   "options": [
+    "5 years",
+    "7 years",
+    "Life",
+    "10 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · s. 16 penalty"
+  },
+  {
+   "id": "2.1-24",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "D offers someone £5,000 to kill his business partner; the man goes to the police. Which offence?",
+   "options": [
+    "None",
+    "Soliciting murder (s. 4 OAPA 1861)",
+    "Conspiracy to murder",
+    "Attempted murder"
+   ],
+   "correct": 1,
+   "explanations": [
+    "There is.",
+    "Correct.",
+    "No agreement.",
+    "Not an attempt."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Soliciting murder"
+  },
+  {
+   "id": "2.1-25",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "Loss of control is not available if D acted in…",
+   "options": [
+    "A considered desire for revenge",
+    "Fear",
+    "Anger",
+    "Self-defence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Fear can be a trigger.",
+    "Anger is often present.",
+    "Different defence."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · Revenge"
+  },
+  {
+   "id": "2.1-26",
+   "chapter": "2.1",
+   "lessonId": "nie-2.1",
+   "scenario": "A soldier lawfully kills an enemy combatant in battle. Why is it not murder?",
+   "options": [
+    "He was ordered to",
+    "He had no malice",
+    "It is not a killing 'under the King's peace'",
+    "War is excused by statute"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not the reason.",
+    "Possibly intended.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.1 · King's peace"
+  }
+ ]
+}

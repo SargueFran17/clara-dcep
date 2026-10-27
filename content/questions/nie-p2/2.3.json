@@ -1,0 +1,445 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.3. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.3-01",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Under s. 57 Firearms Act 1968, a 'firearm' includes…",
+   "options": [
+    "A lethal barrelled weapon, prohibited weapons, component parts and noise/flash moderators",
+    "Only complete guns",
+    "Only guns that are loaded",
+    "Knives"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Definition"
+  },
+  {
+   "id": "2.3-02",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "What is an 'imitation firearm'?",
+   "options": [
+    "Only a replica that fires",
+    "Only toy guns",
+    "Anything which has the appearance of a firearm, whether or not it can discharge anything",
+    "Only deactivated guns"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "Too narrow.",
+    "Correct.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Imitation firearm"
+  },
+  {
+   "id": "2.3-03",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "D robs a shop with his fingers pointed under his jacket, pretending to have a gun. Following R v Bentham, is it an imitation firearm?",
+   "options": [
+    "Yes",
+    "No – a part of the body is not a 'thing' that can be possessed",
+    "Only if the victim believed it",
+    "Only if he said 'gun'"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct (still robbery).",
+    "Not the test.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Bentham"
+  },
+  {
+   "id": "2.3-04",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Which of these is a prohibited weapon under s. 5?",
+   "options": [
+    "A shotgun with a 26-inch barrel",
+    "A low-powered air rifle",
+    "A starting pistol that can't fire",
+    "A CS or pepper spray"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Shotgun certificate.",
+    "Not s. 5.",
+    "Not necessarily.",
+    "Correct (noxious substance)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Prohibited – spray"
+  },
+  {
+   "id": "2.3-05",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Which offence under the Firearms Act does NOT include imitation firearms?",
+   "options": [
+    "s. 17(2)",
+    "s. 18",
+    "s. 16 – possession with intent to endanger life",
+    "s. 19"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Includes imitations.",
+    "Includes imitations.",
+    "Correct.",
+    "Includes imitations."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 16 – real only"
+  },
+  {
+   "id": "2.3-06",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "D uses a replica gun to make a police officer back off so he can escape arrest. Which offence?",
+   "options": [
+    "s. 17(1) – using a firearm or imitation to resist or prevent arrest",
+    "s. 19",
+    "s. 16",
+    "s. 20"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Possible too.",
+    "Not an imitation offence.",
+    "Not trespass."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 17(1)"
+  },
+  {
+   "id": "2.3-07",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "D commits a burglary with a real but unloaded pistol in his pocket, never showing it. Which firearms offence?",
+   "options": [
+    "None – not used",
+    "s. 16",
+    "Only s. 5",
+    "s. 17(2) – possessing a firearm/imitation at the time of committing a Schedule 1 offence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Possession is enough.",
+    "No intent to endanger life shown.",
+    "Also s. 17(2).",
+    "Correct (plus s. 5 for a handgun)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 17(2)"
+  },
+  {
+   "id": "2.3-08",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "What is the maximum penalty for s. 18 (having firearm with intent to commit indictable offence)?",
+   "options": [
+    "7 years",
+    "Life",
+    "10 years",
+    "14 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 18 penalty"
+  },
+  {
+   "id": "2.3-09",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Under s. 16A, D possesses a firearm or imitation with intent to…",
+   "options": [
+    "Cause someone to believe that unlawful violence will be used against them or another",
+    "Endanger life",
+    "Sell it",
+    "Resist arrest"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's s. 16.",
+    "No.",
+    "That's s. 17/18."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 16A"
+  },
+  {
+   "id": "2.3-10",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "For s. 19 (carrying in a public place), which item counts only if LOADED?",
+   "options": [
+    "Air weapon",
+    "Imitation firearm",
+    "Shotgun",
+    "Any other firearm with ammunition"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Loaded or not.",
+    "Can't be loaded.",
+    "Correct.",
+    "With ammunition, loaded or not."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 19 – shotgun"
+  },
+  {
+   "id": "2.3-11",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "A youth has an unloaded air rifle in a park without reasonable excuse. Is it a s. 19 offence?",
+   "options": [
+    "No – it's unloaded",
+    "Yes – air weapons count loaded or not",
+    "Only if he has pellets",
+    "Only if under 18"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not required.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 19 – air weapon"
+  },
+  {
+   "id": "2.3-12",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "D carries an unloaded handgun in the street with no ammunition. Is it s. 19?",
+   "options": [
+    "Yes",
+    "Only at night",
+    "Yes, if visible",
+    "No – for 'other firearms' he must have suitable ammunition with him (but s. 5 possession applies)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 19 – ammunition"
+  },
+  {
+   "id": "2.3-13",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Who bears the burden of proving 'lawful authority or reasonable excuse' under s. 19?",
+   "options": [
+    "The prosecution",
+    "The police",
+    "The defendant",
+    "The court"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 19 – burden"
+  },
+  {
+   "id": "2.3-14",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "D was released 2 years ago from a 4-year prison sentence and is found with a shotgun. Which is correct?",
+   "options": [
+    "s. 21 offence – a sentence of 3 years or more means a lifetime prohibition",
+    "No offence after 5 years",
+    "Only if loaded",
+    "Only if he has no certificate"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Lifetime.",
+    "No.",
+    "Prohibition applies anyway."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 21 – lifetime"
+  },
+  {
+   "id": "2.3-15",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "A person sentenced to 6 months' imprisonment may not possess a firearm for…",
+   "options": [
+    "Life",
+    "1 year",
+    "3 years",
+    "5 years from release"
+   ],
+   "correct": 3,
+   "explanations": [
+    "That's ≥ 3 years.",
+    "No.",
+    "No.",
+    "Correct ⚠."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 21 – 5 years"
+  },
+  {
+   "id": "2.3-16",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Under s. 47, what can an officer do if he has reasonable cause to suspect a person has a firearm in a public place?",
+   "options": [
+    "Nothing without a warrant",
+    "Require him to hand it over for examination, search and detain him, and stop and search a vehicle",
+    "Only arrest",
+    "Only seize after charge"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Powers exist.",
+    "Correct.",
+    "Not only.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 47"
+  },
+  {
+   "id": "2.3-17",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "D enters a house as a trespasser carrying an imitation firearm. Which offence?",
+   "options": [
+    "s. 20 – trespassing with a firearm or imitation in a building",
+    "s. 19",
+    "s. 16",
+    "No offence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not a public place.",
+    "Not imitation.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · s. 20"
+  },
+  {
+   "id": "2.3-18",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Since 1997, which category became generally prohibited under s. 5?",
+   "options": [
+    "Shotguns",
+    "Air rifles",
+    "Handguns (pistols)",
+    "Antique firearms"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Handguns"
+  },
+  {
+   "id": "2.3-19",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "What is the key requirement for a s. 1 firearm?",
+   "options": [
+    "A shotgun certificate",
+    "A firearm certificate",
+    "No certificate",
+    "A Home Office authority only"
+   ],
+   "correct": 1,
+   "explanations": [
+    "For shotguns.",
+    "Correct.",
+    "Required.",
+    "That's s. 5."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Certificate"
+  },
+  {
+   "id": "2.3-20",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Which is an important safety principle when dealing with a reported armed suspect?",
+   "options": [
+    "Approach quickly to disarm",
+    "Ask the suspect to unload",
+    "Search alone",
+    "Contain and await authorised firearms officers; preserve forensic evidence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Dangerous.",
+    "Dangerous.",
+    "Dangerous.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Safety"
+  },
+  {
+   "id": "2.3-21",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "A replica gun is used in a robbery of a bank. Which firearms offence is most directly charged with the robbery?",
+   "options": [
+    "s. 16",
+    "s. 21",
+    "s. 17(2) or s. 18 (imitation counts)",
+    "s. 5"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not imitations.",
+    "No.",
+    "Correct.",
+    "Not prohibited."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Robbery with imitation"
+  },
+  {
+   "id": "2.3-22",
+   "chapter": "2.3",
+   "lessonId": "nie-2.3",
+   "scenario": "Is a silencer (sound moderator) itself a 'firearm'?",
+   "options": [
+    "Yes – accessories designed to diminish noise or flash are included",
+    "No",
+    "Only if attached",
+    "Only for handguns"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Not required.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.3 · Moderator"
+  }
+ ]
+}

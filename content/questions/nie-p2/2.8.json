@@ -1,0 +1,445 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.8. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.8-01",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "What is a 'course of conduct' under the Protection from Harassment Act 1997 (single victim)?",
+   "options": [
+    "Conduct on at least two occasions",
+    "One serious incident",
+    "Conduct over at least a month",
+    "Three or more incidents"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (s. 7).",
+    "Not enough.",
+    "No.",
+    "Two is enough."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Course of conduct"
+  },
+  {
+   "id": "2.8-02",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "How is 'ought to know' tested for harassment?",
+   "options": [
+    "D's own view",
+    "The victim's view only",
+    "Whether a reasonable person in possession of the same information would think the course of conduct amounted to harassment",
+    "The police's view"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not subjective.",
+    "Not only.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Ought to know"
+  },
+  {
+   "id": "2.8-03",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "What is the maximum penalty for harassment (s. 2)?",
+   "options": [
+    "2 years",
+    "6 months (summary)",
+    "5 years",
+    "10 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "That's s. 4."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 2 penalty"
+  },
+  {
+   "id": "2.8-04",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Which is a defence to harassment under s. 1(3)?",
+   "options": [
+    "D was drunk",
+    "The victim provoked it",
+    "D didn't intend harm",
+    "The conduct was pursued to prevent or detect crime"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "Not a defence.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Defences"
+  },
+  {
+   "id": "2.8-05",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "D threatens his neighbour with violence on two separate days, and she fears it will be used. Which offence?",
+   "options": [
+    "s. 2 only",
+    "Threats to kill",
+    "s. 4 – putting people in fear of violence",
+    "Affray"
+   ],
+   "correct": 2,
+   "explanations": [
+    "More serious offence fits.",
+    "Not threats to kill.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 4"
+  },
+  {
+   "id": "2.8-06",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "What is the maximum penalty for s. 4 PHA 1997?",
+   "options": [
+    "10 years",
+    "6 months",
+    "5 years",
+    "Life"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 4 penalty"
+  },
+  {
+   "id": "2.8-07",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Which of these is listed as an act associated with stalking (s. 2A)?",
+   "options": [
+    "Sending one birthday card",
+    "Buying a car",
+    "Reporting a crime",
+    "Monitoring the use by a person of the internet, email or other electronic communication"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not alone.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Stalking examples"
+  },
+  {
+   "id": "2.8-08",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Stalking under s. 4A requires either fear of violence on at least two occasions, or…",
+   "options": [
+    "Any distress",
+    "Serious alarm or distress having a substantial adverse effect on the victim's usual day-to-day activities",
+    "Financial loss",
+    "Physical injury"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not enough.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 4A"
+  },
+  {
+   "id": "2.8-09",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Who applies for a Stalking Protection Order?",
+   "options": [
+    "A chief officer of police, to a magistrates' court",
+    "The victim",
+    "The CPS",
+    "A local authority"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · SPO"
+  },
+  {
+   "id": "2.8-10",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "D is acquitted of harassment, but the court thinks the victim needs protection. What can it do?",
+   "options": [
+    "Nothing",
+    "Convict anyway",
+    "Make a restraining order on acquittal (s. 5A)",
+    "Issue a warrant"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It can.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 5A"
+  },
+  {
+   "id": "2.8-11",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Protesters stand outside a scientist's home to persuade her to stop animal research, intending to distress her. Which offence?",
+   "options": [
+    "Burglary",
+    "Harassment of a person in their home (s. 42A CJPA 2001)",
+    "Affray",
+    "No offence – peaceful protest"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "Can still be an offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 42A"
+  },
+  {
+   "id": "2.8-12",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Which power lets police direct people to leave the vicinity of a dwelling in such a situation?",
+   "options": [
+    "s. 60 CJPOA 1994",
+    "s. 35 ASBCPA 2014",
+    "s. 1 PACE",
+    "s. 42 CJPA 2001"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Stop and search.",
+    "Dispersal (also possible ⚠).",
+    "Stop and search.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 42 direction"
+  },
+  {
+   "id": "2.8-13",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "For stirring up RACIAL hatred, words or behaviour must be…",
+   "options": [
+    "Threatening only",
+    "Merely offensive",
+    "Threatening, abusive or insulting",
+    "Written only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's religious.",
+    "Not enough.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Racial hatred"
+  },
+  {
+   "id": "2.8-14",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "For stirring up RELIGIOUS hatred, which is required?",
+   "options": [
+    "Threatening words or behaviour and an intention to stir up hatred",
+    "Abusive words and likelihood",
+    "Insulting words",
+    "Any criticism of a religion"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not enough.",
+    "Not enough.",
+    "Protected expression."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Religious hatred"
+  },
+  {
+   "id": "2.8-15",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Whose consent is needed to prosecute stirring up hatred offences?",
+   "options": [
+    "The DPP",
+    "A chief constable",
+    "The Home Secretary",
+    "The Attorney General"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · AG consent"
+  },
+  {
+   "id": "2.8-16",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "D sends one grossly offensive message via a mobile network. Which offence may apply?",
+   "options": [
+    "Harassment (one occasion)",
+    "s. 127 Communications Act 2003",
+    "Stalking",
+    "No offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Needs two occasions.",
+    "Correct ⚠.",
+    "No.",
+    "May be."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · s. 127"
+  },
+  {
+   "id": "2.8-17",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Can a restraining order be made on conviction for an offence other than harassment?",
+   "options": [
+    "Yes – for any offence, to protect a person from harassment or fear of violence",
+    "No",
+    "Only for violence",
+    "Only for domestic abuse"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (Sentencing Act 2020).",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Restraining order"
+  },
+  {
+   "id": "2.8-18",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Is breach of a restraining order without reasonable excuse an offence?",
+   "options": [
+    "No",
+    "Only the first time",
+    "Yes",
+    "Only if violent"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Breach"
+  },
+  {
+   "id": "2.8-19",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "D follows his ex to work, loiters outside her home and contacts her friends about her on several occasions. Which offence fits best?",
+   "options": [
+    "s. 2 harassment",
+    "s. 2A stalking",
+    "Affray",
+    "Burglary"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Stalking more specific.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Stalking scenario"
+  },
+  {
+   "id": "2.8-20",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Can 'conduct' for harassment include speech?",
+   "options": [
+    "No",
+    "Only written",
+    "Only in person",
+    "Yes"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Speech"
+  },
+  {
+   "id": "2.8-21",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "Harassment of two or more persons (s. 1(1A)) requires conduct on at least one occasion to each, intended to…",
+   "options": [
+    "Cause injury",
+    "Make money",
+    "Persuade them not to do something they're entitled to do, or to do something they're not obliged to do",
+    "Annoy them"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Collective harassment"
+  },
+  {
+   "id": "2.8-22",
+   "chapter": "2.8",
+   "lessonId": "nie-2.8",
+   "scenario": "A victim's daily routine changes completely (changes job, moves home) because of D's stalking. Which offence?",
+   "options": [
+    "s. 4A – serious alarm/distress with substantial adverse effect",
+    "s. 2A",
+    "s. 2",
+    "None"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "More serious fits.",
+    "Stalking specific.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.8 · Substantial adverse effect"
+  }
+ ]
+}

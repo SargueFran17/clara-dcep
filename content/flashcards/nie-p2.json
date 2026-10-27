@@ -273,6 +273,160 @@
    "front": "DASH → MARAC",
    "back": "Risk assessment → multi-agency meeting for high risk",
    "es": "DASH/MARAC"
+  },
+  {
+   "id": "nie-2.1-01",
+   "lessonId": "nie-2.1",
+   "front": "Murder",
+   "back": "Unlawful killing of a person in being under the King's peace with intent to kill or cause GBH. Mandatory life.",
+   "es": "Matar con intención de matar o GBH; perpetua obligatoria."
+  },
+  {
+   "id": "nie-2.1-02",
+   "lessonId": "nie-2.1",
+   "front": "Woollin",
+   "back": "Virtual certainty of death/serious injury + D appreciated it → jury may find intention.",
+   "es": "Intención oblicua."
+  },
+  {
+   "id": "nie-2.1-03",
+   "lessonId": "nie-2.1",
+   "front": "Causation",
+   "back": "But for + operating and substantial; thin skull (Blaue); medical treatment (Cheshire); Pagett.",
+   "es": "Causalidad."
+  },
+  {
+   "id": "nie-2.1-04",
+   "lessonId": "nie-2.1",
+   "front": "Loss of control",
+   "back": "Loss of self-control + qualifying trigger + normal person of D's sex/age might react similarly. Not revenge; infidelity alone disregarded.",
+   "es": "Pérdida de control."
+  },
+  {
+   "id": "nie-2.1-05",
+   "lessonId": "nie-2.1",
+   "front": "Diminished responsibility",
+   "back": "Abnormality of mental functioning from recognised medical condition, substantially impairing ability; burden on defence.",
+   "es": "Responsabilidad disminuida."
+  },
+  {
+   "id": "nie-2.1-06",
+   "lessonId": "nie-2.1",
+   "front": "Manslaughter types",
+   "back": "Unlawful act (Church: some risk of some harm) / gross negligence (Adomako).",
+   "es": "Homicidio por acto ilícito / negligencia grave."
+  },
+  {
+   "id": "nie-2.1-07",
+   "lessonId": "nie-2.1",
+   "front": "s. 5 DVCVA 2004",
+   "back": "Causing or allowing death/serious harm of child or vulnerable adult – same household.",
+   "es": "Causar o permitir la muerte."
+  },
+  {
+   "id": "nie-2.1-08",
+   "lessonId": "nie-2.1",
+   "front": "Threats to kill (s. 16 OAPA)",
+   "back": "Threat intending the other to fear it will be carried out. 10 yrs.",
+   "es": "Amenazas de muerte."
+  },
+  {
+   "id": "nie-2.3-01",
+   "lessonId": "nie-2.3",
+   "front": "Firearm (s. 57)",
+   "back": "Lethal barrelled weapon + prohibited weapons + component parts + noise/flash moderators.",
+   "es": "Arma letal con cañón, piezas, silenciadores."
+  },
+  {
+   "id": "nie-2.3-02",
+   "lessonId": "nie-2.3",
+   "front": "Imitation firearm",
+   "back": "Anything with the appearance of a firearm; not a body part (Bentham).",
+   "es": "Cualquier cosa que lo parezca."
+  },
+  {
+   "id": "nie-2.3-03",
+   "lessonId": "nie-2.3",
+   "front": "Prohibited weapons (s. 5)",
+   "back": "Automatic weapons, handguns, noxious-substance weapons (CS spray), stun guns, disguised firearms. 10 yrs.",
+   "es": "Armas prohibidas."
+  },
+  {
+   "id": "nie-2.3-04",
+   "lessonId": "nie-2.3",
+   "front": "ss. 16–18",
+   "back": "s. 16 endanger life (no imitation); s. 16A cause fear; s. 17(1) resist arrest; s. 17(2) at time of Sch. 1 offence; s. 18 intent indictable offence.",
+   "es": "Delitos con intención."
+  },
+  {
+   "id": "nie-2.3-05",
+   "lessonId": "nie-2.3",
+   "front": "s. 19 public place",
+   "back": "Loaded shotgun; air weapon loaded or not; other firearm with ammunition; imitation. Burden on D.",
+   "es": "Lugar público."
+  },
+  {
+   "id": "nie-2.3-06",
+   "lessonId": "nie-2.3",
+   "front": "s. 21",
+   "back": "≥ 3 years custody → never; 3 months–3 years → 5 years from release.",
+   "es": "Condenados previos."
+  },
+  {
+   "id": "nie-2.3-07",
+   "lessonId": "nie-2.3",
+   "front": "s. 47 powers",
+   "back": "Require handover, search, detain, stop and search vehicles – reasonable cause to suspect.",
+   "es": "Poderes de la policía."
+  },
+  {
+   "id": "nie-2.8-01",
+   "lessonId": "nie-2.8",
+   "front": "Course of conduct (PHA s. 7)",
+   "back": "At least two occasions (one victim).",
+   "es": "Al menos 2 ocasiones."
+  },
+  {
+   "id": "nie-2.8-02",
+   "lessonId": "nie-2.8",
+   "front": "Harassment (s. 2)",
+   "back": "Course of conduct amounting to harassment; knows/ought to know (reasonable person). Summary 6 months.",
+   "es": "Acoso; 6 meses."
+  },
+  {
+   "id": "nie-2.8-03",
+   "lessonId": "nie-2.8",
+   "front": "s. 4 fear of violence",
+   "back": "Causes fear on at least 2 occasions that violence will be used. 10 yrs.",
+   "es": "Miedo a violencia; 10 años."
+  },
+  {
+   "id": "nie-2.8-04",
+   "lessonId": "nie-2.8",
+   "front": "Stalking (ss. 2A/4A)",
+   "back": "Harassment + stalking acts (following, contacting, monitoring, loitering…); s. 4A fear of violence or serious alarm with substantial adverse effect.",
+   "es": "Stalking."
+  },
+  {
+   "id": "nie-2.8-05",
+   "lessonId": "nie-2.8",
+   "front": "SPO",
+   "back": "Stalking Protection Order – chief officer applies to magistrates.",
+   "es": "Orden de protección."
+  },
+  {
+   "id": "nie-2.8-06",
+   "lessonId": "nie-2.8",
+   "front": "s. 42A CJPA 2001",
+   "back": "Harassment of a person in their home; s. 42 direction to leave.",
+   "es": "Acoso en casa."
+  },
+  {
+   "id": "nie-2.8-07",
+   "lessonId": "nie-2.8",
+   "front": "Stirring up hatred",
+   "back": "Racial: threatening/abusive/insulting + intent or likely. Religious/sexual orientation: threatening + intent. AG consent.",
+   "es": "Odio racial/religioso."
   }
  ]
 }
