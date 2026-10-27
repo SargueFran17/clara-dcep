@@ -2,9 +2,9 @@ import { describe, expect, it } from 'vitest'
 import { buildTasks, dayScore } from './today'
 import { buildPlan } from './planner'
 import { DEFAULT_SETTINGS } from './defaults'
-import { fitnessWeek, nieGroups, preAcademyOrder } from './content'
+import { fitnessWeek, nieTemario, preAcademyOrder } from './content'
 
-const plan = buildPlan(DEFAULT_SETTINGS, { preOrder: preAcademyOrder, nieGroups, fitnessWeek })
+const plan = buildPlan(DEFAULT_SETTINGS, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek })
 const empty = { doneLessons: new Set<string>(), reviews: [], checked: new Set<string>() }
 
 describe('Hoy', () => {
@@ -32,9 +32,16 @@ describe('Hoy', () => {
     expect(first.some((t) => t.key.startsWith('nie:'))).toBe(false) // el NIE empieza el 02/01
     expect(first.some((t) => t.key === 'event:academyStudy')).toBe(true)
     const tasks = buildTasks('2027-01-04', plan, { ...empty, doneLessons: new Set(preAcademyOrder) })
-    expect(tasks.some((t) => t.key.startsWith('nie:'))).toBe(true)
+    expect(tasks.filter((t) => t.kind === 'nieStep').length).toBeGreaterThan(0)
     expect(tasks.some((t) => t.key === 'event:academyDiary')).toBe(true)
     expect(tasks.filter((t) => t.section === 'overdue')).toEqual([])
+  })
+
+  it('máximo 3 repasos atrasados + aviso de los que esperan', () => {
+    const reviews = [1, 2, 3, 4, 5].map((id) => ({ id, itemKey: 'lesson:vo-1', anchor: '2026-11-01', step: 1, due: `2026-11-0${id}` }))
+    const tasks = buildTasks('2026-11-10', plan, { ...empty, doneLessons: new Set(preAcademyOrder), reviews })
+    expect(tasks.filter((t) => t.kind === 'review').map((t) => t.key)).toEqual(['review:1', 'review:2', 'review:3'])
+    expect(tasks.find((t) => t.kind === 'more')!.title).toMatch(/^2 repasos más/)
   })
 
   it('puntuación del día ignora lo atrasado', () => {

@@ -4,12 +4,13 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useCardQueue, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
 import { buildTasks, dayScore, SECTION_LABELS, type Task, type TaskSection } from '../lib/today'
-import { completeLesson, completeReview, logMinutes, setTaskDone, uncompleteLesson, undoReview } from '../lib/actions'
+import { completeLesson, completeReview, logMinutes, saveNieDayLog, setDayOff, setTaskDone, toggleStep, uncompleteLesson, undoReview } from '../lib/actions'
 import { computeStreak } from '../lib/streak'
 import { diffDays, fmtLong, fmtUK } from '../lib/dates'
 import { PHASE_LABELS } from '../lib/planner'
 import { lessonLink } from '../lib/content'
 import { Card, Check, Pill, ProgressBar } from '../components/ui'
+import { NieMargin } from '../components/NieMargin'
 
 const OVERDUE_PREVIEW = 5
 const ORDER: TaskSection[] = ['overdue', 'plan', 'academy', 'reviews', 'training', 'habits']
@@ -28,6 +29,7 @@ export function Today() {
   const queue = useCardQueue()
   const [showAllOverdue, setShowAllOverdue] = useState(false)
   const minutes = useLiveQuery(() => db.studySessions.where('date').equals(today).toArray(), [today])
+  const dayOff = useLiveQuery(async () => !!(await db.dayOff.get(today)), [today])
 
   const tasks = useMemo(
     () =>
@@ -46,6 +48,13 @@ export function Today() {
     if (reviews && checkedRows) db.dayLog.put({ date: today, ...score })
   }, [today, score.done, score.total, reviews, checkedRows])
 
+  // foto de lo que el plan NIE pone hoy (para que los días pasados se vean como estaban)
+  const nieToday = plan.nie.from === today ? plan.days.get(today)?.nie : undefined
+  const nieKey = JSON.stringify(nieToday ?? null)
+  useEffect(() => {
+    if (nieToday && today >= settings.nieStart) saveNieDayLog(today, nieToday)
+  }, [nieKey, today, settings.nieStart]) // eslint-disable-line react-hooks/exhaustive-deps
+
   const streak = computeStreak(logs ?? [], today, settings.streakThreshold)
   const day = plan.days.get(today)
   const phase = day?.phase ?? (today < plan.from ? 'before' : 'after')
@@ -55,6 +64,8 @@ export function Today() {
   async function toggle(t: Task, value: boolean) {
     if (t.kind === 'lesson') return value ? completeLesson(t.lessonId, today) : uncompleteLesson(t.lessonId)
     if (t.kind === 'review') return value ? completeReview(t.review, today) : undoReview(t.review)
+    if (t.kind === 'nieStep') return toggleStep(t.chapter, t.step - 1, today)
+    if (t.kind === 'more') return
     return setTaskDone(today, t.key, value)
   }
 
@@ -83,8 +94,26 @@ export function Today() {
 
       <div className="flex flex-wrap gap-2">
         {toAcademy > 0 && <Pill tone="amber">Academia en {toAcademy} días</Pill>}
-        {toExam > 0 && <Pill tone="red">NIE en {toExam} días (estimado)</Pill>}
+        {toExam > 0 && <Pill tone="red">NIE en {toExam} días{settings.examConfirmed ? '' : ' (estimado)'}</Pill>}
       </div>
+
+      {today >= settings.academyStart && today < settings.finalReviewStart && <NieMargin />}
+
+      {today >= settings.nieStart && today < settings.finalReviewStart && dayOff !== undefined && (
+        <div className="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-sm dark:border-slate-800 dark:bg-slate-900">
+          {dayOff ? (
+            <>
+              <span>😴 Hoy sin estudio NIE nuevo: todo se ha recolocado en los próximos días.</span>
+              <button onClick={() => setDayOff(today, false)} className="shrink-0 font-semibold text-indigo-600 underline">Deshacer</button>
+            </>
+          ) : (
+            <>
+              <span className="text-slate-500">¿Hoy no te da la vida? Lo del NIE pasa solo al siguiente hueco.</span>
+              <button onClick={() => setDayOff(today, true)} className="shrink-0 rounded-full bg-slate-100 px-3 py-1 font-semibold dark:bg-slate-800">Hoy no puedo</button>
+            </>
+          )}
+        </div>
+      )}
 
       {phase === 'before' && (
         <Card className="border-indigo-200 bg-indigo-50 dark:border-indigo-900 dark:bg-indigo-950/40">
@@ -149,6 +178,12 @@ export function Today() {
 function TaskRow({ task, onToggle }: { task: Task; onToggle: (v: boolean) => void }) {
   const link = task.kind === 'lesson' ? lessonLink(task.lessonId) : task.link
   const overdue = task.section === 'overdue'
+  if (task.kind === 'more')
+    return (
+      <Link to={task.link} className="block rounded-2xl border border-dashed border-rose-200 p-3 text-center text-sm text-rose-600 dark:border-rose-900">
+        {task.title} →
+      </Link>
+    )
   return (
     <div
       className={`flex items-center gap-3 rounded-2xl border bg-white p-3 shadow-sm dark:bg-slate-900 ${

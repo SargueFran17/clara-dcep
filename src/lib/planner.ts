@@ -1,5 +1,8 @@
-import { addDays, eachDay, weekday, type ISODate } from './dates'
-import type { NieGroupItem, Settings, WorkoutItem } from '../types'
+import { addDays, diffDays, eachDay, weekday, type ISODate } from './dates'
+import type { NieTemario, Settings, WorkoutItem } from '../types'
+import { scheduleNie, type NieSchedule, type NieSlot } from './scheduler'
+
+export type { NieSlot } from './scheduler'
 
 // Planificador: función pura que convierte los Ajustes (fechas) + el orden de content/plan
 // en un calendario día a día. Si cambias una fecha, se recalcula todo.
@@ -27,14 +30,6 @@ export interface PlanEvent {
   group?: number
 }
 
-export interface NieSlot {
-  chapter: string
-  /** true el primer día del capítulo */
-  first: boolean
-  /** true el último día del capítulo */
-  last: boolean
-}
-
 export interface PlanDay {
   date: ISODate
   phase: Phase
@@ -47,8 +42,12 @@ export interface PlanDay {
 
 export interface PlanInputs {
   preOrder: string[]
-  nieGroups: NieGroupItem[][]
+  temario: Pick<NieTemario, 'chapters' | 'groups' | 'finalReview' | 'keyDates' | 'newStudyCapacityMinutes'>
   fitnessWeek: { day: number; items: WorkoutItem[] }[]
+  /** cola NIE recalculada desde hoy (si falta: plan inicial sin progreso desde el inicio del NIE) */
+  nie?: NieSchedule
+  /** lo que el plan NIE ponía en días pasados (foto de cada día) */
+  nieHistory?: Map<ISODate, NieSlot[]>
 }
 
 export interface Plan {
@@ -57,6 +56,8 @@ export interface Plan {
   lessonDates: Map<string, ISODate>
   /** capítulo → [inicio, fin] de la 1ª vuelta */
   nieRanges: Map<string, [ISODate, ISODate]>
+  /** la cola NIE usada para este plan */
+  nie: NieSchedule
   from: ISODate
   to: ISODate
 }
@@ -105,9 +106,21 @@ export function preCapacity(wd: number): number {
   return wd === 6 ? 0 : wd === 5 ? 1 : 2
 }
 
-/** Unidades de estudio NIE por día durante la academia: L–V 1, sábado 2, domingo 0 (repasos). */
-export function nieUnits(wd: number): number {
-  return wd === 6 ? 0 : wd === 5 ? 2 : 1
+/** Plan NIE inicial (sin progreso), desde el inicio del NIE. */
+export function initialNieSchedule(s: Settings, temario: PlanInputs['temario']): NieSchedule {
+  const order = temario.groups.flat()
+  const chapters = order.map((c) => temario.chapters.find((x) => x.code === c)!).filter(Boolean)
+  return scheduleNie({ settings: s, chapters, capacity: temario, progress: new Map(), daysOff: new Set(), today: s.nieStart })
+}
+
+/**
+ * Repaso final por grupos: las fechas fijas del temario, desplazadas si cambias el inicio
+ * del repaso final en Ajustes.
+ */
+export function finalReviewDays(s: Settings, temario: PlanInputs['temario']): { date: ISODate; group: number; chapters: string[] }[] {
+  const base = temario.keyDates.finalReviewStart
+  const shift = base ? diffDays(s.finalReviewStart, base) : 0
+  return temario.finalReview.map((f, i) => ({ date: addDays(f.date, shift), group: i + 1, chapters: f.chapters }))
 }
 
 export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
@@ -171,7 +184,20 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
       day.events.push({ type: 'academyWeekSummary', label: 'Resumen semanal de la academia' })
     }
   }
-  allocateNie(s, inputs.nieGroups, days, lessonDates, nieRanges)
+  // --- NIE 1ª vuelta: cola de pasos (días pasados = foto guardada; hoy y futuro = recalculado) ---
+  const nie = inputs.nie ?? initialNieSchedule(s, inputs.temario)
+  for (const [date, slots] of inputs.nieHistory ?? []) {
+    const day = days.get(date)
+    if (day && date < nie.from) day.nie = slots
+  }
+  for (const [date, slots] of nie.days) {
+    const day = days.get(date)
+    if (day) day.nie = slots
+  }
+  for (const [chapter, range] of nie.ranges) {
+    nieRanges.set(chapter, range)
+    lessonDates.set(`nie-${chapter}`, range[0])
+  }
 
   // --- Bloque NIE y repaso final ---
   const special = new Set([...s.mocks, ...s.cumulativeTests, s.examDate])
@@ -179,19 +205,13 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
     if (!special.has(date))
       days.get(date)?.events.push({ type: 'nieRevision', label: 'NIE: repasos espaciados + preguntas por partes + registro de errores' })
 
-  const groupCount = inputs.nieGroups.length
-  let g = 0
+  const finals = finalReviewDays(s, inputs.temario)
+  for (const f of finals)
+    days.get(f.date)?.events.push({ type: 'finalGroup', label: `Repaso final · grupo ${f.group} (${f.chapters.join(', ')})`, group: f.group })
+  const finalDates = new Set(finals.map((f) => f.date))
   for (const date of eachDay(s.finalReviewStart, s.finalReviewEnd)) {
-    if (special.has(date)) continue
-    const day = days.get(date)
-    if (!day) continue
-    if (g < groupCount) {
-      const chapters = inputs.nieGroups[g].map((c) => c.chapter).join(', ')
-      day.events.push({ type: 'finalGroup', label: `Repaso final · grupo ${g + 1} (${chapters})`, group: g + 1 })
-      g++
-    } else {
-      day.events.push({ type: 'finalErrors', label: 'Repaso final: registro de errores + capítulos con confianza ≤ 3' })
-    }
+    if (special.has(date) || finalDates.has(date)) continue
+    days.get(date)?.events.push({ type: 'finalErrors', label: 'Repaso final: registro de errores + capítulos con confianza ≤ 3' })
   }
 
   // --- Hitos ---
@@ -201,45 +221,5 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
     days.get(date)?.events.push({ type: 'mock', label: 'Simulacro NIE completo (80 preguntas · 2 h)' })
   days.get(s.examDate)?.events.push({ type: 'exam', label: 'EXAMEN NIE · ¡mucha suerte!' })
 
-  return { days, lessonDates, nieRanges, from, to }
-}
-
-function allocateNie(
-  s: Settings,
-  groups: NieGroupItem[][],
-  days: Map<ISODate, PlanDay>,
-  lessonDates: Map<string, ISODate>,
-  nieRanges: Map<string, [ISODate, ISODate]>,
-) {
-  // la 1ª vuelta termina el día antes del último día de academia (ese día es el test acumulado)
-  const slots: { date: ISODate; start: number; end: number }[] = []
-  let cap = 0
-  // la 1ª vuelta del NIE empieza en nieStart (por defecto 02/01), no el primer día de academia
-  const nieFrom = s.nieStart && s.nieStart > s.academyStart ? s.nieStart : s.academyStart
-  for (const date of eachDay(nieFrom, addDays(s.academyEnd, -1))) {
-    const u = nieUnits(weekday(date))
-    if (!u) continue
-    slots.push({ date, start: cap, end: cap + u })
-    cap += u
-  }
-  const chapters = groups.flat()
-  const total = chapters.reduce((a, c) => a + c.weight, 0)
-  if (!slots.length || !total) return
-  const scale = cap / total
-  const EPS = 1e-6
-
-  let t = 0
-  for (const c of chapters) {
-    const start = t
-    const end = t + c.weight * scale
-    t = end
-    const touched = slots.filter((sl) => sl.end - EPS > start && sl.start + EPS < end)
-    touched.forEach((sl, i) => {
-      days.get(sl.date)!.nie.push({ chapter: c.chapter, first: i === 0, last: i === touched.length - 1 })
-    })
-    if (touched.length) {
-      lessonDates.set(`nie-${c.chapter}`, touched[0].date)
-      nieRanges.set(c.chapter, [touched[0].date, touched[touched.length - 1].date])
-    }
-  }
+  return { days, lessonDates, nieRanges, nie, from, to }
 }

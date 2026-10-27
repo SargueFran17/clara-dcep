@@ -31,9 +31,46 @@ export interface Structure {
   folders: Folder[]
 }
 
-export interface NieGroupItem {
-  chapter: string
-  weight: number
+/** Un capítulo del temario NIE (content/plan/nie-temario.json). */
+export interface NieChapterMeta {
+  order: number
+  code: string
+  part: number
+  title: string
+  group: number
+  /** minutos estimados de cada paso del método (10 valores) */
+  stepMinutes: number[]
+  totalHours: number
+  /** nota de tu material (p. ej. "BRONZE – 1 mark in recent sittings") */
+  note: string
+}
+
+export interface NieMockPlan {
+  date: ISODate
+  type: string
+  material: string
+  questions: number
+  minutes: number
+  targetPercent: number
+}
+
+/** Datos del temario NIE: capítulos, método, repasos, fechas y capacidad. */
+export interface NieTemario {
+  parts: Record<string, string>
+  groups: string[][]
+  method: { n: number; name: string }[]
+  reviews: { offsetsDays: number[]; stopBefore: ISODate }
+  finalReview: { date: ISODate; chapters: string[] }[]
+  keyDates: Record<string, string>
+  newStudyCapacityMinutes: {
+    academyWeeks: Record<'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun', number>
+    nieBlockWeekdays: number
+    bankHolidays: number
+    bankHolidays2027: ISODate[]
+  }
+  examFacts: { questions: number; scored: number; minutes: number; passMarkPercent: number; passMarkScored: number }
+  mocks: NieMockPlan[]
+  chapters: NieChapterMeta[]
 }
 
 export interface WorkoutItem {
@@ -60,6 +97,8 @@ export interface Settings {
   finalReviewStart: ISODate
   finalReviewEnd: ISODate
   examDate: ISODate
+  /** false hasta que confirmes la fecha del examen */
+  examConfirmed: boolean
   cumulativeTests: ISODate[]
   mocks: ISODate[]
   theme: Theme
@@ -153,7 +192,27 @@ export interface NieChapterState {
   answersAfter?: string[]
   /** minutos reales por paso */
   minutes?: number[]
+  /** notas libres del capítulo */
+  notes?: string
   finalDoneAt?: ISODate
+}
+
+/** Día marcado como "Hoy no puedo": capacidad 0 para el estudio NIE nuevo. */
+export interface DayOff {
+  date: ISODate
+}
+
+/** Foto de lo que el plan NIE ponía en un día (para ver los días pasados tal como estaban). */
+export interface NieDayLog {
+  date: ISODate
+  slots: { chapter: string; steps: { step: number; minutes: number }[] }[]
+}
+
+/** Resultado que apuntas de un simulacro/test externo (Q&A, Police Pass…). */
+export interface MockResult {
+  date: ISODate
+  correct: number
+  total: number
 }
 
 export interface CardState {

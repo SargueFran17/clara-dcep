@@ -1,9 +1,11 @@
 import { db } from '../db'
 import type { AcademyDay, ErrorEntry, NieChapterState, Review, Settings, TestAttempt } from '../types'
 import { grade, newCardState, type Grade } from './sm2'
-import { firstReview, nextReview, type SeriesOptions } from './srs'
+import { dueForStep, firstReview, nextReview, type SeriesOptions } from './srs'
 import type { ISODate } from './dates'
 import { DEFAULT_SETTINGS } from './defaults'
+import { NIE_OFFSETS, seriesForKey } from './reviews'
+import type { NieSlot } from './scheduler'
 
 // Operaciones que cambian datos. Las pantallas solo llaman a estas funciones.
 
@@ -16,15 +18,9 @@ export async function saveSettings(patch: Partial<Settings>) {
   await db.settings.put({ ...current, ...patch, id: 'main' })
 }
 
-/**
- * Reglas de cada serie de repasos:
- * - capítulos NIE: se cortan al empezar el repaso final (17 may);
- * - diario de academia: solo +1 día y +7 días.
- */
+/** Reglas de cada serie de repasos (ver reviews.ts). */
 async function seriesFor(itemKey: string): Promise<SeriesOptions> {
-  if (itemKey.startsWith('lesson:nie-')) return { until: (await getSettings()).finalReviewStart }
-  if (itemKey.startsWith('academy:')) return { steps: [1, 3] }
-  return {}
+  return seriesForKey(itemKey, await getSettings())
 }
 
 /** Programa el primer repaso de algo terminado hoy (si no tenía ya uno pendiente). */
@@ -108,20 +104,62 @@ export async function updateChapter(chapterId: string, patch: Partial<NieChapter
 }
 
 /**
- * Marca/desmarca un paso. Al completar los 10, el capítulo queda "Estudiado" en la fecha del
- * último paso y empiezan los repasos (+1d, +3d, +7d, +1m…) hasta el repaso final.
+ * Marca/desmarca un paso (guarda la fecha en que lo marcas). Al marcar el paso ⑩ el capítulo
+ * queda "Estudiado" en esa fecha y empiezan sus repasos (+1, +3, +7, +30, +60, +90, +120 días).
  */
 export async function toggleStep(chapterId: string, index: number, today: ISODate) {
   const ch = await getChapter(chapterId)
   const steps = [...ch.steps]
   steps[index] = steps[index] ? null : today
   await db.nieChapter.put({ ...ch, steps })
+  if (index !== 9) return
   const lessonId = `nie-${chapterId}`
-  if (steps.every(Boolean)) {
-    if (!(await db.lessonProgress.get(lessonId))) await completeLesson(lessonId, today)
+  if (steps[9]) {
+    if (!(await db.lessonProgress.get(lessonId))) await completeLesson(lessonId, steps[9])
   } else if (await db.lessonProgress.get(lessonId)) {
     await uncompleteLesson(lessonId)
   }
+}
+
+/**
+ * Cambia la fecha real del paso ⑩ (fin del capítulo). Los repasos pendientes se recalculan
+ * desde la nueva fecha; los que ya hiciste se mantienen.
+ */
+export async function setFinishDate(chapterId: string, date: ISODate) {
+  const s = await getSettings()
+  const itemKey = `lesson:nie-${chapterId}`
+  await db.transaction('rw', db.nieChapter, db.lessonProgress, db.reviews, async () => {
+    const ch = await getChapter(chapterId)
+    const steps = [...ch.steps]
+    steps[9] = date
+    await db.nieChapter.put({ ...ch, steps })
+    await db.lessonProgress.put({ lessonId: `nie-${chapterId}`, status: 'done', completedAt: date })
+    await db.reviews.where('itemKey').equals(itemKey).filter((r) => !r.doneAt).delete()
+    const done = await db.reviews.where('itemKey').equals(itemKey).filter((r) => !!r.doneAt).count()
+    const step = done + 1
+    if (step > NIE_OFFSETS.length) return
+    const due = dueForStep(date, step, NIE_OFFSETS)
+    if (due < s.finalReviewStart) await db.reviews.add({ itemKey, anchor: date, step, due })
+  })
+}
+
+// ---------- Plan NIE: "Hoy no puedo" y foto del día ----------
+
+export async function setDayOff(date: ISODate, off: boolean) {
+  if (off) await db.dayOff.put({ date })
+  else await db.dayOff.delete(date)
+}
+
+/** Guarda lo que el plan ponía hoy, para que los días pasados se vean tal como estaban. */
+export async function saveNieDayLog(date: ISODate, slots: NieSlot[]) {
+  await db.nieDayLog.put({ date, slots: slots.map((x) => ({ chapter: x.chapter, steps: x.steps.map((c) => ({ step: c.step, minutes: c.minutes })) })) })
+}
+
+// ---------- Simulacros externos ----------
+
+export async function saveMockResult(date: ISODate, correct: number | null, total: number) {
+  if (correct === null) await db.mockResults.delete(date)
+  else await db.mockResults.put({ date, correct, total })
 }
 
 // ---------- Academia ----------

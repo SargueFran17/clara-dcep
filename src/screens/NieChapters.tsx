@@ -25,9 +25,9 @@ function useChapterInfos(): Map<string, ChapterInfo & { state?: NieChapterState 
   if (!states || !reviews) return undefined
   const byId = new Map(states.map((s) => [s.chapterId, s]))
   const out = new Map<string, ChapterInfo & { state?: NieChapterState }>()
-  for (const c of nieGroups.flat()) {
-    const n = reviews.filter((r) => r.itemKey === `lesson:nie-${c.chapter}` && r.doneAt).length
-    out.set(c.chapter, { ...chapterStatus(byId.get(c.chapter), n, done.has(`nie-${c.chapter}`)), state: byId.get(c.chapter) })
+  for (const chapter of nieGroups.flat()) {
+    const n = reviews.filter((r) => r.itemKey === `lesson:nie-${chapter}` && r.doneAt).length
+    out.set(chapter, { ...chapterStatus(byId.get(chapter), n, done.has(`nie-${chapter}`)), state: byId.get(chapter) })
   }
   return out
 }
@@ -48,7 +48,7 @@ export function NieChapterList() {
           <section key={gi}>
             <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">Grupo {gi + 1}</h2>
             <div className="space-y-2">
-              {g.map(({ chapter }) => {
+              {g.map((chapter) => {
                 const info = infos.get(chapter)!
                 const range = plan.nieRanges.get(chapter)
                 return (

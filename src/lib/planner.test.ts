@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest'
 import { buildPlan, phaseOf } from './planner'
 import { DEFAULT_SETTINGS } from './defaults'
-import { fitnessWeek, nieGroups, preAcademyOrder } from './content'
+import { fitnessWeek, nieGroups, nieTemario, preAcademyOrder } from './content'
 import { weekday } from './dates'
 
-const inputs = { preOrder: preAcademyOrder, nieGroups, fitnessWeek }
+const inputs = { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek }
 const plan = buildPlan(DEFAULT_SETTINGS, inputs)
 const s = DEFAULT_SETTINGS
 
@@ -14,7 +14,8 @@ describe('fases', () => {
     expect(phaseOf('2026-10-31', s)).toBe('pre')
     expect(phaseOf('2026-12-25', s)).toBe('xmas')
     expect(phaseOf('2026-12-29', s)).toBe('academy')
-    expect(phaseOf('2027-04-26', s)).toBe('nieBlock')
+    expect(phaseOf('2027-05-02', s)).toBe('academy')
+    expect(phaseOf('2027-05-03', s)).toBe('nieBlock')
     expect(phaseOf('2027-05-17', s)).toBe('final')
     expect(phaseOf('2027-06-01', s)).toBe('exam')
   })
@@ -43,16 +44,16 @@ describe('pre-academia', () => {
 })
 
 describe('NIE 1ª vuelta', () => {
-  const order = nieGroups.flat().map((c) => c.chapter)
+  const order = nieGroups.flat()
   it('empieza con 1.3 el 02/01 (no el primer día de academia) y respeta tu orden', () => {
     expect(plan.nieRanges.get('1.3')![0]).toBe('2027-01-02')
     for (const d of ['2026-12-29', '2026-12-30', '2026-12-31', '2027-01-01']) expect(plan.days.get(d)!.nie).toEqual([])
     const starts = order.map((c) => plan.nieRanges.get(c)![0])
     expect([...starts].sort()).toEqual(starts)
   })
-  it('todos los capítulos terminan antes del 25 abr', () => {
+  it('todos los capítulos terminan antes del fin de la academia (02/05)', () => {
     expect(plan.nieRanges.size).toBe(43)
-    for (const [, [, end]] of plan.nieRanges) expect(end < '2027-04-25').toBe(true)
+    for (const [, [, end]] of plan.nieRanges) expect(end <= s.academyEnd).toBe(true)
   })
   it('los capítulos largos tienen más días (1.7 > 1.3)', () => {
     const len = (c: string) => [...plan.days.values()].filter((d) => d.nie.some((n) => n.chapter === c)).length
@@ -72,9 +73,9 @@ describe('NIE 1ª vuelta', () => {
     expect(types).toContain('academyDiary')
     expect(plan.days.get('2027-01-03')!.events.map((e) => e.type)).not.toContain('academyStudy') // domingo
   })
-  it('se recalcula si cambias el fin de la academia', () => {
-    const p = buildPlan({ ...s, academyEnd: '2027-03-28' }, inputs)
-    expect(p.nieRanges.get('2.14')![1] < '2027-03-28').toBe(true)
+  it('domingos y festivos sin estudio nuevo', () => {
+    expect(plan.days.get('2027-03-26')!.nie).toEqual([])
+    expect(plan.days.get('2027-03-29')!.nie).toEqual([])
   })
 })
 
@@ -84,10 +85,16 @@ describe('hitos y repaso final', () => {
     for (const m of s.mocks) expect(plan.days.get(m)!.events.map((e) => e.type)).toContain('mock')
     expect(plan.days.get('2027-06-01')!.events.map((e) => e.type)).toEqual(['exam'])
   })
-  it('reparte los 12 grupos en el repaso final sin pisar simulacros', () => {
-    const groups = [...plan.days.values()].flatMap((d) => d.events.filter((e) => e.type === 'finalGroup'))
-    expect(groups.map((e) => e.group)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+  it('repaso final en las fechas fijas del temario, sin pisar simulacros', () => {
+    const groups = [...plan.days.values()].flatMap((d) => d.events.filter((e) => e.type === 'finalGroup').map((e) => [d.date, e.group]))
+    expect(groups[0]).toEqual(['2027-05-17', 1])
+    expect(groups.find(([, g]) => g === 6)).toEqual(['2027-05-23', 6])
+    expect(groups.length).toBe(nieTemario.finalReview.length)
     expect(plan.days.get('2027-05-22')!.events.some((e) => e.type === 'finalGroup')).toBe(false)
+  })
+  it('si mueves el inicio del repaso final, las fechas se desplazan', () => {
+    const p = buildPlan({ ...s, finalReviewStart: '2027-05-24', finalReviewEnd: '2027-06-07', examDate: '2027-06-08' }, inputs)
+    expect(p.days.get('2027-05-24')!.events.find((e) => e.type === 'finalGroup')?.group).toBe(1)
   })
   it('objetivos de horas', () => {
     expect(plan.days.get('2026-11-02')!.targetMin).toBe(120)

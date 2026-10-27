@@ -1,15 +1,21 @@
 import structureJson from '../../content/structure.json'
 import preJson from '../../content/plan/pre-academy.json'
-import nieJson from '../../content/plan/nie-order.json'
+import temarioJson from '../../content/plan/nie-temario.json'
 import fitnessJson from '../../content/fitness/plan.json'
 import { glossaryCards, glossaryQuestions } from './glossary'
-import type { Card, Folder, LessonMeta, NieGroupItem, Question, Structure, Subject, WorkoutItem } from '../types'
+import type { Card, Folder, LessonMeta, NieTemario, Question, Structure, Subject, WorkoutItem } from '../types'
 
 // Todo el contenido vive en /content y se empaqueta al compilar.
 
 export const structure = structureJson as Structure
 export const preAcademyOrder: string[] = preJson.lessons
-export const nieGroups: NieGroupItem[][] = nieJson.groups
+export const nieTemario = temarioJson as unknown as NieTemario
+/** Tus 12 grupos NIE, en tu orden (códigos de capítulo). */
+export const nieGroups: string[][] = nieTemario.groups
+export const nieChapters = nieTemario.chapters
+export const nieChapterMeta = (code: string) => nieChapters.find((c) => c.code === code)
+/** Capítulos en TU orden (el de los 12 grupos). */
+export const nieOrderedChapters = nieGroups.flat().map((c) => nieChapterMeta(c)!)
 export const fitnessWeek = fitnessJson.week as { day: number; items: WorkoutItem[] }[]
 
 const lessonFiles = import.meta.glob('../../content/lessons/**/*.md', {

@@ -54,7 +54,7 @@ Todo está en `content/`:
 |---|---|
 | `content/structure.json` | Carpetas → asignaturas → lecciones (códigos y títulos) |
 | `content/plan/pre-academy.json` | Orden de las lecciones de pre-academia (el planificador las reparte: L–V 2, sábado 1) |
-| `content/plan/nie-order.json` | Tu orden NIE en 12 grupos y el "peso" (tamaño) de cada capítulo |
+| `content/plan/nie-temario.json` | Tu temario NIE: 43 capítulos en tu orden de 12 grupos, minutos por paso, repasos, repaso final, fechas clave, capacidad por día y simulacros |
 | `content/fitness/plan.json` | Plan semanal de entreno |
 | `content/lessons/<carpeta>/<asignatura>/<id>.md` | El texto de cada lección (Fase 3) |
 | `content/flashcards/<asignatura>.json` | Flashcards: `{ "cards": [{ "id", "lessonId", "front", "back", "es" }] }` |

@@ -3,7 +3,8 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { DEFAULT_SETTINGS } from './defaults'
 import { buildPlan, type Plan } from './planner'
-import { contentCards, contentQuestions, fitnessWeek, nieGroups, preAcademyOrder } from './content'
+import { contentCards, contentQuestions, fitnessWeek, nieChapterMeta, nieOrderedChapters, nieTemario, preAcademyOrder } from './content'
+import { scheduleNie, type NieSchedule, type NieSlot } from './scheduler'
 import { buildQueue } from './sm2'
 import { todayISO, type ISODate } from './dates'
 import type { Card, Question, Settings } from '../types'
@@ -13,9 +14,41 @@ export function useSettings(): Settings {
   return useMemo(() => ({ ...DEFAULT_SETTINGS, ...stored }), [stored])
 }
 
+/** Cola NIE recalculada desde hoy con tu progreso real y tus días "Hoy no puedo". */
+export function useNieSchedule(): NieSchedule | undefined {
+  const s = useSettings()
+  const today = useToday()
+  const states = useLiveQuery(() => db.nieChapter.toArray(), [])
+  const off = useLiveQuery(() => db.dayOff.toArray(), [])
+  return useMemo(() => {
+    if (!states || !off) return undefined
+    return scheduleNie({
+      settings: s,
+      chapters: nieOrderedChapters,
+      capacity: nieTemario,
+      progress: new Map(states.map((x) => [x.chapterId, x.steps])),
+      daysOff: new Set(off.map((d) => d.date)),
+      today,
+    })
+  }, [s, today, states, off])
+}
+
 export function usePlan(): Plan {
   const s = useSettings()
-  return useMemo(() => buildPlan(s, { preOrder: preAcademyOrder, nieGroups, fitnessWeek }), [s])
+  const nie = useNieSchedule()
+  const logs = useLiveQuery(() => db.nieDayLog.toArray(), [])
+  return useMemo(() => {
+    const nieHistory = new Map<ISODate, NieSlot[]>(
+      (logs ?? []).map((l) => [
+        l.date,
+        l.slots.map((x) => ({
+          chapter: x.chapter, first: false, last: false,
+          steps: x.steps.map((c) => ({ ...c, stepMinutes: nieChapterMeta(x.chapter)?.stepMinutes[c.step - 1] ?? c.minutes })),
+        })),
+      ]),
+    )
+    return buildPlan(s, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek, nie, nieHistory })
+  }, [s, nie, logs])
 }
 
 /** Fecha de hoy en Londres; se actualiza sola al pasar la medianoche. */

@@ -1,6 +1,6 @@
 import Dexie, { type EntityTable } from 'dexie'
 import type {
-  AcademyDay, AcademyModule, Assessment, BleepEntry, CardState, DayLog, ErrorEntry, Habit, LessonProgress,
+  AcademyDay, AcademyModule, Assessment, BleepEntry, CardState, DayLog, DayOff, MockResult, NieDayLog, ErrorEntry, Habit, LessonProgress,
   NieChapterState, Recording, Review, Settings, StudySession, TaskDone, TestAttempt, UserCard, UserQuestion,
   WeightEntry, Workout,
 } from './types'
@@ -28,6 +28,9 @@ export class ClaraDB extends Dexie {
   userCards!: EntityTable<UserCard, 'id'>
   userQuestions!: EntityTable<UserQuestion, 'id'>
   recordings!: EntityTable<Recording, 'id'>
+  dayOff!: EntityTable<DayOff, 'date'>
+  nieDayLog!: EntityTable<NieDayLog, 'date'>
+  mockResults!: EntityTable<MockResult, 'date'>
 
   constructor(name = 'clara-dcep') {
     super(name)
@@ -53,6 +56,20 @@ export class ClaraDB extends Dexie {
       userQuestions: '++id, subjectId, chapter',
       recordings: '++id, chapterId',
     })
+    // v2: temario NIE con cola de estudio ("Hoy no puedo", foto de cada día, resultados de simulacros)
+    this.version(2)
+      .stores({ dayOff: 'date', nieDayLog: 'date', mockResults: 'date' })
+      .upgrade(async (tx) => {
+        // fechas nuevas (18 semanas + 5 de bloque NIE) si seguías con las antiguas por defecto
+        const OLD: Record<string, [string, string]> = {
+          academyEnd: ['2027-04-25', '2027-05-02'],
+          nieBlockStart: ['2027-04-26', '2027-05-03'],
+          nieBlockEnd: ['2027-05-30', '2027-06-06'],
+        }
+        await tx.table('settings').toCollection().modify((row: Record<string, unknown>) => {
+          for (const [k, [before, after]] of Object.entries(OLD)) if (row[k] === before) row[k] = after
+        })
+      })
   }
 }
 

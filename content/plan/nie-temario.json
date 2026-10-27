@@ -1,0 +1,1374 @@
+{
+  "_readme": "Datos del temario NIE de Clara. Fuente de los capítulos: NIE candidate handbook 2026 (College of Policing), Appendix A. Las fechas planificadas son orientativas: la app debe recalcularlas con la reprogramación.",
+  "parts": {
+    "1": "General principles, police powers and procedures",
+    "2": "Serious crime and other offences",
+    "3": "Property offences",
+    "4": "Sexual offences"
+  },
+  "groups": [
+    [
+      "1.3",
+      "1.2",
+      "2.7"
+    ],
+    [
+      "1.8"
+    ],
+    [
+      "1.4"
+    ],
+    [
+      "1.5",
+      "1.12",
+      "2.2"
+    ],
+    [
+      "1.7"
+    ],
+    [
+      "3.1",
+      "3.4",
+      "3.2",
+      "3.6",
+      "3.3",
+      "3.5",
+      "3.8"
+    ],
+    [
+      "1.11",
+      "1.10",
+      "2.9"
+    ],
+    [
+      "4.2",
+      "4.3",
+      "4.1",
+      "4.4",
+      "4.5",
+      "4.6",
+      "4.7",
+      "4.8"
+    ],
+    [
+      "1.9",
+      "3.9",
+      "3.7"
+    ],
+    [
+      "2.1",
+      "2.3",
+      "2.8",
+      "1.6",
+      "2.10"
+    ],
+    [
+      "2.5",
+      "2.13",
+      "2.12",
+      "2.11"
+    ],
+    [
+      "2.4",
+      "1.1",
+      "2.6",
+      "2.14"
+    ]
+  ],
+  "method": [
+    {
+      "n": 1,
+      "name": "3 preguntas sin leer"
+    },
+    {
+      "n": 2,
+      "name": "1ª lectura del manual"
+    },
+    {
+      "n": 3,
+      "name": "Workbook"
+    },
+    {
+      "n": 4,
+      "name": "Recall questions"
+    },
+    {
+      "n": 5,
+      "name": "2ª lectura"
+    },
+    {
+      "n": 6,
+      "name": "Repetir las 3 preguntas iniciales"
+    },
+    {
+      "n": 7,
+      "name": "Audios y vídeos"
+    },
+    {
+      "n": 8,
+      "name": "Todas las preguntas posibles"
+    },
+    {
+      "n": 9,
+      "name": "Explicarlo en voz alta"
+    },
+    {
+      "n": 10,
+      "name": "Escribir el tema"
+    }
+  ],
+  "reviews": {
+    "offsetsDays": [
+      1,
+      3,
+      7,
+      30,
+      60,
+      90,
+      120
+    ],
+    "stopBefore": "2027-05-17",
+    "rule": "Contar desde la fecha REAL en que se termina el paso 10. Los repasos que caigan en o después de stopBefore se sustituyen por el repaso final."
+  },
+  "finalReview": [
+    {
+      "date": "2027-05-17",
+      "chapters": [
+        "1.3",
+        "1.2",
+        "2.7",
+        "1.8"
+      ]
+    },
+    {
+      "date": "2027-05-18",
+      "chapters": [
+        "1.4",
+        "1.5",
+        "1.12",
+        "2.2"
+      ]
+    },
+    {
+      "date": "2027-05-19",
+      "chapters": [
+        "1.7"
+      ]
+    },
+    {
+      "date": "2027-05-20",
+      "chapters": [
+        "3.1",
+        "3.4",
+        "3.2",
+        "3.6",
+        "3.3",
+        "3.5",
+        "3.8"
+      ]
+    },
+    {
+      "date": "2027-05-21",
+      "chapters": [
+        "1.11",
+        "1.10",
+        "2.9"
+      ]
+    },
+    {
+      "date": "2027-05-23",
+      "chapters": [
+        "4.2",
+        "4.3",
+        "4.1",
+        "4.4",
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8"
+      ]
+    },
+    {
+      "date": "2027-05-24",
+      "chapters": [
+        "1.9",
+        "3.9",
+        "3.7"
+      ]
+    },
+    {
+      "date": "2027-05-25",
+      "chapters": [
+        "2.1",
+        "2.3",
+        "2.8",
+        "1.6",
+        "2.10"
+      ]
+    },
+    {
+      "date": "2027-05-26",
+      "chapters": [
+        "2.5",
+        "2.13",
+        "2.12",
+        "2.11"
+      ]
+    },
+    {
+      "date": "2027-05-27",
+      "chapters": [
+        "2.4",
+        "1.1",
+        "2.6",
+        "2.14"
+      ]
+    }
+  ],
+  "keyDates": {
+    "planStart": "2026-10-27",
+    "academyStart": "2026-12-29",
+    "nieStart": "2027-01-02",
+    "academyEnd": "2027-05-02",
+    "nieBlockStart": "2027-05-03",
+    "finalReviewStart": "2027-05-17",
+    "nieBlockEnd": "2027-06-06",
+    "examEstimated": "2027-06-01",
+    "_note": "18 semanas de formación (confirmado por el email de Hampshire) + 5 semanas de bloque NIE. examEstimated NO está confirmado: debe ser editable."
+  },
+  "newStudyCapacityMinutes": {
+    "academyWeeks": {
+      "mon": 75,
+      "tue": 75,
+      "wed": 75,
+      "thu": 75,
+      "fri": 75,
+      "sat": 180,
+      "sun": 0
+    },
+    "nieBlockWeekdays": 75,
+    "bankHolidays": 0,
+    "bankHolidays2027": [
+      "2027-01-01",
+      "2027-03-26",
+      "2027-03-29"
+    ]
+  },
+  "examFacts": {
+    "questions": 80,
+    "scored": 70,
+    "minutes": 120,
+    "passMarkPercent": 55.7,
+    "passMarkScored": 39,
+    "exceptionalPercent": 85.7,
+    "syllabus": "Blackstone's Police Investigators' Manual del año del examen (2027)"
+  },
+  "mocks": [
+    {
+      "date": "2027-01-31",
+      "type": "Test acumulado",
+      "material": "Q&A 2027: preguntas de los capítulos ya estudiados",
+      "questions": 30,
+      "minutes": 45,
+      "targetPercent": 60
+    },
+    {
+      "date": "2027-02-28",
+      "type": "Test acumulado",
+      "material": "Q&A 2027: capítulos ya estudiados",
+      "questions": 30,
+      "minutes": 45,
+      "targetPercent": 60
+    },
+    {
+      "date": "2027-03-28",
+      "type": "Test acumulado",
+      "material": "Q&A 2027 / Police Pass: capítulos ya estudiados",
+      "questions": 30,
+      "minutes": 45,
+      "targetPercent": 60
+    },
+    {
+      "date": "2027-04-25",
+      "type": "Test acumulado",
+      "material": "Q&A 2027: TODO lo estudiado",
+      "questions": 30,
+      "minutes": 45,
+      "targetPercent": 60
+    },
+    {
+      "date": "2027-05-01",
+      "type": "Completo (80 preg · 2 h)",
+      "material": "Q&A 2027 – 80 preg mezcladas",
+      "questions": 80,
+      "minutes": 120,
+      "targetPercent": 60
+    },
+    {
+      "date": "2027-05-08",
+      "type": "Completo (80 preg · 2 h)",
+      "material": "Knowledge Hub + Q&A – 80 preg",
+      "questions": 80,
+      "minutes": 120,
+      "targetPercent": 65
+    },
+    {
+      "date": "2027-05-15",
+      "type": "Completo (80 preg · 2 h)",
+      "material": "Police Pass / Q&A – 80 preg",
+      "questions": 80,
+      "minutes": 120,
+      "targetPercent": 65
+    },
+    {
+      "date": "2027-05-22",
+      "type": "Completo (80 preg · 2 h)",
+      "material": "Blackstone's Mock Exam 2027",
+      "questions": 80,
+      "minutes": 120,
+      "targetPercent": 70
+    },
+    {
+      "date": "2027-05-29",
+      "type": "Completo (80 preg · 2 h)",
+      "material": "Preguntas falladas + nuevas – 80 preg",
+      "questions": 80,
+      "minutes": 120,
+      "targetPercent": 75
+    }
+  ],
+  "chapters": [
+    {
+      "order": 1,
+      "code": "1.3",
+      "part": 1,
+      "title": "Actus reus (criminal conduct)",
+      "group": 1,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-01-02",
+      "plannedEnd": "2027-01-04",
+      "finalReviewDate": "2027-05-17",
+      "note": ""
+    },
+    {
+      "order": 2,
+      "code": "1.2",
+      "part": 1,
+      "title": "Mens rea (state of mind)",
+      "group": 1,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-01-04",
+      "plannedEnd": "2027-01-07",
+      "finalReviewDate": "2027-05-17",
+      "note": ""
+    },
+    {
+      "order": 3,
+      "code": "2.7",
+      "part": 2,
+      "title": "Non-fatal offences against the person",
+      "group": 1,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-01-08",
+      "plannedEnd": "2027-01-09",
+      "finalReviewDate": "2027-05-17",
+      "note": ""
+    },
+    {
+      "order": 4,
+      "code": "1.8",
+      "part": 1,
+      "title": "Identification (Code D)",
+      "group": 2,
+      "stepMinutes": [
+        15,
+        105,
+        45,
+        30,
+        45,
+        15,
+        45,
+        45,
+        30,
+        30
+      ],
+      "totalHours": 6.75,
+      "plannedStart": "2027-01-09",
+      "plannedEnd": "2027-01-16",
+      "finalReviewDate": "2027-05-17",
+      "note": "Tu material lo marca como 'BRONZE – 1 mark in recent sittings'."
+    },
+    {
+      "order": 5,
+      "code": "1.4",
+      "part": 1,
+      "title": "Instituting criminal proceedings",
+      "group": 3,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-01-16",
+      "plannedEnd": "2027-01-16",
+      "finalReviewDate": "2027-05-18",
+      "note": ""
+    },
+    {
+      "order": 6,
+      "code": "1.5",
+      "part": 1,
+      "title": "Court procedure and witnesses",
+      "group": 4,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-01-18",
+      "plannedEnd": "2027-01-21",
+      "finalReviewDate": "2027-05-18",
+      "note": ""
+    },
+    {
+      "order": 7,
+      "code": "1.12",
+      "part": 1,
+      "title": "Regulation of Investigatory Powers Act 2000 (RIPA)",
+      "group": 4,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-01-21",
+      "plannedEnd": "2027-01-23",
+      "finalReviewDate": "2027-05-18",
+      "note": ""
+    },
+    {
+      "order": 8,
+      "code": "2.2",
+      "part": 2,
+      "title": "Misuse of drugs",
+      "group": 4,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-01-23",
+      "plannedEnd": "2027-01-27",
+      "finalReviewDate": "2027-05-18",
+      "note": ""
+    },
+    {
+      "order": 9,
+      "code": "1.7",
+      "part": 1,
+      "title": "Detention and treatment of persons (Code C)",
+      "group": 5,
+      "stepMinutes": [
+        15,
+        135,
+        75,
+        45,
+        75,
+        15,
+        60,
+        75,
+        30,
+        45
+      ],
+      "totalHours": 9.5,
+      "plannedStart": "2027-01-27",
+      "plannedEnd": "2027-02-03",
+      "finalReviewDate": "2027-05-19",
+      "note": ""
+    },
+    {
+      "order": 10,
+      "code": "3.1",
+      "part": 3,
+      "title": "Theft and related offences",
+      "group": 6,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-02-03",
+      "plannedEnd": "2027-02-06",
+      "finalReviewDate": "2027-05-20",
+      "note": ""
+    },
+    {
+      "order": 11,
+      "code": "3.4",
+      "part": 3,
+      "title": "Burglary",
+      "group": 6,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-02-06",
+      "plannedEnd": "2027-02-08",
+      "finalReviewDate": "2027-05-20",
+      "note": ""
+    },
+    {
+      "order": 12,
+      "code": "3.2",
+      "part": 3,
+      "title": "Robbery",
+      "group": 6,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-02-08",
+      "plannedEnd": "2027-02-10",
+      "finalReviewDate": "2027-05-20",
+      "note": ""
+    },
+    {
+      "order": 13,
+      "code": "3.6",
+      "part": 3,
+      "title": "Handling stolen goods",
+      "group": 6,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-02-10",
+      "plannedEnd": "2027-02-12",
+      "finalReviewDate": "2027-05-20",
+      "note": ""
+    },
+    {
+      "order": 14,
+      "code": "3.3",
+      "part": 3,
+      "title": "Blackmail",
+      "group": 6,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-02-12",
+      "plannedEnd": "2027-02-13",
+      "finalReviewDate": "2027-05-20",
+      "note": ""
+    },
+    {
+      "order": 15,
+      "code": "3.5",
+      "part": 3,
+      "title": "Aggravated burglary",
+      "group": 6,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-02-13",
+      "plannedEnd": "2027-02-16",
+      "finalReviewDate": "2027-05-20",
+      "note": ""
+    },
+    {
+      "order": 16,
+      "code": "3.8",
+      "part": 3,
+      "title": "Proceeds of crime",
+      "group": 6,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-02-16",
+      "plannedEnd": "2027-02-18",
+      "finalReviewDate": "2027-05-20",
+      "note": ""
+    },
+    {
+      "order": 17,
+      "code": "1.11",
+      "part": 1,
+      "title": "Disclosure of evidence",
+      "group": 7,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-02-18",
+      "plannedEnd": "2027-02-20",
+      "finalReviewDate": "2027-05-21",
+      "note": ""
+    },
+    {
+      "order": 18,
+      "code": "1.10",
+      "part": 1,
+      "title": "Release of person arrested (bail)",
+      "group": 7,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-02-20",
+      "plannedEnd": "2027-02-24",
+      "finalReviewDate": "2027-05-21",
+      "note": ""
+    },
+    {
+      "order": 19,
+      "code": "2.9",
+      "part": 2,
+      "title": "Domestic violence and abuse",
+      "group": 7,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-02-24",
+      "plannedEnd": "2027-02-26",
+      "finalReviewDate": "2027-05-21",
+      "note": ""
+    },
+    {
+      "order": 20,
+      "code": "4.2",
+      "part": 4,
+      "title": "Rape",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-02-26",
+      "plannedEnd": "2027-02-27",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 21,
+      "code": "4.3",
+      "part": 4,
+      "title": "Sexual assault",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-02-27",
+      "plannedEnd": "2027-03-02",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 22,
+      "code": "4.1",
+      "part": 4,
+      "title": "Sexual offences: introduction and anonymity",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-03-02",
+      "plannedEnd": "2027-03-04",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 23,
+      "code": "4.4",
+      "part": 4,
+      "title": "Sexual offences against children",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-03-04",
+      "plannedEnd": "2027-03-06",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 24,
+      "code": "4.5",
+      "part": 4,
+      "title": "Sexual offences against people with a mental disorder",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-03-06",
+      "plannedEnd": "2027-03-09",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 25,
+      "code": "4.6",
+      "part": 4,
+      "title": "Preparatory offences",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-03-09",
+      "plannedEnd": "2027-03-11",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 26,
+      "code": "4.7",
+      "part": 4,
+      "title": "Offences relating to prostitution",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-03-11",
+      "plannedEnd": "2027-03-13",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 27,
+      "code": "4.8",
+      "part": 4,
+      "title": "Other sexual offences",
+      "group": 8,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-03-13",
+      "plannedEnd": "2027-03-15",
+      "finalReviewDate": "2027-05-23",
+      "note": ""
+    },
+    {
+      "order": 28,
+      "code": "1.9",
+      "part": 1,
+      "title": "Interviews (Codes C, E, F)",
+      "group": 9,
+      "stepMinutes": [
+        15,
+        60,
+        45,
+        30,
+        45,
+        15,
+        30,
+        45,
+        30,
+        15
+      ],
+      "totalHours": 5.5,
+      "plannedStart": "2027-03-15",
+      "plannedEnd": "2027-03-19",
+      "finalReviewDate": "2027-05-24",
+      "note": ""
+    },
+    {
+      "order": 29,
+      "code": "3.9",
+      "part": 3,
+      "title": "Criminal damage",
+      "group": 9,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-03-19",
+      "plannedEnd": "2027-03-20",
+      "finalReviewDate": "2027-05-24",
+      "note": ""
+    },
+    {
+      "order": 30,
+      "code": "3.7",
+      "part": 3,
+      "title": "Fraud",
+      "group": 9,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-03-20",
+      "plannedEnd": "2027-03-24",
+      "finalReviewDate": "2027-05-24",
+      "note": ""
+    },
+    {
+      "order": 31,
+      "code": "2.1",
+      "part": 2,
+      "title": "Homicide",
+      "group": 10,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-03-24",
+      "plannedEnd": "2027-03-27",
+      "finalReviewDate": "2027-05-25",
+      "note": ""
+    },
+    {
+      "order": 32,
+      "code": "2.3",
+      "part": 2,
+      "title": "Firearms and gun crime",
+      "group": 10,
+      "stepMinutes": [
+        15,
+        45,
+        30,
+        15,
+        30,
+        15,
+        15,
+        30,
+        30,
+        15
+      ],
+      "totalHours": 4.0,
+      "plannedStart": "2027-03-27",
+      "plannedEnd": "2027-04-01",
+      "finalReviewDate": "2027-05-25",
+      "note": ""
+    },
+    {
+      "order": 33,
+      "code": "2.8",
+      "part": 2,
+      "title": "Hatred and harassment offences",
+      "group": 10,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-01",
+      "plannedEnd": "2027-04-03",
+      "finalReviewDate": "2027-05-25",
+      "note": ""
+    },
+    {
+      "order": 34,
+      "code": "1.6",
+      "part": 1,
+      "title": "Entry, search and seizure (PACE Code B)",
+      "group": 10,
+      "stepMinutes": [
+        15,
+        60,
+        45,
+        30,
+        45,
+        15,
+        30,
+        45,
+        30,
+        15
+      ],
+      "totalHours": 5.5,
+      "plannedStart": "2027-04-03",
+      "plannedEnd": "2027-04-07",
+      "finalReviewDate": "2027-05-25",
+      "note": ""
+    },
+    {
+      "order": 35,
+      "code": "2.10",
+      "part": 2,
+      "title": "Child protection",
+      "group": 10,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-07",
+      "plannedEnd": "2027-04-09",
+      "finalReviewDate": "2027-05-25",
+      "note": ""
+    },
+    {
+      "order": 36,
+      "code": "2.5",
+      "part": 2,
+      "title": "Cybercrime",
+      "group": 11,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-10",
+      "plannedEnd": "2027-04-10",
+      "finalReviewDate": "2027-05-26",
+      "note": ""
+    },
+    {
+      "order": 37,
+      "code": "2.13",
+      "part": 2,
+      "title": "Public order offences",
+      "group": 11,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-10",
+      "plannedEnd": "2027-04-13",
+      "finalReviewDate": "2027-05-26",
+      "note": ""
+    },
+    {
+      "order": 38,
+      "code": "2.12",
+      "part": 2,
+      "title": "Protecting citizens and the community: injunctions",
+      "group": 11,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-04-14",
+      "plannedEnd": "2027-04-15",
+      "finalReviewDate": "2027-05-26",
+      "note": ""
+    },
+    {
+      "order": 39,
+      "code": "2.11",
+      "part": 2,
+      "title": "Offences involving the deprivation of liberty",
+      "group": 11,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-16",
+      "plannedEnd": "2027-04-17",
+      "finalReviewDate": "2027-05-26",
+      "note": ""
+    },
+    {
+      "order": 40,
+      "code": "2.4",
+      "part": 2,
+      "title": "Terrorism and associated offences",
+      "group": 12,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-17",
+      "plannedEnd": "2027-04-19",
+      "finalReviewDate": "2027-05-27",
+      "note": ""
+    },
+    {
+      "order": 41,
+      "code": "1.1",
+      "part": 1,
+      "title": "Diversity, equality and inclusion",
+      "group": 12,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-20",
+      "plannedEnd": "2027-04-22",
+      "finalReviewDate": "2027-05-27",
+      "note": ""
+    },
+    {
+      "order": 42,
+      "code": "2.6",
+      "part": 2,
+      "title": "Racially and religiously aggravated offences",
+      "group": 12,
+      "stepMinutes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.5,
+      "plannedStart": "2027-04-22",
+      "plannedEnd": "2027-04-24",
+      "finalReviewDate": "2027-05-27",
+      "note": ""
+    },
+    {
+      "order": 43,
+      "code": "2.14",
+      "part": 2,
+      "title": "Offences involving standards of driving",
+      "group": 12,
+      "stepMinutes": [
+        15,
+        30,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "totalHours": 2.75,
+      "plannedStart": "2027-04-24",
+      "plannedEnd": "2027-04-24",
+      "finalReviewDate": "2027-05-27",
+      "note": ""
+    }
+  ]
+}
