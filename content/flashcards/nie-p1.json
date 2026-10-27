@@ -1,0 +1,215 @@
+{
+ "_comment": "Flashcards de la Parte 1 del NIE (1.3 y 1.2). Comprueba con tu edición 2027.",
+ "cards": [
+  {
+   "id": "nie-1.3-01",
+   "lessonId": "nie-1.3",
+   "front": "Three parts of the actus reus?",
+   "back": "Conduct, circumstances and consequences (result).",
+   "es": "Conducta, circunstancias y consecuencias."
+  },
+  {
+   "id": "nie-1.3-02",
+   "lessonId": "nie-1.3",
+   "front": "Conduct crime vs result crime?",
+   "back": "Conduct crime: the act is enough (e.g. perjury). Result crime: a consequence must be caused (e.g. murder).",
+   "es": "Mera conducta vs. delito de resultado."
+  },
+  {
+   "id": "nie-1.3-03",
+   "lessonId": "nie-1.3",
+   "front": "General rule on omissions?",
+   "back": "No general duty to act – unless a recognised duty exists.",
+   "es": "No hay deber general de actuar."
+  },
+  {
+   "id": "nie-1.3-04",
+   "lessonId": "nie-1.3",
+   "front": "Six sources of a duty to act (+ case)?",
+   "back": "Statute · Contract (Pittwood) · Relationship (Gibbins & Proctor) · Assumed care (Stone & Dobinson; Instan) · Creating danger (Miller; Evans) · Public office (Dytham).",
+   "es": "Ley, contrato, relación, asumir cuidado, crear peligro, cargo público."
+  },
+  {
+   "id": "nie-1.3-05",
+   "lessonId": "nie-1.3",
+   "front": "R v Miller (1983)?",
+   "back": "Created a dangerous situation (cigarette fire), became aware and did nothing → duty to act.",
+   "es": "Creó el peligro y no hizo nada."
+  },
+  {
+   "id": "nie-1.3-06",
+   "lessonId": "nie-1.3",
+   "front": "R v Dytham (1979)?",
+   "back": "Police officer watched a man being beaten to death → misconduct in public office.",
+   "es": "Policía que no intervino."
+  },
+  {
+   "id": "nie-1.3-07",
+   "lessonId": "nie-1.3",
+   "front": "Factual causation test + case?",
+   "back": "'But for' test – R v White (1910).",
+   "es": "Prueba de 'si no fuera por' (White)."
+  },
+  {
+   "id": "nie-1.3-08",
+   "lessonId": "nie-1.3",
+   "front": "Legal causation test?",
+   "back": "Operating and substantial cause = more than minimal; need not be the only or main cause (Smith; Pagett).",
+   "es": "Causa operativa y sustancial, más que mínima."
+  },
+  {
+   "id": "nie-1.3-09",
+   "lessonId": "nie-1.3",
+   "front": "When does medical treatment break the chain?",
+   "back": "Only if so independent and potent that the wound is merely the setting (Cheshire). Jordan = wound nearly healed, palpably wrong (rare).",
+   "es": "Casi nunca."
+  },
+  {
+   "id": "nie-1.3-10",
+   "lessonId": "nie-1.3",
+   "front": "Thin skull rule + case?",
+   "back": "Take your victim as you find them, including beliefs – R v Blaue (1975).",
+   "es": "La víctima se toma como es."
+  },
+  {
+   "id": "nie-1.3-11",
+   "lessonId": "nie-1.3",
+   "front": "R v Kennedy (No. 2) (2007)?",
+   "back": "Free, deliberate, informed self-injection by an adult breaks the chain → supplier not guilty of manslaughter.",
+   "es": "La autoinyección libre rompe la cadena."
+  },
+  {
+   "id": "nie-1.3-12",
+   "lessonId": "nie-1.3",
+   "front": "R v Roberts (1971)?",
+   "back": "Victim's escape breaks the chain only if 'daft' / unforeseeable.",
+   "es": "La huida solo rompe la cadena si es absurda."
+  },
+  {
+   "id": "nie-1.3-13",
+   "lessonId": "nie-1.3",
+   "front": "R v Pagett (1983)?",
+   "back": "Human shield; police returned fire → defendant still the cause.",
+   "es": "Escudo humano: sigue siendo la causa."
+  },
+  {
+   "id": "nie-1.3-14",
+   "lessonId": "nie-1.3",
+   "front": "Winzar v CC Kent (1983)?",
+   "back": "State of affairs offence: 'found drunk on a highway' after police put him there.",
+   "es": "Delito de situación."
+  },
+  {
+   "id": "nie-1.3-15",
+   "lessonId": "nie-1.3",
+   "front": "Accessories: four verbs + statute?",
+   "back": "Aid, abet, counsel or procure – Accessories and Abettors Act 1861, s. 8 (tried and punished as principal).",
+   "es": "Ayudar, instigar, aconsejar, procurar."
+  },
+  {
+   "id": "nie-1.3-16",
+   "lessonId": "nie-1.3",
+   "front": "R v Jogee (2016)?",
+   "back": "Accessory must intend to assist or encourage; foresight is only evidence of intention.",
+   "es": "Hace falta intención; la previsión es solo indicio."
+  },
+  {
+   "id": "nie-1.2-01",
+   "lessonId": "nie-1.2",
+   "front": "Direct intention?",
+   "back": "The result is the defendant's aim or purpose (however unlikely).",
+   "es": "Intención directa: es su objetivo."
+  },
+  {
+   "id": "nie-1.2-02",
+   "lessonId": "nie-1.2",
+   "front": "Oblique intention – Woollin test?",
+   "back": "Result a virtual certainty + defendant appreciated it → jury MAY find intention.",
+   "es": "Prácticamente seguro + se daba cuenta → el jurado PUEDE apreciar intención."
+  },
+  {
+   "id": "nie-1.2-03",
+   "lessonId": "nie-1.2",
+   "front": "Criminal Justice Act 1967, s. 8?",
+   "back": "Jury not bound to infer intention from natural and probable consequences; look at all the evidence.",
+   "es": "No hay deducción automática."
+  },
+  {
+   "id": "nie-1.2-04",
+   "lessonId": "nie-1.2",
+   "front": "Recklessness – R v G (2003)?",
+   "back": "Aware of a risk + unreasonable to take it in the circumstances known to them (subjective).",
+   "es": "Temeridad subjetiva."
+  },
+  {
+   "id": "nie-1.2-05",
+   "lessonId": "nie-1.2",
+   "front": "'Maliciously' – Cunningham?",
+   "back": "Intention or subjective recklessness.",
+   "es": "Intención o temeridad subjetiva."
+  },
+  {
+   "id": "nie-1.2-06",
+   "lessonId": "nie-1.2",
+   "front": "s. 20 OAPA – what must be foreseen?",
+   "back": "Some harm, not serious harm (Savage; Parmenter).",
+   "es": "Algún daño, no grave."
+  },
+  {
+   "id": "nie-1.2-07",
+   "lessonId": "nie-1.2",
+   "front": "'Wilfully' – Sheppard?",
+   "back": "Deliberately or recklessly.",
+   "es": "Deliberadamente o con temeridad."
+  },
+  {
+   "id": "nie-1.2-08",
+   "lessonId": "nie-1.2",
+   "front": "Dishonesty – Ivey / Barton and Booth?",
+   "back": "1) Defendant's actual knowledge/belief of facts; 2) dishonest by standards of ordinary decent people?",
+   "es": "Dos pasos; ya no Ghosh."
+  },
+  {
+   "id": "nie-1.2-09",
+   "lessonId": "nie-1.2",
+   "front": "Strict liability?",
+   "back": "No mens rea needed for at least one element; presumption of mens rea (Sweet v Parsley; B v DPP).",
+   "es": "Responsabilidad objetiva."
+  },
+  {
+   "id": "nie-1.2-10",
+   "lessonId": "nie-1.2",
+   "front": "Transferred malice – Latimer vs Pembliton?",
+   "back": "Latimer: transfers to another victim. Pembliton: does not transfer to a different type of offence.",
+   "es": "Se transfiere solo al mismo tipo de delito."
+  },
+  {
+   "id": "nie-1.2-11",
+   "lessonId": "nie-1.2",
+   "front": "Fagan v MPC (1969)?",
+   "back": "Continuing act: car on officer's foot; mens rea formed during the act → battery.",
+   "es": "Acto continuado."
+  },
+  {
+   "id": "nie-1.2-12",
+   "lessonId": "nie-1.2",
+   "front": "Thabo Meli (1954)?",
+   "back": "Series of acts treated as one transaction; mens rea at the start is enough.",
+   "es": "Serie de actos."
+  },
+  {
+   "id": "nie-1.2-13",
+   "lessonId": "nie-1.2",
+   "front": "Specific vs basic intent (Majewski)?",
+   "back": "Specific (murder, s. 18, theft): intoxication may negate intent. Basic (s. 20, s. 47, assault): voluntary intoxication no defence.",
+   "es": "Embriaguez y tipos de intención."
+  },
+  {
+   "id": "nie-1.2-14",
+   "lessonId": "nie-1.2",
+   "front": "Negligence?",
+   "back": "Objective: below the standard of a reasonable person.",
+   "es": "Negligencia: estándar objetivo."
+  }
+ ]
+}

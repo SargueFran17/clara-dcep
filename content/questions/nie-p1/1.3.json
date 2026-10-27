@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.3 (Actus reus). No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.3-01",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "HARRIS is walking along a canal towpath when he sees a child he does not know fall into the water. He could easily pull the child out but decides to keep walking. The child drowns. Considering the actus reus of homicide offences, which of the following is correct?",
+   "options": [
+    "HARRIS is not liable for the death because there is no general duty to act and none of the recognised duties applies",
+    "HARRIS is liable because any person who can easily save a life has a duty to act",
+    "HARRIS is liable because his omission was a 'but for' cause of the death",
+    "HARRIS is liable only if he knew the child's parents"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: there is no general duty to act; without a duty (statute, contract, relationship, assumed care, created danger, office) the omission is not an actus reus.",
+    "Incorrect: English law has no general duty to rescue a stranger, even if it would be easy.",
+    "Incorrect: causation is only relevant once a duty to act exists.",
+    "Incorrect: knowing the parents does not, by itself, create a duty."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions"
+  },
+  {
+   "id": "1.3-02",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "WEBB is employed by a council to close a level-crossing gate whenever a train approaches. He goes for lunch leaving the gate open and a cyclist is killed by a train. Which statement best describes WEBB's position?",
+   "options": [
+    "WEBB has no liability as there is no general duty to act",
+    "WEBB may be liable only if he intended the cyclist to be killed",
+    "WEBB may be liable because a duty to act can arise from his contract of employment",
+    "WEBB cannot be liable because the train driver caused the death"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: the general rule has exceptions – one is a contractual duty.",
+    "Incorrect: liability for manslaughter does not require an intention to kill.",
+    "Correct: a duty can arise from a contract, as in R v Pittwood (1902), even though the victim was not a party to the contract.",
+    "Incorrect: the train driver's lawful driving does not break the chain; WEBB's omission can be an operating cause."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions – contractual duty"
+  },
+  {
+   "id": "1.3-03",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "ROSS accidentally drops a lit cigarette on a mattress in a house where he is staying. He wakes up, sees the mattress smouldering, and goes to sleep in another room without doing anything. The house is damaged by fire. Which of the following is correct?",
+   "options": [
+    "ROSS has committed no offence because the fire started accidentally",
+    "ROSS can be liable because, having created a dangerous situation, he had a duty to take reasonable steps once he became aware of it",
+    "ROSS can be liable only if he deliberately dropped the cigarette",
+    "ROSS can be liable only if he owned the house"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: an accidental start does not prevent liability for the later failure to act.",
+    "Correct: R v Miller (1983) – a person who creates a dangerous situation and becomes aware of it has a duty to act to counteract it.",
+    "Incorrect: the duty arises even if the danger was created accidentally.",
+    "Incorrect: ownership is irrelevant; the duty comes from creating the danger."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions – creating a dangerous situation"
+  },
+  {
+   "id": "1.3-04",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "PC GRANT, on duty in uniform, watches a man being kicked to death outside a nightclub and does nothing to intervene or call for help. Which of the following is correct?",
+   "options": [
+    "PC GRANT cannot commit any offence by an omission",
+    "PC GRANT can only be dealt with under police misconduct regulations, not the criminal law",
+    "PC GRANT is guilty of murder as a principal",
+    "PC GRANT may commit misconduct in public office because his position imposes a duty to act"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: a duty to act can arise from a public office.",
+    "Incorrect: criminal liability is possible (misconduct in public office).",
+    "Incorrect: nothing suggests he participated or had the mens rea for murder.",
+    "Correct: R v Dytham (1979) – a constable who failed to act while a man was beaten to death was guilty of misconduct in public office."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions – public office"
+  },
+  {
+   "id": "1.3-05",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "JONES takes in her elderly aunt who is unable to look after herself. Over several weeks JONES stops providing food and does not call a doctor, and the aunt dies. Which duty most clearly applies?",
+   "options": [
+    "A contractual duty",
+    "A statutory duty",
+    "A duty arising from voluntarily assuming care for a person unable to care for themselves",
+    "No duty, because the aunt was an adult"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: there is no contract here.",
+    "Incorrect: no specific statute is described.",
+    "Correct: R v Stone and Dobinson (1977); R v Instan (1893) – voluntarily assuming the care of a dependent person creates a duty.",
+    "Incorrect: an adult can be owed a duty where care has been assumed and they cannot look after themselves."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions – voluntary assumption of care"
+  },
+  {
+   "id": "1.3-06",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "KING puts poison in his father's tea intending to kill him. Before the poison can take effect, his father dies of an unrelated heart attack. In relation to the death, which of the following is correct?",
+   "options": [
+    "KING is not the factual cause of death and cannot be guilty of murder, though he may have attempted murder",
+    "KING is guilty of murder because he had the intention to kill",
+    "KING is guilty of manslaughter",
+    "KING is guilty of murder because the poison was a 'more than minimal' cause"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v White (1910) – the death would have happened anyway; 'but for' causation fails. Attempted murder remains possible.",
+    "Incorrect: mens rea alone is not enough; the actus reus (causing death) is missing.",
+    "Incorrect: manslaughter also requires causing death.",
+    "Incorrect: the poison played no part in the death at all."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – factual"
+  },
+  {
+   "id": "1.3-07",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "For legal causation, how significant must the defendant's conduct be in bringing about the result?",
+   "options": [
+    "It must be the sole cause",
+    "It must be the main cause",
+    "It must be the last act before the result",
+    "It must be an operating and substantial cause, which means more than minimal"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: there can be several causes.",
+    "Incorrect: it does not need to be the main cause.",
+    "Incorrect: an earlier act can still be an operating cause.",
+    "Correct: R v Smith (1959); R v Pagett (1983) – an operating and substantial cause, i.e. more than minimal."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – legal"
+  },
+  {
+   "id": "1.3-08",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "LEWIS stabs MOORE, causing a serious wound. In hospital, MOORE receives negligent treatment and dies. At the time of death the stab wound is still a serious, life-threatening injury. Which of the following is correct?",
+   "options": [
+    "The negligent treatment automatically breaks the chain of causation",
+    "LEWIS can still be the legal cause of death because the wound remained an operating and substantial cause",
+    "LEWIS is the cause only if the doctors acted reasonably",
+    "The chain is broken because the doctors were the last people to act"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: negligent treatment rarely breaks the chain.",
+    "Correct: R v Smith (1959); R v Cheshire (1991) – treatment breaks the chain only if it is so independent and potent that the wound is merely the setting.",
+    "Incorrect: even negligent treatment does not usually relieve the attacker.",
+    "Incorrect: being the last act is not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – medical treatment"
+  },
+  {
+   "id": "1.3-09",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "In which of the following situations is medical treatment MOST likely to break the chain of causation?",
+   "options": [
+    "The original wound has almost healed and the victim dies from palpably wrong treatment",
+    "The doctors are slow to treat the victim",
+    "The victim is given the wrong medication while the wound is still life-threatening",
+    "The victim refuses a blood transfusion for religious reasons"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Jordan (1956) – very exceptional; the wound was healing and the treatment was 'palpably wrong'.",
+    "Incorrect: delay in treatment does not usually break the chain.",
+    "Incorrect: if the wound is still operating, the attacker remains a cause (Smith).",
+    "Incorrect: that is the victim's choice and the thin skull rule applies (Blaue)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – medical treatment"
+  },
+  {
+   "id": "1.3-10",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "BAKER stabs a woman who, because of her religious beliefs, refuses a blood transfusion that would have saved her life. She dies. Which of the following is correct?",
+   "options": [
+    "Her refusal breaks the chain of causation",
+    "BAKER is not liable because her refusal was unreasonable",
+    "BAKER must take his victim as he finds her, including her beliefs, and remains the cause of death",
+    "BAKER is liable only if he knew of her beliefs"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: the refusal does not break the chain.",
+    "Incorrect: reasonableness of the refusal is irrelevant.",
+    "Correct: R v Blaue (1975) – the thin skull rule extends to the whole person, including beliefs.",
+    "Incorrect: knowledge of the beliefs is not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – thin skull rule"
+  },
+  {
+   "id": "1.3-11",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "COLE prepares a syringe of heroin and hands it to an adult friend, who freely and knowingly injects himself and dies. Considering causation for manslaughter, which of the following is correct?",
+   "options": [
+    "COLE caused the death because he supplied the drug",
+    "The friend's free, deliberate and informed act of self-injection breaks the chain of causation",
+    "COLE caused the death because supplying controlled drugs is unlawful",
+    "COLE caused the death because the friend's death was foreseeable"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: supplying is not the same as causing the death.",
+    "Correct: R v Kennedy (No. 2) (2007) – the free, deliberate and informed act of a fully informed adult breaks the chain.",
+    "Incorrect: the unlawfulness of supply does not establish causation.",
+    "Incorrect: foreseeability does not override a free and informed act by the victim."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – intervening act of the victim"
+  },
+  {
+   "id": "1.3-12",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "Following on from a drug supply, in which situation could the supplier still be liable for the death through an omission?",
+   "options": [
+    "Never, because supplying cannot create a duty",
+    "Only where the supplier injected the victim",
+    "Only where the supplier is related to the victim",
+    "Where the supplier realises the victim is seriously ill from the drug they supplied and fails to take reasonable steps to get help"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: a duty can arise from creating a dangerous situation.",
+    "Incorrect: that would be a positive act, but omission liability is also possible.",
+    "Incorrect: a family relationship is one duty, but not the only one.",
+    "Correct: R v Evans (2009) – supplying the drug created a dangerous situation; once aware, a duty to act arises (Miller principle)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions – creating danger (Evans)"
+  },
+  {
+   "id": "1.3-13",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "WARD is a passenger in a car driven by DAVIES. DAVIES makes sexual advances and threats while driving. WARD jumps out of the moving car and is injured. Which of the following is correct?",
+   "options": [
+    "The chain of causation is broken because WARD chose to jump",
+    "DAVIES caused the injuries only if he intended WARD to jump",
+    "DAVIES caused the injuries unless WARD's reaction was so 'daft' that no reasonable person could have foreseen it",
+    "DAVIES cannot be liable because he did not touch WARD"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: a foreseeable escape does not break the chain.",
+    "Incorrect: intention to make the victim jump is not required.",
+    "Correct: R v Roberts (1971) – the victim's reaction breaks the chain only if it is so daft or unexpected that no reasonable person could foresee it.",
+    "Incorrect: causing harm can occur without touching."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – victim's reaction"
+  },
+  {
+   "id": "1.3-14",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "PAGE, armed and holding his pregnant girlfriend as a shield, fires at armed police. Officers return fire in self-defence and kill the girlfriend. Which of the following is correct?",
+   "options": [
+    "PAGE caused the girlfriend's death; reasonable acts of self-defence by the police do not break the chain",
+    "The police officers' shots break the chain of causation",
+    "Nobody caused the death because the police acted lawfully",
+    "PAGE is liable only if he fired the fatal shot"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Pagett (1983) – the defendant's acts were an operating and substantial cause.",
+    "Incorrect: a reasonable, foreseeable reaction in self-defence does not break the chain.",
+    "Incorrect: lawful acts of others do not prevent the defendant being the cause.",
+    "Incorrect: he does not need to fire the fatal shot."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – acts of third parties"
+  },
+  {
+   "id": "1.3-15",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "Which of the following best describes the components of the actus reus of an offence?",
+   "options": [
+    "Intention, recklessness and negligence",
+    "Motive, opportunity and means",
+    "Act, knowledge and belief",
+    "Conduct, circumstances and consequences"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: these are types of mens rea.",
+    "Incorrect: these are investigative ideas, not legal elements.",
+    "Incorrect: knowledge and belief are mental elements.",
+    "Correct: the actus reus covers the conduct, the surrounding circumstances and any required consequences."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Actus reus – elements"
+  },
+  {
+   "id": "1.3-16",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "For which of these offences must the prosecution prove causation of a consequence?",
+   "options": [
+    "Perjury",
+    "Murder",
+    "Possession of a controlled drug",
+    "Driving while disqualified"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: perjury is a conduct crime.",
+    "Correct: murder is a result crime – the defendant must cause the death.",
+    "Incorrect: possession is a state of affairs/conduct offence, not a result crime.",
+    "Incorrect: this is a conduct offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Actus reus – result crimes"
+  },
+  {
+   "id": "1.3-17",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "A man is removed from a hospital by police and placed on a public road, where he is arrested for being found drunk on a highway. Which of the following is correct?",
+   "options": [
+    "He can be guilty: it is a 'state of affairs' offence where being found in the situation is enough",
+    "He cannot be guilty because he did not choose to be on the highway",
+    "He can be guilty only if he walked there himself",
+    "He can be guilty only if the police were acting unlawfully"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: Winzar v CC of Kent (1983).",
+    "Incorrect: for 'state of affairs' offences the voluntariness of being there is not required.",
+    "Incorrect: the case shows this is not required.",
+    "Incorrect: the lawfulness of the removal was not the issue."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · State of affairs offences"
+  },
+  {
+   "id": "1.3-18",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "TURNER has a sudden epileptic seizure while holding a hot drink and the drink burns a customer. Considering the actus reus, which of the following is most accurate?",
+   "options": [
+    "TURNER has committed battery because the customer was burnt",
+    "TURNER is liable because battery is a strict liability offence",
+    "There is likely no actus reus because TURNER's movement was not voluntary",
+    "TURNER is liable because he should have known he might have a seizure"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: the conduct must normally be voluntary.",
+    "Incorrect: battery requires intention or recklessness.",
+    "Correct: an involuntary movement (e.g. a seizure or reflex) is not a voluntary act.",
+    "Incorrect: negligence is not the test for battery."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Actus reus – voluntary conduct"
+  },
+  {
+   "id": "1.3-19",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "ALI drives BEN to a house knowing BEN intends to burgle it and waits outside to drive him away. Under the Accessories and Abettors Act 1861, s. 8, how can ALI be dealt with?",
+   "options": [
+    "Only for a lesser offence of assisting",
+    "As if he were a principal offender",
+    "He cannot be dealt with because he did not enter",
+    "Only if BEN is convicted first"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: s. 8 allows trial and punishment as a principal.",
+    "Correct: a person who aids, abets, counsels or procures an indictable offence is liable to be tried and punished as a principal.",
+    "Incorrect: an accessory need not do the actus reus personally.",
+    "Incorrect: the principal does not need to be convicted first."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Principals and accessories ⚠ VERIFICAR capítulo"
+  },
+  {
+   "id": "1.3-20",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "After R v Jogee (2016), what must the prosecution prove about the mental state of an accessory?",
+   "options": [
+    "That the accessory foresaw that the principal might commit the offence",
+    "That the accessory was present at the scene",
+    "That the accessory shared the profits",
+    "That the accessory intended to assist or encourage the principal to commit the crime"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: foresight is now only evidence from which intention may be inferred.",
+    "Incorrect: presence is not required (e.g. counselling).",
+    "Incorrect: profit is irrelevant.",
+    "Correct: the accessory must intend to assist or encourage, with knowledge of essential facts."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Joint enterprise – Jogee ⚠ VERIFICAR capítulo"
+  },
+  {
+   "id": "1.3-21",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "GREEN persuades a 9-year-old child to take money from a shop till and hand it to her. Who is the principal offender in the theft?",
+   "options": [
+    "The child",
+    "Nobody, because the child is under the age of criminal responsibility",
+    "GREEN, using the child as an innocent agent",
+    "The shop owner"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: the child is under 10 and cannot be criminally liable.",
+    "Incorrect: GREEN is liable as principal through the innocent agent.",
+    "Correct: where an innocent agent performs the act, the person who uses them is the principal.",
+    "Incorrect: the owner is the victim."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Innocent agents ⚠ VERIFICAR capítulo"
+  },
+  {
+   "id": "1.3-22",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "HILL agrees with others to commit a robbery. On the morning of the robbery he changes his mind and simply stays at home without telling anyone. The robbery goes ahead. Which of the following is most likely correct?",
+   "options": [
+    "HILL has probably not effectively withdrawn because withdrawal usually needs to be timely and communicated",
+    "HILL has effectively withdrawn because he did not attend",
+    "Withdrawal is never possible once an agreement is made",
+    "HILL has withdrawn because he did not receive any of the proceeds"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: withdrawal must be timely and effective, normally communicated to the others.",
+    "Incorrect: mere absence is not usually enough.",
+    "Incorrect: withdrawal is possible in principle.",
+    "Incorrect: not sharing the proceeds is irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Withdrawal ⚠ VERIFICAR capítulo"
+  },
+  {
+   "id": "1.3-23",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "Which of the following is NOT a recognised source of a duty to act for the purposes of omissions?",
+   "options": [
+    "A contract of employment",
+    "Being the parent of a young child",
+    "Having created a dangerous situation",
+    "Being a passer-by with medical training"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: contract is a recognised source (Pittwood).",
+    "Incorrect: a special relationship such as parent and child creates a duty.",
+    "Incorrect: creating danger is a recognised source (Miller).",
+    "Correct: having skills does not by itself create a legal duty to help a stranger."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions"
+  },
+  {
+   "id": "1.3-24",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "Factual causation is tested by asking:",
+   "options": [
+    "Was the defendant's act the last act before the result?",
+    "But for the defendant's conduct, would the result have occurred?",
+    "Did the defendant intend the result?",
+    "Was the result foreseeable to a reasonable person?"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: being the last act is not the test.",
+    "Correct: the 'but for' test (R v White).",
+    "Incorrect: intention is mens rea.",
+    "Incorrect: foreseeability is relevant to intervening acts, not the basic factual test."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – factual"
+  },
+  {
+   "id": "1.3-25",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "FORD punches PRICE once, intending only to hurt him. PRICE has an unusually thin skull, which nobody knew about, and dies. Considering causation, which of the following is correct?",
+   "options": [
+    "FORD is the legal cause of death because a defendant must take the victim as he finds him",
+    "The chain is broken because the thin skull was unforeseeable",
+    "FORD is not the cause because a single punch would not kill a normal person",
+    "FORD is the cause only if he knew about the condition"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: the thin skull rule (eggshell skull) – take your victim as you find them.",
+    "Incorrect: unforeseeable physical weakness does not break the chain.",
+    "Incorrect: the test is not based on a 'normal' victim.",
+    "Incorrect: knowledge of the condition is not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – thin skull rule"
+  },
+  {
+   "id": "1.3-26",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "Considering offences of omission, once a duty to act is established, what else must the prosecution prove?",
+   "options": [
+    "Nothing else – the duty is enough",
+    "Only that the defendant was present",
+    "That the omission caused the result and that the defendant had the necessary mens rea",
+    "That the defendant had a criminal record"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: duty alone does not prove the offence.",
+    "Incorrect: presence is not the test.",
+    "Correct: causation (for result crimes) and the mens rea of the offence must also be proved.",
+    "Incorrect: previous convictions are irrelevant to the elements."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions"
+  },
+  {
+   "id": "1.3-27",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "A defendant's conduct is one of several causes of a victim's death. Another person's unlawful act also contributed. Which statement is correct?",
+   "options": [
+    "Only the person whose act came last can be liable",
+    "Both may be legal causes, provided each act was an operating and substantial (more than minimal) cause",
+    "Neither can be liable because causation must be sole",
+    "Only the person with the greater share of blame can be liable"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: the last act is not automatically the only cause.",
+    "Correct: there can be more than one legal cause.",
+    "Incorrect: causation does not need to be sole.",
+    "Incorrect: the test is not a comparison of blame."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – multiple causes"
+  },
+  {
+   "id": "1.3-28",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "A parent fails to feed a 2-year-old child, who dies of starvation. On what basis does the parent have a duty to act?",
+   "options": [
+    "Contract",
+    "Statute only",
+    "There is no duty – it is the other parent's responsibility",
+    "Special relationship (parent and child)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: no contract.",
+    "Incorrect: statutory duties exist, but the classic basis is the relationship.",
+    "Incorrect: both parents can owe the duty.",
+    "Correct: R v Gibbins and Proctor (1918)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Omissions – special relationship"
+  },
+  {
+   "id": "1.3-29",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "Considering the actus reus of theft, which of the following is a 'circumstance' element rather than conduct?",
+   "options": [
+    "Appropriating the property",
+    "Taking the property out of the shop",
+    "That the property belongs to another",
+    "Hiding the property in a bag"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: appropriation is the conduct.",
+    "Incorrect: this is conduct.",
+    "Correct: 'belonging to another' is a circumstance that must exist.",
+    "Incorrect: this is conduct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Actus reus – circumstances"
+  },
+  {
+   "id": "1.3-30",
+   "chapter": "1.3",
+   "lessonId": "nie-1.3",
+   "scenario": "TAYLOR attacks a man, who runs away in fear across a busy road and is hit by a car. Which of the following is correct?",
+   "options": [
+    "TAYLOR can be the legal cause because running away was a foreseeable reaction",
+    "The driver's act breaks the chain of causation",
+    "TAYLOR is not the cause because the victim chose to run",
+    "TAYLOR is the cause only if he chased the victim into the road"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: escape that is within the range of foreseeable reactions does not break the chain (Roberts; Williams).",
+    "Incorrect: a non-negligent driver hitting a fleeing victim does not normally break the chain.",
+    "Incorrect: a foreseeable choice made in fear does not break the chain.",
+    "Incorrect: chasing is not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.3 · Causation – victim's reaction"
+  }
+ ]
+}

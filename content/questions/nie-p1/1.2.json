@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.2 (Mens rea). No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.2-01",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "PARKER sets fire to a house to claim insurance. He knows his neighbour's child is asleep inside and realises death is virtually certain, although he hopes the child will be rescued. The child dies. In relation to intention, which of the following is correct?",
+   "options": [
+    "The jury may find that PARKER intended death if death was a virtual certainty and he appreciated that",
+    "PARKER cannot have intended death because he hoped the child would survive",
+    "The jury must find that PARKER intended death",
+    "Intention is irrelevant because murder only requires recklessness"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Woollin (1998) – virtual certainty + appreciation allows the jury to find intention.",
+    "Incorrect: hoping for a different outcome does not prevent oblique intent.",
+    "Incorrect: the jury MAY find intention; it is not obliged to.",
+    "Incorrect: murder requires intention to kill or cause GBH."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Intention – oblique intent"
+  },
+  {
+   "id": "1.2-02",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Under the Criminal Justice Act 1967, s. 8, when deciding whether a defendant intended or foresaw a result, a court or jury:",
+   "options": [
+    "Must infer intention if the result was a natural and probable consequence",
+    "Must apply the standard of a reasonable person",
+    "Is not bound to infer intention just because the result was a natural and probable consequence, and must consider all the evidence",
+    "May only consider the defendant's own account"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: s. 8 says the opposite.",
+    "Incorrect: the test of intention is subjective.",
+    "Correct: the court decides by reference to all the evidence, drawing such inferences as appear proper.",
+    "Incorrect: all the evidence is considered."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Intention – CJA 1967 s. 8"
+  },
+  {
+   "id": "1.2-03",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Two boys aged 11 and 12 set fire to newspapers behind a shop, expecting the fire to burn out. It spreads and causes £1 million damage. Neither boy foresaw any risk of the fire spreading. Which of the following is correct?",
+   "options": [
+    "They were reckless because a reasonable adult would have foreseen the risk",
+    "They were not reckless because recklessness is subjective and they did not foresee the risk",
+    "They were reckless because criminal damage is a strict liability offence",
+    "They were reckless because of their age"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: the objective (Caldwell) test was abolished in R v G.",
+    "Correct: R v G (2003) – a person is reckless only if aware of the risk and it was unreasonable to take it.",
+    "Incorrect: criminal damage requires intention or recklessness.",
+    "Incorrect: age is relevant to what they actually foresaw, not a basis for liability."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Recklessness – R v G"
+  },
+  {
+   "id": "1.2-04",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Which of the following best states the test for recklessness as to a result after R v G (2003)?",
+   "options": [
+    "The defendant should have been aware of an obvious risk",
+    "The defendant intended the result",
+    "A reasonable person would have foreseen the result",
+    "The defendant was aware of a risk that the result would occur and, in the circumstances known to them, it was unreasonable to take the risk"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: 'should have been aware' is objective.",
+    "Incorrect: that is intention.",
+    "Incorrect: that is an objective test.",
+    "Correct: subjective awareness + unreasonable to take the risk."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Recklessness"
+  },
+  {
+   "id": "1.2-05",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "For the offence under s. 20 of the Offences Against the Person Act 1861 (malicious wounding/inflicting GBH), what must the defendant have foreseen?",
+   "options": [
+    "That really serious harm would result",
+    "Nothing – s. 20 is strict liability",
+    "That some physical harm to some person, albeit of a minor character, might result",
+    "That death might result"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: foresight of serious harm is not required.",
+    "Incorrect: 'maliciously' requires intention or recklessness (Cunningham).",
+    "Correct: R v Savage; DPP v Parmenter (1991) – foresight of some harm is enough.",
+    "Incorrect: foresight of death is not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · 'Maliciously'"
+  },
+  {
+   "id": "1.2-06",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "What does the word 'maliciously' mean in statutory offences such as the Offences Against the Person Act 1861?",
+   "options": [
+    "Intention or subjective recklessness",
+    "With ill will or spite",
+    "Negligently",
+    "Knowingly and dishonestly"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Cunningham (1957).",
+    "Incorrect: it does not require spite or ill will.",
+    "Incorrect: negligence is objective.",
+    "Incorrect: these are different mental elements."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · 'Maliciously' – Cunningham"
+  },
+  {
+   "id": "1.2-07",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "A defendant is charged with theft and the jury must consider dishonesty. According to Ivey v Genting Casinos (2017), as applied in R v Barton and Booth (2020), what is the correct approach?",
+   "options": [
+    "Ask whether the defendant thought what he did was dishonest",
+    "Ask only whether ordinary decent people would have done the same",
+    "Ask whether the defendant realised that ordinary decent people would consider it dishonest",
+    "Ascertain the defendant's actual state of knowledge or belief as to the facts, then decide whether the conduct was dishonest by the standards of ordinary decent people"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: the defendant's own view of honesty is not the standard.",
+    "Incorrect: the defendant's knowledge or belief is considered first.",
+    "Incorrect: this was the second limb of Ghosh, which no longer applies.",
+    "Correct: the two-stage Ivey test."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Dishonestly – Ivey"
+  },
+  {
+   "id": "1.2-08",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "ADAMS throws a brick at COOK intending to hit him. COOK ducks and the brick hits and injures EVANS, who was standing behind. Which of the following is correct?",
+   "options": [
+    "ADAMS cannot be liable for injuring EVANS because he did not intend to hit her",
+    "ADAMS's intention to injure COOK transfers to EVANS",
+    "ADAMS is liable only if he knew EVANS was there",
+    "ADAMS is liable only for an attempt against COOK"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: the doctrine of transferred mens rea applies.",
+    "Correct: R v Latimer (1886).",
+    "Incorrect: knowledge of the actual victim is not required.",
+    "Incorrect: he can also be liable for the offence against EVANS."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Transferred mens rea"
+  },
+  {
+   "id": "1.2-09",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "FIELD throws a stone at a group of people intending to injure one of them. He misses and the stone breaks a shop window. Considering transferred mens rea, which of the following is correct?",
+   "options": [
+    "His intent to injure does not transfer to criminal damage, although he might be reckless as to the window",
+    "His intent to injure transfers to the criminal damage",
+    "He cannot be liable for anything",
+    "He is liable for criminal damage because it is strict liability"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Pembliton (1874) – but recklessness as to property damage may be proved separately.",
+    "Incorrect: mens rea only transfers between offences of the same kind.",
+    "Incorrect: an attempt to injure, or recklessness as to damage, may be available.",
+    "Incorrect: criminal damage requires intention or recklessness."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Transferred mens rea – limits"
+  },
+  {
+   "id": "1.2-10",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "FAGAN accidentally drives onto a police officer's foot. When told, he says 'wait' and switches off the engine. Which of the following is correct?",
+   "options": [
+    "There is no offence because the act was accidental at the start",
+    "There is no offence because remaining stationary is an omission",
+    "The act was a continuing act and the mens rea formed during it can make it a battery",
+    "It is an offence only if he intended to drive onto the foot"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: the courts treated the act as continuing.",
+    "Incorrect: the court did not treat it as a mere omission.",
+    "Correct: Fagan v MPC (1969).",
+    "Incorrect: the mens rea can be formed during the continuing act."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Coincidence of AR and MR"
+  },
+  {
+   "id": "1.2-11",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "A defendant attacks a victim intending to kill him. Believing the victim is dead, he throws the body off a cliff. In fact the victim was alive and dies from the fall. Which of the following is correct?",
+   "options": [
+    "There is no murder because when he threw the body he did not intend to kill",
+    "The acts can be treated as one series of acts, so mens rea at the start is enough",
+    "He is only guilty of attempted murder",
+    "He is guilty of manslaughter only"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: the courts look at the whole transaction.",
+    "Correct: Thabo Meli v R (1954).",
+    "Incorrect: murder can be established.",
+    "Incorrect: murder is possible on these facts."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Coincidence – series of acts"
+  },
+  {
+   "id": "1.2-12",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "What is meant by an offence of 'strict liability'?",
+   "options": [
+    "An offence with no actus reus",
+    "An offence that can only be tried in the Crown Court",
+    "An offence requiring intention",
+    "An offence where no mens rea is required for at least one element of the actus reus"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: all offences have an actus reus.",
+    "Incorrect: mode of trial is unrelated.",
+    "Incorrect: the opposite.",
+    "Correct: mens rea is not needed for at least one element."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Strict liability"
+  },
+  {
+   "id": "1.2-13",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "When a statute creating a criminal offence is silent about mens rea, what is the starting point for the courts?",
+   "options": [
+    "The offence is strict liability",
+    "Negligence is enough",
+    "There is a presumption that mens rea is required (Sweet v Parsley; B v DPP)",
+    "Intention must always be proved"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: strict liability is not presumed.",
+    "Incorrect: negligence is not presumed.",
+    "Correct: the presumption can be displaced only by clear words or necessary implication.",
+    "Incorrect: the required mental element depends on the offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Strict liability – presumption"
+  },
+  {
+   "id": "1.2-14",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "A person 'wilfully' neglects a child. According to R v Sheppard (1981), what does 'wilfully' mean?",
+   "options": [
+    "Deliberately or recklessly",
+    "By accident",
+    "Negligently",
+    "With intention only"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: wilfully = deliberately or recklessly.",
+    "Incorrect: accidents are not wilful.",
+    "Incorrect: negligence is objective.",
+    "Incorrect: recklessness is also included."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · 'Wilfully'"
+  },
+  {
+   "id": "1.2-15",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "DEAN buys a laptop very cheaply from a man in a pub. He suspects it might be stolen but deliberately avoids asking any questions because he does not want to know. Considering 'knowledge', which of the following is correct?",
+   "options": [
+    "Suspicion is always the same as knowledge",
+    "DEAN can never be said to know because he did not ask",
+    "Knowledge is irrelevant to handling stolen goods",
+    "Deliberately shutting one's eyes to the obvious can amount to knowledge"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: suspicion alone is not knowledge or belief.",
+    "Incorrect: deliberately avoiding the truth can amount to knowledge.",
+    "Incorrect: handling requires knowing or believing the goods are stolen.",
+    "Correct: 'wilful blindness' can amount to knowledge."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Knowledge – wilful blindness"
+  },
+  {
+   "id": "1.2-16",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Which of the following describes 'negligence' as a form of fault?",
+   "options": [
+    "The defendant foresaw the risk and took it",
+    "The defendant's conduct fell below the standard expected of a reasonable person",
+    "The defendant intended the result",
+    "The defendant acted dishonestly"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: that is recklessness.",
+    "Correct: negligence is objective.",
+    "Incorrect: that is intention.",
+    "Incorrect: dishonesty is a separate concept."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Negligence"
+  },
+  {
+   "id": "1.2-17",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "An offence of 'specific intent' is significant because:",
+   "options": [
+    "Voluntary intoxication can be relevant to whether the defendant formed the intent",
+    "Voluntary intoxication is never relevant",
+    "It can be committed recklessly",
+    "It is always tried summarily"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: DPP v Majewski (1977) – for specific intent offences, voluntary intoxication may show the intent was not formed.",
+    "Incorrect: it can be relevant for specific intent offences.",
+    "Incorrect: specific intent offences require intention.",
+    "Incorrect: mode of trial is unrelated."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Specific and basic intent"
+  },
+  {
+   "id": "1.2-18",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Which of the following is an offence of basic intent, where voluntary intoxication is no defence?",
+   "options": [
+    "Murder",
+    "Wounding with intent (s. 18 OAPA 1861)",
+    "Assault occasioning actual bodily harm (s. 47 OAPA 1861)",
+    "Theft"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: murder is specific intent.",
+    "Incorrect: s. 18 is specific intent.",
+    "Correct: s. 47 can be committed recklessly and is basic intent.",
+    "Incorrect: theft is generally treated as specific intent."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Specific and basic intent"
+  },
+  {
+   "id": "1.2-19",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "MILLS fires a gun into a crowd 'to scare people', aware that someone might be hit. A person is killed. MILLS says he did not want anyone to die. Considering intention, which of the following is correct?",
+   "options": [
+    "Desire is essential for intention",
+    "Foresight of a virtual certainty plus appreciation is evidence from which the jury may find intention",
+    "Foresight of death as a possibility automatically proves intention",
+    "Intention can never be found where the defendant did not want the result"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: oblique intent does not require desire.",
+    "Correct: Woollin – virtual certainty and appreciation; otherwise consider recklessness/manslaughter.",
+    "Incorrect: foresight of a mere possibility is not enough.",
+    "Incorrect: oblique intent is possible."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Intention – oblique"
+  },
+  {
+   "id": "1.2-20",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "In relation to direct intention, which of the following is correct?",
+   "options": [
+    "The result must be likely to happen",
+    "The defendant must have planned the offence in advance",
+    "The defendant must have a motive",
+    "The result is the defendant's aim or purpose, however unlikely it is"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: likelihood is not required for direct intent.",
+    "Incorrect: premeditation is not required.",
+    "Incorrect: motive is different from intention.",
+    "Correct: direct intent = aim or purpose."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Intention – direct"
+  },
+  {
+   "id": "1.2-21",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Which statement about motive is correct?",
+   "options": [
+    "A good motive is a defence",
+    "Motive is the same as intention",
+    "Motive is generally irrelevant to liability, although it may be relevant to evidence or sentence",
+    "Without a motive there can be no offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: a good motive does not prevent liability.",
+    "Incorrect: motive is why; intention is what the defendant aimed to do.",
+    "Correct.",
+    "Incorrect: motive is not an element."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Intention and motive"
+  },
+  {
+   "id": "1.2-22",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Under the Ivey test for dishonesty, how is the defendant's belief about the facts treated?",
+   "options": [
+    "It is a matter of evidence; the reasonableness of the belief goes to whether it was genuinely held",
+    "It must be reasonable to count",
+    "It is irrelevant",
+    "Only beliefs supported by documents count"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect: the belief does not have to be reasonable, but reasonableness helps decide if it was genuine.",
+    "Incorrect: it is the first stage of the test.",
+    "Incorrect: there is no such rule."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Dishonestly – Ivey"
+  },
+  {
+   "id": "1.2-23",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "A 'state of mind' word 'believing' (e.g. in handling stolen goods) is best described as:",
+   "options": [
+    "The same as suspecting",
+    "More than knowing",
+    "Only possible if the defendant was told",
+    "Less than knowing but more than mere suspicion"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: suspicion is not enough.",
+    "Incorrect: knowledge is the higher state.",
+    "Incorrect: belief can be inferred from circumstances.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Knowing and believing"
+  },
+  {
+   "id": "1.2-24",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Considering recklessness, which of the following matters when deciding whether it was 'unreasonable to take the risk'?",
+   "options": [
+    "The circumstances as a reasonable person would have known them",
+    "The circumstances known to the defendant",
+    "Only the size of the risk",
+    "Whether the defendant had insurance"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: the test refers to circumstances known to the defendant.",
+    "Correct: R v G.",
+    "Incorrect: the social value of the conduct and other factors also matter.",
+    "Incorrect: irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Recklessness"
+  },
+  {
+   "id": "1.2-25",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "HUGHES is very drunk and, in a fight, wounds a man with a broken glass. He is charged with wounding with intent (s. 18 OAPA 1861). His intoxication was voluntary. Which of the following is correct?",
+   "options": [
+    "Evidence of intoxication may be considered on whether he formed the specific intent; if not, s. 20 may still apply",
+    "Intoxication is irrelevant to s. 18",
+    "He must be acquitted of everything",
+    "Voluntary intoxication is a complete defence to all offences"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: a drunken intent is still an intent, but if no intent was formed, s. 20 (basic intent) may apply.",
+    "Incorrect: s. 18 is a specific intent offence.",
+    "Incorrect: s. 20 remains available.",
+    "Incorrect: it is never a defence to basic intent offences."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Intoxication and intent"
+  },
+  {
+   "id": "1.2-26",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "A licensee is charged with a regulatory offence that the court holds to be strict liability as to one element. Which of the following is correct?",
+   "options": [
+    "The prosecution need not prove any mens rea for any element",
+    "The defendant must prove he was not negligent",
+    "The prosecution need not prove mens rea for that element, but may need to for others",
+    "Strict liability offences cannot be tried in court"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: strict liability may apply only to part of the offence.",
+    "Incorrect: unless a statutory defence places that burden, there is no general requirement.",
+    "Correct.",
+    "Incorrect: they are tried normally."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Strict liability"
+  },
+  {
+   "id": "1.2-27",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Which of the following is correct about the relationship between actus reus and mens rea?",
+   "options": [
+    "They must always occur at exactly the same second",
+    "They must coincide, but the courts may treat a continuing act or a series of acts as one transaction",
+    "Mens rea formed after the actus reus is always enough",
+    "Mens rea formed before the act is never enough"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: the courts are flexible.",
+    "Correct: Fagan; Thabo Meli; Church.",
+    "Incorrect: subsequent mens rea is not generally enough.",
+    "Incorrect: in a series of acts it may be."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Coincidence"
+  },
+  {
+   "id": "1.2-28",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "JAMES intends to kill his rival by shooting him, but aims badly and kills a stranger instead. With which offence can JAMES be charged in relation to the stranger?",
+   "options": [
+    "Manslaughter only",
+    "No offence, because he did not know the stranger",
+    "Attempted murder only",
+    "Murder, because his intention to kill transfers"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: murder is available through transferred malice.",
+    "Incorrect: knowledge of the victim is not required.",
+    "Incorrect: the completed offence is murder.",
+    "Correct: transferred mens rea (same type of offence)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Transferred mens rea"
+  },
+  {
+   "id": "1.2-29",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "A person 'intentionally' damages property. In R v G terms, what extra fault word, if added to the offence, would also allow conviction where the person did not intend the damage?",
+   "options": [
+    "Maliciously only",
+    "Negligently",
+    "Recklessly",
+    "Knowingly"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: 'maliciously' is a word used in other statutes.",
+    "Incorrect: negligence is not enough for criminal damage.",
+    "Correct: criminal damage can be committed intentionally or recklessly.",
+    "Incorrect: knowledge is a different concept."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Recklessness"
+  },
+  {
+   "id": "1.2-30",
+   "chapter": "1.2",
+   "lessonId": "nie-1.2",
+   "scenario": "Which of the following statements about the old 'Caldwell' objective recklessness is correct today?",
+   "options": [
+    "It was overruled by R v G (2003); recklessness is now subjective",
+    "It still applies to criminal damage",
+    "It applies to all offences against the person",
+    "It applies only to children"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect: it no longer applies.",
+    "Incorrect: it never applied there and no longer applies anywhere in this context.",
+    "Incorrect: R v G removed it entirely."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.2 · Recklessness – R v G"
+  }
+ ]
+}
