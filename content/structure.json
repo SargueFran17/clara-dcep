@@ -1,0 +1,781 @@
+{
+  "folders": [
+    {
+      "id": "prep",
+      "name": "Preparación para la academia",
+      "emoji": "🎒",
+      "color": "indigo",
+      "subjects": [
+        {
+          "id": "vo",
+          "code": "VO",
+          "name": "Vocabulario policial y legal",
+          "lessons": [
+            {
+              "id": "vo-1",
+              "code": "VO1",
+              "title": "Arrest & detention"
+            },
+            {
+              "id": "vo-2",
+              "code": "VO2",
+              "title": "Custody"
+            },
+            {
+              "id": "vo-3",
+              "code": "VO3",
+              "title": "Evidence & investigation"
+            },
+            {
+              "id": "vo-4",
+              "code": "VO4",
+              "title": "Court & justice"
+            },
+            {
+              "id": "vo-5",
+              "code": "VO5",
+              "title": "Offences & offenders"
+            },
+            {
+              "id": "vo-6",
+              "code": "VO6",
+              "title": "Thresholds: suspect, believe, reasonable grounds"
+            },
+            {
+              "id": "vo-7",
+              "code": "VO7",
+              "title": "Victims, witnesses & safeguarding"
+            },
+            {
+              "id": "vo-8",
+              "code": "VO8",
+              "title": "Verbos y colocaciones del día a día policial"
+            }
+          ]
+        },
+        {
+          "id": "gr",
+          "code": "GR",
+          "name": "Gramática práctica para policía",
+          "lessons": [
+            {
+              "id": "gr-1",
+              "code": "GR1",
+              "title": "In / on / at: tiempo"
+            },
+            {
+              "id": "gr-2",
+              "code": "GR2",
+              "title": "In / on / at: lugar y horas en informes"
+            },
+            {
+              "id": "gr-3",
+              "code": "GR3",
+              "title": "Past simple vs past continuous en declaraciones"
+            },
+            {
+              "id": "gr-4",
+              "code": "GR4",
+              "title": "Past perfect y secuencia de hechos"
+            },
+            {
+              "id": "gr-5",
+              "code": "GR5",
+              "title": "Modals: may / must / shall / should"
+            },
+            {
+              "id": "gr-6",
+              "code": "GR6",
+              "title": "La voz pasiva"
+            },
+            {
+              "id": "gr-7",
+              "code": "GR7",
+              "title": "Reported speech"
+            },
+            {
+              "id": "gr-8",
+              "code": "GR8",
+              "title": "Phrasal verbs policiales I"
+            },
+            {
+              "id": "gr-9",
+              "code": "GR9",
+              "title": "Phrasal verbs policiales II"
+            },
+            {
+              "id": "gr-10",
+              "code": "GR10",
+              "title": "False friends para hispanohablantes"
+            }
+          ]
+        },
+        {
+          "id": "et",
+          "code": "ET",
+          "name": "Ética, igualdad y lenguaje inclusivo",
+          "lessons": [
+            {
+              "id": "et-1",
+              "code": "ET1",
+              "title": "Lenguaje inclusivo: pronombres, they/them, Mx, preguntar con respeto"
+            },
+            {
+              "id": "et-2",
+              "code": "ET2",
+              "title": "Code of Ethics (College of Policing)"
+            },
+            {
+              "id": "et-3",
+              "code": "ET3",
+              "title": "Standards of Professional Behaviour"
+            },
+            {
+              "id": "et-4",
+              "code": "ET4",
+              "title": "Equality Act 2010: características protegidas y PSED"
+            },
+            {
+              "id": "et-5",
+              "code": "ET5",
+              "title": "Discapacidad y salud mental: lenguaje respetuoso"
+            },
+            {
+              "id": "et-6",
+              "code": "ET6",
+              "title": "Lenguaje respetuoso: raza, religión, orientación, edad"
+            }
+          ]
+        },
+        {
+          "id": "de",
+          "code": "DE",
+          "name": "Describir personas, vehículos y lugares",
+          "lessons": [
+            {
+              "id": "de-1",
+              "code": "DE1",
+              "title": "Describir personas de la cabeza a los pies"
+            },
+            {
+              "id": "de-2",
+              "code": "DE2",
+              "title": "Ropa y rasgos distintivos"
+            },
+            {
+              "id": "de-3",
+              "code": "DE3",
+              "title": "Etnia autodefinida (SDE) vs IC codes"
+            },
+            {
+              "id": "de-4",
+              "code": "DE4",
+              "title": "Vehículos y matrículas UK"
+            },
+            {
+              "id": "de-5",
+              "code": "DE5",
+              "title": "Lugares, direcciones UK y postcodes"
+            }
+          ]
+        },
+        {
+          "id": "se",
+          "code": "SE",
+          "name": "España vs Reino Unido",
+          "lessons": [
+            {
+              "id": "se-1",
+              "code": "SE1",
+              "title": "Policing by consent y principios de Peel"
+            },
+            {
+              "id": "se-2",
+              "code": "SE2",
+              "title": "Policía sin armas de fuego y sin DNI obligatorio"
+            },
+            {
+              "id": "se-3",
+              "code": "SE3",
+              "title": "Common law vs derecho continental y jurados"
+            },
+            {
+              "id": "se-4",
+              "code": "SE4",
+              "title": "La caution vs la lectura de derechos en España"
+            },
+            {
+              "id": "se-5",
+              "code": "SE5",
+              "title": "999/101, unidades, fechas y 24 h"
+            },
+            {
+              "id": "se-6",
+              "code": "SE6",
+              "title": "Registro cultural: cortesía, indirectas y \"sorry\""
+            }
+          ]
+        },
+        {
+          "id": "sj",
+          "code": "SJ",
+          "name": "Sistema policial y judicial",
+          "lessons": [
+            {
+              "id": "sj-1",
+              "code": "SJ1",
+              "title": "Mapa policial: 43 forces, Home Office, PCC, College of Policing, IOPC, HMICFRS"
+            },
+            {
+              "id": "sj-2",
+              "code": "SJ2",
+              "title": "Rangos y CID vs uniformados"
+            },
+            {
+              "id": "sj-3",
+              "code": "SJ3",
+              "title": "CPS y la decisión de acusar"
+            },
+            {
+              "id": "sj-4",
+              "code": "SJ4",
+              "title": "Tribunales: magistrates', Crown Court y apelaciones"
+            },
+            {
+              "id": "sj-5",
+              "code": "SJ5",
+              "title": "Tipos de delito y burden/standard of proof"
+            },
+            {
+              "id": "sj-6",
+              "code": "SJ6",
+              "title": "PACE y los Codes A–H"
+            },
+            {
+              "id": "sj-7",
+              "code": "SJ7",
+              "title": "PIP y el NIE"
+            }
+          ]
+        },
+        {
+          "id": "co",
+          "code": "CO",
+          "name": "Comunicación policial",
+          "lessons": [
+            {
+              "id": "co-1",
+              "code": "CO1",
+              "title": "Alfabeto fonético y reloj 24 h"
+            },
+            {
+              "id": "co-2",
+              "code": "CO2",
+              "title": "Mensajes de radio"
+            },
+            {
+              "id": "co-3",
+              "code": "CO3",
+              "title": "Pocket notebook y ELBOWS"
+            },
+            {
+              "id": "co-4",
+              "code": "CO4",
+              "title": "Witness statement (MG11)"
+            },
+            {
+              "id": "co-5",
+              "code": "CO5",
+              "title": "Redacción de informes (práctica)"
+            }
+          ]
+        },
+        {
+          "id": "ga",
+          "code": "GA",
+          "name": "Glosario y acrónimos",
+          "lessons": [
+            {
+              "id": "ac-1",
+              "code": "AC1",
+              "title": "Acrónimos I (40 esenciales)"
+            },
+            {
+              "id": "gl-1",
+              "code": "GL1",
+              "title": "Glosario I (50 términos)"
+            },
+            {
+              "id": "ac-2",
+              "code": "AC2",
+              "title": "Acrónimos II (40 más)"
+            },
+            {
+              "id": "gl-2",
+              "code": "GL2",
+              "title": "Glosario II (50 términos)"
+            },
+            {
+              "id": "ac-3",
+              "code": "AC3",
+              "title": "Test final de acrónimos y glosario"
+            },
+            {
+              "id": "gl-3",
+              "code": "GL3",
+              "title": "Glosario III (50+ términos)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drive",
+      "name": "Conducir en el Reino Unido",
+      "emoji": "🚗",
+      "color": "emerald",
+      "subjects": [
+        {
+          "id": "dr",
+          "code": "DR",
+          "name": "Conducir en el Reino Unido",
+          "lessons": [
+            {
+              "id": "dr-1",
+              "code": "DR1",
+              "title": "Tu carné español en Gran Bretaña (gov.uk)"
+            },
+            {
+              "id": "dr-2",
+              "code": "DR2",
+              "title": "Conducir por la izquierda y rotondas"
+            },
+            {
+              "id": "dr-3",
+              "code": "DR3",
+              "title": "Carriles, adelantamientos y prioridades"
+            },
+            {
+              "id": "dr-4",
+              "code": "DR4",
+              "title": "Highway Code I: jerarquía de usuarios y normas básicas"
+            },
+            {
+              "id": "dr-5",
+              "code": "DR5",
+              "title": "Highway Code II: peatones, ciclistas, autopistas"
+            },
+            {
+              "id": "dr-6",
+              "code": "DR6",
+              "title": "Señales distintas de España"
+            },
+            {
+              "id": "dr-7",
+              "code": "DR7",
+              "title": "Marcas viales"
+            },
+            {
+              "id": "dr-8",
+              "code": "DR8",
+              "title": "Límites de velocidad (mph)",
+              "links": [
+                "nie-2.14"
+              ]
+            },
+            {
+              "id": "dr-9",
+              "code": "DR9",
+              "title": "Alcohol, drogas y móvil al volante",
+              "links": [
+                "nie-2.14"
+              ]
+            },
+            {
+              "id": "dr-10",
+              "code": "DR10",
+              "title": "El coche: seguro, MOT, VED y V5C"
+            },
+            {
+              "id": "dr-11",
+              "code": "DR11",
+              "title": "Accidentes: qué hacer",
+              "links": [
+                "nie-2.14"
+              ]
+            },
+            {
+              "id": "dr-12",
+              "code": "DR12",
+              "title": "Aparcamiento y multas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academy",
+      "name": "Academia",
+      "emoji": "🏫",
+      "color": "amber",
+      "subjects": [
+        {
+          "id": "am",
+          "code": "AM",
+          "name": "Método de academia",
+          "lessons": [
+            {
+              "id": "am-1",
+              "code": "AM1",
+              "title": "Cómo tomar apuntes en la academia"
+            },
+            {
+              "id": "am-2",
+              "code": "AM2",
+              "title": "Cómo preparar los assessments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nie",
+      "name": "NIE",
+      "emoji": "⚖️",
+      "color": "rose",
+      "subjects": [
+        {
+          "id": "ni",
+          "code": "NI",
+          "name": "Examen NIE: info y estrategia",
+          "lessons": [
+            {
+              "id": "ni-1",
+              "code": "NI1",
+              "title": "Formato del examen, puntuación y reglas"
+            },
+            {
+              "id": "ni-2",
+              "code": "NI2",
+              "title": "El método de 10 pasos y cómo leer el Blackstone's"
+            }
+          ]
+        },
+        {
+          "id": "nie-p1",
+          "code": "P1",
+          "name": "Parte 1 · General principles, police powers and procedures",
+          "lessons": [
+            {
+              "id": "nie-1.3",
+              "code": "1.3",
+              "title": "1.3 Actus reus"
+            },
+            {
+              "id": "nie-1.2",
+              "code": "1.2",
+              "title": "1.2 Mens rea"
+            },
+            {
+              "id": "nie-1.8",
+              "code": "1.8",
+              "title": "1.8 Identification (Code D)"
+            },
+            {
+              "id": "nie-1.4",
+              "code": "1.4",
+              "title": "1.4 Instituting criminal proceedings"
+            },
+            {
+              "id": "nie-1.5",
+              "code": "1.5",
+              "title": "1.5 Court procedure and witnesses"
+            },
+            {
+              "id": "nie-1.12",
+              "code": "1.12",
+              "title": "1.12 RIPA 2000"
+            },
+            {
+              "id": "nie-1.7",
+              "code": "1.7",
+              "title": "1.7 Detention and treatment of persons (Code C)"
+            },
+            {
+              "id": "nie-1.11",
+              "code": "1.11",
+              "title": "1.11 Disclosure of evidence"
+            },
+            {
+              "id": "nie-1.10",
+              "code": "1.10",
+              "title": "1.10 Release of person arrested"
+            },
+            {
+              "id": "nie-1.9",
+              "code": "1.9",
+              "title": "1.9 Interviews"
+            },
+            {
+              "id": "nie-1.6",
+              "code": "1.6",
+              "title": "1.6 Entry, search and seizure (Code B)"
+            },
+            {
+              "id": "nie-1.1",
+              "code": "1.1",
+              "title": "1.1 Diversity, equality and inclusion"
+            }
+          ],
+          "nie": true
+        },
+        {
+          "id": "nie-p2",
+          "code": "P2",
+          "name": "Parte 2 · Serious crime and other offences",
+          "lessons": [
+            {
+              "id": "nie-2.7",
+              "code": "2.7",
+              "title": "2.7 Non-fatal offences against the person"
+            },
+            {
+              "id": "nie-2.2",
+              "code": "2.2",
+              "title": "2.2 Misuse of drugs"
+            },
+            {
+              "id": "nie-2.9",
+              "code": "2.9",
+              "title": "2.9 Domestic violence and abuse"
+            },
+            {
+              "id": "nie-2.1",
+              "code": "2.1",
+              "title": "2.1 Homicide"
+            },
+            {
+              "id": "nie-2.3",
+              "code": "2.3",
+              "title": "2.3 Firearms and gun crime"
+            },
+            {
+              "id": "nie-2.8",
+              "code": "2.8",
+              "title": "2.8 Hatred and harassment"
+            },
+            {
+              "id": "nie-2.10",
+              "code": "2.10",
+              "title": "2.10 Child protection"
+            },
+            {
+              "id": "nie-2.5",
+              "code": "2.5",
+              "title": "2.5 Cybercrime"
+            },
+            {
+              "id": "nie-2.13",
+              "code": "2.13",
+              "title": "2.13 Public order offences"
+            },
+            {
+              "id": "nie-2.12",
+              "code": "2.12",
+              "title": "2.12 Injunctions, orders and police powers"
+            },
+            {
+              "id": "nie-2.11",
+              "code": "2.11",
+              "title": "2.11 Deprivation of liberty"
+            },
+            {
+              "id": "nie-2.4",
+              "code": "2.4",
+              "title": "2.4 Terrorism"
+            },
+            {
+              "id": "nie-2.6",
+              "code": "2.6",
+              "title": "2.6 Racially and religiously aggravated offences"
+            },
+            {
+              "id": "nie-2.14",
+              "code": "2.14",
+              "title": "2.14 Offences involving standards of driving",
+              "links": [
+                "dr-8",
+                "dr-9",
+                "dr-11"
+              ]
+            }
+          ],
+          "nie": true
+        },
+        {
+          "id": "nie-p3",
+          "code": "P3",
+          "name": "Parte 3 · Property offences",
+          "lessons": [
+            {
+              "id": "nie-3.1",
+              "code": "3.1",
+              "title": "3.1 Theft"
+            },
+            {
+              "id": "nie-3.4",
+              "code": "3.4",
+              "title": "3.4 Burglary"
+            },
+            {
+              "id": "nie-3.2",
+              "code": "3.2",
+              "title": "3.2 Robbery"
+            },
+            {
+              "id": "nie-3.6",
+              "code": "3.6",
+              "title": "3.6 Handling stolen goods"
+            },
+            {
+              "id": "nie-3.3",
+              "code": "3.3",
+              "title": "3.3 Blackmail"
+            },
+            {
+              "id": "nie-3.5",
+              "code": "3.5",
+              "title": "3.5 Aggravated burglary"
+            },
+            {
+              "id": "nie-3.8",
+              "code": "3.8",
+              "title": "3.8 Proceeds of crime"
+            },
+            {
+              "id": "nie-3.9",
+              "code": "3.9",
+              "title": "3.9 Criminal damage"
+            },
+            {
+              "id": "nie-3.7",
+              "code": "3.7",
+              "title": "3.7 Fraud"
+            }
+          ],
+          "nie": true
+        },
+        {
+          "id": "nie-p4",
+          "code": "P4",
+          "name": "Parte 4 · Sexual offences",
+          "lessons": [
+            {
+              "id": "nie-4.2",
+              "code": "4.2",
+              "title": "4.2 Rape"
+            },
+            {
+              "id": "nie-4.3",
+              "code": "4.3",
+              "title": "4.3 Sexual assault"
+            },
+            {
+              "id": "nie-4.1",
+              "code": "4.1",
+              "title": "4.1 Sexual offences: introduction and anonymity"
+            },
+            {
+              "id": "nie-4.4",
+              "code": "4.4",
+              "title": "4.4 Offences against children"
+            },
+            {
+              "id": "nie-4.5",
+              "code": "4.5",
+              "title": "4.5 Offences against people with a mental disorder"
+            },
+            {
+              "id": "nie-4.6",
+              "code": "4.6",
+              "title": "4.6 Preparatory offences"
+            },
+            {
+              "id": "nie-4.7",
+              "code": "4.7",
+              "title": "4.7 Prostitution"
+            },
+            {
+              "id": "nie-4.8",
+              "code": "4.8",
+              "title": "4.8 Other sexual offences"
+            }
+          ],
+          "nie": true
+        }
+      ]
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness y peso",
+      "emoji": "💪",
+      "color": "sky",
+      "subjects": [
+        {
+          "id": "ft-nut",
+          "code": "FN",
+          "name": "Nutrición y hábitos",
+          "lessons": [
+            {
+              "id": "ft-1",
+              "code": "FT1",
+              "title": "Pérdida de peso saludable (NHS) y tu punto de partida"
+            },
+            {
+              "id": "ft-3",
+              "code": "FT3",
+              "title": "Nutrición: el plato equilibrado (Eatwell Guide)"
+            },
+            {
+              "id": "ft-6",
+              "code": "FT6",
+              "title": "Comidas en días de academia"
+            },
+            {
+              "id": "ft-8",
+              "code": "FT8",
+              "title": "Hábitos: agua, sueño y constancia"
+            }
+          ]
+        },
+        {
+          "id": "ft-train",
+          "code": "FE",
+          "name": "Entrenamiento",
+          "lessons": [
+            {
+              "id": "ft-2",
+              "code": "FT2",
+              "title": "Entrenar el bleep test (15 m MSFT, nivel 5.4)"
+            },
+            {
+              "id": "ft-4",
+              "code": "FT4",
+              "title": "Entrenamiento de fuerza A/B/C"
+            },
+            {
+              "id": "ft-5",
+              "code": "FT5",
+              "title": "Combinar running y tenis"
+            },
+            {
+              "id": "ft-7",
+              "code": "FT7",
+              "title": "Prevención de lesiones"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
