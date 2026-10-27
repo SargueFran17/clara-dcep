@@ -23,19 +23,6 @@ export function globalProgress(folders: Folder[], done: Set<string>): Pct {
   return pct(all.filter((l) => done.has(l.id)).length, all.length)
 }
 
-export const NIE_STEPS = [
-  { title: '3 preguntas sin leer', minutes: 10 },
-  { title: '1ª lectura del manual', minutes: 90 },
-  { title: 'Workbook', minutes: 45 },
-  { title: 'Recall questions', minutes: 30 },
-  { title: '2ª lectura', minutes: 60 },
-  { title: 'Repetir las 3 preguntas iniciales', minutes: 10 },
-  { title: 'Audios y vídeos', minutes: 30 },
-  { title: 'Todas las preguntas posibles', minutes: 60 },
-  { title: 'Explicarlo en voz alta', minutes: 15 },
-  { title: 'Escribir el tema (resumen)', minutes: 45 },
-] as const
-
 export interface ChapterInfo {
   status: ChapterStatus
   stepsDone: number

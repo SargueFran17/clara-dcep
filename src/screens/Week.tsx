@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useDoneLessons, usePlan, useToday } from '../lib/hooks'
 import { addDays, dayLetter, eachDay, fmtShort, fmtUK, startOfWeek } from '../lib/dates'
+import { CIRCLED } from '../lib/today'
 import { lessonRef } from '../lib/content'
 import { PHASE_LABELS } from '../lib/planner'
 import { Card, PageHeader, ProgressBar } from '../components/ui'
@@ -91,6 +92,9 @@ export function Week() {
                       <Link to={`/nie/capitulo/${n.chapter}`} className={`hover:underline ${done.has(`nie-${n.chapter}`) ? 'text-slate-400 line-through' : ''}`}>
                         ⚖️ NIE {lessonRef(`nie-${n.chapter}`)?.lesson.title} {n.first && <span className="text-xs text-emerald-600">(empieza)</span>}
                       </Link>
+                      <span className="ml-1 text-xs text-slate-500">
+                        {n.steps.map((c) => CIRCLED[c.step - 1]).join('')} · {n.steps.reduce((a, c) => a + c.minutes, 0)}′
+                      </span>
                     </li>
                   ))}
                   {p.events.map((e, i) => (

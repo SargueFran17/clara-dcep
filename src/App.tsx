@@ -14,6 +14,7 @@ import { Exam, MockCenter } from './screens/Exam'
 import { Practice } from './screens/Practice'
 import { Flashcards } from './screens/Flashcards'
 import { Errors } from './screens/Errors'
+import { Reviews } from './screens/Reviews'
 
 // las gráficas (recharts) se cargan solo al abrir Progreso
 const Progress = lazy(() => import('./screens/Progress').then((m) => ({ default: m.Progress })))
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="nie/capitulos" element={<NieChapterList />} />
           <Route path="nie/capitulo/:chapter" element={<NieChapter />} />
           <Route path="nie/simulacros" element={<MockCenter />} />
+          <Route path="nie/repasos" element={<Reviews />} />
           <Route path="examen" element={<Exam />} />
           <Route path="test" element={<Practice />} />
           <Route path="flashcards" element={<Flashcards />} />

@@ -1,14 +1,16 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
-import { lessonRef, nieGroups } from '../lib/content'
+import { lessonRef, nieChapterMeta, nieChapters, nieGroups, nieTemario } from '../lib/content'
 import { useAllQuestions, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
 import { fixedSets } from '../lib/exam'
-import { chapterLabel, chapterStatus, NIE_STEPS, type ChapterInfo } from '../lib/progress'
-import { getChapter, toggleStep, updateChapter } from '../lib/actions'
+import { chapterLabel, chapterStatus, type ChapterInfo } from '../lib/progress'
+import { getChapter, setFinishDate, toggleStep, updateChapter } from '../lib/actions'
+import { CIRCLED, stepName } from '../lib/today'
+import { reviewGuide, reviewStepLabel } from '../lib/reviews'
+import { NieMargin } from '../components/NieMargin'
 import { fmtShort, fmtUK } from '../lib/dates'
-import { stepLabel } from '../lib/srs'
 import { Recorder } from '../components/Recorder'
 import { Markdown } from '../components/Markdown'
 import { Button, Card, Check, Empty, PageHeader, Pill, ProgressBar } from '../components/ui'
@@ -32,42 +34,130 @@ function useChapterInfos(): Map<string, ChapterInfo & { state?: NieChapterState 
   return out
 }
 
-/** Los 43 capítulos en TU orden de 12 grupos, con su estado. */
+/** Temario NIE: los 43 capítulos en TUS 12 grupos, con los 10 pasos, estado, fechas y margen. */
 export function NieChapterList() {
   const infos = useChapterInfos()
   const plan = usePlan()
-  if (!infos) return <PageHeader title="Capítulos NIE" back />
-  const finals = [...infos.values()].filter((i) => i.status === 'final').length
-  const studied = [...infos.values()].filter((i) => ['studied', 'reviewing', 'final'].includes(i.status)).length
+  const today = useToday()
+  if (!infos) return <PageHeader title="Temario NIE" back />
+  const list = [...infos.entries()]
+  const isStudied = (st: ChapterStatus) => ['studied', 'reviewing', 'final'].includes(st)
+  const studied = list.filter(([, i]) => isStudied(i.status)).length
+  const finals = list.filter(([, i]) => i.status === 'final').length
   return (
-    <div>
-      <PageHeader title="Capítulos NIE" subtitle={`${studied}/43 estudiados · ${finals}/43 repaso final ✓`} back="/carpetas/nie" />
-      <ProgressBar pct={(studied / 43) * 100} color="rose" className="mb-4" />
-      <div className="space-y-4">
-        {nieGroups.map((g, gi) => (
-          <section key={gi}>
-            <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">Grupo {gi + 1}</h2>
-            <div className="space-y-2">
-              {g.map((chapter) => {
-                const info = infos.get(chapter)!
-                const range = plan.nieRanges.get(chapter)
-                return (
-                  <Link key={chapter} to={`/nie/capitulo/${chapter}`} className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm hover:border-rose-300 dark:border-slate-800 dark:bg-slate-900">
-                    <div className="min-w-0 flex-1">
-                      <div className="text-sm font-medium">{lessonRef(`nie-${chapter}`)?.lesson.title}</div>
-                      <div className="mt-1 flex flex-wrap gap-1">
-                        <Pill tone={STATUS_TONE[info.status]}>{chapterLabel(info)}</Pill>
-                        {range && <Pill>{fmtShort(range[0])}–{fmtShort(range[1])}</Pill>}
-                        {info.state?.confidence && <Pill tone="amber">{'★'.repeat(info.state.confidence)}</Pill>}
-                      </div>
-                    </div>
-                  </Link>
-                )
-              })}
-            </div>
-          </section>
-        ))}
+    <div className="space-y-4">
+      <PageHeader title="Temario NIE" subtitle={`${studied}/43 estudiados · ${finals}/43 repaso final ✓`} back="/carpetas/nie" right={<Link to="/nie/repasos" className="text-sm font-semibold text-indigo-600">Repasos →</Link>} />
+      <NieMargin />
+      <Card>
+        <div className="mb-2 flex items-baseline justify-between text-sm">
+          <span className="font-semibold">Total</span>
+          <span className="text-slate-500">{studied}/43</span>
+        </div>
+        <ProgressBar pct={(studied / 43) * 100} color="rose" />
+        <div className="mt-3 grid grid-cols-2 gap-3">
+          {Object.entries(nieTemario.parts).map(([part, name]) => {
+            const inPart = nieChapters.filter((c) => String(c.part) === part)
+            const done = inPart.filter((c) => isStudied(infos.get(c.code)!.status)).length
+            return (
+              <div key={part} title={name}>
+                <div className="flex justify-between text-xs"><span className="font-semibold">Parte {part}</span><span className="text-slate-500">{done}/{inPart.length}</span></div>
+                <ProgressBar pct={(done / inPart.length) * 100} color="indigo" className="mt-1" />
+              </div>
+            )
+          })}
+        </div>
+      </Card>
+      {nieGroups.map((g, gi) => (
+        <section key={gi}>
+          <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">Grupo {gi + 1}</h2>
+          <div className="space-y-2">
+            {g.map((chapter) => (
+              <ChapterRow key={chapter} chapter={chapter} info={infos.get(chapter)!} range={plan.nieRanges.get(chapter)} today={today} />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  )
+}
+
+function ChapterRow({ chapter, info, range, today }: { chapter: string; info: ChapterInfo & { state?: NieChapterState }; range?: [string, string]; today: string }) {
+  const meta = nieChapterMeta(chapter)!
+  const steps = info.state?.steps ?? []
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+      <Link to={`/nie/capitulo/${chapter}`} className="block hover:text-rose-600">
+        <div className="text-sm font-medium">{chapter} · {meta.title}</div>
+      </Link>
+      <div className="mt-1 flex flex-wrap gap-1">
+        <Pill tone={STATUS_TONE[info.status]}>{chapterLabel(info)}</Pill>
+        <Pill>≈ {meta.totalHours.toLocaleString('es-ES')} h</Pill>
+        {range && <Pill>{fmtShort(range[0])}–{fmtShort(range[1])}</Pill>}
+        {info.state?.confidence && <Pill tone="amber">{'★'.repeat(info.state.confidence)}</Pill>}
+        {info.state?.notes && <Pill>📝</Pill>}
       </div>
+      {meta.note && <p className="mt-1 text-xs text-amber-700 dark:text-amber-300">🏅 {meta.note}</p>}
+      <StepButtons chapter={chapter} steps={steps} today={today} />
+      <details className="mt-2 text-sm">
+        <summary className="cursor-pointer text-xs font-semibold text-slate-500">Confianza, notas y fecha de fin</summary>
+        <ChapterExtras chapter={chapter} state={info.state} compact />
+      </details>
+    </div>
+  )
+}
+
+/** ① … ⑩: un toque marca/desmarca el paso (con la fecha de hoy). */
+function StepButtons({ chapter, steps, today }: { chapter: string; steps: (string | null)[]; today: string }) {
+  const meta = nieChapterMeta(chapter)!
+  return (
+    <div className="mt-2 flex flex-wrap gap-1">
+      {CIRCLED.map((c, i) => (
+        <button
+          key={i}
+          onClick={() => toggleStep(chapter, i, today)}
+          title={`${stepName(i + 1)} · ${meta.stepMinutes[i]}′${steps[i] ? ` · hecho ${fmtShort(steps[i]!)}` : ''}`}
+          aria-label={`Paso ${i + 1}: ${stepName(i + 1)}${steps[i] ? ' (hecho)' : ''}`}
+          className={`h-8 w-8 rounded-full text-base font-semibold ${steps[i] ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300'}`}
+        >
+          {c}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+/** Confianza (1–5), notas libres, fecha real de fin (paso ⑩) y enlace a "Escribir el tema". */
+function ChapterExtras({ chapter, state, compact = false }: { chapter: string; state?: NieChapterState; compact?: boolean }) {
+  const end = state?.steps[9]
+  return (
+    <div className="mt-2 space-y-3">
+      <div>
+        <div className="mb-1 text-xs text-slate-500">¿Cuánta confianza tienes? (1–5)</div>
+        <div className="flex gap-2">
+          {[1, 2, 3, 4, 5].map((n) => (
+            <button
+              key={n}
+              onClick={() => updateChapter(chapter, { confidence: n })}
+              className={`${compact ? 'h-9' : 'h-11'} flex-1 rounded-xl text-lg font-bold ${state?.confidence === n ? 'bg-amber-500 text-white' : 'bg-slate-100 dark:bg-slate-800'}`}
+            >
+              {n}
+            </button>
+          ))}
+        </div>
+      </div>
+      <label className="block">
+        <span className="text-xs text-slate-500">Notas</span>
+        <textarea className={input} rows={compact ? 2 : 3} key={state?.notes ?? ''} defaultValue={state?.notes ?? ''} onBlur={(e) => updateChapter(chapter, { notes: e.target.value })} placeholder="Dudas, trampas, cosas a repasar…" />
+      </label>
+      {end && (
+        <label className="block">
+          <span className="text-xs text-slate-500">Fecha real de fin (paso ⑩) – al cambiarla se recalculan los repasos</span>
+          <input type="date" className={input} key={end} defaultValue={end} onBlur={(e) => e.target.value && e.target.value !== end && setFinishDate(chapter, e.target.value)} />
+        </label>
+      )}
+      {compact && (
+        <Link to={`/nie/capitulo/${chapter}?paso=10`} className="inline-block rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold dark:bg-slate-800">✍️ Escribir el tema (paso ⑩)</Link>
+      )}
     </div>
   )
 }
@@ -83,14 +173,20 @@ export function NieChapter() {
   const infos = useChapterInfos()
   const state = useLiveQuery(() => getChapter(chapter), [chapter])
   const reviews = useLiveQuery(() => db.reviews.where('itemKey').equals(`lesson:nie-${chapter}`).sortBy('due'), [chapter])
+  const [params] = useSearchParams()
+  const loaded = !!state && !!infos
+  // ?paso=10 → baja directamente al editor del tema
+  useEffect(() => {
+    if (loaded && params.get('paso')) document.getElementById(`paso-${params.get('paso')}`)?.scrollIntoView({ behavior: 'smooth' })
+  }, [loaded, params])
   const ref = lessonRef(`nie-${chapter}`)
-  if (!ref) return <Empty>Capítulo no encontrado.</Empty>
+  const meta = nieChapterMeta(chapter)
+  if (!ref || !meta) return <Empty>Capítulo no encontrado.</Empty>
   if (!state || !infos) return <PageHeader title={ref.lesson.title} back />
 
   const info = infos.get(chapter)!
   const range = plan.nieRanges.get(chapter)
   const next = reviews?.find((r) => !r.doneAt)
-  const totalMin = NIE_STEPS.reduce((a, s) => a + s.minutes, 0)
 
   return (
     <div className="space-y-4">
@@ -98,9 +194,11 @@ export function NieChapter() {
       <div className="flex flex-wrap gap-2">
         <Pill tone={STATUS_TONE[info.status]}>{chapterLabel(info)}</Pill>
         {range && <Pill>1ª vuelta {fmtUK(range[0])} – {fmtUK(range[1])}</Pill>}
-        {next && <Pill tone={next.due < today ? 'red' : 'amber'}>Repaso {stepLabel(next.step)}: {fmtUK(next.due)}</Pill>}
+        {next && <Pill tone={next.due < today ? 'red' : 'amber'}>Repaso {reviewStepLabel(next)}: {fmtUK(next.due)}</Pill>}
         {info.status === 'studied' && !next && <Pill>Sin más repasos: toca el repaso final</Pill>}
       </div>
+      {meta.note && <p className="text-sm text-amber-700 dark:text-amber-300">🏅 {meta.note}</p>}
+      {next && <p className="text-sm text-slate-600 dark:text-slate-300">Próximo repaso: {reviewGuide(next)}</p>}
 
       <Card className="border-rose-200 dark:border-rose-900">
         <p className="text-sm">⚠ Estudia siempre con el <b>Blackstone's Police Investigators' Manual 2027</b>: el examen sale solo de ahí. Mis explicaciones te ayudan a entenderlo; comprueba con tu edición 2027.</p>
@@ -115,17 +213,17 @@ export function NieChapter() {
       <Card>
         <div className="mb-3 flex items-baseline justify-between">
           <h2 className="font-semibold">Método de 10 pasos</h2>
-          <span className="text-xs text-slate-500">{info.stepsDone}/10 · ≈ {Math.round(totalMin / 60)} h en total</span>
+          <span className="text-xs text-slate-500">{info.stepsDone}/10 · ≈ {meta.totalHours.toLocaleString('es-ES')} h en total</span>
         </div>
         <ProgressBar pct={info.stepsDone * 10} color="rose" className="mb-3" />
         <ol className="space-y-3">
-          {NIE_STEPS.map((s, i) => (
-            <li key={i}>
+          {meta.stepMinutes.map((minutes, i) => (
+            <li key={i} id={`paso-${i + 1}`}>
               <div className="flex items-center gap-3">
-                <Check checked={!!state.steps[i]} onChange={() => toggleStep(chapter, i, today)} label={s.title} />
+                <Check checked={!!state.steps[i]} onChange={() => toggleStep(chapter, i, today)} label={stepName(i + 1)} />
                 <div className="flex-1">
-                  <div className={`text-sm font-medium ${state.steps[i] ? 'text-slate-400 line-through' : ''}`}>{i + 1}. {s.title}</div>
-                  <div className="text-xs text-slate-500">≈ {s.minutes} min{state.steps[i] && ` · hecho ${fmtShort(state.steps[i]!)}`}</div>
+                  <div className={`text-sm font-medium ${state.steps[i] ? 'text-slate-400 line-through' : ''}`}>{CIRCLED[i]} {stepName(i + 1)}</div>
+                  <div className="text-xs text-slate-500">≈ {minutes} min{state.steps[i] && ` · hecho ${fmtShort(state.steps[i]!)}`}</div>
                 </div>
               </div>
               {(i === 0 || i === 5) && <InitialQuestions state={state} after={i === 5} />}
@@ -134,22 +232,12 @@ export function NieChapter() {
             </li>
           ))}
         </ol>
-        {info.stepsDone === 10 && <p className="mt-3 text-sm text-emerald-600">✓ Estudiado. Los repasos (+1d, +3d, +7d, +1 mes…) aparecen en Hoy hasta el {fmtUK(settings.finalReviewStart)}.</p>}
+        {state.steps[9] && <p className="mt-3 text-sm text-emerald-600">✓ Estudiado el {fmtUK(state.steps[9])}. Los repasos (+1, +3, +7, +30, +60, +90, +120 días) aparecen en Hoy y en Repasos hasta el {fmtUK(settings.finalReviewStart)}.</p>}
       </Card>
 
       <Card>
-        <h2 className="mb-2 font-semibold">¿Cuánta confianza tienes? (1–5)</h2>
-        <div className="flex gap-2">
-          {[1, 2, 3, 4, 5].map((n) => (
-            <button
-              key={n}
-              onClick={() => updateChapter(chapter, { confidence: n })}
-              className={`h-11 flex-1 rounded-xl text-lg font-bold ${state.confidence === n ? 'bg-amber-500 text-white' : 'bg-slate-100 dark:bg-slate-800'}`}
-            >
-              {n}
-            </button>
-          ))}
-        </div>
+        <h2 className="font-semibold">Confianza, notas y fecha de fin</h2>
+        <ChapterExtras chapter={chapter} state={state} />
       </Card>
 
       <Card>
@@ -160,7 +248,7 @@ export function NieChapter() {
             <Button variant="ghost" onClick={() => updateChapter(chapter, { finalDoneAt: undefined })}>Deshacer</Button>
           </div>
         ) : (
-          <Button onClick={() => updateChapter(chapter, { finalDoneAt: today })} disabled={today < settings.finalReviewStart && info.stepsDone < 10}>
+          <Button onClick={() => updateChapter(chapter, { finalDoneAt: today })} disabled={today < settings.finalReviewStart && !state.steps[9]}>
             Marcar repaso final ✓
           </Button>
         )}

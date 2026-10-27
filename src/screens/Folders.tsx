@@ -41,7 +41,8 @@ export function Folders() {
 const FOLDER_TOOLS: Record<string, { to: string; label: string; desc: string }[]> = {
   academy: [{ to: '/academia', label: '📓 Diario, módulos y assessments', desc: 'Registro de cada día de curso' }],
   nie: [
-    { to: '/nie/capitulos', label: '🗂️ Estado de los 43 capítulos', desc: 'Pendiente → En curso → Estudiado → En repaso → Final' },
+    { to: '/nie/capitulos', label: '🗂️ Temario NIE', desc: 'Los 43 capítulos en tus 12 grupos · pasos ①–⑩ · margen' },
+    { to: '/nie/repasos', label: '🔁 Repasos', desc: 'Atrasados · Hoy · Próximos 7 días' },
     { to: '/nie/simulacros', label: '⏱️ Tests acumulados y simulacros', desc: 'Modo examen de 120 min' },
   ],
   fitness: [{ to: '/fitness', label: '📊 Registros: peso, entrenos, bleep, hábitos', desc: 'Plan semanal y gráficas' }],
