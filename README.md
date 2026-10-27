@@ -10,7 +10,7 @@ App web (PWA, mobile-first) para organizar y estudiar la preparación para la ac
 |---|---|---|
 | 1 | Esqueleto, Hoy, Semana, Carpetas, Progreso, repasos espaciados, planificador, Ajustes, copia de seguridad | ✅ |
 | 2 | Flashcards, mini-tests, registro de errores, simulacros, capítulo NIE (10 pasos), diario de academia | ✅ |
-| 3 | Índice + lecciones 1 y 2 de cada asignatura, glosario, Fitness | ⏳ |
+| 3 | Índice + lecciones 1 y 2 de cada asignatura, glosario, Fitness | ✅ |
 | 4 | Resto de lecciones por tandas | ⏳ |
 
 ## Ejecutarla en tu ordenador
@@ -77,7 +77,9 @@ Después de editar, `npm run build` (o sube el cambio a GitHub y Netlify/Pages l
 - **Flashcards**: SM-2 simplificado con 3 botones. *Lo sé* → 1 día, 4 días y luego × facilidad; *Dudo* → crece poco; *No lo sé* → mañana y otra vez al final de la sesión. Límite de 20 nuevas y 100 repasos al día.
 - **Capítulos NIE**: al marcar los 10 pasos, el capítulo pasa a *Estudiado* y empiezan sus repasos. Estados: Pendiente → En curso (x/10) → Estudiado → En repaso (n) → Final ✓.
 - **Diario de academia**: al guardar un día se programan repasos a +1 día y +7 días.
-- **Simulacros**: 80 preguntas en 120 min (acumulados: 30 en 45 min), sin corrección hasta el final; resultado total y por parte comparado con el 55,7 %.
+- **Simulacros como el NIE real**: 80 preguntas en 120 min repartidas por partes según su nº de capítulos (22/26/17/15); 10 preguntas al azar son "de prueba" y no puntúan (no sabes cuáles); se corrige sobre 70 y apruebas con 39 (55,7 %). Indicador de ritmo (90 s por pregunta). Acumulados: 30 preguntas en 45 min.
+- **Tests por capítulo**: las preguntas de cada capítulo se agrupan en tests fijos de 10 (Test 1, 2, 3…), más uno al azar y uno cronometrado.
+- **Preguntas**: todas son **originales** y de estilo NIE; no son preguntas reales del examen ni copiadas de libros.
 - **Racha**: cuenta los días seguidos en que completas al menos el 80 % de las tareas de Hoy (ajustable). Lo atrasado no cuenta para la racha.
 - **Planificador** (`src/lib/planner.ts`): reparte las lecciones de pre-academia, los 43 capítulos NIE (ponderados por tamaño, en tu orden), los tests acumulados, los simulacros y el repaso final por grupos.
 

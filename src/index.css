@@ -17,6 +17,8 @@ body {
 /* Lecciones en Markdown */
 .prose-lesson {
   @apply text-[15px] leading-relaxed;
+  /* las URLs largas de las fuentes no deben ensanchar la página en el móvil */
+  overflow-wrap: anywhere;
 }
 .prose-lesson h1 { @apply mt-6 mb-3 text-2xl font-bold; }
 .prose-lesson h2 { @apply mt-7 mb-2 text-lg font-bold text-indigo-700 dark:text-indigo-300; }

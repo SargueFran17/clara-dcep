@@ -37,6 +37,8 @@ export function Fitness() {
   const [kg, setKg] = useState('')
   const [bl, setBl] = useState({ level: '', shuttle: '' })
 
+  const slept = (habitWeek ?? []).filter((h) => h.sleepHours !== undefined)
+  const avgSleep = slept.length ? slept.reduce((a, h) => a + h.sleepHours!, 0) / slept.length : null
   const rate = weeklyLossRate(weights ?? [], today)
   const advice = ADVICE[rateAdvice(rate)]
   const bestBleep = [...(bleeps ?? [])].sort((a, b) => bleepScore(b) - bleepScore(a))[0]
@@ -90,7 +92,7 @@ export function Fitness() {
           </div>
           <p className="text-xs text-slate-500">
             Esta semana: comidas cumplidas {habitWeek?.filter((h) => h.meals === 'yes').length ?? 0}/7 · sueño medio{' '}
-            {habitWeek?.length ? (habitWeek.reduce((a, h) => a + (h.sleepHours ?? 0), 0) / Math.max(1, habitWeek.filter((h) => h.sleepHours).length)).toFixed(1) : '–'} h
+            {avgSleep === null ? '–' : `${avgSleep.toLocaleString('es-ES', { maximumFractionDigits: 1 })} h`}
           </p>
         </div>
       </Card>

@@ -239,12 +239,19 @@ export function Exam() {
           </div>
         </Card>
         <h2 className="font-semibold">Revisión de fallos ({wrong.length})</h2>
+        {/* plegadas: con 80 preguntas la lista sería enorme; se abre una a una */}
         {wrong.map(({ q, k }) => (
-          <Card key={q.id}>
-            <div className="mb-2 text-xs text-slate-500">Pregunta {k + 1}{q.chapter ? ` · cap. ${q.chapter}` : ''}{answers[k] === null ? ' · en blanco' : ''}{unscored.has(k) ? ' · era de prueba (no puntuaba)' : ''}</div>
-            <QuestionView q={q} chosen={answers[k]} reveal />
-            <ErrorForm question={q} chosen={answers[k]} />
-          </Card>
+          <details key={q.id} className="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+            <summary className="cursor-pointer text-sm">
+              <span className="font-semibold">Pregunta {k + 1}</span>
+              <span className="text-slate-500">{q.chapter ? ` · cap. ${q.chapter}` : ''}{answers[k] === null ? ' · en blanco' : ''}{unscored.has(k) ? ' · de prueba (no puntuaba)' : ''}</span>
+              <span className="mt-0.5 line-clamp-1 block text-xs text-slate-500">{q.scenario}</span>
+            </summary>
+            <div className="mt-3">
+              <QuestionView q={q} chosen={answers[k]} reveal />
+              <ErrorForm question={q} chosen={answers[k]} />
+            </div>
+          </details>
         ))}
       </div>
     )
