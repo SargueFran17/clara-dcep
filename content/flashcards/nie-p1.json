@@ -826,6 +826,55 @@
    "front": "PEACE",
    "back": "Planning & preparation, Engage & explain, Account clarification & challenge, Closure, Evaluate.",
    "es": "Modelo de entrevista."
+  },
+  {
+   "id": "nie-1.6-01",
+   "lessonId": "nie-1.6",
+   "front": "s. 17 PACE",
+   "back": "Enter to execute warrant, arrest (indictable offence), recapture person unlawfully at large, save life/limb, prevent serious damage. Believe person is inside (except life/limb).",
+   "es": "Entrar para detener o salvar vidas."
+  },
+  {
+   "id": "nie-1.6-02",
+   "lessonId": "nie-1.6",
+   "front": "s. 18 PACE",
+   "back": "After arrest for indictable offence: premises occupied/controlled by suspect; evidence of that or connected/similar offence; inspector in writing (s. 18(5) after).",
+   "es": "Registro tras detención."
+  },
+  {
+   "id": "nie-1.6-03",
+   "lessonId": "nie-1.6",
+   "front": "s. 32 PACE",
+   "back": "On arrest: search person (danger/escape/evidence) and premises where he was at/immediately before arrest – at the time (Badham).",
+   "es": "Registro en el momento."
+  },
+  {
+   "id": "nie-1.6-04",
+   "lessonId": "nie-1.6",
+   "front": "s. 8 warrant",
+   "back": "JP; indictable offence; substantial value; relevant; not privileged/excluded/special procedure; access condition. Execute within 3 months.",
+   "es": "Orden de registro."
+  },
+  {
+   "id": "nie-1.6-05",
+   "lessonId": "nie-1.6",
+   "front": "Excluded / special procedure",
+   "back": "Personal records, human tissue, confidential journalism / other confidential material → circuit judge (Sch. 1).",
+   "es": "Material protegido."
+  },
+  {
+   "id": "nie-1.6-06",
+   "lessonId": "nie-1.6",
+   "front": "s. 19 seizure",
+   "back": "Lawfully on premises; evidence or proceeds; necessary to prevent concealment, loss, damage, alteration, destruction.",
+   "es": "Incautación."
+  },
+  {
+   "id": "nie-1.6-07",
+   "lessonId": "nie-1.6",
+   "front": "Code B consent",
+   "back": "Written consent on Notice of Powers and Rights; told not obliged; can withdraw.",
+   "es": "Consentimiento por escrito."
   }
  ]
 }

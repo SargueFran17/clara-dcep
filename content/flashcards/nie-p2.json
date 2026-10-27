@@ -427,6 +427,48 @@
    "front": "Stirring up hatred",
    "back": "Racial: threatening/abusive/insulting + intent or likely. Religious/sexual orientation: threatening + intent. AG consent.",
    "es": "Odio racial/religioso."
+  },
+  {
+   "id": "nie-2.10-01",
+   "lessonId": "nie-2.10",
+   "front": "Police protection (s. 46 CA 1989)",
+   "back": "Reasonable cause to believe child (<18) likely to suffer significant harm: remove or prevent removal. Max 72 h. Inform LA, child, parents, designated officer. No power of entry.",
+   "es": "Protección policial; 72 h."
+  },
+  {
+   "id": "nie-2.10-02",
+   "lessonId": "nie-2.10",
+   "front": "EPO (s. 44)",
+   "back": "Court order; up to 8 days + 7 ⚠; may include warrant to assist entry (s. 48).",
+   "es": "Orden de protección de emergencia."
+  },
+  {
+   "id": "nie-2.10-03",
+   "lessonId": "nie-2.10",
+   "front": "Child cruelty (s. 1 CYPA 1933)",
+   "back": "16+ with responsibility; child <16; wilfully assaults, ill-treats, neglects, abandons, exposes. 14 yrs ⚠.",
+   "es": "Crueldad infantil."
+  },
+  {
+   "id": "nie-2.10-04",
+   "lessonId": "nie-2.10",
+   "front": "Child abduction s. 1",
+   "back": "Connected person takes/sends child <16 out of UK without consent. DPP consent. 7 yrs.",
+   "es": "Sacar del Reino Unido."
+  },
+  {
+   "id": "nie-2.10-05",
+   "lessonId": "nie-2.10",
+   "front": "Child abduction s. 2",
+   "back": "Other person takes/detains child <16 out of lawful control without lawful authority/reasonable excuse. 7 yrs.",
+   "es": "Otras personas."
+  },
+  {
+   "id": "nie-2.10-06",
+   "lessonId": "nie-2.10",
+   "front": "Safeguarding framework",
+   "back": "s. 11 CA 2004 duty; strategy discussion; s. 47 enquiries (LA lead); MASH; FGM reporting duty.",
+   "es": "Marco de protección."
   }
  ]
 }

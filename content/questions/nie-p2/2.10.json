@@ -1,0 +1,485 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.10. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.10-01",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Under s. 46 Children Act 1989, a constable may take a child into police protection where he has reasonable cause to believe the child would otherwise be likely to suffer…",
+   "options": [
+    "Significant harm",
+    "Any harm",
+    "Death",
+    "Embarrassment"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too low.",
+    "Too high.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · s. 46 – test"
+  },
+  {
+   "id": "2.10-02",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "For police protection, a 'child' is a person under…",
+   "options": [
+    "16",
+    "14",
+    "18",
+    "13"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Age"
+  },
+  {
+   "id": "2.10-03",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "What is the maximum period a child may be kept in police protection?",
+   "options": [
+    "24 hours",
+    "72 hours",
+    "48 hours",
+    "8 days"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "EPO."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · 72 hours"
+  },
+  {
+   "id": "2.10-04",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Does s. 46 give officers a power of entry to premises?",
+   "options": [
+    "Yes",
+    "Only at night",
+    "Only with a sergeant's authority",
+    "No – use s. 17 PACE (save life or limb) or an EPO with a warrant"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · No power of entry"
+  },
+  {
+   "id": "2.10-05",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Which of these is NOT a duty after taking a child into police protection?",
+   "options": [
+    "Inform the local authority",
+    "Inform the child and discover their wishes",
+    "Obtain the parents' written consent",
+    "Inform the parents"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Required.",
+    "Required.",
+    "Correct – consent isn't required.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Duties"
+  },
+  {
+   "id": "2.10-06",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Who must inquire into the case of a child in police protection?",
+   "options": [
+    "The designated officer (inspector ⚠)",
+    "The arresting officer",
+    "A social worker only",
+    "The custody sergeant"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Not only.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Designated officer"
+  },
+  {
+   "id": "2.10-07",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Do the police acquire parental responsibility for a child in police protection?",
+   "options": [
+    "Yes",
+    "Only after 24 hours",
+    "Only if the parents agree",
+    "No – but must do what is reasonable to safeguard the child's welfare"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Parental responsibility"
+  },
+  {
+   "id": "2.10-08",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Parents try to remove an injured baby from hospital against advice; abuse is suspected. Which s. 46 option?",
+   "options": [
+    "Remove the child to a foster home",
+    "Take reasonable steps to prevent the child's removal from the hospital",
+    "Arrest the doctors",
+    "Nothing"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not necessary.",
+    "Correct.",
+    "No.",
+    "Action possible."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Prevent removal"
+  },
+  {
+   "id": "2.10-09",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Who makes an Emergency Protection Order?",
+   "options": [
+    "A court",
+    "A police inspector",
+    "The local authority alone",
+    "The child's school"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Applies; court decides.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · EPO"
+  },
+  {
+   "id": "2.10-10",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "How long can an EPO last initially (⚠)?",
+   "options": [
+    "72 hours",
+    "28 days",
+    "Up to 8 days (extendable once by up to 7)",
+    "3 months"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Police protection.",
+    "No.",
+    "Correct ⚠.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · EPO duration"
+  },
+  {
+   "id": "2.10-11",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Child cruelty (s. 1 CYPA 1933) can be committed by a person aged…",
+   "options": [
+    "18 or over",
+    "16 or over with responsibility for a child under 16",
+    "Any age",
+    "21 or over"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Child cruelty – ages"
+  },
+  {
+   "id": "2.10-12",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Following R v Sheppard, 'wilfully' in child cruelty means…",
+   "options": [
+    "Only deliberately",
+    "Negligently",
+    "With malice",
+    "Deliberately or recklessly"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too narrow.",
+    "Not enough.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Wilfully"
+  },
+  {
+   "id": "2.10-13",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Parents ignore their child's obvious serious illness for days, aware of the risk. Which offence?",
+   "options": [
+    "None",
+    "Child abduction",
+    "Child cruelty – wilful neglect (s. 1 CYPA 1933)",
+    "Only a safeguarding issue"
+   ],
+   "correct": 2,
+   "explanations": [
+    "There is.",
+    "No.",
+    "Correct.",
+    "Also an offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Neglect"
+  },
+  {
+   "id": "2.10-14",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Which conduct is covered by s. 1 CYPA 1933?",
+   "options": [
+    "Assault, ill-treatment, neglect, abandonment or exposure likely to cause unnecessary suffering or injury to health",
+    "Only physical assault",
+    "Only abandonment",
+    "Only neglect of food"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "Too narrow.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Conduct"
+  },
+  {
+   "id": "2.10-15",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "What is the maximum penalty for child cruelty (⚠)?",
+   "options": [
+    "2 years",
+    "10 years",
+    "Life",
+    "14 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Old maximum.",
+    "No.",
+    "Correct ⚠ (raised in 2022)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Penalty"
+  },
+  {
+   "id": "2.10-16",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "A mother takes her 8-year-old abroad permanently without the father's consent (he has parental responsibility). Which offence?",
+   "options": [
+    "s. 2 Child Abduction Act",
+    "s. 1 Child Abduction Act – person connected with the child",
+    "Kidnapping only",
+    "No offence – she is the mother"
+   ],
+   "correct": 1,
+   "explanations": [
+    "She's connected.",
+    "Correct.",
+    "Possible, but s. 1 fits.",
+    "There is."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · s. 1"
+  },
+  {
+   "id": "2.10-17",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Child Abduction Act offences protect children under…",
+   "options": [
+    "16",
+    "13",
+    "18",
+    "14"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Age – abduction"
+  },
+  {
+   "id": "2.10-18",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Whose consent is required to prosecute a s. 1 Child Abduction Act offence?",
+   "options": [
+    "The AG",
+    "The child",
+    "The DPP",
+    "The parents"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · DPP consent"
+  },
+  {
+   "id": "2.10-19",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "A stranger persuades a 13-year-old to get into his car and drives away. Which offence?",
+   "options": [
+    "s. 1",
+    "s. 2 Child Abduction Act – taking includes inducing to accompany",
+    "No offence – child agreed",
+    "Only harassment"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not connected.",
+    "Correct.",
+    "Consent is irrelevant.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · s. 2 – inducing"
+  },
+  {
+   "id": "2.10-20",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "A parent with a child arrangements (residence) order takes the child on holiday abroad for 2 weeks without the other parent's consent (⚠). Which is correct?",
+   "options": [
+    "Always an offence",
+    "Only an offence if over 2 weeks",
+    "Requires court leave for any trip",
+    "Not an offence – the less than 1 month exception applies"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Exception.",
+    "No.",
+    "No.",
+    "Correct ⚠."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · 1 month exception"
+  },
+  {
+   "id": "2.10-21",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Who leads s. 47 enquiries when a child is suspected of suffering significant harm?",
+   "options": [
+    "The police",
+    "Health",
+    "The local authority (children's social care)",
+    "Schools"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Police lead the criminal investigation.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · s. 47"
+  },
+  {
+   "id": "2.10-22",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "Which professionals have a mandatory duty to report FGM discovered in a girl under 18?",
+   "options": [
+    "Regulated health and social care professionals and teachers",
+    "Everyone",
+    "Only police",
+    "Only parents"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · FGM duty"
+  },
+  {
+   "id": "2.10-23",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "What does the Children Act 2004, s. 11 require of the police?",
+   "options": [
+    "Nothing",
+    "To take every child into protection",
+    "To inform schools of all arrests",
+    "To discharge their functions having regard to the need to safeguard and promote the welfare of children"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · s. 11 CA 2004"
+  },
+  {
+   "id": "2.10-24",
+   "chapter": "2.10",
+   "lessonId": "nie-2.10",
+   "scenario": "What is a strategy discussion?",
+   "options": [
+    "A police briefing",
+    "A multi-agency discussion (police, children's social care, health) when significant harm is suspected",
+    "A court hearing",
+    "A family meeting"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not only police.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.10 · Strategy discussion"
+  }
+ ]
+}

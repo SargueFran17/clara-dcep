@@ -1,0 +1,485 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.6. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.6-01",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Officers hear screaming from a flat and get no answer. Which power allows entry?",
+   "options": [
+    "s. 17 PACE – to save life or limb",
+    "s. 18 PACE",
+    "s. 32 PACE",
+    "None without a warrant"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Needs an arrest.",
+    "Needs an arrest.",
+    "s. 17 applies."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 17 – save life"
+  },
+  {
+   "id": "1.6-02",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "For s. 17 entry to arrest a person for an indictable offence, what must the officer believe?",
+   "options": [
+    "Nothing",
+    "That evidence is inside",
+    "That there are reasonable grounds for believing the person sought is on the premises",
+    "That the owner consents"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Required.",
+    "Not the test.",
+    "Correct.",
+    "Not needed."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 17 – belief"
+  },
+  {
+   "id": "1.6-03",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Which purpose under s. 17 does NOT require reasonable grounds to believe the person sought is on the premises?",
+   "options": [
+    "Executing an arrest warrant",
+    "Saving life or limb",
+    "Arresting for an indictable offence",
+    "Recapturing a person unlawfully at large"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Required.",
+    "Correct.",
+    "Required.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 17 – exception"
+  },
+  {
+   "id": "1.6-04",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Under s. 17, can officers enter to recapture an escaped prisoner?",
+   "options": [
+    "Yes, any time",
+    "Only with a warrant",
+    "Only if he's dangerous",
+    "Yes – a person unlawfully at large whom they are pursuing"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Must be pursuing.",
+    "Not needed.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Recapture"
+  },
+  {
+   "id": "1.6-05",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "After an arrest for an indictable offence, which premises may be searched under s. 18?",
+   "options": [
+    "Any premises",
+    "Only the place of arrest",
+    "Premises occupied or controlled by the arrested person",
+    "Only his car"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too wide.",
+    "That's s. 32.",
+    "Correct.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 18 – premises"
+  },
+  {
+   "id": "1.6-06",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Who must authorise a s. 18 search, and how?",
+   "options": [
+    "An inspector or above, in writing",
+    "A sergeant, orally",
+    "A superintendent, orally",
+    "A magistrate"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "That's a warrant."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 18 – authority"
+  },
+  {
+   "id": "1.6-07",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Under s. 18(5), a search may be carried out before the inspector authorises it when…",
+   "options": [
+    "The officer is busy",
+    "It is night time",
+    "The suspect consents",
+    "The arrested person's presence at the premises is necessary for the effective investigation of the offence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "Different route.",
+    "Correct – inform an inspector afterwards."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 18(5)"
+  },
+  {
+   "id": "1.6-08",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Under s. 18, the evidence sought must relate to…",
+   "options": [
+    "Any offence",
+    "That offence or some other indictable offence connected with or similar to it",
+    "Only that offence",
+    "Only summary offences"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too wide.",
+    "Correct.",
+    "Too narrow.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 18 – evidence"
+  },
+  {
+   "id": "1.6-09",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Under s. 32, which premises may be searched?",
+   "options": [
+    "Premises where he was when arrested or immediately before he was arrested",
+    "Any premises owned by the arrested person",
+    "Only a police station",
+    "Any premises in the street"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's s. 18 (occupied/controlled).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 32 – premises"
+  },
+  {
+   "id": "1.6-10",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Officers return to the arrest address two hours after the arrest to search under s. 32. Following R v Badham…",
+   "options": [
+    "Lawful",
+    "Lawful with an inspector's consent",
+    "Unlawful – s. 32 searches must be carried out at the time of arrest",
+    "Lawful if they had no time"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Use s. 18 instead.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Badham"
+  },
+  {
+   "id": "1.6-11",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Under s. 32, a person searched in public can be required to remove…",
+   "options": [
+    "All clothing",
+    "Only outer coat, jacket and gloves (and the mouth may be searched)",
+    "Shoes and trousers",
+    "Underwear"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 32 – person"
+  },
+  {
+   "id": "1.6-12",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Who issues a search warrant under s. 8 PACE?",
+   "options": [
+    "An inspector",
+    "A circuit judge only",
+    "The CPS",
+    "A justice of the peace"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "For Schedule 1 material.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 8 – JP"
+  },
+  {
+   "id": "1.6-13",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Which is NOT a condition for a s. 8 warrant?",
+   "options": [
+    "An indictable offence has been committed",
+    "Material likely of substantial value to the investigation",
+    "The material includes items subject to legal privilege",
+    "The material is likely to be relevant evidence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Required.",
+    "Required.",
+    "Correct – privileged material must NOT be included.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 8 – conditions"
+  },
+  {
+   "id": "1.6-14",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Within how long must a search warrant be executed?",
+   "options": [
+    "3 months",
+    "1 month",
+    "6 months",
+    "28 days"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Execution – 3 months"
+  },
+  {
+   "id": "1.6-15",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "When executing a warrant with the occupier present, officers must…",
+   "options": [
+    "Search first and explain later",
+    "Only show their warrant card",
+    "Read the warrant aloud",
+    "Identify themselves, show the warrant and give the occupier a copy"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Not enough.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 16 safeguards"
+  },
+  {
+   "id": "1.6-16",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "At what time should a warrant normally be executed?",
+   "options": [
+    "Any time",
+    "At a reasonable hour, unless that might frustrate the purpose of the search",
+    "Only in daylight",
+    "Only before 9 pm"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Not fixed.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Reasonable hour"
+  },
+  {
+   "id": "1.6-17",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "A victim's hospital medical records are needed. What type of material are they?",
+   "options": [
+    "Excluded material – production order/warrant from a circuit judge (Schedule 1)",
+    "Ordinary material – s. 8 warrant",
+    "Legal privilege",
+    "Special procedure material"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not under s. 8.",
+    "No.",
+    "Personal records in confidence are excluded."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Excluded material"
+  },
+  {
+   "id": "1.6-18",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Can items subject to legal privilege be seized?",
+   "options": [
+    "Yes, with a warrant",
+    "Yes, after charge",
+    "No (unless held with the intention of furthering a criminal purpose)",
+    "Only by an inspector"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Legal privilege"
+  },
+  {
+   "id": "1.6-19",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Under s. 19, an officer lawfully on premises may seize something if he reasonably believes it is evidence or obtained by an offence AND…",
+   "options": [
+    "It is valuable",
+    "It is necessary to seize it to prevent it being concealed, lost, damaged, altered or destroyed",
+    "The owner agrees",
+    "It is illegal to possess"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Not needed.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 19"
+  },
+  {
+   "id": "1.6-20",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "A computer contains thousands of files, and it isn't practicable to separate relevant ones on the premises. Which power?",
+   "options": [
+    "s. 19 only",
+    "No power",
+    "s. 32",
+    "s. 50 CJPA 2001 – seize and sift"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Doesn't cover bulk.",
+    "There is.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Seize and sift"
+  },
+  {
+   "id": "1.6-21",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Under Code B, how should consent to a search be given where practicable?",
+   "options": [
+    "Orally",
+    "By a nod",
+    "In writing on the Notice of Powers and Rights",
+    "By email"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not enough.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Consent searches"
+  },
+  {
+   "id": "1.6-22",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "When searching premises, what must officers do when leaving if the occupier is absent?",
+   "options": [
+    "Leave the premises secure and leave a copy of the Notice/warrant",
+    "Nothing",
+    "Leave the door open",
+    "Call a locksmith later"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Leaving secure"
+  },
+  {
+   "id": "1.6-23",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "Which power is preserved to enter premises to prevent a breach of the peace?",
+   "options": [
+    "s. 18",
+    "s. 32",
+    "None",
+    "Common-law power (preserved by s. 17(6))"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "There is.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · Breach of the peace"
+  },
+  {
+   "id": "1.6-24",
+   "chapter": "1.6",
+   "lessonId": "nie-1.6",
+   "scenario": "D is arrested for shoplifting (an indictable offence ⚠) outside a car he has just got out of. Can officers search the car under s. 32?",
+   "options": [
+    "No – it's not his house",
+    "Yes – premises (including a vehicle) where he was immediately before arrest, for evidence of that offence",
+    "Only with an inspector's authority",
+    "Only with a warrant"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Premises includes vehicles.",
+    "Correct.",
+    "Not needed under s. 32.",
+    "Not needed."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.6 · s. 32 – vehicle"
+  }
+ ]
+}
