@@ -1,0 +1,325 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.2. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.2-01",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Which is the correct definition of robbery?",
+   "options": [
+    "Stealing and, immediately before or at the time of doing so and in order to do so, using force on any person or putting/seeking to put any person in fear of being then and there subjected to force",
+    "Theft from a person",
+    "Any theft with a weapon",
+    "Theft from a building"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 8(1).",
+    "Incomplete.",
+    "Not required/insufficient.",
+    "That's burglary."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Robbery – definition"
+  },
+  {
+   "id": "3.2-02",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "LEE honestly believes BEN owes him £50. He punches BEN and takes £50 from his wallet. Is this robbery?",
+   "options": [
+    "Yes, because force was used",
+    "Yes, because the money was not LEE's",
+    "No – there is no theft because LEE was not dishonest (s. 2(1)(a)), so no robbery",
+    "Only if he used a weapon"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Force alone doesn't make robbery.",
+    "His belief prevents dishonesty.",
+    "Correct: R v Robinson (1977) – assault offences may apply.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · No theft, no robbery – Robinson"
+  },
+  {
+   "id": "3.2-03",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Two youths push and jostle a man so he loses his balance, and one takes his wallet. Is there enough force for robbery?",
+   "options": [
+    "No, force must cause injury",
+    "Yes – force is an ordinary word and minimal force can suffice",
+    "Only if he falls",
+    "Only if a weapon is used"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: R v Dawson and James (1976).",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Force – Dawson and James"
+  },
+  {
+   "id": "3.2-04",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A woman holds her handbag tightly. A man wrenches it from her grip and runs. Which is correct?",
+   "options": [
+    "Only theft, as force was on the bag",
+    "Assault only",
+    "Burglary",
+    "Robbery – force on the bag transmitted to her can be force on the person"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Robbery is more accurate.",
+    "No building.",
+    "Correct: R v Clouden (1987)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Force – Clouden"
+  },
+  {
+   "id": "3.2-05",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "During a shop theft, the suspect pushes a security guard (not the owner) out of the way to take the goods. Can this be robbery?",
+   "options": [
+    "No, force must be on the owner",
+    "Only if the guard is injured",
+    "Yes – force can be used on any person",
+    "Only if the guard owns the goods"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "Correct.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Force on any person"
+  },
+  {
+   "id": "3.2-06",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A man tells a woman: 'Give me your phone tomorrow or I'll beat you up next week.' She hands it over the next day. Is this robbery?",
+   "options": [
+    "No – the fear must be of being then and there subjected to force",
+    "Yes",
+    "Yes, because she was afraid",
+    "Only if he had a weapon"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (consider blackmail).",
+    "Incorrect.",
+    "Fear of future force is not enough.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Fear – then and there"
+  },
+  {
+   "id": "3.2-07",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "HALE and an accomplice take jewellery from a bedroom, then tie up the householder before leaving the house. Is the force 'at the time of' stealing?",
+   "options": [
+    "No, the theft was complete before the force",
+    "Only if they used a knife",
+    "Only if the householder resisted",
+    "Yes – appropriation can be a continuing act (R v Hale (1978))"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: continuing act.",
+    "Not required.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Timing – Hale"
+  },
+  {
+   "id": "3.2-08",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A shoplifter is challenged outside the shop after the theft is complete and pushes the guard away only to escape. Which is most accurate?",
+   "options": [
+    "Always robbery",
+    "Usually not robbery – force used only to escape after the theft is complete is not 'in order to steal' (consider facts)",
+    "Burglary",
+    "No offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not necessarily.",
+    "Correct (theft + assault).",
+    "No.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Purpose – in order to steal"
+  },
+  {
+   "id": "3.2-09",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Does the victim actually have to be put in fear for robbery by threats?",
+   "options": [
+    "No – it is enough that the defendant sought to put a person in fear",
+    "Yes",
+    "Only for adults",
+    "Only if a weapon is shown"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Seeking to put in fear"
+  },
+  {
+   "id": "3.2-10",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "How is robbery tried?",
+   "options": [
+    "Summary only",
+    "Either way",
+    "Indictable only",
+    "Civil"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Mode of trial"
+  },
+  {
+   "id": "3.2-11",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "What is the maximum sentence for robbery?",
+   "options": [
+    "7 years",
+    "Life imprisonment",
+    "10 years",
+    "14 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Theft.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Sentence"
+  },
+  {
+   "id": "3.2-12",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A man threatens a cashier with a knife to make her open the till, but police arrive before he takes anything. Which offence?",
+   "options": [
+    "Robbery",
+    "Theft",
+    "No offence",
+    "Assault with intent to rob (s. 8(2)) or attempted robbery"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Theft not completed.",
+    "Not completed.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · s. 8(2) – assault with intent to rob"
+  },
+  {
+   "id": "3.2-13",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A man punches a victim out of anger. Ten minutes later, seeing the victim's wallet on the floor, he picks it up and leaves. Is this robbery?",
+   "options": [
+    "Yes",
+    "Yes, because force preceded the theft",
+    "No – the force was not used in order to steal",
+    "Only if he planned it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not 'in order to steal'.",
+    "Correct (theft + assault).",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Purpose"
+  },
+  {
+   "id": "3.2-14",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Snatching a mobile phone loosely held in someone's hand with no force on the person is…",
+   "options": [
+    "possibly only theft – it depends on whether force was used on the person",
+    "always robbery",
+    "always burglary",
+    "always fraud"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not necessarily.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Snatch theft vs robbery"
+  },
+  {
+   "id": "3.2-15",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A robber says to a victim 'hand over your bag now or I'll stab you', but the victim is not scared at all. Which is correct?",
+   "options": [
+    "No robbery because she wasn't afraid",
+    "Only assault",
+    "Only blackmail",
+    "Robbery if he steals – he sought to put her in fear of force then and there"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not required.",
+    "Robbery applies.",
+    "Threat is immediate.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Seeking to put in fear"
+  },
+  {
+   "id": "3.2-16",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Which element is NOT part of robbery?",
+   "options": [
+    "A theft",
+    "Entry into a building",
+    "Force or fear of force",
+    "Timing and purpose of the force"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Required.",
+    "Correct.",
+    "Required.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Elements"
+  }
+ ]
+}

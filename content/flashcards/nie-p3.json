@@ -1,0 +1,215 @@
+{
+ "_comment": "Flashcards de la Parte 3 del NIE.",
+ "cards": [
+  {
+   "id": "nie-3.1-01",
+   "lessonId": "nie-3.1",
+   "front": "Theft – s. 1 TA 1968",
+   "back": "Dishonestly appropriates property belonging to another with intention of permanently depriving",
+   "es": "hurto"
+  },
+  {
+   "id": "nie-3.1-02",
+   "lessonId": "nie-3.1",
+   "front": "s. 2(1) – not dishonest if believes…",
+   "back": "(a) legal right (b) owner would consent (c) owner can't be found by reasonable steps",
+   "es": "creencias"
+  },
+  {
+   "id": "nie-3.1-03",
+   "lessonId": "nie-3.1",
+   "front": "s. 2(2)",
+   "back": "May be dishonest even if willing to pay",
+   "es": "aunque pague"
+  },
+  {
+   "id": "nie-3.1-04",
+   "lessonId": "nie-3.1",
+   "front": "Appropriation (s. 3)",
+   "back": "Any assumption of the rights of an owner (Morris); consent irrelevant (Lawrence, Gomez, Hinks)",
+   "es": "apropiación"
+  },
+  {
+   "id": "nie-3.1-05",
+   "lessonId": "nie-3.1",
+   "front": "s. 3(2)",
+   "back": "Good-faith purchaser for value doesn't steal by keeping",
+   "es": "comprador de buena fe"
+  },
+  {
+   "id": "nie-3.1-06",
+   "lessonId": "nie-3.1",
+   "front": "Property (s. 4)",
+   "back": "Money, real/personal, things in action, intangible; limits: land, wild plants (commercial), wild creatures; not information (Oxford v Moss)",
+   "es": "bienes"
+  },
+  {
+   "id": "nie-3.1-07",
+   "lessonId": "nie-3.1",
+   "front": "Belonging to another (s. 5)",
+   "back": "Possession/control/proprietary interest; s. 5(3) obligation to deal; s. 5(4) mistake + obligation to restore",
+   "es": "pertenecer a otro"
+  },
+  {
+   "id": "nie-3.1-08",
+   "lessonId": "nie-3.1",
+   "front": "ITPD (s. 6)",
+   "back": "Treat as own to dispose of; borrowing only if equivalent to outright taking (Lloyd – goodness/virtue)",
+   "es": "intención"
+  },
+  {
+   "id": "nie-3.1-09",
+   "lessonId": "nie-3.1",
+   "front": "s. 12 TWOC",
+   "back": "Taking a conveyance without consent – no ITPD – summary",
+   "es": "TWOC"
+  },
+  {
+   "id": "nie-3.1-10",
+   "lessonId": "nie-3.1",
+   "front": "s. 12A",
+   "back": "Aggravated vehicle-taking: dangerous driving, injury, damage to property or vehicle",
+   "es": "agravado"
+  },
+  {
+   "id": "nie-3.1-11",
+   "lessonId": "nie-3.1",
+   "front": "s. 13",
+   "back": "Abstracting electricity",
+   "es": "electricidad"
+  },
+  {
+   "id": "nie-3.1-12",
+   "lessonId": "nie-3.1",
+   "front": "Making off without payment",
+   "back": "TA 1978 s. 3: payment on the spot required; dishonestly makes off; intent to avoid payment",
+   "es": "irse sin pagar"
+  },
+  {
+   "id": "nie-3.1-13",
+   "lessonId": "nie-3.1",
+   "front": "Going equipped (s. 25)",
+   "back": "Not at place of abode; article for burglary or theft",
+   "es": "ir equipado"
+  },
+  {
+   "id": "nie-3.4-01",
+   "lessonId": "nie-3.4",
+   "front": "s. 9(1)(a) burglary",
+   "back": "Enters building/part as trespasser WITH INTENT to steal, inflict GBH or do unlawful damage",
+   "es": "burglary (a)"
+  },
+  {
+   "id": "nie-3.4-02",
+   "lessonId": "nie-3.4",
+   "front": "s. 9(1)(b) burglary",
+   "back": "Having entered as trespasser, steals/attempts or inflicts/attempts GBH",
+   "es": "burglary (b)"
+  },
+  {
+   "id": "nie-3.4-03",
+   "lessonId": "nie-3.4",
+   "front": "Entry",
+   "back": "Effective entry (Brown); partial enough (Ryan)",
+   "es": "entrada"
+  },
+  {
+   "id": "nie-3.4-04",
+   "lessonId": "nie-3.4",
+   "front": "Part of a building",
+   "back": "Walkington – behind a shop counter",
+   "es": "parte del edificio"
+  },
+  {
+   "id": "nie-3.4-05",
+   "lessonId": "nie-3.4",
+   "front": "Inhabited vehicle/vessel",
+   "back": "Is a building even if nobody there (s. 9(4))",
+   "es": "caravana habitada"
+  },
+  {
+   "id": "nie-3.4-06",
+   "lessonId": "nie-3.4",
+   "front": "Exceeding permission",
+   "back": "Jones and Smith – entering for unlawful purpose = trespasser",
+   "es": "exceder el permiso"
+  },
+  {
+   "id": "nie-3.4-07",
+   "lessonId": "nie-3.4",
+   "front": "Trespasser mens rea",
+   "back": "Knowing or reckless as to entering without permission",
+   "es": "temeridad"
+  },
+  {
+   "id": "nie-3.4-08",
+   "lessonId": "nie-3.4",
+   "front": "Max sentences (⚠)",
+   "back": "Dwelling 14 years; other buildings 10 years",
+   "es": "penas"
+  },
+  {
+   "id": "nie-3.2-01",
+   "lessonId": "nie-3.2",
+   "front": "Robbery (s. 8)",
+   "back": "Steals + force/fear of force then and there + immediately before/at the time + in order to steal",
+   "es": "robo"
+  },
+  {
+   "id": "nie-3.2-02",
+   "lessonId": "nie-3.2",
+   "front": "R v Robinson (1977)",
+   "back": "No theft (honest belief in right) = no robbery",
+   "es": "sin hurto no hay robo"
+  },
+  {
+   "id": "nie-3.2-03",
+   "lessonId": "nie-3.2",
+   "front": "Dawson and James (1976)",
+   "back": "Minimal force (jostling) can be enough",
+   "es": "poca fuerza"
+  },
+  {
+   "id": "nie-3.2-04",
+   "lessonId": "nie-3.2",
+   "front": "R v Clouden (1987)",
+   "back": "Wrenching a bag from the hand = force on the person",
+   "es": "arrancar el bolso"
+  },
+  {
+   "id": "nie-3.2-05",
+   "lessonId": "nie-3.2",
+   "front": "R v Hale (1978)",
+   "back": "Appropriation can be continuing – force after taking but still in the house",
+   "es": "acto continuado"
+  },
+  {
+   "id": "nie-3.2-06",
+   "lessonId": "nie-3.2",
+   "front": "Fear",
+   "back": "Of force THEN AND THERE; seeking to put in fear is enough",
+   "es": "miedo inmediato"
+  },
+  {
+   "id": "nie-3.2-07",
+   "lessonId": "nie-3.2",
+   "front": "Force used only to escape after theft",
+   "back": "Usually not robbery (theft + assault)",
+   "es": "solo para huir"
+  },
+  {
+   "id": "nie-3.2-08",
+   "lessonId": "nie-3.2",
+   "front": "s. 8(2)",
+   "back": "Assault with intent to rob – indictable only, life",
+   "es": "agresión con intención de robar"
+  },
+  {
+   "id": "nie-3.2-09",
+   "lessonId": "nie-3.2",
+   "front": "Robbery – trial & max",
+   "back": "Indictable only; life",
+   "es": "solo Crown Court; perpetua"
+  }
+ ]
+}

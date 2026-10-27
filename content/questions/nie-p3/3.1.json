@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.1. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.1-01",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Which is the correct definition of theft under s. 1 Theft Act 1968?",
+   "options": [
+    "Dishonestly appropriating property belonging to another with the intention of permanently depriving the other of it",
+    "Taking property without paying",
+    "Borrowing property without consent",
+    "Keeping lost property"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incomplete.",
+    "Not theft unless s. 6 applies.",
+    "Not necessarily."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · s. 1 – definition"
+  },
+  {
+   "id": "3.1-02",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "RAY swaps the price label on a television for a cheaper one in a shop. He is stopped before reaching the till. Has he 'appropriated' the TV?",
+   "options": [
+    "No, because he has not left the shop",
+    "No, because he has not paid",
+    "Yes – assuming any of the rights of an owner is an appropriation",
+    "Only if he damages the label"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Leaving is not required.",
+    "Not relevant.",
+    "Correct: R v Morris (1984).",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Appropriation – Morris"
+  },
+  {
+   "id": "3.1-03",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "An elderly man, of sound mind, gives his carer £20,000 as a valid gift. The carer knew he was being exploited. Can this be theft?",
+   "options": [
+    "No, a valid gift can never be theft",
+    "Yes – a valid gift can be an appropriation; dishonesty is the key question",
+    "Only if the man lacked capacity",
+    "Only if the carer used force"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: R v Hinks (2000).",
+    "Correct.",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Appropriation – Hinks"
+  },
+  {
+   "id": "3.1-04",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A con artist persuades a victim to hand over money by lying. The victim consents to the transfer. Is there an appropriation?",
+   "options": [
+    "No, because the victim consented",
+    "Only if the money is cash",
+    "Only if force is used",
+    "Yes – consent, even if obtained by deception, does not prevent appropriation"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: Lawrence; Gomez.",
+    "Not relevant.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Appropriation – Gomez"
+  },
+  {
+   "id": "3.1-05",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Which belief, if honestly held, means the appropriation is NOT dishonest under s. 2(1)?",
+   "options": [
+    "I thought the shop was too expensive",
+    "I intended to pay later",
+    "I believed I had the legal right to take it",
+    "I was hungry"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not a s. 2(1) belief.",
+    "s. 2(2): willingness to pay doesn't stop dishonesty.",
+    "Correct: s. 2(1)(a).",
+    "Not a s. 2 belief."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Dishonesty – s. 2(1)"
+  },
+  {
+   "id": "3.1-06",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "ANNA takes a sandwich from a shop and leaves the exact price on the counter because the till queue is long. The shop has a clear 'pay at the till' rule. Which is correct?",
+   "options": [
+    "Her appropriation may be dishonest even though she was willing to pay (s. 2(2)); dishonesty is decided on Ivey",
+    "She cannot be dishonest because she paid",
+    "She commits making off without payment",
+    "She has no intention to permanently deprive"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "She didn't avoid payment.",
+    "She intended to keep the sandwich."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Dishonesty – s. 2(2)"
+  },
+  {
+   "id": "3.1-07",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Must a belief under s. 2(1) be reasonable?",
+   "options": [
+    "Yes",
+    "Only for s. 2(1)(c)",
+    "Only if the defendant is an adult",
+    "No – it only needs to be honestly held"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct (reasonableness is evidence of honesty)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Dishonesty – honest belief"
+  },
+  {
+   "id": "3.1-08",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "ZOE finds a ring in the street. She keeps it, honestly believing the owner cannot be found by taking reasonable steps. Is she dishonest?",
+   "options": [
+    "Yes, finding is always theft",
+    "No – s. 2(1)(c) belief",
+    "Yes, she must hand it in",
+    "Only if it is valuable"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct (if honestly held).",
+    "Not a legal requirement for s. 2.",
+    "Value is irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Dishonesty – s. 2(1)(c)"
+  },
+  {
+   "id": "3.1-09",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Which of these is NOT 'property' capable of being stolen under s. 4?",
+   "options": [
+    "Confidential exam questions (information)",
+    "Money",
+    "A credit balance in a bank account",
+    "A mobile phone"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: Oxford v Moss (1979).",
+    "Property.",
+    "A thing in action – property.",
+    "Property."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Property – information"
+  },
+  {
+   "id": "3.1-10",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "LEO picks wild mushrooms in a wood to cook for his family. Is this theft?",
+   "options": [
+    "Yes",
+    "Yes, if the land is private",
+    "No – picking wild mushrooms is not theft unless for reward, sale or other commercial purpose",
+    "Only if he uses a knife"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not by itself.",
+    "Correct: s. 4(3).",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Property – wild plants"
+  },
+  {
+   "id": "3.1-11",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "The same LEO picks wild mushrooms to sell to a restaurant. Which is correct?",
+   "options": [
+    "Still not theft",
+    "It can be theft because it is for sale/commercial purpose",
+    "It is criminal damage",
+    "It is fraud"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Property – wild plants"
+  },
+  {
+   "id": "3.1-12",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Electricity is used dishonestly by bypassing a meter. Which offence?",
+   "options": [
+    "Theft of electricity",
+    "Fraud only",
+    "No offence",
+    "Abstracting electricity – s. 13 Theft Act 1968"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Electricity is not property for theft.",
+    "Possible, but s. 13 is specific.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Electricity – s. 13"
+  },
+  {
+   "id": "3.1-13",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "SAM's car is at a garage for repairs. The garage is entitled to keep it until paid. SAM secretly takes it back at night without paying, intending never to pay. Can SAM steal his own car?",
+   "options": [
+    "No, nobody can steal their own property",
+    "Only if the car is financed",
+    "Yes – property belongs to anyone with possession, control or a proprietary interest (s. 5(1))",
+    "Only if he damages the garage"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "Correct.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Belonging to another – s. 5(1)"
+  },
+  {
+   "id": "3.1-14",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "MEG's employer overpays her salary by mistake. She realises and spends it, intending not to repay. Which subsection makes the money 'belong to another'?",
+   "options": [
+    "s. 5(4)",
+    "s. 5(1)",
+    "s. 5(3)",
+    "s. 4(3)"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: got by mistake with obligation to restore.",
+    "Not the best fit.",
+    "Obligation to deal in a particular way.",
+    "Wild plants."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Belonging to another – s. 5(4)"
+  },
+  {
+   "id": "3.1-15",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A charity collector keeps some of the cash collected for the charity. Which subsection is most relevant?",
+   "options": [
+    "s. 5(4)",
+    "s. 4(4)",
+    "s. 2(1)(c)",
+    "s. 5(3) – property received under an obligation to deal with it in a particular way"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Mistake.",
+    "Wild creatures.",
+    "Untraceable owner.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Belonging to another – s. 5(3)"
+  },
+  {
+   "id": "3.1-16",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "LLOYD borrows films from a cinema, copies them and returns them a few hours later undamaged. Is there an intention to permanently deprive?",
+   "options": [
+    "Yes, because he made copies",
+    "No – the films were returned with their goodness and virtue intact",
+    "Yes, because borrowing is always theft",
+    "Only if he sold the copies"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Copying does not take the 'goodness' of the reels.",
+    "Correct: R v Lloyd (1985).",
+    "Incorrect.",
+    "Not the test for theft of the reels."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · ITPD – Lloyd"
+  },
+  {
+   "id": "3.1-17",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A student takes a classmate's monthly bus pass, uses it until it expires, and then returns it. Which is correct?",
+   "options": [
+    "There may be ITPD because borrowing in circumstances equivalent to an outright taking (value exhausted) counts (s. 6)",
+    "No ITPD because it was returned",
+    "It is only TWOC",
+    "No offence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "TWOC is for conveyances.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · ITPD – s. 6"
+  },
+  {
+   "id": "3.1-18",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Teenagers take a car without the owner's consent, drive it around and abandon it intact. Which is the most appropriate offence?",
+   "options": [
+    "Theft",
+    "Burglary",
+    "Taking a conveyance without consent (s. 12)",
+    "Robbery"
+   ],
+   "correct": 2,
+   "explanations": [
+    "ITPD may be hard to prove.",
+    "No building.",
+    "Correct.",
+    "No force."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · TWOC – s. 12"
+  },
+  {
+   "id": "3.1-19",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "After taking a car without consent, the driver crashes into a wall, damaging the wall. Which offence becomes available?",
+   "options": [
+    "s. 11",
+    "Aggravated vehicle-taking (s. 12A)",
+    "s. 13",
+    "s. 25"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Articles displayed to public.",
+    "Correct.",
+    "Electricity.",
+    "Going equipped."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Aggravated vehicle-taking – s. 12A"
+  },
+  {
+   "id": "3.1-20",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Is TWOC (s. 12) a summary or indictable offence?",
+   "options": [
+    "Indictable only",
+    "Either way",
+    "Civil",
+    "Summary"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct (⚠ check edition)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · TWOC – mode of trial"
+  },
+  {
+   "id": "3.1-21",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A diner eats a meal and leaves without paying, intending never to pay. Which offence is most suitable?",
+   "options": [
+    "Theft of the food",
+    "Fraud by abuse of position",
+    "Making off without payment (Theft Act 1978, s. 3)",
+    "No offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Ownership may have passed – making off is designed for this.",
+    "No position of trust.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Making off without payment"
+  },
+  {
+   "id": "3.1-22",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Which element is required for making off without payment?",
+   "options": [
+    "Knowing payment on the spot is required and intending to avoid payment",
+    "Force",
+    "Entering a building",
+    "Possession of a weapon"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Making off – elements"
+  },
+  {
+   "id": "3.1-23",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A man is stopped in the street, away from his home, with a screwdriver and gloves he intends to use to break into cars to steal. Which offence?",
+   "options": [
+    "Burglary",
+    "Theft",
+    "Robbery",
+    "Going equipped (s. 25)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No entry.",
+    "Not yet.",
+    "No.",
+    "Correct: not at place of abode, article for theft/burglary."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Going equipped – s. 25"
+  },
+  {
+   "id": "3.1-24",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Can a person be guilty of going equipped while at their own home?",
+   "options": [
+    "Yes",
+    "No – the offence requires the person not to be at their place of abode",
+    "Only at night",
+    "Only in a vehicle"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Irrelevant.",
+    "Not necessarily (a vehicle can be a place of abode in some cases ⚠)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Going equipped – place of abode"
+  },
+  {
+   "id": "3.1-25",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A visitor removes a painting displayed in a public gallery, intending to return it later. Which offence may apply even without ITPD?",
+   "options": [
+    "s. 11 – removal of articles from places open to the public",
+    "s. 12",
+    "s. 13",
+    "s. 25"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Conveyances.",
+    "Electricity.",
+    "Going equipped."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · s. 11"
+  },
+  {
+   "id": "3.1-26",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A person buys a bike in good faith for a fair price. Later he learns it was stolen and keeps it. Is keeping it theft?",
+   "options": [
+    "Yes",
+    "Only if he uses it",
+    "No – s. 3(2) protects a good-faith purchaser for value",
+    "Only if expensive"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Appropriation – s. 3(2)"
+  },
+  {
+   "id": "3.1-27",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A person finds a wallet and initially intends to hand it in. Two days later he decides to keep the money. Has he appropriated it?",
+   "options": [
+    "No, because he got it innocently",
+    "Yes – a later assumption of rights by keeping it as owner can be an appropriation",
+    "Only if he spends it",
+    "Only if the owner sees him"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: s. 3(1).",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Appropriation – later assumption"
+  },
+  {
+   "id": "3.1-28",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "What is the maximum sentence for theft on indictment (⚠ check edition)?",
+   "options": [
+    "2 years",
+    "14 years",
+    "Life",
+    "7 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Handling/burglary of dwelling.",
+    "Robbery.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Theft – sentence"
+  },
+  {
+   "id": "3.1-29",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "A wild deer in a forest is shot and taken by a poacher. Is the deer 'property' for theft?",
+   "options": [
+    "Yes, always",
+    "Yes, if the land is private",
+    "Generally not, unless tamed/kept or already reduced into someone's possession (s. 4(4))",
+    "Only if sold"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not by itself.",
+    "Correct (other poaching offences may apply).",
+    "Not for wild creatures (that's plants)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Property – wild creatures"
+  },
+  {
+   "id": "3.1-30",
+   "chapter": "3.1",
+   "lessonId": "nie-3.1",
+   "scenario": "Which mental element distinguishes theft from TWOC?",
+   "options": [
+    "Intention of permanently depriving",
+    "Dishonesty",
+    "Knowledge",
+    "Recklessness"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Theft needs dishonesty, but the key difference is ITPD.",
+    "Both may involve knowledge.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.1 · Theft vs TWOC"
+  }
+ ]
+}

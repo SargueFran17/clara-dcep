@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.4. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.4-01",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "KIM is a customer lawfully in a shop. She goes behind the staff-only counter and takes cash from the till. Which is correct?",
+   "options": [
+    "Burglary – she entered part of a building as a trespasser and stole",
+    "Only theft – she was allowed in the shop",
+    "Robbery",
+    "No offence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Walkington (1979); s. 9(1)(b).",
+    "She was a trespasser in that part.",
+    "No force.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Part of a building"
+  },
+  {
+   "id": "3.4-02",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "TOM has general permission to visit his father's house. He enters at night intending to steal his father's television. Is he a trespasser?",
+   "options": [
+    "No, he has permission to enter",
+    "Only if he breaks a window",
+    "Yes – entering for a purpose outside the permission makes him a trespasser",
+    "Only if his father is asleep"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Exceeding permission.",
+    "Not required.",
+    "Correct: R v Jones and Smith (1976).",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Trespasser – exceeding permission"
+  },
+  {
+   "id": "3.4-03",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "For s. 9(1)(a), when must the intent exist?",
+   "options": [
+    "After entry",
+    "At the time of entry",
+    "At any time during the day",
+    "When leaving"
+   ],
+   "correct": 1,
+   "explanations": [
+    "That's relevant to (b).",
+    "Correct.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · s. 9(1)(a) – timing of intent"
+  },
+  {
+   "id": "3.4-04",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "Which ulterior intent is NOT included in s. 9(1)(a)?",
+   "options": [
+    "Intent to steal",
+    "Intent to inflict GBH",
+    "Intent to do unlawful damage",
+    "Intent to commit fraud"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Included.",
+    "Included.",
+    "Included.",
+    "Correct: not included."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · s. 9(1)(a) – ulterior offences"
+  },
+  {
+   "id": "3.4-05",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A homeless man enters an empty house as a trespasser only to sleep. Inside, the owner returns and the man causes him GBH. Which is correct?",
+   "options": [
+    "No burglary because he had no intent on entry",
+    "Only s. 20",
+    "Burglary under s. 9(1)(b) – having entered as a trespasser he inflicted GBH",
+    "Only trespass"
+   ],
+   "correct": 2,
+   "explanations": [
+    "(b) doesn't need intent at entry.",
+    "Burglary also applies.",
+    "Correct.",
+    "More serious offence."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · s. 9(1)(b)"
+  },
+  {
+   "id": "3.4-06",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "Having entered a house as a trespasser, a man smashes a TV out of anger but takes nothing. Is this s. 9(1)(b)?",
+   "options": [
+    "No – criminal damage is not one of the acts in s. 9(1)(b)",
+    "Yes",
+    "Only if the TV is expensive",
+    "Only at night"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (criminal damage may be charged; (a) needs intent at entry).",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · s. 9(1)(b) – acts"
+  },
+  {
+   "id": "3.4-07",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "RYAN gets stuck in a window with his head and right arm inside a house. He could not have reached anything. Has he 'entered'?",
+   "options": [
+    "No, he must be fully inside",
+    "Only if he touched something",
+    "Only if he had a tool",
+    "Yes – partial entry can be enough, even if he couldn't steal from that position"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "Not required.",
+    "Correct: R v Ryan (1996)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Entry"
+  },
+  {
+   "id": "3.4-08",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A man leans through a broken shop window and rummages among goods, with his feet on the pavement. Has he entered?",
+   "options": [
+    "No",
+    "Yes – an effective entry is enough (R v Brown (1985))",
+    "Only if he takes something",
+    "Only if the shop is open"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not for (a).",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Entry – effective"
+  },
+  {
+   "id": "3.4-09",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A family lives in a caravan on a site. While they are away for the day, a man breaks in and steals. Is the caravan a 'building'?",
+   "options": [
+    "Yes – an inhabited vehicle is included even if nobody is there at the time (s. 9(4))",
+    "No, a caravan is a vehicle",
+    "Only if someone is inside",
+    "Only if it has wheels removed"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Building – inhabited vehicle"
+  },
+  {
+   "id": "3.4-10",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A man enters a building as a trespasser intending to steal 'anything worth stealing'. Is this enough for s. 9(1)(a)?",
+   "options": [
+    "No, he must intend to steal a specific item",
+    "Only if he finds something",
+    "Yes – conditional intent to steal is generally enough (⚠ check)",
+    "Only for dwellings"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not required for (a).",
+    "Correct.",
+    "Applies to all buildings."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Conditional intent"
+  },
+  {
+   "id": "3.4-11",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "What mental element is required as to being a trespasser?",
+   "options": [
+    "None",
+    "Knowing or being reckless that he is entering without permission",
+    "Negligence",
+    "Intention to harm"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not enough.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Trespass – mens rea"
+  },
+  {
+   "id": "3.4-12",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "Burglary of a dwelling has a higher maximum sentence than burglary of other buildings. Which is correct (⚠ check)?",
+   "options": [
+    "Both 7 years",
+    "Dwelling life; other 14",
+    "Both 10 years",
+    "Dwelling 14 years; other buildings 10 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Sentencing"
+  },
+  {
+   "id": "3.4-13",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A man, having entered a garden shed as a trespasser, tries to steal a lawnmower but is disturbed. Which is correct?",
+   "options": [
+    "No offence",
+    "Only attempted theft",
+    "s. 9(1)(b) – attempting to steal after entering as a trespasser",
+    "Only criminal damage"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Burglary also applies.",
+    "Correct.",
+    "Not on these facts."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · s. 9(1)(b) – attempt"
+  },
+  {
+   "id": "3.4-14",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A man enters a school as a trespasser intending to smash the computers. Which offence?",
+   "options": [
+    "s. 9(1)(a) burglary (intent to do unlawful damage)",
+    "s. 9(1)(b)",
+    "Only criminal damage",
+    "No offence until damage is done"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Requires stealing/GBH acts.",
+    "Burglary is complete on entry with intent.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · s. 9(1)(a) – damage"
+  },
+  {
+   "id": "3.4-15",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "Which statement about 'building' is correct?",
+   "options": [
+    "Only houses",
+    "Any structure including tents for one night",
+    "Only buildings with locks",
+    "Ordinary meaning with some permanence, e.g. shops, sheds, garages"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too narrow.",
+    "Tents usually lack permanence (⚠).",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Building – meaning"
+  },
+  {
+   "id": "3.4-16",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A guest is invited to a party in the living room. He goes upstairs into a bedroom he was told not to enter and steals a watch. Is this burglary?",
+   "options": [
+    "No, he was invited",
+    "Yes – he may be a trespasser in that part of the building",
+    "Only theft",
+    "Only if he broke a lock"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not to that part.",
+    "Correct.",
+    "Burglary may apply.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Part of a building"
+  },
+  {
+   "id": "3.4-17",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "Under s. 9(1)(b), which of these acts after entering as a trespasser makes the offence?",
+   "options": [
+    "Stealing or attempting to steal",
+    "Damaging property",
+    "Smoking",
+    "Sleeping"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not in (b).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · s. 9(1)(b)"
+  },
+  {
+   "id": "3.4-18",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "A man reaches through a letterbox with a hooked rod to take car keys. Could this be an entry?",
+   "options": [
+    "Never",
+    "Only if his hand goes in",
+    "Possibly – using an instrument can amount to entry in some circumstances (⚠ check edition)",
+    "Only at night"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too absolute.",
+    "Not necessarily.",
+    "Correct (⚠).",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · Entry – instruments"
+  },
+  {
+   "id": "3.4-19",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "Which offence was removed from s. 9 by the Sexual Offences Act 2003?",
+   "options": [
+    "Theft",
+    "Rape",
+    "GBH",
+    "Criminal damage"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Still there.",
+    "Correct (now trespass with intent to commit a sexual offence, SOA 2003 s. 63).",
+    "Still there.",
+    "Still in (a)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · History – SOA 2003"
+  },
+  {
+   "id": "3.4-20",
+   "chapter": "3.4",
+   "lessonId": "nie-3.4",
+   "scenario": "Which is the key difference between s. 9(1)(a) and s. 9(1)(b)?",
+   "options": [
+    "(a) is for houses, (b) for shops",
+    "(a) needs violence",
+    "(b) needs a weapon",
+    "(a) focuses on intent at entry; (b) on what is done after entry"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "Aggravated burglary needs a weapon.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.4 · (a) vs (b)"
+  }
+ ]
+}
