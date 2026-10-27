@@ -10,13 +10,18 @@ const minutesOn = (sch: NieSchedule, d: ISODate) => (sch.days.get(d) ?? []).flat
 const allSteps = (sch: NieSchedule) => [...sch.days.entries()].sort(([a], [b]) => a.localeCompare(b)).flatMap(([, l]) => l.flatMap((x) => x.steps.map((c) => ({ chapter: x.chapter, ...c }))))
 
 describe('capacidad por día', () => {
-  it('academia L–V 75, sábado 180, domingo y festivos 0; nada antes del inicio del NIE', () => {
+  it('L–V 75, sábado 180, domingo 120, festivos 0; nada antes del inicio del NIE', () => {
     expect(dayCapacity('2027-01-04', s, nieTemario)).toBe(75) // lunes
     expect(dayCapacity('2027-01-02', s, nieTemario)).toBe(180) // sábado
-    expect(dayCapacity('2027-01-03', s, nieTemario)).toBe(0) // domingo
+    expect(dayCapacity('2027-01-03', s, nieTemario)).toBe(120) // domingo
     expect(dayCapacity('2027-03-26', s, nieTemario)).toBe(0) // Good Friday
     expect(dayCapacity('2026-12-30', s, nieTemario)).toBe(0) // academia, pero antes del 02/01
     expect(dayCapacity('2027-01-04', s, nieTemario, new Set(['2027-01-04']))).toBe(0) // "Hoy no puedo"
+  })
+  it('los minutos por día se cambian en Ajustes', () => {
+    const custom = { ...s, nieMinutes: { ...s.nieMinutes, mon: 90, sun: 0 } }
+    expect(dayCapacity('2027-01-04', custom, nieTemario)).toBe(90)
+    expect(dayCapacity('2027-01-03', custom, nieTemario)).toBe(0)
   })
 })
 
@@ -69,6 +74,24 @@ describe('reprogramación', () => {
     expect(steps.filter((c) => c.done).map((c) => c.step)).toEqual([3])
     expect(minutesOn(sch, today)).toBeLessThanOrEqual(75)
     expect(sch.ranges.get('1.3')![0]).toBe('2027-01-02')
+  })
+  it('las partes hechas de un paso no se vuelven a planificar (mañana sale solo lo que falta)', () => {
+    // 1.8 ② son 105′; el sábado hiciste 60′ sin terminarlo
+    const progress = new Map(nieOrderedChapters.slice(0, 3).map((c) => [c.code, Array(10).fill('2027-01-08')]))
+    progress.set('1.8', ['2027-01-09', null, null, null, null, null, null, null, null, null])
+    const partial = new Map([['1.8', [{ step: 2, minutes: 60, date: '2027-01-09' }]]])
+    const sch = scheduleNie({ ...base, today: '2027-01-11', progress, partial })
+    const first = allSteps(sch)[0]
+    expect(first).toMatchObject({ chapter: '1.8', step: 2, minutes: 45, stepMinutes: 105, final: true })
+    // ese mismo día las partes de hoy salen hechas y gastan la capacidad
+    const today = scheduleNie({ ...base, today: '2027-01-09', progress, partial })
+    expect(today.days.get('2027-01-09')!.flatMap((x) => x.steps)).toContainEqual(expect.objectContaining({ step: 2, minutes: 60, done: true, final: false }))
+    expect(minutesOn(today, '2027-01-09')).toBeLessThanOrEqual(180)
+  })
+  it('un trozo que no termina el paso se marca como parte (final = false)', () => {
+    const sch = scheduleNie(base)
+    const split = allSteps(sch).find((c) => c.minutes < c.stepMinutes)!
+    expect(split.final).toBe(false)
   })
   it('vas tarde → margen negativo', () => {
     const sch = scheduleNie({ ...base, today: '2027-04-20' })

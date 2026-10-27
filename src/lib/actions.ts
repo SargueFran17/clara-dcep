@@ -122,6 +122,24 @@ export async function toggleStep(chapterId: string, index: number, today: ISODat
 }
 
 /**
+ * Marca (o desmarca) el trozo de un paso que tocaba hoy. Si con él el paso queda completo, se
+ * marca el paso entero; si es solo una parte, se guardan esos minutos y mañana sale solo lo que falta.
+ */
+export async function toggleStepPart(chapterId: string, step: number, minutes: number, stepMinutes: number, today: ISODate, done: boolean) {
+  const ch = await getChapter(chapterId)
+  const parts = ch.partial ?? []
+  const i = step - 1
+  if (done) {
+    const before = parts.filter((p) => p.step === step).reduce((a, p) => a + p.minutes, 0)
+    if (before + minutes >= stepMinutes) return toggleStep(chapterId, i, today)
+    await db.nieChapter.put({ ...ch, partial: [...parts, { step, minutes, date: today }] })
+    return
+  }
+  if (ch.steps[i] === today) return toggleStep(chapterId, i, today)
+  await db.nieChapter.put({ ...ch, partial: parts.filter((p) => !(p.step === step && p.date === today)) })
+}
+
+/**
  * Cambia la fecha real del paso ⑩ (fin del capítulo). Los repasos pendientes se recalculan
  * desde la nueva fecha; los que ya hiciste se mantienen.
  */

@@ -1,5 +1,5 @@
 import { addDays, diffDays, weekday, type ISODate } from './dates'
-import type { NieChapterMeta, NieTemario, Settings } from '../types'
+import type { NieChapterMeta, NiePartial, NieTemario, Settings, WeekKey } from '../types'
 
 // Plan NIE como COLA: los pasos que te quedan, en tu orden de capítulos, se reparten desde HOY
 // según los minutos que caben cada día. Lo que no marcas hecho pasa solo al siguiente hueco;
@@ -14,6 +14,8 @@ export interface StepChunk {
   stepMinutes: number
   /** true si ya lo marcaste hecho ese día */
   done?: boolean
+  /** true si con este trozo el paso queda terminado (false = es solo una parte) */
+  final?: boolean
 }
 
 export interface NieSlot {
@@ -45,27 +47,35 @@ export interface ScheduleInput {
   capacity: Capacity
   /** capítulo → fecha en que marcaste cada paso (null = pendiente) */
   progress: Map<string, (ISODate | null)[]>
+  /** capítulo → partes de pasos ya hechas (minutos que no se vuelven a planificar) */
+  partial?: Map<string, NiePartial[]>
   /** días marcados "Hoy no puedo" */
   daysOff: Set<ISODate>
   /** hoy */
   today: ISODate
 }
 
-const WEEK_KEYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'] as const
+const WEEK_KEYS: WeekKey[] = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
 /** límite de seguridad: no se planifica más allá de 2 años */
 const HORIZON_DAYS = 730
 
-/** Minutos de estudio NIE nuevo que caben un día: L–V 75, sábado 180, domingo y festivos 0. */
+/**
+ * Minutos de estudio NIE nuevo que caben un día (Ajustes; por defecto L–V 75, sábado 180,
+ * domingo 120). Festivos y días "Hoy no puedo": 0.
+ */
 export function dayCapacity(date: ISODate, s: Settings, c: Capacity, daysOff: Set<ISODate> = new Set()): number {
   const cap = c.newStudyCapacityMinutes
   if (date < s.nieStart || daysOff.has(date) || cap.bankHolidays2027.includes(date)) return 0
-  const wd = weekday(date)
-  if (date >= s.nieBlockStart && wd < 5) return cap.nieBlockWeekdays
-  return cap.academyWeeks[WEEK_KEYS[wd]]
+  const key = WEEK_KEYS[weekday(date)]
+  return s.nieMinutes?.[key] ?? cap.academyWeeks[key]
 }
+
+const sumParts = (parts: NiePartial[], step: number, pred: (p: NiePartial) => boolean = () => true) =>
+  parts.filter((p) => p.step === step && pred(p)).reduce((a, p) => a + p.minutes, 0)
 
 export function scheduleNie(input: ScheduleInput): NieSchedule {
   const { settings: s, chapters, capacity, progress, daysOff, today } = input
+  const partial = input.partial ?? new Map<string, NiePartial[]>()
   const from = today > s.nieStart ? today : s.nieStart
   const days = new Map<ISODate, NieSlot[]>()
   const ranges = new Map<string, [ISODate, ISODate]>()
@@ -78,23 +88,36 @@ export function scheduleNie(input: ScheduleInput): NieSchedule {
     return slot
   }
 
-  // lo que ya marcaste HOY se queda hoy (hecho) y gasta capacidad de hoy
+  // lo que ya marcaste HOY (pasos enteros o partes) se queda hoy, hecho, y gasta capacidad de hoy
   let usedFrom = 0
   for (const ch of chapters) {
     const steps = progress.get(ch.code) ?? []
-    steps.forEach((d, i) => {
-      if (d !== from) return
-      slotFor(from, ch.code).steps.push({ step: i + 1, minutes: ch.stepMinutes[i], stepMinutes: ch.stepMinutes[i], done: true })
-      usedFrom += ch.stepMinutes[i]
+    const parts = partial.get(ch.code) ?? []
+    ch.stepMinutes.forEach((m, i) => {
+      const step = i + 1
+      let minutes = 0
+      let final = false
+      if (steps[i] === from) {
+        minutes = Math.max(0, m - sumParts(parts, step, (p) => p.date !== from))
+        final = true
+      } else if (!steps[i]) {
+        minutes = sumParts(parts, step, (p) => p.date === from)
+      }
+      if (!minutes && !final) return
+      slotFor(from, ch.code).steps.push({ step, minutes, stepMinutes: m, done: true, final })
+      usedFrom += minutes
     })
   }
 
-  // cola de pasos pendientes, en tu orden
-  const queue: { chapter: string; step: number; minutes: number }[] = []
+  // cola de pasos pendientes, en tu orden (sin los minutos que ya hiciste por partes)
+  const queue: { chapter: string; step: number; minutes: number; stepMinutes: number }[] = []
   for (const ch of chapters) {
     const steps = progress.get(ch.code) ?? []
+    const parts = partial.get(ch.code) ?? []
     ch.stepMinutes.forEach((m, i) => {
-      if (!steps[i]) queue.push({ chapter: ch.code, step: i + 1, minutes: m })
+      if (steps[i]) return
+      const left = m - sumParts(parts, i + 1)
+      if (left > 0) queue.push({ chapter: ch.code, step: i + 1, minutes: left, stepMinutes: m })
     })
   }
   const pendingMinutes = queue.reduce((a, q) => a + q.minutes, 0)
@@ -113,7 +136,7 @@ export function scheduleNie(input: ScheduleInput): NieSchedule {
     }
     const item = queue[qi]
     const take = Math.min(left, remaining)
-    slotFor(date, item.chapter).steps.push({ step: item.step, minutes: take, stepMinutes: item.minutes })
+    slotFor(date, item.chapter).steps.push({ step: item.step, minutes: take, stepMinutes: item.stepMinutes, final: take >= remaining })
     left -= take
     remaining -= take
     finish = date
@@ -125,7 +148,10 @@ export function scheduleNie(input: ScheduleInput): NieSchedule {
 
   // rangos de cada capítulo: días reales de los pasos hechos + días previstos para lo que falta
   for (const ch of chapters) {
-    const dates: ISODate[] = (progress.get(ch.code) ?? []).filter((d): d is ISODate => !!d)
+    const dates: ISODate[] = [
+      ...(progress.get(ch.code) ?? []).filter((d): d is ISODate => !!d),
+      ...(partial.get(ch.code) ?? []).map((p) => p.date),
+    ]
     for (const [d, list] of days) if (list.some((x) => x.chapter === ch.code)) dates.push(d)
     if (!dates.length) continue
     dates.sort()
@@ -134,7 +160,7 @@ export function scheduleNie(input: ScheduleInput): NieSchedule {
   for (const [d, list] of days)
     for (const slot of list) {
       slot.first = slot.steps.some((x) => x.step === 1)
-      slot.last = slot.steps.some((x) => x.step === 10) && ranges.get(slot.chapter)?.[1] === d
+      slot.last = slot.steps.some((x) => x.step === 10 && x.final) && ranges.get(slot.chapter)?.[1] === d
     }
 
   return { from, days, ranges, finish, pendingMinutes }

@@ -5,7 +5,7 @@ import { exportBackup, importBackup, resetAll } from '../lib/backup'
 import { todayISO } from '../lib/dates'
 import { DEFAULT_SETTINGS } from '../lib/defaults'
 import { Button, Card, PageHeader } from '../components/ui'
-import type { Settings as S } from '../types'
+import type { Settings as S, WeekKey } from '../types'
 
 type DateKey = { [K in keyof S]: S[K] extends string ? K : never }[keyof S]
 
@@ -23,6 +23,8 @@ const DATE_FIELDS: { key: DateKey; label: string }[] = [
   { key: 'finalReviewEnd', label: 'Repaso final: hasta' },
   { key: 'examDate', label: 'Examen NIE' },
 ]
+
+const WEEK: [WeekKey, string][] = [['mon', 'L'], ['tue', 'M'], ['wed', 'X'], ['thu', 'J'], ['fri', 'V'], ['sat', 'S'], ['sun', 'D']]
 
 const input = 'w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm dark:border-slate-700 dark:bg-slate-800'
 
@@ -86,6 +88,25 @@ export function Settings() {
           <input type="checkbox" className="h-5 w-5" checked={s.examConfirmed} onChange={(e) => saveSettings({ examConfirmed: e.target.checked })} />
           <span>Fecha del examen <b>confirmada</b> {!s.examConfirmed && <span className="text-amber-600">(ahora: estimada)</span>}</span>
         </label>
+        <div className="mt-4">
+          <div className="text-sm font-semibold">Minutos de NIE nuevo por día</div>
+          <p className="mb-2 text-xs text-slate-500">La cola del NIE reparte tus pasos según estos minutos (festivos y "Hoy no puedo" = 0).</p>
+          <div className="grid grid-cols-7 gap-1">
+            {WEEK.map(([k, label]) => (
+              <label key={k} className="text-center text-xs">
+                <span className="text-slate-500">{label}</span>
+                <input
+                  type="number" inputMode="numeric" min={0} max={600} step={15}
+                  key={s.nieMinutes[k]}
+                  defaultValue={s.nieMinutes[k]}
+                  onBlur={(e) => e.target.value !== '' && saveSettings({ nieMinutes: { ...s.nieMinutes, [k]: Math.max(0, +e.target.value) } })}
+                  className="w-full rounded-lg border border-slate-300 bg-white px-0.5 py-1 text-center text-sm dark:border-slate-700 dark:bg-slate-800"
+                  aria-label={`Minutos de NIE el ${label}`}
+                />
+              </label>
+            ))}
+          </div>
+        </div>
         <div className="mt-3 space-y-3">
           {listField('cumulativeTests', 'Tests acumulados')}
           {listField('mocks', 'Simulacros completos')}
@@ -94,8 +115,8 @@ export function Settings() {
           variant="ghost"
           className="mt-3"
           onClick={() => {
-            const { theme, spanish, dailyNewCards, dailyReviewCards, streakThreshold } = s
-            saveSettings({ ...DEFAULT_SETTINGS, theme, spanish, dailyNewCards, dailyReviewCards, streakThreshold })
+            const { theme, spanish, dailyNewCards, dailyReviewCards, streakThreshold, nieMinutes } = s
+            saveSettings({ ...DEFAULT_SETTINGS, theme, spanish, dailyNewCards, dailyReviewCards, streakThreshold, nieMinutes })
           }}
         >
           Restaurar fechas por defecto

@@ -60,8 +60,9 @@ describe('NIE 1ª vuelta', () => {
     expect(len('1.7')).toBeGreaterThan(len('1.3'))
     expect(len('1.8')).toBeGreaterThan(len('1.4'))
   })
-  it('los domingos no hay capítulo nuevo', () => {
-    for (const d of plan.days.values()) if (weekday(d.date) === 6) expect(d.nie).toEqual([])
+  it('los domingos también hay estudio NIE', () => {
+    expect(plan.days.get('2027-01-10')!.nie.length).toBeGreaterThan(0)
+    expect(weekday('2027-01-10')).toBe(6)
   })
   it('se recalcula si cambias el inicio del NIE', () => {
     const p = buildPlan({ ...s, nieStart: '2027-01-11' }, inputs)
@@ -98,6 +99,7 @@ describe('hitos y repaso final', () => {
   })
   it('objetivos de horas', () => {
     expect(plan.days.get('2026-11-02')!.targetMin).toBe(120)
+    expect(plan.days.get('2027-01-04')!.targetMin).toBe(150) // L–V academia + NIE
     expect(plan.days.get('2027-01-02')!.targetMin).toBe(210) // sábado academia
   })
 })

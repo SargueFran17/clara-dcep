@@ -1,7 +1,7 @@
 import 'fake-indexeddb/auto'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { db } from '../db'
-import { completeLesson, completeReview, saveMockResult, saveSettings, setDayOff, setFinishDate, toggleStep, uncompleteLesson, undoReview } from './actions'
+import { completeLesson, completeReview, saveMockResult, saveSettings, setDayOff, setFinishDate, toggleStep, toggleStepPart, uncompleteLesson, undoReview } from './actions'
 import { exportBackup, importBackup, resetAll } from './backup'
 
 const pending = (key: string) => db.reviews.where('itemKey').equals(key).filter((r) => !r.doneAt).toArray()
@@ -46,6 +46,20 @@ describe('lecciones y repasos (IndexedDB)', () => {
     // desmarcar ⑩ borra los repasos pendientes
     await toggleStep('1.3', 9, '2027-01-04')
     expect(await pending('lesson:nie-1.3')).toEqual([])
+  })
+
+  it('marcar una parte de un paso guarda los minutos; la última parte completa el paso', async () => {
+    await toggleStepPart('1.8', 2, 60, 105, '2027-01-09', true)
+    let ch = await db.nieChapter.get('1.8')
+    expect(ch!.steps[1]).toBeNull()
+    expect(ch!.partial).toEqual([{ step: 2, minutes: 60, date: '2027-01-09' }])
+    // desmarcar el mismo día la quita
+    await toggleStepPart('1.8', 2, 60, 105, '2027-01-09', false)
+    expect((await db.nieChapter.get('1.8'))!.partial).toEqual([])
+    await toggleStepPart('1.8', 2, 60, 105, '2027-01-09', true)
+    await toggleStepPart('1.8', 2, 45, 105, '2027-01-10', true)
+    ch = await db.nieChapter.get('1.8')
+    expect(ch!.steps[1]).toBe('2027-01-10')
   })
 
   it('cambiar la fecha real de fin recalcula los repasos pendientes', async () => {

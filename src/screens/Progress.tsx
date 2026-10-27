@@ -9,6 +9,7 @@ import { addDays, fmtShort, startOfWeek } from '../lib/dates'
 import { PASS_MARK } from '../lib/defaults'
 import { ERROR_TYPES } from '../lib/errors'
 import { Card, Empty, PageHeader, ProgressBar } from '../components/ui'
+import { NieProgress } from '../components/NieProgress'
 import type { ChapterStatus } from '../types'
 
 const AXIS = { fontSize: 11, fill: 'currentColor' }
@@ -51,6 +52,8 @@ export function Progress() {
   return (
     <div className="space-y-4">
       <PageHeader title="Progreso" />
+
+      <NieProgress />
 
       <Card>
         <div className="flex items-end justify-between">

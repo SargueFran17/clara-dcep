@@ -99,6 +99,8 @@ export interface Settings {
   examDate: ISODate
   /** false hasta que confirmes la fecha del examen */
   examConfirmed: boolean
+  /** minutos de estudio NIE nuevo que caben cada día de la semana */
+  nieMinutes: Record<WeekKey, number>
   cumulativeTests: ISODate[]
   mocks: ISODate[]
   theme: Theme
@@ -194,8 +196,20 @@ export interface NieChapterState {
   minutes?: number[]
   /** notas libres del capítulo */
   notes?: string
+  /** partes de un paso hechas en días distintos (el paso aún no está completo) */
+  partial?: NiePartial[]
   finalDoneAt?: ISODate
 }
+
+/** Minutos de un paso hechos un día sin terminar el paso. */
+export interface NiePartial {
+  /** nº de paso (1–10) */
+  step: number
+  minutes: number
+  date: ISODate
+}
+
+export type WeekKey = 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun'
 
 /** Día marcado como "Hoy no puedo": capacidad 0 para el estudio NIE nuevo. */
 export interface DayOff {

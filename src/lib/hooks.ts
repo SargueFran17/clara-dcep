@@ -27,6 +27,7 @@ export function useNieSchedule(): NieSchedule | undefined {
       chapters: nieOrderedChapters,
       capacity: nieTemario,
       progress: new Map(states.map((x) => [x.chapterId, x.steps])),
+      partial: new Map(states.map((x) => [x.chapterId, x.partial ?? []])),
       daysOff: new Set(off.map((d) => d.date)),
       today,
     })

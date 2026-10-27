@@ -92,7 +92,8 @@ export function targetMinutes(phase: Phase, wd: number): number {
     case 'xmas':
       return 30
     case 'academy':
-      return wd === 5 ? 210 : 120
+      // L–V: 1–1,5 h de academia + 1–1,5 h de NIE; sábado más NIE; domingo NIE + repasos
+      return wd === 5 ? 210 : 150
     case 'nieBlock':
     case 'final':
       return wd === 5 ? 240 : wd === 6 ? 120 : 150
@@ -176,8 +177,8 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
     const wd = weekday(date)
     if (wd < 5) {
       // L–V: estudiar lo visto en la academia ese día, además del diario
-      day.events.push({ type: 'academyStudy', label: 'Estudio de la academia: repasar y completar lo de hoy (40 min)' })
-      day.events.push({ type: 'academyDiary', label: 'Diario de academia: 5 ideas clave, dudas y flashcards (20 min)' })
+      day.events.push({ type: 'academyStudy', label: 'Estudio de la academia: repasar y completar lo de hoy (1 h – 1 h 30 con el diario)' })
+      day.events.push({ type: 'academyDiary', label: 'Diario de academia: 5 ideas clave, dudas y flashcards (15–20 min)' })
     }
     if (wd === 6) {
       day.events.push({ type: 'weeklyReview', label: 'Repasos de la semana (2 h)' })

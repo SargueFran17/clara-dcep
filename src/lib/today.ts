@@ -26,7 +26,7 @@ export type Task =
   | { kind: 'lesson'; key: string; section: TaskSection; title: string; subtitle: string; lessonId: string; done: boolean }
   | { kind: 'review'; key: string; section: TaskSection; title: string; subtitle: string; review: Review; done: boolean; link?: string }
   | { kind: 'check'; key: string; section: TaskSection; title: string; subtitle?: string; done: boolean; link?: string }
-  | { kind: 'nieStep'; key: string; section: TaskSection; title: string; subtitle: string; chapter: string; step: number; done: boolean; link: string }
+  | { kind: 'nieStep'; key: string; section: TaskSection; title: string; subtitle: string; chapter: string; step: number; minutes: number; stepMinutes: number; done: boolean; link: string }
   /** aviso sin casilla: "X repasos más esperando" */
   | { kind: 'more'; key: string; section: TaskSection; title: string; done: false; link: string }
 
@@ -96,9 +96,16 @@ export function buildTasks(date: ISODate, plan: Plan, data: TodayData): Task[] {
     for (const n of day.nie)
       for (const c of n.steps) {
         const ref = lessonRef(`nie-${n.chapter}`)
-        const part = c.minutes < c.stepMinutes ? `${c.minutes}′ de ${c.stepMinutes}′ (el paso sigue otro día)` : `${c.minutes}′`
+        const part =
+          c.final === false && c.done
+            ? `${c.minutes}′ de ${c.stepMinutes}′ hechos hoy · mañana sale solo lo que falta`
+            : c.final === false
+            ? `${c.minutes}′ de ${c.stepMinutes}′ · marca esta parte al hacerla; mañana sale solo lo que falte`
+            : c.minutes < c.stepMinutes
+              ? `${c.minutes}′ (lo que te quedaba de ${c.stepMinutes}′)`
+              : `${c.minutes}′`
         tasks.push({
-          kind: 'nieStep', key: `nie:${n.chapter}:${c.step}`, section: 'plan', chapter: n.chapter, step: c.step,
+          kind: 'nieStep', key: `nie:${n.chapter}:${c.step}`, section: 'plan', chapter: n.chapter, step: c.step, minutes: c.minutes, stepMinutes: c.stepMinutes,
           title: `NIE ${n.chapter} · ${CIRCLED[c.step - 1]} ${stepName(c.step)}`,
           subtitle: `${part} · ${ref?.lesson.title.replace(/^\S+\s/, '') ?? ''}`,
           done: !!c.done, link: `/nie/capitulo/${n.chapter}`,

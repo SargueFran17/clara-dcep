@@ -2,19 +2,21 @@ import { useEffect, useRef, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
-import { lessonRef, nieChapterMeta, nieChapters, nieGroups, nieTemario } from '../lib/content'
+import { lessonRef, nieChapterMeta, nieGroups } from '../lib/content'
 import { useAllQuestions, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
 import { fixedSets } from '../lib/exam'
 import { chapterLabel, chapterStatus, type ChapterInfo } from '../lib/progress'
 import { getChapter, setFinishDate, toggleStep, updateChapter } from '../lib/actions'
 import { CIRCLED, stepName } from '../lib/today'
 import { reviewGuide, reviewStepLabel } from '../lib/reviews'
-import { NieMargin } from '../components/NieMargin'
+import { NieProgress } from '../components/NieProgress'
 import { fmtShort, fmtUK } from '../lib/dates'
 import { Recorder } from '../components/Recorder'
 import { Markdown } from '../components/Markdown'
 import { Button, Card, Check, Empty, PageHeader, Pill, ProgressBar } from '../components/ui'
-import type { ChapterStatus, NieChapterState } from '../types'
+import type { ChapterStatus, NieChapterState, NiePartial } from '../types'
+
+const partSum = (state: NieChapterState, step: number) => (state.partial ?? []).filter((p) => p.step === step).reduce((a, p) => a + p.minutes, 0)
 
 const STATUS_TONE: Record<ChapterStatus, 'slate' | 'amber' | 'indigo' | 'green'> = {
   pending: 'slate', inProgress: 'amber', studied: 'indigo', reviewing: 'indigo', final: 'green',
@@ -47,26 +49,7 @@ export function NieChapterList() {
   return (
     <div className="space-y-4">
       <PageHeader title="Temario NIE" subtitle={`${studied}/43 estudiados · ${finals}/43 repaso final ✓`} back="/carpetas/nie" right={<Link to="/nie/repasos" className="text-sm font-semibold text-indigo-600">Repasos →</Link>} />
-      <NieMargin />
-      <Card>
-        <div className="mb-2 flex items-baseline justify-between text-sm">
-          <span className="font-semibold">Total</span>
-          <span className="text-slate-500">{studied}/43</span>
-        </div>
-        <ProgressBar pct={(studied / 43) * 100} color="rose" />
-        <div className="mt-3 grid grid-cols-2 gap-3">
-          {Object.entries(nieTemario.parts).map(([part, name]) => {
-            const inPart = nieChapters.filter((c) => String(c.part) === part)
-            const done = inPart.filter((c) => isStudied(infos.get(c.code)!.status)).length
-            return (
-              <div key={part} title={name}>
-                <div className="flex justify-between text-xs"><span className="font-semibold">Parte {part}</span><span className="text-slate-500">{done}/{inPart.length}</span></div>
-                <ProgressBar pct={(done / inPart.length) * 100} color="indigo" className="mt-1" />
-              </div>
-            )
-          })}
-        </div>
-      </Card>
+      <NieProgress />
       {nieGroups.map((g, gi) => (
         <section key={gi}>
           <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">Grupo {gi + 1}</h2>
@@ -97,7 +80,7 @@ function ChapterRow({ chapter, info, range, today }: { chapter: string; info: Ch
         {info.state?.notes && <Pill>📝</Pill>}
       </div>
       {meta.note && <p className="mt-1 text-xs text-amber-700 dark:text-amber-300">🏅 {meta.note}</p>}
-      <StepButtons chapter={chapter} steps={steps} today={today} />
+      <StepButtons chapter={chapter} steps={steps} partial={info.state?.partial ?? []} today={today} />
       <details className="mt-2 text-sm">
         <summary className="cursor-pointer text-xs font-semibold text-slate-500">Confianza, notas y fecha de fin</summary>
         <ChapterExtras chapter={chapter} state={info.state} compact />
@@ -107,21 +90,27 @@ function ChapterRow({ chapter, info, range, today }: { chapter: string; info: Ch
 }
 
 /** ① … ⑩: un toque marca/desmarca el paso (con la fecha de hoy). */
-function StepButtons({ chapter, steps, today }: { chapter: string; steps: (string | null)[]; today: string }) {
+function StepButtons({ chapter, steps, partial, today }: { chapter: string; steps: (string | null)[]; partial: NiePartial[]; today: string }) {
   const meta = nieChapterMeta(chapter)!
   return (
     <div className="mt-2 grid grid-cols-10 gap-1">
-      {CIRCLED.map((c, i) => (
-        <button
-          key={i}
-          onClick={() => toggleStep(chapter, i, today)}
-          title={`${stepName(i + 1)} · ${meta.stepMinutes[i]}′${steps[i] ? ` · hecho ${fmtShort(steps[i]!)}` : ''}`}
-          aria-label={`Paso ${i + 1}: ${stepName(i + 1)}${steps[i] ? ' (hecho)' : ''}`}
-          className={`aspect-square w-full max-w-9 rounded-full text-base font-semibold ${steps[i] ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300'}`}
-        >
-          {c}
-        </button>
-      ))}
+      {CIRCLED.map((c, i) => {
+        const part = partial.filter((p) => p.step === i + 1).reduce((a, p) => a + p.minutes, 0)
+        const half = !steps[i] && part > 0
+        return (
+          <button
+            key={i}
+            onClick={() => toggleStep(chapter, i, today)}
+            title={`${stepName(i + 1)} · ${meta.stepMinutes[i]}′${steps[i] ? ` · hecho ${fmtShort(steps[i]!)}` : half ? ` · llevas ${part}′` : ''}`}
+            aria-label={`Paso ${i + 1}: ${stepName(i + 1)}${steps[i] ? ' (hecho)' : half ? ` (a medias: ${part} de ${meta.stepMinutes[i]} min)` : ''}`}
+            className={`aspect-square w-full max-w-9 rounded-full text-base font-semibold ${
+              steps[i] ? 'bg-rose-600 text-white' : half ? 'bg-amber-200 text-amber-900 dark:bg-amber-800 dark:text-amber-100' : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300'
+            }`}
+          >
+            {c}
+          </button>
+        )
+      })}
     </div>
   )
 }
@@ -223,7 +212,10 @@ export function NieChapter() {
                 <Check checked={!!state.steps[i]} onChange={() => toggleStep(chapter, i, today)} label={stepName(i + 1)} />
                 <div className="flex-1">
                   <div className={`text-sm font-medium ${state.steps[i] ? 'text-slate-400 line-through' : ''}`}>{CIRCLED[i]} {stepName(i + 1)}</div>
-                  <div className="text-xs text-slate-500">≈ {minutes} min{state.steps[i] && ` · hecho ${fmtShort(state.steps[i]!)}`}</div>
+                  <div className="text-xs text-slate-500">
+                    ≈ {minutes} min{state.steps[i] && ` · hecho ${fmtShort(state.steps[i]!)}`}
+                    {!state.steps[i] && partSum(state, i + 1) > 0 && <span className="text-amber-600"> · llevas {partSum(state, i + 1)}′ (a medias)</span>}
+                  </div>
                 </div>
               </div>
               {(i === 0 || i === 5) && <InitialQuestions state={state} after={i === 5} />}

@@ -15,6 +15,8 @@ export const DEFAULT_SETTINGS: Settings = {
   finalReviewEnd: '2027-05-31',
   examDate: '2027-06-01',
   examConfirmed: false,
+  // L–V: 1–1,5 h de academia + 1–1,5 h de NIE; sábado y domingo más NIE
+  nieMinutes: { mon: 75, tue: 75, wed: 75, thu: 75, fri: 75, sat: 180, sun: 120 },
   cumulativeTests: ['2027-01-31', '2027-02-28', '2027-03-28', '2027-04-25'],
   mocks: ['2027-05-01', '2027-05-08', '2027-05-15', '2027-05-22', '2027-05-29'],
   theme: 'system',

@@ -4,13 +4,13 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useCardQueue, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
 import { buildTasks, dayScore, SECTION_LABELS, type Task, type TaskSection } from '../lib/today'
-import { completeLesson, completeReview, logMinutes, saveNieDayLog, setDayOff, setTaskDone, toggleStep, uncompleteLesson, undoReview } from '../lib/actions'
+import { completeLesson, completeReview, logMinutes, saveNieDayLog, setDayOff, setTaskDone, toggleStepPart, uncompleteLesson, undoReview } from '../lib/actions'
 import { computeStreak } from '../lib/streak'
 import { diffDays, fmtLong, fmtUK } from '../lib/dates'
 import { PHASE_LABELS } from '../lib/planner'
 import { lessonLink } from '../lib/content'
 import { Card, Check, Pill, ProgressBar } from '../components/ui'
-import { NieMargin } from '../components/NieMargin'
+import { NieProgress } from '../components/NieProgress'
 
 const OVERDUE_PREVIEW = 5
 const ORDER: TaskSection[] = ['overdue', 'plan', 'academy', 'reviews', 'training', 'habits']
@@ -64,7 +64,7 @@ export function Today() {
   async function toggle(t: Task, value: boolean) {
     if (t.kind === 'lesson') return value ? completeLesson(t.lessonId, today) : uncompleteLesson(t.lessonId)
     if (t.kind === 'review') return value ? completeReview(t.review, today) : undoReview(t.review)
-    if (t.kind === 'nieStep') return toggleStep(t.chapter, t.step - 1, today)
+    if (t.kind === 'nieStep') return toggleStepPart(t.chapter, t.step, t.minutes, t.stepMinutes, today, value)
     if (t.kind === 'more') return
     return setTaskDone(today, t.key, value)
   }
@@ -97,7 +97,7 @@ export function Today() {
         {toExam > 0 && <Pill tone="red">NIE en {toExam} días{settings.examConfirmed ? '' : ' (estimado)'}</Pill>}
       </div>
 
-      {today >= settings.academyStart && today < settings.finalReviewStart && <NieMargin />}
+      {today >= settings.academyStart && today < settings.finalReviewStart && <NieProgress compact />}
 
       {today >= settings.nieStart && today < settings.finalReviewStart && dayOff !== undefined && (
         <div className="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-sm dark:border-slate-800 dark:bg-slate-900">
