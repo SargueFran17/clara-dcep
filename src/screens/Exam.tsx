@@ -1,19 +1,24 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useAllQuestions, usePlan, useSettings, useToday } from '../lib/hooks'
-import { saveAttempt } from '../lib/actions'
+import { saveAttempt, saveMockResult } from '../lib/actions'
+import { mockRows, mockTone } from '../lib/mocks'
+import { nieTemario } from '../lib/content'
 import {
   CUMULATIVE_MINUTES, CUMULATIVE_QUESTIONS, MOCK_MINUTES, MOCK_QUESTIONS, MOCK_UNSCORED, PASS_CORRECT, attemptPct, chooseUnscored, expectedQuestion, fmtTimer,
   partOf, pickBalanced, pickMock, scoreAnswers,
 } from '../lib/exam'
 import { PASS_MARK } from '../lib/defaults'
-import { fmtShort, fmtUK } from '../lib/dates'
+import { fmtShort } from '../lib/dates'
 import { QuestionView } from '../components/QuestionView'
 import { ErrorForm } from '../components/ErrorForm'
 import { Button, Card, Empty, PageHeader, Pill } from '../components/ui'
 import type { Question, TestAttempt } from '../types'
+
+// la gráfica (recharts) se carga solo si hay datos
+const MockChart = lazy(() => import('../components/MockChart'))
 
 const PARTS = ['1', '2', '3', '4']
 const PART_NAMES: Record<string, string> = { '1': 'Parte 1', '2': 'Parte 2', '3': 'Parte 3', '4': 'Parte 4' }
@@ -26,10 +31,14 @@ export function MockCenter() {
   const attempts = useLiveQuery(() => db.testAttempts.where('kind').anyOf('mock', 'cumulative', 'practice').sortBy('date'), [])
   const all = useAllQuestions()
   const nieCount = all?.filter((q) => partOf(q)).length ?? 0
-  const schedule = [
-    ...s.cumulativeTests.map((d) => ({ date: d, kind: 'cumulative' as const })),
-    ...s.mocks.map((d) => ({ date: d, kind: 'mock' as const })),
-  ].sort((a, b) => a.date.localeCompare(b.date))
+  const results = useLiveQuery(() => db.mockResults.toArray(), [])
+  const rows = mockRows(s, nieTemario.mocks, results ?? [])
+  const chart = [
+    ...rows.filter((r) => r.pct !== undefined).map((r) => ({ date: r.date, pct: r.pct! })),
+    ...(attempts ?? []).filter((a) => a.kind !== 'practice').map((a) => ({ date: a.date, pct: attemptPct(a) })),
+  ]
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map((x) => ({ label: fmtShort(x.date), pct: x.pct }))
 
   return (
     <div className="space-y-4">
@@ -57,21 +66,53 @@ export function MockCenter() {
       </Card>
 
       <Card>
-        <h2 className="mb-2 font-semibold">Calendario</h2>
-        <ul className="space-y-1 text-sm">
-          {schedule.map((x) => {
-            const done = attempts?.filter((a) => a.kind === x.kind && a.date === x.date)
-            return (
-              <li key={x.kind + x.date} className="flex items-center justify-between gap-2">
-                <span className={x.date < today && !done?.length ? 'text-rose-600' : ''}>
-                  {fmtUK(x.date)} · {x.kind === 'mock' ? 'Simulacro 80 preg.' : 'Acumulado 30 preg.'}
-                </span>
-                {done?.length ? <Pill tone={attemptPct(done.at(-1)!) >= PASS_MARK ? 'green' : 'red'}>{attemptPct(done.at(-1)!)} %</Pill> : x.date === today ? <Pill tone="amber">¡hoy!</Pill> : null}
-              </li>
-            )
-          })}
-          <li className="pt-1 font-semibold text-rose-600">{fmtUK(s.examDate)} · EXAMEN NIE (estimado)</li>
-        </ul>
+        <h2 className="mb-1 font-semibold">Tus simulacros</h2>
+        <p className="mb-2 text-xs text-slate-500">Apunta tus aciertos de cada test (Q&A, Police Pass…). Verde = objetivo cumplido · ámbar = aprobado ({PASS_MARK.toLocaleString('es-ES')} %) · rojo = por debajo.</p>
+        <div className="-mx-1 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead className="text-left text-xs text-slate-500">
+              <tr><th className="px-1 py-1">Fecha</th><th className="px-1">Tipo y material</th><th className="px-1">Aciertos</th><th className="px-1">%</th><th className="px-1">Obj.</th></tr>
+            </thead>
+            <tbody>
+              {rows.map((r) => {
+                const app = attempts?.filter((a) => a.kind === r.kind && a.date === r.date).at(-1)
+                return (
+                  <tr key={r.kind + r.date} className="border-t border-slate-200 align-top dark:border-slate-800">
+                    <td className={`px-1 py-2 whitespace-nowrap ${r.date < today && !r.result && !app ? 'text-rose-600' : ''}`}>{fmtShort(r.date)}{r.date === today && <div><Pill tone="amber">¡hoy!</Pill></div>}</td>
+                    <td className="px-1 py-2">
+                      <div className="font-medium">{r.type}</div>
+                      <div className="text-xs text-slate-500">{r.material}</div>
+                      <Link to={`/examen?kind=${r.kind}`} className="text-xs font-semibold text-indigo-600">⏱️ Hacerlo en la app ({r.questions} preg · {r.minutes} min){app && ` · ${attemptPct(app)} %`}</Link>
+                    </td>
+                    <td className="px-1 py-2">
+                      <input
+                        type="number" inputMode="numeric" min={0} max={r.questions}
+                        key={r.result?.correct ?? 'x'}
+                        defaultValue={r.result?.correct}
+                        onBlur={(e) => saveMockResult(r.date, e.target.value === '' ? null : Math.min(r.questions, Math.max(0, +e.target.value)), r.questions)}
+                        className="w-14 rounded-lg border border-slate-300 bg-white px-1 py-1 text-center dark:border-slate-700 dark:bg-slate-800"
+                        aria-label={`Aciertos del ${fmtShort(r.date)}`}
+                      />
+                      <div className="text-[11px] text-slate-500">/ {r.questions}</div>
+                    </td>
+                    <td className="px-1 py-2">{r.pct !== undefined ? <Pill tone={mockTone(r.pct, r.targetPercent)}>{r.pct.toLocaleString('es-ES')} %</Pill> : '–'}</td>
+                    <td className="whitespace-nowrap px-1 py-2 text-slate-500">{r.targetPercent} %</td>
+                  </tr>
+                )
+              })}
+              <tr className="border-t border-slate-200 dark:border-slate-800">
+                <td className="px-1 py-2 font-semibold text-rose-600">{fmtShort(s.examDate)}</td>
+                <td colSpan={4} className="px-1 py-2 font-semibold text-rose-600">EXAMEN NIE {s.examConfirmed ? '' : '(fecha estimada)'}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        {chart.length > 1 && (
+          <div className="mt-3">
+            <div className="mb-1 text-xs text-slate-500">Evolución (% · línea roja = aprobado)</div>
+            <Suspense fallback={null}><MockChart data={chart} /></Suspense>
+          </div>
+        )}
       </Card>
 
       <Card>

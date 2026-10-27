@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useToday } from '../lib/hooks'
 import { completeReview, undoReview } from '../lib/actions'
-import { bucketReviews, reviewGuide } from '../lib/reviews'
+import { bucketReviews } from '../lib/reviews'
 import { reviewTitle } from '../lib/today'
 import { addDays, fmtShort } from '../lib/dates'
 import { Check, Empty, PageHeader } from '../components/ui'
@@ -49,7 +49,6 @@ function ReviewRow({ review, today }: { review: Review; today: string }) {
   const t = reviewTitle(review)
   const done = review.doneAt === today
   const future = review.due > today
-  const guide = reviewGuide(review)
   return (
     <div className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <Check checked={done} onChange={(v) => (v ? completeReview(review, today) : undoReview(review))} label={t.title} />
@@ -59,7 +58,6 @@ function ReviewRow({ review, today }: { review: Review; today: string }) {
           {t.subtitle}
           {review.due !== today && ` · ${future ? 'toca el' : 'tocaba el'} ${fmtShort(review.due)}`}
         </div>
-        {guide && <div className="mt-0.5 text-xs text-indigo-700 dark:text-indigo-300">👉 {guide}</div>}
       </div>
       {t.link && (
         <Link to={t.link} className="rounded-full px-2 py-1 text-slate-400 hover:bg-slate-100 hover:text-indigo-600 dark:hover:bg-slate-800" aria-label="Abrir">→</Link>

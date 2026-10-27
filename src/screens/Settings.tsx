@@ -16,12 +16,12 @@ const DATE_FIELDS: { key: DateKey; label: string }[] = [
   { key: 'xmasEnd', label: 'Navidad: hasta' },
   { key: 'academyStart', label: 'Inicio de la academia' },
   { key: 'nieStart', label: 'Inicio del estudio NIE (1ª vuelta)' },
-  { key: 'academyEnd', label: 'Fin de la 1ª vuelta / academia (semana 17)' },
+  { key: 'academyEnd', label: 'Fin de la academia (18 semanas) = fin de la 1ª vuelta' },
   { key: 'nieBlockStart', label: 'Bloque NIE: desde' },
   { key: 'nieBlockEnd', label: 'Bloque NIE: hasta' },
-  { key: 'finalReviewStart', label: 'Repaso final: desde' },
+  { key: 'finalReviewStart', label: 'Repaso final: desde (aquí se cortan los repasos espaciados)' },
   { key: 'finalReviewEnd', label: 'Repaso final: hasta' },
-  { key: 'examDate', label: 'Examen NIE (estimado)' },
+  { key: 'examDate', label: 'Examen NIE' },
 ]
 
 const input = 'w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm dark:border-slate-700 dark:bg-slate-800'
@@ -82,6 +82,10 @@ export function Settings() {
             </label>
           ))}
         </div>
+        <label className="mt-3 flex items-center gap-2 text-sm">
+          <input type="checkbox" className="h-5 w-5" checked={s.examConfirmed} onChange={(e) => saveSettings({ examConfirmed: e.target.checked })} />
+          <span>Fecha del examen <b>confirmada</b> {!s.examConfirmed && <span className="text-amber-600">(ahora: estimada)</span>}</span>
+        </label>
         <div className="mt-3 space-y-3">
           {listField('cumulativeTests', 'Tests acumulados')}
           {listField('mocks', 'Simulacros completos')}

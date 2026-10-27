@@ -72,7 +72,7 @@ const PILL: Record<string, string> = {
 }
 
 export function Pill({ children, tone = 'slate' }: { children: ReactNode; tone?: keyof typeof PILL }) {
-  return <span className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${PILL[tone]}`}>{children}</span>
+  return <span className={`inline-flex items-center whitespace-nowrap rounded-full px-2 py-0.5 text-xs font-medium ${PILL[tone]}`}>{children}</span>
 }
 
 export function Button({

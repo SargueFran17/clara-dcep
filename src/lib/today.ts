@@ -43,7 +43,9 @@ export interface TodayData {
 function lessonTitle(id: string): { title: string; subtitle: string; link?: string } {
   const ref = lessonRef(id)
   if (!ref) return { title: id, subtitle: '' }
-  return { title: `${ref.lesson.code} · ${ref.lesson.title}`, subtitle: ref.subject.name, link: lessonLink(id) }
+  // los capítulos NIE ya llevan el código en el título ("1.3 Actus reus")
+  const title = ref.lesson.title.startsWith(ref.lesson.code) ? ref.lesson.title : `${ref.lesson.code} · ${ref.lesson.title}`
+  return { title, subtitle: ref.subject.name, link: lessonLink(id) }
 }
 
 export function reviewTitle(r: Review): { title: string; subtitle: string; link?: string } {

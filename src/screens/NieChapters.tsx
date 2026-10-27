@@ -110,14 +110,14 @@ function ChapterRow({ chapter, info, range, today }: { chapter: string; info: Ch
 function StepButtons({ chapter, steps, today }: { chapter: string; steps: (string | null)[]; today: string }) {
   const meta = nieChapterMeta(chapter)!
   return (
-    <div className="mt-2 flex flex-wrap gap-1">
+    <div className="mt-2 grid grid-cols-10 gap-1">
       {CIRCLED.map((c, i) => (
         <button
           key={i}
           onClick={() => toggleStep(chapter, i, today)}
           title={`${stepName(i + 1)} · ${meta.stepMinutes[i]}′${steps[i] ? ` · hecho ${fmtShort(steps[i]!)}` : ''}`}
           aria-label={`Paso ${i + 1}: ${stepName(i + 1)}${steps[i] ? ' (hecho)' : ''}`}
-          className={`h-8 w-8 rounded-full text-base font-semibold ${steps[i] ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300'}`}
+          className={`aspect-square w-full max-w-9 rounded-full text-base font-semibold ${steps[i] ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300'}`}
         >
           {c}
         </button>
