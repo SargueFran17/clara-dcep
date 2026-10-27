@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.3. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.3-01",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "Which is the correct definition of blackmail?",
+   "options": [
+    "With a view to gain or intent to cause loss, making an unwarranted demand with menaces",
+    "Threatening violence",
+    "Demanding money owed",
+    "Stealing with force"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 21.",
+    "Incomplete.",
+    "Not necessarily.",
+    "That's robbery."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · s. 21 – definition"
+  },
+  {
+   "id": "3.3-02",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "When is the offence of blackmail complete when the demand is sent by post?",
+   "options": [
+    "When the letter arrives",
+    "When the victim pays",
+    "When the letter is posted",
+    "When the victim reads it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Payment not required.",
+    "Correct: Treacy v DPP (1971).",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Demand – Treacy"
+  },
+  {
+   "id": "3.3-03",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "A man writes to a businesswoman: 'Pay me £5,000 or I'll tell the press about your affair.' Is this 'menaces'?",
+   "options": [
+    "No, menaces must be threats of violence",
+    "Yes – threats of any action detrimental or unpleasant can be menaces",
+    "Only if the affair is true",
+    "Only if she is a public figure"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: Thorne v MTA.",
+    "Irrelevant.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Menaces"
+  },
+  {
+   "id": "3.3-04",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "What standard is used to judge whether a threat amounts to menaces (R v Clear)?",
+   "options": [
+    "Whether the victim was actually scared",
+    "Whether a police officer would be scared",
+    "Whether the threat was in writing",
+    "Whether an ordinary person of normal stability and courage might be influenced to accede"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not the main test.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Menaces – Clear"
+  },
+  {
+   "id": "3.3-05",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "When is a demand with menaces 'warranted'?",
+   "options": [
+    "Whenever money is owed",
+    "When a solicitor approves",
+    "When the maker believes he has reasonable grounds for the demand AND that the menaces are a proper means of reinforcing it",
+    "When the victim agrees"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not enough.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Unwarranted demand"
+  },
+  {
+   "id": "3.3-06",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "A builder owed £2,000 texts the client: 'Pay by Friday or I'll break your legs.' Which is most likely?",
+   "options": [
+    "Unwarranted – he can hardly believe that threatening violence is a proper means",
+    "Warranted, because the money is owed",
+    "No demand",
+    "Not menaces"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "The menaces part fails.",
+    "There is a demand.",
+    "Clearly menaces."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Unwarranted – debt"
+  },
+  {
+   "id": "3.3-07",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "A man demands that a woman sleeps with him or he will post her intimate photos. Is this blackmail?",
+   "options": [
+    "Yes",
+    "Only if she pays",
+    "Only if photos are real",
+    "No – gain/loss must relate to money or other property; consider other offences"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct (s. 34(2))."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Gain and loss"
+  },
+  {
+   "id": "3.3-08",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "Which of the following counts as 'gain' under s. 34?",
+   "options": [
+    "Gaining sexual favours",
+    "Keeping what one has (money or property)",
+    "Gaining friendship",
+    "Gaining a promotion (non-property)"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not property.",
+    "Correct.",
+    "No.",
+    "Not property (⚠ careful with salary)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Gain – s. 34"
+  },
+  {
+   "id": "3.3-09",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "A blackmail demand is made by text, but the victim ignores it and pays nothing. Is the offence complete?",
+   "options": [
+    "Yes – on making the demand",
+    "No",
+    "Only if repeated",
+    "Only if the victim is scared"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Completion"
+  },
+  {
+   "id": "3.3-10",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "How is blackmail tried?",
+   "options": [
+    "Summary only",
+    "Either way",
+    "Indictable only",
+    "Civil"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Mode of trial"
+  },
+  {
+   "id": "3.3-11",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "A man tells a shopkeeper: 'Give me £200 a week or your shop windows will get smashed.' Which offence is most accurate?",
+   "options": [
+    "Robbery",
+    "Blackmail",
+    "Burglary",
+    "Theft"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No force then and there.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Blackmail vs robbery"
+  },
+  {
+   "id": "3.3-12",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "The nature of the act demanded in blackmail…",
+   "options": [
+    "must be payment of money",
+    "must be lawful",
+    "must be written",
+    "is immaterial (s. 21(2)), but there must be a view to gain or intent to cause loss in money/property"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not required.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Nature of the demand"
+  },
+  {
+   "id": "3.3-13",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "Can a demand be implied rather than express?",
+   "options": [
+    "No",
+    "Only in writing",
+    "Yes – a demand can be implied from words or conduct",
+    "Only if repeated"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Demand – implied"
+  },
+  {
+   "id": "3.3-14",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "The defendant knows the victim is unusually timid and makes a threat that would not influence most people. Can this be menaces?",
+   "options": [
+    "It may be – if he knows of the victim's timidity (⚠ R v Garwood)",
+    "No, never",
+    "Only if violence",
+    "Only if in person"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠).",
+    "Too absolute.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Menaces – timid victim"
+  },
+  {
+   "id": "3.3-15",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "Whose belief matters for whether a demand is warranted?",
+   "options": [
+    "The victim's",
+    "The jury's own view only",
+    "The police officer's",
+    "The person making the demand (subjective)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "The jury decides what he believed.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Unwarranted – subjective"
+  },
+  {
+   "id": "3.3-16",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "Which is the maximum sentence for blackmail (⚠ check)?",
+   "options": [
+    "5 years",
+    "14 years",
+    "7 years",
+    "Life"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Sentence"
+  },
+  {
+   "id": "3.3-17",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "A demand is made to cause loss to a business rival (to stop him bidding for a contract), with menaces. No gain for the defendant. Can this be blackmail?",
+   "options": [
+    "Yes – intent to cause loss to another is enough",
+    "No, gain is required",
+    "Only if he also gains",
+    "Only if loss over £1,000"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Not required.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Intent to cause loss"
+  },
+  {
+   "id": "3.3-18",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "Gain and loss include…",
+   "options": [
+    "only permanent gain/loss",
+    "only cash",
+    "temporary or permanent gain/loss of money or property",
+    "only land"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Temporary gain"
+  },
+  {
+   "id": "3.3-19",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "A man threatens to report his neighbour's genuine planning breach to the council unless she pays him £500. Which is correct?",
+   "options": [
+    "Never blackmail because reporting is lawful",
+    "Can be blackmail – threatening a lawful act can still be menaces and the demand may be unwarranted",
+    "Only if the report is false",
+    "Only if he actually reports"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Lawful act as menaces"
+  },
+  {
+   "id": "3.3-20",
+   "chapter": "3.3",
+   "lessonId": "nie-3.3",
+   "scenario": "Which pair is most accurate?",
+   "options": [
+    "Blackmail = immediate force; robbery = future threats",
+    "They are the same",
+    "Robbery needs a demand",
+    "Blackmail = menaces of anything detrimental, future OK; robbery = force then and there + theft"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Reversed.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.3 · Blackmail vs robbery"
+  }
+ ]
+}

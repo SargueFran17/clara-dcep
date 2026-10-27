@@ -210,6 +210,125 @@
    "front": "Robbery – trial & max",
    "back": "Indictable only; life",
    "es": "solo Crown Court; perpetua"
+  },
+  {
+   "id": "nie-3.6-01",
+   "lessonId": "nie-3.6",
+   "front": "Handling (s. 22)",
+   "back": "Otherwise than in course of stealing; knowing/believing; dishonestly; receive/arrange; undertake/assist retention, removal, disposal, realisation for another",
+   "es": "receptación"
+  },
+  {
+   "id": "nie-3.6-02",
+   "lessonId": "nie-3.6",
+   "front": "Handling – maximum (⚠)",
+   "back": "14 years (theft: 7)",
+   "es": "14 años"
+  },
+  {
+   "id": "nie-3.6-03",
+   "lessonId": "nie-3.6",
+   "front": "Belief – R v Hall",
+   "back": "'Can't say for certain, but no other reasonable conclusion'; suspicion not enough",
+   "es": "creer"
+  },
+  {
+   "id": "nie-3.6-04",
+   "lessonId": "nie-3.6",
+   "front": "Subjective test",
+   "back": "R v Grainge – what the defendant knew/believed",
+   "es": "subjetivo"
+  },
+  {
+   "id": "nie-3.6-05",
+   "lessonId": "nie-3.6",
+   "front": "For the benefit of another",
+   "back": "Not acting only for oneself (R v Bloxham)",
+   "es": "para otro"
+  },
+  {
+   "id": "nie-3.6-06",
+   "lessonId": "nie-3.6",
+   "front": "Stolen goods (s. 24)",
+   "back": "Theft, blackmail, fraud + goods representing them",
+   "es": "bienes robados"
+  },
+  {
+   "id": "nie-3.6-07",
+   "lessonId": "nie-3.6",
+   "front": "When goods stop being stolen",
+   "back": "Restored to owner / lawful custody / owner loses right to restitution (s. 24(3))",
+   "es": "dejan de serlo"
+  },
+  {
+   "id": "nie-3.6-08",
+   "lessonId": "nie-3.6",
+   "front": "s. 27(3)",
+   "back": "Other handling within 12 months; theft/handling conviction within 5 years (notice)",
+   "es": "prueba especial"
+  },
+  {
+   "id": "nie-3.6-09",
+   "lessonId": "nie-3.6",
+   "front": "s. 24A",
+   "back": "Dishonestly retaining a wrongful credit",
+   "es": "abono indebido"
+  },
+  {
+   "id": "nie-3.6-10",
+   "lessonId": "nie-3.6",
+   "front": "Arranging",
+   "back": "Arranging to receive/assist completes the offence",
+   "es": "acordar"
+  },
+  {
+   "id": "nie-3.3-01",
+   "lessonId": "nie-3.3",
+   "front": "Blackmail (s. 21)",
+   "back": "Unwarranted demand with menaces, with a view to gain or intent to cause loss",
+   "es": "chantaje"
+  },
+  {
+   "id": "nie-3.3-02",
+   "lessonId": "nie-3.3",
+   "front": "Demand made when…",
+   "back": "Sent – e.g. posted (Treacy v DPP)",
+   "es": "al enviarla"
+  },
+  {
+   "id": "nie-3.3-03",
+   "lessonId": "nie-3.3",
+   "front": "Menaces",
+   "back": "Any action detrimental or unpleasant (Thorne); ordinary person might accede (Clear)",
+   "es": "amenazas"
+  },
+  {
+   "id": "nie-3.3-04",
+   "lessonId": "nie-3.3",
+   "front": "Warranted only if believes…",
+   "back": "(a) reasonable grounds for the demand AND (b) menaces a proper means",
+   "es": "justificada"
+  },
+  {
+   "id": "nie-3.3-05",
+   "lessonId": "nie-3.3",
+   "front": "Gain/loss (s. 34)",
+   "back": "Money or other property; temporary or permanent; keeping what one has",
+   "es": "lucro/pérdida"
+  },
+  {
+   "id": "nie-3.3-06",
+   "lessonId": "nie-3.3",
+   "front": "Blackmail – trial & max (⚠)",
+   "back": "Indictable only; 14 years",
+   "es": "pena"
+  },
+  {
+   "id": "nie-3.3-07",
+   "lessonId": "nie-3.3",
+   "front": "Blackmail vs robbery",
+   "back": "Menaces of anything/future vs force then and there + theft",
+   "es": "diferencia"
   }
  ]
 }

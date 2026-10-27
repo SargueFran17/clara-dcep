@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.6. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.6-01",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Which best describes handling stolen goods under s. 22 Theft Act 1968?",
+   "options": [
+    "Otherwise than in the course of stealing, knowing or believing goods to be stolen, dishonestly receiving them or undertaking/assisting in their retention, removal, disposal or realisation by or for another, or arranging to do so",
+    "Stealing goods from a shop",
+    "Buying anything cheaply",
+    "Possessing goods without a receipt"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's theft.",
+    "Not enough.",
+    "Not an offence by itself."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · s. 22 – definition"
+  },
+  {
+   "id": "3.6-02",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "What is the maximum sentence for handling stolen goods (⚠ check)?",
+   "options": [
+    "7 years",
+    "10 years",
+    "14 years",
+    "Life"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Theft.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Sentence"
+  },
+  {
+   "id": "3.6-03",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "RAY buys a new laptop worth £1,000 for £50 from a stranger in a pub who says 'don't ask questions'. RAY says he suspected it might be stolen but wasn't sure. Which is correct?",
+   "options": [
+    "Suspicion is enough for handling",
+    "Suspicion alone is not enough; the jury must find he knew or believed (no other reasonable conclusion)",
+    "He is guilty because the price was low",
+    "He is not guilty because he paid"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: R v Hall; R v Grainge.",
+    "Price is evidence, not proof.",
+    "Paying doesn't prevent handling."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Knowing or believing"
+  },
+  {
+   "id": "3.6-04",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "What does 'believing' mean for handling (R v Hall (1985))?",
+   "options": [
+    "Suspecting",
+    "Knowing for certain",
+    "Being told by police",
+    "'I can't say for certain, but there can be no other reasonable conclusion in the light of all the circumstances'"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too low.",
+    "That's knowledge.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Belief – Hall"
+  },
+  {
+   "id": "3.6-05",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "SUE lets her brother hide stolen bicycles in her garage, knowing they are stolen. Which form of handling?",
+   "options": [
+    "Receiving",
+    "Arranging to receive",
+    "Undertaking or assisting in their retention for the benefit of another",
+    "No offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "She hasn't necessarily taken possession.",
+    "Possible but less accurate.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Retention for another"
+  },
+  {
+   "id": "3.6-06",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A man agrees by text to buy a stolen car tomorrow, knowing it's stolen. The deal never happens. Has he handled?",
+   "options": [
+    "Yes – arranging to receive is a form of handling",
+    "No, nothing was received",
+    "Only attempted theft",
+    "Only conspiracy"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Arranging is enough.",
+    "No.",
+    "Handling applies directly."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Arranging"
+  },
+  {
+   "id": "3.6-07",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A burglar is still inside a house passing items through the window to an accomplice outside. Is the accomplice a handler?",
+   "options": [
+    "Yes, always",
+    "Only if paid",
+    "Only if he keeps the items",
+    "Not if this is 'in the course of the stealing' – he may be a party to burglary/theft instead"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not during the stealing.",
+    "Irrelevant.",
+    "Irrelevant.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Otherwise than in the course of stealing"
+  },
+  {
+   "id": "3.6-08",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Police recover a stolen parcel and then allow it to be delivered to the suspect as planned. Can he be convicted of handling stolen goods?",
+   "options": [
+    "Yes, the goods are still stolen",
+    "Generally no – the goods ceased to be stolen when in lawful custody; consider attempted handling",
+    "Only if he pays",
+    "Only if he opens it"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect: s. 24(3).",
+    "Correct (⚠ check).",
+    "Irrelevant.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Goods ceasing to be stolen"
+  },
+  {
+   "id": "3.6-09",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Goods obtained by which of these can be 'stolen goods' for handling?",
+   "options": [
+    "Theft, blackmail or fraud",
+    "Only theft",
+    "Only robbery",
+    "Only burglary"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 24(4).",
+    "Too narrow.",
+    "Too narrow.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Stolen goods – s. 24"
+  },
+  {
+   "id": "3.6-10",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A burglar sells stolen jewellery and gives the cash to his girlfriend, who knows its origin. Can the cash be stolen goods?",
+   "options": [
+    "No, cash is not jewellery",
+    "Only if it's foreign currency",
+    "Yes – goods representing the stolen goods can be stolen goods",
+    "Only if she spends it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Irrelevant.",
+    "Correct: s. 24(2).",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Goods representing stolen goods"
+  },
+  {
+   "id": "3.6-11",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A man buys a car in good faith; later he learns it was stolen and sells it on for his own benefit. Is he handling 'for the benefit of another'?",
+   "options": [
+    "Yes",
+    "No – a purchaser selling for his own benefit is not acting for another (R v Bloxham)",
+    "Yes, because the buyer benefits",
+    "Only if paid in cash"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "The buyer isn't 'another' in this sense.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Bloxham"
+  },
+  {
+   "id": "3.6-12",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Is the test for 'knowing or believing' objective or subjective?",
+   "options": [
+    "Objective – what a reasonable person would believe",
+    "Both, equally",
+    "Neither",
+    "Subjective – what the defendant actually knew or believed"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct: R v Grainge."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Subjective test"
+  },
+  {
+   "id": "3.6-13",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Under s. 27(3), evidence that the defendant handled other stolen goods within what period may be admitted to prove knowledge/belief?",
+   "options": [
+    "5 years",
+    "10 years",
+    "12 months",
+    "Any time"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's for previous convictions.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · s. 27(3)(a)"
+  },
+  {
+   "id": "3.6-14",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Under s. 27(3)(b), a conviction for theft or handling within how many years may be admitted (with notice)?",
+   "options": [
+    "5 years",
+    "1 year",
+    "3 years",
+    "10 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · s. 27(3)(b)"
+  },
+  {
+   "id": "3.6-15",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A woman lies to police, saying a stolen TV in her flat was a gift, to stop it being found to be stolen and help her son. Which is correct?",
+   "options": [
+    "No offence, lying isn't handling",
+    "Only perverting justice",
+    "Only theft",
+    "She may be assisting in the retention of stolen goods for the benefit of another"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Lying to conceal can be assisting.",
+    "Possible too, but handling applies.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Assisting – lying to police"
+  },
+  {
+   "id": "3.6-16",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A man simply uses a stolen bike that his friend left at his house, without hiding it or helping keep it. Is mere use enough for assisting in retention?",
+   "options": [
+    "Yes, always",
+    "Not by itself – there must be something done to assist retention",
+    "Yes, if he rides it daily",
+    "Only if he paints it"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct (⚠ check cases).",
+    "Not by itself.",
+    "Painting to disguise it might be assisting."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Mere use"
+  },
+  {
+   "id": "3.6-17",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Which mental element besides knowledge/belief is required for handling?",
+   "options": [
+    "Dishonesty",
+    "Recklessness",
+    "Negligence",
+    "Malice"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Dishonesty"
+  },
+  {
+   "id": "3.6-18",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A thief, a week after stealing a phone, sells it to a friend. Can the thief be a handler of that phone?",
+   "options": [
+    "Never",
+    "Only if he stole it again",
+    "Yes – after the theft is complete, a thief can handle the goods (e.g. disposal for another's benefit)",
+    "Only if he is paid in goods"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct (often charged as theft though).",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Thief as handler"
+  },
+  {
+   "id": "3.6-19",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Dishonestly retaining a wrongful credit is an offence under…",
+   "options": [
+    "s. 22",
+    "s. 24A",
+    "s. 25",
+    "s. 12"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Handling.",
+    "Correct.",
+    "Going equipped.",
+    "TWOC."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · s. 24A"
+  },
+  {
+   "id": "3.6-20",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Goods stolen abroad and brought into England are…",
+   "options": [
+    "never stolen goods",
+    "only stolen if over £1,000",
+    "only stolen if the owner is British",
+    "stolen goods if the act was an offence where committed and would have been theft/blackmail/fraud in England"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct (⚠ check s. 24(1))."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Goods stolen abroad"
+  },
+  {
+   "id": "3.6-21",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Is handling stolen goods triable either way?",
+   "options": [
+    "No, indictable only",
+    "No, summary only",
+    "Yes",
+    "Only in youth court"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Mode of trial"
+  },
+  {
+   "id": "3.6-22",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A pawnbroker accepts jewellery, believing it is stolen, and then sells it to a customer. Which forms of handling may apply?",
+   "options": [
+    "Receiving and disposal/realisation",
+    "Only theft",
+    "Only fraud",
+    "None"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Handling applies.",
+    "Not necessarily.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Forms of handling"
+  },
+  {
+   "id": "3.6-23",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Which of these is NOT a form of handling in s. 22?",
+   "options": [
+    "Receiving",
+    "Arranging to receive",
+    "Assisting in removal for another",
+    "Reporting the goods to the police"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Form.",
+    "Form.",
+    "Form.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Forms of handling"
+  },
+  {
+   "id": "3.6-24",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Why is the maximum for handling higher than for theft?",
+   "options": [
+    "Handlers are always violent",
+    "Handlers create a market that encourages theft",
+    "It's a mistake in the law",
+    "Handling is rarer"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Policy"
+  },
+  {
+   "id": "3.6-25",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A suspect says: 'I thought the phones might be stolen, but I didn't want to know.' What might this support?",
+   "options": [
+    "Belief, if the jury finds no other reasonable conclusion; deliberately not asking can be evidence",
+    "Nothing",
+    "Automatic guilt",
+    "Automatic acquittal"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (suspicion alone is not enough).",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Shutting eyes"
+  },
+  {
+   "id": "3.6-26",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "The owner of a stolen car loses the right to restitution (e.g. by a lawful sale abroad). What happens to the goods' status?",
+   "options": [
+    "They remain stolen forever",
+    "They become 'lost property'",
+    "They cease to be stolen (s. 24(3))",
+    "Nothing changes"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Ceasing to be stolen"
+  },
+  {
+   "id": "3.6-27",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Does 'receiving' require the goods to be received for the benefit of another?",
+   "options": [
+    "Yes",
+    "No – the 'by or for the benefit of another' words apply to the undertaking/assisting forms",
+    "Only for cash",
+    "Only for vehicles"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Receiving"
+  },
+  {
+   "id": "3.6-28",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A delivery driver knowingly transports stolen TVs for a gang. Which form?",
+   "options": [
+    "Receiving",
+    "Arranging to dispose",
+    "None",
+    "Undertaking/assisting in removal for the benefit of another"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not necessarily.",
+    "Possible, but removal fits.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Removal"
+  },
+  {
+   "id": "3.6-29",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "Which statement about 'realisation' is correct?",
+   "options": [
+    "It means hiding",
+    "It means destroying",
+    "It means converting the goods into money or value, e.g. selling",
+    "It means reporting"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's retention.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Realisation"
+  },
+  {
+   "id": "3.6-30",
+   "chapter": "3.6",
+   "lessonId": "nie-3.6",
+   "scenario": "A man is found with a stolen phone. There is no evidence of when or how he got it. Which charge may be harder to prove than theft?",
+   "options": [
+    "Handling requires proof of knowing/believing and 'otherwise than in the course of stealing'; prosecutors may charge both in the alternative",
+    "None",
+    "Robbery",
+    "Burglary"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.6 · Theft or handling"
+  }
+ ]
+}
