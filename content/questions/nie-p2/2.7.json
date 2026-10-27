@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 2.7. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "2.7-01",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "ROSS stands on the other side of a busy road and shouts at PAGE that he is going to 'batter him next week'. PAGE is frightened. Has ROSS committed an assault?",
+   "options": [
+    "No, because PAGE did not apprehend the application of immediate unlawful force",
+    "Yes, because PAGE was frightened",
+    "Yes, because threats are always assaults",
+    "No, because words can never amount to an assault"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: 'next week' is not immediate.",
+    "Fear alone is not enough; the force must be apprehended as immediate.",
+    "Incorrect: the threat must be of immediate force.",
+    "Incorrect: words (or silence) can amount to an assault (R v Ireland)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Assault"
+  },
+  {
+   "id": "2.7-02",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "FRANKS makes a series of silent telephone calls at night to a former colleague, who becomes terrified that he is about to come round. Which of the following is correct?",
+   "options": [
+    "Silence can never be an assault",
+    "This can only be harassment",
+    "Silent calls can amount to an assault if the victim apprehends immediate unlawful force",
+    "This is a battery"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect: R v Ireland (1997).",
+    "Harassment may also apply, but assault is possible.",
+    "Correct.",
+    "No force was applied."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Assault – R v Ireland"
+  },
+  {
+   "id": "2.7-03",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Which statement best describes a battery?",
+   "options": [
+    "Causing someone to fear immediate unlawful force",
+    "The intentional or reckless application of unlawful force to another",
+    "Causing actual bodily harm",
+    "Wounding another person"
+   ],
+   "correct": 1,
+   "explanations": [
+    "That is an assault.",
+    "Correct.",
+    "That is s. 47.",
+    "That is s. 20/18."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Battery"
+  },
+  {
+   "id": "2.7-04",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "HAYES punches a woman who is holding her baby. She drops the baby, who is injured. In relation to the baby, which of the following is correct?",
+   "options": [
+    "There is no battery because HAYES did not touch the baby",
+    "HAYES has only committed an assault",
+    "The mother is liable for dropping the baby",
+    "A battery can be committed indirectly, so HAYES may have committed a battery on the baby"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: force can be applied indirectly.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct: Haystead v CC Derbyshire (2000)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Battery – indirect force"
+  },
+  {
+   "id": "2.7-05",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Common assault and battery are charged under which provision, and how are they tried?",
+   "options": [
+    "s. 47 OAPA 1861 – either way",
+    "s. 18 OAPA 1861 – indictable only",
+    "s. 39 Criminal Justice Act 1988 – summary only",
+    "s. 89 Police Act 1996 – either way"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That is ABH.",
+    "That is wounding/GBH with intent.",
+    "Correct.",
+    "That is assaulting a constable."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Common assault – s. 39 CJA 1988"
+  },
+  {
+   "id": "2.7-06",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "CLARK pushes MILLS, intending only to push her. MILLS falls and suffers a broken wrist. CLARK did not foresee any injury. Considering s. 47 OAPA 1861, which is correct?",
+   "options": [
+    "CLARK may be guilty because the mens rea of s. 47 is that of the assault/battery only",
+    "CLARK is not guilty because he did not foresee any harm",
+    "CLARK must be charged with s. 18",
+    "CLARK is only guilty of battery because the harm was accidental"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: R v Savage; DPP v Parmenter.",
+    "Incorrect: foresight of harm is not required.",
+    "No intent to cause GBH.",
+    "s. 47 applies if ABH is caused."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 47 – mens rea"
+  },
+  {
+   "id": "2.7-07",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Which of the following is LEAST likely to amount to 'actual bodily harm'?",
+   "options": [
+    "Cutting off a substantial amount of a person's hair",
+    "A recognised psychiatric injury",
+    "Bruising to the arm",
+    "A brief feeling of fear and panic"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Can be ABH (DPP v Smith 2006).",
+    "Can be ABH (Chan-Fook).",
+    "Typically ABH.",
+    "Correct: mere emotions are not ABH."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · ABH – meaning"
+  },
+  {
+   "id": "2.7-08",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "GREEN punches WHITE. WHITE's skin is unbroken but his collarbone is fractured. Has GREEN 'wounded' WHITE for the purposes of s. 20?",
+   "options": [
+    "Yes, because a fracture is a wound",
+    "No, because a wound requires both layers of skin to be broken",
+    "Yes, because any injury is a wound",
+    "No, because a punch can never cause a wound"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: JCC v Eisenhower (1984) – but GBH may be inflicted.",
+    "Incorrect.",
+    "Incorrect: a punch can split skin."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 20 – wound"
+  },
+  {
+   "id": "2.7-09",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "A punch splits the inside of a victim's lip, causing bleeding. Which statement is correct?",
+   "options": [
+    "This can be a wound because the continuity of the inner skin of the mouth is broken",
+    "This cannot be a wound because the skin outside is intact",
+    "This is only battery",
+    "This is automatically GBH"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect: inner skin of the mouth counts.",
+    "It may be more than battery.",
+    "GBH means really serious harm."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 20 – wound"
+  },
+  {
+   "id": "2.7-10",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "What is meant by 'grievous bodily harm'?",
+   "options": [
+    "Any injury requiring hospital treatment",
+    "Any wound",
+    "Really serious harm, assessed considering all the injuries and the victim",
+    "Harm that lasts more than a week"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not the test.",
+    "A wound is different.",
+    "Correct: DPP v Smith (1961); R v Bollom (2003).",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · GBH – meaning"
+  },
+  {
+   "id": "2.7-11",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "For an offence under s. 20 OAPA 1861, what must the defendant have foreseen?",
+   "options": [
+    "That GBH would result",
+    "That some physical harm, albeit minor, might result",
+    "That death might result",
+    "Nothing – it is strict liability"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too high.",
+    "Correct: Savage; Parmenter.",
+    "Not required.",
+    "Incorrect: 'maliciously' requires intention or recklessness."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 20 – maliciously"
+  },
+  {
+   "id": "2.7-12",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "HOLT causes a former partner serious psychiatric illness through months of threatening behaviour, without ever touching her or making her fear immediate force. Can HOLT be guilty of 'inflicting' GBH under s. 20?",
+   "options": [
+    "No, because 'inflict' requires an assault",
+    "No, because psychiatric injury is never GBH",
+    "Only under s. 47",
+    "Yes – inflicting GBH does not require an assault and serious psychiatric injury can be GBH"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect: R v Burstow.",
+    "Incorrect.",
+    "s. 47 requires an assault.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 20 – inflict"
+  },
+  {
+   "id": "2.7-13",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "During an arrest, DEAN stabs the arresting officer in the arm, intending to escape but not to cause serious harm. Which offence is most appropriate?",
+   "options": [
+    "s. 20 only, because he did not intend GBH",
+    "Common assault",
+    "s. 18 – wounding with intent to resist or prevent lawful apprehension",
+    "s. 47 only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "s. 18 also covers intent to resist arrest.",
+    "Too low.",
+    "Correct.",
+    "Too low – there is a wound."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 18 – intent to resist apprehension"
+  },
+  {
+   "id": "2.7-14",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Which of the following is correct about s. 18 OAPA 1861?",
+   "options": [
+    "It is a specific intent offence, triable only on indictment, with a maximum of life imprisonment",
+    "It is a basic intent offence",
+    "It is triable either way",
+    "It requires only recklessness as to GBH"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Incorrect.",
+    "Intent is required."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 18"
+  },
+  {
+   "id": "2.7-15",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Two friends have a 'play fight' with no intention to hurt, and one suffers a broken arm. Considering consent, which is correct?",
+   "options": [
+    "Consent can never be a defence to ABH or worse",
+    "Consent is only possible in boxing",
+    "Consent is irrelevant to all assaults",
+    "Rough horseplay is a recognised exception where genuine consent (or belief in it) may be a defence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "There are recognised exceptions.",
+    "Too narrow.",
+    "Incorrect.",
+    "Correct: R v Jones (1986)."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Consent – exceptions"
+  },
+  {
+   "id": "2.7-16",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "A group engage in sado-masochistic activities in private, all adults consenting, causing wounds. According to R v Brown (1993)…",
+   "options": [
+    "their consent is a defence",
+    "consent is not a defence to ABH or wounding in these circumstances",
+    "only the person who caused the wounds is liable for battery",
+    "no offence is committed in private"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Privacy is not a defence."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Consent – R v Brown"
+  },
+  {
+   "id": "2.7-17",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Under the Domestic Abuse Act 2021, s. 71, which is correct?",
+   "options": [
+    "Consent to serious harm for sexual gratification is not a defence to ABH or more serious offences",
+    "Consent is now always a defence",
+    "It only applies to married couples",
+    "It only applies to battery"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Incorrect.",
+    "It applies to ABH and above."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Consent – DAA 2021 s. 71"
+  },
+  {
+   "id": "2.7-18",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "In England, a mother smacks her 8-year-old son, causing bruising that lasts several days. Which is correct?",
+   "options": [
+    "The defence of reasonable punishment is available",
+    "No offence because she is a parent",
+    "The defence of reasonable punishment is not available because the harm amounts to ABH",
+    "Reasonable punishment applies to all assaults"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not for ABH.",
+    "Incorrect.",
+    "Correct: Children Act 2004, s. 58 – only common assault/battery.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Reasonable punishment – s. 58 Children Act 2004"
+  },
+  {
+   "id": "2.7-19",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "JAMES genuinely but mistakenly believes that a man reaching into his pocket is about to stab him, and punches him. In self-defence, how is the force judged?",
+   "options": [
+    "Against the true facts only",
+    "By whether it was reasonable in the circumstances as JAMES believed them to be",
+    "By whether the victim was armed",
+    "It is never reasonable to strike first"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: CJIA 2008, s. 76 (unless the mistake was due to voluntary intoxication).",
+    "Not the test.",
+    "Pre-emptive force can be lawful."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Self-defence"
+  },
+  {
+   "id": "2.7-20",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "In a 'householder case' under s. 76 CJIA 2008, which statement is correct?",
+   "options": [
+    "Any force is lawful",
+    "Force must always be proportionate",
+    "Only force with a weapon is allowed",
+    "Disproportionate force may be reasonable, but grossly disproportionate force is not"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "The householder rule is different.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Self-defence – householder"
+  },
+  {
+   "id": "2.7-21",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "WEBB, drunk, mistakenly believes he is being attacked and hits an innocent person. Can he rely on his mistaken belief?",
+   "options": [
+    "Yes, any honest belief counts",
+    "Yes, if the mistake was reasonable",
+    "No – a mistaken belief attributable to voluntary intoxication cannot be relied on",
+    "Only if he is a householder"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not if due to voluntary intoxication.",
+    "The test isn't reasonableness of the mistake.",
+    "Correct.",
+    "Not relevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Self-defence – intoxication"
+  },
+  {
+   "id": "2.7-22",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Under the Assaults on Emergency Workers (Offences) Act 2018, which is correct?",
+   "options": [
+    "It covers common assault/battery on an emergency worker acting in the exercise of functions, and makes the emergency-worker status an aggravating factor for other offences",
+    "It only protects police officers",
+    "It replaces s. 18",
+    "It applies only when the worker is off duty"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "It covers other workers too (fire, ambulance, NHS, prison…).",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Emergency workers"
+  },
+  {
+   "id": "2.7-23",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "TODD, who is not under arrest, deliberately stands in a doorway to stop PC LANE entering to save a life. Which offence is most relevant under the Police Act 1996, s. 89?",
+   "options": [
+    "Assaulting a constable",
+    "Threats to kill",
+    "s. 47 ABH",
+    "Wilfully obstructing a constable in the execution of their duty"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No force was used.",
+    "Incorrect.",
+    "No assault or ABH.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Obstructing police"
+  },
+  {
+   "id": "2.7-24",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "NASH sends a message to his ex-partner: 'I will kill you when I find you', intending that she believes he will do it. He has no intention of killing her. Which is correct?",
+   "options": [
+    "No offence, because he did not intend to kill",
+    "He may commit threats to kill because he intended her to fear the threat would be carried out",
+    "Threats to kill requires the threat to be made face to face",
+    "It is only an assault"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Intention to kill is not required.",
+    "Correct: OAPA 1861, s. 16.",
+    "Incorrect.",
+    "There is no apprehension of immediate force."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Threats to kill"
+  },
+  {
+   "id": "2.7-25",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "A threat to kill can be made in relation to…",
+   "options": [
+    "the person who receives it or a third person",
+    "only the person who receives the threat",
+    "only a police officer",
+    "only a child"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: e.g. threatening to kill someone's child.",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Threats to kill"
+  },
+  {
+   "id": "2.7-26",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "During an argument, KANE puts his hands around his partner's neck for a few seconds. She has no visible injury. Considering the offence of non-fatal strangulation (Serious Crime Act 2015, s. 75A), which is correct?",
+   "options": [
+    "No offence without injury",
+    "It only applies to strangers",
+    "The offence can be committed without any injury being caused",
+    "It requires an intention to kill"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Strangulation – s. 75A SCA 2015"
+  },
+  {
+   "id": "2.7-27",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Which of the following is an assault rather than a battery?",
+   "options": [
+    "Spitting on someone",
+    "Raising a baseball bat at someone who believes he is about to be hit",
+    "Pushing someone over",
+    "Throwing water over someone"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Application of force (battery).",
+    "Correct.",
+    "Battery.",
+    "Battery."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Assault vs battery"
+  },
+  {
+   "id": "2.7-28",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "A doctor performs properly conducted surgery with the patient's consent, causing a large wound. Why is this not s. 20?",
+   "options": [
+    "Because doctors cannot commit offences",
+    "Because the wound was small",
+    "Because surgery is strict liability",
+    "Because surgery is a recognised exception where consent is effective"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "It may be large.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Consent – surgery"
+  },
+  {
+   "id": "2.7-29",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "Which offence requires proof of intent to cause GBH (or to resist lawful apprehension)?",
+   "options": [
+    "s. 47",
+    "s. 20",
+    "s. 18",
+    "s. 39 CJA 1988"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Only assault/battery mens rea.",
+    "Only maliciously (some harm).",
+    "Correct.",
+    "Intent or recklessness for assault/battery."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · Ladder of offences"
+  },
+  {
+   "id": "2.7-30",
+   "chapter": "2.7",
+   "lessonId": "nie-2.7",
+   "scenario": "BELL throws a stone at a crowd, aware it might hit someone. It strikes a man, causing a deep cut. Which best describes BELL's mens rea for s. 20?",
+   "options": [
+    "He was reckless as to causing some harm, which is enough for 'maliciously'",
+    "He needed to intend a wound",
+    "He needed to know who he would hit",
+    "s. 20 has no mens rea"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not required.",
+    "Not required (transferred malice/recklessness).",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 2.7 · s. 20 – maliciously"
+  }
+ ]
+}

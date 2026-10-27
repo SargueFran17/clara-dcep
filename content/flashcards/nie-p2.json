@@ -1,0 +1,117 @@
+{
+ "_comment": "Flashcards de la Parte 2 del NIE. Comprueba con tu edición 2027.",
+ "cards": [
+  {
+   "id": "nie-2.7-01",
+   "lessonId": "nie-2.7",
+   "front": "Assault (definition)",
+   "back": "Causing another to apprehend immediate unlawful force (words/silence can suffice – Ireland)",
+   "es": "temor a fuerza inmediata"
+  },
+  {
+   "id": "nie-2.7-02",
+   "lessonId": "nie-2.7",
+   "front": "Battery (definition)",
+   "back": "Intentional or reckless application of unlawful force; can be indirect (Haystead)",
+   "es": "aplicar fuerza"
+  },
+  {
+   "id": "nie-2.7-03",
+   "lessonId": "nie-2.7",
+   "front": "Common assault – statute & trial",
+   "back": "s. 39 CJA 1988 – summary only",
+   "es": "s. 39"
+  },
+  {
+   "id": "nie-2.7-04",
+   "lessonId": "nie-2.7",
+   "front": "s. 47 ABH – mens rea",
+   "back": "Only that of the assault/battery; no foresight of harm needed (Savage; Roberts)",
+   "es": "solo la de la agresión"
+  },
+  {
+   "id": "nie-2.7-05",
+   "lessonId": "nie-2.7",
+   "front": "ABH meaning",
+   "back": "Hurt/injury interfering with health or comfort, more than transient (Miller); psychiatric injury; cutting hair (DPP v Smith 2006)",
+   "es": "daño real"
+  },
+  {
+   "id": "nie-2.7-06",
+   "lessonId": "nie-2.7",
+   "front": "Wound",
+   "back": "Break in both layers of the skin (JCC v Eisenhower); inner skin of mouth counts",
+   "es": "herida"
+  },
+  {
+   "id": "nie-2.7-07",
+   "lessonId": "nie-2.7",
+   "front": "GBH",
+   "back": "Really serious harm (DPP v Smith 1961); look at whole injuries and victim (Bollom)",
+   "es": "daño grave"
+  },
+  {
+   "id": "nie-2.7-08",
+   "lessonId": "nie-2.7",
+   "front": "s. 20 'maliciously'",
+   "back": "Intention or recklessness as to SOME harm (Cunningham; Savage/Parmenter)",
+   "es": "algún daño"
+  },
+  {
+   "id": "nie-2.7-09",
+   "lessonId": "nie-2.7",
+   "front": "s. 18 intents",
+   "back": "Intent to do GBH OR to resist/prevent lawful apprehension – specific intent, life max",
+   "es": "dos intenciones"
+  },
+  {
+   "id": "nie-2.7-10",
+   "lessonId": "nie-2.7",
+   "front": "R v Brown (1993)",
+   "back": "No consent to ABH or worse, except recognised exceptions",
+   "es": "consentimiento"
+  },
+  {
+   "id": "nie-2.7-11",
+   "lessonId": "nie-2.7",
+   "front": "Consent exceptions",
+   "back": "Sport, surgery, tattooing/piercing, rough horseplay (Jones), informed risk of infection",
+   "es": "excepciones"
+  },
+  {
+   "id": "nie-2.7-12",
+   "lessonId": "nie-2.7",
+   "front": "DAA 2021 s. 71",
+   "back": "Consent to serious harm for sexual gratification is no defence (ABH+)",
+   "es": "s. 71"
+  },
+  {
+   "id": "nie-2.7-13",
+   "lessonId": "nie-2.7",
+   "front": "Reasonable punishment (Children Act 2004 s. 58)",
+   "back": "England: only for common assault/battery – not ABH+. Abolished in Wales (2022)",
+   "es": "castigo razonable"
+  },
+  {
+   "id": "nie-2.7-14",
+   "lessonId": "nie-2.7",
+   "front": "Self-defence (CJIA 2008 s. 76)",
+   "back": "Reasonable force in circumstances as D believed them; householder: grossly disproportionate never reasonable",
+   "es": "legítima defensa"
+  },
+  {
+   "id": "nie-2.7-15",
+   "lessonId": "nie-2.7",
+   "front": "Threats to kill (OAPA s. 16)",
+   "back": "Threat without lawful excuse, intending the person to fear it would be carried out",
+   "es": "amenazas de muerte"
+  },
+  {
+   "id": "nie-2.7-16",
+   "lessonId": "nie-2.7",
+   "front": "Non-fatal strangulation",
+   "back": "SCA 2015 s. 75A – no injury needed",
+   "es": "estrangulamiento"
+  }
+ ]
+}

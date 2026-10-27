@@ -210,6 +210,97 @@
    "front": "Negligence?",
    "back": "Objective: below the standard of a reasonable person.",
    "es": "Negligencia: estándar objetivo."
+  },
+  {
+   "id": "nie-1.8-01",
+   "lessonId": "nie-1.8",
+   "front": "When must an ID procedure be held?",
+   "back": "Suspect known + available + disputes ID + witness has identified or may identify (unless impracticable / no useful purpose)",
+   "es": "cuándo"
+  },
+  {
+   "id": "nie-1.8-02",
+   "lessonId": "nie-1.8",
+   "front": "'Known' suspect",
+   "back": "Sufficient information to justify arrest",
+   "es": "conocido"
+  },
+  {
+   "id": "nie-1.8-03",
+   "lessonId": "nie-1.8",
+   "front": "'Available' suspect",
+   "back": "Available within a reasonably short time AND willing",
+   "es": "disponible"
+  },
+  {
+   "id": "nie-1.8-04",
+   "lessonId": "nie-1.8",
+   "front": "Identification officer",
+   "back": "Not below inspector; not involved in the investigation",
+   "es": "inspector independiente"
+  },
+  {
+   "id": "nie-1.8-05",
+   "lessonId": "nie-1.8",
+   "front": "Order of procedures",
+   "back": "Video ID → ID parade → group ID → confrontation (last resort)",
+   "es": "orden"
+  },
+  {
+   "id": "nie-1.8-06",
+   "lessonId": "nie-1.8",
+   "front": "Video ID – other images",
+   "back": "At least 8 others resembling the suspect (⚠ check)",
+   "es": "al menos 8"
+  },
+  {
+   "id": "nie-1.8-07",
+   "lessonId": "nie-1.8",
+   "front": "Street identification",
+   "back": "Only when suspect NOT known; don't direct attention; record first description",
+   "es": "en la calle"
+  },
+  {
+   "id": "nie-1.8-08",
+   "lessonId": "nie-1.8",
+   "front": "Showing photographs",
+   "back": "Only when suspect's identity is not known (Annex E)",
+   "es": "fotos"
+  },
+  {
+   "id": "nie-1.8-09",
+   "lessonId": "nie-1.8",
+   "front": "Intimate samples (s. 62)",
+   "back": "Blood, semen, urine, pubic hair, dental impression, swab from genitals/orifices other than mouth – inspector authority + written consent",
+   "es": "íntimas"
+  },
+  {
+   "id": "nie-1.8-10",
+   "lessonId": "nie-1.8",
+   "front": "Mouth swab",
+   "back": "NON-intimate sample",
+   "es": "no íntima"
+  },
+  {
+   "id": "nie-1.8-11",
+   "lessonId": "nie-1.8",
+   "front": "Refusing an intimate sample",
+   "back": "Court may draw inferences",
+   "es": "inferencias"
+  },
+  {
+   "id": "nie-1.8-12",
+   "lessonId": "nie-1.8",
+   "front": "Turnbull warning",
+   "back": "When case depends wholly/substantially on disputed eyewitness ID → caution + ADVOKATE",
+   "es": "advertencia Turnbull"
+  },
+  {
+   "id": "nie-1.8-13",
+   "lessonId": "nie-1.8",
+   "front": "s. 63A PACE",
+   "back": "Speculative searches against databases",
+   "es": "búsquedas especulativas"
   }
  ]
 }

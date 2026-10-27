@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.8 (Code D). No son preguntas reales del examen. Comprueba con tu edición 2027 y Code D vigente.",
+ "questions": [
+  {
+   "id": "1.8-01",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "SHAW is arrested for a street robbery. He denies being the robber. The victim saw the robber for about 10 seconds and gave a description. SHAW is in custody and willing to take part. What should normally happen?",
+   "options": [
+    "An identification procedure should be held, normally a video identification",
+    "Nothing – the victim's description is enough",
+    "The victim should be shown SHAW alone in the custody suite",
+    "The victim should look through mugshot albums"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: known, available, disputes, witness may identify.",
+    "Incorrect: Code D requires a procedure in these circumstances.",
+    "Confrontation is the last resort.",
+    "Photos are only shown when the suspect is not known."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · When a procedure must be held"
+  },
+  {
+   "id": "1.8-02",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "When is a suspect 'known' for the purposes of Code D?",
+   "options": [
+    "When a witness has picked them out",
+    "Only after charge",
+    "When there is sufficient information to justify their arrest for suspected involvement",
+    "When they have previous convictions"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not the definition.",
+    "Too late.",
+    "Correct.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Known suspect"
+  },
+  {
+   "id": "1.8-03",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "A victim tells police she was assaulted by her husband of 12 years, who denies being there. Is an identification procedure required?",
+   "options": [
+    "Yes, always when identity is disputed",
+    "No, it would serve no useful purpose because the victim knows him well",
+    "Yes, a confrontation must be used",
+    "Only if the husband requests it"
+   ],
+   "correct": 1,
+   "explanations": [
+    "There are exceptions.",
+    "Correct: a recognition case.",
+    "Incorrect.",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · No useful purpose"
+  },
+  {
+   "id": "1.8-04",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Who should normally be responsible for arranging and conducting an identification procedure?",
+   "options": [
+    "The officer in the case",
+    "Any sergeant",
+    "The custody officer only",
+    "An identification officer not below the rank of inspector who is not involved in the investigation"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Investigating officers must not be involved.",
+    "Rank and independence requirements.",
+    "Not necessarily.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Identification officer"
+  },
+  {
+   "id": "1.8-05",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which is normally the first choice of eyewitness identification procedure when the suspect is known and available?",
+   "options": [
+    "Confrontation",
+    "Group identification",
+    "Video identification",
+    "Street identification"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Last resort.",
+    "Used if video/parade not practicable.",
+    "Correct.",
+    "Only when the suspect is not known."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Choice of procedure"
+  },
+  {
+   "id": "1.8-06",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "In a video identification, the images of the suspect must be shown with images of at least how many other people who resemble the suspect?",
+   "options": [
+    "Eight",
+    "Four",
+    "Six",
+    "Twelve"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ check Code D Annex A).",
+    "Too few.",
+    "Too few.",
+    "Twelve applies in some parade situations with two suspects."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Video identification"
+  },
+  {
+   "id": "1.8-07",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which identification procedure involves the witness seeing ONLY the suspect?",
+   "options": [
+    "Video identification",
+    "Identification parade",
+    "Group identification",
+    "Confrontation"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Several people are shown.",
+    "Several people.",
+    "Suspect within a group.",
+    "Correct – last resort."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Confrontation"
+  },
+  {
+   "id": "1.8-08",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "A suspect refuses to take part in any identification procedure. Which may be used?",
+   "options": [
+    "Nothing at all",
+    "A covert procedure, such as covert video identification or group identification",
+    "Force to make him stand in a parade",
+    "Only fingerprints"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: covert procedures are possible.",
+    "Force cannot be used for a parade.",
+    "Different evidence."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Refusal – covert procedures"
+  },
+  {
+   "id": "1.8-09",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Five minutes after a street robbery, the suspect is unknown. PC DIAZ drives the victim around the area to see if she can spot the robber. Which is correct?",
+   "options": [
+    "It is allowed, but the officer must not direct the victim's attention to any individual and the first description should be recorded",
+    "This is never allowed",
+    "The officer should point out likely suspects",
+    "Only allowed with an inspector's authority"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "It is allowed when the suspect is not known.",
+    "Incorrect – that would taint the identification.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Street identification"
+  },
+  {
+   "id": "1.8-10",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "When may a witness be shown photographs (e.g. albums) to try to identify a suspect?",
+   "options": [
+    "At any time",
+    "Only after charge",
+    "Only when the identity of the suspect is not known",
+    "Only with the suspect's consent"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct (Annex E).",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Showing photographs"
+  },
+  {
+   "id": "1.8-11",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which of the following is a NON-intimate sample?",
+   "options": [
+    "Blood",
+    "A swab taken from the mouth",
+    "A dental impression",
+    "Pubic hair"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Intimate.",
+    "Correct.",
+    "Intimate.",
+    "Intimate."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Samples – intimate/non-intimate"
+  },
+  {
+   "id": "1.8-12",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "What is required before an intimate sample is taken from a person in police detention?",
+   "options": [
+    "Authorisation by a sergeant only",
+    "Consent only, no authorisation",
+    "Nothing, if they are arrested",
+    "Authorisation by an inspector (or above) and the person's written consent"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Rank too low.",
+    "Authorisation is also required.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Intimate samples"
+  },
+  {
+   "id": "1.8-13",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "A suspect refuses, without good cause, to give an intimate sample. Which is correct?",
+   "options": [
+    "Force can be used to take it",
+    "It is automatically a criminal offence",
+    "The court may draw such inferences from the refusal as appear proper",
+    "Nothing can follow from the refusal"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Force cannot be used for intimate samples.",
+    "Not an offence in itself.",
+    "Correct.",
+    "Inferences may be drawn."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Refusal of intimate sample"
+  },
+  {
+   "id": "1.8-14",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which of the following is an INTIMATE sample?",
+   "options": [
+    "A swab from the nose",
+    "Hair other than pubic hair",
+    "A nail clipping",
+    "Saliva"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: a swab from a body orifice other than the mouth.",
+    "Non-intimate.",
+    "Non-intimate.",
+    "Non-intimate."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Samples"
+  },
+  {
+   "id": "1.8-15",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "A man is arrested for a recordable offence and refuses to give his fingerprints. His prints have not been taken during this investigation. Which is correct?",
+   "options": [
+    "Fingerprints can never be taken without consent",
+    "Only an inspector can take them",
+    "They can only be taken after conviction",
+    "Fingerprints may be taken without consent in these circumstances, using reasonable force if necessary"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not the requirement.",
+    "Incorrect.",
+    "Correct (PACE s. 61 ⚠ check conditions)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Fingerprints – s. 61"
+  },
+  {
+   "id": "1.8-16",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Who must take a dental impression?",
+   "options": [
+    "Any police officer",
+    "A registered dentist",
+    "The custody officer",
+    "A detention officer"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Intimate samples – dental impression"
+  },
+  {
+   "id": "1.8-17",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Why must the witness's first description be recorded?",
+   "options": [
+    "So it can be compared with the suspect and disclosed, helping assess the reliability of the identification",
+    "It is optional",
+    "Only for the PNC",
+    "To decide the sentence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Not the purpose.",
+    "Not the purpose."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · First description"
+  },
+  {
+   "id": "1.8-18",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "When must a judge give a Turnbull warning?",
+   "options": [
+    "In every trial",
+    "Only in murder cases",
+    "When the case depends wholly or substantially on disputed eyewitness identification",
+    "Only if the defendant has no lawyer"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not every trial.",
+    "Too narrow.",
+    "Correct.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Turnbull"
+  },
+  {
+   "id": "1.8-19",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which of these is part of ADVOKATE?",
+   "options": [
+    "Age of the witness only",
+    "Amount of time the witness saw the suspect",
+    "Amount of compensation",
+    "Address of the witness"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not one of the points.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · ADVOKATE"
+  },
+  {
+   "id": "1.8-20",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Officers are shown CCTV of a burglary to see if any of them recognise the suspect. Which is correct?",
+   "options": [
+    "Code D does not apply",
+    "They should all watch together and discuss names",
+    "Only the OIC may watch",
+    "Code D has rules for recognition from images, e.g. recording how they recognise the person"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It does apply (⚠ check Part B).",
+    "Incorrect – risk of contamination.",
+    "Not the rule.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Recognition from images"
+  },
+  {
+   "id": "1.8-21",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which statement about group identification is correct?",
+   "options": [
+    "It shows only the suspect",
+    "It is the first choice",
+    "The witness sees the suspect in an informal group of people, and it can be held covertly",
+    "It can only take place in a police station"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's confrontation.",
+    "Video ID is normally first.",
+    "Correct.",
+    "It often takes place in public places."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Group identification"
+  },
+  {
+   "id": "1.8-22",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Before an identification procedure, what must the suspect be told (in general)?",
+   "options": [
+    "The purpose and procedure, their right to free legal advice, that refusal may be given in evidence, and that covert procedures may be used",
+    "Nothing",
+    "Only the time",
+    "Only the name of the witness"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ check the full list in Code D).",
+    "Incorrect.",
+    "Not enough.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Notice to suspect"
+  },
+  {
+   "id": "1.8-23",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "A suspect is 'available' for Code D purposes when…",
+   "options": [
+    "they are in another country",
+    "they have a solicitor",
+    "they are on bail only",
+    "they are immediately available or will be within a reasonably short time, and willing to take part"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not available.",
+    "Not the test.",
+    "Not necessarily.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Available suspect"
+  },
+  {
+   "id": "1.8-24",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Can officers involved in the investigation take part in conducting the identification procedure?",
+   "options": [
+    "Yes, always",
+    "No – they must not take part",
+    "Only the OIC",
+    "Only if the suspect agrees"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Independence"
+  },
+  {
+   "id": "1.8-25",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Where there are several witnesses and one makes a street identification, what should normally happen with the others?",
+   "options": [
+    "They should be kept separate and, where possible, take part in a formal identification procedure",
+    "They should also be shown the person in the street",
+    "They should be told who was identified",
+    "They should be released as witnesses"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Risk of contamination.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Multiple witnesses"
+  },
+  {
+   "id": "1.8-26",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which section of PACE allows the court to exclude identification evidence obtained in breach of Code D?",
+   "options": [
+    "s. 24",
+    "s. 117",
+    "s. 78",
+    "s. 1"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Arrest.",
+    "Reasonable force.",
+    "Correct: exclusion of unfair evidence.",
+    "Stop and search."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Breach – s. 78"
+  },
+  {
+   "id": "1.8-27",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Which statement about photographs of detained persons (PACE s. 64A) is correct?",
+   "options": [
+    "They can never be taken without consent",
+    "They can be taken with or without consent",
+    "Only with an inspector's authority",
+    "Only after conviction"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct (⚠ check rules on force and removal of items).",
+    "Not required.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Photographs – s. 64A"
+  },
+  {
+   "id": "1.8-28",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "A footwear impression may be taken without consent from a person arrested for a recordable offence (if not already taken in the investigation) under which section?",
+   "options": [
+    "s. 62",
+    "s. 18",
+    "s. 32",
+    "s. 61A"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Intimate samples.",
+    "Search of premises.",
+    "Search on arrest.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Footwear impressions – s. 61A"
+  },
+  {
+   "id": "1.8-29",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "The dispute in a case is not about who was present but about what happened (the suspect admits being there). Is an identification procedure likely to be required?",
+   "options": [
+    "Yes, always",
+    "Yes, a confrontation",
+    "No, it would serve no useful purpose",
+    "Only if there are CCTV images"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct.",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · No useful purpose"
+  },
+  {
+   "id": "1.8-30",
+   "chapter": "1.8",
+   "lessonId": "nie-1.8",
+   "scenario": "Checking a suspect's fingerprints or DNA against national databases is known as…",
+   "options": [
+    "a speculative search",
+    "a street identification",
+    "a confrontation",
+    "a Turnbull check"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (s. 63A).",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.8 · Speculative searches"
+  }
+ ]
+}
