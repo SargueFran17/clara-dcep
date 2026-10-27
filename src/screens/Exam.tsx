@@ -4,7 +4,10 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useAllQuestions, usePlan, useSettings, useToday } from '../lib/hooks'
 import { saveAttempt } from '../lib/actions'
-import { CUMULATIVE_MINUTES, CUMULATIVE_QUESTIONS, MOCK_MINUTES, MOCK_QUESTIONS, attemptPct, fmtTimer, partOf, pickBalanced, scoreAnswers } from '../lib/exam'
+import {
+  CUMULATIVE_MINUTES, CUMULATIVE_QUESTIONS, MOCK_MINUTES, MOCK_QUESTIONS, MOCK_UNSCORED, PASS_CORRECT, attemptPct, chooseUnscored, expectedQuestion, fmtTimer,
+  partOf, pickBalanced, pickMock, scoreAnswers,
+} from '../lib/exam'
 import { PASS_MARK } from '../lib/defaults'
 import { fmtShort, fmtUK } from '../lib/dates'
 import { QuestionView } from '../components/QuestionView'
@@ -36,7 +39,7 @@ export function MockCenter() {
         <div className="grid gap-2 sm:grid-cols-2">
           <Link to="/examen?kind=mock" className="rounded-2xl bg-rose-600 p-4 text-white">
             <div className="font-bold">⏱️ Simulacro completo</div>
-            <div className="text-sm opacity-90">{MOCK_QUESTIONS} preguntas · {MOCK_MINUTES} min</div>
+            <div className="text-sm opacity-90">{MOCK_QUESTIONS} preguntas · {MOCK_MINUTES} min · como el real</div>
           </Link>
           <Link to="/examen?kind=cumulative" className="rounded-2xl bg-indigo-600 p-4 text-white">
             <div className="font-bold">📚 Test acumulado</div>
@@ -105,16 +108,17 @@ export function Exam() {
   const [params] = useSearchParams()
   const kind = (params.get('kind') ?? 'mock') as 'mock' | 'cumulative' | 'practice'
   const parts = params.get('parts')?.split(',')
+  const chapter = params.get('chapter')
   const today = useToday()
   const plan = usePlan()
   const all = useAllQuestions()
 
-  const config = { mock: { n: MOCK_QUESTIONS, min: MOCK_MINUTES }, cumulative: { n: CUMULATIVE_QUESTIONS, min: CUMULATIVE_MINUTES }, practice: { n: 20, min: 30 } }[kind]
 
   const pool = useMemo(() => {
     if (!all) return undefined
     let p = all.filter((q) => partOf(q))
     if (parts) p = p.filter((q) => parts.includes(partOf(q)!))
+    if (chapter) p = p.filter((q) => q.chapter === chapter)
     if (kind === 'cumulative') {
       // solo capítulos cuya 1ª vuelta ya empezó
       const started = new Set([...plan.nieRanges].filter(([, [start]]) => start <= today).map(([c]) => c))
@@ -122,11 +126,16 @@ export function Exam() {
       if (studied.length) p = studied
     }
     return p
-  }, [all, kind, parts?.join(), plan, today]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [all, kind, parts?.join(), chapter, plan, today]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const base = { mock: { n: MOCK_QUESTIONS, min: MOCK_MINUTES }, cumulative: { n: CUMULATIVE_QUESTIONS, min: CUMULATIVE_MINUTES }, practice: { n: 20, min: 30 } }[kind]
+  // test cronometrado de un capítulo: hasta 20 preguntas a 90 s cada una
+  const config = chapter && pool ? { n: Math.min(20, pool.length), min: Math.max(1, Math.ceil(Math.min(20, pool.length) * 1.5)) } : base
 
   const [qs, setQs] = useState<Question[] | null>(null)
   const [answers, setAnswers] = useState<(number | null)[]>([])
   const [flags, setFlags] = useState<boolean[]>([])
+  const [unscored, setUnscored] = useState<Set<number>>(new Set())
   const [i, setI] = useState(0)
   const [startedAt, setStartedAt] = useState<number | null>(null)
   const [now, setNow] = useState(() => Date.now())
@@ -147,8 +156,9 @@ export function Exam() {
   }, [startedAt, finished])
 
   function start() {
-    const picked = pickBalanced(pool!, config.n)
+    const picked = kind === 'mock' ? pickMock(pool!, config.n) : pickBalanced(pool!, config.n)
     setQs(picked)
+    setUnscored(kind === 'mock' ? chooseUnscored(picked.length) : new Set())
     setAnswers(picked.map(() => null))
     setFlags(picked.map(() => false))
     setStartedAt(Date.now())
@@ -158,10 +168,11 @@ export function Exam() {
     if (submitted.current || !qs) return
     submitted.current = true
     const durationSec = Math.round((Date.now() - startedAt!) / 1000)
-    const sc = scoreAnswers(qs, answers)
+    const sc = scoreAnswers(qs, answers, unscored)
     await saveAttempt({
       date: today, kind, total: sc.total, correct: sc.correct, byPart: sc.byPart, durationSec,
       answers: qs.map((q, k) => ({ questionId: q.id, chosen: answers[k], correct: q.correct })),
+      unscored: [...unscored],
     })
     setFinished({ durationSec })
   }
@@ -170,7 +181,7 @@ export function Exam() {
     if (startedAt && remaining <= 0 && !finished) submit()
   }, [remaining]) // eslint-disable-line react-hooks/exhaustive-deps
 
-  const title = { mock: 'Simulacro NIE', cumulative: 'Test acumulado', practice: `Práctica · ${parts?.map((p) => PART_NAMES[p]).join(', ') ?? 'NIE'}` }[kind]
+  const title = { mock: 'Simulacro NIE', cumulative: 'Test acumulado', practice: chapter ? `Cronometrado · cap. ${chapter}` : `Práctica · ${parts?.map((p) => PART_NAMES[p]).join(', ') ?? 'NIE'}` }[kind]
 
   if (!pool) return <PageHeader title={title} back />
 
@@ -178,13 +189,18 @@ export function Exam() {
   if (!qs)
     return (
       <div>
-        <PageHeader title={title} back="/nie/simulacros" />
+        <PageHeader title={title} back={chapter ? `/nie/capitulo/${chapter}` : '/nie/simulacros'} />
         <Card>
           <ul className="space-y-1 text-sm">
             <li>📝 {Math.min(config.n, pool.length)} preguntas {pool.length < config.n && <span className="text-amber-600">(el banco tiene {pool.length}; el examen real tiene {config.n})</span>}</li>
             <li>⏱️ {config.min} minutos · ≈ {((config.min * 60) / config.n).toFixed(0)} s por pregunta</li>
             <li>🚫 Sin corrección hasta el final, como en el examen real. Puedes marcar preguntas 🚩 para revisarlas.</li>
-            <li>🎯 Aprobado NIE: {PASS_MARK.toLocaleString('es-ES')} %</li>
+            {kind === 'mock' ? (
+              <li>🎯 Como en el NIE real: {MOCK_UNSCORED} preguntas son "de prueba" y no puntúan (no sabes cuáles). Se corrige sobre {MOCK_QUESTIONS - MOCK_UNSCORED}: apruebas con {PASS_CORRECT}/{MOCK_QUESTIONS - MOCK_UNSCORED} ({PASS_MARK.toLocaleString('es-ES')} %).</li>
+            ) : (
+              <li>🎯 Aprobado NIE: {PASS_MARK.toLocaleString('es-ES')} %</li>
+            )}
+            <li>💡 Ritmo del real: 90 s por pregunta. Te indico por qué pregunta deberías ir.</li>
           </ul>
           <Button className="mt-4 w-full py-3" onClick={start} disabled={!pool.length}>
             {pool.length ? 'Empezar' : 'Aún no hay preguntas NIE en el banco'}
@@ -195,7 +211,7 @@ export function Exam() {
 
   // --- resultados ---
   if (finished) {
-    const sc = scoreAnswers(qs, answers)
+    const sc = scoreAnswers(qs, answers, unscored)
     const wrong = qs.map((q, k) => ({ q, k })).filter(({ q, k }) => answers[k] !== q.correct)
     return (
       <div className="space-y-4">
@@ -204,6 +220,11 @@ export function Exam() {
           <div className={`text-5xl font-bold ${sc.pct >= PASS_MARK ? 'text-emerald-600' : 'text-rose-600'}`}>{sc.pct}%</div>
           <p className="mt-1 text-slate-500">{sc.correct}/{sc.total} · tiempo {fmtTimer(finished.durationSec)}</p>
           <p className="mt-1 text-sm">{sc.pct >= PASS_MARK ? '✅ Aprobado' : '❌ Por debajo'} del {PASS_MARK.toLocaleString('es-ES')} %</p>
+          {unscored.size > 0 && (
+            <p className="mt-1 text-xs text-slate-500">
+              Corregido sobre {sc.total} ({unscored.size} preguntas de prueba no puntuaban). Necesitabas {PASS_CORRECT}: {sc.correct >= PASS_CORRECT ? `te sobran ${sc.correct - PASS_CORRECT}` : `te faltan ${PASS_CORRECT - sc.correct}`}.
+            </p>
+          )}
           <div className="mt-4 grid grid-cols-4 gap-2">
             {PARTS.map((p) => {
               const b = sc.byPart[p]
@@ -220,7 +241,7 @@ export function Exam() {
         <h2 className="font-semibold">Revisión de fallos ({wrong.length})</h2>
         {wrong.map(({ q, k }) => (
           <Card key={q.id}>
-            <div className="mb-2 text-xs text-slate-500">Pregunta {k + 1}{q.chapter ? ` · cap. ${q.chapter}` : ''}{answers[k] === null ? ' · en blanco' : ''}</div>
+            <div className="mb-2 text-xs text-slate-500">Pregunta {k + 1}{q.chapter ? ` · cap. ${q.chapter}` : ''}{answers[k] === null ? ' · en blanco' : ''}{unscored.has(k) ? ' · era de prueba (no puntuaba)' : ''}</div>
             <QuestionView q={q} chosen={answers[k]} reveal />
             <ErrorForm question={q} chosen={answers[k]} />
           </Card>
@@ -232,10 +253,14 @@ export function Exam() {
   // --- examen en curso ---
   const q = qs[i]
   const answered = answers.filter((a) => a !== null).length
+  const shouldBeAt = expectedQuestion((now - startedAt!) / 1000, config.min, qs.length)
   return (
     <div>
       <div className="sticky top-12 z-10 -mx-4 mb-3 flex items-center justify-between border-b border-slate-200 bg-slate-50/95 px-4 py-2 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95">
-        <span className="text-sm font-semibold">{i + 1}/{qs.length} · {answered} respondidas</span>
+        <span className="text-sm font-semibold">
+          {i + 1}/{qs.length} · {answered} respondidas
+          <span className={`block text-xs font-normal ${answered + 1 < shouldBeAt ? 'text-rose-600' : 'text-slate-500'}`}>ritmo: deberías ir por la {shouldBeAt}</span>
+        </span>
         <span className={`font-mono text-lg font-bold ${remaining < 600 ? 'text-rose-600' : ''}`}>⏱ {fmtTimer(remaining)}</span>
       </div>
       <Card>

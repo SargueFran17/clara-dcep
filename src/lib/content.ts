@@ -64,10 +64,18 @@ export function lessonLink(id: string): string {
 type CardFile = { cards: (Omit<Card, 'id' | 'subjectId'> & { id: string })[] }
 type QuestionFile = { questions: (Omit<Question, 'id' | 'subjectId'> & { id: string })[] }
 
-const fileSubject = (path: string) => path.slice(path.lastIndexOf('/') + 1, -'.json'.length)
+/**
+ * Asignatura de un archivo: content/questions/vo.json → "vo";
+ * content/questions/nie-p1/1.3.json → "nie-p1" (una carpeta por asignatura, un archivo por capítulo).
+ */
+export function fileSubject(path: string): string {
+  const parts = path.split('/')
+  const i = parts.findIndex((p) => p === 'questions' || p === 'flashcards')
+  return parts.length - i > 2 ? parts[i + 1] : parts[parts.length - 1].replace(/\.json$/, '')
+}
 
-const cardFiles = import.meta.glob('../../content/flashcards/*.json', { eager: true, import: 'default' }) as Record<string, CardFile>
-const questionFiles = import.meta.glob('../../content/questions/*.json', { eager: true, import: 'default' }) as Record<string, QuestionFile>
+const cardFiles = import.meta.glob('../../content/flashcards/**/*.json', { eager: true, import: 'default' }) as Record<string, CardFile>
+const questionFiles = import.meta.glob('../../content/questions/**/*.json', { eager: true, import: 'default' }) as Record<string, QuestionFile>
 
 export const contentCards: Card[] = Object.entries(cardFiles).flatMap(([path, file]) =>
   (file.cards ?? []).map((c) => ({ ...c, id: `c:${c.id}`, subjectId: fileSubject(path) })),

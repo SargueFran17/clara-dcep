@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { fmtTimer, partOf, pickBalanced, scoreAnswers } from './exam'
+import { chooseUnscored, expectedQuestion, fixedSets, fmtTimer, partOf, partQuotas, pickBalanced, pickMock, scoreAnswers } from './exam'
 import type { Question } from '../types'
 
 const q = (id: string, chapter: string, correct = 0): Question => ({
@@ -38,5 +38,40 @@ describe('exámenes', () => {
   it('temporizador', () => {
     expect(fmtTimer(7200)).toBe('2:00:00')
     expect(fmtTimer(65)).toBe('1:05')
+  })
+
+  it('simulacro: 80 preguntas repartidas por partes según nº de capítulos', () => {
+    expect(partQuotas(80)).toEqual({ '1': 22, '2': 26, '3': 17, '4': 15 })
+    const pool = ['1.3', '2.7', '3.1', '4.2'].flatMap((c) => Array.from({ length: 40 }, (_, i) => q(`${c}-${i}`, c)))
+    const mock = pickMock(pool, 80, seeded(3))
+    expect(mock.length).toBe(80)
+    expect(mock.filter((x) => partOf(x) === '2').length).toBe(26)
+  })
+
+  it('simulacro: si falta una parte se completa con las demás', () => {
+    const pool = Array.from({ length: 100 }, (_, i) => q(`p1-${i}`, '1.3'))
+    expect(pickMock(pool, 80).length).toBe(80)
+  })
+
+  it('10 preguntas no puntúan: se corrige sobre 70', () => {
+    const qs = Array.from({ length: 80 }, (_, i) => q(`x${i}`, '1.3', 0))
+    const unscored = chooseUnscored(80, 10, seeded(5))
+    expect(unscored.size).toBe(10)
+    const s = scoreAnswers(qs, qs.map(() => 0), unscored)
+    expect(s.total).toBe(70)
+    expect(s.correct).toBe(70)
+    expect(chooseUnscored(30).size).toBe(0)
+  })
+
+  it('tests fijos por capítulo en bloques de 10', () => {
+    const qs = Array.from({ length: 23 }, (_, i) => q(`1.3-${i + 1}`, '1.3'))
+    const sets = fixedSets(qs)
+    expect(sets.map((x) => x.length)).toEqual([10, 10, 3])
+    expect(sets[0][1].id).toBe('1.3-2')
+  })
+
+  it('ritmo de 90 s por pregunta', () => {
+    expect(expectedQuestion(0, 120, 80)).toBe(1)
+    expect(expectedQuestion(60 * 60, 120, 80)).toBe(41)
   })
 })

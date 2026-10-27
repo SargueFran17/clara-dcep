@@ -3,7 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { useAllQuestions, useToday } from '../lib/hooks'
 import { saveAttempt } from '../lib/actions'
 import { findSubject, lessonRef } from '../lib/content'
-import { pickBalanced, scoreAnswers } from '../lib/exam'
+import { fixedSets, pickBalanced, scoreAnswers } from '../lib/exam'
 import { PASS_MARK } from '../lib/defaults'
 import { QuestionView } from '../components/QuestionView'
 import { ErrorForm } from '../components/ErrorForm'
@@ -20,6 +20,8 @@ export function Practice() {
   const subject = params.get('subject')
   const chapter = params.get('chapter')
   const n = Number(params.get('n') ?? 5)
+  /** test fijo nº `set` del capítulo/asignatura (bloques de 10) */
+  const set = params.get('set') ? Number(params.get('set')) : null
   const today = useToday()
   const all = useAllQuestions()
   const [qs, setQs] = useState<Question[] | null>(null)
@@ -32,12 +34,12 @@ export function Practice() {
     const pool = all.filter((q) =>
       lesson ? q.lessonId === lesson || (lesson.startsWith('nie-') && q.chapter === lesson.slice(4)) : chapter ? q.chapter === chapter : subject ? q.subjectId === subject : true,
     )
-    const picked = pickBalanced(pool, n)
+    const picked = set ? fixedSets(pool)[set - 1] ?? [] : pickBalanced(pool, n)
     setQs(picked)
     setAnswers(picked.map(() => null))
-  }, [all, qs, lesson, subject, chapter, n])
+  }, [all, qs, lesson, subject, chapter, n, set])
 
-  const title = lesson ? `Mini-test · ${lessonRef(lesson)?.lesson.code}` : chapter ? `Test · capítulo ${chapter}` : subject ? `Test · ${findSubject(subject)?.subject.name}` : 'Test'
+  const title = lesson ? `Mini-test · ${lessonRef(lesson)?.lesson.code}` : chapter ? `Test${set ? ` ${set}` : ''} · capítulo ${chapter}` : subject ? `Test · ${findSubject(subject)?.subject.name}` : 'Test'
   const done = !!qs && i >= qs.length
   const score = qs && scoreAnswers(qs, answers)
 
@@ -71,7 +73,7 @@ export function Practice() {
             {score!.pct >= PASS_MARK ? 'Por encima' : 'Por debajo'} del aprobado NIE ({PASS_MARK.toLocaleString('es-ES')} %)
           </p>
           <div className="mt-4 flex justify-center gap-2">
-            <Button variant="ghost" onClick={() => { setQs(null); setI(0); setSaved(false) }}>Otra vez</Button>
+            <Button variant="ghost" onClick={() => { setQs(null); setI(0); setSaved(false) }}>Repetir</Button>
             <Link to="/errores" className="rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white">Registro de errores</Link>
           </div>
         </Card>

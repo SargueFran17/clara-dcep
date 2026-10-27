@@ -3,7 +3,8 @@ import { Link, useParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { lessonRef, nieGroups } from '../lib/content'
-import { useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
+import { useAllQuestions, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
+import { fixedSets } from '../lib/exam'
 import { chapterLabel, chapterStatus, NIE_STEPS, type ChapterInfo } from '../lib/progress'
 import { getChapter, toggleStep, updateChapter } from '../lib/actions'
 import { fmtShort, fmtUK } from '../lib/dates'
@@ -105,10 +106,11 @@ export function NieChapter() {
         <p className="text-sm">⚠ Estudia siempre con el <b>Blackstone's Police Investigators' Manual 2027</b>: el examen sale solo de ahí. Mis explicaciones te ayudan a entenderlo; comprueba con tu edición 2027.</p>
         <div className="mt-3 flex flex-wrap gap-2">
           <Link to={`/leccion/nie-${chapter}`} className="rounded-xl bg-indigo-600 px-3 py-2 text-sm font-semibold text-white">📖 Mi explicación fácil</Link>
-          <Link to={`/test?chapter=${chapter}&n=10`} className="rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold dark:bg-slate-800">📝 Test del capítulo</Link>
           <Link to={`/flashcards/${ref.subject.id}`} className="rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold dark:bg-slate-800">🃏 Flashcards</Link>
         </div>
       </Card>
+
+      <ChapterTests chapter={chapter} />
 
       <Card>
         <div className="mb-3 flex items-baseline justify-between">
@@ -234,5 +236,38 @@ function SummaryEditor({ chapterId, initial }: { chapterId: string; initial: str
         />
       )}
     </div>
+  )
+}
+
+/** Tests del capítulo: bloques fijos de 10 (Test 1, 2, 3…), uno al azar y uno cronometrado. */
+function ChapterTests({ chapter }: { chapter: string }) {
+  const questions = useAllQuestions()?.filter((q) => q.chapter === chapter)
+  if (!questions) return null
+  const sets = fixedSets(questions)
+  return (
+    <Card>
+      <div className="mb-2 flex items-baseline justify-between">
+        <h2 className="font-semibold">Tests tipo NIE</h2>
+        <span className="text-xs text-slate-500">{questions.length} preguntas</span>
+      </div>
+      {questions.length ? (
+        <>
+          <div className="grid grid-cols-3 gap-2">
+            {sets.map((set, k) => (
+              <Link key={k} to={`/test?chapter=${chapter}&set=${k + 1}`} className="rounded-xl bg-emerald-50 p-2 text-center text-sm font-semibold dark:bg-emerald-950/40">
+                Test {k + 1}
+                <span className="block text-[11px] font-normal text-slate-500">{set.length} preg.</span>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <Link to={`/test?chapter=${chapter}&n=10`} className="rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold dark:bg-slate-800">🎲 10 al azar</Link>
+            <Link to={`/examen?kind=practice&chapter=${chapter}`} className="rounded-xl bg-rose-600 px-3 py-2 text-sm font-semibold text-white">⏱️ Cronometrado (90 s/preg.)</Link>
+          </div>
+        </>
+      ) : (
+        <p className="text-sm text-slate-500">Aún no hay preguntas de este capítulo. Puedes añadir las tuyas desde la asignatura.</p>
+      )}
+    </Card>
   )
 }

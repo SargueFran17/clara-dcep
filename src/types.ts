@@ -218,6 +218,8 @@ export interface TestAttempt {
   byPart?: Record<string, { total: number; correct: number }>
   durationSec?: number
   answers?: { questionId: string; chosen: number | null; correct: number }[]
+  /** índices de las preguntas de prueba (no puntúan) en simulacros completos */
+  unscored?: number[]
 }
 
 export interface AcademyDay {
