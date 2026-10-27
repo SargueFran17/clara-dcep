@@ -320,6 +320,286 @@
     "Required."
    ],
    "manualRef": "Blackstone's 2027 · 3.2 · Elements"
+  },
+  {
+   "id": "3.2-17",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A robber uses force on a victim's friend standing next to her so he can take the victim's bag. Can this be robbery?",
+   "options": [
+    "Yes – force on any person in order to steal",
+    "No, force must be on the victim",
+    "Only if the friend is injured",
+    "Only if the friend owns the bag"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Force on any person"
+  },
+  {
+   "id": "3.2-18",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A man threatens a shopkeeper: 'If you don't give me the cash now, I'll smash your face in.' He gets the cash. Which is correct?",
+   "options": [
+    "Blackmail only",
+    "Fraud",
+    "Robbery – fear of force then and there in order to steal",
+    "Theft only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Immediate force – robbery fits.",
+    "No.",
+    "Correct.",
+    "Force/fear present."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Threats – robbery"
+  },
+  {
+   "id": "3.2-19",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "To prove robbery, which must the prosecution prove about the theft?",
+   "options": [
+    "Only that property was taken",
+    "All the elements of theft (dishonesty, appropriation, property, belonging to another, ITPD)",
+    "Only force",
+    "That the property was valuable"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not enough.",
+    "Correct.",
+    "Not enough.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Theft elements"
+  },
+  {
+   "id": "3.2-20",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A suspect pretends to have a gun in his pocket and demands a phone from a teenager, who hands it over. Is this robbery?",
+   "options": [
+    "No, because there was no gun",
+    "Only if the gun was real",
+    "Only assault",
+    "Yes – he sought to put the victim in fear of being then and there subjected to force"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "Robbery applies.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Fear – imitation weapon"
+  },
+  {
+   "id": "3.2-21",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A man uses force on a woman to take her car keys, intending only to drive the car around and return it. Is this robbery of the car?",
+   "options": [
+    "Yes",
+    "Always robbery",
+    "Not robbery of the car if there is no intention to permanently deprive (no theft); consider other offences",
+    "Only TWOC"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Theft requires ITPD.",
+    "Incorrect.",
+    "Correct (consider robbery of the keys if ITPD exists for them, TWOC, assault).",
+    "Other offences may also apply."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · No theft – no robbery"
+  },
+  {
+   "id": "3.2-22",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Which is a correct statement of the timing rule?",
+   "options": [
+    "Force must be used immediately before or at the time of stealing",
+    "Force can be used at any time after the theft",
+    "Force must be used a day before",
+    "Timing is irrelevant"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Timing"
+  },
+  {
+   "id": "3.2-23",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A man pulls a woman's handbag; she holds on and is dragged a short distance before letting go. Is this robbery?",
+   "options": [
+    "No – only theft",
+    "Only criminal damage",
+    "Only assault",
+    "Yes – force was used on her in order to steal"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Force on the person.",
+    "No.",
+    "Robbery is more accurate.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Force"
+  },
+  {
+   "id": "3.2-24",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Which is NOT required for robbery?",
+   "options": [
+    "A theft",
+    "That the victim is injured",
+    "Use of force or fear of force",
+    "That the force is in order to steal"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Required.",
+    "Correct: injury not required.",
+    "Required.",
+    "Required."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Elements"
+  },
+  {
+   "id": "3.2-25",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "An offender robs a petrol station with a knife. Which other offence might also be considered depending on facts?",
+   "options": [
+    "Possession of an offensive weapon / bladed article",
+    "Burglary of a dwelling",
+    "TWOC",
+    "Making off without payment"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not a dwelling.",
+    "Not relevant.",
+    "Not relevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Related offences"
+  },
+  {
+   "id": "3.2-26",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Assault with intent to rob under s. 8(2) is…",
+   "options": [
+    "summary only",
+    "either way",
+    "indictable only",
+    "not an offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · s. 8(2)"
+  },
+  {
+   "id": "3.2-27",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A victim gives his wallet to a robber who threatened immediate violence. Has the robber 'appropriated' the wallet even though the victim handed it over?",
+   "options": [
+    "No, the victim consented",
+    "Yes – consent obtained by threats does not prevent appropriation",
+    "Only if the robber grabbed it",
+    "Only if the wallet contained cash"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not genuine consent; and appropriation can occur with consent.",
+    "Correct.",
+    "Not required.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Appropriation"
+  },
+  {
+   "id": "3.2-28",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A robber knocks a man unconscious and then takes his watch. Which is correct?",
+   "options": [
+    "Not robbery because the victim was unconscious when the watch was taken",
+    "Only theft",
+    "Only GBH",
+    "Robbery – force used immediately before stealing and in order to steal"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Force used.",
+    "Robbery also applies.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Force before theft"
+  },
+  {
+   "id": "3.2-29",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "Which statement about the threat of force is correct?",
+   "options": [
+    "Only threats to the owner count",
+    "Only written threats count",
+    "Threats can be to put any person in fear",
+    "Threats must be repeated"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Fear – any person"
+  },
+  {
+   "id": "3.2-30",
+   "chapter": "3.2",
+   "lessonId": "nie-3.2",
+   "scenario": "A man says to a shop assistant: 'Give me the money or I'll burn your house down tonight.' Which is most accurate?",
+   "options": [
+    "Not robbery (no fear of force then and there); consider blackmail",
+    "Robbery",
+    "Burglary",
+    "No offence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not immediate.",
+    "No.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.2 · Future threats"
   }
  ]
 }
