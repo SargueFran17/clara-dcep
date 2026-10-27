@@ -1,0 +1,805 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.7. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.7-01",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A suspect is brought into custody. The custody officer decides there is not yet sufficient evidence to charge. When can detention be authorised?",
+   "options": [
+    "If there are reasonable grounds for believing detention is necessary to secure or preserve evidence or obtain evidence by questioning",
+    "Always, if the officer in the case asks",
+    "Only if the suspect has previous convictions",
+    "Never – he must be released"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 37(2) PACE.",
+    "Not the test.",
+    "Irrelevant.",
+    "Detention can be authorised on these grounds."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Authorising detention – s. 37"
+  },
+  {
+   "id": "1.7-02",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "JONES is arrested in the street at 09:00 and arrives at the police station at 09:45. Detention is authorised at 10:00. What is the 'relevant time'?",
+   "options": [
+    "09:00",
+    "10:00",
+    "09:45",
+    "09:00 the next day"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Time of arrest is not normally the relevant time.",
+    "That is when detention was authorised.",
+    "Correct: arrival at the first police station (if earlier than 24 h after arrest).",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Relevant time – s. 41(2)"
+  },
+  {
+   "id": "1.7-03",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Using the same facts (arrival 09:45, detention authorised 10:00), when must the first review take place at the latest?",
+   "options": [
+    "15:00",
+    "16:00",
+    "15:45",
+    "18:45"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: 6 hours after detention was first authorised.",
+    "That would be 6 h from arrival (relevant time) – wrong reference point.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Reviews – s. 40"
+  },
+  {
+   "id": "1.7-04",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "After the first review, at what maximum intervals must further pre-charge reviews take place?",
+   "options": [
+    "Every 6 hours",
+    "Every 12 hours",
+    "Every 24 hours",
+    "Every 9 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "First review only.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Reviews – intervals"
+  },
+  {
+   "id": "1.7-05",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Who conducts pre-charge reviews of detention?",
+   "options": [
+    "The custody officer",
+    "The officer in the case",
+    "An inspector not directly involved in the investigation",
+    "A superintendent"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Post-charge reviews.",
+    "Not independent.",
+    "Correct.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Review officer"
+  },
+  {
+   "id": "1.7-06",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A man attends the police station voluntarily at 14:00 and is arrested there at 15:30. What is the relevant time?",
+   "options": [
+    "15:30",
+    "14:00",
+    "When he arrived at the custody desk",
+    "24 hours after arrival"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: time of arrest.",
+    "Voluntary attendance is not detention.",
+    "Not the rule here.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Relevant time – voluntary attendance"
+  },
+  {
+   "id": "1.7-07",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "What is the basic maximum period of detention without charge under s. 41 PACE?",
+   "options": [
+    "12 hours",
+    "36 hours",
+    "96 hours",
+    "24 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "With superintendent's extension.",
+    "Absolute maximum with warrants.",
+    "Correct, from the relevant time."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Detention limits – s. 41"
+  },
+  {
+   "id": "1.7-08",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Who can authorise continued detention beyond 24 hours up to 36 hours?",
+   "options": [
+    "An inspector",
+    "A superintendent (or above) responsible for the station",
+    "A magistrate only",
+    "The custody officer"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too low.",
+    "Correct: s. 42.",
+    "Magistrates deal with beyond 36 h.",
+    "Too low."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Extension – s. 42"
+  },
+  {
+   "id": "1.7-09",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "For a superintendent's extension under s. 42, the offence must be…",
+   "options": [
+    "an indictable offence",
+    "any recordable offence",
+    "summary only",
+    "a terrorism offence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not enough.",
+    "Incorrect.",
+    "Different rules (Code H)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Extension – conditions"
+  },
+  {
+   "id": "1.7-10",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Which of the following is NOT a condition for a superintendent's extension?",
+   "options": [
+    "The offence is indictable",
+    "Detention is necessary to secure, preserve or obtain evidence",
+    "The suspect has refused to answer questions",
+    "The investigation is being conducted diligently and expeditiously"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It is a condition.",
+    "It is a condition.",
+    "Correct: not a condition.",
+    "It is a condition."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Extension – conditions"
+  },
+  {
+   "id": "1.7-11",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "What is the absolute maximum period of pre-charge detention under PACE (non-terrorism), including warrants of further detention?",
+   "options": [
+    "36 hours",
+    "96 hours",
+    "72 hours",
+    "14 days"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Superintendent's limit.",
+    "Correct.",
+    "Incorrect.",
+    "Terrorism (different regime)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Warrants of further detention – ss. 43–44"
+  },
+  {
+   "id": "1.7-12",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Who issues a warrant of further detention?",
+   "options": [
+    "A superintendent",
+    "A chief constable",
+    "The CPS",
+    "A magistrates' court"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct: s. 43."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Warrant of further detention"
+  },
+  {
+   "id": "1.7-13",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A detainee's right to have someone informed of his arrest (s. 56) may be delayed. Who can authorise the delay?",
+   "options": [
+    "A sergeant",
+    "Only a superintendent",
+    "An inspector (or above)",
+    "Only a magistrate"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too low.",
+    "That is for s. 58.",
+    "Correct.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · s. 56 – delay"
+  },
+  {
+   "id": "1.7-14",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Who can authorise delay of the right to consult a solicitor under s. 58?",
+   "options": [
+    "A superintendent (or above)",
+    "An inspector",
+    "The custody officer",
+    "The OIC"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That is for s. 56.",
+    "Too low.",
+    "Not permitted."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · s. 58 – delay"
+  },
+  {
+   "id": "1.7-15",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "For which offences can the rights under s. 56 and s. 58 be delayed?",
+   "options": [
+    "Any offence",
+    "Summary offences only",
+    "Only drugs offences",
+    "Indictable offences only"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Too narrow.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Delay of rights – offences"
+  },
+  {
+   "id": "1.7-16",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "What is the maximum delay of the right to legal advice (non-terrorism) under s. 58?",
+   "options": [
+    "12 hours",
+    "36 hours from the relevant time",
+    "24 hours",
+    "96 hours"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · s. 58 – maximum delay"
+  },
+  {
+   "id": "1.7-17",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Which is a ground for delaying the right to legal advice?",
+   "options": [
+    "Reasonable grounds for believing that exercising it will lead to alerting other suspects not yet arrested",
+    "The solicitor is busy",
+    "The officer wants a quick confession",
+    "The detainee is a juvenile"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not a ground.",
+    "Improper.",
+    "Not a ground."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Delay – grounds"
+  },
+  {
+   "id": "1.7-18",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Legal advice has been lawfully delayed and the suspect is interviewed. Which caution should be used?",
+   "options": [
+    "The full caution",
+    "No caution",
+    "The restricted caution (no adverse inferences)",
+    "A special warning"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Inferences cannot be drawn.",
+    "Incorrect.",
+    "Correct.",
+    "Different concept."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Restricted caution"
+  },
+  {
+   "id": "1.7-19",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A detained person appears to be 16 but has no ID. How should he be treated?",
+   "options": [
+    "As an adult until proved otherwise",
+    "As a juvenile, because he appears to be under 18",
+    "As a juvenile only if under 14",
+    "As a vulnerable adult"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Juvenile rules apply."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Juveniles"
+  },
+  {
+   "id": "1.7-20",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Which person requires an appropriate adult?",
+   "options": [
+    "A 19-year-old with no vulnerability",
+    "A police officer",
+    "A solicitor",
+    "A 17-year-old"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not unless vulnerable.",
+    "No.",
+    "No.",
+    "Correct: juvenile."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Appropriate adult"
+  },
+  {
+   "id": "1.7-21",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "How often should a detainee who is intoxicated be visited and roused (in general)?",
+   "options": [
+    "Every 4 hours",
+    "Every hour",
+    "At least every half hour",
+    "Only when asleep for 8 hours"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too long.",
+    "Normal checks.",
+    "Correct (Annex H ⚠).",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Care – intoxicated detainees"
+  },
+  {
+   "id": "1.7-22",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "In any 24-hour period, how many meals should a detainee be offered (⚠ check Code C)?",
+   "options": [
+    "Two light meals and one main meal",
+    "One main meal",
+    "Three main meals",
+    "Only drinks"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not enough.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Conditions – meals"
+  },
+  {
+   "id": "1.7-23",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "How long a continuous rest period should a detainee normally have in any 24 hours?",
+   "options": [
+    "4 hours",
+    "6 hours",
+    "12 hours",
+    "8 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too short.",
+    "Too short.",
+    "Incorrect.",
+    "Correct (⚠ check Code C 12.2)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Conditions – rest"
+  },
+  {
+   "id": "1.7-24",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "What is an intimate search under s. 55 PACE?",
+   "options": [
+    "A search requiring removal of more than outer clothing",
+    "A physical examination of a person's body orifices other than the mouth",
+    "A search of the mouth",
+    "A search of a vehicle"
+   ],
+   "correct": 1,
+   "explanations": [
+    "That's a strip search.",
+    "Correct.",
+    "The mouth is excluded.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Intimate search – definition"
+  },
+  {
+   "id": "1.7-25",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Who can authorise an intimate search?",
+   "options": [
+    "An inspector (or above)",
+    "The custody officer",
+    "A superintendent only",
+    "A doctor"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too low.",
+    "Not required.",
+    "The doctor carries it out."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Intimate search – authorisation"
+  },
+  {
+   "id": "1.7-26",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A suspect is believed to have concealed Class A drugs inside his body intending to supply them. Which is correct about a drug offence intimate search?",
+   "options": [
+    "It can be done at the police station by any officer",
+    "It requires no consent",
+    "It requires written consent and must be done by a registered medical practitioner or registered nurse at medical premises",
+    "It can be done by force"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Consent is required.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Intimate search – drugs"
+  },
+  {
+   "id": "1.7-27",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "An intimate search may be authorised where there are reasonable grounds for believing the person has concealed…",
+   "options": [
+    "any controlled drug",
+    "a Class A drug with intent to supply or export, or an article that could cause physical injury",
+    "stolen money",
+    "a mobile phone"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too wide.",
+    "Correct.",
+    "Not a ground.",
+    "Not a ground."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Intimate search – grounds"
+  },
+  {
+   "id": "1.7-28",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "X-rays or ultrasound scans for concealed Class A drugs (s. 55A) require…",
+   "options": [
+    "no authority",
+    "only a doctor's view",
+    "a magistrate's warrant",
+    "inspector authorisation and the person's written consent"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not enough.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · s. 55A – X-ray"
+  },
+  {
+   "id": "1.7-29",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Who authorises a strip search in custody?",
+   "options": [
+    "A superintendent",
+    "A magistrate",
+    "The custody officer",
+    "Any officer"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not required.",
+    "No.",
+    "Correct (Annex A ⚠).",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Strip search"
+  },
+  {
+   "id": "1.7-30",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A strip search may only be carried out if…",
+   "options": [
+    "necessary to remove an article the detainee would not be allowed to keep",
+    "the detainee is rude",
+    "the detainee is a juvenile",
+    "always on arrival"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not a reason.",
+    "Not by itself.",
+    "Not routinely."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Strip search – necessity"
+  },
+  {
+   "id": "1.7-31",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Under s. 54 PACE, clothes or personal effects may be seized if the custody officer believes they may be used to…",
+   "options": [
+    "contact a solicitor",
+    "pay for food",
+    "prove the detainee's identity only",
+    "cause physical injury, damage property, interfere with evidence or assist escape"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Too narrow.",
+    "Correct (or they may be evidence)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Searches – s. 54"
+  },
+  {
+   "id": "1.7-32",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Where should interviews normally take place?",
+   "options": [
+    "Anywhere convenient",
+    "At a police station, unless delay would lead to specified consequences",
+    "In the suspect's home",
+    "In the police car"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: Code C 11.1.",
+    "Not normally.",
+    "Not normally."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Interviews – location"
+  },
+  {
+   "id": "1.7-33",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "After a suspect has been charged, can he be interviewed about that offence?",
+   "options": [
+    "Only in limited circumstances, e.g. to prevent harm, clear up ambiguity or put new information",
+    "Yes, without restriction",
+    "Never under any circumstances",
+    "Only by the CPS"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ Code C 16.5).",
+    "Incorrect.",
+    "Too absolute.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Post-charge interviews"
+  },
+  {
+   "id": "1.7-34",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Who conducts reviews of detention AFTER charge?",
+   "options": [
+    "An inspector",
+    "A superintendent",
+    "The custody officer",
+    "Magistrates"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Pre-charge.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Reviews after charge"
+  },
+  {
+   "id": "1.7-35",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A detainee appears ill. What should the custody officer do?",
+   "options": [
+    "Wait until the end of the interview",
+    "Ensure clinical attention from a healthcare professional",
+    "Release immediately",
+    "Ignore if not serious"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not necessarily.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Health care"
+  },
+  {
+   "id": "1.7-36",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Which annex of Code C deals with fitness to be interviewed (⚠ check)?",
+   "options": [
+    "Annex A",
+    "Annex H",
+    "Annex L",
+    "Annex G"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Searches.",
+    "Intoxicated detainees.",
+    "Gender/sex.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Fitness to be interviewed"
+  },
+  {
+   "id": "1.7-37",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "The superintendent's extension to 36 hours should be given…",
+   "options": [
+    "after the 24 hours have expired",
+    "at any time",
+    "before the 24 hours expire",
+    "only on charge"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too late.",
+    "Incorrect.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Extension – timing"
+  },
+  {
+   "id": "1.7-38",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "Before deciding on a review or extension, who may make representations?",
+   "options": [
+    "The detainee and/or their solicitor (and the appropriate adult where relevant)",
+    "Only the officer in the case",
+    "Only the victim",
+    "Only the CPS"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not only.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Representations"
+  },
+  {
+   "id": "1.7-39",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "A person who does not understand English is detained. Which is required?",
+   "options": [
+    "Nothing",
+    "A solicitor only",
+    "An appropriate adult",
+    "An interpreter"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not instead of an interpreter.",
+    "Not for language alone.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · Interpreters"
+  },
+  {
+   "id": "1.7-40",
+   "chapter": "1.7",
+   "lessonId": "nie-1.7",
+   "scenario": "The right to have someone informed of the arrest can be delayed for a maximum of…",
+   "options": [
+    "12 hours",
+    "36 hours from the relevant time",
+    "24 hours",
+    "96 hours"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.7 · s. 56 – maximum delay"
+  }
+ ]
+}

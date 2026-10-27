@@ -546,6 +546,111 @@
    "front": "Main ECHR article",
    "back": "Article 8 – private and family life",
    "es": "art. 8"
+  },
+  {
+   "id": "nie-1.7-01",
+   "lessonId": "nie-1.7",
+   "front": "s. 37(2) PACE",
+   "back": "Detain without charge only if necessary to secure/preserve evidence or obtain it by questioning",
+   "es": "autorizar detención"
+  },
+  {
+   "id": "nie-1.7-02",
+   "lessonId": "nie-1.7",
+   "front": "Relevant time",
+   "back": "Arrival at first police station or 24 h after arrest (earlier); voluntary attendee arrested = time of arrest",
+   "es": "relevant time"
+  },
+  {
+   "id": "nie-1.7-03",
+   "lessonId": "nie-1.7",
+   "front": "First review",
+   "back": "Not later than 6 h after detention FIRST AUTHORISED; then every 9 h max – inspector not involved",
+   "es": "revisiones"
+  },
+  {
+   "id": "nie-1.7-04",
+   "lessonId": "nie-1.7",
+   "front": "Basic limit",
+   "back": "24 h from relevant time (s. 41)",
+   "es": "24 h"
+  },
+  {
+   "id": "nie-1.7-05",
+   "lessonId": "nie-1.7",
+   "front": "s. 42 extension",
+   "back": "Superintendent; indictable; necessary; diligent & expeditious; to 36 h",
+   "es": "36 h"
+  },
+  {
+   "id": "nie-1.7-06",
+   "lessonId": "nie-1.7",
+   "front": "Warrants of further detention",
+   "back": "Magistrates (ss. 43–44); max 96 h total",
+   "es": "96 h"
+  },
+  {
+   "id": "nie-1.7-07",
+   "lessonId": "nie-1.7",
+   "front": "Delay s. 56 (someone informed)",
+   "back": "Inspector; indictable; max 36 h",
+   "es": "inspector"
+  },
+  {
+   "id": "nie-1.7-08",
+   "lessonId": "nie-1.7",
+   "front": "Delay s. 58 (legal advice)",
+   "back": "Superintendent; indictable; max 36 h; restricted caution",
+   "es": "superintendente"
+  },
+  {
+   "id": "nie-1.7-09",
+   "lessonId": "nie-1.7",
+   "front": "Juvenile",
+   "back": "Appears to be under 18 → appropriate adult",
+   "es": "menor"
+  },
+  {
+   "id": "nie-1.7-10",
+   "lessonId": "nie-1.7",
+   "front": "Intoxicated detainee",
+   "back": "Visit and rouse at least every 30 min (Annex H ⚠)",
+   "es": "cada 30 min"
+  },
+  {
+   "id": "nie-1.7-11",
+   "lessonId": "nie-1.7",
+   "front": "Meals and rest (⚠)",
+   "back": "2 light + 1 main meal per 24 h; 8 h continuous rest",
+   "es": "comidas y descanso"
+  },
+  {
+   "id": "nie-1.7-12",
+   "lessonId": "nie-1.7",
+   "front": "Intimate search (s. 55)",
+   "back": "Orifices other than mouth; inspector; injury article or Class A for supply/export",
+   "es": "registro íntimo"
+  },
+  {
+   "id": "nie-1.7-13",
+   "lessonId": "nie-1.7",
+   "front": "Drug intimate search",
+   "back": "Written consent; doctor/nurse; medical premises",
+   "es": "drogas"
+  },
+  {
+   "id": "nie-1.7-14",
+   "lessonId": "nie-1.7",
+   "front": "Strip search",
+   "back": "Custody officer; only if necessary to remove an article (Annex A)",
+   "es": "desnudo"
+  },
+  {
+   "id": "nie-1.7-15",
+   "lessonId": "nie-1.7",
+   "front": "Post-charge reviews",
+   "back": "Custody officer",
+   "es": "tras acusar"
   }
  ]
 }
