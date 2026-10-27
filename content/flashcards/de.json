@@ -161,6 +161,41 @@
    "front": "bonnet / boot",
    "back": "capó / maletero (US hood / trunk)",
    "es": "capó / maletero"
+  },
+  {
+   "id": "de-5-01",
+   "lessonId": "de-5",
+   "front": "UK address order",
+   "back": "Flat → number + street → locality → town → (county) → postcode",
+   "es": "orden de dirección"
+  },
+  {
+   "id": "de-5-02",
+   "lessonId": "de-5",
+   "front": "Postcode parts",
+   "back": "Outward (PO5) + inward (3AB)",
+   "es": "partes del código postal"
+  },
+  {
+   "id": "de-5-03",
+   "lessonId": "de-5",
+   "front": "PO / SO",
+   "back": "Portsmouth (& IoW) / Southampton",
+   "es": "códigos locales"
+  },
+  {
+   "id": "de-5-04",
+   "lessonId": "de-5",
+   "front": "eastbound",
+   "back": "travelling east",
+   "es": "dirección este"
+  },
+  {
+   "id": "de-5-05",
+   "lessonId": "de-5",
+   "front": "lay-by / slip road",
+   "back": "area to stop beside the road / road joining or leaving a motorway",
+   "es": "apartadero / incorporación"
   }
  ]
 }

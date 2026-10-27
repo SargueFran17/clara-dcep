@@ -154,6 +154,48 @@
    "front": "Children's seat belts",
    "back": "Driver responsible for under 14s",
    "es": "menores de 14"
+  },
+  {
+   "id": "dr-5-01",
+   "lessonId": "dr-5",
+   "front": "Zebra crossing",
+   "back": "Give way when someone has moved onto it (flashing yellow beacons)",
+   "es": "paso de cebra"
+  },
+  {
+   "id": "dr-5-02",
+   "lessonId": "dr-5",
+   "front": "Pelican flashing amber",
+   "back": "Give way to pedestrians still crossing",
+   "es": "ámbar intermitente"
+  },
+  {
+   "id": "dr-5-03",
+   "lessonId": "dr-5",
+   "front": "Toucan crossing",
+   "back": "Pedestrians AND cyclists",
+   "es": "peatones y ciclistas"
+  },
+  {
+   "id": "dr-5-04",
+   "lessonId": "dr-5",
+   "front": "Red X on a smart motorway",
+   "back": "Lane closed – MUST NOT drive in it",
+   "es": "X roja"
+  },
+  {
+   "id": "dr-5-05",
+   "lessonId": "dr-5",
+   "front": "Breakdown on the hard shoulder",
+   "back": "Exit on the left, wait behind the barrier, call for help",
+   "es": "avería"
+  },
+  {
+   "id": "dr-5-06",
+   "lessonId": "dr-5",
+   "front": "Space for horses",
+   "back": "At least 2 m, at 10 mph or less",
+   "es": "2 m"
   }
  ]
 }

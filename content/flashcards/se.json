@@ -147,6 +147,48 @@
    "front": "Spanish equivalent",
    "back": "Lectura de derechos – art. 520 LECrim",
    "es": "art. 520 LECrim"
+  },
+  {
+   "id": "se-5-01",
+   "lessonId": "se-5",
+   "front": "999 vs 101",
+   "back": "999 emergency (danger/crime in progress); 101 non-emergency",
+   "es": "emergencia vs no urgente"
+  },
+  {
+   "id": "se-5-02",
+   "lessonId": "se-5",
+   "front": "Relay UK emergency number",
+   "back": "18000",
+   "es": "18000"
+  },
+  {
+   "id": "se-5-03",
+   "lessonId": "se-5",
+   "front": "1 stone",
+   "back": "14 lb ≈ 6.35 kg",
+   "es": "stone"
+  },
+  {
+   "id": "se-5-04",
+   "lessonId": "se-5",
+   "front": "mph to km/h",
+   "back": "× 1.6 (30 mph ≈ 48 km/h)",
+   "es": "× 1,6"
+  },
+  {
+   "id": "se-5-05",
+   "lessonId": "se-5",
+   "front": "UK pint",
+   "back": "≈ 568 ml",
+   "es": "pinta"
+  },
+  {
+   "id": "se-5-06",
+   "lessonId": "se-5",
+   "front": "Clocks change",
+   "back": "Last Sunday in March (forward) and October (back)",
+   "es": "cambio de hora"
   }
  ]
 }

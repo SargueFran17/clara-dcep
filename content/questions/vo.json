@@ -450,6 +450,96 @@
     "Correct.",
     "Incorrect."
    ]
+  },
+  {
+   "id": "vo-6-q1",
+   "lessonId": "vo-6",
+   "scenario": "Which is the highest threshold?",
+   "options": [
+    "know",
+    "suspect",
+    "believe",
+    "think it possible"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Lowest.",
+    "Middle.",
+    "Lower."
+   ]
+  },
+  {
+   "id": "vo-6-q2",
+   "lessonId": "vo-6",
+   "scenario": "'Reasonable grounds' means…",
+   "options": [
+    "the officer's hunch",
+    "proof beyond reasonable doubt",
+    "a genuine view that a reasonable person would share",
+    "a supervisor's approval"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not enough.",
+    "Trial standard.",
+    "Correct.",
+    "Not required."
+   ]
+  },
+  {
+   "id": "vo-6-q3",
+   "lessonId": "vo-6",
+   "scenario": "Entry under s. 17 PACE to arrest requires reasonable grounds for ___ the person is on the premises.",
+   "options": [
+    "suspecting",
+    "believing",
+    "knowing",
+    "hoping"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Lower than required.",
+    "Correct.",
+    "Not required.",
+    "No."
+   ]
+  },
+  {
+   "id": "vo-6-q4",
+   "lessonId": "vo-6",
+   "scenario": "Which can NEVER on its own be reasonable suspicion?",
+   "options": [
+    "A description matching a suspect seen 5 minutes ago",
+    "Smell of cannabis from the car",
+    "Intelligence about a stolen phone",
+    "The person's ethnicity"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Can be.",
+    "Can contribute.",
+    "Can contribute.",
+    "Correct (Code A)."
+   ]
+  },
+  {
+   "id": "vo-6-q5",
+   "lessonId": "vo-6",
+   "scenario": "Arrest without warrant (s. 24) requires reasonable grounds for…",
+   "options": [
+    "believing guilt",
+    "knowing guilt",
+    "suspecting an offence and that the person is guilty + necessity",
+    "a warrant"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too high.",
+    "Too high.",
+    "Correct.",
+    "Without warrant."
+   ]
   }
  ]
 }

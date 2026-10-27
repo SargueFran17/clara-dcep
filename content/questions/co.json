@@ -270,6 +270,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "co-4-q1",
+   "lessonId": "co-4",
+   "scenario": "Which law allows a written witness statement to be used instead of oral evidence (if unopposed)?",
+   "options": [
+    "Criminal Justice Act 1967 s. 9",
+    "PACE 1984 s. 24",
+    "Equality Act 2010",
+    "Theft Act 1968"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Arrest power.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "co-4-q2",
+   "lessonId": "co-4",
+   "scenario": "A witness says 'he punched me in the face'. In the MG11 you write…",
+   "options": [
+    "The suspect assaulted the IP.",
+    "An assault occurred.",
+    "He punched me in the face.",
+    "The male used force."
+   ],
+   "correct": 2,
+   "explanations": [
+    "Police jargon.",
+    "Too vague.",
+    "Correct – the witness's own words.",
+    "Jargon."
+   ]
+  },
+  {
+   "id": "co-4-q3",
+   "lessonId": "co-4",
+   "scenario": "Which detail supports identification evidence (ADVOKATE)?",
+   "options": [
+    "The witness's job",
+    "How far away the witness was",
+    "The weather forecast for next week",
+    "The witness's favourite colour"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not relevant.",
+    "Correct: Distance.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "co-4-q4",
+   "lessonId": "co-4",
+   "scenario": "The witness must sign…",
+   "options": [
+    "only the last page",
+    "nothing",
+    "only if they want",
+    "every page and the end"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not enough.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "co-4-q5",
+   "lessonId": "co-4",
+   "scenario": "Which is NOT good practice in an MG11?",
+   "options": [
+    "Chronological order",
+    "First person",
+    "Adding your opinion about the suspect's character",
+    "Exact times when known"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Good.",
+    "Good.",
+    "Correct – avoid opinions.",
+    "Good."
+   ]
   }
  ]
 }

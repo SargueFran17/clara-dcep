@@ -154,6 +154,48 @@
    "front": "Is nationality protected?",
    "back": "Yes – as part of race",
    "es": "sí, dentro de raza"
+  },
+  {
+   "id": "et-5-01",
+   "lessonId": "et-5",
+   "front": "'wheelchair-bound' →",
+   "back": "wheelchair user",
+   "es": "usuario de silla de ruedas"
+  },
+  {
+   "id": "et-5-02",
+   "lessonId": "et-5",
+   "front": "'suffers from' →",
+   "back": "has / lives with",
+   "es": "tiene"
+  },
+  {
+   "id": "et-5-03",
+   "lessonId": "et-5",
+   "front": "'committed suicide' →",
+   "back": "died by suicide / took their own life",
+   "es": "murió por suicidio"
+  },
+  {
+   "id": "et-5-04",
+   "lessonId": "et-5",
+   "front": "s. 136 MHA 1983",
+   "back": "Remove a person who appears mentally disordered and in immediate need of care/control to a place of safety – not in a private dwelling",
+   "es": "s. 136"
+  },
+  {
+   "id": "et-5-05",
+   "lessonId": "et-5",
+   "front": "s. 135 MHA 1983",
+   "back": "Warrant to enter premises and remove to a place of safety",
+   "es": "s. 135"
+  },
+  {
+   "id": "et-5-06",
+   "lessonId": "et-5",
+   "front": "Communicating with a deaf person",
+   "back": "Face them, don't shout, BSL interpreter for formal processes",
+   "es": "persona sorda"
   }
  ]
 }

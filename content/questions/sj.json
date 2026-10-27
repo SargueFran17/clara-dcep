@@ -450,6 +450,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "sj-6-q1",
+   "lessonId": "sj-6",
+   "scenario": "Which PACE Code covers identification procedures?",
+   "options": [
+    "D",
+    "A",
+    "B",
+    "C"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Stop and search.",
+    "Premises.",
+    "Custody."
+   ]
+  },
+  {
+   "id": "sj-6-q2",
+   "lessonId": "sj-6",
+   "scenario": "Which Code covers the statutory power of arrest?",
+   "options": [
+    "C",
+    "E",
+    "G",
+    "H"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Custody.",
+    "Audio.",
+    "Correct.",
+    "Terrorism."
+   ]
+  },
+  {
+   "id": "sj-6-q3",
+   "lessonId": "sj-6",
+   "scenario": "Code F covers…",
+   "options": [
+    "fingerprints",
+    "visual (video) recording of interviews",
+    "firearms",
+    "fraud"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Code D.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-6-q4",
+   "lessonId": "sj-6",
+   "scenario": "A breach of a PACE Code is…",
+   "options": [
+    "always a criminal offence",
+    "irrelevant",
+    "only a civil matter",
+    "not an offence itself, but evidence may be excluded"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "sj-6-q5",
+   "lessonId": "sj-6",
+   "scenario": "The maximum pre-charge detention under PACE with warrants of further detention is…",
+   "options": [
+    "24 hours",
+    "36 hours",
+    "96 hours",
+    "14 days"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Basic limit.",
+    "Superintendent.",
+    "Correct.",
+    "Terrorism (different rules)."
+   ]
   }
  ]
 }

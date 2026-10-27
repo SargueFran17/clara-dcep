@@ -112,6 +112,41 @@
    "front": "Ink colour",
    "back": "Black",
    "es": "negra"
+  },
+  {
+   "id": "co-4-01",
+   "lessonId": "co-4",
+   "front": "MG11",
+   "back": "Witness statement form",
+   "es": "declaración de testigo"
+  },
+  {
+   "id": "co-4-02",
+   "lessonId": "co-4",
+   "front": "s. 9 CJA 1967",
+   "back": "Written statement can be evidence instead of oral evidence if not objected to",
+   "es": "s. 9"
+  },
+  {
+   "id": "co-4-03",
+   "lessonId": "co-4",
+   "front": "MG11 structure",
+   "back": "Intro → background → events in order → description + ADVOKATE → harm → exhibits → signature",
+   "es": "estructura"
+  },
+  {
+   "id": "co-4-04",
+   "lessonId": "co-4",
+   "front": "Style of an MG11",
+   "back": "Witness's own words, first person, facts only",
+   "es": "estilo"
+  },
+  {
+   "id": "co-4-05",
+   "lessonId": "co-4",
+   "front": "Signature",
+   "back": "On every page and at the end",
+   "es": "firma"
   }
  ]
 }

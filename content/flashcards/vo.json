@@ -217,6 +217,41 @@
    "front": "previous convictions",
    "back": "a person's criminal record",
    "es": "antecedentes"
+  },
+  {
+   "id": "vo-6-01",
+   "lessonId": "vo-6",
+   "front": "Threshold ladder",
+   "back": "suspect < believe < know",
+   "es": "escala"
+  },
+  {
+   "id": "vo-6-02",
+   "lessonId": "vo-6",
+   "front": "Reasonable grounds = ?",
+   "back": "Genuine (subjective) + a reasonable person would too (objective)",
+   "es": "subjetivo + objetivo"
+  },
+  {
+   "id": "vo-6-03",
+   "lessonId": "vo-6",
+   "front": "s. 24 arrest threshold",
+   "back": "Reasonable grounds for SUSPECTING (+ necessity)",
+   "es": "sospechar"
+  },
+  {
+   "id": "vo-6-04",
+   "lessonId": "vo-6",
+   "front": "s. 17 entry to arrest",
+   "back": "Reasonable grounds for BELIEVING the person is on the premises",
+   "es": "creer"
+  },
+  {
+   "id": "vo-6-05",
+   "lessonId": "vo-6",
+   "front": "Code A: reasonable suspicion can't be based on…",
+   "back": "personal factors alone or stereotypes",
+   "es": "no factores personales"
   }
  ]
 }

@@ -360,6 +360,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "dr-5-q1",
+   "lessonId": "dr-5",
+   "scenario": "A red X is shown above your lane on a smart motorway. You…",
+   "options": [
+    "must not drive in that lane",
+    "can continue carefully",
+    "must stop immediately",
+    "should flash your lights"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Offence.",
+    "Move out safely.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-5-q2",
+   "lessonId": "dr-5",
+   "scenario": "At a pelican crossing with flashing amber you…",
+   "options": [
+    "must stop and wait for green",
+    "speed up",
+    "give way to pedestrians still crossing, then go if clear",
+    "sound the horn"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-5-q3",
+   "lessonId": "dr-5",
+   "scenario": "A toucan crossing is for…",
+   "options": [
+    "pedestrians only",
+    "pedestrians and cyclists",
+    "horses",
+    "buses"
+   ],
+   "correct": 1,
+   "explanations": [
+    "That's pelican/puffin.",
+    "Correct.",
+    "Pegasus.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-5-q4",
+   "lessonId": "dr-5",
+   "scenario": "When passing a horse you should…",
+   "options": [
+    "pass fast to get it over with",
+    "sound the horn",
+    "flash lights",
+    "pass wide (2 m+) and slowly (10 mph or less)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Dangerous.",
+    "Dangerous.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-5-q5",
+   "lessonId": "dr-5",
+   "scenario": "You break down on the hard shoulder. You should…",
+   "options": [
+    "stay in the car",
+    "stand behind the car",
+    "get out on the left and wait behind the barrier",
+    "walk along the lane"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Dangerous.",
+    "Dangerous.",
+    "Correct.",
+    "Dangerous."
+   ]
   }
  ]
 }

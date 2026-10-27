@@ -189,6 +189,55 @@
    "front": "Reverse burden standard",
    "back": "Balance of probabilities (e.g. good reason, s. 139 CJA 1988)",
    "es": "balance de probabilidades"
+  },
+  {
+   "id": "sj-6-01",
+   "lessonId": "sj-6",
+   "front": "Code A",
+   "back": "Stop and search",
+   "es": "registro de personas"
+  },
+  {
+   "id": "sj-6-02",
+   "lessonId": "sj-6",
+   "front": "Code B",
+   "back": "Search of premises and seizure",
+   "es": "registro de inmuebles"
+  },
+  {
+   "id": "sj-6-03",
+   "lessonId": "sj-6",
+   "front": "Code C",
+   "back": "Detention, treatment and questioning",
+   "es": "custodia"
+  },
+  {
+   "id": "sj-6-04",
+   "lessonId": "sj-6",
+   "front": "Code D",
+   "back": "Identification",
+   "es": "identificación"
+  },
+  {
+   "id": "sj-6-05",
+   "lessonId": "sj-6",
+   "front": "Codes E / F",
+   "back": "Audio / video recording of interviews",
+   "es": "audio / vídeo"
+  },
+  {
+   "id": "sj-6-06",
+   "lessonId": "sj-6",
+   "front": "Code G / H",
+   "back": "Arrest / terrorism detention",
+   "es": "detención / terrorismo"
+  },
+  {
+   "id": "sj-6-07",
+   "lessonId": "sj-6",
+   "front": "ss. 76 and 78 PACE",
+   "back": "Confessions / exclusion of unfair evidence",
+   "es": "confesiones / exclusión"
   }
  ]
 }

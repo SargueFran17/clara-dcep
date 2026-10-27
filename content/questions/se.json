@@ -360,6 +360,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "se-5-q1",
+   "lessonId": "se-5",
+   "scenario": "Your bike was stolen last week. Which number?",
+   "options": [
+    "101 (or online)",
+    "999",
+    "112 only",
+    "18000"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not an emergency.",
+    "Emergency number.",
+    "Emergency text relay."
+   ]
+  },
+  {
+   "id": "se-5-q2",
+   "lessonId": "se-5",
+   "scenario": "A suspect is described as '12 stone'. That is about…",
+   "options": [
+    "50 kg",
+    "120 kg",
+    "76 kg",
+    "12 kg"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too low.",
+    "Too high.",
+    "Correct (12 × 6.35).",
+    "No."
+   ]
+  },
+  {
+   "id": "se-5-q3",
+   "lessonId": "se-5",
+   "scenario": "70 mph is approximately…",
+   "options": [
+    "70 km/h",
+    "113 km/h",
+    "50 km/h",
+    "200 km/h"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-5-q4",
+   "lessonId": "se-5",
+   "scenario": "UK date 04/11/2026 means…",
+   "options": [
+    "11 April 2026",
+    "4 April 2026",
+    "11 November 2026",
+    "4 November 2026"
+   ],
+   "correct": 3,
+   "explanations": [
+    "US order.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "se-5-q5",
+   "lessonId": "se-5",
+   "scenario": "When do UK clocks go back one hour?",
+   "options": [
+    "Last Sunday of March",
+    "1 January",
+    "Last Sunday of October",
+    "Never"
+   ],
+   "correct": 2,
+   "explanations": [
+    "They go forward.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

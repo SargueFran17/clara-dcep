@@ -360,6 +360,96 @@
     "Correct.",
     "American 'capó'."
    ]
+  },
+  {
+   "id": "de-5-q1",
+   "lessonId": "de-5",
+   "scenario": "Which address is written correctly?",
+   "options": [
+    "14 Elm Road, Southsea, Portsmouth, PO5 3AB",
+    "Elm Road 14, Southsea",
+    "Southsea 14 Elm",
+    "PO53AB Elm Road"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Number goes first.",
+    "Wrong order.",
+    "Wrong."
+   ]
+  },
+  {
+   "id": "de-5-q2",
+   "lessonId": "de-5",
+   "scenario": "In 'SO15 2JT', which part is the outward code?",
+   "options": [
+    "2JT",
+    "SO",
+    "SO15",
+    "15 2"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Inward.",
+    "Area only.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "de-5-q3",
+   "lessonId": "de-5",
+   "scenario": "Which postcode area is Southampton?",
+   "options": [
+    "PO",
+    "SO",
+    "BH",
+    "GU"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Portsmouth.",
+    "Correct.",
+    "Bournemouth.",
+    "Guildford."
+   ]
+  },
+  {
+   "id": "de-5-q4",
+   "lessonId": "de-5",
+   "scenario": "'The suspect was driving ___ on the M27.'",
+   "options": [
+    "east-way",
+    "to the east road",
+    "eastly",
+    "eastbound"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "de-5-q5",
+   "lessonId": "de-5",
+   "scenario": "A road joining or leaving a motorway is a…",
+   "options": [
+    "lay-by",
+    "cul-de-sac",
+    "slip road",
+    "bypass"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Stopping area.",
+    "Dead end.",
+    "Correct.",
+    "Different."
+   ]
   }
  ]
 }

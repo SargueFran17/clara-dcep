@@ -56,6 +56,41 @@
    "front": "Tired day?",
    "back": "Shorter session (main lifts, 2 sets), not zero",
    "es": "sesión corta"
+  },
+  {
+   "id": "ft-5-01",
+   "lessonId": "ft-5",
+   "front": "Hardest day of the week",
+   "back": "Tuesday: intervals first, then tennis",
+   "es": "martes"
+  },
+  {
+   "id": "ft-5-02",
+   "lessonId": "ft-5",
+   "front": "Long run pace",
+   "back": "Easy, conversational",
+   "es": "ritmo cómodo"
+  },
+  {
+   "id": "ft-5-03",
+   "lessonId": "ft-5",
+   "front": "Why tennis helps the bleep test",
+   "back": "Sprints + stops + changes of direction",
+   "es": "sprints y giros"
+  },
+  {
+   "id": "ft-5-04",
+   "lessonId": "ft-5",
+   "front": "Prudent progression",
+   "back": "~10 % per week",
+   "es": "10 %"
+  },
+  {
+   "id": "ft-5-05",
+   "lessonId": "ft-5",
+   "front": "Shoes",
+   "back": "Running shoes for running; tennis shoes for tennis",
+   "es": "calzado"
   }
  ]
 }

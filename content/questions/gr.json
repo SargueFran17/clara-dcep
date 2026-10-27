@@ -540,6 +540,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "gr-7-q1",
+   "lessonId": "gr-7",
+   "scenario": "Choose the correct sentence.",
+   "options": [
+    "She told me that she was scared.",
+    "She said me that she was scared.",
+    "She told that she was scared.",
+    "She said to me she is scared yesterday."
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "say + me is wrong.",
+    "tell needs a person.",
+    "Mixed tenses."
+   ]
+  },
+  {
+   "id": "gr-7-q2",
+   "lessonId": "gr-7",
+   "scenario": "'He hit me' → She said that he ___ her.",
+   "options": [
+    "hits",
+    "has hit",
+    "had hit",
+    "will hit"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No backshift.",
+    "Not in reported past.",
+    "Correct.",
+    "Wrong."
+   ]
+  },
+  {
+   "id": "gr-7-q3",
+   "lessonId": "gr-7",
+   "scenario": "'Where were you?' → I asked him…",
+   "options": [
+    "where were you",
+    "where he had been",
+    "where was he",
+    "if where he was"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Direct.",
+    "Correct.",
+    "Question order.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-7-q4",
+   "lessonId": "gr-7",
+   "scenario": "'He ___ taking the bottle.'",
+   "options": [
+    "admitted to take",
+    "admit to",
+    "admitting",
+    "admitted"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Use -ing.",
+    "Incorrect form.",
+    "Incorrect tense.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-7-q5",
+   "lessonId": "gr-7",
+   "scenario": "A suspect's reply after caution should be recorded…",
+   "options": [
+    "in reported speech",
+    "only as a summary",
+    "word for word in direct speech",
+    "not at all"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not enough.",
+    "Not enough.",
+    "Correct.",
+    "Must be recorded."
+   ]
   }
  ]
 }

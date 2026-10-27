@@ -210,6 +210,41 @@
    "front": "have something done",
    "back": "She had her bag stolen = it happened to her",
    "es": "have + objeto + participio"
+  },
+  {
+   "id": "gr-7-01",
+   "lessonId": "gr-7",
+   "front": "say vs tell",
+   "back": "say (something); tell SOMEONE (something)",
+   "es": "say / tell"
+  },
+  {
+   "id": "gr-7-02",
+   "lessonId": "gr-7",
+   "front": "'I am scared' → reported",
+   "back": "She said she was scared.",
+   "es": "backshift"
+  },
+  {
+   "id": "gr-7-03",
+   "lessonId": "gr-7",
+   "front": "'I will call you' → reported",
+   "back": "He said he would call me.",
+   "es": "will → would"
+  },
+  {
+   "id": "gr-7-04",
+   "lessonId": "gr-7",
+   "front": "admit / deny + ?",
+   "back": "+ -ing: He admitted taking it.",
+   "es": "-ing"
+  },
+  {
+   "id": "gr-7-05",
+   "lessonId": "gr-7",
+   "front": "Suspect's significant statement",
+   "back": "Direct speech, word for word",
+   "es": "estilo directo"
   }
  ]
 }

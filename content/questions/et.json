@@ -360,6 +360,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "et-5-q1",
+   "lessonId": "et-5",
+   "scenario": "Which phrase is respectful?",
+   "options": [
+    "wheelchair user",
+    "wheelchair-bound",
+    "confined to a wheelchair",
+    "the disabled"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Avoid.",
+    "Avoid.",
+    "Avoid."
+   ]
+  },
+  {
+   "id": "et-5-q2",
+   "lessonId": "et-5",
+   "scenario": "Section 136 Mental Health Act can NOT be used…",
+   "options": [
+    "in a street",
+    "in a park",
+    "in a private dwelling",
+    "at a railway station"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Can be used.",
+    "Can be used.",
+    "Correct.",
+    "Can be used."
+   ]
+  },
+  {
+   "id": "et-5-q3",
+   "lessonId": "et-5",
+   "scenario": "Which is the best way to talk about suicide?",
+   "options": [
+    "committed suicide",
+    "died by suicide",
+    "successful suicide",
+    "failed suicide"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Avoid 'committed' (crime connotation).",
+    "Correct.",
+    "Avoid.",
+    "Avoid."
+   ]
+  },
+  {
+   "id": "et-5-q4",
+   "lessonId": "et-5",
+   "scenario": "Talking to a person with a learning disability, you should…",
+   "options": [
+    "use long complex questions",
+    "talk only to the carer",
+    "speak louder",
+    "use short clear sentences and give extra time"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Speak to the person.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "et-5-q5",
+   "lessonId": "et-5",
+   "scenario": "Entering a home to remove someone under the MHA usually requires…",
+   "options": [
+    "s. 136",
+    "nothing",
+    "a s. 135 warrant",
+    "a CPS decision"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not in a dwelling.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

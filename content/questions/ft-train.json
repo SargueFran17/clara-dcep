@@ -180,6 +180,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "ft-5-q1",
+   "lessonId": "ft-5",
+   "scenario": "On Tuesday (intervals + tennis) you should…",
+   "options": [
+    "do intervals first while fresh",
+    "play tennis first, very hard",
+    "skip both",
+    "do a long run too"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Legs will be tired for intervals.",
+    "No.",
+    "Too much."
+   ]
+  },
+  {
+   "id": "ft-5-q2",
+   "lessonId": "ft-5",
+   "scenario": "The Saturday long run should be…",
+   "options": [
+    "as fast as possible",
+    "a sprint",
+    "easy and conversational",
+    "skipped"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too hard before tennis.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-5-q3",
+   "lessonId": "ft-5",
+   "scenario": "Why can tennis help with the bleep test?",
+   "options": [
+    "It's slow",
+    "Short sprints and changes of direction",
+    "It uses arms only",
+    "It doesn't"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-5-q4",
+   "lessonId": "ft-5",
+   "scenario": "A prudent increase in weekly running is about…",
+   "options": [
+    "50 %",
+    "100 %",
+    "0 % forever",
+    "10 %"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too much.",
+    "Too much.",
+    "No progress.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ft-5-q5",
+   "lessonId": "ft-5",
+   "scenario": "Playing tennis in running shoes risks…",
+   "options": [
+    "better grip",
+    "nothing",
+    "ankle injuries due to poor lateral support",
+    "faster serves"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }
