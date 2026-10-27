@@ -360,6 +360,96 @@
     "Correct – avoid opinions.",
     "Good."
    ]
+  },
+  {
+   "id": "co-5-q1",
+   "lessonId": "co-5",
+   "scenario": "How should a report start?",
+   "options": [
+    "With when and where",
+    "With background about the area",
+    "With your opinion",
+    "With the outcome"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Later if needed.",
+    "No opinions.",
+    "At the end."
+   ]
+  },
+  {
+   "id": "co-5-q2",
+   "lessonId": "co-5",
+   "scenario": "Which sentence is factual?",
+   "options": [
+    "He was a nasty man.",
+    "He looked guilty.",
+    "He was shouting and swearing at staff.",
+    "He was obviously drunk and horrible."
+   ],
+   "correct": 2,
+   "explanations": [
+    "Opinion.",
+    "Opinion.",
+    "Correct.",
+    "Opinion."
+   ]
+  },
+  {
+   "id": "co-5-q3",
+   "lessonId": "co-5",
+   "scenario": "What must you include when recording an arrest?",
+   "options": [
+    "Only the time",
+    "Offence, grounds, necessity, caution and reply",
+    "The suspect's star sign",
+    "Nothing"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not enough.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "co-5-q4",
+   "lessonId": "co-5",
+   "scenario": "Correct British spelling:",
+   "options": [
+    "offense",
+    "ofence",
+    "offince",
+    "offence"
+   ],
+   "correct": 3,
+   "explanations": [
+    "US spelling.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "co-5-q5",
+   "lessonId": "co-5",
+   "scenario": "The suspect's words should be…",
+   "options": [
+    "summarised",
+    "translated into police language",
+    "word for word in quotes",
+    "omitted"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not for significant words.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

@@ -189,6 +189,41 @@
    "front": "Clocks change",
    "back": "Last Sunday in March (forward) and October (back)",
    "es": "cambio de hora"
+  },
+  {
+   "id": "se-6-01",
+   "lessonId": "se-6",
+   "front": "Polite request",
+   "back": "Could you…? / Would you mind…? / I'm going to need you to…",
+   "es": "peticiones indirectas"
+  },
+  {
+   "id": "se-6-02",
+   "lessonId": "se-6",
+   "front": "'Not bad' often means…",
+   "back": "good / very good",
+   "es": "bastante bien"
+  },
+  {
+   "id": "se-6-03",
+   "lessonId": "se-6",
+   "front": "'I'll bear it in mind' often means…",
+   "back": "I probably won't do it",
+   "es": "probablemente no"
+  },
+  {
+   "id": "se-6-04",
+   "lessonId": "se-6",
+   "front": "Neutral address as an officer",
+   "back": "Sir / Madam / the person's name (not 'love')",
+   "es": "tratamiento neutro"
+  },
+  {
+   "id": "se-6-05",
+   "lessonId": "se-6",
+   "front": "Safety command",
+   "back": "Clear and direct first, explain after",
+   "es": "orden directa en seguridad"
   }
  ]
 }

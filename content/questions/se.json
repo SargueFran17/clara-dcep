@@ -450,6 +450,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "se-6-q1",
+   "lessonId": "se-6",
+   "scenario": "Which sounds most polite and professional?",
+   "options": [
+    "Could you give me your name, please?",
+    "Give me your name.",
+    "Name!",
+    "You, name."
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too direct.",
+    "Rude.",
+    "Rude."
+   ]
+  },
+  {
+   "id": "se-6-q2",
+   "lessonId": "se-6",
+   "scenario": "A victim says she's 'a bit shaken'. You should…",
+   "options": [
+    "assume she's fine",
+    "ignore it",
+    "check gently – she may be very distressed",
+    "tell her to calm down"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Understatement.",
+    "No.",
+    "Correct.",
+    "Unhelpful."
+   ]
+  },
+  {
+   "id": "se-6-q3",
+   "lessonId": "se-6",
+   "scenario": "'With the greatest respect…' often introduces…",
+   "options": [
+    "agreement",
+    "disagreement",
+    "a compliment",
+    "a joke"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-6-q4",
+   "lessonId": "se-6",
+   "scenario": "In an immediate safety situation you should…",
+   "options": [
+    "use long indirect requests",
+    "say nothing",
+    "say 'love'",
+    "give a clear direct command, then explain"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too slow.",
+    "No.",
+    "Unprofessional.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "se-6-q5",
+   "lessonId": "se-6",
+   "scenario": "'Sorry?' with a rising tone usually means…",
+   "options": [
+    "I apologise",
+    "Goodbye",
+    "Could you repeat that?",
+    "Thank you"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Different use.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

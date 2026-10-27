@@ -252,6 +252,48 @@
    "front": "Code A: reasonable suspicion can't be based on…",
    "back": "personal factors alone or stereotypes",
    "es": "no factores personales"
+  },
+  {
+   "id": "vo-7-01",
+   "lessonId": "vo-7",
+   "front": "Victims' Code",
+   "back": "Code of Practice for Victims of Crime (2020) – 12 rights",
+   "es": "código de víctimas"
+  },
+  {
+   "id": "vo-7-02",
+   "lessonId": "vo-7",
+   "front": "VPS",
+   "back": "Victim Personal Statement – how the crime affected the victim",
+   "es": "declaración de impacto"
+  },
+  {
+   "id": "vo-7-03",
+   "lessonId": "vo-7",
+   "front": "Special measures – law",
+   "back": "Youth Justice and Criminal Evidence Act 1999",
+   "es": "YJCEA 1999"
+  },
+  {
+   "id": "vo-7-04",
+   "lessonId": "vo-7",
+   "front": "Examples of special measures",
+   "back": "screens, live link, ABE video, intermediary, evidence in private",
+   "es": "medidas especiales"
+  },
+  {
+   "id": "vo-7-05",
+   "lessonId": "vo-7",
+   "front": "make a referral",
+   "back": "pass a safeguarding concern to another agency",
+   "es": "derivar"
+  },
+  {
+   "id": "vo-7-06",
+   "lessonId": "vo-7",
+   "front": "signpost",
+   "back": "tell someone where to get help",
+   "es": "orientar"
   }
  ]
 }

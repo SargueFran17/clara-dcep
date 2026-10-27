@@ -196,6 +196,76 @@
    "front": "Space for horses",
    "back": "At least 2 m, at 10 mph or less",
    "es": "2 m"
+  },
+  {
+   "id": "dr-6-01",
+   "lessonId": "dr-6",
+   "front": "Sign shapes",
+   "back": "Circles order · triangles warn · rectangles inform",
+   "es": "formas"
+  },
+  {
+   "id": "dr-6-02",
+   "lessonId": "dr-6",
+   "front": "National speed limit (cars)",
+   "back": "60 mph single carriageway · 70 mph dual carriageway & motorway",
+   "es": "límite nacional"
+  },
+  {
+   "id": "dr-6-03",
+   "lessonId": "dr-6",
+   "front": "Blue / green / white / brown signs",
+   "back": "motorway / primary route / other route / tourist",
+   "es": "colores de señales"
+  },
+  {
+   "id": "dr-6-04",
+   "lessonId": "dr-6",
+   "front": "Height limits are in…",
+   "back": "feet and inches",
+   "es": "pies y pulgadas"
+  },
+  {
+   "id": "dr-6-05",
+   "lessonId": "dr-6",
+   "front": "Clearway",
+   "back": "No stopping",
+   "es": "prohibido parar"
+  },
+  {
+   "id": "dr-7-01",
+   "lessonId": "dr-7",
+   "front": "Double yellow lines",
+   "back": "No waiting at any time",
+   "es": "prohibido esperar siempre"
+  },
+  {
+   "id": "dr-7-02",
+   "lessonId": "dr-7",
+   "front": "Single yellow line",
+   "back": "No waiting during times shown on signs",
+   "es": "horario"
+  },
+  {
+   "id": "dr-7-03",
+   "lessonId": "dr-7",
+   "front": "Kerb blips",
+   "back": "Loading restrictions",
+   "es": "carga/descarga"
+  },
+  {
+   "id": "dr-7-04",
+   "lessonId": "dr-7",
+   "front": "Hazard warning line",
+   "back": "Longer dashes – danger ahead, don't overtake",
+   "es": "línea de peligro"
+  },
+  {
+   "id": "dr-7-05",
+   "lessonId": "dr-7",
+   "front": "Yellow zig-zags (school)",
+   "back": "No stopping",
+   "es": "colegio"
   }
  ]
 }

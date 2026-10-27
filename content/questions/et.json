@@ -450,6 +450,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "et-6-q1",
+   "lessonId": "et-6",
+   "scenario": "Which is NOT a monitored hate crime strand?",
+   "options": [
+    "Height",
+    "Race",
+    "Disability",
+    "Sexual orientation"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Monitored.",
+    "Monitored.",
+    "Monitored."
+   ]
+  },
+  {
+   "id": "et-6-q2",
+   "lessonId": "et-6",
+   "scenario": "Who must perceive hostility for an incident to be recorded as a hate crime?",
+   "options": [
+    "Only a judge",
+    "Only the officer",
+    "The victim or any other person",
+    "Only the CPS"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not only.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "et-6-q3",
+   "lessonId": "et-6",
+   "scenario": "Most respectful term:",
+   "options": [
+    "the elderly",
+    "older people",
+    "OAPs",
+    "old folk"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Avoid.",
+    "Correct.",
+    "Avoid.",
+    "Avoid."
+   ]
+  },
+  {
+   "id": "et-6-q4",
+   "lessonId": "et-6",
+   "scenario": "A Sikh place of worship is a…",
+   "options": [
+    "mosque",
+    "synagogue",
+    "mandir",
+    "gurdwara"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Muslim.",
+    "Jewish.",
+    "Hindu.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "et-6-q5",
+   "lessonId": "et-6",
+   "scenario": "You don't know the gender of a victim's partner. You say…",
+   "options": [
+    "boyfriend",
+    "girlfriend",
+    "partner",
+    "husband"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Assumes.",
+    "Assumes.",
+    "Correct.",
+    "Assumes."
+   ]
   }
  ]
 }

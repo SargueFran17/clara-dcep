@@ -63,6 +63,34 @@
    "front": "Plate method",
    "back": "½ veg · ¼ protein · ¼ wholegrain carbs",
    "es": "plato"
+  },
+  {
+   "id": "ft-6-01",
+   "lessonId": "ft-6",
+   "front": "Sunday routine",
+   "back": "Plan 3–4 dinners, batch cook 2 dishes, prepare snacks, shopping list",
+   "es": "rutina del domingo"
+  },
+  {
+   "id": "ft-6-02",
+   "lessonId": "ft-6",
+   "front": "Packed lunch formula",
+   "back": "½ veg · ¼ protein · ¼ wholegrain carbs",
+   "es": "tupper"
+  },
+  {
+   "id": "ft-6-03",
+   "lessonId": "ft-6",
+   "front": "Caffeine cut-off",
+   "back": "Avoid in the ~6 hours before bed if it affects sleep",
+   "es": "cafeína"
+  },
+  {
+   "id": "ft-6-04",
+   "lessonId": "ft-6",
+   "front": "Sleep target",
+   "back": "7–9 hours (memory consolidation)",
+   "es": "7–9 horas"
   }
  ]
 }

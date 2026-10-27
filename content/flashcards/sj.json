@@ -238,6 +238,41 @@
    "front": "ss. 76 and 78 PACE",
    "back": "Confessions / exclusion of unfair evidence",
    "es": "confesiones / exclusión"
+  },
+  {
+   "id": "sj-7-01",
+   "lessonId": "sj-7",
+   "front": "PIP 1",
+   "back": "Volume and priority crime",
+   "es": "delitos comunes"
+  },
+  {
+   "id": "sj-7-02",
+   "lessonId": "sj-7",
+   "front": "PIP 2",
+   "back": "Serious and complex crime – detectives",
+   "es": "detectives"
+  },
+  {
+   "id": "sj-7-03",
+   "lessonId": "sj-7",
+   "front": "PIP 3",
+   "back": "Major crime – SIO",
+   "es": "SIO"
+  },
+  {
+   "id": "sj-7-04",
+   "lessonId": "sj-7",
+   "front": "PIP 4",
+   "back": "Strategic oversight",
+   "es": "estratégico"
+  },
+  {
+   "id": "sj-7-05",
+   "lessonId": "sj-7",
+   "front": "PIP accreditation",
+   "back": "Training + workplace assessment (portfolio) + accreditation + CPD",
+   "es": "acreditación"
   }
  ]
 }

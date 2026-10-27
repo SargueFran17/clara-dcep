@@ -540,6 +540,96 @@
     "Correct.",
     "Without warrant."
    ]
+  },
+  {
+   "id": "vo-7-q1",
+   "lessonId": "vo-7",
+   "scenario": "Which law provides special measures for vulnerable and intimidated witnesses?",
+   "options": [
+    "YJCEA 1999",
+    "PACE 1984",
+    "Theft Act 1968",
+    "Equality Act 2010"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "vo-7-q2",
+   "lessonId": "vo-7",
+   "scenario": "A complainant in a sexual offence case is…",
+   "options": [
+    "never eligible for special measures",
+    "only eligible if under 18",
+    "automatically eligible as an intimidated witness",
+    "eligible only with a judge's request"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not only.",
+    "Correct.",
+    "Eligibility is automatic."
+   ]
+  },
+  {
+   "id": "vo-7-q3",
+   "lessonId": "vo-7",
+   "scenario": "A statement about how the crime affected the victim is the…",
+   "options": [
+    "MG11",
+    "VPS",
+    "MG5",
+    "DASH"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Witness statement.",
+    "Correct.",
+    "Case summary.",
+    "Risk checklist."
+   ]
+  },
+  {
+   "id": "vo-7-q4",
+   "lessonId": "vo-7",
+   "scenario": "After a disclosure of abuse, a good first response is…",
+   "options": [
+    "Why didn't you tell anyone before?",
+    "Are you sure?",
+    "That's not a police matter.",
+    "Thank you for telling me."
+   ],
+   "correct": 3,
+   "explanations": [
+    "Sounds like blame.",
+    "Doubtful tone.",
+    "Incorrect.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "vo-7-q5",
+   "lessonId": "vo-7",
+   "scenario": "'Signpost' in safeguarding means…",
+   "options": [
+    "put up a sign",
+    "arrest",
+    "tell someone where to get help",
+    "close the case"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

@@ -147,6 +147,34 @@
    "front": "Signature",
    "back": "On every page and at the end",
    "es": "firma"
+  },
+  {
+   "id": "co-5-01",
+   "lessonId": "co-5",
+   "front": "Report structure",
+   "back": "When/where → why → what → who → actions & grounds → outcome",
+   "es": "estructura"
+  },
+  {
+   "id": "co-5-02",
+   "lessonId": "co-5",
+   "front": "Arrest in a report must include",
+   "back": "time, offence, grounds, necessity, caution and reply",
+   "es": "detención"
+  },
+  {
+   "id": "co-5-03",
+   "lessonId": "co-5",
+   "front": "British spelling",
+   "back": "offence, licence (noun), defence, colour, tyre",
+   "es": "ortografía"
+  },
+  {
+   "id": "co-5-04",
+   "lessonId": "co-5",
+   "front": "Opinion vs fact",
+   "back": "'He was shouting and swearing' not 'he was horrible'",
+   "es": "hechos"
   }
  ]
 }

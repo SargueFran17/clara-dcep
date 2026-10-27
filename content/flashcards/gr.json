@@ -245,6 +245,90 @@
    "front": "Suspect's significant statement",
    "back": "Direct speech, word for word",
    "es": "estilo directo"
+  },
+  {
+   "id": "gr-8-01",
+   "lessonId": "gr-8",
+   "front": "pull over",
+   "back": "stop a vehicle at the side of the road",
+   "es": "parar a un lado"
+  },
+  {
+   "id": "gr-8-02",
+   "lessonId": "gr-8",
+   "front": "break into vs break in",
+   "back": "break into + place; break in (no object)",
+   "es": "entrar a la fuerza"
+  },
+  {
+   "id": "gr-8-03",
+   "lessonId": "gr-8",
+   "front": "hand over (pronoun)",
+   "back": "hand IT over (not hand over it)",
+   "es": "entregar"
+  },
+  {
+   "id": "gr-8-04",
+   "lessonId": "gr-8",
+   "front": "carry out",
+   "back": "do / conduct (a search, enquiries)",
+   "es": "realizar"
+  },
+  {
+   "id": "gr-8-05",
+   "lessonId": "gr-8",
+   "front": "come forward",
+   "back": "offer information to the police",
+   "es": "presentarse como testigo"
+  },
+  {
+   "id": "gr-8-06",
+   "lessonId": "gr-8",
+   "front": "back up",
+   "back": "support an officer / corroborate an account",
+   "es": "apoyar / corroborar"
+  },
+  {
+   "id": "gr-9-01",
+   "lessonId": "gr-9",
+   "front": "track down",
+   "back": "find after searching",
+   "es": "localizar"
+  },
+  {
+   "id": "gr-9-02",
+   "lessonId": "gr-9",
+   "front": "tip off / a tip-off",
+   "back": "give secret information / the information",
+   "es": "chivatazo"
+  },
+  {
+   "id": "gr-9-03",
+   "lessonId": "gr-9",
+   "front": "come across vs find out",
+   "back": "find by chance vs discover information",
+   "es": "encontrar por casualidad vs averiguar"
+  },
+  {
+   "id": "gr-9-04",
+   "lessonId": "gr-9",
+   "front": "hold up (2 meanings)",
+   "back": "rob with a weapon / delay",
+   "es": "atracar / retrasar"
+  },
+  {
+   "id": "gr-9-05",
+   "lessonId": "gr-9",
+   "front": "own up",
+   "back": "admit (informal)",
+   "es": "confesar"
+  },
+  {
+   "id": "gr-9-06",
+   "lessonId": "gr-9",
+   "front": "let off",
+   "back": "not punish / only warn",
+   "es": "dejar ir"
   }
  ]
 }

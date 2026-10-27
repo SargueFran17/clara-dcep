@@ -540,6 +540,96 @@
     "Correct.",
     "Terrorism (different rules)."
    ]
+  },
+  {
+   "id": "sj-7-q1",
+   "lessonId": "sj-7",
+   "scenario": "Which PIP level is for Senior Investigating Officers in major crime?",
+   "options": [
+    "PIP 3",
+    "PIP 1",
+    "PIP 2",
+    "PIP 4"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "Strategic."
+   ]
+  },
+  {
+   "id": "sj-7-q2",
+   "lessonId": "sj-7",
+   "scenario": "Is passing the NIE enough to be an accredited detective?",
+   "options": [
+    "Yes",
+    "Only in London",
+    "No – workplace assessment and accreditation are also needed",
+    "Only for sergeants"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-7-q3",
+   "lessonId": "sj-7",
+   "scenario": "A DS and a DC can both be…",
+   "options": [
+    "PIP 4 only",
+    "PIP 2",
+    "PIP 0",
+    "never accredited"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct – PIP level ≠ rank.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-7-q4",
+   "lessonId": "sj-7",
+   "scenario": "PIP 1 investigations are mainly…",
+   "options": [
+    "homicide",
+    "terrorism",
+    "strategic oversight",
+    "volume and priority crime"
+   ],
+   "correct": 3,
+   "explanations": [
+    "PIP 3.",
+    "Specialist.",
+    "PIP 4.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "sj-7-q5",
+   "lessonId": "sj-7",
+   "scenario": "After accreditation, investigators continue with…",
+   "options": [
+    "nothing",
+    "a new NIE every year",
+    "CPD (continuing professional development)",
+    "PIP 0"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

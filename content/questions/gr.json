@@ -630,6 +630,186 @@
     "Correct.",
     "Must be recorded."
    ]
+  },
+  {
+   "id": "gr-8-q1",
+   "lessonId": "gr-8",
+   "scenario": "'He handed ___ to me.'",
+   "options": [
+    "it over",
+    "over it",
+    "it over it",
+    "over"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Pronoun goes in the middle.",
+    "Incorrect.",
+    "Missing object."
+   ]
+  },
+  {
+   "id": "gr-8-q2",
+   "lessonId": "gr-8",
+   "scenario": "'They ___ the shed last night.'",
+   "options": [
+    "broke",
+    "broke in",
+    "broke into",
+    "broke up"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Means damaged.",
+    "Needs no object.",
+    "Correct.",
+    "Different meaning."
+   ]
+  },
+  {
+   "id": "gr-8-q3",
+   "lessonId": "gr-8",
+   "scenario": "'Two witnesses ___ after the appeal.'",
+   "options": [
+    "came across",
+    "came forward",
+    "came up",
+    "came off"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Found by chance.",
+    "Correct.",
+    "Different.",
+    "Different."
+   ]
+  },
+  {
+   "id": "gr-8-q4",
+   "lessonId": "gr-8",
+   "scenario": "'CCTV ___ her account.'",
+   "options": [
+    "backs off",
+    "backs down",
+    "backs in",
+    "backs up"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Different.",
+    "Different.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-8-q5",
+   "lessonId": "gr-8",
+   "scenario": "Formal alternative to 'carry out a search'",
+   "options": [
+    "make a search done",
+    "do out a search",
+    "conduct a search",
+    "perform out"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "gr-9-q1",
+   "lessonId": "gr-9",
+   "scenario": "'I ___ a knife in the hedge while searching.'",
+   "options": [
+    "came across",
+    "found out",
+    "made up",
+    "turned in"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "find out = information.",
+    "Invent.",
+    "Hand to police."
+   ]
+  },
+  {
+   "id": "gr-9-q2",
+   "lessonId": "gr-9",
+   "scenario": "'His mother ___ him ___ to the police.'",
+   "options": [
+    "turned / off",
+    "let / off",
+    "turned / in",
+    "made / up"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Different.",
+    "Not punish.",
+    "Correct.",
+    "Invent."
+   ]
+  },
+  {
+   "id": "gr-9-q3",
+   "lessonId": "gr-9",
+   "scenario": "'The robbers ___ a petrol station.'",
+   "options": [
+    "held on",
+    "held up",
+    "held in",
+    "held back"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Different.",
+    "Correct.",
+    "Different.",
+    "Different."
+   ]
+  },
+  {
+   "id": "gr-9-q4",
+   "lessonId": "gr-9",
+   "scenario": "'She ___ an alibi.'",
+   "options": [
+    "came across",
+    "went off",
+    "tipped off",
+    "made up"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Different.",
+    "Different.",
+    "Different.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-9-q5",
+   "lessonId": "gr-9",
+   "scenario": "'The alarm ___ at 03:10.'",
+   "options": [
+    "went through",
+    "went out",
+    "went off",
+    "went over"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Search.",
+    "Different.",
+    "Correct.",
+    "Review."
+   ]
   }
  ]
 }

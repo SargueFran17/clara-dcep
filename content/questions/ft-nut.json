@@ -180,6 +180,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "ft-6-q1",
+   "lessonId": "ft-6",
+   "scenario": "Best way to eat well on long academy days?",
+   "options": [
+    "Batch cook and bring a packed lunch",
+    "Buy takeaways",
+    "Skip lunch",
+    "Energy drinks"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Expensive and less healthy.",
+    "Low energy.",
+    "Not a meal."
+   ]
+  },
+  {
+   "id": "ft-6-q2",
+   "lessonId": "ft-6",
+   "scenario": "A good pre-training snack is…",
+   "options": [
+    "nothing",
+    "a large fry-up",
+    "yoghurt or a banana",
+    "an energy drink only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Low energy.",
+    "Too heavy.",
+    "Correct.",
+    "Not ideal."
+   ]
+  },
+  {
+   "id": "ft-6-q3",
+   "lessonId": "ft-6",
+   "scenario": "When should you avoid caffeine if it affects your sleep?",
+   "options": [
+    "In the morning",
+    "In the ~6 hours before bed",
+    "Never",
+    "Only on Sundays"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Fine.",
+    "Correct.",
+    "Depends on you.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-6-q4",
+   "lessonId": "ft-6",
+   "scenario": "Why protect 7–9 hours of sleep while studying?",
+   "options": [
+    "It doesn't matter",
+    "To skip training",
+    "To eat less",
+    "Memory consolidates during sleep"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ft-6-q5",
+   "lessonId": "ft-6",
+   "scenario": "The canteen only has chips and pies. You…",
+   "options": [
+    "skip food",
+    "eat two pies",
+    "bring your own lunch or choose the healthiest option",
+    "drink coffee instead"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

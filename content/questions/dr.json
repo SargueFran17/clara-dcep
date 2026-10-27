@@ -450,6 +450,186 @@
     "Correct.",
     "Dangerous."
    ]
+  },
+  {
+   "id": "dr-6-q1",
+   "lessonId": "dr-6",
+   "scenario": "A white circle with a black diagonal stripe on a single-carriageway road means (car)…",
+   "options": [
+    "60 mph",
+    "no limit",
+    "70 mph",
+    "30 mph"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "It's not 'no limit'.",
+    "Dual carriageway/motorway.",
+    "Built-up areas usually."
+   ]
+  },
+  {
+   "id": "dr-6-q2",
+   "lessonId": "dr-6",
+   "scenario": "Speed limit numbers in a red ring are in…",
+   "options": [
+    "km/h",
+    "knots",
+    "mph",
+    "m/s"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-6-q3",
+   "lessonId": "dr-6",
+   "scenario": "Green direction signs indicate…",
+   "options": [
+    "motorways",
+    "primary routes",
+    "tourist attractions",
+    "local roads"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Blue.",
+    "Correct.",
+    "Brown.",
+    "White."
+   ]
+  },
+  {
+   "id": "dr-6-q4",
+   "lessonId": "dr-6",
+   "scenario": "Circular signs with a red ring usually…",
+   "options": [
+    "warn",
+    "inform",
+    "show tourist sites",
+    "prohibit"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Triangles warn.",
+    "Rectangles.",
+    "Brown signs.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-6-q5",
+   "lessonId": "dr-6",
+   "scenario": "A bridge sign shows 12′ 6″. That's about…",
+   "options": [
+    "2.5 m",
+    "5 m",
+    "3.8 m",
+    "12.6 m"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too low.",
+    "Too high.",
+    "Correct.",
+    "Units confusion."
+   ]
+  },
+  {
+   "id": "dr-7-q1",
+   "lessonId": "dr-7",
+   "scenario": "Double yellow lines mean…",
+   "options": [
+    "no waiting at any time",
+    "parking for 1 hour",
+    "loading only",
+    "bus lane"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-7-q2",
+   "lessonId": "dr-7",
+   "scenario": "A single yellow line with a sign 'Mon–Sat 8am–6pm'. On Sunday at 10:00 you…",
+   "options": [
+    "can't wait",
+    "must pay",
+    "can usually wait",
+    "must load only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Restrictions don't apply then.",
+    "Not shown.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-7-q3",
+   "lessonId": "dr-7",
+   "scenario": "Yellow marks on the kerb indicate…",
+   "options": [
+    "no parking",
+    "loading restrictions",
+    "bus stop",
+    "school"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Lines do that.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-7-q4",
+   "lessonId": "dr-7",
+   "scenario": "Longer dashes in the centre line mean…",
+   "options": [
+    "motorway",
+    "parking allowed",
+    "bus lane",
+    "hazard ahead"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-7-q5",
+   "lessonId": "dr-7",
+   "scenario": "Double white lines with a solid line on your side…",
+   "options": [
+    "may be crossed to overtake any vehicle",
+    "mean parking",
+    "must not be crossed (limited exceptions)",
+    "mean nothing"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }
