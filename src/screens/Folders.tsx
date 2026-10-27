@@ -45,6 +45,7 @@ const FOLDER_TOOLS: Record<string, { to: string; label: string; desc: string }[]
     { to: '/nie/simulacros', label: '⏱️ Tests acumulados y simulacros', desc: 'Modo examen de 120 min' },
   ],
   fitness: [{ to: '/fitness', label: '📊 Registros: peso, entrenos, bleep, hábitos', desc: 'Plan semanal y gráficas' }],
+  prep: [{ to: '/glosario', label: '📖 Glosario y acrónimos', desc: 'EN → inglés sencillo → ES, con flashcards y tests' }],
 }
 
 export function FolderView() {

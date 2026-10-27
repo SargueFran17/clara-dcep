@@ -6,7 +6,8 @@ import { Week } from './screens/Week'
 import { FolderView, Folders, SubjectView } from './screens/Folders'
 import { LessonView } from './screens/LessonView'
 import { Settings } from './screens/Settings'
-import { ComingSoon, More, Search } from './screens/More'
+import { More, Search } from './screens/More'
+import { Glossary } from './screens/Glossary'
 import { Academy, AcademyDayView, AcademyModuleView } from './screens/Academy'
 import { NieChapter, NieChapterList } from './screens/NieChapters'
 import { Exam, MockCenter } from './screens/Exam'
@@ -16,6 +17,7 @@ import { Errors } from './screens/Errors'
 
 // las gráficas (recharts) se cargan solo al abrir Progreso
 const Progress = lazy(() => import('./screens/Progress').then((m) => ({ default: m.Progress })))
+const Fitness = lazy(() => import('./screens/Fitness').then((m) => ({ default: m.Fitness })))
 
 export default function App() {
   return (
@@ -43,8 +45,8 @@ export default function App() {
           <Route path="flashcards" element={<Flashcards />} />
           <Route path="flashcards/:subjectId" element={<Flashcards />} />
           <Route path="errores" element={<Errors />} />
-          <Route path="glosario" element={<ComingSoon title="Glosario y acrónimos" phase={3} />} />
-          <Route path="fitness" element={<ComingSoon title="Fitness" phase={3} />} />
+          <Route path="glosario" element={<Glossary />} />
+          <Route path="fitness" element={<Suspense fallback={null}><Fitness /></Suspense>} />
           <Route path="*" element={<Today />} />
         </Route>
       </Routes>

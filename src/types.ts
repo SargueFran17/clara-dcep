@@ -123,7 +123,9 @@ export interface WeightEntry {
 export interface BleepEntry {
   id?: number
   date: ISODate
+  /** nivel y shuttle por separado (5 y 4 = "5.4"); así 5.10 no se confunde con 5.1 */
   level: number
+  shuttle: number
 }
 
 export interface Habit {
