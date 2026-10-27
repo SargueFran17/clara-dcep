@@ -1,0 +1,238 @@
+import { useEffect, useRef, useState } from 'react'
+import { Link, useParams } from 'react-router-dom'
+import { useLiveQuery } from 'dexie-react-hooks'
+import { db } from '../db'
+import { lessonRef, nieGroups } from '../lib/content'
+import { useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
+import { chapterLabel, chapterStatus, NIE_STEPS, type ChapterInfo } from '../lib/progress'
+import { getChapter, toggleStep, updateChapter } from '../lib/actions'
+import { fmtShort, fmtUK } from '../lib/dates'
+import { stepLabel } from '../lib/srs'
+import { Recorder } from '../components/Recorder'
+import { Markdown } from '../components/Markdown'
+import { Button, Card, Check, Empty, PageHeader, Pill, ProgressBar } from '../components/ui'
+import type { ChapterStatus, NieChapterState } from '../types'
+
+const STATUS_TONE: Record<ChapterStatus, 'slate' | 'amber' | 'indigo' | 'green'> = {
+  pending: 'slate', inProgress: 'amber', studied: 'indigo', reviewing: 'indigo', final: 'green',
+}
+
+function useChapterInfos(): Map<string, ChapterInfo & { state?: NieChapterState }> | undefined {
+  const done = useDoneLessons()
+  const states = useLiveQuery(() => db.nieChapter.toArray(), [])
+  const reviews = useLiveQuery(() => db.reviews.where('itemKey').startsWith('lesson:nie-').toArray(), [])
+  if (!states || !reviews) return undefined
+  const byId = new Map(states.map((s) => [s.chapterId, s]))
+  const out = new Map<string, ChapterInfo & { state?: NieChapterState }>()
+  for (const c of nieGroups.flat()) {
+    const n = reviews.filter((r) => r.itemKey === `lesson:nie-${c.chapter}` && r.doneAt).length
+    out.set(c.chapter, { ...chapterStatus(byId.get(c.chapter), n, done.has(`nie-${c.chapter}`)), state: byId.get(c.chapter) })
+  }
+  return out
+}
+
+/** Los 43 capítulos en TU orden de 12 grupos, con su estado. */
+export function NieChapterList() {
+  const infos = useChapterInfos()
+  const plan = usePlan()
+  if (!infos) return <PageHeader title="Capítulos NIE" back />
+  const finals = [...infos.values()].filter((i) => i.status === 'final').length
+  const studied = [...infos.values()].filter((i) => ['studied', 'reviewing', 'final'].includes(i.status)).length
+  return (
+    <div>
+      <PageHeader title="Capítulos NIE" subtitle={`${studied}/43 estudiados · ${finals}/43 repaso final ✓`} back="/carpetas/nie" />
+      <ProgressBar pct={(studied / 43) * 100} color="rose" className="mb-4" />
+      <div className="space-y-4">
+        {nieGroups.map((g, gi) => (
+          <section key={gi}>
+            <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">Grupo {gi + 1}</h2>
+            <div className="space-y-2">
+              {g.map(({ chapter }) => {
+                const info = infos.get(chapter)!
+                const range = plan.nieRanges.get(chapter)
+                return (
+                  <Link key={chapter} to={`/nie/capitulo/${chapter}`} className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm hover:border-rose-300 dark:border-slate-800 dark:bg-slate-900">
+                    <div className="min-w-0 flex-1">
+                      <div className="text-sm font-medium">{lessonRef(`nie-${chapter}`)?.lesson.title}</div>
+                      <div className="mt-1 flex flex-wrap gap-1">
+                        <Pill tone={STATUS_TONE[info.status]}>{chapterLabel(info)}</Pill>
+                        {range && <Pill>{fmtShort(range[0])}–{fmtShort(range[1])}</Pill>}
+                        {info.state?.confidence && <Pill tone="amber">{'★'.repeat(info.state.confidence)}</Pill>}
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+const input = 'w-full rounded-xl border border-slate-300 bg-white p-2 text-sm dark:border-slate-700 dark:bg-slate-900'
+
+/** Página de un capítulo: checklist de 10 pasos, grabadora, resumen, confianza y repasos. */
+export function NieChapter() {
+  const { chapter = '' } = useParams()
+  const today = useToday()
+  const settings = useSettings()
+  const plan = usePlan()
+  const infos = useChapterInfos()
+  const state = useLiveQuery(() => getChapter(chapter), [chapter])
+  const reviews = useLiveQuery(() => db.reviews.where('itemKey').equals(`lesson:nie-${chapter}`).sortBy('due'), [chapter])
+  const ref = lessonRef(`nie-${chapter}`)
+  if (!ref) return <Empty>Capítulo no encontrado.</Empty>
+  if (!state || !infos) return <PageHeader title={ref.lesson.title} back />
+
+  const info = infos.get(chapter)!
+  const range = plan.nieRanges.get(chapter)
+  const next = reviews?.find((r) => !r.doneAt)
+  const totalMin = NIE_STEPS.reduce((a, s) => a + s.minutes, 0)
+
+  return (
+    <div className="space-y-4">
+      <PageHeader title={ref.lesson.title} subtitle={ref.subject.name} back="/nie/capitulos" />
+      <div className="flex flex-wrap gap-2">
+        <Pill tone={STATUS_TONE[info.status]}>{chapterLabel(info)}</Pill>
+        {range && <Pill>1ª vuelta {fmtUK(range[0])} – {fmtUK(range[1])}</Pill>}
+        {next && <Pill tone={next.due < today ? 'red' : 'amber'}>Repaso {stepLabel(next.step)}: {fmtUK(next.due)}</Pill>}
+        {info.status === 'studied' && !next && <Pill>Sin más repasos: toca el repaso final</Pill>}
+      </div>
+
+      <Card className="border-rose-200 dark:border-rose-900">
+        <p className="text-sm">⚠ Estudia siempre con el <b>Blackstone's Police Investigators' Manual 2027</b>: el examen sale solo de ahí. Mis explicaciones te ayudan a entenderlo; comprueba con tu edición 2027.</p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Link to={`/leccion/nie-${chapter}`} className="rounded-xl bg-indigo-600 px-3 py-2 text-sm font-semibold text-white">📖 Mi explicación fácil</Link>
+          <Link to={`/test?chapter=${chapter}&n=10`} className="rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold dark:bg-slate-800">📝 Test del capítulo</Link>
+          <Link to={`/flashcards/${ref.subject.id}`} className="rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold dark:bg-slate-800">🃏 Flashcards</Link>
+        </div>
+      </Card>
+
+      <Card>
+        <div className="mb-3 flex items-baseline justify-between">
+          <h2 className="font-semibold">Método de 10 pasos</h2>
+          <span className="text-xs text-slate-500">{info.stepsDone}/10 · ≈ {Math.round(totalMin / 60)} h en total</span>
+        </div>
+        <ProgressBar pct={info.stepsDone * 10} color="rose" className="mb-3" />
+        <ol className="space-y-3">
+          {NIE_STEPS.map((s, i) => (
+            <li key={i}>
+              <div className="flex items-center gap-3">
+                <Check checked={!!state.steps[i]} onChange={() => toggleStep(chapter, i, today)} label={s.title} />
+                <div className="flex-1">
+                  <div className={`text-sm font-medium ${state.steps[i] ? 'text-slate-400 line-through' : ''}`}>{i + 1}. {s.title}</div>
+                  <div className="text-xs text-slate-500">≈ {s.minutes} min{state.steps[i] && ` · hecho ${fmtShort(state.steps[i]!)}`}</div>
+                </div>
+              </div>
+              {(i === 0 || i === 5) && <InitialQuestions state={state} after={i === 5} />}
+              {i === 8 && <div className="ml-10 mt-2"><Recorder chapterId={chapter} /></div>}
+              {i === 9 && <SummaryEditor chapterId={chapter} initial={state.summary ?? ''} />}
+            </li>
+          ))}
+        </ol>
+        {info.stepsDone === 10 && <p className="mt-3 text-sm text-emerald-600">✓ Estudiado. Los repasos (+1d, +3d, +7d, +1 mes…) aparecen en Hoy hasta el {fmtUK(settings.finalReviewStart)}.</p>}
+      </Card>
+
+      <Card>
+        <h2 className="mb-2 font-semibold">¿Cuánta confianza tienes? (1–5)</h2>
+        <div className="flex gap-2">
+          {[1, 2, 3, 4, 5].map((n) => (
+            <button
+              key={n}
+              onClick={() => updateChapter(chapter, { confidence: n })}
+              className={`h-11 flex-1 rounded-xl text-lg font-bold ${state.confidence === n ? 'bg-amber-500 text-white' : 'bg-slate-100 dark:bg-slate-800'}`}
+            >
+              {n}
+            </button>
+          ))}
+        </div>
+      </Card>
+
+      <Card>
+        <h2 className="mb-1 font-semibold">Repaso final ({fmtShort(settings.finalReviewStart)} – {fmtShort(settings.finalReviewEnd)})</h2>
+        {state.finalDoneAt ? (
+          <div className="flex items-center justify-between">
+            <span className="text-sm text-emerald-600">✓ Hecho el {fmtUK(state.finalDoneAt)}</span>
+            <Button variant="ghost" onClick={() => updateChapter(chapter, { finalDoneAt: undefined })}>Deshacer</Button>
+          </div>
+        ) : (
+          <Button onClick={() => updateChapter(chapter, { finalDoneAt: today })} disabled={today < settings.finalReviewStart && info.stepsDone < 10}>
+            Marcar repaso final ✓
+          </Button>
+        )}
+      </Card>
+    </div>
+  )
+}
+
+/** Pasos 1 y 6: tus 3 preguntas, la respuesta antes de leer y después. */
+function InitialQuestions({ state, after }: { state: NieChapterState; after: boolean }) {
+  const qs = state.initialQuestions ?? ['', '', '']
+  const field = after ? 'answersAfter' : 'answersBefore'
+  const answers = state[field] ?? ['', '', '']
+  const save = (patch: Partial<NieChapterState>) => updateChapter(state.chapterId, patch)
+  return (
+    <div className="ml-10 mt-2 space-y-2">
+      {[0, 1, 2].map((k) => (
+        <div key={k} className="rounded-xl bg-slate-50 p-2 dark:bg-slate-800/50">
+          {after ? (
+            <div className="text-sm font-medium">{qs[k] || <span className="text-slate-400">Pregunta {k + 1} (escríbela en el paso 1)</span>}</div>
+          ) : (
+            <input className={input} placeholder={`Pregunta ${k + 1} que crees que saldrá`} defaultValue={qs[k]} onBlur={(e) => save({ initialQuestions: qs.map((q, j) => (j === k ? e.target.value : q)) })} />
+          )}
+          {after && state.answersBefore?.[k] && <div className="mt-1 text-xs text-slate-500">Antes: {state.answersBefore[k]}</div>}
+          <textarea
+            className={`${input} mt-1`}
+            rows={2}
+            placeholder={after ? 'Tu respuesta ahora' : 'Tu respuesta sin leer'}
+            defaultValue={answers[k]}
+            onBlur={(e) => save({ [field]: answers.map((a, j) => (j === k ? e.target.value : a)) })}
+          />
+        </div>
+      ))}
+    </div>
+  )
+}
+
+/** Paso 10: editor del resumen (se guarda solo). */
+function SummaryEditor({ chapterId, initial }: { chapterId: string; initial: string }) {
+  const [text, setText] = useState(initial)
+  const [preview, setPreview] = useState(false)
+  const [status, setStatus] = useState('')
+  const timer = useRef<ReturnType<typeof setTimeout>>(undefined)
+
+  useEffect(() => () => clearTimeout(timer.current), [])
+
+  function change(v: string) {
+    setText(v)
+    setStatus('…')
+    clearTimeout(timer.current)
+    timer.current = setTimeout(async () => {
+      await updateChapter(chapterId, { summary: v })
+      setStatus('guardado ✓')
+    }, 700)
+  }
+
+  return (
+    <div className="ml-10 mt-2">
+      <div className="mb-1 flex items-center gap-2 text-xs">
+        <button onClick={() => setPreview(false)} className={!preview ? 'font-bold text-indigo-600' : 'text-slate-500'}>Escribir</button>
+        <button onClick={() => setPreview(true)} className={preview ? 'font-bold text-indigo-600' : 'text-slate-500'}>Vista previa</button>
+        <span className="ml-auto text-slate-400">{status}</span>
+      </div>
+      {preview ? (
+        <div className="rounded-xl border border-slate-200 p-3 dark:border-slate-700">{text ? <Markdown text={text} /> : <span className="text-sm text-slate-400">Vacío</span>}</div>
+      ) : (
+        <textarea
+          className={`${input} font-mono`}
+          rows={12}
+          value={text}
+          onChange={(e) => change(e.target.value)}
+          placeholder={'Escribe el tema con tus palabras (Markdown):\n## Definición\n- ...\n## Elementos\n- ...\n## Trampas de examen\n- ...'}
+        />
+      )}
+    </div>
+  )
+}
