@@ -2,7 +2,7 @@ import structureJson from '../../content/structure.json'
 import preJson from '../../content/plan/pre-academy.json'
 import nieJson from '../../content/plan/nie-order.json'
 import fitnessJson from '../../content/fitness/plan.json'
-import type { Folder, LessonMeta, NieGroupItem, Structure, Subject, WorkoutItem } from '../types'
+import type { Card, Folder, LessonMeta, NieGroupItem, Question, Structure, Subject, WorkoutItem } from '../types'
 
 // Todo el contenido vive en /content y se empaqueta al compilar.
 
@@ -53,3 +53,31 @@ export function lessonMarkdown(id: string): string | undefined {
 
 /** Capítulo NIE ("1.3") → id de lección ("nie-1.3") */
 export const nieLessonId = (chapter: string) => `nie-${chapter}`
+
+/** Enlace de una lección: los capítulos NIE abren su página de 10 pasos. */
+export function lessonLink(id: string): string {
+  return lessonRef(id)?.subject.nie ? `/nie/capitulo/${id.slice(4)}` : `/leccion/${id}`
+}
+
+// ---------- Flashcards y preguntas: content/flashcards/<asignatura>.json y content/questions/<asignatura>.json ----------
+
+type CardFile = { cards: (Omit<Card, 'id' | 'subjectId'> & { id: string })[] }
+type QuestionFile = { questions: (Omit<Question, 'id' | 'subjectId'> & { id: string })[] }
+
+const fileSubject = (path: string) => path.slice(path.lastIndexOf('/') + 1, -'.json'.length)
+
+const cardFiles = import.meta.glob('../../content/flashcards/*.json', { eager: true, import: 'default' }) as Record<string, CardFile>
+const questionFiles = import.meta.glob('../../content/questions/*.json', { eager: true, import: 'default' }) as Record<string, QuestionFile>
+
+export const contentCards: Card[] = Object.entries(cardFiles).flatMap(([path, file]) =>
+  (file.cards ?? []).map((c) => ({ ...c, id: `c:${c.id}`, subjectId: fileSubject(path) })),
+)
+
+export const contentQuestions: Question[] = Object.entries(questionFiles).flatMap(([path, file]) =>
+  (file.questions ?? []).map((q) => ({ ...q, id: `q:${q.id}`, subjectId: fileSubject(path) })),
+)
+
+/** "1.3" → "nie-p1" */
+export function nieSubjectOf(chapter: string): string {
+  return `nie-p${chapter.split('.')[0]}`
+}

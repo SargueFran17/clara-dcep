@@ -136,11 +136,19 @@ export interface Habit {
 export type ChapterStatus = 'pending' | 'inProgress' | 'studied' | 'reviewing' | 'final'
 
 export interface NieChapterState {
+  /** "1.3" */
   chapterId: string
   /** fecha en que completaste cada paso (índice 0–9) */
   steps: (ISODate | null)[]
   confidence?: number
+  /** paso 10: tu resumen del tema */
   summary?: string
+  /** pasos 1 y 6: tus 3 preguntas, tu respuesta antes de leer y después */
+  initialQuestions?: string[]
+  answersBefore?: string[]
+  answersAfter?: string[]
+  /** minutos reales por paso */
+  minutes?: number[]
   finalDoneAt?: ISODate
 }
 
@@ -151,6 +159,36 @@ export interface CardState {
   reps: number
   lapses: number
   due: ISODate
+  /** día en que la viste por primera vez (límite diario de tarjetas nuevas) */
+  introduced: ISODate
+  lastReviewed: ISODate
+}
+
+/** Flashcard de content/flashcards/<asignatura>.json o creada por ti. */
+export interface Card {
+  /** 'c:<id>' (contenido) o 'u:<n>' (tuya) */
+  id: string
+  subjectId: string
+  lessonId?: string
+  front: string
+  back: string
+  /** explicación en español (opcional) */
+  es?: string
+}
+
+/** Pregunta de opción múltiple (contenido o tuya). */
+export interface Question {
+  /** 'q:<id>' (contenido) o 'uq:<n>' (tuya) */
+  id: string
+  subjectId: string
+  lessonId?: string
+  /** capítulo NIE, p. ej. "1.3" */
+  chapter?: string
+  scenario: string
+  options: string[]
+  correct: number
+  explanations: string[]
+  manualRef?: string
 }
 
 export type ErrorType = 'concept' | 'keyword' | 'language' | 'confused' | 'detail' | 'rush'
@@ -158,10 +196,16 @@ export type ErrorType = 'concept' | 'keyword' | 'language' | 'confused' | 'detai
 export interface ErrorEntry {
   id?: number
   date: ISODate
+  /** '' si es un error apuntado a mano (p. ej. de un libro de preguntas) */
   questionId: string
   subjectId: string
+  chapter?: string
   type: ErrorType
+  /** la regla correcta, escrita por ti */
   rule: string
+  /** qué pasó / la pregunta, si es manual */
+  note?: string
+  chosen?: number
 }
 
 export interface TestAttempt {
@@ -181,7 +225,9 @@ export interface AcademyDay {
   moduleId?: number
   topic?: string
   notes?: string
+  /** 5 ideas clave con tus palabras */
   keyIdeas?: string[]
+  /** dudas para preguntar */
   questions?: string
 }
 
@@ -204,6 +250,7 @@ export interface UserCard {
   subjectId: string
   lessonId?: string
   academyDate?: ISODate
+  academyModuleId?: number
   front: string
   back: string
 }
@@ -211,6 +258,7 @@ export interface UserCard {
 export interface UserQuestion {
   id?: number
   subjectId: string
+  lessonId?: string
   chapter?: string
   scenario: string
   options: string[]

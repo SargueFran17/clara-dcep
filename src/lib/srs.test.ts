@@ -49,9 +49,17 @@ describe('repasos espaciados', () => {
   })
 
   it('corta la serie en la fecha límite (17 may para NIE)', () => {
-    expect(firstReview('2027-05-16', '2027-05-17')).toBeNull()
+    expect(firstReview('2027-05-16', { until: '2027-05-17' })).toBeNull()
     const r = { anchor: '2027-04-20', step: 3, due: '2027-04-27' }
-    expect(nextReview(r, '2027-04-27', '2027-05-17')).toBeNull() // +1 mes = 20/05
+    expect(nextReview(r, '2027-04-27', { until: '2027-05-17' })).toBeNull() // +1 mes = 20/05
+  })
+
+  it('diario de academia: solo +1 día y +7 días', () => {
+    const r1 = firstReview('2027-01-04', { steps: [1, 3] })!
+    expect(r1.due).toBe('2027-01-05')
+    const r2 = nextReview(r1, '2027-01-05', { steps: [1, 3] })!
+    expect(r2).toEqual({ anchor: '2027-01-04', step: 3, due: '2027-01-11' })
+    expect(nextReview(r2, '2027-01-11', { steps: [1, 3] })).toBeNull()
   })
 
   it('estado y etiquetas', () => {

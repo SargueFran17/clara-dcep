@@ -1,6 +1,6 @@
 import { db } from '../db'
 import type { Review, Settings } from '../types'
-import { firstReview, nextReview } from './srs'
+import { firstReview, nextReview, type SeriesOptions } from './srs'
 import type { ISODate } from './dates'
 import { DEFAULT_SETTINGS } from './defaults'
 
@@ -15,16 +15,22 @@ export async function saveSettings(patch: Partial<Settings>) {
   await db.settings.put({ ...current, ...patch, id: 'main' })
 }
 
-/** Los capítulos NIE dejan de tener repasos espaciados al empezar el repaso final. */
-async function reviewLimitFor(itemKey: string): Promise<ISODate | undefined> {
-  if (itemKey.startsWith('lesson:nie-')) return (await getSettings()).finalReviewStart
+/**
+ * Reglas de cada serie de repasos:
+ * - capítulos NIE: se cortan al empezar el repaso final (17 may);
+ * - diario de academia: solo +1 día y +7 días.
+ */
+async function seriesFor(itemKey: string): Promise<SeriesOptions> {
+  if (itemKey.startsWith('lesson:nie-')) return { until: (await getSettings()).finalReviewStart }
+  if (itemKey.startsWith('academy:')) return { steps: [1, 3] }
+  return {}
 }
 
 /** Programa el primer repaso de algo terminado hoy (si no tenía ya uno pendiente). */
 export async function scheduleFirstReview(itemKey: string, completedOn: ISODate) {
   const pending = await db.reviews.where('itemKey').equals(itemKey).filter((r) => !r.doneAt).count()
   if (pending) return
-  const r = firstReview(completedOn, await reviewLimitFor(itemKey))
+  const r = firstReview(completedOn, await seriesFor(itemKey))
   if (r) await db.reviews.add({ itemKey, ...r })
 }
 
@@ -46,7 +52,7 @@ export async function uncompleteLesson(lessonId: string) {
 export async function completeReview(review: Review, on: ISODate) {
   await db.transaction('rw', db.reviews, db.settings, async () => {
     await db.reviews.update(review.id!, { doneAt: on })
-    const next = nextReview(review, on, await reviewLimitFor(review.itemKey))
+    const next = nextReview(review, on, await seriesFor(review.itemKey))
     if (next) await db.reviews.add({ itemKey: review.itemKey, ...next })
   })
 }
@@ -57,7 +63,7 @@ export async function undoReview(review: Review) {
     await db.reviews
       .where('itemKey')
       .equals(review.itemKey)
-      .filter((r) => !r.doneAt && r.step === review.step + 1)
+      .filter((r) => !r.doneAt && r.step > review.step)
       .delete()
     await db.reviews.update(review.id!, { doneAt: undefined })
   })

@@ -1,0 +1,54 @@
+{
+  "_comment": "Flashcards de la asignatura 'ni' (Examen NIE: info y estrategia). Datos del NIE candidate handbook 2026 que me diste: compruébalos con el handbook de tu convocatoria.",
+  "cards": [
+    {
+      "id": "ni-1-1",
+      "lessonId": "ni-1",
+      "front": "How many questions are in the NIE and how long do you have?",
+      "back": "80 multiple-choice questions in 2 hours (120 minutes).",
+      "es": "80 preguntas tipo test en 2 horas."
+    },
+    {
+      "id": "ni-1-2",
+      "lessonId": "ni-1",
+      "front": "How many of the 80 questions are scored?",
+      "back": "70. The other 10 are not scored (you don't know which ones), so answer every question as if it counts.",
+      "es": "Se puntúan 70; las otras 10 no cuentan, pero no sabes cuáles."
+    },
+    {
+      "id": "ni-1-3",
+      "lessonId": "ni-1",
+      "front": "What is the NIE pass mark?",
+      "back": "55.7 % — 39 correct out of the 70 scored questions.",
+      "es": "Aprobado: 55,7 % = 39 de 70."
+    },
+    {
+      "id": "ni-1-4",
+      "lessonId": "ni-1",
+      "front": "Where do NIE questions come from?",
+      "back": "Only from Blackstone's Police Investigators' Manual for the exam year (for you: the 2027 edition).",
+      "es": "Solo del Blackstone's Police Investigators' Manual del año del examen (2027)."
+    },
+    {
+      "id": "ni-1-5",
+      "lessonId": "ni-1",
+      "front": "Can you use AI tools during the NIE?",
+      "back": "No. Using AI during the exam is prohibited.",
+      "es": "No: está prohibido usar IA durante el examen."
+    },
+    {
+      "id": "ni-1-6",
+      "lessonId": "ni-1",
+      "front": "How is the NIE syllabus organised?",
+      "back": "43 chapters in 4 parts: 1 General principles, police powers and procedures · 2 Serious crime and other offences · 3 Property offences · 4 Sexual offences.",
+      "es": "43 capítulos en 4 partes."
+    },
+    {
+      "id": "ni-1-7",
+      "lessonId": "ni-1",
+      "front": "Average time per question in the NIE?",
+      "back": "120 min ÷ 80 = 1.5 minutes (90 seconds) per question.",
+      "es": "90 segundos por pregunta de media."
+    }
+  ]
+}

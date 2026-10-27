@@ -25,20 +25,35 @@ export function stepLabel(step: number): string {
   return STEP_LABELS[step] ?? `+${step - 3} meses`
 }
 
-/** Primer repaso tras terminar algo. `until` (exclusivo) corta la serie: devuelve null si cae después. */
-export function firstReview(completedOn: ISODate, until?: ISODate): ReviewSchedule | null {
-  const due = dueForStep(completedOn, 1)
-  if (until && due >= until) return null
-  return { anchor: completedOn, step: 1, due }
+export interface SeriesOptions {
+  /** fecha límite (exclusiva): no se programan repasos a partir de ella */
+  until?: ISODate
+  /** solo estos pasos (p. ej. diario de academia: [1, 3] = +1 día y +7 días) */
+  steps?: number[]
+}
+
+function stepAfter(step: number, steps?: number[]): number | null {
+  if (!steps) return step + 1
+  return steps.find((s) => s > step) ?? null
+}
+
+/** Primer repaso tras terminar algo. Devuelve null si cae después de `until`. */
+export function firstReview(completedOn: ISODate, opts: SeriesOptions = {}): ReviewSchedule | null {
+  const step = stepAfter(0, opts.steps)
+  if (step === null) return null
+  const due = dueForStep(completedOn, step)
+  if (opts.until && due >= opts.until) return null
+  return { anchor: completedOn, step, due }
 }
 
 /** Siguiente repaso tras hacer uno el día `doneOn`. */
-export function nextReview(current: ReviewSchedule, doneOn: ISODate, until?: ISODate): ReviewSchedule | null {
+export function nextReview(current: ReviewSchedule, doneOn: ISODate, opts: SeriesOptions = {}): ReviewSchedule | null {
   const delay = Math.max(0, diffDays(doneOn, current.due))
   const anchor = addDays(current.anchor, delay)
-  const step = current.step + 1
+  const step = stepAfter(current.step, opts.steps)
+  if (step === null) return null
   const due = dueForStep(anchor, step)
-  if (until && due >= until) return null
+  if (opts.until && due >= opts.until) return null
   return { anchor, step, due }
 }
 
