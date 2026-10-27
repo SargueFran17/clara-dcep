@@ -2,7 +2,7 @@ import type { Plan, PlanEvent } from './planner'
 import type { ISODate } from './dates'
 import { fmtShort } from './dates'
 import type { Review } from '../types'
-import { lessonRef } from './content'
+import { lessonLink, lessonRef } from './content'
 import { stepLabel } from './srs'
 
 // Junta en una sola lista las tareas de un día de TODAS las carpetas.
@@ -29,12 +29,14 @@ export interface TodayData {
   reviews: Review[]
   /** claves de taskDone de hoy */
   checked: Set<string>
+  /** flashcards pendientes hoy y vistas hoy */
+  cards?: { pending: number; reviewedToday: number }
 }
 
 function lessonTitle(id: string): { title: string; subtitle: string; link?: string } {
   const ref = lessonRef(id)
   if (!ref) return { title: id, subtitle: '' }
-  return { title: `${ref.lesson.code} · ${ref.lesson.title}`, subtitle: ref.subject.name, link: `/leccion/${id}` }
+  return { title: `${ref.lesson.code} · ${ref.lesson.title}`, subtitle: ref.subject.name, link: lessonLink(id) }
 }
 
 function reviewTitle(r: Review): { title: string; subtitle: string; link?: string } {
@@ -53,8 +55,7 @@ const EVENT_SECTION: Partial<Record<PlanEvent['type'], TaskSection>> = {
 }
 
 const EVENT_LINK: Partial<Record<PlanEvent['type'], string>> = {
-  academyDiary: '/academia',
-  academyWeekSummary: '/academia',
+  academyWeekSummary: '/academia?tab=resumen',
   cumulativeTest: '/nie/simulacros',
   mock: '/nie/simulacros',
 }
@@ -88,7 +89,7 @@ export function buildTasks(date: ISODate, plan: Plan, data: TodayData): Task[] {
     }
     for (const e of day.events) {
       const key = `event:${e.type}${e.group ? `:${e.group}` : ''}`
-      tasks.push({ kind: 'check', key, section: EVENT_SECTION[e.type] ?? 'plan', title: e.label, done: data.checked.has(key), link: EVENT_LINK[e.type] })
+      tasks.push({ kind: 'check', key, section: EVENT_SECTION[e.type] ?? 'plan', title: e.label, done: data.checked.has(key), link: e.type === 'academyDiary' ? `/academia/dia/${date}` : EVENT_LINK[e.type] })
     }
     // 3. Entreno
     day.workouts.forEach((w, i) => {
@@ -108,7 +109,14 @@ export function buildTasks(date: ISODate, plan: Plan, data: TodayData): Task[] {
     if (r.due < date && r.doneAt === date)
       tasks.push({ kind: 'review', key: `review:${r.id}`, section: 'reviews', ...reviewTitle(r), review: r, done: true })
 
-  // 5. Hábitos (siempre)
+  // 5. Flashcards (si hay algo que repasar hoy)
+  if (data.cards && (data.cards.pending > 0 || data.cards.reviewedToday > 0))
+    tasks.push({
+      kind: 'check', key: 'cards', section: 'reviews', title: `Flashcards (${data.cards.pending} pendientes)`,
+      subtitle: `${data.cards.reviewedToday} vistas hoy`, done: data.checked.has('cards') || data.cards.pending === 0, link: '/flashcards',
+    })
+
+  // 6. Hábitos (siempre)
   tasks.push({ kind: 'check', key: 'habits', section: 'habits', title: 'Hábitos: comidas del plan, agua y sueño', done: data.checked.has('habits'), link: '/fitness' })
 
   return tasks

@@ -81,3 +81,9 @@ export const contentQuestions: Question[] = Object.entries(questionFiles).flatMa
 export function nieSubjectOf(chapter: string): string {
   return `nie-p${chapter.split('.')[0]}`
 }
+
+/** Nombre legible de una asignatura (incluye las flashcards del diario de academia). */
+export function subjectName(id: string): string {
+  if (id === 'academy') return 'Diario de academia'
+  return findSubject(id)?.subject.name ?? id
+}

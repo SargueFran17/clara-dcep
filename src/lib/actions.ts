@@ -1,5 +1,6 @@
 import { db } from '../db'
-import type { Review, Settings } from '../types'
+import type { AcademyDay, ErrorEntry, NieChapterState, Review, Settings, TestAttempt } from '../types'
+import { grade, newCardState, type Grade } from './sm2'
 import { firstReview, nextReview, type SeriesOptions } from './srs'
 import type { ISODate } from './dates'
 import { DEFAULT_SETTINGS } from './defaults'
@@ -76,4 +77,58 @@ export async function setTaskDone(date: ISODate, key: string, done: boolean) {
 
 export async function logMinutes(date: ISODate, minutes: number, folderId?: string) {
   if (minutes > 0) await db.studySessions.add({ date, minutes, folderId })
+}
+
+// ---------- Flashcards ----------
+
+export async function gradeCard(cardId: string, g: Grade, today: ISODate) {
+  const state = (await db.cardState.get(cardId)) ?? newCardState(cardId, today)
+  await db.cardState.put(grade(state, g, today))
+}
+
+// ---------- Tests y errores ----------
+
+export async function saveAttempt(a: TestAttempt) {
+  return db.testAttempts.add(a)
+}
+
+export async function saveError(e: ErrorEntry) {
+  if (e.id) await db.errors.put(e)
+  else await db.errors.add(e)
+}
+
+// ---------- Capítulos NIE (método de 10 pasos) ----------
+
+export async function getChapter(chapterId: string): Promise<NieChapterState> {
+  return (await db.nieChapter.get(chapterId)) ?? { chapterId, steps: Array(10).fill(null) }
+}
+
+export async function updateChapter(chapterId: string, patch: Partial<NieChapterState>) {
+  await db.nieChapter.put({ ...(await getChapter(chapterId)), ...patch, chapterId })
+}
+
+/**
+ * Marca/desmarca un paso. Al completar los 10, el capítulo queda "Estudiado" en la fecha del
+ * último paso y empiezan los repasos (+1d, +3d, +7d, +1m…) hasta el repaso final.
+ */
+export async function toggleStep(chapterId: string, index: number, today: ISODate) {
+  const ch = await getChapter(chapterId)
+  const steps = [...ch.steps]
+  steps[index] = steps[index] ? null : today
+  await db.nieChapter.put({ ...ch, steps })
+  const lessonId = `nie-${chapterId}`
+  if (steps.every(Boolean)) {
+    if (!(await db.lessonProgress.get(lessonId))) await completeLesson(lessonId, today)
+  } else if (await db.lessonProgress.get(lessonId)) {
+    await uncompleteLesson(lessonId)
+  }
+}
+
+// ---------- Academia ----------
+
+export async function saveAcademyDay(day: AcademyDay) {
+  await db.transaction('rw', db.academyDays, db.reviews, db.settings, async () => {
+    await db.academyDays.put(day)
+    await scheduleFirstReview(`academy:${day.date}`, day.date)
+  })
 }
