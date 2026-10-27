@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.5. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.5-01",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Under s. 53 YJCEA 1999, what is the general rule on competence of witnesses?",
+   "options": [
+    "Everyone is competent unless unable to understand questions and give answers that can be understood",
+    "Only adults are competent",
+    "Only people who can swear an oath are competent",
+    "Children under 10 are never competent"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Age is not the test.",
+    "Unsworn evidence is possible.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Competence – s. 53"
+  },
+  {
+   "id": "1.5-02",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A 12-year-old witness understands questions and gives clear answers. How will she give evidence?",
+   "options": [
+    "On oath",
+    "She cannot give evidence",
+    "Unsworn, because she is under 14",
+    "Only in writing"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Sworn evidence requires 14+.",
+    "She is competent.",
+    "Correct: s. 55–56 YJCEA.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Sworn and unsworn evidence"
+  },
+  {
+   "id": "1.5-03",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "GRANT is charged with assaulting his wife. She refuses to give evidence for the prosecution. Which is correct?",
+   "options": [
+    "She is not compellable",
+    "She is compellable because the offence involves an assault on her",
+    "She is not competent",
+    "She can only give evidence for the defence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "She is compellable in this offence.",
+    "Correct: PACE s. 80(3).",
+    "She is competent.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Spouse – compellability"
+  },
+  {
+   "id": "1.5-04",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "FORD is charged with burglary of his neighbour's house. His wife saw him leave with a bag. Is she compellable for the prosecution?",
+   "options": [
+    "Yes, spouses are always compellable",
+    "No, she is not competent",
+    "Yes, because she witnessed it",
+    "No – burglary of a neighbour is not a specified offence; she is competent but not compellable"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "She is competent.",
+    "Witnessing doesn't make her compellable.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Spouse – compellability"
+  },
+  {
+   "id": "1.5-05",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A wife is charged jointly with her husband for the same robbery. Can she be called by the prosecution against him?",
+   "options": [
+    "Yes, she is compellable",
+    "Yes, if she agrees",
+    "No – a person jointly charged is not competent/compellable for the prosecution while still a co-accused",
+    "Only in the Crown Court"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct (unless no longer liable to be convicted in the proceedings ⚠).",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Spouse – jointly charged"
+  },
+  {
+   "id": "1.5-06",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "In which case is a spouse compellable for the prosecution?",
+   "options": [
+    "Sexual offence against a 14-year-old",
+    "Fraud against the spouse's employer",
+    "Theft from a shop",
+    "Criminal damage to the spouse's car"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: sexual offence against a person under 16.",
+    "Not specified.",
+    "Not specified.",
+    "Not an assault/injury."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Spouse – s. 80(3)"
+  },
+  {
+   "id": "1.5-07",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A couple divorced last year. The ex-wife is a witness against her ex-husband in a theft case. Which is correct?",
+   "options": [
+    "She is not compellable because they were married",
+    "She is not competent",
+    "She needs court permission",
+    "She is treated like any other witness (competent and compellable)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Former spouses"
+  },
+  {
+   "id": "1.5-08",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Can a defendant be called as a witness for the prosecution in his own trial?",
+   "options": [
+    "Yes",
+    "No, the accused is not competent for the prosecution",
+    "Only if he consents",
+    "Only for summary offences"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: s. 53(4) YJCEA.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Defendant as witness"
+  },
+  {
+   "id": "1.5-09",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "PC LEE wants to refresh her memory in court from her pocket notebook. Under s. 139 CJA 2003, which is required?",
+   "options": [
+    "The document records her recollection at the time and it was likely to be significantly better then",
+    "The notes were written by another officer",
+    "The notes are typed",
+    "The defence agrees"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ check wording).",
+    "Incorrect.",
+    "Not required.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Refreshing memory"
+  },
+  {
+   "id": "1.5-10",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Which witness is automatically eligible for special measures as an intimidated witness (unless they opt out)?",
+   "options": [
+    "Any police officer",
+    "Any adult witness",
+    "A complainant in a sexual offence case",
+    "An expert witness"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Special measures – eligibility"
+  },
+  {
+   "id": "1.5-11",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A 17-year-old witness of a robbery is eligible for special measures because…",
+   "options": [
+    "all witnesses are",
+    "they are under 18 and therefore a vulnerable witness",
+    "they are intimidated",
+    "they are a police witness"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct: s. 16 YJCEA.",
+    "Not necessarily.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Special measures – vulnerable"
+  },
+  {
+   "id": "1.5-12",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Which of the following is NOT a special measure?",
+   "options": [
+    "Screens",
+    "Live link",
+    "Video-recorded evidence-in-chief",
+    "Allowing the witness not to be cross-examined at all"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It is.",
+    "It is.",
+    "It is.",
+    "Correct: cross-examination still happens (possibly pre-recorded)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Special measures"
+  },
+  {
+   "id": "1.5-13",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "What is hearsay under s. 114 CJA 2003?",
+   "options": [
+    "Any evidence a witness gives in court",
+    "Expert evidence",
+    "A statement not made in oral evidence in the proceedings, relied on as evidence of the matter stated",
+    "Evidence of bad character"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Different rules.",
+    "Correct.",
+    "Different rules."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Hearsay – definition"
+  },
+  {
+   "id": "1.5-14",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A key witness died before the trial. Her statement may be admissible under…",
+   "options": [
+    "s. 116 CJA 2003",
+    "s. 101 CJA 2003",
+    "s. 78 PACE",
+    "s. 9 CJA 1967 only"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: witness unavailable (dead).",
+    "Bad character.",
+    "Exclusion.",
+    "s. 9 requires no objection; s. 116 covers unavailability."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Hearsay – s. 116"
+  },
+  {
+   "id": "1.5-15",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A witness refuses to give evidence through fear. Her statement may be admitted under s. 116…",
+   "options": [
+    "automatically",
+    "never",
+    "only if the defence agrees",
+    "only with the leave of the court"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Leave is needed for fear.",
+    "Incorrect.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Hearsay – fear"
+  },
+  {
+   "id": "1.5-16",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Which of these is NOT a reason under s. 116 for a witness being unavailable?",
+   "options": [
+    "Dead",
+    "Prefers not to come because of work",
+    "Outside the UK and not reasonably practicable to secure attendance",
+    "Cannot be found despite reasonable steps"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Ground.",
+    "Correct: not a ground.",
+    "Ground.",
+    "Ground."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Hearsay – s. 116"
+  },
+  {
+   "id": "1.5-17",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Under s. 114(1) CJA 2003, hearsay can be admitted if…",
+   "options": [
+    "all parties agree to it being admissible",
+    "the police want it",
+    "the witness is busy",
+    "it is in writing"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (one of four routes).",
+    "No.",
+    "No.",
+    "Not by itself."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Hearsay – routes"
+  },
+  {
+   "id": "1.5-18",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Through how many gateways can a defendant's bad character be admitted under s. 101(1) CJA 2003?",
+   "options": [
+    "Three",
+    "Five",
+    "Seven",
+    "Ten"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Bad character – gateways"
+  },
+  {
+   "id": "1.5-19",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "The defendant tells the jury he has 'never been in trouble'. He has several convictions. Which gateway may allow them in?",
+   "options": [
+    "(a) agreement",
+    "(f) to correct a false impression",
+    "(e) co-defendant",
+    "(c) explanatory evidence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not agreed.",
+    "Correct.",
+    "No co-defendant issue.",
+    "Not explanatory."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Bad character – false impression"
+  },
+  {
+   "id": "1.5-20",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "The defendant attacks a prosecution witness's character, calling him a liar and a thief. Which gateway may be relevant?",
+   "options": [
+    "(b) defendant introduces it",
+    "(e)",
+    "(c)",
+    "(g) attack on another person's character"
+   ],
+   "correct": 3,
+   "explanations": [
+    "He hasn't introduced his own character.",
+    "Co-defendants only.",
+    "Not explanatory.",
+    "Correct (subject to fairness s. 101(3))."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Bad character – attack"
+  },
+  {
+   "id": "1.5-21",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "For which gateways must the court exclude bad character evidence if admitting it would have such an adverse effect on fairness that it ought not to be admitted?",
+   "options": [
+    "(a) and (b)",
+    "(c) and (e)",
+    "(d) and (g)",
+    "all gateways"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct: s. 101(3).",
+    "Not under s. 101(3)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Bad character – fairness"
+  },
+  {
+   "id": "1.5-22",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Evidence showing the defendant has a propensity to commit offences of the kind charged would usually go through…",
+   "options": [
+    "gateway (d)",
+    "gateway (a)",
+    "gateway (f)",
+    "none"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: important matter in issue.",
+    "Only if agreed.",
+    "Different purpose.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Bad character – propensity"
+  },
+  {
+   "id": "1.5-23",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Are spouses compellable for the DEFENCE of their spouse?",
+   "options": [
+    "No",
+    "Only in sexual offences",
+    "Only if under 16",
+    "Yes, unless jointly charged"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Spouse – defence"
+  },
+  {
+   "id": "1.5-24",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Is age, by itself, a bar to a child giving evidence?",
+   "options": [
+    "Yes, under 10",
+    "No – the test is understanding questions and giving intelligible answers",
+    "Yes, under 14",
+    "Yes, under 16"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "That's for sworn evidence only.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Competence"
+  },
+  {
+   "id": "1.5-25",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Pre-recorded cross-examination for vulnerable witnesses is provided by which section of YJCEA 1999?",
+   "options": [
+    "s. 28",
+    "s. 16",
+    "s. 53",
+    "s. 101"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Eligibility.",
+    "Competence.",
+    "Wrong Act (CJA 2003 bad character)."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Special measures – s. 28"
+  },
+  {
+   "id": "1.5-26",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A shop's routine computer records of sales are offered as evidence. Which hearsay provision is most relevant?",
+   "options": [
+    "s. 116",
+    "s. 101",
+    "s. 117 – business and other documents",
+    "s. 139"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Unavailable witness.",
+    "Bad character.",
+    "Correct.",
+    "Refreshing memory."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Hearsay – business documents"
+  },
+  {
+   "id": "1.5-27",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "A spouse is compellable for the prosecution where the offence involves a threat of injury to…",
+   "options": [
+    "anyone",
+    "the spouse or a person under 16",
+    "only the spouse",
+    "only police officers"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too wide.",
+    "Correct.",
+    "Also under-16s.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Spouse – s. 80(3)(a)"
+  },
+  {
+   "id": "1.5-28",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Which statement about the defendant giving evidence is correct?",
+   "options": [
+    "He must give evidence",
+    "He can never give evidence",
+    "He gives evidence only on paper",
+    "He may give evidence in his own defence but cannot be compelled"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Defendant as witness"
+  },
+  {
+   "id": "1.5-29",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Res gestae is an example of…",
+   "options": [
+    "a statutory special measure",
+    "a bad character gateway",
+    "a preserved common law hearsay exception",
+    "a type of caution"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Hearsay – preserved rules"
+  },
+  {
+   "id": "1.5-30",
+   "chapter": "1.5",
+   "lessonId": "nie-1.5",
+   "scenario": "Special measures for an intimidated witness may be available where the quality of evidence is likely to be diminished by…",
+   "options": [
+    "fear or distress in connection with testifying",
+    "the witness's job",
+    "the length of the trial",
+    "the weather"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: s. 17 YJCEA.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.5 · Special measures – intimidated"
+  }
+ ]
+}

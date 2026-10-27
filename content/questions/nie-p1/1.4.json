@@ -1,0 +1,505 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 1.4. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "1.4-01",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "WARD committed a summary-only offence 7 months ago. No special time limit applies to the offence. Can proceedings now be started in the magistrates' court?",
+   "options": [
+    "No, generally proceedings must start within 6 months for a summary offence",
+    "Yes, there is no time limit for summary offences",
+    "Yes, if the CPS agrees",
+    "Only if WARD consents"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: MCA 1980, s. 127.",
+    "Incorrect.",
+    "The CPS cannot override the limit.",
+    "Consent is irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Time limits – s. 127 MCA 1980"
+  },
+  {
+   "id": "1.4-02",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Which offences are subject to the general 6-month time limit under s. 127 MCA 1980?",
+   "options": [
+    "All offences",
+    "Either-way offences",
+    "Summary offences",
+    "Indictable-only offences"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No general time limit.",
+    "Correct.",
+    "No time limit."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Time limits"
+  },
+  {
+   "id": "1.4-03",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "What is the usual way for a public prosecutor to start proceedings against a person who is not charged at a police station?",
+   "options": [
+    "An arrest warrant in every case",
+    "A written charge and a requisition",
+    "A letter from the victim",
+    "A caution"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not usual.",
+    "Correct: CJA 2003, s. 29.",
+    "Incorrect.",
+    "That's a disposal, not a prosecution."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Starting proceedings – s. 29 CJA 2003"
+  },
+  {
+   "id": "1.4-04",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "The single justice procedure is mainly for…",
+   "options": [
+    "murder cases",
+    "youth cases only",
+    "appeals",
+    "summary-only, non-imprisonable offences dealt with on the papers"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Single justice procedure"
+  },
+  {
+   "id": "1.4-05",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "After charge, the custody officer must release the person unless a ground in which section of PACE applies?",
+   "options": [
+    "s. 24",
+    "s. 41",
+    "s. 38",
+    "s. 78"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Arrest.",
+    "Detention time limit.",
+    "Correct.",
+    "Exclusion of evidence."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Post-charge bail – s. 38"
+  },
+  {
+   "id": "1.4-06",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "TAYLOR is charged with burglary. He refuses to give his address and the custody officer has no other way of finding it. Which is correct?",
+   "options": [
+    "Detention after charge may be authorised because his address cannot be ascertained",
+    "He must be released on unconditional bail",
+    "He must be released under investigation",
+    "He must be cautioned instead"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not if a s. 38 ground applies.",
+    "RUI is pre-charge.",
+    "Not appropriate."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · s. 38 grounds"
+  },
+  {
+   "id": "1.4-07",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Which of the following is NOT a ground under s. 38 PACE for keeping an adult in detention after charge?",
+   "options": [
+    "Reasonable grounds for believing he will fail to appear in court",
+    "To prevent him interfering with witnesses",
+    "For his own protection",
+    "Because the officer in the case wants to interview him again about other offences for convenience"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It is a ground.",
+    "It is a ground.",
+    "It is a ground.",
+    "Correct: convenience is not a ground."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · s. 38 grounds"
+  },
+  {
+   "id": "1.4-08",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "A 15-year-old is charged and refused bail. Where should he normally be kept until court?",
+   "options": [
+    "In a police cell, always",
+    "Local authority accommodation, unless impracticable (or secure accommodation needed and unavailable)",
+    "An adult prison",
+    "At home"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not the default.",
+    "Correct: s. 38(6) PACE (⚠ check conditions).",
+    "No.",
+    "He has been refused bail."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Juveniles – s. 38(6)"
+  },
+  {
+   "id": "1.4-09",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Is breach of a court bail condition, by itself, a criminal offence?",
+   "options": [
+    "No – but the person may be arrested and brought before the court",
+    "Yes, always",
+    "Yes, if it happens twice",
+    "Only for juveniles"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: Bail Act 1976, s. 7.",
+    "Incorrect.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Breach of bail conditions"
+  },
+  {
+   "id": "1.4-10",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "A defendant on court bail fails, without reasonable cause, to attend court. Which is correct?",
+   "options": [
+    "No offence",
+    "Only a civil matter",
+    "An offence of failing to surrender under s. 6 Bail Act 1976",
+    "Only breach of conditions"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Incorrect.",
+    "Correct.",
+    "It is more than breach of conditions."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Failure to surrender – s. 6"
+  },
+  {
+   "id": "1.4-11",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Under the Bail Act 1976, s. 4, which is correct?",
+   "options": [
+    "Nobody has a right to bail",
+    "A person charged with an offence generally has a right to bail, subject to exceptions in Schedule 1",
+    "Only juveniles have a right to bail",
+    "Bail is only available after conviction"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Right to bail"
+  },
+  {
+   "id": "1.4-12",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Which is an example of an exception to the right to bail in Schedule 1 of the Bail Act?",
+   "options": [
+    "The defendant is unemployed",
+    "The defendant has no car",
+    "The victim prefers custody",
+    "Substantial grounds for believing the defendant would commit an offence while on bail"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not an exception.",
+    "Not an exception.",
+    "Victim's view alone is not the test.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Bail exceptions"
+  },
+  {
+   "id": "1.4-13",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "A suspect is released on pre-charge bail. According to the current scheme (⚠ check edition), who can authorise the initial bail period?",
+   "options": [
+    "A sergeant",
+    "A chief constable only",
+    "An inspector",
+    "Only a court"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too low.",
+    "Not required.",
+    "Correct (initial period ⚠).",
+    "Courts authorise later extensions."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Pre-charge bail – authorisation"
+  },
+  {
+   "id": "1.4-14",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Under the post-2022 scheme, what is the initial applicable bail period for pre-charge bail (⚠ check edition)?",
+   "options": [
+    "3 months",
+    "28 days",
+    "6 months",
+    "12 months"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "The old (2017) scheme.",
+    "Extension by superintendent.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Pre-charge bail – periods"
+  },
+  {
+   "id": "1.4-15",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Why might pre-charge bail with conditions be preferable to RUI in a domestic abuse case?",
+   "options": [
+    "It is cheaper",
+    "RUI is unlawful",
+    "Bail ends the investigation",
+    "Conditions such as no contact can protect the victim"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not the reason.",
+    "RUI is lawful.",
+    "Incorrect.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Pre-charge bail vs RUI"
+  },
+  {
+   "id": "1.4-16",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "A person on police bail fails to answer bail at the police station. Which power allows arrest without warrant?",
+   "options": [
+    "s. 1 PACE",
+    "s. 46A PACE",
+    "s. 17 PACE",
+    "s. 136 MHA"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Stop and search.",
+    "Correct.",
+    "Entry.",
+    "Mental health."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Failure to answer police bail – s. 46A"
+  },
+  {
+   "id": "1.4-17",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Which of these conditions can the police attach to bail after charge (generally)?",
+   "options": [
+    "Not to contact the named victim",
+    "Residence in a bail hostel",
+    "A requirement to make a report before sentence",
+    "A requirement to attend an interview with a lawyer"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Generally a court condition (⚠ check).",
+    "A court matter.",
+    "Not a police condition."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Police bail conditions"
+  },
+  {
+   "id": "1.4-18",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "A person is charged. Before being bailed, what is the main purpose of attaching conditions?",
+   "options": [
+    "To punish",
+    "To collect fines",
+    "To secure surrender, prevent offending/interference with witnesses, or for their protection",
+    "To delay the trial"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Bail is not punishment.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Purpose of conditions"
+  },
+  {
+   "id": "1.4-19",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "A private individual wants to prosecute. How would proceedings usually start?",
+   "options": [
+    "Written charge and requisition",
+    "Laying an information to obtain a summons from a magistrate",
+    "Calling 999",
+    "Police caution"
+   ],
+   "correct": 1,
+   "explanations": [
+    "For public prosecutors.",
+    "Correct: MCA 1980, s. 1.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Summons – private prosecutions"
+  },
+  {
+   "id": "1.4-20",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Which statement about either-way offences and time limits is correct?",
+   "options": [
+    "They must be prosecuted within 6 months",
+    "They must be prosecuted within 12 months",
+    "They must be prosecuted within 3 years",
+    "There is no general time limit"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Summary only.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Time limits"
+  },
+  {
+   "id": "1.4-21",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "A juvenile is charged and the custody officer believes detention is in the juvenile's own interests. Is this a ground under s. 38?",
+   "options": [
+    "No",
+    "Only for adults",
+    "Yes, for juveniles",
+    "Only for terrorism offences"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It is.",
+    "It's a juvenile-specific ground.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · s. 38 – juveniles"
+  },
+  {
+   "id": "1.4-22",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "If bail is refused after charge, when must the person be brought before a court?",
+   "options": [
+    "As soon as practicable (normally the next sitting)",
+    "Within 7 days",
+    "Within 96 hours",
+    "After the CPS review"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too late.",
+    "That's the pre-charge maximum.",
+    "Not the rule."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Refusal of bail"
+  },
+  {
+   "id": "1.4-23",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Who decides to extend pre-charge bail beyond the maximum periods that police can authorise?",
+   "options": [
+    "The custody sergeant",
+    "The victim",
+    "The PCC",
+    "A magistrates' court"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too low.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Pre-charge bail – court extensions"
+  },
+  {
+   "id": "1.4-24",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "Which of these is an out-of-court disposal rather than a way to start a prosecution?",
+   "options": [
+    "Written charge and requisition",
+    "Conditional/community caution",
+    "Summons",
+    "Charge"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Starts proceedings.",
+    "Correct (⚠ framework updated by PCSC Act 2022).",
+    "Starts proceedings.",
+    "Starts proceedings."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Out-of-court disposals"
+  },
+  {
+   "id": "1.4-25",
+   "chapter": "1.4",
+   "lessonId": "nie-1.4",
+   "scenario": "An offence is committed and an Act creating it says proceedings may be brought within 3 years. Which applies?",
+   "options": [
+    "The specific statutory time limit applies",
+    "The general 6-month limit always prevails",
+    "There is no limit",
+    "1 year"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "s. 127 is subject to other enactments.",
+    "Incorrect.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 1.4 · Time limits – specific statutes"
+  }
+ ]
+}

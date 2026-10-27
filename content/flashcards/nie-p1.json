@@ -301,6 +301,167 @@
    "front": "s. 63A PACE",
    "back": "Speculative searches against databases",
    "es": "búsquedas especulativas"
+  },
+  {
+   "id": "nie-1.4-01",
+   "lessonId": "nie-1.4",
+   "front": "Ways to start proceedings",
+   "back": "Charge · written charge + requisition (s. 29 CJA 2003) · SJP notice · summons/warrant (s. 1 MCA 1980)",
+   "es": "inicio del proceso"
+  },
+  {
+   "id": "nie-1.4-02",
+   "lessonId": "nie-1.4",
+   "front": "Summary offences time limit",
+   "back": "6 months (s. 127 MCA 1980) unless statute says otherwise",
+   "es": "6 meses"
+  },
+  {
+   "id": "nie-1.4-03",
+   "lessonId": "nie-1.4",
+   "front": "Post-charge release",
+   "back": "Release unless a s. 38 PACE ground applies",
+   "es": "s. 38"
+  },
+  {
+   "id": "nie-1.4-04",
+   "lessonId": "nie-1.4",
+   "front": "s. 38 grounds (adults)",
+   "back": "Name/address unknown · fail to appear · offend · injury/damage · interfere with justice · own protection",
+   "es": "motivos"
+  },
+  {
+   "id": "nie-1.4-05",
+   "lessonId": "nie-1.4",
+   "front": "Juveniles refused bail",
+   "back": "Local authority accommodation (s. 38(6)) unless impracticable / secure needed & unavailable",
+   "es": "menores"
+  },
+  {
+   "id": "nie-1.4-06",
+   "lessonId": "nie-1.4",
+   "front": "Right to bail",
+   "back": "Bail Act 1976 s. 4, exceptions in Schedule 1",
+   "es": "derecho a fianza"
+  },
+  {
+   "id": "nie-1.4-07",
+   "lessonId": "nie-1.4",
+   "front": "Failure to surrender",
+   "back": "Offence – s. 6 Bail Act 1976",
+   "es": "no comparecer"
+  },
+  {
+   "id": "nie-1.4-08",
+   "lessonId": "nie-1.4",
+   "front": "Breach of court bail conditions",
+   "back": "Not an offence; arrest under s. 7 Bail Act → court",
+   "es": "incumplir condiciones"
+  },
+  {
+   "id": "nie-1.4-09",
+   "lessonId": "nie-1.4",
+   "front": "Failure to answer police bail",
+   "back": "Arrest under s. 46A PACE",
+   "es": "s. 46A"
+  },
+  {
+   "id": "nie-1.4-10",
+   "lessonId": "nie-1.4",
+   "front": "Pre-charge bail periods (⚠)",
+   "back": "3 months (inspector) → 6 (superintendent) → 9 (ACC/commander) → court",
+   "es": "plazos"
+  },
+  {
+   "id": "nie-1.5-01",
+   "lessonId": "nie-1.5",
+   "front": "Competence – YJCEA 1999 s. 53",
+   "back": "Everyone is competent unless they can't understand questions and give intelligible answers",
+   "es": "competencia"
+  },
+  {
+   "id": "nie-1.5-02",
+   "lessonId": "nie-1.5",
+   "front": "Sworn evidence – age",
+   "back": "14+ and understands solemnity (s. 55); otherwise unsworn (s. 56)",
+   "es": "juramento 14+"
+  },
+  {
+   "id": "nie-1.5-03",
+   "lessonId": "nie-1.5",
+   "front": "Accused as witness",
+   "back": "Not competent for prosecution; may testify for defence; not compellable",
+   "es": "acusado"
+  },
+  {
+   "id": "nie-1.5-04",
+   "lessonId": "nie-1.5",
+   "front": "Spouse compellable for prosecution (s. 80 PACE)",
+   "back": "Assault/injury/threat to spouse or under-16; sexual offence against under-16 (+ attempts etc.)",
+   "es": "cónyuge"
+  },
+  {
+   "id": "nie-1.5-05",
+   "lessonId": "nie-1.5",
+   "front": "Spouse for the defence",
+   "back": "Compellable unless jointly charged",
+   "es": "defensa"
+  },
+  {
+   "id": "nie-1.5-06",
+   "lessonId": "nie-1.5",
+   "front": "Refreshing memory",
+   "back": "s. 139 CJA 2003 – document recording recollection at the time, likely significantly better then",
+   "es": "refrescar memoria"
+  },
+  {
+   "id": "nie-1.5-07",
+   "lessonId": "nie-1.5",
+   "front": "Vulnerable witness (s. 16)",
+   "back": "Under 18, mental disorder, impaired intelligence/social functioning, physical disability",
+   "es": "vulnerable"
+  },
+  {
+   "id": "nie-1.5-08",
+   "lessonId": "nie-1.5",
+   "front": "Intimidated witness (s. 17)",
+   "back": "Fear or distress; sexual offence complainants automatically eligible",
+   "es": "intimidado"
+  },
+  {
+   "id": "nie-1.5-09",
+   "lessonId": "nie-1.5",
+   "front": "Hearsay – definition (s. 114)",
+   "back": "Statement not made in oral evidence, relied on for the matter stated",
+   "es": "hearsay"
+  },
+  {
+   "id": "nie-1.5-10",
+   "lessonId": "nie-1.5",
+   "front": "Hearsay admissible if (s. 114(1))",
+   "back": "Statute · preserved common law rule · all parties agree · interests of justice",
+   "es": "4 vías"
+  },
+  {
+   "id": "nie-1.5-11",
+   "lessonId": "nie-1.5",
+   "front": "s. 116 unavailable witness",
+   "back": "Dead · unfit · outside UK · cannot be found · fear (with leave)",
+   "es": "no disponible"
+  },
+  {
+   "id": "nie-1.5-12",
+   "lessonId": "nie-1.5",
+   "front": "Bad character gateways (s. 101)",
+   "back": "(a) agree (b) D introduces (c) explanatory (d) important matter D v P (e) co-D (f) false impression (g) attack",
+   "es": "7 puertas"
+  },
+  {
+   "id": "nie-1.5-13",
+   "lessonId": "nie-1.5",
+   "front": "s. 101(3)",
+   "back": "Fairness exclusion for gateways (d) and (g)",
+   "es": "exclusión por equidad"
   }
  ]
 }
