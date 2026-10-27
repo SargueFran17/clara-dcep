@@ -1,11 +1,12 @@
 import { Link, useParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
-import { findFolder, findSubject, lessonMarkdown, structure } from '../lib/content'
+import { findFolder, findSubject, lessonLink, lessonMarkdown, structure } from '../lib/content'
 import { folderProgress, subjectProgress } from '../lib/progress'
 import { useDoneLessons, usePlan, useToday } from '../lib/hooks'
 import { fmtShort } from '../lib/dates'
-import { Card, Empty, PageHeader, Pill, ProgressBar, RowLink } from '../components/ui'
+import { Empty, PageHeader, Pill, ProgressBar, RowLink } from '../components/ui'
+import { SubjectTools } from '../components/SubjectTools'
 
 export function Folders() {
   const done = useDoneLessons()
@@ -101,10 +102,8 @@ export function SubjectView() {
   return (
     <div>
       <PageHeader title={subject.name} subtitle={`${folder.emoji} ${folder.name} · ${sp.pct}%`} back={`/carpetas/${folder.id}`} />
-      <Card className="mb-4">
-        <ProgressBar pct={sp.pct} color={folder.color} />
-        <p className="mt-2 text-xs text-slate-500">Flashcards y tests de la asignatura: llegan en la Fase 2.</p>
-      </Card>
+      <ProgressBar pct={sp.pct} color={folder.color} className="mb-4" />
+      <SubjectTools subjectId={subject.id} />
       <ol className="space-y-2">
         {subject.lessons.map((l, i) => {
           const planned = plan.lessonDates.get(l.id)
@@ -114,7 +113,7 @@ export function SubjectView() {
           return (
             <li key={l.id}>
               <Link
-                to={`/leccion/${l.id}`}
+                to={lessonLink(l.id)}
                 className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm hover:border-indigo-300 dark:border-slate-800 dark:bg-slate-900"
               >
                 <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-bold ${isDone ? 'bg-emerald-500 text-white' : 'bg-slate-100 dark:bg-slate-800'}`}>

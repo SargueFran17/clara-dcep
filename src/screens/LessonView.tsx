@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { lessonMarkdown, lessonRef } from '../lib/content'
 import { completeLesson, uncompleteLesson } from '../lib/actions'
-import { usePlan, useToday } from '../lib/hooks'
+import { useAllQuestions, usePlan, useToday } from '../lib/hooks'
 import { fmtUK } from '../lib/dates'
 import { stripFrontmatter } from '../lib/markdown'
 import { stepLabel } from '../lib/srs'
@@ -17,7 +17,9 @@ export function LessonView() {
   const plan = usePlan()
   const progress = useLiveQuery(() => db.lessonProgress.get(lessonId), [lessonId])
   const reviews = useLiveQuery(() => db.reviews.where('itemKey').equals(`lesson:${lessonId}`).sortBy('due'), [lessonId])
+  const questions = useAllQuestions()
   if (!ref) return <Empty>Lección no encontrada.</Empty>
+  const nQuestions = questions?.filter((q) => q.lessonId === lessonId || (lessonId.startsWith('nie-') && q.chapter === lessonId.slice(4))).length ?? 0
 
   const { lesson, subject, folder } = ref
   const md = lessonMarkdown(lessonId)
@@ -47,9 +49,11 @@ export function LessonView() {
       {subject.nie && (
         <Card className="mb-4 border-rose-200 dark:border-rose-900">
           <p className="text-sm">
-            ⚠ Las explicaciones son mías y remiten al manual: <b>comprueba siempre con tu edición 2027 del Blackstone's</b>. El checklist de 10 pasos,
-            la grabadora y el editor del resumen llegan en la Fase 2.
+            ⚠ Las explicaciones son mías y remiten al manual: <b>comprueba siempre con tu edición 2027 del Blackstone's</b>.
           </p>
+          <Link to={`/nie/capitulo/${lesson.code}`} className="mt-2 inline-block rounded-xl bg-rose-600 px-3 py-2 text-sm font-semibold text-white">
+            ✅ Checklist de 10 pasos, grabadora y resumen →
+          </Link>
         </Card>
       )}
 
@@ -78,8 +82,17 @@ export function LessonView() {
         </Empty>
       )}
 
+      <div className="mt-4 grid grid-cols-2 gap-2">
+        <Link to={`/test?lesson=${lessonId}&n=5`} className="rounded-2xl bg-emerald-600 p-3 text-center text-sm font-semibold text-white">
+          📝 Mini-test ({Math.min(5, nQuestions)})
+        </Link>
+        <Link to={`/flashcards/${subject.id}`} className="rounded-2xl bg-indigo-600 p-3 text-center text-sm font-semibold text-white">
+          🃏 Flashcards
+        </Link>
+      </div>
+
       <div className="mt-6 flex justify-center">
-        {progress ? (
+        {subject.nie ? null : progress ? (
           <Button variant="ghost" onClick={() => uncompleteLesson(lessonId)}>
             Marcar como no terminada
           </Button>

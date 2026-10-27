@@ -9,7 +9,7 @@ App web (PWA, mobile-first) para organizar y estudiar la preparación para la ac
 | Fase | Contenido | Estado |
 |---|---|---|
 | 1 | Esqueleto, Hoy, Semana, Carpetas, Progreso, repasos espaciados, planificador, Ajustes, copia de seguridad | ✅ |
-| 2 | Flashcards, mini-tests, registro de errores, simulacros, capítulo NIE (10 pasos), diario de academia | ⏳ |
+| 2 | Flashcards, mini-tests, registro de errores, simulacros, capítulo NIE (10 pasos), diario de academia | ✅ |
 | 3 | Índice + lecciones 1 y 2 de cada asignatura, glosario, Fitness | ⏳ |
 | 4 | Resto de lecciones por tandas | ⏳ |
 
@@ -57,6 +57,8 @@ Todo está en `content/`:
 | `content/plan/nie-order.json` | Tu orden NIE en 12 grupos y el "peso" (tamaño) de cada capítulo |
 | `content/fitness/plan.json` | Plan semanal de entreno |
 | `content/lessons/<carpeta>/<asignatura>/<id>.md` | El texto de cada lección (Fase 3) |
+| `content/flashcards/<asignatura>.json` | Flashcards: `{ "cards": [{ "id", "lessonId", "front", "back", "es" }] }` |
+| `content/questions/<asignatura>.json` | Preguntas tipo test: `{ "questions": [{ "id", "lessonId", "chapter", "scenario", "options": [4], "correct": 0–3, "explanations": [4], "manualRef" }] }` |
 
 En las lecciones, los bloques en español se escriben así y aparecen con el botón «Ver en español»:
 
@@ -72,6 +74,10 @@ Después de editar, `npm run build` (o sube el cambio a GitHub y Netlify/Pages l
 
 - **Fechas**: formato dd/mm/aaaa, zona horaria Europe/London. Todas las fechas clave se cambian en *Ajustes* y el calendario se recalcula.
 - **Repasos espaciados**: al terminar algo → +1 día, +3 días, +7 días, +1 mes y después cada mes, contados desde la fecha **real** en que lo terminaste. Si haces un repaso tarde, los siguientes se desplazan esos días. Los capítulos NIE dejan de tener repasos al empezar el repaso final (17 may).
+- **Flashcards**: SM-2 simplificado con 3 botones. *Lo sé* → 1 día, 4 días y luego × facilidad; *Dudo* → crece poco; *No lo sé* → mañana y otra vez al final de la sesión. Límite de 20 nuevas y 100 repasos al día.
+- **Capítulos NIE**: al marcar los 10 pasos, el capítulo pasa a *Estudiado* y empiezan sus repasos. Estados: Pendiente → En curso (x/10) → Estudiado → En repaso (n) → Final ✓.
+- **Diario de academia**: al guardar un día se programan repasos a +1 día y +7 días.
+- **Simulacros**: 80 preguntas en 120 min (acumulados: 30 en 45 min), sin corrección hasta el final; resultado total y por parte comparado con el 55,7 %.
 - **Racha**: cuenta los días seguidos en que completas al menos el 80 % de las tareas de Hoy (ajustable). Lo atrasado no cuenta para la racha.
 - **Planificador** (`src/lib/planner.ts`): reparte las lecciones de pre-academia, los 43 capítulos NIE (ponderados por tamaño, en tu orden), los tests acumulados, los simulacros y el repaso final por grupos.
 

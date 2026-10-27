@@ -7,6 +7,12 @@ import { FolderView, Folders, SubjectView } from './screens/Folders'
 import { LessonView } from './screens/LessonView'
 import { Settings } from './screens/Settings'
 import { ComingSoon, More, Search } from './screens/More'
+import { Academy, AcademyDayView, AcademyModuleView } from './screens/Academy'
+import { NieChapter, NieChapterList } from './screens/NieChapters'
+import { Exam, MockCenter } from './screens/Exam'
+import { Practice } from './screens/Practice'
+import { Flashcards } from './screens/Flashcards'
+import { Errors } from './screens/Errors'
 
 // las gráficas (recharts) se cargan solo al abrir Progreso
 const Progress = lazy(() => import('./screens/Progress').then((m) => ({ default: m.Progress })))
@@ -26,10 +32,17 @@ export default function App() {
           <Route path="mas" element={<More />} />
           <Route path="ajustes" element={<Settings />} />
           <Route path="buscar" element={<Search />} />
-          <Route path="academia/*" element={<ComingSoon title="Academia" phase={2} />} />
-          <Route path="nie/capitulos" element={<ComingSoon title="NIE · capítulos" phase={2} />} />
-          <Route path="nie/simulacros" element={<ComingSoon title="NIE · simulacros" phase={2} />} />
-          <Route path="errores" element={<ComingSoon title="Registro de errores" phase={2} />} />
+          <Route path="academia" element={<Academy />} />
+          <Route path="academia/dia/:date" element={<AcademyDayView />} />
+          <Route path="academia/modulo/:id" element={<AcademyModuleView />} />
+          <Route path="nie/capitulos" element={<NieChapterList />} />
+          <Route path="nie/capitulo/:chapter" element={<NieChapter />} />
+          <Route path="nie/simulacros" element={<MockCenter />} />
+          <Route path="examen" element={<Exam />} />
+          <Route path="test" element={<Practice />} />
+          <Route path="flashcards" element={<Flashcards />} />
+          <Route path="flashcards/:subjectId" element={<Flashcards />} />
+          <Route path="errores" element={<Errors />} />
           <Route path="glosario" element={<ComingSoon title="Glosario y acrónimos" phase={3} />} />
           <Route path="fitness" element={<ComingSoon title="Fitness" phase={3} />} />
           <Route path="*" element={<Today />} />

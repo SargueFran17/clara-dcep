@@ -1,15 +1,17 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
-import { useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
+import { useCardQueue, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
 import { buildTasks, dayScore, SECTION_LABELS, type Task, type TaskSection } from '../lib/today'
 import { completeLesson, completeReview, logMinutes, setTaskDone, uncompleteLesson, undoReview } from '../lib/actions'
 import { computeStreak } from '../lib/streak'
 import { diffDays, fmtLong, fmtUK } from '../lib/dates'
 import { PHASE_LABELS } from '../lib/planner'
+import { lessonLink } from '../lib/content'
 import { Card, Check, Pill, ProgressBar } from '../components/ui'
 
+const OVERDUE_PREVIEW = 5
 const ORDER: TaskSection[] = ['overdue', 'plan', 'academy', 'reviews', 'training', 'habits']
 
 export function Today() {
@@ -23,14 +25,19 @@ export function Today() {
   )
   const checkedRows = useLiveQuery(() => db.taskDone.where('date').equals(today).toArray(), [today])
   const logs = useLiveQuery(() => db.dayLog.toArray(), [])
+  const queue = useCardQueue()
+  const [showAllOverdue, setShowAllOverdue] = useState(false)
   const minutes = useLiveQuery(() => db.studySessions.where('date').equals(today).toArray(), [today])
 
   const tasks = useMemo(
     () =>
       reviews && checkedRows
-        ? buildTasks(today, plan, { doneLessons, reviews, checked: new Set(checkedRows.map((r) => r.key)) })
+        ? buildTasks(today, plan, {
+            doneLessons, reviews, checked: new Set(checkedRows.map((r) => r.key)),
+            cards: queue && { pending: queue.due.length + queue.fresh.length, reviewedToday: queue.reviewedToday },
+          })
         : [],
-    [today, plan, doneLessons, reviews, checkedRows],
+    [today, plan, doneLessons, reviews, checkedRows, queue],
   )
   const score = dayScore(tasks)
 
@@ -113,17 +120,24 @@ export function Today() {
       </Card>
 
       {ORDER.map((section) => {
-        const list = tasks.filter((t) => t.section === section)
-        if (!list.length) return null
+        const all = tasks.filter((t) => t.section === section)
+        if (!all.length) return null
+        // lo atrasado se pliega para que no tape el plan de hoy
+        const list = section === 'overdue' && !showAllOverdue ? all.slice(0, OVERDUE_PREVIEW) : all
         return (
           <section key={section}>
             <h2 className={`mb-2 text-xs font-bold uppercase tracking-wider ${section === 'overdue' ? 'text-rose-600' : 'text-slate-500'}`}>
-              {SECTION_LABELS[section]} {section === 'overdue' && `(${list.length})`}
+              {SECTION_LABELS[section]} {section === 'overdue' && `(${all.length})`}
             </h2>
             <div className="space-y-2">
               {list.map((t) => (
                 <TaskRow key={t.key} task={t} onToggle={(v) => toggle(t, v)} />
               ))}
+              {all.length > list.length && (
+                <button onClick={() => setShowAllOverdue(true)} className="w-full rounded-2xl py-2 text-sm font-semibold text-rose-600">
+                  Ver las {all.length} tareas atrasadas
+                </button>
+              )}
             </div>
           </section>
         )
@@ -133,7 +147,7 @@ export function Today() {
 }
 
 function TaskRow({ task, onToggle }: { task: Task; onToggle: (v: boolean) => void }) {
-  const link = task.kind === 'lesson' ? `/leccion/${task.lessonId}` : task.link
+  const link = task.kind === 'lesson' ? lessonLink(task.lessonId) : task.link
   const overdue = task.section === 'overdue'
   return (
     <div

@@ -6,6 +6,7 @@ import { Empty, PageHeader, RowLink } from '../components/ui'
 const ITEMS = [
   { to: '/ajustes', label: '⚙️ Ajustes', desc: 'Fechas clave, tema, copia de seguridad' },
   { to: '/buscar', label: '🔍 Buscador', desc: 'Lecciones (y glosario en la Fase 3)' },
+  { to: '/flashcards', label: '🃏 Flashcards de hoy', desc: 'Todas las asignaturas' },
   { to: '/academia', label: '📓 Academia', desc: 'Diario, módulos, assessments' },
   { to: '/nie/capitulos', label: '⚖️ NIE: capítulos', desc: 'Estado de los 43 capítulos' },
   { to: '/nie/simulacros', label: '⏱️ NIE: simulacros', desc: 'Tests acumulados y modo examen' },

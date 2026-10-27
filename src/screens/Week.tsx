@@ -88,7 +88,7 @@ export function Week() {
                   })}
                   {p.nie.map((n) => (
                     <li key={n.chapter}>
-                      <Link to={`/leccion/nie-${n.chapter}`} className={`hover:underline ${done.has(`nie-${n.chapter}`) ? 'text-slate-400 line-through' : ''}`}>
+                      <Link to={`/nie/capitulo/${n.chapter}`} className={`hover:underline ${done.has(`nie-${n.chapter}`) ? 'text-slate-400 line-through' : ''}`}>
                         ⚖️ NIE {lessonRef(`nie-${n.chapter}`)?.lesson.title} {n.first && <span className="text-xs text-emerald-600">(empieza)</span>}
                       </Link>
                     </li>
