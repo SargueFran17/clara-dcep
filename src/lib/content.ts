@@ -2,6 +2,7 @@ import structureJson from '../../content/structure.json'
 import preJson from '../../content/plan/pre-academy.json'
 import nieJson from '../../content/plan/nie-order.json'
 import fitnessJson from '../../content/fitness/plan.json'
+import { glossaryCards, glossaryQuestions } from './glossary'
 import type { Card, Folder, LessonMeta, NieGroupItem, Question, Structure, Subject, WorkoutItem } from '../types'
 
 // Todo el contenido vive en /content y se empaqueta al compilar.
@@ -77,13 +78,15 @@ export function fileSubject(path: string): string {
 const cardFiles = import.meta.glob('../../content/flashcards/**/*.json', { eager: true, import: 'default' }) as Record<string, CardFile>
 const questionFiles = import.meta.glob('../../content/questions/**/*.json', { eager: true, import: 'default' }) as Record<string, QuestionFile>
 
-export const contentCards: Card[] = Object.entries(cardFiles).flatMap(([path, file]) =>
-  (file.cards ?? []).map((c) => ({ ...c, id: `c:${c.id}`, subjectId: fileSubject(path) })),
-)
+export const contentCards: Card[] = [
+  ...Object.entries(cardFiles).flatMap(([path, file]) => (file.cards ?? []).map((c) => ({ ...c, id: `c:${c.id}`, subjectId: fileSubject(path) }))),
+  ...glossaryCards(),
+]
 
-export const contentQuestions: Question[] = Object.entries(questionFiles).flatMap(([path, file]) =>
-  (file.questions ?? []).map((q) => ({ ...q, id: `q:${q.id}`, subjectId: fileSubject(path) })),
-)
+export const contentQuestions: Question[] = [
+  ...Object.entries(questionFiles).flatMap(([path, file]) => (file.questions ?? []).map((q) => ({ ...q, id: `q:${q.id}`, subjectId: fileSubject(path) }))),
+  ...glossaryQuestions(),
+]
 
 /** "1.3" → "nie-p1" */
 export function nieSubjectOf(chapter: string): string {

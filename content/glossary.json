@@ -1,0 +1,1319 @@
+{
+ "_comment": "Glosario: término en inglés → inglés sencillo → español. Edítalo aquí.",
+ "terms": [
+  {
+   "term": "arrest",
+   "plain": "taking someone into custody using a legal power so they can be dealt with for an offence",
+   "es": "detención",
+   "topic": "arrest"
+  },
+  {
+   "term": "arrest warrant",
+   "plain": "a written order from a court telling the police to arrest a named person",
+   "es": "orden de detención",
+   "topic": "arrest"
+  },
+  {
+   "term": "lawful arrest",
+   "plain": "an arrest that follows the law: a power exists, the grounds are met and the person is told why",
+   "es": "detención legal",
+   "topic": "arrest"
+  },
+  {
+   "term": "necessity criteria",
+   "plain": "the reasons that make an arrest necessary (PACE Code G), e.g. to find out the person's name",
+   "es": "criterios de necesidad de la detención",
+   "topic": "arrest"
+  },
+  {
+   "term": "caution",
+   "plain": "the formal words told to a suspect about their right to remain silent and how silence may harm their defence",
+   "es": "advertencia legal / lectura de derechos al sospechoso",
+   "topic": "arrest"
+  },
+  {
+   "term": "reasonable force",
+   "plain": "only as much force as is necessary and proportionate in the circumstances",
+   "es": "fuerza razonable",
+   "topic": "arrest"
+  },
+  {
+   "term": "handcuffing",
+   "plain": "restraining someone's wrists; must be justified and recorded",
+   "es": "esposar",
+   "topic": "arrest"
+  },
+  {
+   "term": "de-escalation",
+   "plain": "calming a situation down with words and behaviour to avoid using force",
+   "es": "desescalada",
+   "topic": "arrest"
+  },
+  {
+   "term": "breach of the peace",
+   "plain": "harm done or likely to be done to a person or their property in their presence; a common law power to arrest exists",
+   "es": "alteración del orden público (breach of the peace)",
+   "topic": "arrest"
+  },
+  {
+   "term": "voluntary attendance",
+   "plain": "a suspect comes to the police station to be interviewed without being arrested",
+   "es": "comparecencia voluntaria",
+   "topic": "arrest"
+  },
+  {
+   "term": "street bail",
+   "plain": "releasing an arrested person before taking them to a police station, with a duty to attend later",
+   "es": "libertad bajo fianza en la calle",
+   "topic": "arrest"
+  },
+  {
+   "term": "stop and search",
+   "plain": "detaining someone briefly to search them using a legal power (PACE Code A)",
+   "es": "parar y registrar / cacheo",
+   "topic": "arrest"
+  },
+  {
+   "term": "reasonable grounds for suspicion",
+   "plain": "an objective basis (facts, information, intelligence) that would make a reasonable person suspect",
+   "es": "motivos razonables de sospecha",
+   "topic": "arrest"
+  },
+  {
+   "term": "detain",
+   "plain": "keep someone (they are not free to leave)",
+   "es": "retener / detener",
+   "topic": "arrest"
+  },
+  {
+   "term": "suspect",
+   "plain": "a person thought to have committed an offence",
+   "es": "sospechoso/a",
+   "topic": "arrest"
+  },
+  {
+   "term": "offender",
+   "plain": "a person who has committed an offence",
+   "es": "delincuente / infractor/a",
+   "topic": "arrest"
+  },
+  {
+   "term": "warrant card",
+   "plain": "an officer's official police ID",
+   "es": "placa / credencial policial",
+   "topic": "arrest"
+  },
+  {
+   "term": "power of entry",
+   "plain": "a legal power that lets police go into premises",
+   "es": "facultad de entrada",
+   "topic": "arrest"
+  },
+  {
+   "term": "custody suite",
+   "plain": "the part of a police station where arrested people are booked in and held",
+   "es": "zona de calabozos / custodia",
+   "topic": "custody"
+  },
+  {
+   "term": "custody officer",
+   "plain": "an officer (usually a sergeant) responsible for detained people and their rights",
+   "es": "oficial de custodia",
+   "topic": "custody"
+  },
+  {
+   "term": "detained person (DP)",
+   "plain": "someone held in police custody",
+   "es": "persona detenida",
+   "topic": "custody"
+  },
+  {
+   "term": "custody record",
+   "plain": "the official record of everything that happens to a detained person",
+   "es": "registro de custodia",
+   "topic": "custody"
+  },
+  {
+   "term": "authorise detention",
+   "plain": "the custody officer agrees there is a reason to keep the person in custody",
+   "es": "autorizar la detención",
+   "topic": "custody"
+  },
+  {
+   "term": "detention clock",
+   "plain": "the time limits for holding someone before charge, counted from the 'relevant time'",
+   "es": "plazo de detención",
+   "topic": "custody"
+  },
+  {
+   "term": "relevant time",
+   "plain": "the moment the detention time limits start counting from",
+   "es": "momento inicial del cómputo",
+   "topic": "custody"
+  },
+  {
+   "term": "review of detention",
+   "plain": "a regular check by an inspector that detention is still necessary",
+   "es": "revisión de la detención",
+   "topic": "custody"
+  },
+  {
+   "term": "superintendent's extension",
+   "plain": "authority to keep someone longer than 24 hours (up to 36) for an indictable offence",
+   "es": "prórroga del superintendente",
+   "topic": "custody"
+  },
+  {
+   "term": "warrant of further detention",
+   "plain": "a magistrates' court order allowing detention beyond 36 hours",
+   "es": "orden judicial de detención adicional",
+   "topic": "custody"
+  },
+  {
+   "term": "appropriate adult",
+   "plain": "a person who helps a child or vulnerable adult in custody understand what happens",
+   "es": "adulto apropiado / acompañante",
+   "topic": "custody"
+  },
+  {
+   "term": "legal advice",
+   "plain": "free advice from a solicitor that a detained person can ask for",
+   "es": "asistencia letrada",
+   "topic": "custody"
+  },
+  {
+   "term": "duty solicitor",
+   "plain": "a solicitor available free of charge to people in custody",
+   "es": "abogado/a de oficio",
+   "topic": "custody"
+  },
+  {
+   "term": "interpreter",
+   "plain": "a person who translates spoken words between languages",
+   "es": "intérprete",
+   "topic": "custody"
+  },
+  {
+   "term": "fit to be interviewed",
+   "plain": "well enough, physically and mentally, to be interviewed",
+   "es": "apto para ser entrevistado",
+   "topic": "custody"
+  },
+  {
+   "term": "healthcare professional",
+   "plain": "a nurse or paramedic who checks detainees' health in custody",
+   "es": "profesional sanitario",
+   "topic": "custody"
+  },
+  {
+   "term": "charge",
+   "plain": "formally accusing someone of an offence so the case goes to court",
+   "es": "acusación formal / imputación",
+   "topic": "custody"
+  },
+  {
+   "term": "bail",
+   "plain": "release from custody, sometimes with conditions, with a duty to come back or go to court",
+   "es": "libertad bajo fianza / con obligaciones",
+   "topic": "custody"
+  },
+  {
+   "term": "pre-charge bail",
+   "plain": "bail while the investigation continues and before a decision to charge",
+   "es": "libertad con cargos pendientes (antes de acusar)",
+   "topic": "custody"
+  },
+  {
+   "term": "released under investigation (RUI)",
+   "plain": "released without bail while the investigation continues",
+   "es": "puesto en libertad mientras sigue la investigación",
+   "topic": "custody"
+  },
+  {
+   "term": "no further action (NFA)",
+   "plain": "the case is closed with no charge",
+   "es": "archivo sin más actuaciones",
+   "topic": "custody"
+  },
+  {
+   "term": "out of court disposal",
+   "plain": "dealing with an offence without going to court (e.g. a caution or penalty notice)",
+   "es": "resolución extrajudicial",
+   "topic": "custody"
+  },
+  {
+   "term": "simple caution",
+   "plain": "a formal warning given to an adult who admits an offence, instead of prosecution",
+   "es": "amonestación formal",
+   "topic": "custody"
+  },
+  {
+   "term": "conditional caution",
+   "plain": "a caution with conditions the offender must follow",
+   "es": "amonestación con condiciones",
+   "topic": "custody"
+  },
+  {
+   "term": "evidence",
+   "plain": "information that helps prove or disprove a fact in court",
+   "es": "prueba",
+   "topic": "evidence"
+  },
+  {
+   "term": "exhibit",
+   "plain": "an item produced as evidence and given a reference (e.g. JS/1)",
+   "es": "pieza de convicción / efecto",
+   "topic": "evidence"
+  },
+  {
+   "term": "continuity of evidence",
+   "plain": "a record showing who had an exhibit at every moment, so it cannot be challenged",
+   "es": "cadena de custodia",
+   "topic": "evidence"
+  },
+  {
+   "term": "chain of custody",
+   "plain": "same as continuity: the documented path of an exhibit",
+   "es": "cadena de custodia",
+   "topic": "evidence"
+  },
+  {
+   "term": "forensic evidence",
+   "plain": "scientific evidence such as DNA, fingerprints or fibres",
+   "es": "prueba forense",
+   "topic": "evidence"
+  },
+  {
+   "term": "crime scene",
+   "plain": "a place where a crime happened or where evidence may be found",
+   "es": "escena del crimen",
+   "topic": "evidence"
+  },
+  {
+   "term": "scene log",
+   "plain": "the record of everyone who enters or leaves a crime scene",
+   "es": "registro de acceso a la escena",
+   "topic": "evidence"
+  },
+  {
+   "term": "cordon",
+   "plain": "a boundary that stops people entering a scene",
+   "es": "cordón / perímetro",
+   "topic": "evidence"
+  },
+  {
+   "term": "cross-contamination",
+   "plain": "accidentally moving material between scenes, people or exhibits",
+   "es": "contaminación cruzada",
+   "topic": "evidence"
+  },
+  {
+   "term": "hearsay",
+   "plain": "a statement made out of court that is used to prove what it says",
+   "es": "testimonio de referencia (hearsay)",
+   "topic": "evidence"
+  },
+  {
+   "term": "admissible",
+   "plain": "allowed to be used as evidence in court",
+   "es": "admisible",
+   "topic": "evidence"
+  },
+  {
+   "term": "inadmissible",
+   "plain": "not allowed to be used as evidence",
+   "es": "inadmisible",
+   "topic": "evidence"
+  },
+  {
+   "term": "exclude evidence",
+   "plain": "the court decides not to allow evidence (e.g. under s.78 PACE if unfair)",
+   "es": "excluir una prueba",
+   "topic": "evidence"
+  },
+  {
+   "term": "corroboration",
+   "plain": "other evidence that supports a piece of evidence",
+   "es": "corroboración",
+   "topic": "evidence"
+  },
+  {
+   "term": "first account",
+   "plain": "the first description of events given by a victim or witness",
+   "es": "primer relato",
+   "topic": "evidence"
+  },
+  {
+   "term": "significant statement",
+   "plain": "something said by a suspect that might be used against them, e.g. an admission",
+   "es": "manifestación relevante",
+   "topic": "evidence"
+  },
+  {
+   "term": "unsolicited comment",
+   "plain": "something a suspect says without being asked a question",
+   "es": "comentario espontáneo",
+   "topic": "evidence"
+  },
+  {
+   "term": "relevant material",
+   "plain": "material that could have a bearing on the case",
+   "es": "material relevante",
+   "topic": "evidence"
+  },
+  {
+   "term": "unused material",
+   "plain": "material gathered in the investigation that the prosecution does not use as evidence",
+   "es": "material no utilizado",
+   "topic": "evidence"
+  },
+  {
+   "term": "disclosure",
+   "plain": "giving the defence the relevant unused material that might help them or undermine the prosecution",
+   "es": "revelación de pruebas (disclosure)",
+   "topic": "evidence"
+  },
+  {
+   "term": "digital evidence",
+   "plain": "evidence from phones, computers, CCTV and other devices",
+   "es": "prueba digital",
+   "topic": "evidence"
+  },
+  {
+   "term": "body-worn video (BWV)",
+   "plain": "a small camera worn by officers to record incidents",
+   "es": "cámara corporal",
+   "topic": "evidence"
+  },
+  {
+   "term": "identification procedure",
+   "plain": "a formal way of testing if a witness can identify a suspect (Code D)",
+   "es": "procedimiento de identificación",
+   "topic": "evidence"
+  },
+  {
+   "term": "video identification",
+   "plain": "a witness looks at moving images of the suspect and others",
+   "es": "identificación por vídeo",
+   "topic": "evidence"
+  },
+  {
+   "term": "search record",
+   "plain": "the written record of a search",
+   "es": "acta de registro",
+   "topic": "evidence"
+  },
+  {
+   "term": "seize",
+   "plain": "take and keep property, e.g. as evidence",
+   "es": "incautar / intervenir",
+   "topic": "evidence"
+  },
+  {
+   "term": "retain",
+   "plain": "keep seized property for as long as necessary",
+   "es": "retener / conservar",
+   "topic": "evidence"
+  },
+  {
+   "term": "magistrates' court",
+   "plain": "the lower criminal court; deals with all cases first and tries summary cases",
+   "es": "juzgado de magistrados (primera instancia)",
+   "topic": "court"
+  },
+  {
+   "term": "Crown Court",
+   "plain": "the higher criminal court where serious cases are tried by judge and jury",
+   "es": "Crown Court (tribunal penal superior con jurado)",
+   "topic": "court"
+  },
+  {
+   "term": "Court of Appeal",
+   "plain": "the court that hears appeals from the Crown Court",
+   "es": "Tribunal de Apelación",
+   "topic": "court"
+  },
+  {
+   "term": "Supreme Court",
+   "plain": "the highest court in the UK",
+   "es": "Tribunal Supremo",
+   "topic": "court"
+  },
+  {
+   "term": "jury",
+   "plain": "12 members of the public who decide guilty or not guilty in the Crown Court",
+   "es": "jurado",
+   "topic": "court"
+  },
+  {
+   "term": "magistrate",
+   "plain": "a volunteer (or district) judge who decides cases in the magistrates' court",
+   "es": "magistrado/a (juez lego)",
+   "topic": "court"
+  },
+  {
+   "term": "district judge",
+   "plain": "a paid legally qualified judge sitting in the magistrates' court",
+   "es": "juez de distrito",
+   "topic": "court"
+  },
+  {
+   "term": "defendant",
+   "plain": "the person accused in court",
+   "es": "acusado/a",
+   "topic": "court"
+  },
+  {
+   "term": "prosecution",
+   "plain": "the side that brings the case against the defendant",
+   "es": "acusación / fiscalía",
+   "topic": "court"
+  },
+  {
+   "term": "defence",
+   "plain": "the side that represents the defendant",
+   "es": "defensa",
+   "topic": "court"
+  },
+  {
+   "term": "barrister",
+   "plain": "a lawyer who usually argues cases in court",
+   "es": "abogado/a litigante (barrister)",
+   "topic": "court"
+  },
+  {
+   "term": "solicitor",
+   "plain": "a lawyer who advises clients and may represent them",
+   "es": "abogado/a (solicitor)",
+   "topic": "court"
+  },
+  {
+   "term": "plea",
+   "plain": "the defendant says 'guilty' or 'not guilty'",
+   "es": "declaración de culpabilidad o inocencia",
+   "topic": "court"
+  },
+  {
+   "term": "trial",
+   "plain": "the hearing where the court decides guilt",
+   "es": "juicio",
+   "topic": "court"
+  },
+  {
+   "term": "verdict",
+   "plain": "the decision: guilty or not guilty",
+   "es": "veredicto",
+   "topic": "court"
+  },
+  {
+   "term": "acquittal",
+   "plain": "a finding of not guilty",
+   "es": "absolución",
+   "topic": "court"
+  },
+  {
+   "term": "conviction",
+   "plain": "a finding of guilty",
+   "es": "condena",
+   "topic": "court"
+  },
+  {
+   "term": "sentence",
+   "plain": "the punishment given after conviction",
+   "es": "pena / sentencia",
+   "topic": "court"
+  },
+  {
+   "term": "remand",
+   "plain": "keeping a defendant in custody (or on bail) until the next hearing",
+   "es": "prisión preventiva / medida cautelar",
+   "topic": "court"
+  },
+  {
+   "term": "adjourn",
+   "plain": "postpone a hearing to a later date",
+   "es": "aplazar / suspender",
+   "topic": "court"
+  },
+  {
+   "term": "witness summons",
+   "plain": "a court order making a witness attend",
+   "es": "citación de testigo",
+   "topic": "court"
+  },
+  {
+   "term": "special measures",
+   "plain": "help for vulnerable witnesses to give evidence, e.g. screens or video link",
+   "es": "medidas especiales de protección",
+   "topic": "court"
+  },
+  {
+   "term": "examination-in-chief",
+   "plain": "questions to a witness by the side that called them",
+   "es": "interrogatorio directo",
+   "topic": "court"
+  },
+  {
+   "term": "cross-examination",
+   "plain": "questions to a witness by the other side",
+   "es": "contrainterrogatorio",
+   "topic": "court"
+  },
+  {
+   "term": "burden of proof",
+   "plain": "which side has to prove the case: normally the prosecution",
+   "es": "carga de la prueba",
+   "topic": "court"
+  },
+  {
+   "term": "standard of proof",
+   "plain": "how sure the court must be: so that it is sure (beyond reasonable doubt)",
+   "es": "estándar de prueba",
+   "topic": "court"
+  },
+  {
+   "term": "beyond reasonable doubt",
+   "plain": "the criminal standard: the jury must be sure of guilt",
+   "es": "más allá de toda duda razonable",
+   "topic": "court"
+  },
+  {
+   "term": "balance of probabilities",
+   "plain": "the civil standard: more likely than not",
+   "es": "balance de probabilidades",
+   "topic": "court"
+  },
+  {
+   "term": "summary offence",
+   "plain": "a less serious offence tried only in the magistrates' court",
+   "es": "delito leve (solo juzgado de magistrados)",
+   "topic": "court"
+  },
+  {
+   "term": "either-way offence",
+   "plain": "an offence that can be tried in the magistrates' court or the Crown Court",
+   "es": "delito de enjuiciamiento mixto",
+   "topic": "court"
+  },
+  {
+   "term": "indictable-only offence",
+   "plain": "a serious offence tried only in the Crown Court",
+   "es": "delito grave (solo Crown Court)",
+   "topic": "court"
+  },
+  {
+   "term": "indictment",
+   "plain": "the formal document listing the charges in the Crown Court",
+   "es": "escrito de acusación",
+   "topic": "court"
+  },
+  {
+   "term": "allocation",
+   "plain": "deciding whether an either-way case stays in the magistrates' court or goes to the Crown Court",
+   "es": "asignación de tribunal",
+   "topic": "court"
+  },
+  {
+   "term": "committal for sentence",
+   "plain": "the magistrates send a case to the Crown Court for a heavier sentence",
+   "es": "remisión para sentencia",
+   "topic": "court"
+  },
+  {
+   "term": "common law",
+   "plain": "law made by judges' decisions over time",
+   "es": "derecho consuetudinario / jurisprudencial",
+   "topic": "court"
+  },
+  {
+   "term": "statute",
+   "plain": "a law made by Parliament (an Act)",
+   "es": "ley (aprobada por el Parlamento)",
+   "topic": "court"
+  },
+  {
+   "term": "precedent",
+   "plain": "an earlier court decision that later courts follow",
+   "es": "precedente",
+   "topic": "court"
+  },
+  {
+   "term": "offence",
+   "plain": "an act or failure to act that the law punishes",
+   "es": "delito / infracción",
+   "topic": "offences"
+  },
+  {
+   "term": "actus reus",
+   "plain": "the guilty act: the conduct, circumstances and consequences of an offence",
+   "es": "actus reus (elemento objetivo)",
+   "topic": "offences"
+  },
+  {
+   "term": "mens rea",
+   "plain": "the guilty mind: the state of mind required for the offence",
+   "es": "mens rea (elemento subjetivo)",
+   "topic": "offences"
+  },
+  {
+   "term": "intent",
+   "plain": "the aim or purpose to bring about a result",
+   "es": "intención / dolo",
+   "topic": "offences"
+  },
+  {
+   "term": "recklessness",
+   "plain": "knowing there is a risk and unreasonably taking it",
+   "es": "imprudencia consciente / temeridad",
+   "topic": "offences"
+  },
+  {
+   "term": "negligence",
+   "plain": "falling below the standard of a reasonable person",
+   "es": "negligencia",
+   "topic": "offences"
+  },
+  {
+   "term": "strict liability",
+   "plain": "an offence where no mens rea is needed for at least one element",
+   "es": "responsabilidad objetiva",
+   "topic": "offences"
+  },
+  {
+   "term": "omission",
+   "plain": "a failure to act",
+   "es": "omisión",
+   "topic": "offences"
+  },
+  {
+   "term": "causation",
+   "plain": "the link between the defendant's conduct and the result",
+   "es": "causalidad",
+   "topic": "offences"
+  },
+  {
+   "term": "accessory",
+   "plain": "a person who helps, encourages or procures the main offender",
+   "es": "partícipe / cómplice",
+   "topic": "offences"
+  },
+  {
+   "term": "principal",
+   "plain": "the person who directly commits the offence",
+   "es": "autor/a material",
+   "topic": "offences"
+  },
+  {
+   "term": "attempt",
+   "plain": "doing something more than merely preparatory towards committing an offence",
+   "es": "tentativa",
+   "topic": "offences"
+  },
+  {
+   "term": "conspiracy",
+   "plain": "an agreement between two or more people to commit an offence",
+   "es": "conspiración",
+   "topic": "offences"
+  },
+  {
+   "term": "assault",
+   "plain": "making someone fear immediate unlawful force",
+   "es": "amenaza de agresión (assault)",
+   "topic": "offences"
+  },
+  {
+   "term": "battery",
+   "plain": "applying unlawful force to another person",
+   "es": "agresión física leve (battery)",
+   "topic": "offences"
+  },
+  {
+   "term": "actual bodily harm (ABH)",
+   "plain": "an assault that causes harm that is more than trivial",
+   "es": "lesiones (ABH)",
+   "topic": "offences"
+  },
+  {
+   "term": "grievous bodily harm (GBH)",
+   "plain": "really serious harm",
+   "es": "lesiones graves (GBH)",
+   "topic": "offences"
+  },
+  {
+   "term": "wounding",
+   "plain": "breaking both layers of the skin",
+   "es": "herida",
+   "topic": "offences"
+  },
+  {
+   "term": "theft",
+   "plain": "dishonestly taking property belonging to another meaning to keep it permanently",
+   "es": "hurto",
+   "topic": "offences"
+  },
+  {
+   "term": "robbery",
+   "plain": "stealing and using or threatening force to do so",
+   "es": "robo con violencia o intimidación",
+   "topic": "offences"
+  },
+  {
+   "term": "burglary",
+   "plain": "entering a building as a trespasser to steal, cause GBH or criminal damage (or doing so once inside)",
+   "es": "robo en vivienda / edificio (burglary)",
+   "topic": "offences"
+  },
+  {
+   "term": "handling stolen goods",
+   "plain": "receiving or dealing with goods knowing or believing they are stolen",
+   "es": "receptación",
+   "topic": "offences"
+  },
+  {
+   "term": "fraud",
+   "plain": "dishonestly making a false representation, failing to disclose or abusing a position to gain or cause loss",
+   "es": "fraude / estafa",
+   "topic": "offences"
+  },
+  {
+   "term": "criminal damage",
+   "plain": "destroying or damaging someone else's property without lawful excuse",
+   "es": "daños",
+   "topic": "offences"
+  },
+  {
+   "term": "arson",
+   "plain": "criminal damage by fire",
+   "es": "incendio provocado",
+   "topic": "offences"
+  },
+  {
+   "term": "blackmail",
+   "plain": "an unwarranted demand with menaces to make a gain or cause a loss",
+   "es": "chantaje / extorsión",
+   "topic": "offences"
+  },
+  {
+   "term": "harassment",
+   "plain": "a course of conduct that causes alarm or distress",
+   "es": "acoso",
+   "topic": "offences"
+  },
+  {
+   "term": "stalking",
+   "plain": "harassment that includes behaviour like following, watching or contacting someone",
+   "es": "acecho / acoso reiterado",
+   "topic": "offences"
+  },
+  {
+   "term": "controlling or coercive behaviour",
+   "plain": "repeated control of a partner or family member that has a serious effect on them",
+   "es": "conducta controladora o coercitiva",
+   "topic": "offences"
+  },
+  {
+   "term": "public order offence",
+   "plain": "an offence about violence or threatening behaviour in public (e.g. affray)",
+   "es": "delito contra el orden público",
+   "topic": "offences"
+  },
+  {
+   "term": "possession",
+   "plain": "having something under your control, knowing you have it",
+   "es": "posesión / tenencia",
+   "topic": "offences"
+  },
+  {
+   "term": "possession with intent to supply",
+   "plain": "having drugs and meaning to give or sell them to others",
+   "es": "posesión con fines de tráfico",
+   "topic": "offences"
+  },
+  {
+   "term": "aggravated",
+   "plain": "a more serious form of an offence because of an extra factor",
+   "es": "agravado",
+   "topic": "offences"
+  },
+  {
+   "term": "racially or religiously aggravated",
+   "plain": "an offence made worse by hostility based on race or religion",
+   "es": "con agravante racial o religioso",
+   "topic": "offences"
+  },
+  {
+   "term": "hate crime",
+   "plain": "a crime the victim or anyone else sees as motivated by hostility to a protected characteristic",
+   "es": "delito de odio",
+   "topic": "offences"
+  },
+  {
+   "term": "dishonestly",
+   "plain": "the test is what the defendant knew or believed, then whether ordinary decent people would see it as dishonest (Ivey)",
+   "es": "deshonestamente",
+   "topic": "offences"
+  },
+  {
+   "term": "investigation",
+   "plain": "the process of finding out what happened and who is responsible",
+   "es": "investigación",
+   "topic": "investigation"
+  },
+  {
+   "term": "officer in the case (OIC)",
+   "plain": "the officer responsible for the investigation and the case file",
+   "es": "agente a cargo del caso",
+   "topic": "investigation"
+  },
+  {
+   "term": "senior investigating officer (SIO)",
+   "plain": "the lead detective in a serious or major investigation",
+   "es": "investigador/a jefe",
+   "topic": "investigation"
+  },
+  {
+   "term": "lines of enquiry",
+   "plain": "the different things to check in an investigation",
+   "es": "líneas de investigación",
+   "topic": "investigation"
+  },
+  {
+   "term": "reasonable lines of enquiry",
+   "plain": "all enquiries that are reasonable, whether they point towards or away from the suspect (CPIA)",
+   "es": "líneas razonables de investigación",
+   "topic": "investigation"
+  },
+  {
+   "term": "golden hour",
+   "plain": "the time right after a crime when evidence is easiest to find and preserve",
+   "es": "la hora de oro",
+   "topic": "investigation"
+  },
+  {
+   "term": "investigative mindset",
+   "plain": "approaching a case with an open, questioning and evidence-led mind",
+   "es": "mentalidad investigadora",
+   "topic": "investigation"
+  },
+  {
+   "term": "intelligence",
+   "plain": "information that has been assessed to help policing decisions",
+   "es": "inteligencia / información operativa",
+   "topic": "investigation"
+  },
+  {
+   "term": "house-to-house enquiries",
+   "plain": "visiting nearby homes to find witnesses or information",
+   "es": "puerta a puerta",
+   "topic": "investigation"
+  },
+  {
+   "term": "CCTV trawl",
+   "plain": "searching for and collecting CCTV footage",
+   "es": "búsqueda de cámaras CCTV",
+   "topic": "investigation"
+  },
+  {
+   "term": "victim",
+   "plain": "a person harmed by a crime",
+   "es": "víctima",
+   "topic": "investigation"
+  },
+  {
+   "term": "witness",
+   "plain": "a person who saw, heard or knows something relevant",
+   "es": "testigo",
+   "topic": "investigation"
+  },
+  {
+   "term": "vulnerable witness",
+   "plain": "a witness who needs extra support, e.g. a child or someone with a mental disorder",
+   "es": "testigo vulnerable",
+   "topic": "investigation"
+  },
+  {
+   "term": "intimidated witness",
+   "plain": "a witness whose evidence may be affected by fear or distress",
+   "es": "testigo intimidado",
+   "topic": "investigation"
+  },
+  {
+   "term": "witness statement",
+   "plain": "a signed written account by a witness (MG11)",
+   "es": "declaración de testigo",
+   "topic": "investigation"
+  },
+  {
+   "term": "interview",
+   "plain": "questioning a suspect about their involvement in an offence, under caution",
+   "es": "entrevista / interrogatorio",
+   "topic": "investigation"
+  },
+  {
+   "term": "no comment interview",
+   "plain": "an interview where the suspect answers 'no comment'",
+   "es": "entrevista sin respuestas",
+   "topic": "investigation"
+  },
+  {
+   "term": "prepared statement",
+   "plain": "a written statement a suspect gives instead of answering questions",
+   "es": "declaración escrita preparada",
+   "topic": "investigation"
+  },
+  {
+   "term": "adverse inference",
+   "plain": "a court may draw a conclusion from a suspect's silence in some situations",
+   "es": "inferencia desfavorable",
+   "topic": "investigation"
+  },
+  {
+   "term": "special warning",
+   "plain": "a warning given in interview about failing to account for objects, marks or presence",
+   "es": "advertencia especial",
+   "topic": "investigation"
+  },
+  {
+   "term": "pocket notebook (PNB)",
+   "plain": "an officer's official notebook for recording events",
+   "es": "libreta oficial",
+   "topic": "investigation"
+  },
+  {
+   "term": "contemporaneous notes",
+   "plain": "notes made at the time or as soon as possible afterwards",
+   "es": "notas tomadas en el momento",
+   "topic": "investigation"
+  },
+  {
+   "term": "safeguarding",
+   "plain": "protecting people from harm, abuse and neglect",
+   "es": "protección / salvaguarda",
+   "topic": "investigation"
+  },
+  {
+   "term": "risk assessment",
+   "plain": "judging how likely and how serious harm is",
+   "es": "evaluación de riesgo",
+   "topic": "investigation"
+  },
+  {
+   "term": "modus operandi (MO)",
+   "plain": "the way an offender commits crimes",
+   "es": "modus operandi",
+   "topic": "investigation"
+  },
+  {
+   "term": "covert",
+   "plain": "secret, hidden",
+   "es": "encubierto",
+   "topic": "investigation"
+  },
+  {
+   "term": "overt",
+   "plain": "open, not hidden",
+   "es": "abierto / visible",
+   "topic": "investigation"
+  },
+  {
+   "term": "surveillance",
+   "plain": "watching or monitoring people",
+   "es": "vigilancia",
+   "topic": "investigation"
+  },
+  {
+   "term": "suspect (verb)",
+   "plain": "think something may be true; a lower level than believing",
+   "es": "sospechar",
+   "topic": "thresholds"
+  },
+  {
+   "term": "believe",
+   "plain": "think something is true; stronger than suspecting",
+   "es": "creer (con convicción)",
+   "topic": "thresholds"
+  },
+  {
+   "term": "reasonable grounds to suspect",
+   "plain": "facts that would make a reasonable person suspect; needed for most arrests",
+   "es": "motivos razonables para sospechar",
+   "topic": "thresholds"
+  },
+  {
+   "term": "reasonable grounds to believe",
+   "plain": "facts that would make a reasonable person believe; a higher threshold",
+   "es": "motivos razonables para creer",
+   "topic": "thresholds"
+  },
+  {
+   "term": "know",
+   "plain": "be aware of something as a fact",
+   "es": "saber",
+   "topic": "thresholds"
+  },
+  {
+   "term": "necessary",
+   "plain": "needed, not just useful",
+   "es": "necesario",
+   "topic": "thresholds"
+  },
+  {
+   "term": "proportionate",
+   "plain": "no more than needed to achieve a legitimate aim",
+   "es": "proporcionado",
+   "topic": "thresholds"
+  },
+  {
+   "term": "justified",
+   "plain": "there is a good legal reason",
+   "es": "justificado",
+   "topic": "thresholds"
+  },
+  {
+   "term": "lawful excuse",
+   "plain": "a reason the law accepts for doing something",
+   "es": "causa legal / justificación",
+   "topic": "thresholds"
+  },
+  {
+   "term": "realistic prospect of conviction",
+   "plain": "the evidential test for charging: a conviction is more likely than not",
+   "es": "perspectiva realista de condena",
+   "topic": "thresholds"
+  },
+  {
+   "term": "public interest",
+   "plain": "whether a prosecution is needed in the interests of the public",
+   "es": "interés público",
+   "topic": "thresholds"
+  },
+  {
+   "term": "threshold test",
+   "plain": "a CPS test used to charge when not all evidence is available yet but the suspect is a risk",
+   "es": "test del umbral",
+   "topic": "thresholds"
+  },
+  {
+   "term": "full code test",
+   "plain": "the CPS test for charging: evidential stage, then public interest stage",
+   "es": "test completo del Código",
+   "topic": "thresholds"
+  },
+  {
+   "term": "may",
+   "plain": "has the power to, but does not have to",
+   "es": "puede (facultativo)",
+   "topic": "thresholds"
+  },
+  {
+   "term": "must / shall",
+   "plain": "has a legal duty to",
+   "es": "debe (obligatorio)",
+   "topic": "thresholds"
+  },
+  {
+   "term": "should",
+   "plain": "is expected to, unless there is a good reason",
+   "es": "debería (recomendado)",
+   "topic": "thresholds"
+  },
+  {
+   "term": "as soon as practicable",
+   "plain": "as soon as it is reasonably possible",
+   "es": "tan pronto como sea posible",
+   "topic": "thresholds"
+  },
+  {
+   "term": "without delay",
+   "plain": "immediately, unless there is a good reason",
+   "es": "sin demora",
+   "topic": "thresholds"
+  },
+  {
+   "term": "complainant",
+   "plain": "the person who reports a crime, often the victim",
+   "es": "denunciante",
+   "topic": "people"
+  },
+  {
+   "term": "informant",
+   "plain": "a person who passes information to the police",
+   "es": "informante",
+   "topic": "people"
+  },
+  {
+   "term": "next of kin",
+   "plain": "a person's closest relative",
+   "es": "familiar más cercano",
+   "topic": "people"
+  },
+  {
+   "term": "missing person",
+   "plain": "someone whose whereabouts cannot be established",
+   "es": "persona desaparecida",
+   "topic": "people"
+  },
+  {
+   "term": "person in crisis",
+   "plain": "someone experiencing a mental health emergency",
+   "es": "persona en crisis",
+   "topic": "people"
+  },
+  {
+   "term": "child",
+   "plain": "a person under 18",
+   "es": "menor de edad",
+   "topic": "people"
+  },
+  {
+   "term": "juvenile",
+   "plain": "an older term for a person under 18 in custody",
+   "es": "menor (en custodia)",
+   "topic": "people"
+  },
+  {
+   "term": "vulnerable adult",
+   "plain": "an adult who may be unable to protect themselves from harm",
+   "es": "adulto vulnerable",
+   "topic": "people"
+  },
+  {
+   "term": "protected characteristic",
+   "plain": "one of the 9 characteristics protected by the Equality Act 2010",
+   "es": "característica protegida",
+   "topic": "people"
+  },
+  {
+   "term": "self-defined ethnicity",
+   "plain": "the ethnic group a person says they belong to",
+   "es": "etnia autodefinida",
+   "topic": "people"
+  },
+  {
+   "term": "IC code",
+   "plain": "the code an officer uses to record how someone appears ethnically",
+   "es": "código de apariencia étnica",
+   "topic": "people"
+  },
+  {
+   "term": "member of the public",
+   "plain": "an ordinary person who is not police",
+   "es": "ciudadano/a",
+   "topic": "people"
+  },
+  {
+   "term": "PACE Codes of Practice",
+   "plain": "rules under PACE about stop & search, entry, detention, identification, recording interviews and arrest",
+   "es": "Códigos de práctica de PACE",
+   "topic": "procedure"
+  },
+  {
+   "term": "Authorised Professional Practice (APP)",
+   "plain": "official national guidance for police from the College of Policing",
+   "es": "guía profesional oficial",
+   "topic": "procedure"
+  },
+  {
+   "term": "Code of Ethics",
+   "plain": "the College of Policing code that sets out the principles and standards for policing",
+   "es": "Código Ético",
+   "topic": "procedure"
+  },
+  {
+   "term": "Standards of Professional Behaviour",
+   "plain": "the standards all police must meet (honesty, respect, use of force…)",
+   "es": "normas de conducta profesional",
+   "topic": "procedure"
+  },
+  {
+   "term": "misconduct",
+   "plain": "a breach of the Standards of Professional Behaviour",
+   "es": "falta disciplinaria",
+   "topic": "procedure"
+  },
+  {
+   "term": "gross misconduct",
+   "plain": "a breach so serious that dismissal could be justified",
+   "es": "falta muy grave",
+   "topic": "procedure"
+  },
+  {
+   "term": "duty to intervene",
+   "plain": "officers must step in to stop improper behaviour by colleagues",
+   "es": "deber de intervenir",
+   "topic": "procedure"
+  },
+  {
+   "term": "policing by consent",
+   "plain": "police power depends on public approval and cooperation",
+   "es": "policía por consentimiento",
+   "topic": "procedure"
+  },
+  {
+   "term": "use of force form",
+   "plain": "the record an officer completes after using force",
+   "es": "parte de uso de la fuerza",
+   "topic": "procedure"
+  },
+  {
+   "term": "incident log",
+   "plain": "the control room record of a call and what happened",
+   "es": "registro del incidente",
+   "topic": "procedure"
+  },
+  {
+   "term": "crime report",
+   "plain": "the record of a reported crime",
+   "es": "atestado / denuncia registrada",
+   "topic": "procedure"
+  },
+  {
+   "term": "crime reference number",
+   "plain": "the number given to a crime report",
+   "es": "número de denuncia",
+   "topic": "procedure"
+  },
+  {
+   "term": "tasking",
+   "plain": "giving officers jobs to do",
+   "es": "asignación de tareas",
+   "topic": "procedure"
+  },
+  {
+   "term": "briefing",
+   "plain": "a meeting to give officers information before duty or an operation",
+   "es": "reunión informativa",
+   "topic": "procedure"
+  },
+  {
+   "term": "handover",
+   "plain": "passing a job or prisoner to another officer with all the information",
+   "es": "relevo / traspaso",
+   "topic": "procedure"
+  },
+  {
+   "term": "on scene",
+   "plain": "at the place of the incident",
+   "es": "en el lugar",
+   "topic": "procedure"
+  },
+  {
+   "term": "en route",
+   "plain": "on the way",
+   "es": "en camino",
+   "topic": "procedure"
+  },
+  {
+   "term": "ETA",
+   "plain": "estimated time of arrival",
+   "es": "hora estimada de llegada",
+   "topic": "procedure"
+  },
+  {
+   "term": "graded response",
+   "plain": "how urgently a call is attended (e.g. emergency, priority, scheduled)",
+   "es": "nivel de respuesta",
+   "topic": "procedure"
+  }
+ ]
+}

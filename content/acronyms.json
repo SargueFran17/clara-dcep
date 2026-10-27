@@ -1,0 +1,545 @@
+{
+ "_comment": "Acrónimos: los 40 primeros = Acrónimos I, el resto = Acrónimos II. Edítalo aquí.",
+ "acronyms": [
+  {
+   "acronym": "CID",
+   "full": "Criminal Investigation Department",
+   "plain": "the detectives' department",
+   "es": "Departamento de Investigación Criminal (detectives)"
+  },
+  {
+   "acronym": "PACE",
+   "full": "Police and Criminal Evidence Act 1984",
+   "plain": "the main law on police powers and suspects' rights",
+   "es": "Ley de Policía y Pruebas Penales de 1984"
+  },
+  {
+   "acronym": "CPS",
+   "full": "Crown Prosecution Service",
+   "plain": "the public prosecutors in England and Wales",
+   "es": "Fiscalía de la Corona"
+  },
+  {
+   "acronym": "IOPC",
+   "full": "Independent Office for Police Conduct",
+   "plain": "the body that investigates serious complaints against police",
+   "es": "Oficina Independiente de Conducta Policial"
+  },
+  {
+   "acronym": "HMICFRS",
+   "full": "His Majesty's Inspectorate of Constabulary and Fire & Rescue Services",
+   "plain": "inspects how well police forces work",
+   "es": "Inspección de policía y bomberos"
+  },
+  {
+   "acronym": "PCC",
+   "full": "Police and Crime Commissioner",
+   "plain": "elected person who holds the chief constable to account and sets the police plan",
+   "es": "Comisionado/a de Policía y Delincuencia (electo)"
+  },
+  {
+   "acronym": "NPCC",
+   "full": "National Police Chiefs' Council",
+   "plain": "brings chief officers together to coordinate national policing",
+   "es": "Consejo Nacional de Jefes de Policía"
+  },
+  {
+   "acronym": "CoP",
+   "full": "College of Policing",
+   "plain": "professional body for policing: standards, training, APP",
+   "es": "Colegio de Policía (formación y estándares)"
+  },
+  {
+   "acronym": "APP",
+   "full": "Authorised Professional Practice",
+   "plain": "official national police guidance",
+   "es": "Práctica profesional autorizada (guía oficial)"
+  },
+  {
+   "acronym": "NDM",
+   "full": "National Decision Model",
+   "plain": "the 6-step model police use to make decisions, with the Code of Ethics at the centre",
+   "es": "Modelo Nacional de Toma de Decisiones"
+  },
+  {
+   "acronym": "THRIVE",
+   "full": "Threat, Harm, Risk, Investigation, Vulnerability, Engagement",
+   "plain": "a way to assess risk and decide the right response",
+   "es": "Amenaza, Daño, Riesgo, Investigación, Vulnerabilidad, Implicación"
+  },
+  {
+   "acronym": "PEACE",
+   "full": "Planning and preparation, Engage and explain, Account (clarification and challenge), Closure, Evaluate",
+   "plain": "the model for investigative interviews",
+   "es": "Modelo de entrevista: Planificar, Explicar, Relato, Cierre, Evaluar"
+  },
+  {
+   "acronym": "ABE",
+   "full": "Achieving Best Evidence",
+   "plain": "guidance for interviewing victims and witnesses, especially vulnerable ones, often on video",
+   "es": "Obtener la mejor prueba (entrevistas grabadas a víctimas/testigos)"
+  },
+  {
+   "acronym": "GOWISELY",
+   "full": "Grounds, Object, Warrant card, Identity, Station, Entitlement to a copy, Legal power, You are detained",
+   "plain": "what an officer must tell a person before a stop and search",
+   "es": "Lo que hay que decir antes de un registro (motivos, objeto, placa, identidad, comisaría, copia, poder legal, retención)"
+  },
+  {
+   "acronym": "RUI",
+   "full": "Released Under Investigation",
+   "plain": "released without bail while enquiries continue",
+   "es": "Puesto/a en libertad mientras se investiga"
+  },
+  {
+   "acronym": "NFA",
+   "full": "No Further Action",
+   "plain": "the case is closed",
+   "es": "Sin más actuaciones (archivo)"
+  },
+  {
+   "acronym": "MARAC",
+   "full": "Multi-Agency Risk Assessment Conference",
+   "plain": "meeting of agencies about high-risk domestic abuse victims",
+   "es": "Reunión multiagencia de evaluación de riesgo (violencia doméstica)"
+  },
+  {
+   "acronym": "MAPPA",
+   "full": "Multi-Agency Public Protection Arrangements",
+   "plain": "agencies working together to manage dangerous sexual and violent offenders",
+   "es": "Gestión multiagencia de delincuentes peligrosos"
+  },
+  {
+   "acronym": "DASH",
+   "full": "Domestic Abuse, Stalking and Harassment and Honour-Based Violence (risk checklist)",
+   "plain": "questions used to assess risk in domestic abuse cases",
+   "es": "Cuestionario de riesgo de violencia doméstica, acoso y violencia por honor"
+  },
+  {
+   "acronym": "PNC",
+   "full": "Police National Computer",
+   "plain": "national database of people, vehicles and convictions",
+   "es": "Ordenador Nacional de Policía"
+  },
+  {
+   "acronym": "PND",
+   "full": "Police National Database",
+   "plain": "national database for sharing police intelligence",
+   "es": "Base de datos nacional de inteligencia policial"
+  },
+  {
+   "acronym": "ANPR",
+   "full": "Automatic Number Plate Recognition",
+   "plain": "cameras that read number plates",
+   "es": "Reconocimiento automático de matrículas"
+  },
+  {
+   "acronym": "OIC",
+   "full": "Officer in the Case",
+   "plain": "the officer responsible for the investigation",
+   "es": "Agente a cargo del caso"
+  },
+  {
+   "acronym": "SIO",
+   "full": "Senior Investigating Officer",
+   "plain": "lead detective in a major investigation",
+   "es": "Investigador/a jefe"
+  },
+  {
+   "acronym": "PIP",
+   "full": "Professionalising Investigation Programme",
+   "plain": "the national framework for training and accrediting investigators (levels 1–4)",
+   "es": "Programa de profesionalización de la investigación"
+  },
+  {
+   "acronym": "NIE",
+   "full": "National Investigators' Examination",
+   "plain": "the multiple-choice law exam for trainee detectives",
+   "es": "Examen Nacional de Investigadores"
+  },
+  {
+   "acronym": "DCEP",
+   "full": "Detective Constable Entry Programme",
+   "plain": "the direct-entry route to become a detective constable",
+   "es": "Programa de acceso directo a detective"
+  },
+  {
+   "acronym": "CPIA",
+   "full": "Criminal Procedure and Investigations Act 1996",
+   "plain": "the law on recording, retaining and disclosing material",
+   "es": "Ley de procedimiento e investigación penal de 1996 (disclosure)"
+  },
+  {
+   "acronym": "RIPA",
+   "full": "Regulation of Investigatory Powers Act 2000",
+   "plain": "the law controlling covert surveillance and informants",
+   "es": "Ley de regulación de poderes de investigación de 2000"
+  },
+  {
+   "acronym": "CHIS",
+   "full": "Covert Human Intelligence Source",
+   "plain": "an informant or undercover officer authorised under RIPA",
+   "es": "Fuente humana encubierta (informante)"
+  },
+  {
+   "acronym": "ECHR",
+   "full": "European Convention on Human Rights",
+   "plain": "the human rights treaty, given effect by the Human Rights Act 1998",
+   "es": "Convenio Europeo de Derechos Humanos"
+  },
+  {
+   "acronym": "HRA",
+   "full": "Human Rights Act 1998",
+   "plain": "makes ECHR rights enforceable in UK courts",
+   "es": "Ley de Derechos Humanos de 1998"
+  },
+  {
+   "acronym": "MG11",
+   "full": "Manual of Guidance form 11",
+   "plain": "the witness statement form",
+   "es": "Formulario de declaración de testigo"
+  },
+  {
+   "acronym": "MG5",
+   "full": "Manual of Guidance form 5",
+   "plain": "the case summary for the CPS",
+   "es": "Resumen del caso para la fiscalía"
+  },
+  {
+   "acronym": "ADVOKATE",
+   "full": "Amount of time, Distance, Visibility, Obstruction, Known or seen before, Any reason to remember, Time lapse, Errors",
+   "plain": "points to check about a witness's identification evidence (Turnbull)",
+   "es": "Puntos para valorar una identificación por testigo"
+  },
+  {
+   "acronym": "ELBOWS",
+   "full": "no Erasures, Leaves torn out, Blank spaces, Overwriting, Writing between lines, Spare pages",
+   "plain": "rules for keeping a pocket notebook (⚠ some forces use a slightly different S)",
+   "es": "Reglas de la libreta: sin borrones, hojas arrancadas, espacios en blanco, sobrescritos, escribir entre líneas ni páginas sueltas"
+  },
+  {
+   "acronym": "BWV",
+   "full": "Body-Worn Video",
+   "plain": "camera worn by officers",
+   "es": "Cámara corporal"
+  },
+  {
+   "acronym": "RTC",
+   "full": "Road Traffic Collision",
+   "plain": "a crash on the road",
+   "es": "Accidente de tráfico"
+  },
+  {
+   "acronym": "PCSO",
+   "full": "Police Community Support Officer",
+   "plain": "uniformed staff with limited powers who support neighbourhood policing",
+   "es": "Agente de apoyo comunitario"
+  },
+  {
+   "acronym": "SC",
+   "full": "Special Constable",
+   "plain": "a volunteer police officer with full powers",
+   "es": "Agente voluntario/a (con plenos poderes)"
+  },
+  {
+   "acronym": "NCA",
+   "full": "National Crime Agency",
+   "plain": "national agency against serious and organised crime",
+   "es": "Agencia Nacional contra el Crimen"
+  },
+  {
+   "acronym": "CSI",
+   "full": "Crime Scene Investigator",
+   "plain": "specialist who examines scenes and collects forensic evidence",
+   "es": "Investigador/a de la escena del crimen"
+  },
+  {
+   "acronym": "SOCO",
+   "full": "Scenes of Crime Officer",
+   "plain": "older name for a crime scene investigator",
+   "es": "Técnico/a de escena del crimen"
+  },
+  {
+   "acronym": "CCTV",
+   "full": "Closed-Circuit Television",
+   "plain": "security camera system",
+   "es": "Videovigilancia"
+  },
+  {
+   "acronym": "CJS",
+   "full": "Criminal Justice System",
+   "plain": "police, CPS, courts, prisons and probation together",
+   "es": "Sistema de justicia penal"
+  },
+  {
+   "acronym": "IPA",
+   "full": "Investigatory Powers Act 2016",
+   "plain": "law on interception and communications data",
+   "es": "Ley de poderes de investigación de 2016"
+  },
+  {
+   "acronym": "DPA",
+   "full": "Data Protection Act 2018",
+   "plain": "UK data protection law (with UK GDPR)",
+   "es": "Ley de protección de datos de 2018"
+  },
+  {
+   "acronym": "MOPI",
+   "full": "Management of Police Information",
+   "plain": "rules on recording, keeping and sharing police information",
+   "es": "Gestión de la información policial"
+  },
+  {
+   "acronym": "PND (disposal)",
+   "full": "Penalty Notice for Disorder",
+   "plain": "an on-the-spot fine for some low-level offences (⚠ being replaced by new out-of-court disposals in some forces)",
+   "es": "Multa por desorden"
+  },
+  {
+   "acronym": "FPN",
+   "full": "Fixed Penalty Notice",
+   "plain": "an on-the-spot fine, e.g. for many traffic offences",
+   "es": "Multa fija / sanción inmediata"
+  },
+  {
+   "acronym": "PCN",
+   "full": "Penalty Charge Notice",
+   "plain": "a civil fine, e.g. for parking, usually issued by the council",
+   "es": "Multa civil (p. ej. aparcamiento)"
+  },
+  {
+   "acronym": "ASB",
+   "full": "Anti-Social Behaviour",
+   "plain": "behaviour causing harassment, alarm or distress to others",
+   "es": "Comportamiento antisocial"
+  },
+  {
+   "acronym": "CPN",
+   "full": "Community Protection Notice",
+   "plain": "a notice to stop persistent anti-social behaviour",
+   "es": "Aviso de protección comunitaria"
+  },
+  {
+   "acronym": "DAPO",
+   "full": "Domestic Abuse Protection Order",
+   "plain": "a court order to protect victims of domestic abuse (Domestic Abuse Act 2021) ⚠ check roll-out in Hampshire",
+   "es": "Orden de protección por violencia doméstica"
+  },
+  {
+   "acronym": "DVPO",
+   "full": "Domestic Violence Protection Order",
+   "plain": "the older protection order (being replaced by DAPO)",
+   "es": "Orden de protección (anterior)"
+  },
+  {
+   "acronym": "VPS",
+   "full": "Victim Personal Statement",
+   "plain": "the victim explains how the crime affected them",
+   "es": "Declaración personal de la víctima (impacto)"
+  },
+  {
+   "acronym": "VRR",
+   "full": "Victims' Right to Review",
+   "plain": "a victim can ask for a review of a decision not to charge",
+   "es": "Derecho de la víctima a revisión"
+  },
+  {
+   "acronym": "ISVA",
+   "full": "Independent Sexual Violence Adviser",
+   "plain": "supports victims of sexual violence",
+   "es": "Asesor/a independiente de violencia sexual"
+  },
+  {
+   "acronym": "IDVA",
+   "full": "Independent Domestic Violence Adviser",
+   "plain": "supports high-risk victims of domestic abuse",
+   "es": "Asesor/a independiente de violencia doméstica"
+  },
+  {
+   "acronym": "SARC",
+   "full": "Sexual Assault Referral Centre",
+   "plain": "centre giving medical, forensic and emotional support after sexual assault",
+   "es": "Centro de atención a víctimas de agresión sexual"
+  },
+  {
+   "acronym": "LADO",
+   "full": "Local Authority Designated Officer",
+   "plain": "manages allegations against adults who work with children",
+   "es": "Responsable municipal para denuncias contra adultos que trabajan con menores"
+  },
+  {
+   "acronym": "MASH",
+   "full": "Multi-Agency Safeguarding Hub",
+   "plain": "agencies sharing information to protect children and adults",
+   "es": "Centro multiagencia de protección"
+  },
+  {
+   "acronym": "CSE",
+   "full": "Child Sexual Exploitation",
+   "plain": "sexual abuse of children in exchange for something",
+   "es": "Explotación sexual infantil"
+  },
+  {
+   "acronym": "CCE",
+   "full": "Child Criminal Exploitation",
+   "plain": "using children to commit crime, e.g. county lines",
+   "es": "Explotación criminal infantil"
+  },
+  {
+   "acronym": "VAWG",
+   "full": "Violence Against Women and Girls",
+   "plain": "national priority area of crime against women and girls",
+   "es": "Violencia contra mujeres y niñas"
+  },
+  {
+   "acronym": "FGM",
+   "full": "Female Genital Mutilation",
+   "plain": "a criminal offence and form of child abuse",
+   "es": "Mutilación genital femenina"
+  },
+  {
+   "acronym": "HBA",
+   "full": "Honour-Based Abuse",
+   "plain": "abuse to protect or defend the perceived 'honour' of a family",
+   "es": "Violencia por motivos de honor"
+  },
+  {
+   "acronym": "MSHT",
+   "full": "Modern Slavery and Human Trafficking",
+   "plain": "exploitation of people through force, threats or deception",
+   "es": "Esclavitud moderna y trata de personas"
+  },
+  {
+   "acronym": "NRM",
+   "full": "National Referral Mechanism",
+   "plain": "the system to identify and support victims of modern slavery",
+   "es": "Mecanismo nacional de derivación (víctimas de trata)"
+  },
+  {
+   "acronym": "OCG",
+   "full": "Organised Crime Group",
+   "plain": "a group involved in serious crime for gain",
+   "es": "Grupo de crimen organizado"
+  },
+  {
+   "acronym": "POLSA",
+   "full": "Police Search Adviser",
+   "plain": "specialist who plans and manages searches",
+   "es": "Asesor/a policial de búsquedas"
+  },
+  {
+   "acronym": "FLO",
+   "full": "Family Liaison Officer",
+   "plain": "officer who supports a victim's family, e.g. in a homicide",
+   "es": "Agente de enlace con la familia"
+  },
+  {
+   "acronym": "HOLMES",
+   "full": "Home Office Large Major Enquiry System",
+   "plain": "computer system for managing major investigations",
+   "es": "Sistema informático de grandes investigaciones"
+  },
+  {
+   "acronym": "NDNAD",
+   "full": "National DNA Database",
+   "plain": "the national DNA database",
+   "es": "Base de datos nacional de ADN"
+  },
+  {
+   "acronym": "IDENT1",
+   "full": "(national fingerprint database)",
+   "plain": "the national fingerprint and palm print database",
+   "es": "Base de datos nacional de huellas"
+  },
+  {
+   "acronym": "VIPER",
+   "full": "Video Identification Parade Electronic Recording",
+   "plain": "the system for video identification procedures",
+   "es": "Rueda de reconocimiento por vídeo"
+  },
+  {
+   "acronym": "AA",
+   "full": "Appropriate Adult",
+   "plain": "supports a child or vulnerable adult in custody",
+   "es": "Adulto apropiado"
+  },
+  {
+   "acronym": "HCP",
+   "full": "Healthcare Professional",
+   "plain": "nurse or paramedic in custody",
+   "es": "Profesional sanitario"
+  },
+  {
+   "acronym": "DP",
+   "full": "Detained Person",
+   "plain": "someone in police custody",
+   "es": "Persona detenida"
+  },
+  {
+   "acronym": "TIC",
+   "full": "Taken Into Consideration",
+   "plain": "extra offences an offender admits so they are dealt with at sentencing",
+   "es": "Delitos adicionales reconocidos para la sentencia"
+  },
+  {
+   "acronym": "SARA",
+   "full": "Scanning, Analysis, Response, Assessment",
+   "plain": "problem-solving model",
+   "es": "Modelo de resolución de problemas"
+  },
+  {
+   "acronym": "JESIP",
+   "full": "Joint Emergency Services Interoperability Principles",
+   "plain": "how police, fire and ambulance work together at major incidents",
+   "es": "Principios de coordinación de servicios de emergencia"
+  },
+  {
+   "acronym": "METHANE",
+   "full": "Major incident declared, Exact location, Type of incident, Hazards, Access, Number of casualties, Emergency services",
+   "plain": "the model for passing information about a major incident",
+   "es": "Modelo para informar de un incidente grave"
+  },
+  {
+   "acronym": "SPOC",
+   "full": "Single Point of Contact",
+   "plain": "one named contact person for an issue",
+   "es": "Punto único de contacto"
+  },
+  {
+   "acronym": "ARV",
+   "full": "Armed Response Vehicle",
+   "plain": "a car with authorised firearms officers",
+   "es": "Vehículo de respuesta armada"
+  },
+  {
+   "acronym": "AFO",
+   "full": "Authorised Firearms Officer",
+   "plain": "an officer trained and authorised to carry firearms",
+   "es": "Agente autorizado/a para portar armas"
+  },
+  {
+   "acronym": "NPT",
+   "full": "Neighbourhood Policing Team",
+   "plain": "local team for a community area",
+   "es": "Equipo de policía de barrio"
+  },
+  {
+   "acronym": "DS / DI / DCI",
+   "full": "Detective Sergeant / Detective Inspector / Detective Chief Inspector",
+   "plain": "detective ranks",
+   "es": "Sargento / Inspector/a / Inspector/a jefe (detectives)"
+  },
+  {
+   "acronym": "IIMARCH",
+   "full": "Information, Intent, Method, Administration, Risk assessment, Communications, Humanitarian issues",
+   "plain": "briefing format for planned operations",
+   "es": "Formato de briefing de operaciones"
+  },
+  {
+   "acronym": "IDCOPPLAN",
+   "full": "⚠ VERIFICAR en la academia",
+   "plain": "a planning mnemonic used in some police training — I am not sure of every letter, so ask your trainer and correct it here",
+   "es": "Mnemónico de planificación (⚠ confirma su significado)"
+  }
+ ]
+}
