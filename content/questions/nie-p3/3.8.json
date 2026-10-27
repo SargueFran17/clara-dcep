@@ -1,0 +1,445 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.8. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.8-01",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "Under s. 340 POCA 2002, property is 'criminal property' if…",
+   "options": [
+    "it constitutes or represents a benefit from criminal conduct and the alleged offender knows or suspects that",
+    "it was found at a crime scene",
+    "it belongs to a person with convictions",
+    "it is cash over £1,000"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Not the definition.",
+    "Irrelevant.",
+    "That's a cash seizure threshold (⚠)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Criminal property"
+  },
+  {
+   "id": "3.8-02",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "A dealer buys his girlfriend a car with drug money. She suspects where the money came from and uses the car daily. Which offence?",
+   "options": [
+    "s. 327",
+    "s. 328",
+    "s. 329 – acquiring, using or possessing criminal property",
+    "No offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not concealing/transferring.",
+    "Not an arrangement for another.",
+    "Correct.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · s. 329"
+  },
+  {
+   "id": "3.8-03",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "A student lets a stranger pay £8,000 into his bank account and transfers it on for a fee, suspecting it is dodgy. Which offence is most fitting?",
+   "options": [
+    "Theft",
+    "s. 327 – transferring criminal property (and possibly s. 328)",
+    "Handling stolen goods only",
+    "No offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not theft.",
+    "Correct (money mule).",
+    "POCA fits.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · s. 327"
+  },
+  {
+   "id": "3.8-04",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "Which conduct falls within s. 327?",
+   "options": [
+    "Only possessing",
+    "Only arranging",
+    "Only reporting",
+    "Concealing, disguising, converting, transferring or removing criminal property from the UK jurisdictions"
+   ],
+   "correct": 3,
+   "explanations": [
+    "s. 329.",
+    "s. 328.",
+    "Not an offence.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · s. 327"
+  },
+  {
+   "id": "3.8-05",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "A solicitor helps a client buy a house knowing the client is using drug money. Which section best fits?",
+   "options": [
+    "s. 329",
+    "s. 8 MDA",
+    "s. 328 – being concerned in an arrangement facilitating acquisition/use of criminal property by another",
+    "s. 22 Theft Act"
+   ],
+   "correct": 2,
+   "explanations": [
+    "He didn't acquire it himself.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · s. 328"
+  },
+  {
+   "id": "3.8-06",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "What mental state about the property's criminal origin is enough for criminal property?",
+   "options": [
+    "Knowledge or suspicion",
+    "Certainty only",
+    "Negligence",
+    "No mental state"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too high.",
+    "Not enough.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Knowledge or suspicion"
+  },
+  {
+   "id": "3.8-07",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "What is the main defence where someone reports suspicious property and gets consent before acting?",
+   "options": [
+    "Duress",
+    "Self-defence",
+    "Lawful excuse under the Theft Act",
+    "Authorised disclosure (SAR) with appropriate consent (DAML) from the NCA"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Authorised disclosure"
+  },
+  {
+   "id": "3.8-08",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "To which body are Suspicious Activity Reports made?",
+   "options": [
+    "CPS",
+    "National Crime Agency (UK FIU)",
+    "HMRC only",
+    "The courts"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Not the main body.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · SARs"
+  },
+  {
+   "id": "3.8-09",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "A jeweller sells a watch at full price to a known burglar. Under s. 329, which defence may apply?",
+   "options": [
+    "Adequate consideration",
+    "Self-defence",
+    "Duress",
+    "None"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ conditions).",
+    "No.",
+    "No.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Adequate consideration"
+  },
+  {
+   "id": "3.8-10",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "Which statement about cash seizure under POCA Part 5 is correct?",
+   "options": [
+    "A conviction is required",
+    "Only judges can seize cash",
+    "It is a civil process; cash can be seized on reasonable grounds to suspect it is recoverable property or intended for unlawful conduct",
+    "Only amounts over £1 million"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not required.",
+    "Officers can seize.",
+    "Correct.",
+    "Minimum amount is much lower (⚠ £1,000)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Cash seizure"
+  },
+  {
+   "id": "3.8-11",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "What is the minimum amount of cash for seizure under POCA (⚠ check edition)?",
+   "options": [
+    "£100",
+    "£1,000",
+    "£10,000",
+    "£50,000"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct (⚠).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Minimum amount"
+  },
+  {
+   "id": "3.8-12",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "For how long can seized cash initially be detained before a court order is needed (⚠ check)?",
+   "options": [
+    "24 hours",
+    "7 days",
+    "6 months",
+    "48 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "Court-ordered periods.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Detention of cash"
+  },
+  {
+   "id": "3.8-13",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "Who makes a confiscation order?",
+   "options": [
+    "The police",
+    "The NCA",
+    "The Crown Court after conviction",
+    "Magistrates for cash forfeiture only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "Forfeiture is different."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Confiscation"
+  },
+  {
+   "id": "3.8-14",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "What is the purpose of a restraint order?",
+   "options": [
+    "To freeze assets to prevent them being dissipated before confiscation",
+    "To punish",
+    "To arrest",
+    "To seize cash on the street"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "That's cash seizure."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Restraint"
+  },
+  {
+   "id": "3.8-15",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "'Criminal conduct' under POCA is…",
+   "options": [
+    "only drug offences",
+    "only offences over £10,000",
+    "only fraud",
+    "conduct which is an offence in the UK (or would be if it occurred there)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too narrow.",
+    "No.",
+    "Too narrow.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Criminal conduct"
+  },
+  {
+   "id": "3.8-16",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "A bank employee fails to report a customer's obviously suspicious transactions. Which offence area applies?",
+   "options": [
+    "Theft",
+    "Regulated sector failure to disclose (s. 330)",
+    "Burglary",
+    "Handling"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct (⚠ check edition coverage).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Regulated sector"
+  },
+  {
+   "id": "3.8-17",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "After making a SAR, a bank worker tells the customer about it. What may this be?",
+   "options": [
+    "Tipping off (s. 333A)",
+    "Good customer service",
+    "Authorised disclosure",
+    "Nothing"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "Incorrect."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Tipping off"
+  },
+  {
+   "id": "3.8-18",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "A stop finds £15,000 in vacuum-packed bundles smelling of cannabis. The driver gives no explanation. Which power is most relevant?",
+   "options": [
+    "s. 1 PACE only",
+    "s. 136 MHA",
+    "POCA cash seizure (reasonable grounds to suspect recoverable property / intended for unlawful use)",
+    "s. 9 CJA 1967"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Search power only.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Cash seizure – scenario"
+  },
+  {
+   "id": "3.8-19",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "What is the maximum sentence for the principal money laundering offences (⚠ check)?",
+   "options": [
+    "2 years",
+    "14 years",
+    "7 years",
+    "Life"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Sentence"
+  },
+  {
+   "id": "3.8-20",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "Under the 'criminal lifestyle' rules, a court making a confiscation order may…",
+   "options": [
+    "ignore all assets",
+    "jail the family",
+    "close the bank",
+    "make assumptions that the defendant's assets came from crime (subject to rebuttal)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Criminal lifestyle"
+  },
+  {
+   "id": "3.8-21",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "Which Act introduced account freezing orders and unexplained wealth orders into POCA?",
+   "options": [
+    "Theft Act 1968",
+    "PACE 1984",
+    "Criminal Finances Act 2017",
+    "Bail Act 1976"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Criminal Finances Act 2017"
+  },
+  {
+   "id": "3.8-22",
+   "chapter": "3.8",
+   "lessonId": "nie-3.8",
+   "scenario": "Does the alleged offender need to know exactly which crime produced the property?",
+   "options": [
+    "No – knowledge or suspicion that it represents benefit from criminal conduct is enough",
+    "Yes",
+    "Only for cash",
+    "Only for land"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.8 · Knowledge – general"
+  }
+ ]
+}

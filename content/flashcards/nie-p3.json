@@ -329,6 +329,118 @@
    "front": "Blackmail vs robbery",
    "back": "Menaces of anything/future vs force then and there + theft",
    "es": "diferencia"
+  },
+  {
+   "id": "nie-3.5-01",
+   "lessonId": "nie-3.5",
+   "front": "Aggravated burglary (s. 10)",
+   "back": "Burglary + at the time + has with him a WIFE article",
+   "es": "burglary agravado"
+  },
+  {
+   "id": "nie-3.5-02",
+   "lessonId": "nie-3.5",
+   "front": "WIFE",
+   "back": "Weapon of offence, Imitation firearm, Firearm (incl. airguns), Explosive",
+   "es": "WIFE"
+  },
+  {
+   "id": "nie-3.5-03",
+   "lessonId": "nie-3.5",
+   "front": "Weapon of offence",
+   "back": "Made/adapted/intended for causing injury OR incapacitating (e.g. cable ties)",
+   "es": "arma ofensiva"
+  },
+  {
+   "id": "nie-3.5-04",
+   "lessonId": "nie-3.5",
+   "front": "Timing",
+   "back": "(a) at entry; (b) at stealing/GBH (R v O'Leary)",
+   "es": "momento"
+  },
+  {
+   "id": "nie-3.5-05",
+   "lessonId": "nie-3.5",
+   "front": "Imitation firearm",
+   "back": "Has the appearance of a firearm",
+   "es": "imitación"
+  },
+  {
+   "id": "nie-3.5-06",
+   "lessonId": "nie-3.5",
+   "front": "Group burglary",
+   "back": "Others liable only if they knew of the weapon",
+   "es": "grupo"
+  },
+  {
+   "id": "nie-3.5-07",
+   "lessonId": "nie-3.5",
+   "front": "Trial & max",
+   "back": "Indictable only; life",
+   "es": "perpetua"
+  },
+  {
+   "id": "nie-3.8-01",
+   "lessonId": "nie-3.8",
+   "front": "Criminal property (s. 340)",
+   "back": "Benefit from criminal conduct (or represents it) + offender knows or suspects",
+   "es": "bienes delictivos"
+  },
+  {
+   "id": "nie-3.8-02",
+   "lessonId": "nie-3.8",
+   "front": "s. 327",
+   "back": "Conceal, disguise, convert, transfer, remove from UK jurisdictions",
+   "es": "ocultar/transferir"
+  },
+  {
+   "id": "nie-3.8-03",
+   "lessonId": "nie-3.8",
+   "front": "s. 328",
+   "back": "Arrangement facilitating acquisition/retention/use/control by or for another",
+   "es": "acuerdo"
+  },
+  {
+   "id": "nie-3.8-04",
+   "lessonId": "nie-3.8",
+   "front": "s. 329",
+   "back": "Acquire, use, possess criminal property (defence: adequate consideration)",
+   "es": "poseer"
+  },
+  {
+   "id": "nie-3.8-05",
+   "lessonId": "nie-3.8",
+   "front": "Authorised disclosure",
+   "back": "SAR to NCA + consent (DAML)",
+   "es": "SAR/DAML"
+  },
+  {
+   "id": "nie-3.8-06",
+   "lessonId": "nie-3.8",
+   "front": "Cash seizure (⚠)",
+   "back": "Civil; reasonable grounds to suspect; min £1,000; 48 h then magistrates",
+   "es": "incautación de efectivo"
+  },
+  {
+   "id": "nie-3.8-07",
+   "lessonId": "nie-3.8",
+   "front": "Confiscation",
+   "back": "Crown Court after conviction; criminal lifestyle assumptions",
+   "es": "decomiso"
+  },
+  {
+   "id": "nie-3.8-08",
+   "lessonId": "nie-3.8",
+   "front": "Restraint order",
+   "back": "Freeze assets before confiscation",
+   "es": "congelación"
+  },
+  {
+   "id": "nie-3.8-09",
+   "lessonId": "nie-3.8",
+   "front": "Regulated sector",
+   "back": "Failure to disclose (s. 330); tipping off (s. 333A)",
+   "es": "sector regulado"
   }
  ]
 }

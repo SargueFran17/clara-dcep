@@ -1,0 +1,405 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 3.5. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "3.5-01",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Which is the correct definition of aggravated burglary (s. 10 Theft Act 1968)?",
+   "options": [
+    "Committing any burglary and at the time having with him a firearm/imitation firearm, weapon of offence or explosive",
+    "Burglary at night",
+    "Burglary of a dwelling",
+    "Burglary with two or more people"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "That affects sentence only.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · s. 10 – definition"
+  },
+  {
+   "id": "3.5-02",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Which memory aid lists the articles for aggravated burglary?",
+   "options": [
+    "GOWISELY",
+    "ELBOWS",
+    "WIFE – weapon of offence, imitation firearm, firearm, explosive",
+    "ADVOKATE"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Stop and search.",
+    "Notebooks.",
+    "Correct.",
+    "Identification."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · WIFE"
+  },
+  {
+   "id": "3.5-03",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Burglars take cable ties to tie up the occupants of a house. Are the cable ties a weapon of offence?",
+   "options": [
+    "No, they can't injure",
+    "Yes – a weapon of offence includes articles intended for incapacitating a person",
+    "Only if used",
+    "Only if made of metal"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incapacitating is included.",
+    "Correct.",
+    "Intention is enough.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Weapon of offence – incapacitating"
+  },
+  {
+   "id": "3.5-04",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "A burglar carries a screwdriver only to force windows and has no intention of using it on anyone. Is it a weapon of offence?",
+   "options": [
+    "Yes, always",
+    "Only at night",
+    "Only if sharpened",
+    "No – unless made/adapted for injury or intended for use to injure/incapacitate"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Irrelevant.",
+    "Adapted might change it.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Weapon of offence – intention"
+  },
+  {
+   "id": "3.5-05",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "O'LEARY enters a house unarmed as a trespasser, picks up a knife in the kitchen and uses it to threaten the occupier while stealing. Is this aggravated burglary?",
+   "options": [
+    "No, he wasn't armed on entry",
+    "Only robbery",
+    "Yes – for s. 9(1)(b) the article must be with him at the time of the stealing",
+    "Only burglary"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Entry matters only for (a).",
+    "Robbery may also apply.",
+    "Correct: R v O'Leary (1986).",
+    "Aggravated applies."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Timing – O'Leary"
+  },
+  {
+   "id": "3.5-06",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "For a s. 9(1)(a) burglary, when must the defendant have the WIFE article with him?",
+   "options": [
+    "At the time of entry",
+    "When he leaves",
+    "At the time of planning",
+    "Any time that day"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Timing – s. 9(1)(a)"
+  },
+  {
+   "id": "3.5-07",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "A burglar carries a realistic plastic toy pistol. Which is correct?",
+   "options": [
+    "Not aggravated – it's a toy",
+    "Only if he points it",
+    "Only if loaded",
+    "Aggravated – an imitation firearm has the appearance of a firearm"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Imitation firearm"
+  },
+  {
+   "id": "3.5-08",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Does 'firearm' for s. 10 include an air pistol?",
+   "options": [
+    "No",
+    "Yes",
+    "Only if powerful",
+    "Only if loaded"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct (s. 10(1)(a)).",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Firearm – airguns"
+  },
+  {
+   "id": "3.5-09",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "What is the maximum sentence for aggravated burglary?",
+   "options": [
+    "Life imprisonment",
+    "10 years",
+    "14 years",
+    "7 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Dwelling burglary.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Sentence"
+  },
+  {
+   "id": "3.5-10",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "How is aggravated burglary tried?",
+   "options": [
+    "Summary only",
+    "Either way",
+    "Indictable only",
+    "Youth court only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Mode of trial"
+  },
+  {
+   "id": "3.5-11",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Three men commit a burglary; one secretly carries a knife. The others don't know. Are the others guilty of aggravated burglary?",
+   "options": [
+    "Yes, all are",
+    "Not unless they knew he had it (secondary liability)",
+    "Only if they also had knives",
+    "Only if the knife was used"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Knowledge required.",
+    "Correct.",
+    "Not required.",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Group – knowledge"
+  },
+  {
+   "id": "3.5-12",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Must the burglar intend to USE a firearm he carries for it to be aggravated burglary?",
+   "options": [
+    "Yes",
+    "Only at night",
+    "Only if it's loaded",
+    "No – having it with him is enough"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Firearm – no intent to use needed"
+  },
+  {
+   "id": "3.5-13",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "A burglar enters with a can of pepper spray intending to use it if disturbed. Which is correct?",
+   "options": [
+    "Not a weapon of offence",
+    "Only if sprayed",
+    "It can be a weapon of offence (made for incapacitating / intended for such use)",
+    "Only if illegal to own"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Not required.",
+    "Correct.",
+    "Not the test."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Weapon – spray"
+  },
+  {
+   "id": "3.5-14",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "What is required before there can be an aggravated burglary?",
+   "options": [
+    "A completed burglary",
+    "A robbery",
+    "A wounding",
+    "A firearms licence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Underlying burglary"
+  },
+  {
+   "id": "3.5-15",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "A man enters a shop as a trespasser intending to steal, with a knife in his pocket that he forgot was there. Is this aggravated burglary?",
+   "options": [
+    "Yes, automatically",
+    "Yes, if it's sharp",
+    "Only if he used it",
+    "Possibly not – 'has with him' generally requires knowledge (⚠ check)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not automatic.",
+    "Not the test.",
+    "Not required.",
+    "Correct (⚠ check cases)."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Has with him – knowledge"
+  },
+  {
+   "id": "3.5-16",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Which is NOT one of the WIFE articles?",
+   "options": [
+    "Explosive",
+    "Crowbar used only for breaking in",
+    "Imitation firearm",
+    "Weapon of offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Is.",
+    "Correct – unless intended for injury/incapacitation.",
+    "Is.",
+    "Is."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · WIFE"
+  },
+  {
+   "id": "3.5-17",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Having entered a house as a trespasser without any weapon, a man finds a gun and takes it intending to sell it (he never uses it). Which is correct?",
+   "options": [
+    "He may commit aggravated burglary: at the time of stealing he has a firearm with him",
+    "Not aggravated",
+    "Only theft",
+    "Only firearm possession"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ check facts in manual).",
+    "Consider timing.",
+    "Not only.",
+    "Not only."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Timing – stolen item as weapon"
+  },
+  {
+   "id": "3.5-18",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "An 'explosive' for s. 10 means…",
+   "options": [
+    "any flammable liquid",
+    "fireworks only",
+    "an article manufactured for producing a practical effect by explosion, or intended for that purpose",
+    "gas cylinders only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not necessarily.",
+    "Too narrow.",
+    "Correct.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Explosive"
+  },
+  {
+   "id": "3.5-19",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Is it necessary to show that the occupier saw the weapon?",
+   "options": [
+    "Yes",
+    "No",
+    "Only for firearms",
+    "Only at night"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Victim awareness"
+  },
+  {
+   "id": "3.5-20",
+   "chapter": "3.5",
+   "lessonId": "nie-3.5",
+   "scenario": "Which offence should you consider first, before aggravated burglary, when a weapon is involved?",
+   "options": [
+    "Whether there is criminal damage",
+    "Whether there is fraud",
+    "Nothing else",
+    "Whether there is a burglary (s. 9) at all"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not first.",
+    "No.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 3.5 · Approach"
+  }
+ ]
+}
