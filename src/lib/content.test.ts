@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { contentCards, contentQuestions, fileSubject, lessonMarkdown, lessonRef, preAcademyOrder, structure } from './content'
+import { contentCards, contentQuestions, fileSubject, lessonMarkdown, lessonRef, nieChapters, preAcademyOrder, structure } from './content'
 import { stripFrontmatter } from './markdown'
 
 // Comprueba que el contenido de content/ está bien formado (para poder editarlo sin miedo).
@@ -41,6 +41,15 @@ describe('contenido', () => {
       expect(lessonMarkdown(id), id).toBeDefined()
       expect(contentCards.some((c) => c.lessonId === id), `${id} flashcards`).toBe(true)
       expect(contentQuestions.some((q) => q.lessonId === id), `${id} preguntas`).toBe(true)
+    }
+  })
+
+  it('los 43 capítulos NIE tienen lección, ≥ 15 preguntas y flashcards', () => {
+    expect(nieChapters.length).toBe(43)
+    for (const c of nieChapters) {
+      expect(lessonMarkdown(`nie-${c.code}`), c.code).toBeTruthy()
+      expect(contentQuestions.filter((q) => q.chapter === c.code).length, c.code).toBeGreaterThanOrEqual(15)
+      expect(contentCards.filter((x) => x.lessonId === `nie-${c.code}`).length, c.code).toBeGreaterThan(0)
     }
   })
 
