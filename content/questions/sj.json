@@ -180,6 +180,96 @@
     "Correct.",
     "Met/City title."
    ]
+  },
+  {
+   "id": "sj-3-q1",
+   "lessonId": "sj-3",
+   "scenario": "Which stage of the Full Code Test comes first?",
+   "options": [
+    "Evidential",
+    "Public interest",
+    "Threshold",
+    "Sentencing"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Second.",
+    "Separate test.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-3-q2",
+   "lessonId": "sj-3",
+   "scenario": "The evidential stage asks whether there is…",
+   "options": [
+    "proof beyond reasonable doubt",
+    "any suspicion",
+    "a realistic prospect of conviction",
+    "a confession"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Trial standard.",
+    "Too low.",
+    "Correct.",
+    "Not required."
+   ]
+  },
+  {
+   "id": "sj-3-q3",
+   "lessonId": "sj-3",
+   "scenario": "If the evidential stage is not met in a very serious case…",
+   "options": [
+    "prosecute anyway",
+    "the case must not proceed",
+    "use the public interest stage",
+    "ask the victim"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "The public interest stage can't fix weak evidence.",
+    "No."
+   ]
+  },
+  {
+   "id": "sj-3-q4",
+   "lessonId": "sj-3",
+   "scenario": "Who leads the CPS?",
+   "options": [
+    "The Home Secretary",
+    "The Chief Constable",
+    "The Lord Chief Justice",
+    "The Director of Public Prosecutions"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "sj-3-q5",
+   "lessonId": "sj-3",
+   "scenario": "The Threshold Test is used when…",
+   "options": [
+    "the suspect admits everything",
+    "the offence is minor",
+    "there is a substantial bail risk and further evidence is expected",
+    "the victim asks for it"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

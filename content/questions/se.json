@@ -180,6 +180,96 @@
     "Correct.",
     "There is no DNI in the UK."
    ]
+  },
+  {
+   "id": "se-3-q1",
+   "lessonId": "se-3",
+   "scenario": "Which offence is defined by common law rather than a statute?",
+   "options": [
+    "Murder",
+    "Theft",
+    "Burglary",
+    "Fraud"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Theft Act 1968.",
+    "Theft Act 1968.",
+    "Fraud Act 2006."
+   ]
+  },
+  {
+   "id": "se-3-q2",
+   "lessonId": "se-3",
+   "scenario": "In the Crown Court, who decides whether the defendant is guilty?",
+   "options": [
+    "The judge",
+    "The CPS",
+    "The jury",
+    "The police"
+   ],
+   "correct": 2,
+   "explanations": [
+    "The judge decides law and sentence.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-3-q3",
+   "lessonId": "se-3",
+   "scenario": "How many jurors sit in a Crown Court trial?",
+   "options": [
+    "9",
+    "12",
+    "15",
+    "6"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Spain's jury.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "se-3-q4",
+   "lessonId": "se-3",
+   "scenario": "Which majority verdict may be accepted?",
+   "options": [
+    "7–5",
+    "6–6",
+    "9–3",
+    "10–2"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not permitted.",
+    "No.",
+    "Not permitted.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "se-3-q5",
+   "lessonId": "se-3",
+   "scenario": "'R' in R v Jones stands for…",
+   "options": [
+    "Respondent",
+    "Republic",
+    "Regina/Rex (the Crown)",
+    "Reverse"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

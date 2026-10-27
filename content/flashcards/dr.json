@@ -77,6 +77,41 @@
    "front": "Highway Code roundabout rules",
    "back": "Rules 184–190",
    "es": "reglas 184–190"
+  },
+  {
+   "id": "dr-3-01",
+   "lessonId": "dr-3",
+   "front": "Lane rule",
+   "back": "Keep left unless overtaking; return left afterwards",
+   "es": "carril izquierdo"
+  },
+  {
+   "id": "dr-3-02",
+   "lessonId": "dr-3",
+   "front": "Space when overtaking cyclists (≤30 mph)",
+   "back": "At least 1.5 m (rule 163)",
+   "es": "1,5 m"
+  },
+  {
+   "id": "dr-3-03",
+   "lessonId": "dr-3",
+   "front": "Unmarked crossroads",
+   "back": "No one has priority (rule 146)",
+   "es": "nadie tiene prioridad"
+  },
+  {
+   "id": "dr-3-04",
+   "lessonId": "dr-3",
+   "front": "Box junction",
+   "back": "Don't enter unless your exit is clear (rule 174)",
+   "es": "cuadrícula amarilla"
+  },
+  {
+   "id": "dr-3-05",
+   "lessonId": "dr-3",
+   "front": "Is there a general priority to the right?",
+   "back": "No – priority comes from signs and markings",
+   "es": "no"
   }
  ]
 }

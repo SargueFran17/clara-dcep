@@ -70,6 +70,48 @@
    "front": "Polite way to ask for ID",
    "back": "'Have you got any ID on you?'",
    "es": "pedir documentación con educación"
+  },
+  {
+   "id": "se-3-01",
+   "lessonId": "se-3",
+   "front": "Common law",
+   "back": "Law from statutes + judges' decisions (precedent)",
+   "es": "derecho anglosajón"
+  },
+  {
+   "id": "se-3-02",
+   "lessonId": "se-3",
+   "front": "Examples of common law offences",
+   "back": "Murder, manslaughter, misconduct in public office",
+   "es": "delitos de common law"
+  },
+  {
+   "id": "se-3-03",
+   "lessonId": "se-3",
+   "front": "R v Smith",
+   "back": "The Crown (Regina/Rex) against Smith",
+   "es": "la Corona contra Smith"
+  },
+  {
+   "id": "se-3-04",
+   "lessonId": "se-3",
+   "front": "Jury size (Crown Court)",
+   "back": "12",
+   "es": "12"
+  },
+  {
+   "id": "se-3-05",
+   "lessonId": "se-3",
+   "front": "Majority verdicts",
+   "back": "10–2 or 11–1 after a minimum time (Juries Act 1974, s. 17)",
+   "es": "veredicto por mayoría"
+  },
+  {
+   "id": "se-3-06",
+   "lessonId": "se-3",
+   "front": "Jurisprudence vs case law",
+   "back": "case law = decisions of courts; jurisprudence = legal theory",
+   "es": "jurisprudencia"
   }
  ]
 }

@@ -77,6 +77,104 @@
    "front": "get into / get on",
    "back": "get into/out of a car; get on/off a bus",
    "es": "subir/bajar"
+  },
+  {
+   "id": "gr-3-01",
+   "lessonId": "gr-3",
+   "front": "Past simple use",
+   "back": "Completed actions in sequence – the main events",
+   "es": "acciones terminadas"
+  },
+  {
+   "id": "gr-3-02",
+   "lessonId": "gr-3",
+   "front": "Past continuous form + use",
+   "back": "was/were + -ing; background or action in progress",
+   "es": "acción de fondo"
+  },
+  {
+   "id": "gr-3-03",
+   "lessonId": "gr-3",
+   "front": "when vs while",
+   "back": "when + short event (simple); while/as + long action (continuous)",
+   "es": "cuando vs mientras"
+  },
+  {
+   "id": "gr-3-04",
+   "lessonId": "gr-3",
+   "front": "State verbs not in continuous",
+   "back": "know, believe, recognise, see, hear, want, own, seem",
+   "es": "verbos de estado"
+  },
+  {
+   "id": "gr-3-05",
+   "lessonId": "gr-3",
+   "front": "'I was seeing a man' →",
+   "back": "'I saw a man'",
+   "es": "vi a un hombre"
+  },
+  {
+   "id": "gr-4-01",
+   "lessonId": "gr-4",
+   "front": "Past perfect form",
+   "back": "had + past participle (had gone, had left)",
+   "es": "had + participio"
+  },
+  {
+   "id": "gr-4-02",
+   "lessonId": "gr-4",
+   "front": "'When I arrived, he had left' means…",
+   "back": "He left BEFORE I arrived",
+   "es": "se había ido antes"
+  },
+  {
+   "id": "gr-4-03",
+   "lessonId": "gr-4",
+   "front": "By the time + ?",
+   "back": "past simple → past perfect: By the time police arrived, the fire had spread",
+   "es": "para cuando"
+  },
+  {
+   "id": "gr-4-04",
+   "lessonId": "gr-4",
+   "front": "Past participle of go / see / take",
+   "back": "gone / seen / taken",
+   "es": "participios"
+  },
+  {
+   "id": "gr-5-01",
+   "lessonId": "gr-5",
+   "front": "may (legal)",
+   "back": "power/discretion – optional",
+   "es": "facultad"
+  },
+  {
+   "id": "gr-5-02",
+   "lessonId": "gr-5",
+   "front": "must / shall (legal)",
+   "back": "duty – obligatory",
+   "es": "obligación"
+  },
+  {
+   "id": "gr-5-03",
+   "lessonId": "gr-5",
+   "front": "should",
+   "back": "expected; departing needs a good reason",
+   "es": "recomendado"
+  },
+  {
+   "id": "gr-5-04",
+   "lessonId": "gr-5",
+   "front": "must not vs don't have to",
+   "back": "prohibited vs not obligatory",
+   "es": "prohibido vs no obligatorio"
+  },
+  {
+   "id": "gr-5-05",
+   "lessonId": "gr-5",
+   "front": "must have + participle",
+   "back": "strong deduction about the past",
+   "es": "deducción"
   }
  ]
 }

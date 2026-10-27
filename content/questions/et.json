@@ -180,6 +180,96 @@
     "Correct (Police (Conduct) Regulations 2020).",
     "Arrest powers."
    ]
+  },
+  {
+   "id": "et-3-q1",
+   "lessonId": "et-3",
+   "scenario": "An officer checks a neighbour on the PNC out of curiosity. Which standard is breached?",
+   "options": [
+    "Confidentiality",
+    "Fitness for work",
+    "Orders and instructions",
+    "Use of force"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "et-3-q2",
+   "lessonId": "et-3",
+   "scenario": "Does 'discreditable conduct' apply off duty?",
+   "options": [
+    "No",
+    "Only at weekends",
+    "Yes",
+    "Only for senior officers"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "et-3-q3",
+   "lessonId": "et-3",
+   "scenario": "Force must be…",
+   "options": [
+    "quick",
+    "necessary, proportionate and reasonable",
+    "authorised in writing",
+    "avoided always"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "et-3-q4",
+   "lessonId": "et-3",
+   "scenario": "A breach so serious that dismissal is justified is…",
+   "options": [
+    "misconduct",
+    "practice requiring improvement",
+    "a complaint",
+    "gross misconduct"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Lower level.",
+    "Lower level.",
+    "A complaint is not a finding.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "et-3-q5",
+   "lessonId": "et-3",
+   "scenario": "You see a colleague using excessive force. You must…",
+   "options": [
+    "ignore it",
+    "post about it online",
+    "challenge and report it",
+    "only tell your family"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

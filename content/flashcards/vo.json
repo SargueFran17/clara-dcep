@@ -98,6 +98,83 @@
    "front": "remanded in custody",
    "back": "kept in prison/custody until the next court hearing",
    "es": "prisión preventiva"
+  },
+  {
+   "id": "vo-3-01",
+   "lessonId": "vo-3",
+   "front": "Is 'evidence' countable?",
+   "back": "No – 'a piece of evidence', 'some evidence'",
+   "es": "incontable"
+  },
+  {
+   "id": "vo-3-02",
+   "lessonId": "vo-3",
+   "front": "Exhibit reference",
+   "back": "Initials + number, e.g. JS/1",
+   "es": "referencia de la prueba"
+  },
+  {
+   "id": "vo-3-03",
+   "lessonId": "vo-3",
+   "front": "Continuity",
+   "back": "A record of who had an exhibit and when, from seizure to court",
+   "es": "cadena de custodia"
+  },
+  {
+   "id": "vo-3-04",
+   "lessonId": "vo-3",
+   "front": "make enquiries",
+   "back": "investigate, check, ask questions",
+   "es": "hacer averiguaciones"
+  },
+  {
+   "id": "vo-3-05",
+   "lessonId": "vo-3",
+   "front": "rule out a suspect",
+   "back": "decide they were not involved",
+   "es": "descartar"
+  },
+  {
+   "id": "vo-3-06",
+   "lessonId": "vo-3",
+   "front": "golden hour",
+   "back": "early period after a crime when evidence is easiest to secure",
+   "es": "hora de oro"
+  },
+  {
+   "id": "vo-4-01",
+   "lessonId": "vo-4",
+   "front": "conviction vs acquittal",
+   "back": "found guilty vs found not guilty",
+   "es": "condena vs absolución"
+  },
+  {
+   "id": "vo-4-02",
+   "lessonId": "vo-4",
+   "front": "verdict vs sentence",
+   "back": "guilty/not guilty decision vs punishment",
+   "es": "veredicto vs pena"
+  },
+  {
+   "id": "vo-4-03",
+   "lessonId": "vo-4",
+   "front": "plead",
+   "back": "say guilty or not guilty: 'He pleaded not guilty'",
+   "es": "declararse"
+  },
+  {
+   "id": "vo-4-04",
+   "lessonId": "vo-4",
+   "front": "cross-examination",
+   "back": "questions by the other side",
+   "es": "contrainterrogatorio"
+  },
+  {
+   "id": "vo-4-05",
+   "lessonId": "vo-4",
+   "front": "affirm",
+   "back": "promise to tell the truth without a religious oath",
+   "es": "prometer"
   }
  ]
 }

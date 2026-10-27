@@ -77,6 +77,41 @@
    "front": "CID",
    "back": "Criminal Investigation Department – detectives",
    "es": "departamento de detectives"
+  },
+  {
+   "id": "sj-3-01",
+   "lessonId": "sj-3",
+   "front": "CPS",
+   "back": "Crown Prosecution Service – independent public prosecutor led by the DPP",
+   "es": "Fiscalía"
+  },
+  {
+   "id": "sj-3-02",
+   "lessonId": "sj-3",
+   "front": "Full Code Test – two stages",
+   "back": "1 Evidential (realistic prospect of conviction) 2 Public interest",
+   "es": "dos fases"
+  },
+  {
+   "id": "sj-3-03",
+   "lessonId": "sj-3",
+   "front": "Realistic prospect of conviction",
+   "back": "Objective: conviction more likely than not on the evidence",
+   "es": "más probable que no"
+  },
+  {
+   "id": "sj-3-04",
+   "lessonId": "sj-3",
+   "front": "Threshold Test",
+   "back": "Limited use: substantial bail risk + further evidence expected; must be reviewed",
+   "es": "test del umbral"
+  },
+  {
+   "id": "sj-3-05",
+   "lessonId": "sj-3",
+   "front": "Who sets out police vs CPS charging?",
+   "back": "The Director's Guidance on Charging",
+   "es": "guía del DPP"
   }
  ]
 }

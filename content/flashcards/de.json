@@ -84,6 +84,48 @@
    "front": "UK spelling",
    "back": "colour, grey, jewellery",
    "es": "ortografía británica"
+  },
+  {
+   "id": "de-3-01",
+   "lessonId": "de-3",
+   "front": "SDE",
+   "back": "Self-defined ethnicity – the person chooses (census 18+1)",
+   "es": "etnia autodefinida"
+  },
+  {
+   "id": "de-3-02",
+   "lessonId": "de-3",
+   "front": "IC codes",
+   "back": "Officer's perception of appearance, IC1–IC6",
+   "es": "códigos de apariencia"
+  },
+  {
+   "id": "de-3-03",
+   "lessonId": "de-3",
+   "front": "IC1 / IC2",
+   "back": "White North European / White South European",
+   "es": "blanco norte/sur de Europa"
+  },
+  {
+   "id": "de-3-04",
+   "lessonId": "de-3",
+   "front": "IC3 / IC4",
+   "back": "Black / Asian (Indian subcontinent)",
+   "es": "negro / asiático del subcontinente"
+  },
+  {
+   "id": "de-3-05",
+   "lessonId": "de-3",
+   "front": "IC5 / IC6",
+   "back": "Chinese, Japanese, SE Asian / Arab or North African",
+   "es": "asiático oriental / árabe o norteafricano"
+  },
+  {
+   "id": "de-3-06",
+   "lessonId": "de-3",
+   "front": "NS",
+   "back": "Not stated",
+   "es": "no consta"
   }
  ]
 }

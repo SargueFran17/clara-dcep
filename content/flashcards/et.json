@@ -70,6 +70,48 @@
    "front": "Code of Ethics vs Standards of Professional Behaviour",
    "back": "Values/decisions vs standards that can lead to misconduct proceedings",
    "es": "valores vs normas disciplinarias"
+  },
+  {
+   "id": "et-3-01",
+   "lessonId": "et-3",
+   "front": "Where are the Standards of Professional Behaviour?",
+   "back": "Police (Conduct) Regulations 2020, Schedule 2",
+   "es": "reglamento 2020"
+  },
+  {
+   "id": "et-3-02",
+   "lessonId": "et-3",
+   "front": "How many standards?",
+   "back": "10",
+   "es": "10"
+  },
+  {
+   "id": "et-3-03",
+   "lessonId": "et-3",
+   "front": "Discreditable conduct",
+   "back": "On or off duty; must report own charges, cautions, convictions",
+   "es": "conducta que desacredita"
+  },
+  {
+   "id": "et-3-04",
+   "lessonId": "et-3",
+   "front": "Confidentiality",
+   "back": "Access and disclose information only for a policing purpose",
+   "es": "confidencialidad"
+  },
+  {
+   "id": "et-3-05",
+   "lessonId": "et-3",
+   "front": "Gross misconduct",
+   "back": "Breach so serious that dismissal would be justified",
+   "es": "falta muy grave"
+  },
+  {
+   "id": "et-3-06",
+   "lessonId": "et-3",
+   "front": "Practice requiring improvement",
+   "back": "Dealt with by reflective practice",
+   "es": "práctica reflexiva"
   }
  ]
 }

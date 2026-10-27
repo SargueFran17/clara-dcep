@@ -180,6 +180,276 @@
     "Correct.",
     "Ático = top floor/attic."
    ]
+  },
+  {
+   "id": "gr-3-q1",
+   "lessonId": "gr-3",
+   "scenario": "'The victim ___ at the bus stop when the suspect ___ her bag.'",
+   "options": [
+    "was standing / grabbed",
+    "stood / was grabbing",
+    "was standing / was grabbing",
+    "stands / grabbed"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct: background + interrupting event.",
+    "Reversed.",
+    "Both continuous loses the interruption.",
+    "Wrong tense."
+   ]
+  },
+  {
+   "id": "gr-3-q2",
+   "lessonId": "gr-3",
+   "scenario": "Which sentence is correct?",
+   "options": [
+    "I was recognising him immediately.",
+    "I have recognised him yesterday.",
+    "I recognised him immediately.",
+    "I was recognise him."
+   ],
+   "correct": 2,
+   "explanations": [
+    "State verb – not continuous.",
+    "Present perfect can't go with 'yesterday'.",
+    "Correct.",
+    "Incorrect form."
+   ]
+  },
+  {
+   "id": "gr-3-q3",
+   "lessonId": "gr-3",
+   "scenario": "'___ I was talking to the witness, the suspect left.'",
+   "options": [
+    "When",
+    "While",
+    "After",
+    "By"
+   ],
+   "correct": 1,
+   "explanations": [
+    "'When' + short action is more natural.",
+    "Correct: while + long action.",
+    "Changes the meaning.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-3-q4",
+   "lessonId": "gr-3",
+   "scenario": "Past simple of 'run'",
+   "options": [
+    "runned",
+    "run",
+    "was run",
+    "ran"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not a word.",
+    "Past participle.",
+    "Passive.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-3-q5",
+   "lessonId": "gr-3",
+   "scenario": "Which describes the main events of a statement best?",
+   "options": [
+    "Past continuous for everything",
+    "Present simple",
+    "Past simple, in order",
+    "Future"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Only for background.",
+    "Not for past events (except in some informal speech).",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "gr-4-q1",
+   "lessonId": "gr-4",
+   "scenario": "'When I arrived, the suspect ___ already ___.'",
+   "options": [
+    "had / left",
+    "has / left",
+    "was / leaving",
+    "did / leave"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Present perfect doesn't fit a past story.",
+    "Changes meaning.",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-4-q2",
+   "lessonId": "gr-4",
+   "scenario": "Which sentence shows he left AFTER I arrived?",
+   "options": [
+    "When I arrived, he had left.",
+    "By the time I arrived, he had left.",
+    "When I arrived, he left.",
+    "He had left before I arrived."
+   ],
+   "correct": 2,
+   "explanations": [
+    "Before.",
+    "Before.",
+    "Correct.",
+    "Before."
+   ]
+  },
+  {
+   "id": "gr-4-q3",
+   "lessonId": "gr-4",
+   "scenario": "Correct form:",
+   "options": [
+    "had went",
+    "had gone",
+    "had go",
+    "had going"
+   ],
+   "correct": 1,
+   "explanations": [
+    "'went' is past simple.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "gr-4-q4",
+   "lessonId": "gr-4",
+   "scenario": "'___ the police arrived, the fire had spread.'",
+   "options": [
+    "While",
+    "During",
+    "Since",
+    "By the time"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Needs continuous.",
+    "Needs a noun.",
+    "Doesn't fit.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-4-q5",
+   "lessonId": "gr-4",
+   "scenario": "'She said someone ___ into her car during the night.'",
+   "options": [
+    "breaks",
+    "has broken",
+    "had broken",
+    "was break"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Wrong tense.",
+    "Not in reported past.",
+    "Correct (reported, earlier action).",
+    "Incorrect."
+   ]
+  },
+  {
+   "id": "gr-5-q1",
+   "lessonId": "gr-5",
+   "scenario": "In legal texts 'an officer MAY search' means…",
+   "options": [
+    "the officer has the power but not a duty",
+    "the officer must search",
+    "the officer must not search",
+    "the officer should search"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "gr-5-q2",
+   "lessonId": "gr-5",
+   "scenario": "Which word expresses a duty in legal drafting?",
+   "options": [
+    "may",
+    "might",
+    "shall",
+    "could"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Power.",
+    "Possibility.",
+    "Correct.",
+    "Possibility."
+   ]
+  },
+  {
+   "id": "gr-5-q3",
+   "lessonId": "gr-5",
+   "scenario": "'You ___ say anything' (caution) means it is optional.",
+   "options": [
+    "must not",
+    "do not have to",
+    "should not",
+    "cannot"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Prohibited – wrong meaning.",
+    "Correct.",
+    "Advice.",
+    "Impossible."
+   ]
+  },
+  {
+   "id": "gr-5-q4",
+   "lessonId": "gr-5",
+   "scenario": "Correct form:",
+   "options": [
+    "He must to go.",
+    "He musts go.",
+    "He must going.",
+    "He must go."
+   ],
+   "correct": 3,
+   "explanations": [
+    "No 'to' after modals.",
+    "No -s.",
+    "No -ing.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-5-q5",
+   "lessonId": "gr-5",
+   "scenario": "'Interviews SHOULD be recorded' means…",
+   "options": [
+    "it is forbidden",
+    "it is impossible",
+    "it is expected unless there's a good reason",
+    "it is optional with no reason"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "Too weak."
+   ]
   }
  ]
 }

@@ -180,6 +180,96 @@
     "Correct.",
     "Not these."
    ]
+  },
+  {
+   "id": "dr-3-q1",
+   "lessonId": "dr-3",
+   "scenario": "At an unmarked crossroads in the UK…",
+   "options": [
+    "nobody has priority",
+    "traffic from the right has priority",
+    "the bigger vehicle has priority",
+    "traffic from the left has priority"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (rule 146).",
+    "That's the Spanish rule.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-3-q2",
+   "lessonId": "dr-3",
+   "scenario": "Minimum space when overtaking a cyclist at up to 30 mph:",
+   "options": [
+    "0.5 m",
+    "1 m",
+    "1.5 m",
+    "3 m"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too little.",
+    "Too little.",
+    "Correct.",
+    "More is fine, but 1.5 m is the guidance figure."
+   ]
+  },
+  {
+   "id": "dr-3-q3",
+   "lessonId": "dr-3",
+   "scenario": "You may enter a yellow box junction when…",
+   "options": [
+    "the lights are green",
+    "your exit is clear (or turning right and only oncoming traffic stops you)",
+    "you are in a hurry",
+    "never"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not enough.",
+    "Correct.",
+    "No.",
+    "Too absolute."
+   ]
+  },
+  {
+   "id": "dr-3-q4",
+   "lessonId": "dr-3",
+   "scenario": "On a motorway, after overtaking you should…",
+   "options": [
+    "stay in the middle lane",
+    "use the hard shoulder",
+    "stay right",
+    "return to the left lane"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Middle-lane hogging.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-3-q5",
+   "lessonId": "dr-3",
+   "scenario": "Double white lines with a solid line nearest to you mean…",
+   "options": [
+    "you may cross to overtake",
+    "nothing",
+    "you must not cross or straddle them (with limited exceptions)",
+    "bus lane"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

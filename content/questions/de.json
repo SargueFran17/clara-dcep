@@ -180,6 +180,96 @@
     "Correct.",
     "Incorrect."
    ]
+  },
+  {
+   "id": "de-3-q1",
+   "lessonId": "de-3",
+   "scenario": "Which is recorded when a person can tell you their ethnicity (e.g. stop and search)?",
+   "options": [
+    "Self-defined ethnicity",
+    "IC code",
+    "Nationality",
+    "Religion"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Officer's perception.",
+    "Different concept.",
+    "Different concept."
+   ]
+  },
+  {
+   "id": "de-3-q2",
+   "lessonId": "de-3",
+   "scenario": "IC codes are mainly used…",
+   "options": [
+    "in conversation with the public",
+    "on passports",
+    "for radio descriptions and when the person can't be asked",
+    "in court only"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "de-3-q3",
+   "lessonId": "de-3",
+   "scenario": "IC2 means…",
+   "options": [
+    "Black",
+    "White – South European",
+    "Asian",
+    "Arab"
+   ],
+   "correct": 1,
+   "explanations": [
+    "IC3.",
+    "Correct.",
+    "IC4/IC5.",
+    "IC6."
+   ]
+  },
+  {
+   "id": "de-3-q4",
+   "lessonId": "de-3",
+   "scenario": "A person declines to give their ethnicity. You record…",
+   "options": [
+    "your guess as SDE",
+    "nothing at all and stop",
+    "IC1",
+    "NS – not stated"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not their choice.",
+    "Follow the form.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "de-3-q5",
+   "lessonId": "de-3",
+   "scenario": "'Spanish' is…",
+   "options": [
+    "an ethnicity code",
+    "an IC code",
+    "a nationality",
+    "a religion"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

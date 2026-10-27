@@ -180,6 +180,186 @@
     "Correct.",
     "Wrong preposition."
    ]
+  },
+  {
+   "id": "vo-3-q1",
+   "lessonId": "vo-3",
+   "scenario": "Which sentence is correct?",
+   "options": [
+    "We found a piece of evidence.",
+    "We found an evidence.",
+    "We found evidences.",
+    "We found a evidence."
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Uncountable.",
+    "Uncountable.",
+    "Uncountable."
+   ]
+  },
+  {
+   "id": "vo-3-q2",
+   "lessonId": "vo-3",
+   "scenario": "What does 'continuity' of an exhibit mean?",
+   "options": [
+    "Its colour",
+    "Its weight",
+    "A record of who had it and when",
+    "That it is continuous"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "vo-3-q3",
+   "lessonId": "vo-3",
+   "scenario": "A good exhibit reference for an item found by Jane SMITH is…",
+   "options": [
+    "Exhibit 1",
+    "JS/1",
+    "Knife",
+    "SMITH-knife"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Missing initials.",
+    "Correct.",
+    "Not a reference.",
+    "Not standard."
+   ]
+  },
+  {
+   "id": "vo-3-q4",
+   "lessonId": "vo-3",
+   "scenario": "'We ___ enquiries at nearby houses.'",
+   "options": [
+    "did",
+    "took",
+    "gave",
+    "made"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Less natural.",
+    "No.",
+    "No.",
+    "Correct: make/carry out enquiries."
+   ]
+  },
+  {
+   "id": "vo-3-q5",
+   "lessonId": "vo-3",
+   "scenario": "'CCTV ruled him ___ as a suspect.'",
+   "options": [
+    "in",
+    "off",
+    "out",
+    "away"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct: rule out.",
+    "No."
+   ]
+  },
+  {
+   "id": "vo-4-q1",
+   "lessonId": "vo-4",
+   "scenario": "'He was ___ to three years in prison.'",
+   "options": [
+    "sentenced",
+    "condemned",
+    "convicted",
+    "absolved"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Spanish false friend.",
+    "Convicted = found guilty, not the punishment.",
+    "No."
+   ]
+  },
+  {
+   "id": "vo-4-q2",
+   "lessonId": "vo-4",
+   "scenario": "The decision 'not guilty' leads to…",
+   "options": [
+    "a conviction",
+    "a sentence",
+    "an acquittal",
+    "an appeal"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Opposite.",
+    "Only after conviction.",
+    "Correct.",
+    "Not necessarily."
+   ]
+  },
+  {
+   "id": "vo-4-q3",
+   "lessonId": "vo-4",
+   "scenario": "Questions asked by the side that did NOT call the witness are…",
+   "options": [
+    "examination-in-chief",
+    "cross-examination",
+    "re-examination",
+    "allocation"
+   ],
+   "correct": 1,
+   "explanations": [
+    "By own side.",
+    "Correct.",
+    "By own side after cross.",
+    "No."
+   ]
+  },
+  {
+   "id": "vo-4-q4",
+   "lessonId": "vo-4",
+   "scenario": "How do you usually address a Crown Court judge?",
+   "options": [
+    "Sir",
+    "Mister Judge",
+    "Officer",
+    "Your Honour"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Magistrates.",
+    "No.",
+    "No.",
+    "Correct (some judges: My Lord/Lady)."
+   ]
+  },
+  {
+   "id": "vo-4-q5",
+   "lessonId": "vo-4",
+   "scenario": "Which is the correct collocation?",
+   "options": [
+    "make evidence",
+    "say evidence",
+    "give evidence",
+    "do evidence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }
