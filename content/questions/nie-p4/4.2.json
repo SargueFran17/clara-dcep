@@ -1,0 +1,605 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.2. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.2-01",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Which body openings are covered by the offence of rape under s. 1 SOA 2003?",
+   "options": [
+    "Vagina, anus or mouth",
+    "Vagina only",
+    "Vagina and anus only",
+    "Any opening of the body"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "Mouth is also included.",
+    "Only these three."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 1 – elements"
+  },
+  {
+   "id": "4.2-02",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A woman holds down the victim while her male friend rapes him. What is her liability?",
+   "options": [
+    "None – women cannot commit rape",
+    "Only sexual assault",
+    "She is guilty of rape as an accessory",
+    "Only common assault"
+   ],
+   "correct": 2,
+   "explanations": [
+    "She can't be the principal, but can be an accessory.",
+    "She aids/abets rape.",
+    "Correct.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Accessories"
+  },
+  {
+   "id": "4.2-03",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "B consents to intercourse but after a minute tells A to stop. A continues. Which statement is correct?",
+   "options": [
+    "No offence – consent was given at the start",
+    "Rape – penetration is a continuing act and consent was withdrawn",
+    "Only sexual assault",
+    "Only if B physically resisted"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Consent can be withdrawn.",
+    "Correct (s. 79(2)).",
+    "It is penile penetration.",
+    "Resistance is not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 79(2) – continuing act"
+  },
+  {
+   "id": "4.2-04",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "How does s. 74 SOA 2003 define consent?",
+   "options": [
+    "Not saying no",
+    "Any agreement, however obtained",
+    "Agreement in writing",
+    "Agreeing by choice, having the freedom and capacity to make that choice"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Absence of protest isn't consent.",
+    "Must be free and with capacity.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 74 – consent"
+  },
+  {
+   "id": "4.2-05",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Which of these is an EVIDENTIAL (rebuttable) presumption under s. 75?",
+   "options": [
+    "A deceived B about the nature of the act",
+    "A impersonated B's husband",
+    "B was asleep at the time and A knew this",
+    "B was over 16"
+   ],
+   "correct": 2,
+   "explanations": [
+    "That's s. 76 (conclusive).",
+    "That's s. 76 (conclusive).",
+    "Correct.",
+    "Not a presumption."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 75"
+  },
+  {
+   "id": "4.2-06",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "What is the effect of a s. 75 presumption once the circumstance is proved and A knew of it?",
+   "options": [
+    "B is presumed not to have consented and A not to have reasonably believed it, unless sufficient evidence is adduced to raise an issue",
+    "A is automatically guilty",
+    "The burden is on A to prove consent beyond reasonable doubt",
+    "It only affects sentence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "It is rebuttable.",
+    "A must only raise an issue.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 75 – effect"
+  },
+  {
+   "id": "4.2-07",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Which of these is a CONCLUSIVE presumption under s. 76?",
+   "options": [
+    "Violence was used immediately before the act",
+    "B was unlawfully detained",
+    "A drug was given to B without consent",
+    "A intentionally deceived B as to the nature or purpose of the act"
+   ],
+   "correct": 3,
+   "explanations": [
+    "s. 75.",
+    "s. 75.",
+    "s. 75.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 76"
+  },
+  {
+   "id": "4.2-08",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A pretends to be B's long-term partner in a dark bedroom; B consents believing it is her partner. Which is correct?",
+   "options": [
+    "s. 74 only – a jury question",
+    "Conclusive presumption under s. 76 – impersonation of a person known personally to B",
+    "No offence – B consented",
+    "s. 75 evidential presumption"
+   ],
+   "correct": 1,
+   "explanations": [
+    "s. 76 applies.",
+    "Correct.",
+    "Consent is conclusively presumed absent.",
+    "It's s. 76."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 76 – impersonation"
+  },
+  {
+   "id": "4.2-09",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A singing teacher tells a pupil that intercourse will improve her voice; she agrees. Which statement fits best?",
+   "options": [
+    "Deception as to the purpose of the act – s. 76 conclusive presumption",
+    "Valid consent",
+    "Only a fraud offence",
+    "Only s. 75"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (Williams-type facts).",
+    "Consent is vitiated.",
+    "It's a sexual offence.",
+    "s. 76 applies."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 76 – nature/purpose"
+  },
+  {
+   "id": "4.2-10",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A lies to B that he is rich and single to persuade her to have sex. Under R v Jheeta, how is this analysed?",
+   "options": [
+    "Conclusive presumption under s. 76",
+    "s. 75 presumption",
+    "Not under s. 76 – it isn't about nature or purpose; consider s. 74",
+    "Automatically rape"
+   ],
+   "correct": 2,
+   "explanations": [
+    "s. 76 is narrow.",
+    "Not listed in s. 75.",
+    "Correct.",
+    "Not automatically."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Jheeta – s. 76 is narrow"
+  },
+  {
+   "id": "4.2-11",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Under s. 75, a stupefying substance was given to B without her consent. Who must have administered it?",
+   "options": [
+    "Only A",
+    "Anyone – the presumption applies whoever administered it, if A knew",
+    "Only a doctor",
+    "Only a stranger"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not only A.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 75(2)(f)"
+  },
+  {
+   "id": "4.2-12",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "How is the reasonableness of A's belief in consent determined?",
+   "options": [
+    "Purely by what A believed",
+    "By B's past relationships",
+    "By A's level of intoxication",
+    "Having regard to all the circumstances, including any steps A took to ascertain whether B consented"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It must be reasonable.",
+    "Irrelevant.",
+    "Voluntary intoxication doesn't help A.",
+    "Correct (s. 1(2))."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Reasonable belief"
+  },
+  {
+   "id": "4.2-13",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A is very drunk and says he genuinely believed B consented. Does his intoxication help?",
+   "options": [
+    "Yes – it makes the belief reasonable",
+    "Yes – it removes intent",
+    "No – voluntary intoxication cannot make an unreasonable belief reasonable",
+    "Only if B was also drunk"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "Penetration is still intentional.",
+    "Correct.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Intoxication and belief"
+  },
+  {
+   "id": "4.2-14",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "B is drunk but still has capacity and agrees to sex. Following R v Bree, which is correct?",
+   "options": [
+    "A drunken consent is still consent if B retains capacity",
+    "No consent is possible when drunk",
+    "Only consent given sober counts",
+    "It's always s. 75"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct (⚠ check capacity carefully).",
+    "Too wide.",
+    "No.",
+    "Intoxication isn't a s. 75 circumstance unless a substance was administered without consent."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Capacity – Bree"
+  },
+  {
+   "id": "4.2-15",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Does 'vagina' in the SOA 2003 include the vulva?",
+   "options": [
+    "No",
+    "Only for s. 2",
+    "Only for children",
+    "Yes – s. 79(9)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "It applies throughout.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 79(9)"
+  },
+  {
+   "id": "4.2-16",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A transgender woman has a surgically constructed vagina. Can she be a victim of rape by penetration of it?",
+   "options": [
+    "No",
+    "Yes – references to body parts include surgically constructed parts (s. 79(3))",
+    "Only assault by penetration",
+    "Only if recognised by a GRC"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Rape applies.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 79(3)"
+  },
+  {
+   "id": "4.2-17",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A man, 19, has intercourse with a 12-year-old girl who said she was 16 and agreed. Which offence?",
+   "options": [
+    "Rape of a child under 13 (s. 5) – consent and belief as to age irrelevant",
+    "None – reasonable belief in age",
+    "Sexual activity with a child (s. 9) only",
+    "Sexual assault"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No such defence for under 13.",
+    "s. 5 is the correct charge.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 5"
+  },
+  {
+   "id": "4.2-18",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Following R v G (2008), liability as to the age of the child under s. 5 is…",
+   "options": [
+    "Requires knowledge",
+    "Requires recklessness",
+    "Strict",
+    "Requires negligence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · R v G"
+  },
+  {
+   "id": "4.2-19",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "What is the maximum penalty for rape?",
+   "options": [
+    "10 years",
+    "Life imprisonment",
+    "14 years",
+    "7 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too low.",
+    "Correct.",
+    "Too low.",
+    "Too low."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Penalty"
+  },
+  {
+   "id": "4.2-20",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Mode of trial for rape?",
+   "options": [
+    "Summary only",
+    "Either-way",
+    "Depends on the victim's age",
+    "Indictable only"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "Always indictable only.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Mode of trial"
+  },
+  {
+   "id": "4.2-21",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "B is threatened that her brother outside will be beaten immediately unless she submits. Which applies?",
+   "options": [
+    "Nothing – threat was to someone else",
+    "s. 76",
+    "s. 75 evidential presumption – fear that immediate violence would be used against another person",
+    "Only blackmail"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Covered by s. 75.",
+    "Not deception/impersonation.",
+    "Correct.",
+    "It's rape."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 75 – violence to another"
+  },
+  {
+   "id": "4.2-22",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "B, who is paralysed and cannot speak, is unable to communicate whether she consents. Which applies?",
+   "options": [
+    "s. 75 – physical disability preventing communication of consent",
+    "s. 76",
+    "No presumption",
+    "Strict liability"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "There is one.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 75 – disability"
+  },
+  {
+   "id": "4.2-23",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "For a s. 75 presumption to apply, what must the prosecution prove about A's state of mind?",
+   "options": [
+    "Nothing",
+    "That A intended violence",
+    "That A planned the offence",
+    "That A knew the relevant circumstance existed"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Knowledge is required.",
+    "Not required.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 75 – knowledge"
+  },
+  {
+   "id": "4.2-24",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A threatens B with the loss of her job unless she has sex. B submits. Which is correct?",
+   "options": [
+    "s. 75 applies (violence)",
+    "Not a s. 75/76 case; the jury decide under s. 74 whether B agreed by choice with freedom",
+    "s. 76 applies",
+    "No offence possible"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not violence.",
+    "Correct.",
+    "Not deception as to nature/purpose.",
+    "It may be rape under s. 74."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Submission vs consent"
+  },
+  {
+   "id": "4.2-25",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Which of the following best describes submission?",
+   "options": [
+    "Not necessarily consent – a person may submit without agreeing by choice",
+    "The same as consent",
+    "Always rape",
+    "Only relevant to children"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Fact-specific.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Submission"
+  },
+  {
+   "id": "4.2-26",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A puts his penis in B's mouth without consent. Which offence?",
+   "options": [
+    "Sexual assault only",
+    "Assault by penetration (s. 2)",
+    "Rape (s. 1)",
+    "Causing sexual activity (s. 4)"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too narrow.",
+    "s. 2 excludes the mouth.",
+    "Correct.",
+    "It is penile penetration by A – rape."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Oral rape"
+  },
+  {
+   "id": "4.2-27",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Where B was unlawfully detained at the time, when does the s. 75 presumption NOT apply?",
+   "options": [
+    "When B didn't resist",
+    "When A was also unlawfully detained",
+    "When it was at night",
+    "When A was drunk"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Irrelevant.",
+    "Correct – it requires that A was not detained.",
+    "Irrelevant.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 75(2)(c)"
+  },
+  {
+   "id": "4.2-28",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "In an exam question, how much penetration is required for rape?",
+   "options": [
+    "Full penetration",
+    "Ejaculation",
+    "Penetration for at least a minute",
+    "Any penetration, however slight"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Not required.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Penetration"
+  },
+  {
+   "id": "4.2-29",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "A says he thought B consented because she didn't say no while she lay still. What does the court consider?",
+   "options": [
+    "Only that she didn't say no",
+    "Only B's clothing",
+    "All the circumstances, including what steps A took to find out whether she consented",
+    "Only her past sexual history"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Silence isn't consent.",
+    "Irrelevant.",
+    "Correct.",
+    "Generally excluded (s. 41)."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · Reasonable belief – steps"
+  },
+  {
+   "id": "4.2-30",
+   "chapter": "4.2",
+   "lessonId": "nie-4.2",
+   "scenario": "Which statement about s. 76 is correct?",
+   "options": [
+    "It cannot be rebutted once the facts are proved",
+    "It can be rebutted by evidence",
+    "It applies to any lie",
+    "It only applies to children"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's s. 75.",
+    "Only nature/purpose or impersonation.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.2 · s. 76 – conclusive"
+  }
+ ]
+}

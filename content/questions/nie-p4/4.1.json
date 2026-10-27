@@ -1,0 +1,505 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.1. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.1-01",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "When does a complainant's anonymity under the Sexual Offences (Amendment) Act 1992 begin?",
+   "options": [
+    "When the allegation of the offence is made",
+    "When the suspect is charged",
+    "When the trial starts",
+    "When the suspect is convicted"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Earlier.",
+    "Earlier.",
+    "Earlier."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Anonymity – start"
+  },
+  {
+   "id": "4.1-02",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "How long does the complainant's anonymity last?",
+   "options": [
+    "Until the end of the trial",
+    "For 25 years",
+    "For the complainant's lifetime",
+    "Until the age of 18"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Longer.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Anonymity – lifetime"
+  },
+  {
+   "id": "4.1-03",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "A suspect is arrested for rape but never charged. Does the complainant keep anonymity?",
+   "options": [
+    "No",
+    "Yes – it applies once the allegation is made, whatever the outcome",
+    "Only if the CPS agree",
+    "Only for 5 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Anonymity – no charge"
+  },
+  {
+   "id": "4.1-04",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "A complainant aged 30 wants to waive anonymity to give a TV interview. What is required?",
+   "options": [
+    "Nothing",
+    "Permission from the police",
+    "A court order in every case",
+    "Her written consent, freely given (she must be 16 or over)"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Consent required.",
+    "Not needed.",
+    "Consent is an alternative route.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Waiver – written consent"
+  },
+  {
+   "id": "4.1-05",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Can a 15-year-old complainant validly consent in writing to being identified?",
+   "options": [
+    "Yes",
+    "Yes, with a parent's consent",
+    "No – the complainant must be 16 or over",
+    "Only via social media"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Too young.",
+    "Not under the Act's consent exception ⚠.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Waiver – age 16"
+  },
+  {
+   "id": "4.1-06",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Which of these is most likely a breach of the 1992 Act?",
+   "options": [
+    "Publishing the complainant's street, job and age so locals can identify her",
+    "Reporting that 'a woman' was attacked in Hampshire",
+    "Naming the convicted defendant in a stranger attack",
+    "Reporting the sentence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too general to identify.",
+    "Usually lawful unless it identifies the victim.",
+    "Lawful."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Identification"
+  },
+  {
+   "id": "4.1-07",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Who is protected by statutory lifetime anonymity under the 1992 Act?",
+   "options": [
+    "The suspect",
+    "Both",
+    "The police officer",
+    "The complainant"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No statutory anonymity.",
+    "Only the complainant.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Who is protected"
+  },
+  {
+   "id": "4.1-08",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "What kind of offence is publishing material in breach of the 1992 Act?",
+   "options": [
+    "Indictable only",
+    "Summary offence",
+    "Either-way",
+    "Not an offence"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct ⚠.",
+    "No.",
+    "It is."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Offence"
+  },
+  {
+   "id": "4.1-09",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Apart from complainant consent, how else may the anonymity restriction be lifted?",
+   "options": [
+    "By a court direction in specified circumstances",
+    "By a police superintendent",
+    "By the press regulator",
+    "By the victim's family"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Court direction"
+  },
+  {
+   "id": "4.1-10",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "A victim calls police 1 hour after an oral rape. What early-evidence advice is appropriate?",
+   "options": [
+    "Have a drink of water to calm down",
+    "Shower before the SARC",
+    "Avoid eating, drinking or brushing teeth; use an early evidence kit (mouth swab)",
+    "Wash the clothing"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Destroys evidence.",
+    "Destroys evidence.",
+    "Correct.",
+    "Destroys evidence."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Early evidence kit"
+  },
+  {
+   "id": "4.1-11",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "What is a SARC?",
+   "options": [
+    "Serious Assault Review Committee",
+    "Sexual Assault Referral Centre – forensic medical exam and support",
+    "A court",
+    "A charity hotline only"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · SARC"
+  },
+  {
+   "id": "4.1-12",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "What is the role of an ISVA?",
+   "options": [
+    "Interviewing suspects",
+    "Prosecuting the case",
+    "Forensic examiner",
+    "Independent Sexual Violence Adviser – supports the victim"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "CPS.",
+    "FME/FNE.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · ISVA"
+  },
+  {
+   "id": "4.1-13",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "How should a first responder approach the victim's account?",
+   "options": [
+    "Take a full detailed statement at the scene",
+    "Avoid writing anything down",
+    "Obtain a brief initial account; the full account is usually taken later by video-recorded (ABE) interview",
+    "Ask about previous partners"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Usually not.",
+    "Record the first account.",
+    "Correct.",
+    "Irrelevant and inappropriate."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Initial account"
+  },
+  {
+   "id": "4.1-14",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Under YJCEA 1999, how are complainants of sexual offences treated for special measures?",
+   "options": [
+    "Automatically eligible as intimidated witnesses unless they decline",
+    "Never eligible",
+    "Only if under 18",
+    "Only with a doctor's report"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Incorrect.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Special measures"
+  },
+  {
+   "id": "4.1-15",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Can a defendant charged with rape cross-examine the complainant in person?",
+   "options": [
+    "Yes, always",
+    "Only with the judge's leave",
+    "Only by video link",
+    "No – prohibited by s. 34 YJCEA 1999"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Incorrect.",
+    "Prohibited.",
+    "Prohibited.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · s. 34 YJCEA"
+  },
+  {
+   "id": "4.1-16",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Under s. 41 YJCEA 1999, evidence about the complainant's sexual behaviour…",
+   "options": [
+    "Can always be raised",
+    "Cannot be raised without the court's leave, granted only in limited circumstances",
+    "Can be raised by police in interview only",
+    "Is always excluded"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "No.",
+    "Leave may be given."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · s. 41"
+  },
+  {
+   "id": "4.1-17",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Which special measure lets the complainant's cross-examination be recorded before trial?",
+   "options": [
+    "s. 28 pre-recorded cross-examination",
+    "Screens",
+    "Removal of wigs",
+    "Intermediary"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · s. 28"
+  },
+  {
+   "id": "4.1-18",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Is the SOA 2003 generally gender-neutral?",
+   "options": [
+    "No",
+    "Only child offences",
+    "Yes – except rape, which requires penile penetration",
+    "Only for victims"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Mostly yes.",
+    "Most offences.",
+    "Correct.",
+    "Both."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Gender neutrality"
+  },
+  {
+   "id": "4.1-19",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Does the 1992 Act's anonymity cover attempted rape?",
+   "options": [
+    "No",
+    "Yes – attempts, conspiracy and incitement are included",
+    "Only if completed",
+    "Only for children"
+   ],
+   "correct": 1,
+   "explanations": [
+    "It does.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Scope – attempts"
+  },
+  {
+   "id": "4.1-20",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "A journalist didn't know and had no reason to suspect that an allegation had been made. What is the position?",
+   "options": [
+    "Strict liability – guilty",
+    "Always guilty if published online",
+    "The victim can sue only",
+    "A statutory defence may be available"
+   ],
+   "correct": 3,
+   "explanations": [
+    "There is a defence ⚠.",
+    "No.",
+    "It's criminal.",
+    "Correct ⚠."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Defence"
+  },
+  {
+   "id": "4.1-21",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Which item should usually be seized from the scene in a recent rape allegation?",
+   "options": [
+    "Only the victim's phone",
+    "Nothing until the victim decides",
+    "Bedding and clothing worn during the offence",
+    "Only the suspect's car"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not only.",
+    "Preserve early.",
+    "Correct.",
+    "Not only."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Scene"
+  },
+  {
+   "id": "4.1-22",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Which statement about victim-blaming is correct?",
+   "options": [
+    "Officers should avoid victim-blaming and record the account; myths and stereotypes undermine investigations",
+    "Questions about clothing help assess credibility",
+    "Delayed reporting means it's false",
+    "Lack of injuries means consent"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Inappropriate.",
+    "A myth.",
+    "A myth."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Myths"
+  },
+  {
+   "id": "4.1-23",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "A complainant reports a rape that happened 10 years ago. What is the correct approach?",
+   "options": [
+    "Refuse – too late",
+    "Only record as intelligence",
+    "Only if new evidence exists",
+    "Investigate – there is no time limit for indictable sexual offences; delayed reporting is common"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No time limit.",
+    "Must investigate.",
+    "No.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Non-recent"
+  },
+  {
+   "id": "4.1-24",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Which of these could breach anonymity through 'jigsaw identification'?",
+   "options": [
+    "Reporting the sentence",
+    "One outlet names the village, another the victim's school and job",
+    "Naming the judge",
+    "Reporting the offence type"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Jigsaw identification"
+  },
+  {
+   "id": "4.1-25",
+   "chapter": "4.1",
+   "lessonId": "nie-4.1",
+   "scenario": "Under s. 72 SOA 2003 (⚠), offences against children abroad…",
+   "options": [
+    "Can be tried in England & Wales when committed by UK nationals or residents",
+    "Can never be tried here",
+    "Only if the other country agrees",
+    "Only for murder"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct ⚠.",
+    "Incorrect.",
+    "Not required.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.1 · Extra-territorial"
+  }
+ ]
+}

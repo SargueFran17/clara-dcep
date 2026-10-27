@@ -1,0 +1,505 @@
+{
+ "_comment": "Preguntas ORIGINALES tipo NIE del capítulo 4.3. No son preguntas reales del examen. Comprueba con tu edición 2027.",
+ "questions": [
+  {
+   "id": "4.3-01",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Which openings are covered by assault by penetration (s. 2 SOA 2003)?",
+   "options": [
+    "Vagina or anus",
+    "Vagina, anus or mouth",
+    "Mouth only",
+    "Any part of the body"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Mouth is not included in s. 2.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 2 – elements"
+  },
+  {
+   "id": "4.3-02",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A woman penetrates another woman's anus with an object, sexually and without consent. Which offence?",
+   "options": [
+    "Rape",
+    "Sexual assault only",
+    "Assault by penetration (s. 2)",
+    "None – women cannot commit penetrative offences"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Rape needs a penis.",
+    "Penetration makes it s. 2.",
+    "Correct.",
+    "s. 2 is gender-neutral."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 2 – anyone"
+  },
+  {
+   "id": "4.3-03",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "What is the maximum penalty for assault by penetration?",
+   "options": [
+    "10 years",
+    "Life imprisonment",
+    "14 years",
+    "5 years"
+   ],
+   "correct": 1,
+   "explanations": [
+    "That's s. 3.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 2 – penalty"
+  },
+  {
+   "id": "4.3-04",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A man touches a woman's breast over her jumper without consent in a crowded bar. Which offence?",
+   "options": [
+    "Common assault only",
+    "No offence – clothing in the way",
+    "Outraging public decency only",
+    "Sexual assault (s. 3) – touching includes touching through clothing"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It's sexual touching.",
+    "Touching through clothes counts.",
+    "s. 3 fits best.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · Touching through clothing"
+  },
+  {
+   "id": "4.3-05",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Following R v H (2005), touching a person's clothing…",
+   "options": [
+    "Is not touching",
+    "Only counts if the skin is touched",
+    "Is touching for the purposes of s. 3",
+    "Only counts with penetration"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · R v H – clothing"
+  },
+  {
+   "id": "4.3-06",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Under s. 79(8), touching includes…",
+   "options": [
+    "Touching with any part of the body, with anything else, through anything, including penetration",
+    "Only skin-to-skin contact with hands",
+    "Only touching genitals",
+    "Only touching with an object"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Too narrow.",
+    "Too narrow.",
+    "Too narrow."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 79(8)"
+  },
+  {
+   "id": "4.3-07",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "What is the maximum penalty for sexual assault (s. 3) on indictment?",
+   "options": [
+    "2 years",
+    "5 years",
+    "Life",
+    "10 years"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too low.",
+    "Too low.",
+    "Only with penetration offences.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 3 – penalty"
+  },
+  {
+   "id": "4.3-08",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "How is sexual assault (s. 3) triable?",
+   "options": [
+    "Summary only",
+    "Either-way",
+    "Indictable only",
+    "Only in the youth court"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 3 – mode of trial"
+  },
+  {
+   "id": "4.3-09",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Under s. 78(a), activity is sexual if a reasonable person would consider it…",
+   "options": [
+    "Sexual because of its nature, whatever its circumstances or anyone's purpose",
+    "Sexual only if A intended it to be",
+    "Sexual only if B was distressed",
+    "Sexual if it happened at night"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "That's closer to (b).",
+    "Irrelevant.",
+    "Irrelevant."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 78(a)"
+  },
+  {
+   "id": "4.3-10",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A doctor performs an intimate examination that isn't medically required, purely for his own sexual gratification. Which limb of s. 78 makes it sexual?",
+   "options": [
+    "s. 78(a) – by nature sexual regardless",
+    "Neither – it's a medical act",
+    "s. 78(b) – it may be sexual by nature and his purpose makes it sexual",
+    "Only if the patient noticed"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Medical exams aren't sexual by nature regardless.",
+    "Purpose can make it sexual.",
+    "Correct.",
+    "Not required."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 78(b)"
+  },
+  {
+   "id": "4.3-11",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A threatens B and makes B masturbate A's friend. There is no penetration. Which offence and maximum?",
+   "options": [
+    "s. 3 – 10 years",
+    "s. 4 causing sexual activity without consent – 10 years",
+    "s. 4 – life",
+    "Rape – life"
+   ],
+   "correct": 1,
+   "explanations": [
+    "B is caused to do the act.",
+    "Correct.",
+    "Life only if penetration involved.",
+    "No penile penetration of B."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 4 – penalty"
+  },
+  {
+   "id": "4.3-12",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "When is s. 4 punishable with life imprisonment?",
+   "options": [
+    "Always",
+    "When the victim is over 18",
+    "Never",
+    "When the activity caused involved penetration"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Irrelevant.",
+    "It can be.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 4 – life"
+  },
+  {
+   "id": "4.3-13",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A woman uses force to make a man penetrate her vagina with his penis. Which offence?",
+   "options": [
+    "Rape",
+    "Sexual assault only",
+    "Causing a person to engage in sexual activity without consent (s. 4) – penetrative, life",
+    "No offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "She doesn't penetrate with a penis.",
+    "Too narrow.",
+    "Correct.",
+    "It's s. 4."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 4 – woman causing penetration"
+  },
+  {
+   "id": "4.3-14",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A digitally penetrates the vagina of a 12-year-old girl who says she agreed. Which offence?",
+   "options": [
+    "Assault of a child under 13 by penetration (s. 6)",
+    "Sexual activity with a child (s. 9)",
+    "No offence – consent",
+    "Sexual assault (s. 3)"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "s. 6 is specific.",
+    "Consent irrelevant under 13.",
+    "s. 6 fits."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 6"
+  },
+  {
+   "id": "4.3-15",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A sexually touches a 12-year-old. A reasonably believed the child was 14. Which is correct?",
+   "options": [
+    "Defence of reasonable belief",
+    "Only s. 9",
+    "Only if A knew the age",
+    "Still guilty of s. 7 – strict liability as to age for under-13 offences"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No such defence.",
+    "s. 7 applies.",
+    "Strict liability.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 7 – strict liability"
+  },
+  {
+   "id": "4.3-16",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A sends messages to an 11-year-old asking her to touch herself sexually. She refuses. Which is correct?",
+   "options": [
+    "No offence – nothing happened",
+    "Inciting a child under 13 to engage in sexual activity (s. 8) – complete on incitement",
+    "Attempt only",
+    "Only harassment"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incitement is the offence.",
+    "Correct.",
+    "Full offence.",
+    "s. 8 applies."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 8 – incitement"
+  },
+  {
+   "id": "4.3-17",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Which offence is gender-neutral and covers penetration with fingers?",
+   "options": [
+    "Assault by penetration",
+    "Rape",
+    "Neither",
+    "Only sexual assault"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Needs a penis.",
+    "s. 2 covers it.",
+    "Penetration → s. 2."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · Fingers"
+  },
+  {
+   "id": "4.3-18",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A man rubs himself against a woman's leg on a crowded train for sexual gratification. Which offence?",
+   "options": [
+    "Common assault",
+    "Exposure",
+    "Sexual assault (s. 3)",
+    "No offence"
+   ],
+   "correct": 2,
+   "explanations": [
+    "s. 3 fits better.",
+    "Genitals not exposed.",
+    "Correct.",
+    "It's sexual touching."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · Frotteurism"
+  },
+  {
+   "id": "4.3-19",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Can a s. 3 sexual assault be committed by touching with an object (e.g. a stick)?",
+   "options": [
+    "No – must be with the body",
+    "Yes – touching includes touching with anything else",
+    "Only if it penetrates",
+    "Only with a weapon"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Incorrect.",
+    "Correct.",
+    "Not needed.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · Touching with objects"
+  },
+  {
+   "id": "4.3-20",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Which statement about reasonable belief in consent applies to ss. 2–4?",
+   "options": [
+    "It does not apply",
+    "Only genuine belief needed",
+    "Only for s. 3",
+    "The same test as rape: all circumstances, including steps taken to ascertain consent"
+   ],
+   "correct": 3,
+   "explanations": [
+    "It applies.",
+    "Must be reasonable.",
+    "All three.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · Reasonable belief – ss. 2–4"
+  },
+  {
+   "id": "4.3-21",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A penetrates B's mouth with his fingers in a sexual way without consent. Which offence?",
+   "options": [
+    "Rape",
+    "Assault by penetration (s. 2)",
+    "Sexual assault (s. 3)",
+    "Causing sexual activity (s. 4)"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Needs penile penetration.",
+    "s. 2 excludes the mouth.",
+    "Correct – sexual touching.",
+    "B isn't caused to act."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · Mouth with fingers"
+  },
+  {
+   "id": "4.3-22",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Do the presumptions in ss. 75–76 apply to sexual assault and assault by penetration?",
+   "options": [
+    "Yes – they apply to ss. 1–4",
+    "No – only rape",
+    "Only s. 76",
+    "Only for children"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "They apply to ss. 1–4.",
+    "Both apply.",
+    "No."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · Presumptions – scope"
+  },
+  {
+   "id": "4.3-23",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "For s. 2, besides penetration and lack of consent, what else must be proved?",
+   "options": [
+    "That it caused injury",
+    "That a weapon was used",
+    "That it was in public",
+    "That the penetration was sexual"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Not required.",
+    "Not required.",
+    "Not required.",
+    "Correct."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 2 – sexual"
+  },
+  {
+   "id": "4.3-24",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "A orders B at knifepoint to touch her own breasts while he watches. Which offence?",
+   "options": [
+    "s. 3 sexual assault",
+    "s. 4 causing a person to engage in sexual activity without consent",
+    "Voyeurism only",
+    "No offence – A didn't touch"
+   ],
+   "correct": 1,
+   "explanations": [
+    "A didn't touch B.",
+    "Correct.",
+    "s. 4 fits.",
+    "s. 4 needs no touching by A."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 4 – self-touching"
+  },
+  {
+   "id": "4.3-25",
+   "chapter": "4.3",
+   "lessonId": "nie-4.3",
+   "scenario": "Which of the under-13 offences covers sexual touching (non-penetrative)?",
+   "options": [
+    "s. 7",
+    "s. 5",
+    "s. 6",
+    "s. 8"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Rape.",
+    "Penetration.",
+    "Causing/inciting."
+   ],
+   "manualRef": "Blackstone's 2027 · 4.3 · s. 7"
+  }
+ ]
+}

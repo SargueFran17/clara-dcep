@@ -1,0 +1,152 @@
+{
+ "_comment": "Flashcards de la Parte 4 del NIE.",
+ "cards": [
+  {
+   "id": "nie-4.2-01",
+   "lessonId": "nie-4.2",
+   "front": "Rape (s. 1 SOA 2003)",
+   "back": "Intentional penile penetration of vagina, anus or mouth; no consent; no reasonable belief. Life.",
+   "es": "Penetración con el pene de vagina, ano o boca; sin consentimiento ni creencia razonable. Perpetua."
+  },
+  {
+   "id": "nie-4.2-02",
+   "lessonId": "nie-4.2",
+   "front": "Consent (s. 74)",
+   "back": "Agrees by choice, with the freedom and capacity to make that choice.",
+   "es": "Acordar por elección con libertad y capacidad."
+  },
+  {
+   "id": "nie-4.2-03",
+   "lessonId": "nie-4.2",
+   "front": "s. 75 evidential presumptions",
+   "back": "Violence/fear (to B or another), unlawful detention, asleep/unconscious, physical disability, substance administered. Rebuttable; A must know.",
+   "es": "Violencia/miedo, detención ilegal, dormida, discapacidad física, sustancia. Refutables; A debe saberlo."
+  },
+  {
+   "id": "nie-4.2-04",
+   "lessonId": "nie-4.2",
+   "front": "s. 76 conclusive presumptions",
+   "back": "Deception as to nature or purpose; impersonating a person known personally to B. Not rebuttable.",
+   "es": "Engaño sobre naturaleza o finalidad; suplantar a alguien conocido. No refutables."
+  },
+  {
+   "id": "nie-4.2-05",
+   "lessonId": "nie-4.2",
+   "front": "Penetration (s. 79(2))",
+   "back": "A continuing act from entry to withdrawal.",
+   "es": "Acto continuo desde la entrada hasta la retirada."
+  },
+  {
+   "id": "nie-4.2-06",
+   "lessonId": "nie-4.2",
+   "front": "Reasonable belief",
+   "back": "All the circumstances, including steps A took to ascertain consent; voluntary intoxication doesn't help.",
+   "es": "Todas las circunstancias y medidas tomadas; la embriaguez voluntaria no sirve."
+  },
+  {
+   "id": "nie-4.2-07",
+   "lessonId": "nie-4.2",
+   "front": "s. 5 rape of child under 13",
+   "back": "Consent irrelevant; strict liability as to age (R v G).",
+   "es": "Consentimiento irrelevante; edad objetiva."
+  },
+  {
+   "id": "nie-4.2-08",
+   "lessonId": "nie-4.2",
+   "front": "Jheeta",
+   "back": "Deceptions not about nature/purpose fall under s. 74, not s. 76.",
+   "es": "Otros engaños → s. 74."
+  },
+  {
+   "id": "nie-4.3-01",
+   "lessonId": "nie-4.3",
+   "front": "Assault by penetration (s. 2)",
+   "back": "Penetration of vagina or anus with a body part or anything else; sexual; no consent; life. Not mouth.",
+   "es": "Vagina o ano con parte del cuerpo u objeto; sexual; perpetua. No boca."
+  },
+  {
+   "id": "nie-4.3-02",
+   "lessonId": "nie-4.3",
+   "front": "Sexual assault (s. 3)",
+   "back": "Intentional sexual touching without consent; either-way; 10 years.",
+   "es": "Tocamiento sexual sin consentimiento; either-way; 10 años."
+  },
+  {
+   "id": "nie-4.3-03",
+   "lessonId": "nie-4.3",
+   "front": "Touching (s. 79(8))",
+   "back": "With any body part, with anything, through anything (clothing – R v H), incl. penetration.",
+   "es": "Con cualquier parte, objeto o a través de la ropa."
+  },
+  {
+   "id": "nie-4.3-04",
+   "lessonId": "nie-4.3",
+   "front": "Sexual (s. 78)",
+   "back": "(a) sexual by nature; or (b) may be sexual by nature and is sexual by circumstances/purpose.",
+   "es": "(a) sexual por naturaleza; (b) puede serlo y lo es por circunstancias/propósito."
+  },
+  {
+   "id": "nie-4.3-05",
+   "lessonId": "nie-4.3",
+   "front": "s. 4 causing sexual activity",
+   "back": "Causing B to engage in sexual activity without consent; life if penetration, else 10 years.",
+   "es": "Causar actividad sexual; perpetua si hay penetración, si no 10 años."
+  },
+  {
+   "id": "nie-4.3-06",
+   "lessonId": "nie-4.3",
+   "front": "Under-13 offences (ss. 5–8)",
+   "back": "Rape, penetration, sexual assault, causing/inciting. Consent irrelevant; strict liability on age.",
+   "es": "Consentimiento irrelevante; edad objetiva."
+  },
+  {
+   "id": "nie-4.1-01",
+   "lessonId": "nie-4.1",
+   "front": "Lifetime anonymity (SO(A)A 1992)",
+   "back": "No publication likely to identify the complainant, for life, from the moment the allegation is made.",
+   "es": "No publicar nada que identifique a la víctima, de por vida, desde la denuncia."
+  },
+  {
+   "id": "nie-4.1-02",
+   "lessonId": "nie-4.1",
+   "front": "Waiving anonymity",
+   "back": "Complainant 16+ gives written consent freely, or a court direction.",
+   "es": "Consentimiento escrito libre (16+) u orden judicial."
+  },
+  {
+   "id": "nie-4.1-03",
+   "lessonId": "nie-4.1",
+   "front": "Early evidence kit",
+   "back": "Mouth swab / urine as early as possible; avoid eating, drinking, washing, toilet.",
+   "es": "Frotis bucal/orina pronto; no comer, beber, lavarse."
+  },
+  {
+   "id": "nie-4.1-04",
+   "lessonId": "nie-4.1",
+   "front": "SARC / ISVA",
+   "back": "Sexual Assault Referral Centre / Independent Sexual Violence Adviser.",
+   "es": "Centro de referencia de agresiones sexuales / asesor independiente."
+  },
+  {
+   "id": "nie-4.1-05",
+   "lessonId": "nie-4.1",
+   "front": "s. 41 YJCEA 1999",
+   "back": "No evidence of complainant's sexual behaviour without the court's leave.",
+   "es": "Historial sexual solo con permiso del juez."
+  },
+  {
+   "id": "nie-4.1-06",
+   "lessonId": "nie-4.1",
+   "front": "s. 34 YJCEA 1999",
+   "back": "Accused cannot cross-examine a sexual offence complainant in person.",
+   "es": "El acusado no interroga personalmente a la víctima."
+  },
+  {
+   "id": "nie-4.1-07",
+   "lessonId": "nie-4.1",
+   "front": "Special measures – sexual offences",
+   "back": "Complainants automatically eligible (intimidated witnesses); s. 28 pre-recorded cross-examination.",
+   "es": "Elegibles automáticamente; contrainterrogatorio pregrabado."
+  }
+ ]
+}
