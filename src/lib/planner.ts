@@ -10,6 +10,7 @@ export type { NieSlot } from './scheduler'
 export type Phase = 'before' | 'pre' | 'xmas' | 'academy' | 'nieBlock' | 'final' | 'exam' | 'after'
 
 export type EventType =
+  | 'kickoff'
   | 'weeklyReview'
   | 'preReview'
   | 'xmasLight'
@@ -44,6 +45,8 @@ export interface PlanInputs {
   preOrder: string[]
   temario: Pick<NieTemario, 'chapters' | 'groups' | 'finalReview' | 'keyDates' | 'newStudyCapacityMinutes'>
   fitnessWeek: { day: number; items: WorkoutItem[] }[]
+  /** tareas de arranque antes del inicio (fecha → tarea) */
+  kickoff?: { minutes: number; days: { date: ISODate; label: string }[] }
   /** cola NIE recalculada desde hoy (si falta: plan inicial sin progreso desde el inicio del NIE) */
   nie?: NieSchedule
   /** lo que el plan NIE ponía en días pasados (foto de cada día) */
@@ -125,7 +128,9 @@ export function finalReviewDays(s: Settings, temario: PlanInputs['temario']): { 
 }
 
 export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
-  const from = s.studyStart < s.academyStart ? s.studyStart : s.academyStart
+  const firstKick = inputs.kickoff?.days[0]?.date
+  const start = firstKick && firstKick < s.studyStart ? firstKick : s.studyStart
+  const from = start < s.academyStart ? start : s.academyStart
   const to = s.examDate > s.finalReviewEnd ? s.examDate : s.finalReviewEnd
   const days = new Map<ISODate, PlanDay>()
   const lessonDates = new Map<string, ISODate>()
@@ -143,6 +148,14 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
       events: [],
       workouts: inputs.fitnessWeek.find((w) => w.day === wd)?.items ?? [],
     })
+  }
+
+  // --- Arranque (antes de empezar en serio) ---
+  for (const k of inputs.kickoff?.days ?? []) {
+    const day = days.get(k.date)
+    if (!day || k.date >= s.studyStart) continue
+    day.events.push({ type: 'kickoff', label: k.label })
+    day.targetMin = Math.max(day.targetMin, inputs.kickoff!.minutes)
   }
 
   // --- Pre-academia: lecciones en orden ---

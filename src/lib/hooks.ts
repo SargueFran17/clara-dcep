@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { DEFAULT_SETTINGS } from './defaults'
 import { buildPlan, type Plan } from './planner'
-import { contentCards, contentQuestions, fitnessWeek, nieChapterMeta, nieOrderedChapters, nieTemario, preAcademyOrder } from './content'
+import { arranque, contentCards, contentQuestions, fitnessWeek, nieChapterMeta, nieOrderedChapters, nieTemario, preAcademyOrder } from './content'
 import { scheduleNie, type NieSchedule, type NieSlot } from './scheduler'
 import { buildQueue } from './sm2'
 import { todayISO, type ISODate } from './dates'
@@ -48,7 +48,7 @@ export function usePlan(): Plan {
         })),
       ]),
     )
-    return buildPlan(s, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek, nie, nieHistory })
+    return buildPlan(s, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek, kickoff: arranque, nie, nieHistory })
   }, [s, nie, logs])
 }
 

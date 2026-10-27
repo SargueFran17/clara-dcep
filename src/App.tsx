@@ -3,6 +3,8 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import { Today } from './screens/Today'
 import { Week } from './screens/Week'
+import { Month } from './screens/Month'
+import { Day } from './screens/Day'
 import { FolderView, Folders, SubjectView } from './screens/Folders'
 import { LessonView } from './screens/LessonView'
 import { Settings } from './screens/Settings'
@@ -27,6 +29,8 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<Today />} />
           <Route path="semana" element={<Week />} />
+          <Route path="mes" element={<Month />} />
+          <Route path="dia/:date" element={<Day />} />
           <Route path="carpetas" element={<Folders />} />
           <Route path="carpetas/:folderId" element={<FolderView />} />
           <Route path="asignatura/:subjectId" element={<SubjectView />} />

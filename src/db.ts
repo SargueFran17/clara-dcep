@@ -1,6 +1,6 @@
 import Dexie, { type EntityTable } from 'dexie'
 import type {
-  AcademyDay, AcademyModule, Assessment, BleepEntry, CardState, DayLog, DayOff, MockResult, NieDayLog, ErrorEntry, Habit, LessonProgress,
+  AcademyDay, AcademyModule, Assessment, BleepEntry, CardState, DayLog, DayOff, MockResult, NieDayLog, PlanNote, ErrorEntry, Habit, LessonProgress,
   NieChapterState, Recording, Review, Settings, StudySession, TaskDone, TestAttempt, UserCard, UserQuestion,
   WeightEntry, Workout,
 } from './types'
@@ -31,6 +31,7 @@ export class ClaraDB extends Dexie {
   dayOff!: EntityTable<DayOff, 'date'>
   nieDayLog!: EntityTable<NieDayLog, 'date'>
   mockResults!: EntityTable<MockResult, 'date'>
+  planNotes!: EntityTable<PlanNote, 'id'>
 
   constructor(name = 'clara-dcep') {
     super(name)
@@ -70,6 +71,8 @@ export class ClaraDB extends Dexie {
           for (const [k, [before, after]] of Object.entries(OLD)) if (row[k] === before) row[k] = after
         })
       })
+    // v3: objetivo y revisión de cada semana y mes
+    this.version(3).stores({ planNotes: 'id' })
   }
 }
 

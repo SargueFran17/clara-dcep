@@ -1,6 +1,7 @@
 import structureJson from '../../content/structure.json'
 import preJson from '../../content/plan/pre-academy.json'
 import temarioJson from '../../content/plan/nie-temario.json'
+import arranqueJson from '../../content/plan/arranque.json'
 import fitnessJson from '../../content/fitness/plan.json'
 import { glossaryCards, glossaryQuestions } from './glossary'
 import type { Card, Folder, LessonMeta, NieTemario, Question, Structure, Subject, WorkoutItem } from '../types'
@@ -9,6 +10,9 @@ import type { Card, Folder, LessonMeta, NieTemario, Question, Structure, Subject
 
 export const structure = structureJson as Structure
 export const preAcademyOrder: string[] = preJson.lessons
+/** Tareas de arranque (antes del inicio "en serio"). */
+export const arranque = arranqueJson as { minutes: number; days: { date: string; label: string }[] }
+
 export const nieTemario = temarioJson as unknown as NieTemario
 /** Tus 12 grupos NIE, en tu orden (códigos de capítulo). */
 export const nieGroups: string[][] = nieTemario.groups

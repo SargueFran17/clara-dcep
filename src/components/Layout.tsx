@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { NavLink, Outlet, Link } from 'react-router-dom'
+import { NavLink, Outlet, Link, useLocation } from 'react-router-dom'
 import { useSettings } from '../lib/hooks'
 
 const TABS = [
@@ -12,6 +12,7 @@ const TABS = [
 
 export function Layout() {
   const { theme } = useSettings()
+  const { pathname } = useLocation()
 
   useEffect(() => {
     const apply = () => {
@@ -50,7 +51,7 @@ export function Layout() {
               to={t.to}
               end={t.to === '/'}
               className={({ isActive }) =>
-                `flex flex-col items-center gap-0.5 py-2 text-[11px] font-medium ${isActive ? 'text-indigo-600 dark:text-indigo-300' : 'text-slate-500'}`
+                `flex flex-col items-center gap-0.5 py-2 text-[11px] font-medium ${isActive || (t.to === '/semana' && /^\/(mes|dia)/.test(pathname)) ? 'text-indigo-600 dark:text-indigo-300' : 'text-slate-500'}`
               }
             >
               <span className="text-lg leading-none" aria-hidden>

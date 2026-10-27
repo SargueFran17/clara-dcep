@@ -173,6 +173,12 @@ export async function saveNieDayLog(date: ISODate, slots: NieSlot[]) {
   await db.nieDayLog.put({ date, slots: slots.map((x) => ({ chapter: x.chapter, steps: x.steps.map((c) => ({ step: c.step, minutes: c.minutes })) })) })
 }
 
+// ---------- Objetivos y revisiones (semana / mes) ----------
+
+export async function savePlanNote(id: string, patch: { goal?: string; review?: string; rating?: number }) {
+  await db.planNotes.put({ ...(await db.planNotes.get(id)), ...patch, id })
+}
+
 // ---------- Simulacros externos ----------
 
 export async function saveMockResult(date: ISODate, correct: number | null, total: number) {

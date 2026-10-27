@@ -222,6 +222,15 @@ export interface NieDayLog {
   slots: { chapter: string; steps: { step: number; minutes: number }[] }[]
 }
 
+/** Notas de planificación: objetivo y revisión de una semana ('w:<lunes>') o un mes ('m:<aaaa-mm>'). */
+export interface PlanNote {
+  id: string
+  goal?: string
+  review?: string
+  /** valoración 1–5 (revisión del domingo) */
+  rating?: number
+}
+
 /** Resultado que apuntas de un simulacro/test externo (Q&A, Police Pass…). */
 export interface MockResult {
   date: ISODate
