@@ -91,6 +91,41 @@
    "front": "Shoes",
    "back": "Running shoes for running; tennis shoes for tennis",
    "es": "calzado"
+  },
+  {
+   "id": "ft-7-01",
+   "lessonId": "ft-7",
+   "front": "RAMP warm-up",
+   "back": "Raise · Activate & Mobilise · Potentiate",
+   "es": "calentamiento"
+  },
+  {
+   "id": "ft-7-02",
+   "lessonId": "ft-7",
+   "front": "Main cause of overuse injuries",
+   "back": "Too much, too soon",
+   "es": "demasiado y demasiado pronto"
+  },
+  {
+   "id": "ft-7-03",
+   "lessonId": "ft-7",
+   "front": "Warning signs",
+   "back": "Limping, pain worsening during exercise, localised bone pain",
+   "es": "alarma"
+  },
+  {
+   "id": "ft-7-04",
+   "lessonId": "ft-7",
+   "front": "Minor sprain first days",
+   "back": "Rest, Ice (wrapped), Compression, Elevation",
+   "es": "RICE"
+  },
+  {
+   "id": "ft-7-05",
+   "lessonId": "ft-7",
+   "front": "Where to get urgent advice (non-emergency)",
+   "back": "NHS 111 / GP / physio",
+   "es": "NHS 111"
   }
  ]
 }

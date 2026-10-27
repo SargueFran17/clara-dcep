@@ -1,0 +1,95 @@
+{
+ "_comment": "questions de la asignatura 'ga'.",
+ "questions": [
+  {
+   "id": "ac-3-q1",
+   "lessonId": "ac-3",
+   "scenario": "What does PACE stand for?",
+   "options": [
+    "Police and Criminal Evidence Act 1984",
+    "Police Action and Crime Enforcement",
+    "Public Arrest and Custody Enactment",
+    "Police Advice and Criminal Evidence"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ac-3-q2",
+   "lessonId": "ac-3",
+   "scenario": "THRIVE stands for Threat, Harm, Risk, Investigation, Vulnerability and…",
+   "options": [
+    "Evidence",
+    "Enforcement",
+    "Engagement",
+    "Escalation"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "ac-3-q3",
+   "lessonId": "ac-3",
+   "scenario": "Which is the 'realistic prospect of conviction' test?",
+   "options": [
+    "Arrest threshold",
+    "Evidential stage of the Full Code Test",
+    "Standard at trial",
+    "Stop and search test"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Trial = sure.",
+    "No."
+   ]
+  },
+  {
+   "id": "ac-3-q4",
+   "lessonId": "ac-3",
+   "scenario": "RUI means…",
+   "options": [
+    "Report Under Inquiry",
+    "Remanded Until Interview",
+    "Released Until Inquest",
+    "Released Under Investigation"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ac-3-q5",
+   "lessonId": "ac-3",
+   "scenario": "ADVOKATE is used to assess…",
+   "options": [
+    "custody time",
+    "vehicle damage",
+    "eyewitness identification",
+    "fitness"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  }
+ ]
+}

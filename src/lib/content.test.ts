@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { contentCards, contentQuestions, fileSubject, lessonMarkdown, lessonRef, structure } from './content'
+import { contentCards, contentQuestions, fileSubject, lessonMarkdown, lessonRef, preAcademyOrder, structure } from './content'
 import { stripFrontmatter } from './markdown'
 
 // Comprueba que el contenido de content/ está bien formado (para poder editarlo sin miedo).
@@ -34,6 +34,14 @@ describe('contenido', () => {
           expect(meta.id).toBe(l.id)
           for (const h of ['## Objectives', '## Summary', '## Sources']) expect(body, `${l.id} ${h}`).toContain(h)
         }
+  })
+
+  it('todas las lecciones de pre-academia están escritas, con flashcards y mini-test', () => {
+    for (const id of preAcademyOrder) {
+      expect(lessonMarkdown(id), id).toBeDefined()
+      expect(contentCards.some((c) => c.lessonId === id), `${id} flashcards`).toBe(true)
+      expect(contentQuestions.some((q) => q.lessonId === id), `${id} preguntas`).toBe(true)
+    }
   })
 
   it('preguntas NIE: capítulo coincide con su lección', () => {

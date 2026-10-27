@@ -91,6 +91,34 @@
    "front": "Sleep target",
    "back": "7–9 hours (memory consolidation)",
    "es": "7–9 horas"
+  },
+  {
+   "id": "ft-8-01",
+   "lessonId": "ft-8",
+   "front": "Habit stacking",
+   "back": "Attach a new habit to an existing one",
+   "es": "encadenar hábitos"
+  },
+  {
+   "id": "ft-8-02",
+   "lessonId": "ft-8",
+   "front": "Never miss twice",
+   "back": "One bad day is normal; avoid two in a row",
+   "es": "nunca dos veces"
+  },
+  {
+   "id": "ft-8-03",
+   "lessonId": "ft-8",
+   "front": "NHS alcohol guidance",
+   "back": "≤ 14 units/week, spread over 3+ days, with alcohol-free days",
+   "es": "14 unidades"
+  },
+  {
+   "id": "ft-8-04",
+   "lessonId": "ft-8",
+   "front": "Sleep hygiene basics",
+   "back": "Regular times, wind down, dark/quiet/cool room, no late caffeine",
+   "es": "higiene del sueño"
   }
  ]
 }

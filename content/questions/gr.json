@@ -810,6 +810,96 @@
     "Correct.",
     "Review."
    ]
+  },
+  {
+   "id": "gr-10-q1",
+   "lessonId": "gr-10",
+   "scenario": "'He ___ lives in Southsea' (= actualmente).",
+   "options": [
+    "currently",
+    "actually",
+    "eventually",
+    "really"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "False friend.",
+    "False friend.",
+    "Different."
+   ]
+  },
+  {
+   "id": "gr-10-q2",
+   "lessonId": "gr-10",
+   "scenario": "'The music was ___ the neighbours.'",
+   "options": [
+    "molesting",
+    "injuring",
+    "disturbing",
+    "deceiving"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Means sexual abuse!",
+    "Wrong meaning.",
+    "Correct.",
+    "Wrong meaning."
+   ]
+  },
+  {
+   "id": "gr-10-q3",
+   "lessonId": "gr-10",
+   "scenario": "'There were two ___ in the crash.' (heridos)",
+   "options": [
+    "coincidences",
+    "casualties",
+    "injuries people",
+    "victimes"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Casualidad.",
+    "Correct.",
+    "Incorrect.",
+    "Spelling."
+   ]
+  },
+  {
+   "id": "gr-10-q4",
+   "lessonId": "gr-10",
+   "scenario": "'Obtaining property by deception' means by…",
+   "options": [
+    "disappointment",
+    "accident",
+    "violence",
+    "trickery / lying"
+   ],
+   "correct": 3,
+   "explanations": [
+    "False friend.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "gr-10-q5",
+   "lessonId": "gr-10",
+   "scenario": "'She was very ___' (sensata).",
+   "options": [
+    "sensitive",
+    "sensational",
+    "sensible",
+    "sensory"
+   ],
+   "correct": 2,
+   "explanations": [
+    "= sensible (emotions).",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

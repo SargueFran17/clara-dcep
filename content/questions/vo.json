@@ -630,6 +630,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "vo-8-q1",
+   "lessonId": "vo-8",
+   "scenario": "'I ___ the scene at 14:05.'",
+   "options": [
+    "attended",
+    "assisted",
+    "assisted to",
+    "went to assist"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "False friend.",
+    "Incorrect.",
+    "Changes meaning."
+   ]
+  },
+  {
+   "id": "vo-8-q2",
+   "lessonId": "vo-8",
+   "scenario": "'I ___ an arrest at 14:20.'",
+   "options": [
+    "did",
+    "took",
+    "made",
+    "gave"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not natural.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "vo-8-q3",
+   "lessonId": "vo-8",
+   "scenario": "'We need to ___ social services.'",
+   "options": [
+    "liaise to",
+    "liaise with",
+    "liaise for",
+    "liaise"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "Needs 'with'."
+   ]
+  },
+  {
+   "id": "vo-8-q4",
+   "lessonId": "vo-8",
+   "scenario": "'Any ___ enquiries?' (still to be done)",
+   "options": [
+    "outdated",
+    "outside",
+    "over",
+    "outstanding"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Old.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "vo-8-q5",
+   "lessonId": "vo-8",
+   "scenario": "Passing a decision up to your sergeant is to…",
+   "options": [
+    "escape",
+    "elevate up",
+    "escalate",
+    "deescalate"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Unnatural.",
+    "Correct.",
+    "Opposite."
+   ]
   }
  ]
 }

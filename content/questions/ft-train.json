@@ -270,6 +270,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "ft-7-q1",
+   "lessonId": "ft-7",
+   "scenario": "What does the 'R' in RAMP stand for?",
+   "options": [
+    "Raise",
+    "Rest",
+    "Run",
+    "Repeat"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-7-q2",
+   "lessonId": "ft-7",
+   "scenario": "The most common cause of running injuries is…",
+   "options": [
+    "warming up",
+    "strength training",
+    "too much, too soon",
+    "sleeping"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Protective.",
+    "Correct.",
+    "Protective."
+   ]
+  },
+  {
+   "id": "ft-7-q3",
+   "lessonId": "ft-7",
+   "scenario": "Which is a warning sign to stop?",
+   "options": [
+    "Mild tiredness",
+    "Pain that makes you limp",
+    "Sweating",
+    "Fast breathing"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Normal.",
+    "Correct.",
+    "Normal.",
+    "Normal."
+   ]
+  },
+  {
+   "id": "ft-7-q4",
+   "lessonId": "ft-7",
+   "scenario": "For a minor sprain in the first days the NHS suggests…",
+   "options": [
+    "heat and running",
+    "nothing",
+    "stretching hard",
+    "rest, ice, compression, elevation"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "ft-7-q5",
+   "lessonId": "ft-7",
+   "scenario": "You can't bear weight after twisting your ankle. You should…",
+   "options": [
+    "play on",
+    "only ice",
+    "seek medical advice",
+    "run it off"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not enough.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

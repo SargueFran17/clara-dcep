@@ -270,6 +270,96 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "ft-8-q1",
+   "lessonId": "ft-8",
+   "scenario": "NHS low-risk alcohol guidance is no more than … units a week regularly.",
+   "options": [
+    "14",
+    "7",
+    "21",
+    "28"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Old male guidance.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-8-q2",
+   "lessonId": "ft-8",
+   "scenario": "Which is an example of habit stacking?",
+   "options": [
+    "Doing everything at once",
+    "Never drinking water",
+    "After making coffee, I fill my water bottle",
+    "Training only when motivated"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-8-q3",
+   "lessonId": "ft-8",
+   "scenario": "Good sleep hygiene includes…",
+   "options": [
+    "studying in bed until late",
+    "regular sleep and wake times",
+    "coffee at 22:00",
+    "bright screens before sleep"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "ft-8-q4",
+   "lessonId": "ft-8",
+   "scenario": "You missed training today. Best approach?",
+   "options": [
+    "Give up for the week",
+    "Train twice as hard tonight",
+    "Feel guilty",
+    "Make sure you don't miss tomorrow too"
+   ],
+   "correct": 3,
+   "explanations": [
+    "No.",
+    "Injury risk.",
+    "Unhelpful.",
+    "Correct ('never miss twice')."
+   ]
+  },
+  {
+   "id": "ft-8-q5",
+   "lessonId": "ft-8",
+   "scenario": "Where do you track habits in the app?",
+   "options": [
+    "Ajustes",
+    "Glosario",
+    "Hoy → Hábitos / Fitness",
+    "Nowhere"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

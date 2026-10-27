@@ -329,6 +329,55 @@
    "front": "let off",
    "back": "not punish / only warn",
    "es": "dejar ir"
+  },
+  {
+   "id": "gr-10-01",
+   "lessonId": "gr-10",
+   "front": "actually",
+   "back": "en realidad (≠ actualmente = currently)",
+   "es": "en realidad"
+  },
+  {
+   "id": "gr-10-02",
+   "lessonId": "gr-10",
+   "front": "eventually",
+   "back": "finalmente (≠ eventualmente = possibly)",
+   "es": "finalmente"
+  },
+  {
+   "id": "gr-10-03",
+   "lessonId": "gr-10",
+   "front": "assist vs attend",
+   "back": "assist = ayudar; attend = acudir/asistir",
+   "es": "ayudar vs acudir"
+  },
+  {
+   "id": "gr-10-04",
+   "lessonId": "gr-10",
+   "front": "molest",
+   "back": "abusar sexualmente – never for 'molestar' (bother/annoy)",
+   "es": "¡cuidado!"
+  },
+  {
+   "id": "gr-10-05",
+   "lessonId": "gr-10",
+   "front": "casualty",
+   "back": "víctima/herido (≠ casualidad = coincidence)",
+   "es": "herido"
+  },
+  {
+   "id": "gr-10-06",
+   "lessonId": "gr-10",
+   "front": "deception",
+   "back": "engaño (≠ decepción = disappointment)",
+   "es": "engaño"
+  },
+  {
+   "id": "gr-10-07",
+   "lessonId": "gr-10",
+   "front": "sensible vs sensitive",
+   "back": "sensato vs sensible",
+   "es": "sensato"
   }
  ]
 }

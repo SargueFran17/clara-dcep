@@ -630,6 +630,456 @@
     "Correct.",
     "No."
    ]
+  },
+  {
+   "id": "dr-8-q1",
+   "lessonId": "dr-8",
+   "scenario": "National speed limit for a car on a dual carriageway:",
+   "options": [
+    "70 mph",
+    "60 mph",
+    "80 mph",
+    "50 mph"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Single carriageway.",
+    "Not in the UK.",
+    "Towing on single."
+   ]
+  },
+  {
+   "id": "dr-8-q2",
+   "lessonId": "dr-8",
+   "scenario": "A road with street lights and no speed signs in England usually has a limit of…",
+   "options": [
+    "20 mph",
+    "40 mph",
+    "30 mph",
+    "60 mph"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Wales default.",
+    "Only if signed.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-8-q3",
+   "lessonId": "dr-8",
+   "scenario": "Typical stopping distance at 30 mph (dry):",
+   "options": [
+    "6 m",
+    "23 m",
+    "50 m",
+    "96 m"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Too short.",
+    "Correct.",
+    "Too long.",
+    "At 70 mph."
+   ]
+  },
+  {
+   "id": "dr-8-q4",
+   "lessonId": "dr-8",
+   "scenario": "Car towing a caravan on a motorway – max speed:",
+   "options": [
+    "50 mph",
+    "70 mph",
+    "80 mph",
+    "60 mph"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Single carriageway.",
+    "Not when towing.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-8-q5",
+   "lessonId": "dr-8",
+   "scenario": "How many points within 3 years usually lead to disqualification?",
+   "options": [
+    "6",
+    "9",
+    "12",
+    "15"
+   ],
+   "correct": 2,
+   "explanations": [
+    "New drivers rule.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-9-q1",
+   "lessonId": "dr-9",
+   "scenario": "Breath alcohol limit in England and Wales:",
+   "options": [
+    "35 µg/100 ml",
+    "22 µg/100 ml",
+    "50 µg/100 ml",
+    "80 µg/100 ml"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Scotland.",
+    "No.",
+    "That's the blood figure in mg."
+   ]
+  },
+  {
+   "id": "dr-9-q2",
+   "lessonId": "dr-9",
+   "scenario": "Is it legal to hold your phone to check a message while stopped at red lights?",
+   "options": [
+    "Yes",
+    "Only on motorways",
+    "No",
+    "Only after 22:00"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Incorrect.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-9-q3",
+   "lessonId": "dr-9",
+   "scenario": "Minimum disqualification for driving over the drink-drive limit:",
+   "options": [
+    "3 months",
+    "12 months",
+    "6 months",
+    "No ban"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-9-q4",
+   "lessonId": "dr-9",
+   "scenario": "Which offence covers driving with cannabis above a set limit in the blood?",
+   "options": [
+    "s. 170 RTA 1988",
+    "s. 1 PACE",
+    "s. 9 CJA 1967",
+    "s. 5A RTA 1988"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Accidents.",
+    "Stop and search.",
+    "Statements.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-9-q5",
+   "lessonId": "dr-9",
+   "scenario": "Using a hands-free phone while driving is…",
+   "options": [
+    "always illegal",
+    "the same as holding it",
+    "allowed, but you can still be prosecuted if distracted",
+    "only for police"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-10-q1",
+   "lessonId": "dr-10",
+   "scenario": "From what age does a car usually need an MOT in Great Britain?",
+   "options": [
+    "3 years",
+    "1 year",
+    "5 years",
+    "10 years"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-10-q2",
+   "lessonId": "dr-10",
+   "scenario": "You buy a used car. Vehicle tax…",
+   "options": [
+    "transfers automatically",
+    "isn't needed",
+    "must be paid by you before driving",
+    "is included in the MOT"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Not since 2014.",
+    "Required.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-10-q3",
+   "lessonId": "dr-10",
+   "scenario": "The V5C shows…",
+   "options": [
+    "the legal owner",
+    "the registered keeper",
+    "the insurer",
+    "the MOT result"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not necessarily.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-10-q4",
+   "lessonId": "dr-10",
+   "scenario": "A car kept on a private drive, not used and untaxed, needs…",
+   "options": [
+    "nothing",
+    "an MOT",
+    "comprehensive insurance",
+    "a SORN"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Continuous enforcement.",
+    "Not required while SORN.",
+    "Not required with SORN.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-10-q5",
+   "lessonId": "dr-10",
+   "scenario": "Minimum legal insurance cover:",
+   "options": [
+    "comprehensive",
+    "fire only",
+    "third party",
+    "none"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Optional.",
+    "No.",
+    "Correct.",
+    "Illegal."
+   ]
+  },
+  {
+   "id": "dr-11-q1",
+   "lessonId": "dr-11",
+   "scenario": "You damage a parked car; nobody is around. You must…",
+   "options": [
+    "report to the police as soon as reasonably practicable and within 24 hours",
+    "just leave",
+    "wait 48 hours",
+    "only tell your insurer"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "Offence.",
+    "No.",
+    "Also tell the insurer, but report to police."
+   ]
+  },
+  {
+   "id": "dr-11-q2",
+   "lessonId": "dr-11",
+   "scenario": "Which animal is NOT listed in s. 170?",
+   "options": [
+    "Dog",
+    "Horse",
+    "Cat",
+    "Sheep"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Listed.",
+    "Listed.",
+    "Correct.",
+    "Listed."
+   ]
+  },
+  {
+   "id": "dr-11-q3",
+   "lessonId": "dr-11",
+   "scenario": "Which details must you give if required?",
+   "options": [
+    "Only your phone number",
+    "Name and address, owner's name and address, vehicle registration",
+    "Your NI number",
+    "Your employer"
+   ],
+   "correct": 1,
+   "explanations": [
+    "Not enough.",
+    "Correct.",
+    "No.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-11-q4",
+   "lessonId": "dr-11",
+   "scenario": "'Within 24 hours' means…",
+   "options": [
+    "you can wait 24 hours",
+    "only on working days",
+    "within a week",
+    "as soon as reasonably practicable, and in any case within 24 hours"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Misreading.",
+    "No.",
+    "No.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-11-q5",
+   "lessonId": "dr-11",
+   "scenario": "When should you call 999 after a collision?",
+   "options": [
+    "Never",
+    "Only if your car is damaged",
+    "If someone is injured, there's danger, the road is blocked or a suspected offence",
+    "Only at night"
+   ],
+   "correct": 2,
+   "explanations": [
+    "No.",
+    "Not necessarily.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-12-q1",
+   "lessonId": "dr-12",
+   "scenario": "A supermarket car park company sends you a charge. It is…",
+   "options": [
+    "a contractual charge",
+    "a criminal fine",
+    "a council PCN",
+    "a court summons"
+   ],
+   "correct": 0,
+   "explanations": [
+    "Correct.",
+    "No.",
+    "Different issuer.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-12-q2",
+   "lessonId": "dr-12",
+   "scenario": "Who issues Penalty Charge Notices for parking on yellow lines?",
+   "options": [
+    "Police only",
+    "Supermarkets",
+    "Councils (civil enforcement)",
+    "The DVLA"
+   ],
+   "correct": 2,
+   "explanations": [
+    "Mostly councils.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-12-q3",
+   "lessonId": "dr-12",
+   "scenario": "At night you park on the right-hand side of the road facing oncoming traffic, not in a bay. This is…",
+   "options": [
+    "fine",
+    "against the Highway Code (rule 248)",
+    "only illegal in London",
+    "recommended"
+   ],
+   "correct": 1,
+   "explanations": [
+    "No.",
+    "Correct.",
+    "Everywhere.",
+    "No."
+   ]
+  },
+  {
+   "id": "dr-12-q4",
+   "lessonId": "dr-12",
+   "scenario": "How close to a junction should you not park?",
+   "options": [
+    "2 m",
+    "5 m",
+    "50 m",
+    "10 m"
+   ],
+   "correct": 3,
+   "explanations": [
+    "Too close.",
+    "Too close.",
+    "Too far.",
+    "Correct."
+   ]
+  },
+  {
+   "id": "dr-12-q5",
+   "lessonId": "dr-12",
+   "scenario": "If you disagree with a council PCN you should…",
+   "options": [
+    "ignore it",
+    "pay double",
+    "challenge it with evidence",
+    "call 999"
+   ],
+   "correct": 2,
+   "explanations": [
+    "It increases.",
+    "No.",
+    "Correct.",
+    "No."
+   ]
   }
  ]
 }

@@ -294,6 +294,48 @@
    "front": "signpost",
    "back": "tell someone where to get help",
    "es": "orientar"
+  },
+  {
+   "id": "vo-8-01",
+   "lessonId": "vo-8",
+   "front": "attend a call",
+   "back": "go to an incident (not 'assist')",
+   "es": "acudir"
+  },
+  {
+   "id": "vo-8-02",
+   "lessonId": "vo-8",
+   "front": "make an arrest",
+   "back": "arrest someone",
+   "es": "detener"
+  },
+  {
+   "id": "vo-8-03",
+   "lessonId": "vo-8",
+   "front": "liaise with",
+   "back": "work and communicate with (another team/agency)",
+   "es": "coordinarse con"
+  },
+  {
+   "id": "vo-8-04",
+   "lessonId": "vo-8",
+   "front": "book on / book off",
+   "back": "start / finish duty",
+   "es": "empezar / terminar turno"
+  },
+  {
+   "id": "vo-8-05",
+   "lessonId": "vo-8",
+   "front": "flag up / escalate",
+   "back": "point out a concern / pass up to a supervisor",
+   "es": "señalar / elevar"
+  },
+  {
+   "id": "vo-8-06",
+   "lessonId": "vo-8",
+   "front": "outstanding enquiries",
+   "back": "enquiries still to be done",
+   "es": "gestiones pendientes"
   }
  ]
 }

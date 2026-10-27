@@ -266,6 +266,181 @@
    "front": "Yellow zig-zags (school)",
    "back": "No stopping",
    "es": "colegio"
+  },
+  {
+   "id": "dr-8-01",
+   "lessonId": "dr-8",
+   "front": "Car speed limits",
+   "back": "30 built-up · 60 single · 70 dual · 70 motorway (mph)",
+   "es": "límites coche"
+  },
+  {
+   "id": "dr-8-02",
+   "lessonId": "dr-8",
+   "front": "Street lights + no signs",
+   "back": "Usually 30 mph (Wales default 20)",
+   "es": "farolas"
+  },
+  {
+   "id": "dr-8-03",
+   "lessonId": "dr-8",
+   "front": "Towing a trailer",
+   "back": "30 / 50 / 60 / 60 mph",
+   "es": "con remolque"
+  },
+  {
+   "id": "dr-8-04",
+   "lessonId": "dr-8",
+   "front": "Stopping distance at 30 / 70 mph",
+   "back": "≈ 23 m / ≈ 96 m (dry)",
+   "es": "distancia de parada"
+  },
+  {
+   "id": "dr-8-05",
+   "lessonId": "dr-8",
+   "front": "Totting up",
+   "back": "12 points within 3 years → usually disqualified",
+   "es": "12 puntos"
+  },
+  {
+   "id": "dr-9-01",
+   "lessonId": "dr-9",
+   "front": "Drink-drive limits (E&W)",
+   "back": "Breath 35 µg/100 ml · blood 80 mg/100 ml · urine 107 mg/100 ml",
+   "es": "límites"
+  },
+  {
+   "id": "dr-9-02",
+   "lessonId": "dr-9",
+   "front": "Minimum ban for drink driving",
+   "back": "12 months",
+   "es": "12 meses"
+  },
+  {
+   "id": "dr-9-03",
+   "lessonId": "dr-9",
+   "front": "Drug driving – specified limits",
+   "back": "Road Traffic Act 1988, s. 5A",
+   "es": "s. 5A"
+  },
+  {
+   "id": "dr-9-04",
+   "lessonId": "dr-9",
+   "front": "Phone law since 2022",
+   "back": "Illegal to hold and use for any purpose while driving, even at lights",
+   "es": "móvil"
+  },
+  {
+   "id": "dr-9-05",
+   "lessonId": "dr-9",
+   "front": "Phone penalty",
+   "back": "6 points + £200 (⚠ check)",
+   "es": "6 puntos"
+  },
+  {
+   "id": "dr-10-01",
+   "lessonId": "dr-10",
+   "front": "Minimum insurance",
+   "back": "Third party (RTA 1988, s. 143)",
+   "es": "a terceros"
+  },
+  {
+   "id": "dr-10-02",
+   "lessonId": "dr-10",
+   "front": "MOT",
+   "back": "Annual roadworthiness test for cars 3+ years old",
+   "es": "ITV"
+  },
+  {
+   "id": "dr-10-03",
+   "lessonId": "dr-10",
+   "front": "VED",
+   "back": "Vehicle tax – online, no paper disc, doesn't transfer to buyer",
+   "es": "impuesto"
+  },
+  {
+   "id": "dr-10-04",
+   "lessonId": "dr-10",
+   "front": "SORN",
+   "back": "Statutory Off Road Notification – car kept off road, untaxed",
+   "es": "fuera de circulación"
+  },
+  {
+   "id": "dr-10-05",
+   "lessonId": "dr-10",
+   "front": "V5C",
+   "back": "Logbook – shows registered keeper, not legal owner",
+   "es": "permiso de circulación"
+  },
+  {
+   "id": "dr-11-01",
+   "lessonId": "dr-11",
+   "front": "s. 170 RTA 1988 applies when…",
+   "back": "Injury to others, damage to another vehicle/property, or injury to listed animals",
+   "es": "cuándo"
+  },
+  {
+   "id": "dr-11-02",
+   "lessonId": "dr-11",
+   "front": "Animals listed in s. 170",
+   "back": "horse, cattle, ass, mule, sheep, pig, goat, dog",
+   "es": "animales"
+  },
+  {
+   "id": "dr-11-03",
+   "lessonId": "dr-11",
+   "front": "Duty if details not given at scene",
+   "back": "Report to police ASAP and in any case within 24 hours",
+   "es": "24 horas"
+  },
+  {
+   "id": "dr-11-04",
+   "lessonId": "dr-11",
+   "front": "Details to give",
+   "back": "Own name & address, owner's name & address, registration",
+   "es": "datos"
+  },
+  {
+   "id": "dr-11-05",
+   "lessonId": "dr-11",
+   "front": "Failing to stop/report",
+   "back": "Offences – NIE 2.14",
+   "es": "delitos"
+  },
+  {
+   "id": "dr-12-01",
+   "lessonId": "dr-12",
+   "front": "Penalty Charge Notice",
+   "back": "Council civil penalty; discount if paid early",
+   "es": "sanción municipal"
+  },
+  {
+   "id": "dr-12-02",
+   "lessonId": "dr-12",
+   "front": "Fixed Penalty Notice",
+   "back": "Police – criminal offence dealt with by fixed penalty",
+   "es": "multa policial"
+  },
+  {
+   "id": "dr-12-03",
+   "lessonId": "dr-12",
+   "front": "Parking Charge Notice",
+   "back": "Private company contractual charge – not a fine",
+   "es": "cobro privado"
+  },
+  {
+   "id": "dr-12-04",
+   "lessonId": "dr-12",
+   "front": "Parking at night",
+   "back": "Must not park against the direction of traffic (unless in a parking space)",
+   "es": "de noche"
+  },
+  {
+   "id": "dr-12-05",
+   "lessonId": "dr-12",
+   "front": "Distance from a junction",
+   "back": "Don't park within 10 m",
+   "es": "10 m"
   }
  ]
 }

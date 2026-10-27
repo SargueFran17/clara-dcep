@@ -1,0 +1,19 @@
+{
+ "_comment": "flashcards de la asignatura 'ga'.",
+ "cards": [
+  {
+   "id": "ac-3-01",
+   "lessonId": "ac-3",
+   "front": "Final glossary/acronym target",
+   "back": "≥ 80 % in the 30-question final test",
+   "es": "objetivo 80 %"
+  },
+  {
+   "id": "ac-3-02",
+   "lessonId": "ac-3",
+   "front": "What to do with each mistake",
+   "back": "Error log + plain-English meaning",
+   "es": "registro de errores"
+  }
+ ]
+}
