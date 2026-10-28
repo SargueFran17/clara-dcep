@@ -17,6 +17,7 @@ import { Practice } from './screens/Practice'
 import { Flashcards } from './screens/Flashcards'
 import { Errors } from './screens/Errors'
 import { Reviews } from './screens/Reviews'
+import { Printable } from './screens/Printable'
 
 // las gráficas (recharts) se cargan solo al abrir Progreso
 const Progress = lazy(() => import('./screens/Progress').then((m) => ({ default: m.Progress })))
@@ -26,6 +27,7 @@ export default function App() {
   return (
     <HashRouter>
       <Routes>
+        <Route path="imprimir" element={<Printable />} />
         <Route element={<Layout />}>
           <Route index element={<Today />} />
           <Route path="semana" element={<Week />} />

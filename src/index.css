@@ -34,3 +34,16 @@ body {
 .prose-lesson th { @apply border-b border-slate-300 px-2 py-1 text-left dark:border-slate-700; }
 .prose-lesson td { @apply border-b border-slate-200 px-2 py-1 align-top dark:border-slate-800; }
 .prose-lesson strong { @apply font-semibold; }
+
+/* Planner imprimible (/imprimir) */
+@page { size: A4; margin: 10mm; }
+.print-doc { @apply mx-auto max-w-[210mm] bg-white text-slate-900; }
+.print-page { @apply relative mx-auto mb-6 bg-white p-[10mm] shadow; min-height: 277mm; break-after: page; }
+.print-footer { @apply absolute bottom-[4mm] right-[10mm] text-[8px] text-slate-400; }
+@media print {
+  body { background: white !important; }
+  .no-print { display: none !important; }
+  .print-page { margin: 0; padding: 0; box-shadow: none; min-height: 0; height: 277mm; overflow: hidden; }
+  .print-footer { bottom: 0; right: 0; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

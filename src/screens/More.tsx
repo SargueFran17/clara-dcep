@@ -16,6 +16,7 @@ const ITEMS = [
   { to: '/errores', label: '❌ Registro de errores', desc: 'Fallos por tipo y regla correcta' },
   { to: '/glosario', label: '📖 Glosario y acrónimos', desc: 'EN → inglés sencillo → ES' },
   { to: '/fitness', label: '💪 Fitness', desc: 'Peso, entrenos, bleep, hábitos' },
+  { to: '/imprimir', label: '🖨️ Planner imprimible', desc: 'Mapa del año, meses, semanas, temario… para imprimir o guardar en PDF' },
 ]
 
 export function More() {
