@@ -11,10 +11,10 @@ describe('Hoy', () => {
   it('lunes de pre-academia: 2 lecciones + entreno + hábitos', () => {
     const tasks = buildTasks('2026-11-02', plan, empty)
     const plan_ = tasks.filter((t) => t.section === 'plan')
-    expect(plan_.map((t) => t.key)).toEqual(['lesson:ft-1', 'lesson:vo-1'])
+    expect(plan_.map((t) => t.key)).toEqual(['lesson:dr-2', 'lesson:ft-1'])
     expect(tasks.some((t) => t.section === 'training')).toBe(true)
     // la lección del sábado 31 no hecha aparece como atrasada
-    expect(tasks.filter((t) => t.section === 'overdue').map((t) => t.key)).toEqual(['lesson:se-1'])
+    expect(tasks.filter((t) => t.section === 'overdue').map((t) => t.key)).toEqual(['lesson:dr-1'])
   })
 
   it('repasos de hoy y atrasados', () => {

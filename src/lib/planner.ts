@@ -12,6 +12,7 @@ export type Phase = 'before' | 'pre' | 'xmas' | 'academy' | 'nieBlock' | 'final'
 export type EventType =
   | 'kickoff'
   | 'weeklyReview'
+  | 'weighIn'
   | 'preReview'
   | 'xmasLight'
   | 'academyDiary'
@@ -47,6 +48,10 @@ export interface PlanInputs {
   fitnessWeek: { day: number; items: WorkoutItem[] }[]
   /** el plan de entreno cuenta desde esta fecha */
   fitnessStart?: ISODate
+  /** días con más (o menos) lecciones de pre-academia: fecha → nº de lecciones */
+  preCapacity?: Record<ISODate, number>
+  /** pesaje semanal (día de la semana 0–6) desde el inicio del entreno */
+  weighIn?: { weekday: number; label: string }
   /** días "Hoy no puedo": sin estudio nuevo (las lecciones pasan a los días siguientes) */
   daysOff?: Set<ISODate>
   /** tareas de arranque antes del inicio (fecha → tarea) */
@@ -154,6 +159,12 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
     })
   }
 
+  // --- Pesaje semanal ---
+  if (inputs.weighIn)
+    for (const day of days.values())
+      if (weekday(day.date) === inputs.weighIn.weekday && (!inputs.fitnessStart || day.date >= inputs.fitnessStart) && day.phase !== 'after')
+        day.events.push({ type: 'weighIn', label: inputs.weighIn.label })
+
   // --- Arranque (antes de empezar en serio) ---
   for (const k of inputs.kickoff?.days ?? []) {
     const day = days.get(k.date)
@@ -167,10 +178,12 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
   for (const date of eachDay(s.studyStart, s.preEnd)) {
     const day = days.get(date)!
     const wd = weekday(date)
-    if (wd === 6) day.events.push({ type: 'weeklyReview', label: 'Repaso semanal (1,5 h): flashcards + mini-tests de la semana' })
+    const extra = inputs.preCapacity?.[date]
+    if (wd === 6 && extra === undefined) day.events.push({ type: 'weeklyReview', label: 'Repaso semanal (1,5 h): flashcards + mini-tests de la semana' })
     const off = inputs.daysOff?.has(date)
     if (off) day.targetMin = 0
-    for (let i = 0; i < (off ? 0 : preCapacity(wd)) && queue.length; i++) {
+    if (extra !== undefined && !off) day.targetMin = Math.max(day.targetMin, extra * 60)
+    for (let i = 0; i < (off ? 0 : (extra ?? preCapacity(wd))) && queue.length; i++) {
       const id = queue.shift()!
       day.lessons.push(id)
       lessonDates.set(id, date)

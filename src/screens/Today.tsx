@@ -13,7 +13,8 @@ import { Card, Check, Pill, ProgressBar } from '../components/ui'
 import { NieProgress } from '../components/NieProgress'
 
 const OVERDUE_PREVIEW = 5
-const ORDER: TaskSection[] = ['overdue', 'plan', 'academy', 'reviews', 'training', 'habits']
+// entreno y peso justo después del estudio: perder peso es prioridad
+const ORDER: TaskSection[] = ['overdue', 'plan', 'training', 'academy', 'reviews', 'habits']
 
 export function Today() {
   const today = useToday()

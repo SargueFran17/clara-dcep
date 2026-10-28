@@ -15,7 +15,7 @@ describe('calendario mensual', () => {
     expect(addMonthsYM('2026-12', 1)).toBe('2027-01')
   })
   it('resumen corto de cada día', () => {
-    expect(daySummary(plan.days.get('2026-11-02')).slice(0, 2)).toEqual(['FT1', 'VO1'])
+    expect(daySummary(plan.days.get('2026-11-02')).slice(0, 2)).toEqual(['DR2', 'FT1'])
     expect(daySummary(plan.days.get('2027-01-02')).join(' ')).toMatch(/NIE 1\.3/)
     expect(daySummary(plan.days.get('2027-06-01'))).toContain('🎯 EXAMEN')
   })

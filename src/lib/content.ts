@@ -10,6 +10,8 @@ import type { Card, Folder, LessonMeta, NieTemario, Question, Structure, Subject
 
 export const structure = structureJson as Structure
 export const preAcademyOrder: string[] = preJson.lessons
+/** días con más lecciones de pre-academia (fecha → nº) */
+export const preAcademyCapacity: Record<string, number> = (preJson as { capacity?: Record<string, number> }).capacity ?? {}
 /** Tareas de arranque (antes del inicio "en serio"). */
 export const arranque = arranqueJson as { minutes: number; days: { date: string; label: string }[] }
 
@@ -23,6 +25,8 @@ export const nieOrderedChapters = nieGroups.flat().map((c) => nieChapterMeta(c)!
 export const fitnessWeek = fitnessJson.week as { day: number; items: WorkoutItem[] }[]
 /** fecha desde la que cuenta el plan de entreno */
 export const fitnessStart: string | undefined = (fitnessJson as { start?: string }).start
+/** pesaje semanal */
+export const weighIn = (fitnessJson as { weighIn?: { weekday: number; label: string } }).weighIn
 
 const lessonFiles = import.meta.glob('../../content/lessons/**/*.md', {
   query: '?raw',

@@ -18,7 +18,7 @@ export const SECTION_LABELS: Record<TaskSection, string> = {
   plan: 'Lo planificado',
   reviews: 'Repasos espaciados',
   academy: 'Academia',
-  training: 'Entreno y tenis',
+  training: 'Entreno, tenis y peso',
   habits: 'Hábitos',
 }
 
@@ -61,12 +61,14 @@ export function reviewTitle(r: Review): { title: string; subtitle: string; link?
 }
 
 const EVENT_SECTION: Partial<Record<PlanEvent['type'], TaskSection>> = {
+  weighIn: 'training',
   academyDiary: 'academy',
   academyStudy: 'academy',
   academyWeekSummary: 'academy',
 }
 
 const EVENT_LINK: Partial<Record<PlanEvent['type'], string>> = {
+  weighIn: '/fitness',
   academyWeekSummary: '/academia?tab=resumen',
   cumulativeTest: '/nie/simulacros',
   mock: '/nie/simulacros',

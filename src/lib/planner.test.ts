@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { buildPlan, phaseOf } from './planner'
 import { DEFAULT_SETTINGS } from './defaults'
-import { arranque, fitnessStart, fitnessWeek, nieGroups, nieTemario, preAcademyOrder } from './content'
+import { arranque, fitnessStart, fitnessWeek, nieGroups, nieTemario, preAcademyCapacity, preAcademyOrder, weighIn } from './content'
 import { weekday } from './dates'
 
 const inputs = { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek }
@@ -35,6 +35,20 @@ describe('pre-academia', () => {
     }
     expect(plan.days.get('2026-10-31')!.lessons).toEqual([preAcademyOrder[0]])
     expect(plan.days.get('2026-11-01')!.events.some((e) => e.type === 'weeklyReview')).toBe(true)
+  })
+  it('del 31/10 al 05/11: todo Conducir en el Reino Unido (2/día) + fitness (1/día); luego academia', () => {
+    const p = buildPlan(s, { ...inputs, preCapacity: preAcademyCapacity, kickoff: arranque })
+    for (const id of preAcademyOrder.filter((x) => x.startsWith('dr-'))) expect(p.lessonDates.get(id)! <= '2026-11-05').toBe(true)
+    expect(p.days.get('2026-11-01')!.lessons).toEqual(['dr-3', 'dr-4', 'ft-3'])
+    expect(p.days.get('2026-11-01')!.events.some((e) => e.type === 'weeklyReview')).toBe(false)
+    expect(p.lessonDates.get('ft-7')! <= '2026-11-06').toBe(true)
+    expect(p.days.get('2026-11-09')!.lessons.every((id) => !id.startsWith('dr-') && !id.startsWith('ft-'))).toBe(true)
+  })
+  it('pesaje semanal los sábados desde el 31/10', () => {
+    const p = buildPlan(s, { ...inputs, kickoff: arranque, fitnessStart, weighIn })
+    expect(p.days.get('2026-10-31')!.events.map((e) => e.type)).toContain('weighIn')
+    expect(p.days.get('2026-11-07')!.events.map((e) => e.type)).toContain('weighIn')
+    expect(p.days.get('2026-11-02')!.events.map((e) => e.type)).not.toContain('weighIn')
   })
   it('"Hoy no puedo": las lecciones de ese día pasan a los siguientes', () => {
     const p = buildPlan(s, { ...inputs, daysOff: new Set(['2026-11-02']) })

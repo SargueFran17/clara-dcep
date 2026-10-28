@@ -11,9 +11,9 @@ import type { ISODate } from '../lib/dates'
 
 const SECTIONS: { id: TaskSection; label: string; icon: string }[] = [
   { id: 'plan', label: 'Estudio', icon: '📚' },
+  { id: 'training', label: 'Entreno y peso', icon: '🏋️' },
   { id: 'academy', label: 'Academia', icon: '🏫' },
   { id: 'reviews', label: 'Repasos', icon: '🔁' },
-  { id: 'training', label: 'Entreno', icon: '🏋️' },
   { id: 'habits', label: 'Hábitos', icon: '✅' },
 ]
 
