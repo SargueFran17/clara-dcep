@@ -1,80 +1,13 @@
 {
-  "_comment": "Plan semanal de entreno. day: 0 = lunes … 6 = domingo.",
+  "_comment": "Plan semanal de entreno. day: 0 = lunes … 6 = domingo. 'start': fecha desde la que cuenta. Cada día de gym incluye 20 min corriendo en la cinta. Edítalo libremente.",
+  "start": "2026-10-31",
   "week": [
-    {
-      "day": 0,
-      "items": [
-        {
-          "type": "gym",
-          "label": "Gym · fuerza A"
-        }
-      ]
-    },
-    {
-      "day": 1,
-      "items": [
-        {
-          "type": "run",
-          "label": "Running · intervalos / bleep"
-        },
-        {
-          "type": "tennis",
-          "label": "Tenis"
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "items": [
-        {
-          "type": "gym",
-          "label": "Gym · fuerza B"
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "items": [
-        {
-          "type": "tennis",
-          "label": "Tenis"
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "items": [
-        {
-          "type": "gym",
-          "label": "Gym · fuerza C"
-        },
-        {
-          "type": "run",
-          "label": "Trote suave"
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "items": [
-        {
-          "type": "run",
-          "label": "Rodaje largo"
-        },
-        {
-          "type": "tennis",
-          "label": "Tenis"
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "items": [
-        {
-          "type": "rest",
-          "label": "Descanso activo (paseo / movilidad)"
-        }
-      ]
-    }
+    { "day": 0, "items": [{ "type": "tennis", "label": "Tenis (7 a 9)" }] },
+    { "day": 1, "items": [{ "type": "rest", "label": "Descanso activo (paseo / movilidad)" }] },
+    { "day": 2, "items": [{ "type": "gym", "label": "Gym · fuerza A + 20′ corriendo en la cinta" }, { "type": "tennis", "label": "Tenis" }] },
+    { "day": 3, "items": [{ "type": "gym", "label": "Gym · fuerza B + 20′ corriendo en la cinta" }, { "type": "tennis", "label": "Tenis" }] },
+    { "day": 4, "items": [{ "type": "gym", "label": "Gym · fuerza C + 20′ corriendo en la cinta" }] },
+    { "day": 5, "items": [{ "type": "gym", "label": "Gym · fuerza A + 20′ corriendo en la cinta" }] },
+    { "day": 6, "items": [{ "type": "gym", "label": "Gym · fuerza B + 20′ corriendo en la cinta" }] }
   ]
 }

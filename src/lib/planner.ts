@@ -45,6 +45,10 @@ export interface PlanInputs {
   preOrder: string[]
   temario: Pick<NieTemario, 'chapters' | 'groups' | 'finalReview' | 'keyDates' | 'newStudyCapacityMinutes'>
   fitnessWeek: { day: number; items: WorkoutItem[] }[]
+  /** el plan de entreno cuenta desde esta fecha */
+  fitnessStart?: ISODate
+  /** días "Hoy no puedo": sin estudio nuevo (las lecciones pasan a los días siguientes) */
+  daysOff?: Set<ISODate>
   /** tareas de arranque antes del inicio (fecha → tarea) */
   kickoff?: { minutes: number; days: { date: ISODate; label: string }[] }
   /** cola NIE recalculada desde hoy (si falta: plan inicial sin progreso desde el inicio del NIE) */
@@ -146,7 +150,7 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
       lessons: [],
       nie: [],
       events: [],
-      workouts: inputs.fitnessWeek.find((w) => w.day === wd)?.items ?? [],
+      workouts: inputs.fitnessStart && date < inputs.fitnessStart ? [] : (inputs.fitnessWeek.find((w) => w.day === wd)?.items ?? []),
     })
   }
 
@@ -164,12 +168,14 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
     const day = days.get(date)!
     const wd = weekday(date)
     if (wd === 6) day.events.push({ type: 'weeklyReview', label: 'Repaso semanal (1,5 h): flashcards + mini-tests de la semana' })
-    for (let i = 0; i < preCapacity(wd) && queue.length; i++) {
+    const off = inputs.daysOff?.has(date)
+    if (off) day.targetMin = 0
+    for (let i = 0; i < (off ? 0 : preCapacity(wd)) && queue.length; i++) {
       const id = queue.shift()!
       day.lessons.push(id)
       lessonDates.set(id, date)
     }
-    if (!day.lessons.length && wd !== 6)
+    if (!day.lessons.length && wd !== 6 && !off)
       day.events.push({ type: 'preReview', label: 'Repaso general de pre-academia y test de cada carpeta' })
   }
   // si sobran lecciones (fechas acortadas), van al último día

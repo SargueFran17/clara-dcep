@@ -21,6 +21,8 @@ export const nieChapterMeta = (code: string) => nieChapters.find((c) => c.code =
 /** Capítulos en TU orden (el de los 12 grupos). */
 export const nieOrderedChapters = nieGroups.flat().map((c) => nieChapterMeta(c)!)
 export const fitnessWeek = fitnessJson.week as { day: number; items: WorkoutItem[] }[]
+/** fecha desde la que cuenta el plan de entreno */
+export const fitnessStart: string | undefined = (fitnessJson as { start?: string }).start
 
 const lessonFiles = import.meta.glob('../../content/lessons/**/*.md', {
   query: '?raw',

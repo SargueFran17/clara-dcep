@@ -8,7 +8,7 @@ import { completeLesson, completeReview, logMinutes, saveNieDayLog, setDayOff, s
 import { computeStreak } from '../lib/streak'
 import { diffDays, fmtLong, fmtUK } from '../lib/dates'
 import { PHASE_LABELS } from '../lib/planner'
-import { lessonLink } from '../lib/content'
+import { arranque, lessonLink } from '../lib/content'
 import { Card, Check, Pill, ProgressBar } from '../components/ui'
 import { NieProgress } from '../components/NieProgress'
 
@@ -99,17 +99,17 @@ export function Today() {
 
       {today >= settings.academyStart && today < settings.finalReviewStart && <NieProgress compact />}
 
-      {today >= settings.nieStart && today < settings.finalReviewStart && dayOff !== undefined && (
-        <div className="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-sm dark:border-slate-800 dark:bg-slate-900">
+      {today >= (arranque.days[0]?.date ?? settings.studyStart) && today < settings.finalReviewStart && dayOff !== undefined && (
+        <div className={`flex items-center justify-between gap-3 rounded-2xl border p-3 text-sm ${dayOff ? 'border-amber-300 bg-amber-50 dark:border-amber-800 dark:bg-amber-950/40' : 'border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900'}`}>
           {dayOff ? (
             <>
-              <span>😴 Hoy sin estudio NIE nuevo: todo se ha recolocado en los próximos días.</span>
+              <span>😴 <b>Hoy no puedo</b> activado: el estudio nuevo de hoy (lecciones{today >= settings.nieStart ? ' y pasos del NIE' : ''}) se ha movido a los próximos días.</span>
               <button onClick={() => setDayOff(today, false)} className="shrink-0 font-semibold text-indigo-600 underline">Deshacer</button>
             </>
           ) : (
             <>
-              <span className="text-slate-500">¿Hoy no te da la vida? Lo del NIE pasa solo al siguiente hueco.</span>
-              <button onClick={() => setDayOff(today, true)} className="shrink-0 rounded-full bg-slate-100 px-3 py-1 font-semibold dark:bg-slate-800">Hoy no puedo</button>
+              <span className="text-slate-500">¿Hoy no puedes estudiar? Lo de hoy pasa solo a los próximos días.</span>
+              <button onClick={() => setDayOff(today, true)} className="shrink-0 rounded-full bg-amber-100 px-3 py-1.5 font-semibold text-amber-900 dark:bg-amber-900/50 dark:text-amber-100">😴 Hoy no puedo</button>
             </>
           )}
         </div>

@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { DEFAULT_SETTINGS } from './defaults'
 import { buildPlan, type Plan } from './planner'
-import { arranque, contentCards, contentQuestions, fitnessWeek, nieChapterMeta, nieOrderedChapters, nieTemario, preAcademyOrder } from './content'
+import { arranque, contentCards, contentQuestions, fitnessStart, fitnessWeek, nieChapterMeta, nieOrderedChapters, nieTemario, preAcademyOrder } from './content'
 import { scheduleNie, type NieSchedule, type NieSlot } from './scheduler'
 import { buildQueue } from './sm2'
 import { todayISO, type ISODate } from './dates'
@@ -38,6 +38,7 @@ export function usePlan(): Plan {
   const s = useSettings()
   const nie = useNieSchedule()
   const logs = useLiveQuery(() => db.nieDayLog.toArray(), [])
+  const off = useLiveQuery(() => db.dayOff.toArray(), [])
   return useMemo(() => {
     const nieHistory = new Map<ISODate, NieSlot[]>(
       (logs ?? []).map((l) => [
@@ -48,8 +49,9 @@ export function usePlan(): Plan {
         })),
       ]),
     )
-    return buildPlan(s, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek, kickoff: arranque, nie, nieHistory })
-  }, [s, nie, logs])
+    const daysOff = new Set((off ?? []).map((d) => d.date))
+    return buildPlan(s, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek, fitnessStart, kickoff: arranque, nie, nieHistory, daysOff })
+  }, [s, nie, logs, off])
 }
 
 /** Fecha de hoy en Londres; se actualiza sola al pasar la medianoche. */

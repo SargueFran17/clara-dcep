@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { buildPlan, phaseOf } from './planner'
 import { DEFAULT_SETTINGS } from './defaults'
-import { fitnessWeek, nieGroups, nieTemario, preAcademyOrder } from './content'
+import { arranque, fitnessStart, fitnessWeek, nieGroups, nieTemario, preAcademyOrder } from './content'
 import { weekday } from './dates'
 
 const inputs = { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek }
@@ -35,6 +35,12 @@ describe('pre-academia', () => {
     }
     expect(plan.days.get('2026-10-31')!.lessons).toEqual([preAcademyOrder[0]])
     expect(plan.days.get('2026-11-01')!.events.some((e) => e.type === 'weeklyReview')).toBe(true)
+  })
+  it('"Hoy no puedo": las lecciones de ese día pasan a los siguientes', () => {
+    const p = buildPlan(s, { ...inputs, daysOff: new Set(['2026-11-02']) })
+    expect(p.days.get('2026-11-02')!.lessons).toEqual([])
+    expect(p.days.get('2026-11-03')!.lessons).toEqual(plan.days.get('2026-11-02')!.lessons)
+    expect([...p.days.values()].flatMap((d) => d.lessons).length).toBe(preAcademyOrder.length)
   })
   it('si se acortan las fechas, las lecciones sobrantes no se pierden', () => {
     const p = buildPlan({ ...s, preEnd: '2026-11-07' }, inputs)
@@ -77,6 +83,19 @@ describe('NIE 1ª vuelta', () => {
   it('domingos y festivos sin estudio nuevo', () => {
     expect(plan.days.get('2027-03-26')!.nie).toEqual([])
     expect(plan.days.get('2027-03-29')!.nie).toEqual([])
+  })
+})
+
+describe('entreno', () => {
+  it('desde el 31/10: lunes tenis, miércoles y jueves gym + tenis, gym de miércoles a domingo con 20′ de cinta', () => {
+    const p = buildPlan(s, { ...inputs, fitnessStart, kickoff: arranque })
+    expect(p.days.get('2026-10-28')!.workouts).toEqual([])
+    const types = (d: string) => p.days.get(d)!.workouts.map((w) => w.type)
+    expect(types('2026-11-02')).toEqual(['tennis'])
+    expect(types('2026-11-04')).toEqual(['gym', 'tennis'])
+    expect(types('2026-11-05')).toEqual(['gym', 'tennis'])
+    for (const d of ['2026-11-06', '2026-11-07', '2026-11-08']) expect(types(d)).toEqual(['gym'])
+    expect(p.days.get('2026-10-31')!.workouts[0].label).toMatch(/20′ corriendo en la cinta/)
   })
 })
 
