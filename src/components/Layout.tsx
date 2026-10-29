@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { NavLink, Outlet, Link, useLocation } from 'react-router-dom'
 import { useSettings } from '../lib/hooks'
+import { SyncBadge } from './SyncCard'
 
 const TABS = [
   { to: '/', label: 'Hoy', icon: '☀️' },
@@ -36,9 +37,12 @@ export function Layout() {
         <Link to="/" className="text-sm font-bold tracking-tight text-indigo-700 dark:text-indigo-300">
           Clara · DCEP
         </Link>
+        <div className="flex items-center gap-1">
+        <SyncBadge />
         <Link to="/buscar" className="rounded-full px-3 py-1 text-sm text-slate-500 hover:bg-slate-200 dark:hover:bg-slate-800" aria-label="Buscar">
           🔍 Buscar
         </Link>
+        </div>
       </div>
       <main className="flex-1 px-4 pb-28 pt-4">
         <Outlet />

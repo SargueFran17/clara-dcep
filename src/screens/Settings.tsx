@@ -3,6 +3,7 @@ import { useSettings } from '../lib/hooks'
 import { saveSettings } from '../lib/actions'
 import { exportBackup, importBackup, resetAll } from '../lib/backup'
 import { BUILD, checkForUpdate } from '../lib/pwa'
+import { SyncCard } from '../components/SyncCard'
 import { todayISO } from '../lib/dates'
 import { DEFAULT_SETTINGS } from '../lib/defaults'
 import { Button, Card, PageHeader } from '../components/ui'
@@ -34,24 +35,75 @@ export function Settings() {
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState('')
 
-  async function doExport() {
+  const [lastCopy, setLastCopy] = useState(() => {
+    try {
+      return localStorage.getItem('lastCopy') ?? ''
+    } catch {
+      return ''
+    }
+  })
+  const remember = (text: string) => {
+    setLastCopy(text)
+    try {
+      localStorage.setItem('lastCopy', text)
+    } catch {
+      /* modo privado */
+    }
+  }
+  const stamp = () => new Date().toLocaleString('es-ES', { timeZone: 'Europe/London', dateStyle: 'short', timeStyle: 'short' })
+
+  async function backupFile(): Promise<File> {
     const json = await exportBackup()
-    const url = URL.createObjectURL(new Blob([json], { type: 'application/json' }))
+    const time = new Date().toLocaleTimeString('en-GB', { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit' }).replace(':', '')
+    return new File([json], `clara-dcep-${todayISO()}-${time}.json`, { type: 'application/json' })
+  }
+
+  function download(file: File) {
+    const url = URL.createObjectURL(file)
     const a = document.createElement('a')
     a.href = url
-    a.download = `clara-dcep-backup-${todayISO()}.json`
+    a.download = file.name
     a.click()
     URL.revokeObjectURL(url)
-    setMsg('Copia descargada. Guárdala en Drive o en el correo.')
+  }
+
+  async function doExport() {
+    download(await backupFile())
+    remember(`Copia guardada desde este aparato el ${stamp()}`)
+    setMsg('Copia descargada ✓ Pásala al otro aparato (WhatsApp, correo, Drive…) e impórtala allí.')
+  }
+
+  /** En el móvil abre el menú de compartir (WhatsApp, correo, Drive…); si no se puede, la descarga. */
+  async function doShare() {
+    const file = await backupFile()
+    try {
+      if (navigator.canShare?.({ files: [file] })) {
+        await navigator.share({ files: [file], title: 'Copia Clara DCEP' })
+        remember(`Copia enviada desde este aparato el ${stamp()}`)
+        setMsg('Copia enviada ✓ Ábrela en el otro aparato con "Importar".')
+        return
+      }
+    } catch (e) {
+      if ((e as Error).name === 'AbortError') return
+    }
+    download(file)
+    remember(`Copia guardada desde este aparato el ${stamp()}`)
+    setMsg('Este navegador no deja compartir directamente: la copia se ha descargado. Envíatela por correo o Drive.')
   }
 
   async function doImport(file: File) {
-    if (!confirm('Esto SUSTITUYE todos tus datos por los de la copia. ¿Continuar?')) return
     try {
-      await importBackup(await file.text())
-      setMsg('Copia restaurada ✓')
+      const text = await file.text()
+      const when = JSON.parse(text)?.exportedAt
+      const made = when ? new Date(when).toLocaleString('es-ES', { timeZone: 'Europe/London', dateStyle: 'short', timeStyle: 'short' }) : '¿fecha desconocida?'
+      if (!confirm(`Copia hecha el ${made}.\n\nEsto SUSTITUYE todo lo de este aparato por lo de la copia. ¿Continuar?`)) return
+      await importBackup(text)
+      remember(`Importada aquí el ${stamp()} la copia del ${made}`)
+      setMsg('Copia importada ✓ Este aparato ya tiene lo mismo que el otro.')
     } catch (e) {
       setMsg(`Error: ${(e as Error).message}`)
+    } finally {
+      if (fileRef.current) fileRef.current.value = ''
     }
   }
 
@@ -73,6 +125,8 @@ export function Settings() {
   return (
     <div className="space-y-4">
       <PageHeader title="Ajustes" back="/mas" />
+
+      <SyncCard />
 
       <Card>
         <h2 className="mb-1 font-semibold">Fechas clave</h2>
@@ -160,15 +214,22 @@ export function Settings() {
       </Card>
 
       <Card>
-        <h2 className="mb-1 font-semibold">Copia de seguridad</h2>
-        <p className="mb-3 text-xs text-slate-500">
-          Todo se guarda solo en este navegador. Exporta una copia cada semana (y antes de cambiar de móvil o borrar datos del navegador).
+        <h2 className="mb-1 font-semibold">📲 Copia de seguridad (a mano)</h2>
+        <p className="mb-2 text-xs text-slate-500">
+          Si no usas la sincronización de arriba, así pasas los datos de un aparato a otro (y guardas una copia por si acaso):
         </p>
+        <ol className="mb-3 list-decimal space-y-1 pl-5 text-xs text-slate-600 dark:text-slate-300">
+          <li>En el aparato donde marcaste las cosas: <b>📤 Enviar copia</b> (WhatsApp, correo, Drive…) o <b>⬇️ Descargar</b>.</li>
+          <li>En el otro aparato: <b>⬆️ Importar</b> y elige ese archivo.</li>
+          <li>⚠️ Importar <b>sustituye</b> todo lo del aparato: usa siempre la copia más reciente y marca las cosas en uno solo hasta pasarlas.</li>
+        </ol>
         <div className="flex flex-wrap gap-2">
-          <Button onClick={doExport}>⬇️ Exportar JSON</Button>
-          <Button variant="ghost" onClick={() => fileRef.current?.click()}>⬆️ Importar JSON</Button>
+          <Button onClick={doShare}>📤 Enviar copia</Button>
+          <Button variant="ghost" onClick={doExport}>⬇️ Descargar</Button>
+          <Button variant="ghost" onClick={() => fileRef.current?.click()}>⬆️ Importar</Button>
           <input ref={fileRef} type="file" accept="application/json,.json" hidden onChange={(e) => e.target.files?.[0] && doImport(e.target.files[0])} />
         </div>
+        {lastCopy && <p className="mt-2 text-xs text-slate-500">Último movimiento: {lastCopy}</p>}
         {msg && <p className="mt-2 text-sm">{msg}</p>}
       </Card>
 

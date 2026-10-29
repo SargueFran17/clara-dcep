@@ -20,9 +20,15 @@ function dataUrlToBlob(url: string): Blob {
   return new Blob([bytes], { type })
 }
 
-export async function exportBackup(): Promise<string> {
+export interface BackupOptions {
+  /** tablas que no se exportan/importan (p. ej. 'recordings' en la sincronización) */
+  skip?: string[]
+}
+
+export async function exportBackup(opts: BackupOptions = {}): Promise<string> {
   const tables: Record<string, unknown[]> = {}
   for (const table of db.tables) {
+    if (opts.skip?.includes(table.name)) continue
     const rows = await table.toArray()
     tables[table.name] =
       table.name === 'recordings'
@@ -33,11 +39,12 @@ export async function exportBackup(): Promise<string> {
 }
 
 /** Sustituye TODOS los datos por los de la copia. */
-export async function importBackup(json: string) {
+export async function importBackup(json: string, opts: BackupOptions = {}) {
   const data = JSON.parse(json)
   if (data?.format !== FORMAT || typeof data.tables !== 'object') throw new Error('El archivo no es una copia de seguridad de esta app.')
   await db.transaction('rw', db.tables, async () => {
     for (const table of db.tables) {
+      if (opts.skip?.includes(table.name)) continue
       await table.clear()
       let rows = (data.tables[table.name] ?? []) as Record<string, unknown>[]
       if (table.name === 'recordings') rows = rows.map((r) => ({ ...r, blob: dataUrlToBlob(r.blob as string) }))
