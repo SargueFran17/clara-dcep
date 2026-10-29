@@ -15,9 +15,13 @@ export function Day() {
     <div className="space-y-4">
       <PageHeader title={fmtLong(date)} subtitle={`${fmtUK(date)}${p ? ` · ${PHASE_LABELS[p.phase]} · objetivo ${p.targetMin}′` : ''}`} back />
       {date === today && (
-        <Link to="/" className="block rounded-2xl bg-indigo-600 p-3 text-center font-semibold text-white">Es hoy: ir a Hoy para marcar tareas →</Link>
+        <Link to="/" className="block rounded-2xl bg-indigo-600 p-3 text-center font-semibold text-white">Es hoy: ir a Hoy →</Link>
       )}
-      {date > today && <p className="text-sm text-slate-500">Plan previsto. Lo del NIE puede moverse si un día no estudias (se recoloca solo).</p>}
+      {date > today && (
+        <p className="text-sm text-slate-500">
+          Plan previsto. Puedes <b>adelantar</b>: lo que marques de estudio cuenta como hecho hoy (y sus repasos salen desde hoy). Lo del NIE se recoloca solo.
+        </p>
+      )}
       <Card>
         <DayTasks date={date} />
       </Card>

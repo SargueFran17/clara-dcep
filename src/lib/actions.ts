@@ -6,6 +6,7 @@ import type { ISODate } from './dates'
 import { DEFAULT_SETTINGS } from './defaults'
 import { NIE_OFFSETS, seriesForKey } from './reviews'
 import type { NieSlot } from './scheduler'
+import type { Task } from './today'
 
 // Operaciones que cambian datos. Las pantallas solo llaman a estas funciones.
 
@@ -184,6 +185,26 @@ export async function savePlanNote(id: string, patch: { goal?: string; review?: 
 export async function saveMockResult(date: ISODate, correct: number | null, total: number) {
   if (correct === null) await db.mockResults.delete(date)
   else await db.mockResults.put({ date, correct, total })
+}
+
+// ---------- Marcar cualquier tarea (Hoy, Semana, Mes, Día) ----------
+
+/**
+ * Marca o desmarca una tarea del día `date`. Lo que es estudio (lecciones, pasos NIE, repasos)
+ * cuenta como hecho HOY (así los repasos salen desde el día real); entreno, hábitos y tareas
+ * sueltas se guardan en su día. Sirve para adelantar tareas de días siguientes.
+ */
+export async function toggleTask(t: Task, value: boolean, today: ISODate, date: ISODate = today) {
+  if (t.kind === 'lesson') return value ? completeLesson(t.lessonId, today) : uncompleteLesson(t.lessonId)
+  if (t.kind === 'review') return value ? completeReview(t.review, today) : undoReview(t.review)
+  if (t.kind === 'nieStep') {
+    const ch = await getChapter(t.chapter)
+    // desmarcar un paso que hiciste otro día
+    if (!value && ch.steps[t.step - 1] && ch.steps[t.step - 1] !== today) return toggleStep(t.chapter, t.step - 1, today)
+    return toggleStepPart(t.chapter, t.step, t.minutes, t.stepMinutes, today, value)
+  }
+  if (t.kind === 'more') return
+  return setTaskDone(date, t.key, value)
 }
 
 // ---------- Academia ----------

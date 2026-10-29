@@ -4,7 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useCardQueue, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
 import { buildTasks, dayScore, SECTION_LABELS, type Task, type TaskSection } from '../lib/today'
-import { completeLesson, completeReview, logMinutes, saveNieDayLog, setDayOff, setTaskDone, toggleStepPart, uncompleteLesson, undoReview } from '../lib/actions'
+import { logMinutes, saveNieDayLog, setDayOff, toggleTask } from '../lib/actions'
 import { computeStreak } from '../lib/streak'
 import { diffDays, fmtLong, fmtUK } from '../lib/dates'
 import { PHASE_LABELS } from '../lib/planner'
@@ -62,13 +62,7 @@ export function Today() {
   const studied = (minutes ?? []).reduce((a, s) => a + s.minutes, 0)
   const target = day?.targetMin ?? 0
 
-  async function toggle(t: Task, value: boolean) {
-    if (t.kind === 'lesson') return value ? completeLesson(t.lessonId, today) : uncompleteLesson(t.lessonId)
-    if (t.kind === 'review') return value ? completeReview(t.review, today) : undoReview(t.review)
-    if (t.kind === 'nieStep') return toggleStepPart(t.chapter, t.step, t.minutes, t.stepMinutes, today, value)
-    if (t.kind === 'more') return
-    return setTaskDone(today, t.key, value)
-  }
+  const toggle = (t: Task, value: boolean) => toggleTask(t, value, today)
 
   async function undoLastMinutes() {
     const last = (minutes ?? []).at(-1)

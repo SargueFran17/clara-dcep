@@ -1,7 +1,7 @@
 import 'fake-indexeddb/auto'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { db } from '../db'
-import { completeLesson, completeReview, saveMockResult, saveSettings, setDayOff, setFinishDate, toggleStep, toggleStepPart, uncompleteLesson, undoReview } from './actions'
+import { completeLesson, completeReview, saveMockResult, saveSettings, setDayOff, setFinishDate, toggleStep, toggleStepPart, toggleTask, uncompleteLesson, undoReview } from './actions'
 import { exportBackup, importBackup, resetAll } from './backup'
 
 const pending = (key: string) => db.reviews.where('itemKey').equals(key).filter((r) => !r.doneAt).toArray()
@@ -68,6 +68,22 @@ describe('lecciones y repasos (IndexedDB)', () => {
     const [r] = await pending('lesson:nie-1.2')
     expect(r).toMatchObject({ step: 1, due: '2027-01-08', anchor: '2027-01-07' })
     expect((await db.nieChapter.get('1.2'))!.steps[9]).toBe('2027-01-07')
+  })
+
+  it('adelantar tareas de otro día: estudio cuenta hoy, entreno en su día', async () => {
+    const today = '2026-11-02'
+    await toggleTask({ kind: 'lesson', key: 'lesson:dr-9', section: 'plan', title: '', subtitle: '', lessonId: 'dr-9', done: false }, true, today, '2026-11-04')
+    expect((await db.lessonProgress.get('dr-9'))?.completedAt).toBe(today)
+    const [r] = await pending('lesson:dr-9')
+    expect(r.due).toBe('2026-11-03')
+    await toggleTask({ kind: 'check', key: 'workout:0:gym', section: 'training', title: '', done: false }, true, today, '2026-11-04')
+    expect(await db.taskDone.get(['2026-11-04', 'workout:0:gym'])).toBeTruthy()
+    // paso NIE adelantado y desmarcado otro día
+    const step = { kind: 'nieStep' as const, key: 'nie:1.3:5', section: 'plan' as const, title: '', subtitle: '', chapter: '1.3', step: 5, minutes: 30, stepMinutes: 30, done: false, link: '' }
+    await toggleTask(step, true, '2027-01-02', '2027-01-05')
+    expect((await db.nieChapter.get('1.3'))!.steps[4]).toBe('2027-01-02')
+    await toggleTask({ ...step, done: true }, false, '2027-01-03', '2027-01-05')
+    expect((await db.nieChapter.get('1.3'))!.steps[4]).toBeNull()
   })
 
   it('deshacer una lección borra sus repasos pendientes', async () => {

@@ -5,6 +5,7 @@ import { db } from '../db'
 import { useDoneLessons, usePlan, useToday } from '../lib/hooks'
 import { buildTasks, type Task, type TaskSection } from '../lib/today'
 import { lessonLink } from '../lib/content'
+import { toggleTask } from '../lib/actions'
 import type { ISODate } from '../lib/dates'
 
 // Todo lo que toca un día, ordenado por apartados (para Semana, Mes y la página de cada día).
@@ -39,6 +40,8 @@ export function useDayTasks(date: ISODate): Task[] | undefined {
 
 export function DayTasks({ date, compact = false }: { date: ISODate; compact?: boolean }) {
   const tasks = useDayTasks(date)
+  const today = useToday()
+  const onToggle = (t: Task, value: boolean) => toggleTask(t, value, today, date)
   if (!tasks) return null
   const real = tasks.filter((t) => t.section !== 'habits')
   if (!real.length) return <p className="text-sm text-slate-500">Día libre: descansa 😊</p>
@@ -57,7 +60,6 @@ export function DayTasks({ date, compact = false }: { date: ISODate; compact?: b
                 const link = t.kind === 'lesson' ? lessonLink(t.lessonId) : t.link
                 const body = (
                   <>
-                    <span className={`mt-0.5 shrink-0 ${t.done ? 'text-emerald-600' : 'text-slate-300 dark:text-slate-600'}`}>{t.done ? '✓' : '○'}</span>
                     <span className="min-w-0">
                       <span className={`text-sm ${t.done ? 'text-slate-400 line-through' : ''}`}>{t.title}</span>
                       {!compact && 'subtitle' in t && t.subtitle && <span className="block text-xs text-slate-500">{t.subtitle}</span>}
@@ -66,11 +68,22 @@ export function DayTasks({ date, compact = false }: { date: ISODate; compact?: b
                   </>
                 )
                 return (
-                  <li key={t.key}>
+                  <li key={t.key} className="flex items-start gap-2">
+                    <button
+                      role="checkbox"
+                      aria-checked={t.done}
+                      aria-label={t.title}
+                      onClick={() => onToggle(t, !t.done)}
+                      className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 text-[11px] font-bold ${
+                        t.done ? 'border-emerald-500 bg-emerald-500 text-white' : 'border-slate-300 hover:border-indigo-400 dark:border-slate-600'
+                      }`}
+                    >
+                      {t.done ? '✓' : ''}
+                    </button>
                     {link ? (
-                      <Link to={link} className="flex gap-2 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800/50">{body}</Link>
+                      <Link to={link} className="min-w-0 flex-1 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800/50">{body}</Link>
                     ) : (
-                      <div className="flex gap-2">{body}</div>
+                      <div className="min-w-0 flex-1">{body}</div>
                     )}
                   </li>
                 )
