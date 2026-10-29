@@ -52,6 +52,10 @@ export interface PlanInputs {
   preCapacity?: Record<ISODate, number>
   /** pesaje semanal (día de la semana 0–6) desde el inicio del entreno */
   weighIn?: { weekday: number; label: string }
+  /** hoy (para recolocar lo pendiente de pre-academia desde mañana) */
+  today?: ISODate
+  /** lecciones hechas → fecha en que las hiciste */
+  doneLessons?: Map<string, ISODate>
   /** días "Hoy no puedo": sin estudio nuevo (las lecciones pasan a los días siguientes) */
   daysOff?: Set<ISODate>
   /** tareas de arranque antes del inicio (fecha → tarea) */
@@ -173,30 +177,49 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
     day.targetMin = Math.max(day.targetMin, inputs.kickoff!.minutes)
   }
 
-  // --- Pre-academia: lecciones en orden ---
-  const queue = [...inputs.preOrder]
+  // --- Pre-academia: lecciones en orden (cola: si adelantas, lo siguiente se adelanta) ---
+  const capOf = (date: ISODate) => {
+    if (inputs.daysOff?.has(date)) return 0
+    return inputs.preCapacity?.[date] ?? preCapacity(weekday(date))
+  }
+  /** reparte `ids` en orden desde `from` hasta el fin de pre-academia (lo que sobre, al último día) */
+  const allocate = (ids: string[], from: ISODate) => {
+    const out = new Map<string, ISODate>()
+    const queue = [...ids]
+    for (const date of eachDay(from, s.preEnd)) for (let i = 0; i < capOf(date) && queue.length; i++) out.set(queue.shift()!, date)
+    for (const id of queue) out.set(id, s.preEnd)
+    return out
+  }
+  // plan original desde el primer día
+  const preDates = allocate(inputs.preOrder, s.studyStart)
+  // desde hoy: lo hecho se queda donde lo hiciste; lo pendiente de días futuros se reparte desde mañana
+  const today = inputs.today
+  if (today && inputs.doneLessons && today >= s.studyStart && today < s.preEnd) {
+    const pending: string[] = []
+    for (const id of inputs.preOrder) {
+      const planned = preDates.get(id)!
+      if (planned <= today) continue
+      const doneOn = inputs.doneLessons.get(id)
+      if (doneOn) preDates.set(id, doneOn > today ? today : doneOn < s.studyStart ? planned : doneOn)
+      else pending.push(id)
+    }
+    for (const [id, date] of allocate(pending, addDays(today, 1))) preDates.set(id, date)
+  }
+  for (const id of inputs.preOrder) {
+    const date = preDates.get(id)!
+    days.get(date)?.lessons.push(id)
+    lessonDates.set(id, date)
+  }
   for (const date of eachDay(s.studyStart, s.preEnd)) {
     const day = days.get(date)!
     const wd = weekday(date)
     const extra = inputs.preCapacity?.[date]
-    if (wd === 6 && extra === undefined) day.events.push({ type: 'weeklyReview', label: 'Repaso semanal (1,5 h): flashcards + mini-tests de la semana' })
     const off = inputs.daysOff?.has(date)
+    if (wd === 6 && extra === undefined) day.events.push({ type: 'weeklyReview', label: 'Repaso semanal (1,5 h): flashcards + mini-tests de la semana' })
     if (off) day.targetMin = 0
     if (extra !== undefined && !off) day.targetMin = Math.max(day.targetMin, extra * 60)
-    for (let i = 0; i < (off ? 0 : (extra ?? preCapacity(wd))) && queue.length; i++) {
-      const id = queue.shift()!
-      day.lessons.push(id)
-      lessonDates.set(id, date)
-    }
     if (!day.lessons.length && wd !== 6 && !off)
       day.events.push({ type: 'preReview', label: 'Repaso general de pre-academia y test de cada carpeta' })
-  }
-  // si sobran lecciones (fechas acortadas), van al último día
-  if (queue.length && days.has(s.preEnd)) {
-    for (const id of queue) {
-      days.get(s.preEnd)!.lessons.push(id)
-      lessonDates.set(id, s.preEnd)
-    }
   }
 
   for (const date of eachDay(s.xmasStart, addDays(s.academyStart, -1)))

@@ -50,6 +50,18 @@ describe('pre-academia', () => {
     expect(p.days.get('2026-11-07')!.events.map((e) => e.type)).toContain('weighIn')
     expect(p.days.get('2026-11-02')!.events.map((e) => e.type)).not.toContain('weighIn')
   })
+  it('si hoy adelantas lo de mañana, mañana te toca lo del día siguiente (y así todo)', () => {
+    const base = buildPlan(s, { ...inputs, preCapacity: preAcademyCapacity })
+    const d2 = base.days.get('2026-11-02')!.lessons // lo de mañana
+    const d3 = base.days.get('2026-11-03')!.lessons
+    const done = new Map(d2.map((id) => [id, '2026-11-01']))
+    const p = buildPlan(s, { ...inputs, preCapacity: preAcademyCapacity, today: '2026-11-01', doneLessons: done })
+    expect(p.days.get('2026-11-01')!.lessons).toEqual([...base.days.get('2026-11-01')!.lessons, ...d2])
+    expect(p.days.get('2026-11-02')!.lessons).toEqual(d3)
+    expect([...p.days.values()].flatMap((d) => d.lessons).length).toBe(preAcademyOrder.length)
+    // lo pendiente de días pasados no se mueve (sale como atrasado)
+    expect(p.days.get('2026-10-31')!.lessons).toEqual(base.days.get('2026-10-31')!.lessons)
+  })
   it('"Hoy no puedo": las lecciones de ese día pasan a los siguientes', () => {
     const p = buildPlan(s, { ...inputs, daysOff: new Set(['2026-11-02']) })
     expect(p.days.get('2026-11-02')!.lessons).toEqual([])

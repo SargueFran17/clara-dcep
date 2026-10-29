@@ -39,6 +39,8 @@ export function usePlan(): Plan {
   const nie = useNieSchedule()
   const logs = useLiveQuery(() => db.nieDayLog.toArray(), [])
   const off = useLiveQuery(() => db.dayOff.toArray(), [])
+  const progress = useLiveQuery(() => db.lessonProgress.toArray(), [])
+  const today = useToday()
   return useMemo(() => {
     const nieHistory = new Map<ISODate, NieSlot[]>(
       (logs ?? []).map((l) => [
@@ -50,8 +52,9 @@ export function usePlan(): Plan {
       ]),
     )
     const daysOff = new Set((off ?? []).map((d) => d.date))
-    return buildPlan(s, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek, fitnessStart, weighIn, preCapacity: preAcademyCapacity, kickoff: arranque, nie, nieHistory, daysOff })
-  }, [s, nie, logs, off])
+    const doneLessons = new Map((progress ?? []).map((p) => [p.lessonId, p.completedAt]))
+    return buildPlan(s, { preOrder: preAcademyOrder, temario: nieTemario, fitnessWeek, fitnessStart, weighIn, preCapacity: preAcademyCapacity, kickoff: arranque, nie, nieHistory, daysOff, today, doneLessons })
+  }, [s, nie, logs, off, progress, today])
 }
 
 /** Fecha de hoy en Londres; se actualiza sola al pasar la medianoche. */
