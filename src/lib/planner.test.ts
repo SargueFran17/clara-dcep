@@ -62,6 +62,14 @@ describe('pre-academia', () => {
     // lo pendiente de días pasados no se mueve (sale como atrasado)
     expect(p.days.get('2026-10-31')!.lessons).toEqual(base.days.get('2026-10-31')!.lessons)
   })
+  it('también antes del inicio: el 29/10 adelantas lo del 31 y el 31 te toca lo siguiente', () => {
+    const base = buildPlan(s, { ...inputs, preCapacity: preAcademyCapacity, kickoff: arranque })
+    const d31 = base.days.get('2026-10-31')!.lessons
+    const done = new Map(d31.map((id) => [id, '2026-10-29']))
+    const p = buildPlan(s, { ...inputs, preCapacity: preAcademyCapacity, kickoff: arranque, today: '2026-10-29', doneLessons: done })
+    expect(p.days.get('2026-10-29')!.lessons).toEqual(d31)
+    expect(p.days.get('2026-10-31')!.lessons).toEqual(base.days.get('2026-11-01')!.lessons)
+  })
   it('"Hoy no puedo": las lecciones de ese día pasan a los siguientes', () => {
     const p = buildPlan(s, { ...inputs, daysOff: new Set(['2026-11-02']) })
     expect(p.days.get('2026-11-02')!.lessons).toEqual([])

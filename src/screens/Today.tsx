@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { useCardQueue, useDoneLessons, usePlan, useSettings, useToday } from '../lib/hooks'
-import { buildTasks, dayScore, SECTION_LABELS, type Task, type TaskSection } from '../lib/today'
+import { buildTasks, CIRCLED, dayScore, SECTION_LABELS, stepName, type Task, type TaskSection } from '../lib/today'
 import { logMinutes, saveNieDayLog, setDayOff, toggleTask } from '../lib/actions'
 import { computeStreak } from '../lib/streak'
-import { diffDays, fmtLong, fmtUK } from '../lib/dates'
+import { addDays, diffDays, fmtLong, fmtUK } from '../lib/dates'
 import { PHASE_LABELS } from '../lib/planner'
-import { arranque, lessonLink } from '../lib/content'
+import { arranque, lessonLink, lessonRef } from '../lib/content'
 import { Card, Check, Pill, ProgressBar } from '../components/ui'
 import { NieProgress } from '../components/NieProgress'
 
@@ -143,6 +143,8 @@ export function Today() {
         </div>
       </Card>
 
+      <NextUp tasks={tasks} />
+
       {ORDER.map((section) => {
         const all = tasks.filter((t) => t.section === section)
         if (!all.length) return null
@@ -196,5 +198,35 @@ function TaskRow({ task, onToggle }: { task: Task; onToggle: (v: boolean) => voi
         </Link>
       )}
     </div>
+  )
+}
+
+/** Cuando lo de estudio de hoy está hecho: qué es lo siguiente, para adelantarlo si quieres. */
+function NextUp({ tasks }: { tasks: Task[] }) {
+  const today = useToday()
+  const plan = usePlan()
+  const done = useDoneLessons()
+  const study = tasks.filter((t) => t.section === 'plan')
+  if (study.some((t) => !t.done)) return null
+  let next: { date: string; items: string[] } | undefined
+  for (let d = addDays(today, 1), i = 0; i < 21 && !next; d = addDays(d, 1), i++) {
+    const p = plan.days.get(d)
+    if (!p) continue
+    const items = [
+      ...p.lessons.filter((id) => !done.has(id)).map((id) => lessonRef(id)?.lesson.title ?? id),
+      ...p.nie.flatMap((n) => n.steps.filter((c) => !c.done).map((c) => `NIE ${n.chapter} · ${CIRCLED[c.step - 1]} ${stepName(c.step)}`)),
+    ]
+    if (items.length) next = { date: d, items }
+  }
+  if (!next) return null
+  return (
+    <Link to={`/dia/${next.date}`} className="block rounded-2xl border border-emerald-300 bg-emerald-50 p-3 text-sm dark:border-emerald-800 dark:bg-emerald-950/40">
+      <div className="font-semibold">✅ {study.length ? 'Lo de estudio de hoy está hecho.' : 'Hoy no tienes estudio planificado.'} ¿Quieres adelantar?</div>
+      <div className="mt-1 text-slate-600 dark:text-slate-300">
+        Lo siguiente ({fmtLong(next.date)}): {next.items.slice(0, 3).join(' · ')}
+        {next.items.length > 3 && ` y ${next.items.length - 3} más`} →
+      </div>
+      <div className="mt-1 text-xs text-slate-500">Lo que adelantes cuenta como hecho hoy y lo siguiente se recoloca solo.</div>
+    </Link>
   )
 }

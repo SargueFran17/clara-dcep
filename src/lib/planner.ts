@@ -194,16 +194,18 @@ export function buildPlan(s: Settings, inputs: PlanInputs): Plan {
   const preDates = allocate(inputs.preOrder, s.studyStart)
   // desde hoy: lo hecho se queda donde lo hiciste; lo pendiente de días futuros se reparte desde mañana
   const today = inputs.today
-  if (today && inputs.doneLessons && today >= s.studyStart && today < s.preEnd) {
+  // (también antes del inicio: si adelantas el día 29 lo del 31, se queda el 29 y el 31 te toca lo siguiente)
+  if (today && inputs.doneLessons && today < s.preEnd) {
     const pending: string[] = []
     for (const id of inputs.preOrder) {
       const planned = preDates.get(id)!
       if (planned <= today) continue
       const doneOn = inputs.doneLessons.get(id)
-      if (doneOn) preDates.set(id, doneOn > today ? today : doneOn < s.studyStart ? planned : doneOn)
+      if (doneOn) preDates.set(id, doneOn > today ? today : days.has(doneOn) ? doneOn : planned)
       else pending.push(id)
     }
-    for (const [id, date] of allocate(pending, addDays(today, 1))) preDates.set(id, date)
+    const from = addDays(today, 1) > s.studyStart ? addDays(today, 1) : s.studyStart
+    for (const [id, date] of allocate(pending, from)) preDates.set(id, date)
   }
   for (const id of inputs.preOrder) {
     const date = preDates.get(id)!
