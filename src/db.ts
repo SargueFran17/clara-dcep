@@ -73,6 +73,10 @@ export class ClaraDB extends Dexie {
       })
     // v3: objetivo y revisión de cada semana y mes
     this.version(3).stores({ planNotes: 'id' })
+    // v4: las lecciones de fitness ya no tienen repasos: se borran los pendientes
+    this.version(4).upgrade((tx) =>
+      tx.table('reviews').filter((r: { itemKey: string; doneAt?: string }) => r.itemKey.startsWith('lesson:ft-') && !r.doneAt).delete(),
+    )
   }
 }
 

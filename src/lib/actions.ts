@@ -4,7 +4,7 @@ import { grade, newCardState, type Grade } from './sm2'
 import { dueForStep, firstReview, nextReview, type SeriesOptions } from './srs'
 import type { ISODate } from './dates'
 import { DEFAULT_SETTINGS } from './defaults'
-import { NIE_OFFSETS, seriesForKey } from './reviews'
+import { NIE_OFFSETS, NO_REVIEW, seriesForKey } from './reviews'
 import type { NieSlot } from './scheduler'
 import type { Task } from './today'
 
@@ -45,6 +45,11 @@ export async function uncompleteLesson(lessonId: string) {
     await db.lessonProgress.delete(lessonId)
     await db.reviews.where('itemKey').equals(`lesson:${lessonId}`).filter((r) => !r.doneAt).delete()
   })
+}
+
+/** Borra repasos pendientes de cosas que ya no llevan repasos (p. ej. fitness). */
+export async function cleanupReviews() {
+  await db.reviews.filter((r) => !r.doneAt && NO_REVIEW.some((p) => r.itemKey.startsWith(p))).delete()
 }
 
 export async function completeReview(review: Review, on: ISODate) {

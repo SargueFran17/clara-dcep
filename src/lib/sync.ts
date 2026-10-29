@@ -1,5 +1,6 @@
 import { db } from '../db'
 import { exportBackup, importBackup } from './backup'
+import { cleanupReviews } from './actions'
 
 // Sincronización entre aparatos con un gist PRIVADO de tu cuenta de GitHub.
 // - Cada cambio marca el aparato como "con cambios" y se sube a los pocos segundos.
@@ -118,6 +119,8 @@ async function applyRemote(r: Remote) {
     applying = false
   }
   set({ rev: r.rev, dirty: false, lastSync: new Date().toISOString() })
+  // por si el otro aparato tenía una versión antigua de la app
+  await cleanupReviews()
 }
 
 const fmt = (iso: string) => new Date(iso).toLocaleString('es-ES', { timeZone: 'Europe/London', dateStyle: 'short', timeStyle: 'short' })

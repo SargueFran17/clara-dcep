@@ -39,6 +39,13 @@ describe('repasos NIE', () => {
   })
 })
 
+describe('fitness', () => {
+  it('las lecciones de fitness no tienen repasos; conducir y el resto sí', () => {
+    expect(firstReview('2026-11-01', seriesForKey('lesson:ft-1', s))).toBeNull()
+    expect(firstReview('2026-11-01', seriesForKey('lesson:dr-1', s))!.due).toBe('2026-11-02')
+  })
+})
+
 describe('Atrasados · Hoy · Próximos 7 días', () => {
   const mk = (id: number, due: string, doneAt?: string): Review => ({ id, itemKey: key, anchor: due, step: 1, due, doneAt })
   const all = [mk(1, '2027-01-01'), mk(2, '2027-01-03'), mk(3, '2027-01-02'), mk(4, '2027-01-04'), mk(5, '2027-01-10'), mk(6, '2027-01-12'), mk(7, '2027-01-11'), mk(8, '2027-01-09', '2027-01-10'), mk(9, '2027-01-05')]
