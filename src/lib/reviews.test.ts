@@ -40,9 +40,13 @@ describe('repasos NIE', () => {
 })
 
 describe('fitness', () => {
-  it('las lecciones de fitness no tienen repasos; conducir y el resto sí', () => {
+  it('fitness sin repasos; conducir solo +1 día; el resto la serie completa', () => {
     expect(firstReview('2026-11-01', seriesForKey('lesson:ft-1', s))).toBeNull()
-    expect(firstReview('2026-11-01', seriesForKey('lesson:dr-1', s))!.due).toBe('2026-11-02')
+    const dr = firstReview('2026-11-01', seriesForKey('lesson:dr-1', s))!
+    expect(dr.due).toBe('2026-11-02')
+    expect(nextReview(dr, '2026-11-02', seriesForKey('lesson:dr-1', s))).toBeNull()
+    const vo = firstReview('2026-11-01', seriesForKey('lesson:vo-1', s))!
+    expect(nextReview(vo, '2026-11-02', seriesForKey('lesson:vo-1', s))!.due).toBe('2026-11-04')
   })
 })
 

@@ -12,10 +12,12 @@ export const isNieKey = (itemKey: string) => itemKey.startsWith('lesson:nie-')
 
 /** Lecciones sin repasos espaciados. */
 export const NO_REVIEW = ['lesson:ft-']
+/** Lecciones con un solo repaso (+1 día). */
+export const ONE_REVIEW = ['lesson:dr-']
 
 /**
  * Serie de repasos de cada cosa:
- * - fitness: sin repasos;
+ * - fitness: sin repasos; conducir: solo +1 día;
  * - capítulos NIE: offsets del temario; no se crean repasos en o después del inicio del repaso final;
  * - diario de academia: solo +1 día y +7 días;
  * - lo demás: +1d, +3d, +7d, +1 mes y luego cada mes.
@@ -23,6 +25,8 @@ export const NO_REVIEW = ['lesson:ft-']
 export function seriesForKey(itemKey: string, s: Settings): SeriesOptions {
   // fitness y peso: se aplica (comer, entrenar, dormir), no se memoriza → sin repasos
   if (NO_REVIEW.some((p) => itemKey.startsWith(p))) return { steps: [] }
+  // conducir: un solo repaso, al día siguiente (todo repasado antes de que te den el coche)
+  if (ONE_REVIEW.some((p) => itemKey.startsWith(p))) return { steps: [1] }
   if (isNieKey(itemKey)) return { offsets: NIE_OFFSETS, until: s.finalReviewStart }
   if (itemKey.startsWith('academy:')) return { steps: [1, 3] }
   return {}
